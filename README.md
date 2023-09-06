@@ -74,7 +74,7 @@ Patterns (regular expressions) are kept in [`src/technologies/`](https://github.
 
 ## JSON fields
 
-Find the JSON schema at [`schema.json`](https://github.com/wappalyzer/wappalyzer/blob/master/schema.json).
+Find the JSON schema at [`schema.json`](https://github.com/enthec/webappanalyzer/blob/main/schema.json).
 
 ### Required properties
 
