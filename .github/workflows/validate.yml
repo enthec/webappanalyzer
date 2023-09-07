@@ -42,3 +42,5 @@ jobs:
 
       - name: run tech validator
         run: python3 .github/workflows/scripts/technology_validator.py
+        env:
+          TECH_FILE_NAME: ${{ matrix.file_name }}
