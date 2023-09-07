@@ -1,0 +1,58 @@
+import pathlib
+import string
+from typing import Final
+
+
+class DirNotFoundException(Exception):
+    def __init__(self, msg: str):
+        super().__init__(msg)
+
+
+class FileNotFoundException(Exception):
+    def __init__(self, msg: str):
+        super().__init__(msg)
+
+
+class InvalidStructureException(Exception):
+    def __init__(self, msg: str):
+        super().__init__(msg)
+
+
+class AbstractValidator:
+    def __init__(self):
+        self._SOURCE_DIR: Final[str] = "src"
+        self._TECH_DIR: Final[str] = "technologies"
+        self._FULL_TECH_DIR: Final[pathlib.Path] = pathlib.Path(self._SOURCE_DIR).joinpath(self._TECH_DIR)
+
+    def validate(self) -> None:
+        raise NotImplementedError()
+
+
+class FileValidator(AbstractValidator):
+    def __init__(self):
+        super().__init__()
+
+    def validate(self) -> None:
+        if not pathlib.Path(self._SOURCE_DIR).is_dir():
+            raise DirNotFoundException(f"{self._TECH_DIR} is not a valid directory")
+        if not self._FULL_TECH_DIR.is_dir():
+            raise DirNotFoundException(f"{self._FULL_TECH_DIR} is not a valid directory")
+        if not (path := pathlib.Path(self._SOURCE_DIR).joinpath("categories.json")).is_file():
+            raise FileNotFoundException(f"{path} not found!")
+        if not (path := pathlib.Path(self._SOURCE_DIR).joinpath("groups.json")).is_file():
+            raise FileNotFoundException(f"{path} not found!")
+        for file in self._FULL_TECH_DIR.iterdir():
+            if file.is_dir():
+                raise InvalidStructureException(f"{self._FULL_TECH_DIR} can only contain json files, {file} is invalid!")
+            file_name: str = file.name
+            if not file_name.endswith(".json"):
+                raise InvalidStructureException(f"{file_name} in {self._FULL_TECH_DIR} must be .json")
+            name: str = file_name.removesuffix(".json")
+            if len(name) != 1:
+                raise InvalidStructureException(f"{file_name} is not a valid name! must be 'one char' only")
+            if name not in list(string.ascii_lowercase + "_"):
+                raise InvalidStructureException(f"{file_name} is not a valid name! must be from [a to z] or _")
+
+
+if __name__ == '__main__':
+    FileValidator().validate()
