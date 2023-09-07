@@ -15,5 +15,30 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
 
-      - name: run validator
+      - name: run structure validator
         run: python3 .github/workflows/scripts/structure_validator.py
+
+  tech_matrix_prep:
+    needs: validate_structure
+    uses: ./.github/workflows/tech_matrix_prep.yml
+
+  validate_technologies:
+    runs-on: ubuntu-22.04
+    needs: [validate_structure, tech_matrix_prep]
+
+    strategy:
+      max-parallel: 20
+      matrix:
+        file_name: ${{ fromJson(needs.tech_matrix_prep.outputs.technologies) }}
+        python-version: [ "3.11" ]
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v3
+
+      - name: set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: run tech validator
+        run: python3 .github/workflows/scripts/technology_validator.py

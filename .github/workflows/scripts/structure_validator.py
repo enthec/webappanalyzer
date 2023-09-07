@@ -18,19 +18,11 @@ class InvalidStructureException(Exception):
         super().__init__(msg)
 
 
-class AbstractValidator:
+class StructureValidator:
     def __init__(self):
         self._SOURCE_DIR: Final[str] = "src"
         self._TECH_DIR: Final[str] = "technologies"
         self._FULL_TECH_DIR: Final[pathlib.Path] = pathlib.Path(self._SOURCE_DIR).joinpath(self._TECH_DIR)
-
-    def validate(self) -> None:
-        raise NotImplementedError()
-
-
-class FileValidator(AbstractValidator):
-    def __init__(self):
-        super().__init__()
 
     def validate(self) -> None:
         if not pathlib.Path(self._SOURCE_DIR).is_dir():
@@ -55,4 +47,4 @@ class FileValidator(AbstractValidator):
 
 
 if __name__ == '__main__':
-    FileValidator().validate()
+    StructureValidator().validate()

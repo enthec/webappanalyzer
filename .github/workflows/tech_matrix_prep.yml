@@ -1,0 +1,20 @@
+name: step.tech_matrix_prep
+on:
+  workflow_call:
+    outputs:
+      technologies:
+        description: all the technology json files
+        value: ${{ jobs.tech_prep.outputs.technologies }}
+jobs:
+  tech_prep:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v3
+
+      - name: get current technology matrix
+        id: getTechMatrix
+        run: python3 .github/workflows/scripts/tech_list_matrix_generator.py
+
+    outputs:
+      technologies: ${{ steps.getTechMatrix.outputs.technologies }}
