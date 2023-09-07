@@ -1,0 +1,19 @@
+name: Validate
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  validate_structure:
+    runs-on: ubuntu-22.04
+    strategy:
+      matrix:
+        python-version: [ "3.11" ]
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v3
+
+      - name: set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: run validator
+        run: python3 .github/workflows/scripts/structure_validator.py
