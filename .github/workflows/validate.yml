@@ -18,14 +18,31 @@ jobs:
       - name: run structure validator
         run: python3 .github/workflows/scripts/structure_validator.py
 
-  tech_matrix_prep:
+  validate_categories:
+    runs-on: ubuntu-22.04
     needs: validate_structure
+    strategy:
+      matrix:
+        python_version: [ "3.11" ]
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v3
+
+      - name: set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: run category validator
+        run: python3 .github/workflows/scripts/category_validator.py
+
+  tech_matrix_prep:
+    needs: validate_categories
     uses: ./.github/workflows/tech_matrix_prep.yml
 
-  validate_technologies:
+  validate_techs:
     runs-on: ubuntu-22.04
-    needs: [validate_structure, tech_matrix_prep]
-
+    needs: tech_matrix_prep
     strategy:
       max-parallel: 20
       matrix:
