@@ -28,6 +28,11 @@ class InvalidFormatException(Exception):
         super().__init__(msg)
 
 
+class UnknownFieldsException(Exception):
+    def __init__(self, msg: str):
+        super().__init__(msg)
+
+
 class CategoryValidator:
     def __init__(self):
         self._SOURCE_DIR: Final[str] = "src"
@@ -61,6 +66,9 @@ class CategoryValidator:
                     if value is None:
                         raise MissingRequiredFieldException(f"Field '{key}' not found for category '{category}'")
                     validator(category, value)
+                unknown_fields: list[str] = [k for k in content if k not in self._validators.keys()]
+                if unknown_fields:
+                    raise UnknownFieldsException(f"Category '{category}' has unknown fields: '{', '.join(unknown_fields)}'")
 
     def _group_validator(self, cat_name: str, value: Any) -> None:
         if not isinstance(value, list):
