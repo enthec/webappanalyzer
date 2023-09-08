@@ -23,7 +23,7 @@ jobs:
     needs: validate_structure
     strategy:
       matrix:
-        python_version: [ "3.11" ]
+        python-version: [ "3.11" ]
     steps:
       - name: checkout repository
         uses: actions/checkout@v3
@@ -41,7 +41,7 @@ jobs:
     needs: validate_structure
     strategy:
       matrix:
-        python_version: [ "3.11" ]
+        python-version: [ "3.11" ]
     steps:
       - name: checkout repository
         uses: actions/checkout@v3
