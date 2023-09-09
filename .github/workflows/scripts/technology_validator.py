@@ -115,7 +115,7 @@ class TechnologiesValidator:
         with pathlib.Path(self._SOURCE_DIR).joinpath("categories.json").open("r") as categories:
             self._CATEGORIES: Final[list[int]] = [int(cat) for cat in json.loads(categories.read())]
         self._validators: dict[str, AbstractValidator] = {  # TODO confidence and version validator
-            "cats": ArrayValidator(True),
+            "cats": CategoryValidator(self._CATEGORIES, True),
             "website": StringValidator(True),
             "description": StringValidator(),
             "icon": StringValidator(),
