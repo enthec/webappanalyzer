@@ -1,7 +1,7 @@
 import json
 import os
 import pathlib
-from typing import Final, Any, Type
+from typing import Final, Any, Type, Optional
 
 
 class MissingRequiredFieldException(Exception):
@@ -19,9 +19,15 @@ class UnknownFieldsException(Exception):
         super().__init__(msg)
 
 
+class CategoryNotFoundException(Exception):
+    def __init__(self, msg: str):
+        super().__init__(msg)
+
+
 class AbstractValidator:
     def __init__(self, required: bool = False):
         self._required = required
+        self._custom_error: Optional[Exception] = None
 
     def process(self, property_name: str, tech_name: str, data: Any) -> bool:
         if self._required and not data:
@@ -38,6 +44,12 @@ class AbstractValidator:
 
     def get_type(self) -> list[Type]:
         raise NotImplementedError()
+
+    def get_custom_error(self) -> Optional[Exception]:
+        return self._custom_error
+
+    def _set_custom_error(self, custom_error: Exception) -> None:
+        self._custom_error = custom_error
 
 
 class StringValidator(AbstractValidator):
@@ -70,6 +82,24 @@ class IntOrArrayValidator(AbstractValidator):
         return [int, list]
 
 
+class CategoryValidator(IntOrArrayValidator):
+    def __init__(self, categories: list[int], required: bool = False):
+        super().__init__(required)
+        self._categories: Final[list[int]] = categories
+
+    def _validate(self, data: Any) -> bool:
+        type_validator: bool = super()._validate(data)
+        if not type_validator:
+            return False
+        if isinstance(data, int):
+            data = [data]
+        for category_id in data:
+            if category_id not in self._categories:
+                self._set_custom_error(CategoryNotFoundException(f"The category '{category_id}' does not exist!"))
+                return False
+        return True
+
+
 class DictValidator(AbstractValidator):
     def get_type(self) -> list[Type]:
         return [dict]
@@ -82,6 +112,8 @@ class TechnologiesValidator:
         self._TECH_DIR: Final[str] = "technologies"
         self._FULL_TECH_DIR: Final[pathlib.Path] = pathlib.Path(self._SOURCE_DIR).joinpath(self._TECH_DIR)
         self._TECH_FILE: Final[pathlib.Path] = self._FULL_TECH_DIR.joinpath(file_name)
+        with pathlib.Path(self._SOURCE_DIR).joinpath("categories.json").open("r") as categories:
+            self._CATEGORIES: Final[list[int]] = [int(cat) for cat in json.loads(categories.read())]
         self._validators: dict[str, AbstractValidator] = {  # TODO confidence and version validator
             "cats": ArrayValidator(True),
             "website": StringValidator(True),
@@ -94,7 +126,7 @@ class TechnologiesValidator:
             "implies": StringOrArrayValidator(),  # TODO cat validation
             "requires": StringOrArrayValidator(),  # TODO ^
             "excludes": StringOrArrayValidator(),  # TODO ^
-            "requiresCategory": IntOrArrayValidator(),  # TODO validate Cat exists
+            "requiresCategory": CategoryValidator(self._CATEGORIES),
             "cookies": DictValidator(),
             "dom": StringOrArrayOrDictValidator(),
             "dns": DictValidator(),
@@ -132,11 +164,14 @@ class TechnologyProcessor:
             value: Any = self._tech_data.get(validator)
             valid: bool = p.process(validator, self._tech_name, value)
             if not valid:
-                raise InvalidTypeForFieldException(f"tech '{self._tech_name}' for field '{validator}' has an invalid type. '{'|'.join([t.__name__ for t in p.get_type()])}' is required, got type '{type(value).__name__}' -> '{value}'")
+                if not p.get_custom_error():
+                    raise InvalidTypeForFieldException(f"field '{validator}' for tech '{self._tech_name}' has an invalid type. '{'|'.join([t.__name__ for t in p.get_type()])}' is required, got type '{type(value).__name__}' -> '{value}'")
+                else:
+                    raise p.get_custom_error()
         unknown_fields: list[str] = [field for field in self._tech_data.keys() if field not in self._validators.keys()]
         if unknown_fields:
             raise UnknownFieldsException(f"tech '{self._tech_name}' has unknown fields: '{', '.join(unknown_fields)}'")
 
 
 if __name__ == '__main__':
-    TechnologiesValidator(os.getenv("TECH_FILE_NAME")).validate()
+    TechnologiesValidator(os.getenv("TECH_FILE_NAME", "a.json")).validate()

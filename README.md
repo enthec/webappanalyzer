@@ -220,9 +220,9 @@ Plus any of:
     </tr>
     <tr>
       <td><code>requiresCategory</code></td>
-      <td>String | Array</td>
+      <td>int | Array</td>
       <td>
-        Similar to requires; detection only runs if a technology in the required category has been identified.
+        Similar to requires; detection only runs if a technology in the required category id has been identified.
       </td>
       <td><code>"Ecommerce"</code></td>
     </tr>
