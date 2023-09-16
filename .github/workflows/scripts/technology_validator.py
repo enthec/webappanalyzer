@@ -1,6 +1,7 @@
 import json
 import os
 import pathlib
+import string
 from typing import Final, Any, Type, Optional
 
 
@@ -20,6 +21,11 @@ class UnknownFieldsException(Exception):
 
 
 class CategoryNotFoundException(Exception):
+    def __init__(self, msg: str):
+        super().__init__(msg)
+
+
+class ImageNotFoundException(Exception):
     def __init__(self, msg: str):
         super().__init__(msg)
 
@@ -82,6 +88,11 @@ class IntOrArrayValidator(AbstractValidator):
         return [int, list]
 
 
+class DictValidator(AbstractValidator):
+    def get_type(self) -> list[Type]:
+        return [dict]
+
+
 class CategoryValidator(IntOrArrayValidator):
     def __init__(self, categories: list[int], required: bool = False):
         super().__init__(required)
@@ -100,9 +111,20 @@ class CategoryValidator(IntOrArrayValidator):
         return True
 
 
-class DictValidator(AbstractValidator):
-    def get_type(self) -> list[Type]:
-        return [dict]
+class IconValidator(StringValidator):
+    def __init__(self, icons: list[str], required: bool = False):
+        super().__init__(required)
+        self._icons: Final[list[str]] = icons
+
+    def _validate(self, data: Any) -> bool:
+        type_validator: bool = super()._validate(data)
+        if not type_validator:
+            return False
+        contains: bool = data in self._icons
+        if not contains:
+            self._set_custom_error(ImageNotFoundException(f"The image '{data}' does not exist!"))
+            return False
+        return True
 
 
 class TechnologiesValidator:
@@ -114,11 +136,14 @@ class TechnologiesValidator:
         self._TECH_FILE: Final[pathlib.Path] = self._FULL_TECH_DIR.joinpath(file_name)
         with pathlib.Path(self._SOURCE_DIR).joinpath("categories.json").open("r") as categories:
             self._CATEGORIES: Final[list[int]] = [int(cat) for cat in json.loads(categories.read())]
+        self._IMAGES_DIR: Final[str] = "images"
+        self._ICONS_DIR: Final[str] = "icons"
+        self._ICONS: Final[list[str]] = [icon.name for icon in pathlib.Path(self._SOURCE_DIR).joinpath(self._IMAGES_DIR).joinpath(self._ICONS_DIR).iterdir()]
         self._validators: dict[str, AbstractValidator] = {  # TODO confidence and version validator
             "cats": CategoryValidator(self._CATEGORIES, True),
             "website": StringValidator(True),
             "description": StringValidator(),
-            "icon": StringValidator(),
+            "icon": IconValidator(self._ICONS),
             "cpe": StringValidator(),  # TODO cpe regex
             "saas": BoolValidator(),
             "oss": BoolValidator(),
@@ -174,4 +199,6 @@ class TechnologyProcessor:
 
 
 if __name__ == '__main__':
-    TechnologiesValidator(os.getenv("TECH_FILE_NAME", "a.json")).validate()
+    # for letter in string.ascii_lowercase + "_":
+    #     TechnologiesValidator(os.getenv("TECH_FILE_NAME", f"{letter}.json")).validate()
+    TechnologiesValidator(os.getenv("TECH_FILE_NAME", f"a.json")).validate()
