@@ -181,6 +181,16 @@
     "scriptSrc": "/assets/components/templates/\\;confidence:50",
     "website": "https://modx.com/content-management-framework"
   },
+  "Moxie": {
+    "cats": [5, 68],
+    "description": "Pollyfills for XHR2 and File API",
+    "website": "https://github.com/moxiecode/moxie",
+    "oss": true,
+    "scriptSrc": [
+      "moxie\\..+\\.js.+ver=([\\d\\.]+)\\;version:\\1",
+      "moxie\\..+\\.js"
+    ]
+  },
   "MRW": {
     "cats": [
       99
