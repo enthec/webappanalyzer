@@ -842,7 +842,7 @@
   "FitVids.JS": {
     "cats": [5, 14],
     "description": "jQuery plugin for fluid width video embeds",
-    "icon": "FitVids.JS",
+    "icon": "FitVids.JS.png",
     "scriptSrc": [
       "fitvids\\.js.+ver=([\\d\\.]+)\\;version:\\1",
       "fitvids\\.js"
