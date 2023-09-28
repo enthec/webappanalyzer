@@ -1,7 +1,6 @@
 import json
 import os
 import pathlib
-import string
 from typing import Final, Any, Type, Optional
 
 
@@ -26,6 +25,11 @@ class CategoryNotFoundException(Exception):
 
 
 class ImageNotFoundException(Exception):
+    def __init__(self, msg: str):
+        super().__init__(msg)
+
+
+class DuplicateTechnologyException(Exception):
     def __init__(self, msg: str):
         super().__init__(msg)
 
@@ -134,7 +138,7 @@ class TechnologiesValidator:
         self._TECH_DIR: Final[str] = "technologies"
         self._FULL_TECH_DIR: Final[pathlib.Path] = pathlib.Path(self._SOURCE_DIR).joinpath(self._TECH_DIR)
         self._TECH_FILE: Final[pathlib.Path] = self._FULL_TECH_DIR.joinpath(file_name)
-        with pathlib.Path(self._SOURCE_DIR).joinpath("categories.json").open("r") as categories:
+        with pathlib.Path(self._SOURCE_DIR).joinpath("categories.json").open("r", encoding="utf8") as categories:
             self._CATEGORIES: Final[list[int]] = [int(cat) for cat in json.loads(categories.read())]
         self._IMAGES_DIR: Final[str] = "images"
         self._ICONS_DIR: Final[str] = "icons"
@@ -171,11 +175,20 @@ class TechnologiesValidator:
         }
 
     def validate(self) -> None:
-        with self._TECH_FILE.open("r") as f:
-            technologies: dict = json.loads(f.read())
+        with self._TECH_FILE.open("r", encoding="utf8") as f:
+            technologies: dict = json.loads(f.read(), object_pairs_hook=self._duplicate_key_validator)
             for tech, data in technologies.items():
                 p: TechnologyProcessor = TechnologyProcessor(tech, data, self._validators)
                 p.process()
+
+    @classmethod
+    def _duplicate_key_validator(cls, pairs) -> dict:
+        result: dict = {}
+        for key, value in pairs:
+            if key in result:
+                raise DuplicateTechnologyException(f"Tech '{key}' is duplicated!")
+            result[key] = value
+        return result
 
 
 class TechnologyProcessor:
