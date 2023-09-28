@@ -1,6 +1,7 @@
 import json
 import os
 import pathlib
+import string
 from typing import Final, Any, Type, Optional
 
 
@@ -30,6 +31,11 @@ class ImageNotFoundException(Exception):
 
 
 class DuplicateTechnologyException(Exception):
+    def __init__(self, msg: str):
+        super().__init__(msg)
+
+
+class InvalidTechFileException(Exception):
     def __init__(self, msg: str):
         super().__init__(msg)
 
@@ -175,15 +181,23 @@ class TechnologiesValidator:
         }
 
     def validate(self) -> None:
+        initial_letter: str = self._TECH_FILE.name.removesuffix(".json")
         with self._TECH_FILE.open("r", encoding="utf8") as f:
             technologies: dict = json.loads(f.read(), object_pairs_hook=self._duplicate_key_validator)
             for tech, data in technologies.items():
+                first: str = tech[0].lower()
+                if initial_letter == "_":
+                    if first in string.ascii_lowercase:
+                        raise InvalidTechFileException(f"Tech '{tech}' starts with the letter '{first}', it should not be located in the '{self._TECH_FILE.name}' file, but '{first}.json'")
+                elif first != initial_letter:
+                    suggested_file: str = f"{first}.json" if first in string.ascii_lowercase else "_.json"
+                    raise InvalidTechFileException(f"Tech '{tech}' does not start with '{initial_letter}', it should not be located in the '{self._TECH_FILE.name}' file, but '{suggested_file}'")
                 p: TechnologyProcessor = TechnologyProcessor(tech, data, self._validators)
                 p.process()
 
     @classmethod
-    def _duplicate_key_validator(cls, pairs) -> dict:
-        result: dict = {}
+    def _duplicate_key_validator(cls, pairs: list[tuple[str, Any]]) -> dict[str, Any]:
+        result: dict[str, Any] = {}
         for key, value in pairs:
             if key in result:
                 raise DuplicateTechnologyException(f"Tech '{key}' is duplicated!")
