@@ -1580,6 +1580,15 @@
     "scriptSrc": "www\\.orankl\\.com/",
     "website": "https://www.orankl.com"
   },
+  "Orbit Slider": {
+    "cats": [
+      59
+    ],
+    "description": "Orbit is a jQuery slider.",
+    "icon": "Orbit Slider.png",
+    "oss": true,
+    "website": "https://zurb.com/playground/orbit-jquery-image-slider"
+  },
   "OrbitFox": {
     "cats": [
       87,
