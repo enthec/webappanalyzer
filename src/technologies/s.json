@@ -5222,9 +5222,10 @@
       25
     ],
     "description": "Configurable JavaScript/CSS spinner that can be used as a resolution-independent loading indicator",
+    "icon": "spin.js.png",
     "scriptSrc": [
-      "spin\\..+js.+ver=([\\d\\.]+)\\;version:\\1",
-      "spin\\..+js"
+      "spin(?:.+)?\\.js(?:\\?ver=([\\d\\.]+))?\\;version:\\1",
+      "spin(?:.+)?\\.js"
     ],
     "oss": true,
     "website": "https://spin.js.org/"
