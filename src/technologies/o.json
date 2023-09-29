@@ -1587,6 +1587,10 @@
     "description": "Orbit is a jQuery slider.",
     "icon": "Orbit Slider.png",
     "oss": true,
+    "scriptSrc": [
+      "orbit.?([\\d\\.]{2,}[\\d]).+js\\;version:\\1",
+      "orbit.+js"
+    ],
     "website": "https://zurb.com/playground/orbit-jquery-image-slider"
   },
   "OrbitFox": {
