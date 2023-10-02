@@ -1585,7 +1585,6 @@
       59
     ],
     "description": "Orbit is a jQuery slider.",
-    "icon": "Orbit Slider.png",
     "oss": true,
     "scriptSrc": [
       "orbit.?([\\d\\.]{2,}[\\d]).+\\.js\\;version:\\1",
