@@ -844,8 +844,7 @@
     "description": "jQuery plugin for fluid width video embeds",
     "icon": "FitVids.JS.png",
     "scriptSrc": [
-      "fitvids\\.js.+ver=([\\d\\.]+)\\;version:\\1",
-      "fitvids\\.js"
+      "fitvids\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1"
     ],
     "oss": true,
     "website": "https://fitvidsjs.com/"

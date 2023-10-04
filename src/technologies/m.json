@@ -187,8 +187,7 @@
     "website": "https://github.com/moxiecode/moxie",
     "oss": true,
     "scriptSrc": [
-      "moxie\\..+\\.js.+ver=([\\d\\.]+)\\;version:\\1",
-      "moxie\\..+\\.js"
+      "moxie\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1"
     ]
   },
   "MRW": {

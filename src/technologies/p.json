@@ -2157,8 +2157,7 @@
     "icon": "plupload.png",
     "oss": true,
     "scriptSrc": [
-      "plupload\\..+\\.js.+ver=([\\d.]+)\\;version:\\1",
-      "plupload\\..+\\.js"
+      "plupload\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1"
     ],
     "website": "https://www.plupload.com/"
   },
