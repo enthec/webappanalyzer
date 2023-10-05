@@ -1587,8 +1587,7 @@
     "description": "Orbit is a jQuery slider.",
     "oss": true,
     "scriptSrc": [
-      "orbit.?([\\d\\.]{2,}[\\d]).+\\.js\\;version:\\1",
-      "orbit.+\\.js"
+      "orbit(?:\\.min)?([\\d.]{2,}[\\d])?\\.js\\;version:\\1"
     ],
     "website": "https://zurb.com/playground/orbit-jquery-image-slider"
   },
