@@ -1963,7 +1963,7 @@
     "description": "Shaka Player is an open-source JavaScript library for adaptive media.",
     "icon": "Shaka Player.png",
     "js": {
-      "shaka.Player.version": "v([\\d\\.-\\w]+)\\;version:\\1"
+      "shaka.Player.version": "v([\\d\\.\\-\\w]+)\\;version:\\1"
     },
     "oss": true,
     "website": "https://github.com/shaka-project/shaka-player"

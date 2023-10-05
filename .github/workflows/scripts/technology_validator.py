@@ -1,6 +1,8 @@
+import abc
 import json
 import os
 import pathlib
+import re
 import string
 from typing import Final, Any, Type, Optional
 
@@ -26,6 +28,11 @@ class CategoryNotFoundException(Exception):
 
 
 class ImageNotFoundException(Exception):
+    def __init__(self, msg: str):
+        super().__init__(msg)
+
+
+class InvalidRegexException(Exception):
     def __init__(self, msg: str):
         super().__init__(msg)
 
@@ -83,7 +90,39 @@ class BoolValidator(AbstractValidator):
         return [bool]
 
 
-class StringOrArrayValidator(AbstractValidator):
+class RegexValidator(abc.ABC, AbstractValidator):
+    def __init__(self, contains_regex: bool = False):
+        super().__init__()
+        self._contains_regex = contains_regex
+
+    def _validate(self, data: Any) -> bool:
+        if self._contains_regex:
+            valid: bool = self._validate_regex(data)
+            if not valid:
+                return False
+        return super()._validate(data)
+
+    def _validate_regex(self, data: Any) -> bool:
+        if type(data) == str:
+            try:
+                re.compile(data)
+            except re.error as e:
+                self._set_custom_error(InvalidRegexException(f"Unable to compile regex '{data}', got error: {e.msg}"))
+                return False
+        elif type(data) == dict:
+            for _, val in data.items():
+                valid: bool = self._validate_regex(val)
+                if not valid:
+                    return False
+        elif type(data) == list:
+            for item in data:
+                valid: bool = self._validate_regex(item)
+                if not valid:
+                    return False
+        return True
+
+
+class StringOrArrayValidator(RegexValidator):
     def get_type(self) -> list[Type]:
         return [str, list]
 
@@ -98,7 +137,7 @@ class IntOrArrayValidator(AbstractValidator):
         return [int, list]
 
 
-class DictValidator(AbstractValidator):
+class DictValidator(RegexValidator):
     def get_type(self) -> list[Type]:
         return [dict]
 
@@ -162,21 +201,21 @@ class TechnologiesValidator:
             "requires": StringOrArrayValidator(),  # TODO ^
             "excludes": StringOrArrayValidator(),  # TODO ^
             "requiresCategory": CategoryValidator(self._CATEGORIES),
-            "cookies": DictValidator(),
-            "dom": StringOrArrayOrDictValidator(),
-            "dns": DictValidator(),
-            "js": DictValidator(),
-            "headers": DictValidator(),
-            "text": StringOrArrayValidator(),
-            "css": StringOrArrayValidator(),
+            "cookies": DictValidator(contains_regex=True),
+            "dom": StringOrArrayOrDictValidator(),  # TODO query selector validator
+            "dns": DictValidator(contains_regex=True),
+            "js": DictValidator(contains_regex=True),
+            "headers": DictValidator(contains_regex=True),
+            "text": StringOrArrayValidator(contains_regex=True),
+            "css": StringOrArrayValidator(contains_regex=True),
             "probe": DictValidator(),
             "robots": StringOrArrayValidator(),
-            "url": StringOrArrayValidator(),
-            "xhr": StringOrArrayValidator(),
-            "meta": DictValidator(),
-            "scriptSrc": StringOrArrayValidator(),
-            "scripts": StringOrArrayValidator(),
-            "html": StringOrArrayValidator(),
+            "url": StringOrArrayValidator(contains_regex=True),
+            "xhr": StringOrArrayValidator(contains_regex=True),
+            "meta": DictValidator(contains_regex=True),
+            "scriptSrc": StringOrArrayValidator(contains_regex=True),
+            "scripts": StringOrArrayValidator(contains_regex=True),
+            "html": StringOrArrayValidator(contains_regex=True),
             "certIssuer": StringValidator()
         }
 
