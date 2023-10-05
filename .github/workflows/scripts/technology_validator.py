@@ -47,6 +47,11 @@ class InvalidTechFileException(Exception):
         super().__init__(msg)
 
 
+class InvalidPriceException(Exception):
+    def __init__(self, msg: str):
+        super().__init__(msg)
+
+
 class AbstractValidator:
     def __init__(self, required: bool = False):
         self._required = required
@@ -80,7 +85,17 @@ class StringValidator(AbstractValidator):
         return [str]
 
 
-class ArrayValidator(AbstractValidator):
+class PricingValidator(AbstractValidator):
+    def _validate(self, data: Any) -> bool:
+        type_validator: bool = super()._validate(data)
+        if not type_validator:
+            return False
+        for price in data:
+            if price not in ("low", "mid", "high", "freemium", "poa", "payg", "onetime", "recurring"):
+                self._set_custom_error(InvalidPriceException(f"Pricing '{price}' is not valid"))
+                return False
+        return True
+
     def get_type(self) -> list[Type]:
         return [list]
 
@@ -96,11 +111,14 @@ class RegexValidator(abc.ABC, AbstractValidator):
         self._contains_regex = contains_regex
 
     def _validate(self, data: Any) -> bool:
+        type_validator: bool = super()._validate(data)
+        if not type_validator:
+            return False
         if self._contains_regex:
             valid: bool = self._validate_regex(data)
             if not valid:
                 return False
-        return super()._validate(data)
+        return True
 
     def _validate_regex(self, data: Any) -> bool:
         if type(data) == str:
@@ -196,7 +214,7 @@ class TechnologiesValidator:
             "cpe": StringValidator(),  # TODO cpe regex
             "saas": BoolValidator(),
             "oss": BoolValidator(),
-            "pricing": ArrayValidator(),
+            "pricing": PricingValidator(),
             "implies": StringOrArrayValidator(),  # TODO cat validation
             "requires": StringOrArrayValidator(),  # TODO ^
             "excludes": StringOrArrayValidator(),  # TODO ^
@@ -265,6 +283,6 @@ class TechnologyProcessor:
 
 
 if __name__ == '__main__':
-    # for letter in string.ascii_lowercase + "_":
-    #     TechnologiesValidator(os.getenv("TECH_FILE_NAME", f"{letter}.json")).validate()
-    TechnologiesValidator(os.getenv("TECH_FILE_NAME", f"a.json")).validate()
+    for letter in string.ascii_lowercase + "_":
+        TechnologiesValidator(os.getenv("TECH_FILE_NAME", f"{letter}.json")).validate()
+    # TechnologiesValidator(os.getenv("TECH_FILE_NAME", f"a.json")).validate()
