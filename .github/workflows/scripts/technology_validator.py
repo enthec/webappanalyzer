@@ -47,6 +47,16 @@ class InvalidTechFileException(Exception):
         super().__init__(msg)
 
 
+class InvalidPriceException(Exception):
+    def __init__(self, msg: str):
+        super().__init__(msg)
+
+
+class InvalidCPEException(Exception):
+    def __init__(self, msg: str):
+        super().__init__(msg)
+
+
 class AbstractValidator:
     def __init__(self, required: bool = False):
         self._required = required
@@ -57,9 +67,9 @@ class AbstractValidator:
             raise MissingRequiredFieldException(f"'{property_name}' field is required for {tech_name}!")
         if data is None:
             return True
-        return self._validate(data)
+        return self._validate(tech_name, data)
 
-    def _validate(self, data: Any) -> bool:
+    def _validate(self, tech_name: str, data: Any) -> bool:
         for t in self.get_type():
             if isinstance(data, t):
                 return True
@@ -80,7 +90,17 @@ class StringValidator(AbstractValidator):
         return [str]
 
 
-class ArrayValidator(AbstractValidator):
+class PricingValidator(AbstractValidator):
+    def _validate(self, tech_name: str, data: Any) -> bool:
+        type_validator: bool = super()._validate(tech_name, data)
+        if not type_validator:
+            return False
+        for price in data:
+            if price not in ("low", "mid", "high", "freemium", "poa", "payg", "onetime", "recurring"):
+                self._set_custom_error(InvalidPriceException(f"Pricing '{price}' for tech '{tech_name}' is not valid"))
+                return False
+        return True
+
     def get_type(self) -> list[Type]:
         return [list]
 
@@ -95,28 +115,31 @@ class RegexValidator(abc.ABC, AbstractValidator):
         super().__init__()
         self._contains_regex = contains_regex
 
-    def _validate(self, data: Any) -> bool:
+    def _validate(self, tech_name: str, data: Any) -> bool:
+        type_validator: bool = super()._validate(tech_name, data)
+        if not type_validator:
+            return False
         if self._contains_regex:
-            valid: bool = self._validate_regex(data)
+            valid: bool = self._validate_regex(tech_name, data)
             if not valid:
                 return False
-        return super()._validate(data)
+        return True
 
-    def _validate_regex(self, data: Any) -> bool:
+    def _validate_regex(self, tech_name: str, data: Any) -> bool:
         if type(data) == str:
             try:
                 re.compile(data)
             except re.error as e:
-                self._set_custom_error(InvalidRegexException(f"Unable to compile regex '{data}', got error: {e.msg}"))
+                self._set_custom_error(InvalidRegexException(f"Unable to compile regex '{data}' for tech '{tech_name}', got error: {e.msg}"))
                 return False
         elif type(data) == dict:
             for _, val in data.items():
-                valid: bool = self._validate_regex(val)
+                valid: bool = self._validate_regex(tech_name, val)
                 if not valid:
                     return False
         elif type(data) == list:
             for item in data:
-                valid: bool = self._validate_regex(item)
+                valid: bool = self._validate_regex(tech_name, item)
                 if not valid:
                     return False
         return True
@@ -147,15 +170,15 @@ class CategoryValidator(IntOrArrayValidator):
         super().__init__(required)
         self._categories: Final[list[int]] = categories
 
-    def _validate(self, data: Any) -> bool:
-        type_validator: bool = super()._validate(data)
+    def _validate(self, tech_name: str, data: Any) -> bool:
+        type_validator: bool = super()._validate(tech_name, data)
         if not type_validator:
             return False
         if isinstance(data, int):
             data = [data]
         for category_id in data:
             if category_id not in self._categories:
-                self._set_custom_error(CategoryNotFoundException(f"The category '{category_id}' does not exist!"))
+                self._set_custom_error(CategoryNotFoundException(f"The category '{category_id}' for tech '{tech_name}' does not exist!"))
                 return False
         return True
 
@@ -165,20 +188,39 @@ class IconValidator(StringValidator):
         super().__init__(required)
         self._icons: Final[list[str]] = icons
 
-    def _validate(self, data: Any) -> bool:
-        type_validator: bool = super()._validate(data)
+    def _validate(self, tech_name: str, data: Any) -> bool:
+        type_validator: bool = super()._validate(tech_name, data)
         if not type_validator:
             return False
         contains: bool = data in self._icons
         if not contains:
-            self._set_custom_error(ImageNotFoundException(f"The image '{data}' does not exist!"))
+            self._set_custom_error(ImageNotFoundException(f"The image '{data}' for tech '{tech_name}' does not exist!"))
+            return False
+        return True
+
+
+class CPEValidator(StringValidator):
+    def __init__(self):
+        super().__init__()
+
+    def _validate(self, tech_name: str, data: Any) -> bool:
+        type_validator: bool = super()._validate(tech_name, data)
+        if not type_validator:
+            return False
+        # https://csrc.nist.gov/schema/cpe/2.3/cpe-naming_2.3.xsd
+        cpe_regex: str = r"""cpe:2\.3:[aho\*\-](:(((\?*|\*?)([a-zA-Z0-9\-\._]|(\\[\\\*\?!"#$$%&'\(\)\+,/:;<=>@\[
+        \]\^`\{\|}~]))+(\?*|\*?))|[\*\-])){5}(:(([a-zA-Z]{2,3}(-([a-zA-Z]{2}|[0-9]{3}))?)|[\*\-]))(:(((\?*|\*?)([
+        a-zA-Z0-9\-\._]|(\\[\\\*\?!"#$$%&'\(\)\+,/:;<=>@\[\]\^`\{\|}~]))+(\?*|\*?))|[\*\-])){4}"""
+        pattern: re.Pattern = re.compile(cpe_regex)
+        match: re.Match = pattern.match(data)
+        if not match:
+            self._set_custom_error(InvalidCPEException(f"The cpe {data} for tech '{tech_name}' is invalid!"))
             return False
         return True
 
 
 class TechnologiesValidator:
     def __init__(self, file_name: str):
-        super().__init__()
         self._SOURCE_DIR: Final[str] = "src"
         self._TECH_DIR: Final[str] = "technologies"
         self._FULL_TECH_DIR: Final[pathlib.Path] = pathlib.Path(self._SOURCE_DIR).joinpath(self._TECH_DIR)
@@ -193,10 +235,10 @@ class TechnologiesValidator:
             "website": StringValidator(True),
             "description": StringValidator(),
             "icon": IconValidator(self._ICONS),
-            "cpe": StringValidator(),  # TODO cpe regex
+            "cpe": CPEValidator(),
             "saas": BoolValidator(),
             "oss": BoolValidator(),
-            "pricing": ArrayValidator(),
+            "pricing": PricingValidator(),
             "implies": StringOrArrayValidator(),  # TODO cat validation
             "requires": StringOrArrayValidator(),  # TODO ^
             "excludes": StringOrArrayValidator(),  # TODO ^

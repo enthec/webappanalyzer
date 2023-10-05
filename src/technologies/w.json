@@ -1076,7 +1076,7 @@
     "cats": [
       1
     ],
-    "cpe": "cpe:2.3:a:weblication:cms_core_&_grid:*:*:*:*:*:*:*:*",
+    "cpe": "cpe:2.3:a:weblication:cms_core_\\&_grid:*:*:*:*:*:*:*:*",
     "description": "Weblication is an enterprise-class website content management system developed by Scholl Communications AG in Germany.",
     "icon": "Weblication.svg",
     "implies": [
