@@ -1,0 +1,10 @@
+{
+  "AD Gallery": {
+    "cats": [
+      59
+    ],
+    "description": "A highly customizable gallery/showcase plugin for jQuery.",
+    "oss": true,
+    "scriptSrc": "(?:jquery\\.)?ad-gallery\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+  }
+}
