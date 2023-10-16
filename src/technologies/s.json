@@ -6670,6 +6670,16 @@
     "icon": "sucuri.svg",
     "website": "https://sucuri.net/"
   },
+  "SugarJS": {
+    "cats": [
+      59
+    ],
+    "description": "SugarJS is a JavaScript library that simplifies working with native JavaScript objects, enhancing productivity and code readability.",
+    "icon": "SugarJS.svg",
+    "oss": true,
+    "scriptSrc": "sugar\\/?((?:\\d+\\.)+\\d+)?(?:\\/sugar(?:-full)?)?(?:\\.min)?\\.js\\;version:\\1",
+    "website": "https://sugarjs.com/"
+  },
   "Suiteshare": {
     "cats": [
       52
