@@ -6223,7 +6223,7 @@
       59
     ],
     "description": "Stellar.js is a JavaScript library and jQuery plugin specifically designed to deliver parallax scrolling effects for web pages.",
-    "scriptSrc": "stellar\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "scriptSrc": "stellar(?:\\.min)?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1",
     "oss": true,
     "website": "https://markdalgleish.com/projects/stellar.js/"
   },
