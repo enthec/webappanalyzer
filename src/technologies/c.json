@@ -14,7 +14,7 @@
     "description": "D3 based reusable chart library",
     "icon": "C3.js.png",
     "requires": "D3",
-    "scriptSrc": "c3(?:\\.min)?(?:.+)?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "scriptSrc": "c3(?:\\.min)?(?:-[\\w]{0,8})?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1",
     "website": "https://c3js.org/"
   },
   "CCV Shop": {
