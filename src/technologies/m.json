@@ -191,7 +191,7 @@
       "jQuery",
       "Raphael"
     ],
-    "scriptSrc": "morris(?:\\/[\\w]+)?(?:\\.min)?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "scriptSrc": "morris(?:\\.min)?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1",
     "website": "https://morrisjs.github.io/morris.js/"
   },
   "Moxie": {
