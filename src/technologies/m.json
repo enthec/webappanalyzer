@@ -181,6 +181,17 @@
     "scriptSrc": "/assets/components/templates/\\;confidence:50",
     "website": "https://modx.com/content-management-framework"
   },
+  "Morphext": {
+    "cats": [
+      25,
+      59
+    ],
+    "description": "A simple, high-performance and cross-browser jQuery rotating / carousel plugin for text phrases powered by Animate.css.",
+    "icon": "Morphext.svg",
+    "oss": true,
+    "scriptSrc": "morphext(?:\\.min)?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "website": "https://morphext.fyianlai.com/"
+  },
     "Morris.js": {
     "cats": [
       59
