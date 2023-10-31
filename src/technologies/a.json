@@ -3149,6 +3149,17 @@
     "oss": true,
     "website": "https://angular.io"
   },
+  "Angular Gridster": {
+    "cats": [
+      25,
+      59
+    ],
+    "description": "Gridster is a JavaScript library, with a simple drag-and-drop interface, for creating intuitive, dynamic and customizable layouts in web applications.",
+    "icon": "Angular.svg",
+    "oss": true,
+    "scriptSrc": "angular-gridster(?:\\.min)?\\.js",
+    "website": "https://tiberiuzuld.github.io/angular-gridster2/"
+  },
   "Angular Material": {
     "cats": [
       66
