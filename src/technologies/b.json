@@ -2881,6 +2881,15 @@
     "scriptSrc": "cdn\\.ibdok\\.ir/",
     "website": "https://bdok.ir"
   },
+  "bowser": {
+    "cats": [
+      59
+    ],
+    "description": "A small, fast and rich-API browser/platform/engine detector for both browser and node.",
+    "oss": true,
+    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/)?bowser(?:\\.min)?(?:[-\\.][\\d\\w]{0,64})?\\.js\\;version:\\1",
+    "website": "https://opencollective.com/bowser"
+  },
   "bxSlider": {
     "cats": [
       7,
