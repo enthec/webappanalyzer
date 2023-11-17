@@ -1049,6 +1049,15 @@
     "saas": true,
     "website": "https://webflow.com/ecommerce"
   },
+  "Web Font Loader": {
+    "cats": [
+      59
+    ],
+    "description": "WebFont Loader is a versatile JavaScript library that provides enhanced control and flexibility in managing web fonts.",
+    "oss": true,
+    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/)?webfontloader(?:\\.min)?(?:[-\\.][\\d\\w]{0,32})?\\.js\\;version:\\1",
+    "website": "https://github.com/typekit/webfontloader"
+  },
   "Webgains": {
     "cats": [
       71
