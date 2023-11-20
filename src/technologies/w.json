@@ -2402,6 +2402,15 @@
     "scriptSrc": "\\.sistemawbuy\\.com\\.br/",
     "website": "https://www.wbuy.com.br"
   },
+  "waitForImages": {
+    "cats": [
+      59
+    ],
+    "description": "waitForImages is a lightweight, high-performance JavaScript library that simplifies the handling of image preloading events.",
+    "oss": true,
+    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/(?:jquery\\.)?)?waitforimages(?:-((?:\\d+\\.)+\\d+)-modded)?(?:\\.min)?\\.js\\;version:\\1\\2",
+    "website": "https://github.com/alexanderdickson/waitForImages"
+  },
   "wap.store": {
     "cats": [
       6
