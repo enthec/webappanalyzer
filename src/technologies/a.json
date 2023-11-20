@@ -2622,6 +2622,16 @@
     "oss": true,
     "website": "https://www.w3.org/Amaya"
   },
+  "Amaze UI": {
+    "cats": [
+      59
+    ],
+    "description": "Amaze UI is a mobile-first JavaScript library designed to simplify front-end development.",
+    "icon": "Amaze UI.png",
+    "oss": true,
+    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/(?:js\\/)?)?amazeui(?:\\/js\\/jquery)?(?:\\.widgets)?(?:\\.helper)?(?:\\.legacy)?(?:\\.min)?\\.js\\;version:\\1",
+    "website": "https://amazeui.shopxo.net/"
+  },
   "Amazon ALB": {
     "cats": [
       65
