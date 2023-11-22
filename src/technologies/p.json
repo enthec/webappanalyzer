@@ -3675,6 +3675,20 @@
     "saas": false,
     "website": "https://www.pythonanywhere.com"
   },
+  "p5.js": {
+    "cats": [
+      59
+    ],
+    "description": "p5.js is a JavaScript library for creative coding, with a focus on making coding accessible and inclusive for artists, designers, educators, beginners, and anyone else.",
+    "icon": "p5.js.svg",
+    "js": {
+      "p5.Camera": "",
+      "p5.ColorConversion": ""
+    },
+    "oss": true,
+    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/(?:addons\\/)?)?p5(?:\\.sound)?(?:\\.dom)?(?:\\.min)?\\.js\\;version:\\1",
+    "website": "https://p5js.org"
+  },
   "papaya CMS": {
     "cats": [
       1
