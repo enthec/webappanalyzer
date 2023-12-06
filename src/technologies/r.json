@@ -1591,6 +1591,16 @@
     "scriptSrc": "/wp-content/plugins/responsive-lightbox/.+front\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://dfactory.eu/products/responsive-lightbox-gallery-extensions/"
   },
+  "Responsive Nav": {
+    "cats": [
+      59
+    ],
+    "description": "Responsive navigation plugin without library dependencies and with fast touch screen support.",
+    "icon": "Responsive Nav.png",
+    "oss": true,
+    "scriptSrc": "responsive-nav(?:\\.min)?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "website": "http://responsive-nav.com/"
+  },
   "ResponsiveVoice": {
     "cats": [
       19
