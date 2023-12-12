@@ -7138,7 +7138,7 @@
     "js": {
       "Swup": ""
     },
-    "oss": "True",
+    "oss": true,
     "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/(?:dist\\/)?)?swup(?:-preload)?(?:-plugin)?(?:\\.min)?\\.js\\;version:\\1",
     "website": "https://swup.js.org"
   },
