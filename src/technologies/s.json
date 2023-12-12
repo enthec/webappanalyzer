@@ -7128,6 +7128,20 @@
     "scriptSrc": "swiper(?:\\.min)?\\.js",
     "website": "https://swiperjs.com"
   },
+  "Swup": {
+    "cats": [
+      59
+    ],
+    "description": "Swup is a versatile and expandable library for implementing page transitions on websites that use server-side rendering.",
+    "dom": "html[class*='swup-enabled']",
+    "icon": "Swup.svg",
+    "js": {
+      "Swup": ""
+    },
+    "oss": "True",
+    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/(?:dist\\/)?)?swup(?:-preload)?(?:-plugin)?(?:\\.min)?\\.js\\;version:\\1",
+    "website": "https://swup.js.org"
+  },
   "Swym Wishlist Plus": {
     "cats": [
       100
