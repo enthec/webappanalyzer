@@ -863,6 +863,19 @@
     "scriptSrc": "\\.digitalriver\\.com/",
     "website": "https://www.digitalriver.com"
   },
+  "Digizuite": {
+    "cats": [
+      95
+    ],
+    "description": "Digizuite is a Digital Asset Management software for enterprises.",
+    "dom": "img[src^='/globalassets/digizuite/'], source[srcset^='/globalassets/digizuite/'], video[src^='/globalassets/digizuite/']",
+    "icon": "Digizuite.png",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.digizuite.com"
+  },
   "dimple": {
     "cats": [
       25,
