@@ -1470,7 +1470,7 @@
       "MySQL"
     ],
     "meta": {
-      "generator": "^Dotser\\sCommerce\\s([\\d\\.]+)/\\;version:\\1"
+      "generator": "^Dotser\\sCommerce\\s((?:\\d+\\.)+\\d+)/\\;version:\\1"
     },
     "pricing": [
       "poa"
