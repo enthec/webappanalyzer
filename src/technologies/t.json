@@ -1167,7 +1167,7 @@
     "icon": "Theatre.js.svg",
     "js": {
       "__TheatreJS_CoreBundle": "",
-      "__TheatreJS_CoreBundle.version": "([\\d\\.]+)\\;version:\\1"
+      "__TheatreJS_CoreBundle.version": "((?:\\d+\\.)+\\d+)\\;version:\\1"
     },
     "oss": true,
     "website": "https://www.theatrejs.com"
