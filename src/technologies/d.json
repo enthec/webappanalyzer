@@ -1459,6 +1459,25 @@
     "saas": true,
     "website": "https://www.doteasy.com/website-builder/"
   },
+  "Dotser": {
+    "cats": [
+      6
+    ],
+    "description": "Dotser is a web software development company specialising in ecommerce and cloud-based business solutions.",
+    "icon": "Dotser.png",
+    "implies": [
+      "PHP",
+      "MySQL"
+    ],
+    "meta": {
+      "generator": "^Dotser\\sCommerce\\s((?:\\d+\\.)+\\d+)/\\;version:\\1"
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.dotser.ie"
+  },
   "DoubleClick Ad Exchange (AdX)": {
     "cats": [
       36
