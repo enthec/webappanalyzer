@@ -3569,6 +3569,22 @@
     "scriptSrc": "\\.cookie-script\\.com/",
     "website": "https://cookie-script.com"
   },
+  "Cookie Seal": {
+    "cats": [67],
+    "description": "Cookie Seal is a tool or system that helps you manage and configure the use of cookies on your website in accordance with data protection laws, ensuring compliance with relevant regulations.",
+    "icon": "Cookie Seal.svg",
+    "js": {
+      "CookieSeal": "",
+      "cookieSeal.consentEnabled": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "cookie-seal\\.js",
+    "website": "https://cookieseal.com"
+  },
   "CookieFirst": {
     "cats": [
       67
