@@ -1584,6 +1584,27 @@
     "saas": true,
     "website": "https://churnzero.net"
   },
+  "Circle": {
+    "cats": [
+      2,
+      19
+    ],
+    "cookies": {
+      "_circle_session:": "\\;confidence:50"
+    },
+    "description": "Circie is an all-in-one community platform for businesses that brings together engaging courses, discussions, members, live streams, chat, events, and memberships.",
+    "dom": "a[href*='.circle.so/']",
+    "icon": "Circle.svg",
+    "js": {
+      "circleUser": "\\;confidence:50"
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://circle.so"
+  },
   "CitrusPay": {
     "cats": [
       41
