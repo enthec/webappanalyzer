@@ -1659,6 +1659,24 @@
     "scriptSrc": "cdn\\.retailrocket\\.net",
     "website": "https://retailrocket.net"
   },
+  "Retool": {
+    "cats": [
+      47
+    ],
+    "description": "Retool is a development platform that enables the rapid creation and customisation of internal tools, including admin dashboards and database interfaces, through a combination of drag-and-drop components and code.",
+    "icon": "Retool.png",
+    "js": {
+      "RETOOL_PAGE_SUSPEND_DETECTED": ""
+    },
+    "pricing": [
+      "low",
+      "freemium",
+      "recurring"
+    ],
+    "scriptSrc": "retool(?:-edge)?(?:\\.com)?(?:\\/embed)?\\/?(?:runtime)?~?(?:app)?(?:custom-components)?(?:\\.\\w{0,20})?\\.js",
+    "url": "^https://retool\\.[\\d\\w\\-]+\\.(?:com|io)/",
+    "website": "https://retool.com"
+  },
   "Return Prime": {
     "cats": [
       100,
