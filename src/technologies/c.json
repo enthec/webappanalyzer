@@ -2567,6 +2567,17 @@
     "saas": true,
     "website": "https://codesandbox.io/"
   },
+  "Coffee Script": {
+    "cats": [
+      12,
+      59
+    ],
+    "description": "CoffeeScript is a language that compiles into JavaScript.",
+    "icon": "Coffee Script.png",
+    "oss": true,
+    "scriptSrc": "coffee-?script(?:-lint)?(?:\\.min)?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "website": "https://coffeescript.org/"
+  },
   "Coin Currency Converter": {
     "cats": [
       100
