@@ -1821,6 +1821,15 @@
     ],
     "website": "https://clearbit.com/reveal"
   },
+  "Cleave.js": {
+    "cats": [
+      59
+    ],
+    "description": "JavaScript library for formatting input text content when you are typing.",
+    "oss": true,
+    "scriptSrc": "cleave(?:\\.min)?(?:\\.\\w{0,32})?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "website": "https://nosir.github.io/cleave.js/"
+  },
   "Clerk": {
     "cats": [
       69
