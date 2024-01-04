@@ -1199,7 +1199,7 @@
       "dojo": "",
       "dojo.version.major": "^(.+)$\\;version:\\1"
     },
-    "scriptSrc": "([\\d.]+)/dojo/dojo(?:\\.xd)?\\.js\\;version:\\1",
+    "scriptSrc": "((?:\\d+\\.)+\\d+)/dojo/dojo(?:\\.xd)?\\.js\\;version:\\1",
     "website": "https://dojotoolkit.org"
   },
   "Dokan": {
