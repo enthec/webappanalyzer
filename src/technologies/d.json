@@ -720,6 +720,16 @@
     ],
     "website": "https://www.deutschepost.de"
   },
+  "Dexie.js": {
+    "cats": [
+      59
+    ],
+    "description": "A Minimalistic Wrapper for IndexedDB.",
+    "icon": "Dexie.js.png",
+    "oss": true,
+    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/)?dexie(?:\\.bitrix)?(?:\\.bundle)?(?:\\.min)?\\.js\\;version:\\1",
+    "website": "https://dexie.org"
+  },
   "DiamondCDN": {
     "cats": [
       31
