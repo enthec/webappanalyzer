@@ -842,6 +842,15 @@
     "requires": "PHP",
     "website": "https://www.elkarte.net"
   },
+  "Elliptic": {
+    "cats": [
+      59
+    ],
+    "description": "Fast Elliptic Curve Cryptography in plain javascript.",
+    "oss": true,
+    "scriptSrc": "elliptic(?:[\\w\\.-]{0,27})?(?:\\.bundle)?(?:\\.chunk)?(?:\\.min)?\\.js",
+    "website": "https://github.com/indutny/elliptic"
+  },
   "Ellucian CRM Recruit": {
     "cats": [
       53,
