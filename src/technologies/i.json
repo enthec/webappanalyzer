@@ -665,6 +665,21 @@
     },
     "website": "https://infernojs.org"
   },
+  "Infinite Scroll": {
+    "cats": [
+      59
+    ],
+    "description": "jQuery plugin for infinite scrolling.",
+    "icon": "Infinite Scroll.svg",
+    "js": {
+      "infinitescroll": ""
+    },
+    "pricing": [
+      "onetime"
+    ],
+    "scriptSrc": "infinite-?scroll(?:\\.pkgd)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "website": "https://infinite-scroll.com/"
+  },
   "Infogram": {
     "cats": [
       5
