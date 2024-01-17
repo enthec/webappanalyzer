@@ -1888,5 +1888,14 @@
     "saas": true,
     "scriptSrc": "merchant\\.cdn\\.hoolah\\.co/",
     "website": "https://www.hoolah.co"
+  },
+  "html2canvas": {
+    "cats": [
+      59
+    ],
+    "description": "Screenshots with JavaScript.",
+    "oss": true,
+    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/)?html2canvas(?:\\.min)?(?:[_\\w]{0,8})?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1\\2",
+    "website": "https://html2canvas.hertzen.com/"
   }
 }
