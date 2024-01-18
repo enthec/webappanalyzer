@@ -406,7 +406,8 @@
   },
   "Leaflet": {
     "cats": [
-      35
+      35,
+      59
     ],
     "description": "Leaflet is the open-source JavaScript library for mobile-friendly interactive maps.",
     "icon": "Leaflet.png",
@@ -415,7 +416,7 @@
       "L.PosAnimation": "",
       "L.version": "^(.+)$\\;version:\\1\\;confidence:0"
     },
-    "scriptSrc": "leaflet.{0,32}\\.js(?!.+shopify)",
+    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/(?:dist\\/)?)?leaflet[\\w\\-\\.]{0,32}\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?(?!.+shopify)\\;version:\\1\\2",
     "website": "https://leafletjs.com"
   },
   "Leaflet platform": {
