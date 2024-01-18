@@ -1985,6 +1985,18 @@
     "saas": true,
     "website": "https://luna.io"
   },
+  "Lunr.js": {
+    "cats": [
+      59
+    ],
+    "description": "A very simple search index.",
+    "js": {
+      "lunr": ""
+    },
+    "oss": true,
+    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/)?lunr(?:-store)?(?:-en)?(?:\\.min)?\\.js",
+    "website": "https://lunrjs.com/"
+  },
   "LyraThemes Kale": {
     "cats": [
       80
