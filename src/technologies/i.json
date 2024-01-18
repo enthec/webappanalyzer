@@ -826,6 +826,15 @@
     "scriptSrc": "instafeed\\.nfcube\\.com/",
     "website": "https://apps.shopify.com/instafeed"
   },
+  "Instafeed.js": {
+    "cats": [
+      59
+    ],
+    "description": "A way to add Instagram photos to your website.",
+    "oss": true,
+    "scriptSrc": "instafeed(?:\\.min)?\\.js",
+    "website": "https://instafeedjs.com/"
+  },
   "Instamojo": {
     "cats": [
       41
