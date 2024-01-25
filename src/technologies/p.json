@@ -206,6 +206,19 @@
     "scriptSrc": "pay\\.pacenow\\.co",
     "website": "https://pacenow.co/"
   },
+  "Packery": {
+    "cats": [
+      59,
+      66
+    ],
+    "description": "Packery is a JavaScript library and jQuery plugin that makes gapless and draggable layouts.",
+    "icon": "Packery.svg",
+    "pricing": [
+      "onetime"
+    ],
+    "scriptSrc": "packery(?:\\.pkgd)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "website": "https://packery.metafizzy.co/"
+  },
   "Packlink PRO": {
     "cats": [
       100,
