@@ -371,7 +371,7 @@
       "server": "Fastly",
       "x-fastly-origin": "",
       "x-fastly-request-id": "",
-      "x-via-fastly:": ""
+      "x-via-fastly": ""
     },
     "icon": "Fastly.svg",
     "pricing": [
