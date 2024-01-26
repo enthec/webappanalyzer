@@ -3711,6 +3711,19 @@
     "implies": "PHP",
     "website": "https://papaya-cms.com"
   },
+  "parallax.js": {
+    "cats": [
+      59
+    ],
+    "description": "Simple parallax scrolling effect.",
+    "js": {
+      "parallax": "",
+      "parallaxInstance": ""
+    },
+    "oss": true,
+    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/)?parallax(?:\\/assets\\/js)?(?:\\/jquery)?(?:\\/scripts)?(?:\\/wow)?(?:[_\\.]move)?(?:\\.inview)?(?:\\.pkgd)?(?:\\.scrolling)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1\\2",
+    "website": "https://github.com/pixelcog/parallax.js"
+  },
   "parcel": {
     "cats": [
       19
