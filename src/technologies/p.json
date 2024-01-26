@@ -3724,6 +3724,15 @@
     "scriptSrc": "/particles(?:\\.min)?\\.js",
     "website": "https://github.com/VincentGarreau/particles.js"
   },
+  "pdfmake": {
+    "cats": [
+      59
+    ],
+    "description": "Client/server side PDF printing in pure JavaScript.",
+    "oss": true,
+    "scriptSrc": "pdfmake(?:[\\/-]((?:\\d+\\.)+\\d+)\\/(?:build\\/)?)?(?:pdfmake)?(?:vfs_fonts)?(?:\\.min)?\\.js\\;version:\\1",
+    "website": "https://bpampuch.github.io/pdfmake"
+  },
   "petite-vue": {
     "cats": [
       19
