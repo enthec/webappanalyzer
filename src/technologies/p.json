@@ -3905,6 +3905,19 @@
     },
     "website": "https://www.phpwind.net"
   },
+  "pickadate.js": {
+    "cats": [
+      59
+    ],
+    "description": "Mobile-friendly, responsive, and lightweight jQuery date & time input picker.",
+    "icon": "pickadate.js.png",
+    "js": {
+      "pickadate": ""
+    },
+    "oss": true,
+    "scriptSrc": "pickadate(?:\\/translations)?(?:\\/de_DE)?(?:\\/picker)?(?:\\.date)?(?:\\.time)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "website": "https://amsul.ca/pickadate.js/"
+  },
   "pinoox": {
     "cats": [
       18
