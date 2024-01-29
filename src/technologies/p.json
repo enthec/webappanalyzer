@@ -1622,6 +1622,15 @@
     ],
     "website": "https://picturepark.com"
   },
+  "Pikaday": {
+    "cats": [
+      59
+    ],
+    "description": "A refreshing JavaScript Datepicker.",
+    "oss": true,
+    "scriptSrc": "pikaday(?:-jquery)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "website": "https://github.com/dbushell/Pikaday"
+  },
   "Piman": {
     "cats": [
       68
