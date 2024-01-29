@@ -119,6 +119,15 @@
     "url": "^https://[\\w\\d\\.\\-]+(?:\\.dev)(?:/.+||/)$",
     "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1"
   },
+  "HTML5 Media": {
+    "cats": [
+      59
+    ],
+    "description": "HTML5 Media enables video and audio tags in all major browsers.",
+    "oss": true,
+    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/)?html5media(?:\\.min)?\\.js\\;version:\\1",
+    "website": "https://html5media.info/"
+  },
   "HTTP/2": {
     "cats": [
       19
