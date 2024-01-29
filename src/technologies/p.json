@@ -2404,24 +2404,6 @@
     "website": "https://get.popmenu.com",
     "xhr": "popmenu\\.com"
   },
-  "Popper": {
-    "cats": [
-      19
-    ],
-    "description": "Popper is a positioning engine, its purpose is to calculate the position of an element to make it possible to position it near a given reference element.",
-    "icon": "Popper.svg",
-    "js": {
-      "Popper.Defaults": "",
-      "Popper.applyStyles": "",
-      "createPopper": ""
-    },
-    "oss": true,
-    "scriptSrc": [
-      "/popper(?:\\.min)?\\.js(?:/([0-9.]+))?\\;version:\\1",
-      "popperjs(?:/|-)core(?:@|-)([\\d\\.]+)\\;version:\\1"
-    ],
-    "website": "https://popper.js.org"
-  },
   "PopularFX": {
     "cats": [
       80
