@@ -556,6 +556,18 @@
     },
     "website": "https://www.parse.ly"
   },
+  "Parsley.js": {
+    "cats": [
+      59
+    ],
+    "description": "Javascript forms validation script.",
+    "js": {
+      "parsley": ""
+    },
+    "oss": true,
+    "scriptSrc": "parsley(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "website": "https://parsleyjs.org"
+  },
   "Partial.ly": {
     "cats": [
       41,
