@@ -7375,9 +7375,13 @@
     "cats": [
       59
     ],
+    "description": "Reveal elements as they enter the viewport.",
     "html": "<[^>]+data-sr(?:-id)",
     "icon": "scrollreveal.svg",
-    "scriptSrc": "scrollreveal(?:\\.min)(?:\\.js)",
+    "pricing": [
+      "onetime"
+    ],
+    "scriptSrc": "scrollreveal(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
     "website": "https://scrollrevealjs.org"
   },
   "shadcn/ui": {
