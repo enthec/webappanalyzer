@@ -3212,6 +3212,16 @@
     "scriptSrc": "/ThinClient/(?:WTM|WebResource)(?:\\.axd|/public)\\;confidence:60",
     "website": "https://www.progress.com/ws_ftp"
   },
+  "ProgressBar.js": {
+    "cats": [
+      59
+    ],
+    "description": "Responsive progress bars with animated SVG paths.",
+    "icon": "ProgressBar.js.png",
+    "oss": true,
+    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/)?progressbar(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1\\2",
+    "website": "https://kimmobrunfeldt.github.io/progressbar.js/"
+  },
   "Project Wonderful": {
     "cats": [
       36
