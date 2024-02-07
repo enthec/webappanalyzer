@@ -3001,7 +3001,9 @@
   },
   "Prism": {
     "cats": [
-      19
+      19,
+      66,
+      59
     ],
     "description": "Prism is an extensible syntax highlighter.",
     "icon": "Prism.svg",
@@ -3009,7 +3011,8 @@
       "Prism": "",
       "apex.libVersions.prismJs": "^([\\d\\.]+)$\\;version:\\1"
     },
-    "scriptSrc": "prism\\.js",
+    "oss": true,
+    "scriptSrc": "prism(?:\\.min)?(?:-\\w{0,64})?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
     "website": "https://prismjs.com"
   },
   "Prismic": {
