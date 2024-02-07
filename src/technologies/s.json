@@ -1114,6 +1114,15 @@
     "scriptSrc": "cdn.cxc.scorpion.direct",
     "website": "https://www.scorpion.co/"
   },
+  "Screenfull.js": {
+    "cats": [
+      59
+    ],
+    "description": "Simple wrapper for cross-browser usage of the JavaScript Fullscreen API.",
+    "oss": true,
+    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/)?screenfull(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1\\2",
+    "website": "https://sindresorhus.com/screenfull/"
+  },
   "Scrivito": {
     "cats": [
       1
