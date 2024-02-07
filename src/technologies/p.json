@@ -1007,6 +1007,18 @@
     },
     "website": "https://joinpeertube.org/"
   },
+  "Peity": {
+    "cats": [
+      59
+    ],
+    "description": "Peity is a simple jQuery plugin that converts an element's content into a simple mini svg pie, line or bar chart.",
+    "js": {
+      "peity": ""
+    },
+    "oss": true,
+    "scriptSrc": "peity(?:-demo)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "website": "https://github.com/benpickles/peity"
+  },
   "Pelican": {
     "cats": [
       57
