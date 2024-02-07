@@ -2139,6 +2139,19 @@
     },
     "website": "https://shellinabox.com"
   },
+  "Shepherd": {
+    "cats": [
+      59
+    ],
+    "description": "Shepherd is a JavaScript library which makes an use-friendly user-guide to any website.",
+    "icon": "Shepherd.svg",
+    "oss": true,
+    "pricing": [
+      "poa"
+    ],
+    "scriptSrc": "shepherd(?:\\.min)?\\.js",
+    "website": "https://shepherdjs.dev/"
+  },
   "Shift4Shop": {
     "cats": [
       1,
