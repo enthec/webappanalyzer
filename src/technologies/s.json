@@ -4473,6 +4473,15 @@
     "saas": true,
     "website": "https://www.smugmug.com"
   },
+  "Snabbt": {
+    "cats": [
+      59
+    ],
+    "description": "Minimalistic animation library in javascript Snabbt.js.",
+    "oss": true,
+    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/)?snabbt(?:[\\.-]min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))??\\;version:\\1\\2",
+    "website": "https://daniel-lundin.github.io/snabbt.js/"
+  },
   "Snap": {
     "cats": [
       18,
