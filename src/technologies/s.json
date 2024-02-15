@@ -7445,6 +7445,15 @@
     "scriptSrc": "shine(?:\\.min)?\\.js",
     "website": "https://bigspaceship.github.io/shine.js/"
   },
+  "sidr": {
+    "cats": [
+      59
+    ],
+    "description": "Sidr is a jQuery plugin for creating side menus.",
+    "oss": true,
+    "scriptSrc": "sidr(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "website": "https://www.albertovarela.net/sidr/"
+  },
   "siimple": {
     "cats": [
       66
