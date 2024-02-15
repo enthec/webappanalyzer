@@ -3092,6 +3092,14 @@
     ],
     "website": "https://www.signal.co/"
   },
+  "SignalR": {
+    "cats": [
+      59
+    ],
+    "description": "Realtime web communication framework from Microsoft for ASP.NET.",
+    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/jquery\\.)?signal[rR](?:-((?:\\d+\\.)+\\d+))?(?:\\.min)?\\.js\\;version:\\1\\2",
+    "website": "https://dotnet.microsoft.com/es-es/apps/aspnet/signalr"
+  },
   "Signifyd": {
     "cats": [
       10,
