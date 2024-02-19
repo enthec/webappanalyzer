@@ -7489,6 +7489,19 @@
     "oss": true,
     "website": "https://siimple.xyz"
   },
+  "slideout": {
+    "cats": [
+      59
+    ],
+    "description": "A touch slideout navigation menu for your mobile web apps.",
+    "icon": "slideout.png",
+    "js": {
+      "slideout": ""
+    },
+    "oss": true,
+    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/)?slideout(?:-init)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1\\2",
+    "website": "https://slideout.js.org/"
+  },
   "snigel AdConsent": {
     "cats": [
       67
