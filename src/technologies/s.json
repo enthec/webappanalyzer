@@ -4719,6 +4719,17 @@
     "scriptSrc": "/wp-content/plugins/ag-core/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://www.societe-des-avis-garantis.fr"
   },
+  "SockJS": {
+    "cats": [
+      18,
+      59
+    ],
+    "description": "SockJS is a browser JavaScript library that provides a WebSocket-like object.",
+    "icon": "SockJS.png",
+    "oss": true,
+    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/)?sockjs(?:-((?:\\d+\\.)+\\d+))?(?:\\.min)?\\.js\\;version:\\1\\2",
+    "website": "https://sockjs.org"
+  },
   "Socket.io": {
     "cats": [
       12
