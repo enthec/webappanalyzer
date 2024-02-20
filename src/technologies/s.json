@@ -6986,6 +6986,24 @@
     "saas": true,
     "website": "https://www.supporthero.com/"
   },
+  "Surge": {
+    "cats": [
+      31
+    ],
+    "description": "Static website publishing.",
+    "dom": {
+      "link[href*='surge.sh']": {
+        "attributes": {
+          "href": "surge\\.sh(?:\\/csshake)?(?:\\/prospectus)?(?:\\/index)?(?:-hard)?(?:-slow)?(?:\\.min)?\\.css"
+        }
+      }
+    },
+    "icon": "Surge.svg",
+    "oss": true,
+    "scriptSrc": "surge\\.sh(?:\\/[-\\w]{0,40})?\\.js",
+    "url": "surge\\.sh",
+    "website": "https://surge.sh"
+  },
   "Survicate": {
     "cats": [
       73
