@@ -3642,6 +3642,18 @@
     "icon": "thttpd.png",
     "website": "https://acme.com/software/thttpd"
   },
+  "timeago": {
+    "cats": [
+      59
+    ],
+    "description": "Timeago is a jQuery plugin that makes it easy to support automatically updating fuzzy timestamps.",
+    "js": {
+      "timeago": ""
+    },
+    "oss": true,
+    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/)?(?:jquery\\.)?[Tt]imeago(?:_mkdocs_material)?(?:\\.full)?(?:\\.locales)?(?:\\.native)?(?:\\.min)?\\.js\\;version:\\1",
+    "website": "https://timeago.yarp.com/"
+  },
   "toastr": {
     "cats": [
       12
