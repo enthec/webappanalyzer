@@ -319,6 +319,14 @@
     "requires": "WordPress",
     "website": "https://tablepress.org"
   },
+  "Tablesorter": {
+    "cats": [
+      59
+    ],
+    "description": "Flexible client-side table sorting.",
+    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)[-\\/](?:dist\\/js\\/)?)?(?:jquery\\.)?tablesorter(?:[\\.\\/]pager)?(?:-custom-controls)?(?:\\.widgets)?(?:\\.min)?\\.js\\;version:\\1",
+    "website": "https://mottie.github.io/tablesorter/"
+  },
   "Taboola": {
     "cats": [
       36
