@@ -2221,6 +2221,16 @@
     ],
     "website": "https://www.tinybird.co/"
   },
+  "Tinycon": {
+    "cats": [
+      59,
+      66
+    ],
+    "description": "A library for manipulating a websites favicon.",
+    "oss": true,
+    "scriptSrc": "tinycon(?:\\.min)?\\.js",
+    "website": "https://github.com/tommoor/tinycon"
+  },
   "Tippy.js": {
     "cats": [
       59
