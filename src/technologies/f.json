@@ -1076,6 +1076,16 @@
     "scriptSrc": "\\.flocktory\\.com/",
     "website": "https://www.flocktory.com"
   },
+  "Flot": {
+    "cats": [
+      59
+    ],
+    "description": "Attractive Javascript plotting for jQuery.",
+    "icon": "Flot.png",
+    "oss": true,
+    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/(?:jquery\\.)?)?flot(?:\\/curvedLines)?(?:\\/excanvas)?(?:\\/jquery)?(?:\\.categories)?(?:\\.pack)?(?:\\.pie)?(?:\\.resize)?(?:\\.selection)?(?:\\.spline)?(?:\\.symbol)?(?:\\.time)?(?:\\.tooltip)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1\\2",
+    "website": "https://flotcharts.org/"
+  },
   "Flow": {
     "cats": [
       106
