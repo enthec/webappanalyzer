@@ -2444,6 +2444,18 @@
     "saas": true,
     "website": "https://platform.fynd.com"
   },
+  "framework7": {
+    "cats": [
+      59,
+      66
+    ],
+    "description": "Full Featured Mobile HTML Framework For Building iOS & Android Apps.",
+    "dom": "link[href*='framework7'], .framework7-root, .framework7-modals",
+    "icon": "framework7.png",
+    "oss": true,
+    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/(?:js\\/)?)?framework7(?:-((?:\\d+\\.)+\\d+))?(?:\\.custom)?(?:\\.min)?(?:-vue)?_?[\\w\\.]{0,29}\\.js\\;version:\\1\\2",
+    "website": "https://framework7.io/"
+  },
   "fullPage.js": {
     "cats": [
       59
