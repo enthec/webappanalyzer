@@ -446,6 +446,18 @@
     "scriptSrc": "cdn\\.usefathom\\.com/",
     "website": "https://usefathom.com"
   },
+  "Faveo": {
+    "cats": [
+      1,
+      104
+    ],
+    "description": "Open source help desk system and ticket management tool.",
+    "dom": "link[href*='/lb-faveo/']",
+    "icon": "Faveo.png",
+    "oss": true,
+    "scriptSrc": "faveo(?:\\/js)?(?:\\/jquery)?(?:\\/know)?(?:\\/mobilemenu)?(?:\\/plugins)?(?:\\/bootstrap)?(?:\\/superfish)?(?:\\/iCheck\\/icheck)?(?:-wysihtml5\\/bootstrap3-wysihtml5)?(?:\\.all)?(?:\\.rating)?(?:\\.pack)?((?:\\d+\\.)+\\d+)?(?:\\.min)?\\.js\\;version:\\1",
+    "website": "https://faveohelpdesk.com"
+  },
   "Fbits": {
     "cats": [
       6
