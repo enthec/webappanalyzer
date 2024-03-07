@@ -2232,6 +2232,17 @@
     },
     "website": "https://join.misskey.page/"
   },
+  "Mithril": {
+    "cats": [
+      12,
+      59
+    ],
+    "description": "A Javascript Framework for building applications.",
+    "icon": "Mithril.svg",
+    "oss": true,
+    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/)?mithril(?:[\\.-]min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1\\2",
+    "website": "https://mithril.js.org/"
+  },
   "Mittwald": {
     "cats": [
       88
