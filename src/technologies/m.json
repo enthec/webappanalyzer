@@ -2019,6 +2019,21 @@
     },
     "website": "https://office.microsoft.com/word"
   },
+  "Microweber": {
+    "cats": [
+      1
+    ],
+    "description": "Open Source drag and drop style hosted CMS system.",
+    "dom": "meta[content='Microweber']",
+    "icon": "Microweber.svg",
+    "oss": true,
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "scriptSrc": "[Mm]icroweber(?:\\/includes)?(?:\\/api)?(?:\\/libs)?[\\w\\.\\/-]{0,45}(?:\\.min)?\\.js",
+    "website": "https://microweber.com"
+  },
   "Miestro": {
     "cats": [
       6
