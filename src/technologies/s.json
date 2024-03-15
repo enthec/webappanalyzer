@@ -5117,6 +5117,20 @@
     "scriptSrc": "(?:^[^/]*//[^/]*viglink\\.com/api/|vglnk\\.js)",
     "website": "https://www.sovrn.com/publishers/commerce/"
   },
+  "Spark CMS": {
+    "cats": [
+      1
+    ],
+    "cookies": {
+      "BNI_SparkCMSLB": ""
+    },
+    "description": "The CMS has been custom built by our web developers based on feedback from our clients, ensuring an easy to use platform that's been designed in consultation with the end user in mind.",
+    "dom": "link[href*='sparkcms.com.au']",
+    "icon": "Spark.png",
+    "oss": false,
+    "scriptSrc": "/spark-scripts/",
+    "website": "https://www.councilconnect.com.au/our-websites/about-spark-cms.aspx"
+  },
   "SparkPost": {
     "cats": [
       75
