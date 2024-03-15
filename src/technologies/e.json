@@ -1126,6 +1126,15 @@
     "requires": "WordPress",
     "website": "https://github.com/bluehost/endurance-page-cache"
   },
+  "EngagementHQ": {
+    "cats": [
+      1
+    ],
+    "description": "Essential software for changemakers. Facilitate, centralize, and analyze two-way conversations between you and your community.",
+    "icon": "EngagementHQ.svg",
+    "dom": "link[href*='ehq-production-']",
+    "website": "https://granicus.com/solution/govdelivery/engagementhq/"
+  },
   "Engagio": {
     "cats": [
       10
