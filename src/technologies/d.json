@@ -398,6 +398,19 @@
     "saas": true,
     "website": "https://www.datamilk.ai"
   },
+  "Datascape": {
+    "cats": [
+      1
+    ],
+    "description": "Datascape is a cloud-based solution designed to create new ways for councils to work and better engage with their communities.",
+    "dom": "link[href*='cdn-sites.datascape.cloud']",
+    "icon": "Datascape.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://datacom.com/nz/en/products/datascape"
+  },
   "DataTables": {
     "cats": [
       59
