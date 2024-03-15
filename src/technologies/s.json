@@ -4713,6 +4713,19 @@
     "scriptSrc": "socialladder\\.rkiapps\\.com/",
     "website": "https://socialladderapp.com"
   },
+  "Social Pinpoint": {
+    "cats": [
+      1
+    ],
+    "description": "Social Pinpoint is a comprehensive online platform that facilitates meaningful and accessible engagement opportunities that bring your community together.",
+    "dom": "a[href*='www.socialpinpoint.com']",
+    "icon": "socialpinpoint.png",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.socialpinpoint.com/"
+  },
   "Societe des Avis Garantis": {
     "cats": [
       87,
