@@ -9,7 +9,7 @@
     "js": {
       "d3.version": "^(.+)$\\;version:\\1"
     },
-    "scriptSrc": "/d3(?:\\. v\\d+)?(?:\\.min)?\\.js",
+    "scriptSrc": "/d3(?:\\.v\\d+)?(?:\\.min)?\\.js",
     "website": "https://d3js.org"
   },
   "DDoS-Guard": {
