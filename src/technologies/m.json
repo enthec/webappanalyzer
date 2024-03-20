@@ -2296,6 +2296,15 @@
     "saas": true,
     "website": "https://mixin.ir"
   },
+  "Mixitup": {
+    "cats": [
+      59
+    ],
+    "description": "A CSS3 and jQuery Filter & Sort Plugin.",
+    "icon": "kunkalabs.svg",
+    "scriptSrc": "mixitup(?:\\.min)?\\.js",
+    "website": "https://www.kunkalabs.com/mixitup/"
+  },
   "Mixpanel": {
     "cats": [
       10
