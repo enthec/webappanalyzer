@@ -1447,6 +1447,24 @@
     "saas": true,
     "website": "https://errorception.com"
   },
+  "EspoCRM": {
+    "cats": [
+      10,
+      53
+    ],
+    "description": "Open Source CRM Software.",
+    "dom": "meta[content*='EspoCRM'], link[href*='/espo/']",
+    "icon": "EspoCRM.svg",
+    "oss": true,
+    "pricing": [
+      "low",
+      "mid",
+      "freemium",
+      "recurring"
+    ],
+    "scriptSrc": "espo(?:\\.min)?\\.js",
+    "website": "https://www.espocrm.com/"
+  },
   "Essent SiteBuilder Pro": {
     "cats": [
       1,
