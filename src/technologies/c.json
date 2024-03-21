@@ -4422,6 +4422,17 @@
     "scriptSrc": "/wp-content/plugins/custom-fonts/",
     "website": "https://github.com/brainstormforce/custom-fonts"
   },
+  "Custom Twitter Feeds": {
+    "cats": [
+      5,
+      87
+    ],
+    "description": "Custom Twitter Feeds for Wordpress.",
+    "dom": "link[href*='/wp-content/plugins/custom-twitter-feeds/']",
+    "requires": "WordPress",
+    "scriptSrc": "custom-twitter-feeds(?:\\/js)?(?:\\/ctf-scripts)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "website": "https://wordpress.org/plugins/custom-twitter-feeds"
+  },
   "Customer.io": {
     "cats": [
       32
