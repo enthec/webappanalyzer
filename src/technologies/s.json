@@ -3124,7 +3124,15 @@
       1
     ],
     "description": "Silverstripe CMS is a free and open source Content Management System and Framework for creating and maintaining websites and web applications.",
-    "html": "Powered by <a href=\"[^>]+Silverstripe",
+    "dom": [
+      "link[href*='silverstripe']",
+      "link[href^='/_resources/app/client/dist/']",
+      "link[href^='/assets/_combinedfiles/resources/']"
+    ],
+    "html": [
+      "Powered by <a href=\"[^>]+SilverStripe",
+      "<link [^>]*href=\\\"/?_?resources/(themes|vendor)/.*\\.css\\?m=\\d{10}"
+    ],
     "icon": "SilverStripe.svg",
     "implies": "PHP",
     "meta": {
