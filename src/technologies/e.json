@@ -252,6 +252,15 @@
     "website": "https://www.easy-orders.net",
     "xhr": "api\\.easy-orders\\.net/"
   },
+  "Easy Pie Chart": {
+    "cats": [
+      59
+    ],
+    "description": "Lightweight jQuery plugin to render and animate nice pie charts with the HTML5 canvas element.",
+    "oss": true,
+    "scriptSrc": "[Ee]asy-?[Pp]ie-?[Cc]hart(?:\\.min)?\\.js",
+    "website": "https://rendro.github.io/easy-pie-chart/"
+  },
   "Easy Redirects": {
     "cats": [
       100
