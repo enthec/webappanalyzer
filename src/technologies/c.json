@@ -3720,6 +3720,7 @@
     "description": "Creates vertical and horizontal history timeline blocks.",
     "dom": "link[href*='/plugins/cool-timeline/'], script[src*='/cool-timeline/'], .cooltimeline-body",
     "oss": true,
+    "requires": "WordPress",
     "website": "https://wordpress.org/plugins/cool-timeline"
   },
   "Cooladata": {
