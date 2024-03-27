@@ -3867,6 +3867,16 @@
     "icon": "CouchDB.png",
     "website": "https://couchdb.apache.org"
   },
+  "Countdown Timer Ultimate": {
+    "cats": [
+      5,
+      87
+    ],
+    "description": "Add and display responsive Countdown timer on your website.",
+    "dom": "link[href*='/wp-content/plugins/countdown-timer-ultimate/']",
+    "oss": true,
+    "website": "https://wordpress.org/plugins/countdown-timer-ultimate"
+  },
   "Countly": {
     "cats": [
       10
