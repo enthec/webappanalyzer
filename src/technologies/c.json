@@ -3875,6 +3875,7 @@
     "description": "Add and display responsive Countdown timer on your website.",
     "dom": "link[href*='/wp-content/plugins/countdown-timer-ultimate/']",
     "oss": true,
+    "requires": "WordPress",
     "website": "https://wordpress.org/plugins/countdown-timer-ultimate"
   },
   "Countly": {
