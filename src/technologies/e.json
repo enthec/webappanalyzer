@@ -1001,6 +1001,19 @@
     "scriptSrc": "/wp-content/plugins/youtube-embed-plus(?:-pro)?/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://www.embedplus.com"
   },
+  "EmbedPress": {
+    "cats": [
+      5,
+      87
+    ],
+    "description": "Embed videos, images, posts, audio, maps and upload PDF, DOC, PPT in Wordpress.",
+    "dom": "#embedpress-css, #embedpress-elementor-css-css, #embedpress_blocks-cgb-style-css-css, link[href*='/wp-content/plugins/embedpress/']",
+    "icon": "EmbedPress.png",
+    "oss": true,
+    "requires": "WordPress",
+    "scriptSrc": "embedpress(?:\\/assets)?(?:\\/js)?(?:\\/ads)?(?:\\/pdfobject)?(?:\\/front)?(?:\\/documents-viewer-script)?(?:\\/vimeo-player)?(?:\\/initplyr)?(?:\\/plyr)?(?:\\.polyfilled)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "website": "https://wordpress.org/plugins/embedpress"
+  },
   "EmbedSocial": {
     "cats": [
       5
