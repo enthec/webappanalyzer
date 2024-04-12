@@ -3806,7 +3806,7 @@
     "dom": "#cornerstone-generated-css",
     "oss": true,
     "requires": "WordPress",
-    "scriptSrc": "cornerstone(?:\\/assets)?(?:\\/js)?(?:\\/site)?(?:\\/cs-classic)?\\.?((?:\\d+\\.)+\\d+)?\\.js",
+    "scriptSrc": "cornerstone(?:\\/assets)?(?:\\/js)?(?:\\/site)?(?:\\/cs-classic)?\\.?((?:\\d+\\.)+\\d+)?\\.js\\;version:\\1",
     "website": "https://wordpress.org/plugins/cornerstone"
   },
   "Correos": {
