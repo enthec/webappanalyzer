@@ -993,7 +993,7 @@
       87
     ],
     "description": "Embed PDF, DOC, PPT and XLS documents easily on your WordPress website.",
-    "dom": "#awsm-ead-public-css link[href*='/wp-content/plugins/embed-any-document/']",
+    "dom": "#awsm-ead-public-css, link[href*='/wp-content/plugins/embed-any-document/']",
     "oss": true,
     "requires": "WordPress",
     "scriptSrc": "embed-any-document(?:\\/js)?(?:\\/embed-public)?(?:\\/pdfobject)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
