@@ -993,7 +993,7 @@
       87
     ],
     "description": "Embed a PDF from the Media Library or elsewhere via oEmbed.",
-    "dom": "#embed-pdf-viewer-css link[href*='/wp-content/plugins/embed-pdf-viewer/']",
+    "dom": "#embed-pdf-viewer-css, link[href*='/wp-content/plugins/embed-pdf-viewer/']",
     "oss": true,
     "requires": "WordPress",
     "website": "https://wordpress.org/plugins/embed-pdf-viewer"
