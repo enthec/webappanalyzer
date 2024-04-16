@@ -937,6 +937,19 @@
     "scriptSrc": "elqCfg\\.js",
     "website": "https://eloqua.com"
   },
+  "Email Encoder for Wordpress": {
+    "cats": [
+      5,
+      87
+    ],
+    "description": "Protect email addresses and phone numbers from spambots.",
+    "dom": "link#eeb-css-frontend-css, link[href*='/wp-content/plugins/email-encoder-bundle/']",
+    "icon": "Email Encoder for Wordpress.png",
+    "oss": true,
+    "requires": "WordPress",
+    "scriptSrc": "email-encoder-bundle(?:\\/core)?(?:\\/includes)?(?:\\/assets)?(?:\\/js)?(?:\\/custom)?(?:\\/encoder-form)?\\.js",
+    "website": "https://wordpress.org/plugins/email-encoder-bundle"
+  },
   "EmailJS": {
     "cats": [
       75
