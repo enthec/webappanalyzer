@@ -3808,6 +3808,18 @@
     ],
     "website": "https://corebine.com"
   },
+  "Cornerstone": {
+    "cats": [
+      5,
+      87
+    ],
+    "description": "Enhanced content management for WordPress.",
+    "dom": "#cornerstone-generated-css",
+    "oss": true,
+    "requires": "WordPress",
+    "scriptSrc": "cornerstone(?:\\/assets)?(?:\\/js)?(?:\\/site)?(?:\\/cs-classic)?\\.?((?:\\d+\\.)+\\d+)?\\.js\\;version:\\1",
+    "website": "https://wordpress.org/plugins/cornerstone"
+  },
   "Correos": {
     "cats": [
       99
