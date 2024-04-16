@@ -713,6 +713,19 @@
     "scriptSrc": "/wp-content/plugins/elementor(?:-pro)?/.+frontend-modules\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://elementor.com"
   },
+  "Elementor Addon Elements": {
+    "cats": [
+      5,
+      87
+    ],
+    "description": "Widgets and extensions to extend the Elementor Page Builder.",
+    "dom": "link[href*='/wp-content/plugins/addon-elements-for-elementor-page-builder/']",
+    "icon": "Elementor Addon Elements.png",
+    "oss": true,
+    "requires": "WordpPress",
+    "scriptSrc": "addon-elements-for-elementor-page-builder(?:\\/assets)?(?:\\/js)?(?:\\/lib)?(?:\\/animated-main)?(?:\\/build)?(?:\\/eae)?(?:\\/iconHelper)?(?:\\/index)?(?:\\/magnific)?(?:\\/particles)?(?:\\/vegas){0,2}(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "website": "https://wordpress.org/plugins/addon-elements-for-elementor-page-builder"
+  },
   "Elementor Cloud": {
     "cats": [
       88
