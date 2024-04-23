@@ -3372,6 +3372,18 @@
     "saas": true,
     "website": "https://www.contentstack.com"
   },
+  "Contextual Related Posts": {
+    "cats": [
+      5,
+      87
+    ],
+    "description": "Add related posts to your WordPress site with inbuilt caching.",
+    "dom": "link[href*='/wp-content/plugins/contextual-related-posts/']",
+    "icon": "Contextual Related Posts.png",
+    "oss": true,
+    "requires": "WordPress",
+    "website": "https://wordpress.org/plugins/contextual-related-posts/"
+  },
   "Contlo": {
     "cats": [
       90,
