@@ -3070,6 +3070,20 @@
     "scriptSrc": "/concrete/js/",
     "website": "https://www.concretecms.com/"
   },
+  "Conditional Fields for Contact Form 7": {
+    "cats": [
+      5,
+      87
+    ],
+    "description": "Adds conditional logic to Contact Form 7.",
+    "dom": "link[href*='/wp-content/plugins/cf7-conditional-fields/']",
+    "icon": "Conditional Fields for Contact Form 7.png",
+    "implies": "Contact Form 7",
+    "oss": true,
+    "requires": "WordPress",
+    "scriptSrc": "cf7-conditional-fields(?:\\/js)?(?:\\/scripts)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "website": "https://wordpress.org/plugins/cf7-conditional-fields"
+  },
   "Conekta": {
     "cats": [
       41
