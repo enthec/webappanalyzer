@@ -1280,6 +1280,26 @@
     "oss": true,
     "website": "https://mavo.io"
   },
+  "Max Mega Menu": {
+    "cats": [
+      5,
+      87
+    ],
+    "description": "Max Mega Menu is a popular WordPress plugin that enhances the menu functionality on WordPress websites.",
+    "dom": "link[href*='/wp-content/uploads/maxmegamenu/'], link[href*='/wp-content/plugins/megamenu-pro/'], link#megamenu-css, .mega-menu, .max-mega-menu, .mega-menu-megamenu, .mega-menu-primary, .mega-menu-item",
+    "icon": "Max Mega Menu.png",
+    "js": {
+      "megamenu": ""
+    },
+    "oss": true,
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "requires": "WordPress",
+    "scriptSrc": "(?:max)?megamenu(?:-pro)?(?:\\/assets)?(?:\\/public)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "website": "https://www.megamenu.com/"
+  },
   "MaxCDN": {
     "cats": [
       31
