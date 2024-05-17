@@ -2908,6 +2908,18 @@
     "scriptSrc": "/mt-includes/js/website(?:assets)?\\.(?:min)?\\.js",
     "website": "https://motocms.com"
   },
+  "Mountain": {
+    "cats": [
+      36
+    ],
+    "description": "MNTN Performance TV is a CTV advertising platform with targeting, measurement, and optimization for amplifying marketers' performance goals.",
+    "icon": "Mountain.png",
+    "scriptSrc": [
+      "dx\\.mountain\\.com",
+      "px\\.mountain\\.com"
+    ],
+    "website": "https://mountain.com/"
+  },
   "Mouse Flow": {
     "cats": [
       10
