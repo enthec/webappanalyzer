@@ -1536,6 +1536,17 @@
     "saas": true,
     "website": "https://www.meilisearch.com"
   },
+  "Meks ThemeForest Smart Widget": {
+    "cats": [
+      5,
+      87
+    ],
+    "description": "The Meks ThemeForest Smart Widget is a WordPress plugin available on WordPress.org. It appears to be a widget designed to integrate with ThemeForest, a popular marketplace for WordPress themes and templates.",
+    "dom": "link[href*='/wp-content/plugins/meks-themeforest-smart-widget/'], link#meks-themeforest-widget-css",
+    "oss": true,
+    "requires": "WordPress",
+    "website": "https://wordpress.org/plugins/meks-themeforest-smart-widget"
+  },
   "Melis Platform": {
     "cats": [
       1,
