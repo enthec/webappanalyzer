@@ -1536,6 +1536,18 @@
     "saas": true,
     "website": "https://www.meilisearch.com"
   },
+  "Meks Easy Social Share": {
+    "cats": [
+      5,
+      87
+    ],
+    "description": "Meks Easy Social Share is a WordPress plugin developed by Meks. This plugin is designed to help website owners and bloggers easily add social media sharing buttons to their WordPress websites.",
+    "dom": "link[href*='/wp-content/plugins/meks-easy-social-share/'], link#meks_ess-main-css",
+    "oss": true,
+    "requires": "WordPress",
+    "scriptSrc": "meks-easy-social-share\\/assets\\/js\\/main\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "website": "https://wordpress.org/plugins/meks-easy-social-share"
+  },
   "Melis Platform": {
     "cats": [
       1,
