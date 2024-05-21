@@ -1676,6 +1676,18 @@
     "scriptSrc": "/mermaid(?:\\.min)?\\.js",
     "website": "https://mermaidjs.github.io/"
   },
+  "Mesmerize Companion": {
+    "cats": [
+      5,
+      87
+    ],
+    "description": "The Mesmerize Companion is a WordPress plugin that enhances the Mesmerize theme by adding drag-and-drop page builder functionality.",
+    "dom": "link[href*='/wp-content/plugins/mesmerize-companion/'], link#companion-bundle-css",
+    "oss": true,
+    "requires": "WordPress",
+    "scriptSrc": "mesmerize-companion\\/theme-data\\/mesmerize\\/assets\\/js\\/companion(?:\\.bundle)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "website": "https://wordpress.org/plugins/mesmerize-companion"
+  },
   "MetaSlider": {
     "cats": [
       87
