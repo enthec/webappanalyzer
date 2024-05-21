@@ -1536,6 +1536,17 @@
     "saas": true,
     "website": "https://www.meilisearch.com"
   },
+  "Meks Simple Flickr Widget": {
+    "cats": [
+      5,
+      87
+    ],
+    "description": "Meks Simple Flickr Widget is a WordPress plugin created by Meks. This plugin is designed to help WordPress website owners easily integrate Flickr photo streams into their websites.",
+    "dom": "link[href*='/wp-content/plugins/meks-simple-flickr-widget/'], link#meks-flickr-widget-css",
+    "oss": true,
+    "requires": "WordPress",
+    "website": "https://wordpress.org/plugins/meks-simple-flickr-widget"
+  },
   "Melis Platform": {
     "cats": [
       1,
