@@ -2241,6 +2241,19 @@
     ],
     "website": "https://minero.cc/"
   },
+  "MiniOrange Login": {
+    "cats": [
+      5,
+      87
+    ],
+    "description": "Social Login with Discord, Facebook, Google, Twitter, LinkedIn and other apps.",
+    "dom": "link[href*='/wp-content/plugins/miniorange-login-openid/'], #js-cookie-script-js, #mo-social-login-script-js",
+    "icon": "MiniOrange Login.png",
+    "oss": true,
+    "requires": "WordPress",
+    "scriptSrc": "miniorange-login-openid\\/includes\\/js(?:\\/mo_openid_jquery)?(?:\\/mo-openid-social_login)?(?:\\/social_login)?(?:\\/jquery)?(?:\\.cookie)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "website": "https://wordpress.org/plugins/miniorange-login-openid"
+  },
   "MiniServ": {
     "cats": [
       22
