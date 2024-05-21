@@ -523,6 +523,25 @@
     "scriptSrc": "/wp-content/plugins/mailchimp-for-wp/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://www.mc4wp.com"
   },
+  "MailOptin": {
+    "cats": [
+      5,
+      87
+    ],
+    "description": "WordPress plugin to create email signup forms that convert visitors into subscribers combined with email automation and newsletter features.",
+    "icon": "MailOptin.png",
+    "js": {
+      "mailoptin_globals": ""
+    },
+    "oss": true,
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "requires": "WordPress",
+    "scriptSrc": "mailoptin(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "website": "https://mailoptin.io/"
+  },
   "Mailcheck": {
     "cats": [
       59
