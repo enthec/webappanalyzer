@@ -801,6 +801,22 @@
     "scriptSrc": "maplibre-gl@([\\d\\.]+)/dist/maplibre-gl\\.js\\;version:\\1",
     "website": "https://github.com/maplibre/maplibre-gl-js"
   },
+  "MapPress": {
+    "cats": [
+      5,
+      87
+    ],
+    "description": "MapPress is a WordPress plugin that provides easy integration of interactive maps into WordPress websites.",
+    "dom": "link[href*='wp-content/plugins/mappress-google-maps-for-wordpress/'], #mappress-leaflet-css, #mappress-css",
+    "icon": "MapPress.png",
+    "oss": true,
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "requires": "WordPress",
+    "website": "https://mappresspro.com"
+  },
   "Mapbox GL JS": {
     "cats": [
       35
@@ -1263,6 +1279,26 @@
     },
     "oss": true,
     "website": "https://mavo.io"
+  },
+  "Max Mega Menu": {
+    "cats": [
+      5,
+      87
+    ],
+    "description": "Max Mega Menu is a popular WordPress plugin that enhances the menu functionality on WordPress websites.",
+    "dom": "link[href*='/wp-content/uploads/maxmegamenu/'], link[href*='/wp-content/plugins/megamenu-pro/'], link#megamenu-css, .mega-menu, .max-mega-menu, .mega-menu-megamenu, .mega-menu-primary, .mega-menu-item",
+    "icon": "Max Mega Menu.png",
+    "js": {
+      "megamenu": ""
+    },
+    "oss": true,
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "requires": "WordPress",
+    "scriptSrc": "(?:max)?megamenu(?:-pro)?(?:\\/assets)?(?:\\/public)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "website": "https://www.megamenu.com/"
   },
   "MaxCDN": {
     "cats": [
@@ -2891,6 +2927,18 @@
     ],
     "scriptSrc": "/mt-includes/js/website(?:assets)?\\.(?:min)?\\.js",
     "website": "https://motocms.com"
+  },
+  "Mountain": {
+    "cats": [
+      36
+    ],
+    "description": "MNTN Performance TV is a CTV advertising platform with targeting, measurement, and optimization for amplifying marketers' performance goals.",
+    "icon": "Mountain.png",
+    "scriptSrc": [
+      "dx\\.mountain\\.com",
+      "px\\.mountain\\.com"
+    ],
+    "website": "https://mountain.com/"
   },
   "Mouse Flow": {
     "cats": [
