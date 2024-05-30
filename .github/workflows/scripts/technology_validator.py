@@ -126,18 +126,18 @@ class RegexValidator(abc.ABC, AbstractValidator):
         return True
 
     def _validate_regex(self, tech_name: str, data: Any) -> bool:
-        if type(data) == str:
+        if type(data) is str:
             try:
                 re.compile(data)
             except re.error as e:
                 self._set_custom_error(InvalidRegexException(f"Unable to compile regex '{data}' for tech '{tech_name}', got error: {e.msg}"))
                 return False
-        elif type(data) == dict:
+        elif type(data) is dict:
             for _, val in data.items():
                 valid: bool = self._validate_regex(tech_name, val)
                 if not valid:
                     return False
-        elif type(data) == list:
+        elif type(data) is list:
             for item in data:
                 valid: bool = self._validate_regex(tech_name, item)
                 if not valid:
