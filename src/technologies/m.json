@@ -1820,6 +1820,19 @@
     ],
     "website": "https://github.com/olton/Metro-UI-CSS"
   },
+  "Metronet Profile Picture": {
+    "cats": [
+      5,
+      87
+    ],
+    "description": "Set a custom profile image for a user using the standard WordPress media upload tool.",
+    "icon": "Metronet Profile Picture.png",
+    "dom": "link[href*='/wp-content/plugins/metronet-profile-picture/']",
+    "oss": true,
+    "requires": "WordPress",
+    "scriptSrc": "metronet-profile-picture(?:\\/js)?(?:\\/mpp-frontend)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "website": "https://wordpress.org/plugins/metronet-profile-picture/"
+  },
   "Mews": {
     "cats": [
       72
