@@ -3235,6 +3235,18 @@
     ],
     "website": "https://angularjs.org"
   },
+  "Animate It": {
+    "cats": [
+      87
+    ],
+    "description": "Animate It! adds CSS3 animations to your content.",
+    "dom": "link[href*='/wp-content/plugins/animate-it/']",
+    "icon": "Animate It.png",
+    "oss": true,
+    "requires": "WordPress",
+    "scriptSrc": "animate-it(?:\\/assets)?(?:\\/js)?(?:\\/animo)?(?:\\/edsanimate)?(?:\\/jquery)?(?:\\/viewportchecker)?(?:\\.ba-throttle-debounce)?(?:\\.min)?(?:\\.site)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "website": "https://wordpress.org/plugins/animate-it/"
+  },
   "Animate.css": {
     "cats": [
       66
