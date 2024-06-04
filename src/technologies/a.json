@@ -1954,6 +1954,21 @@
     ],
     "website": "https://www.afterpay.com/"
   },
+  "Age Gate": {
+    "cats": [
+      87
+    ],
+    "description": "A plugin to check the age of a visitor for Wordpress.",
+    "dom": "link[href*='/wp-content/plugins/age-gate/'], .age-gate, .age-gate-form, button[name='age_gate[confirm]']",
+    "icon": "Age Gate.png",
+    "js": {
+      "age_gate": ""
+    },
+    "oss": true,
+    "requires": "WordPress",
+    "scriptSrc": "age-gate(?:\\/dist)?(?:\\/all)?(?:\\/focus)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "website": "https://wordpress.org/plugins/age-gate"
+  },
   "Ahoy": {
     "cats": [
       10
