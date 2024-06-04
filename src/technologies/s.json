@@ -960,6 +960,18 @@
     "icon": "Sass.svg",
     "website": "https://sass-lang.com"
   },
+  "Sassy Social Share": {
+    "cats": [
+      5,
+      87
+    ],
+    "description": "Sassy Social Share allows your website visitors to share your content over Facebook, Twitter, Google, Linkedin, Whatsapp, Tumblr, Pinterest, Reddit, Gab, Gettr and over 110 more social sharing and bookmarking services.",
+    "dom": "link[href*='/wp-content/plugins/sassy-social-share/']",
+    "oss": true,
+    "requires": "WordPress",
+    "scriptSrc": "sassy-social-share(?:-public)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "website": "https://wordpress.org/plugins/sassy-social-share"
+  },
   "Satori": {
     "cats": [
       32
