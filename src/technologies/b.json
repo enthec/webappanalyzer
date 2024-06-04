@@ -559,6 +559,21 @@
     "scriptSrc": "\\.getbento\\.com/",
     "website": "https://getbento.com"
   },
+  "Better Click To Tweet": {
+    "cats": [
+      87
+    ],
+    "description": "Adds click to tweet boxes into your posts.",
+    "dom": "link[href*='/wp-content/plugins/better-click-to-tweet/']",
+    "icon": "Better Click To Tweet.png",
+    "oss": true,
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "requires": "WordPress",
+    "website": "https://wordpress.org/plugins/better-click-to-tweet/"
+  },
   "Better Price": {
     "cats": [
       100
