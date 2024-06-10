@@ -2018,6 +2018,17 @@
     "scriptSrc": "\\.beracode\\.com/",
     "website": "https://duopana.com"
   },
+  "Dynamic Conditions": {
+    "cats": [
+      5,
+      87
+    ],
+    "description": "Dynamic Conditions of Widgets is a cutting-edge WordPress plugin that extends the functionality of your website using conditional logic.",
+    "oss": true,
+    "requires": "WordPress",
+    "scriptSrc": "dynamic-conditions-public\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "website": "https://wordpress.org/plugins/dynamicconditions"
+  },
   "Dynamic Yield": {
     "cats": [
       74,
