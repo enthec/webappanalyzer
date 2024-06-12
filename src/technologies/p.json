@@ -27,7 +27,7 @@
     "icon": "PDF Embedder.png",
     "oss": true,
     "requires": "WordPress",
-    "scriptSrc": "pdf-embedder(?:\\/assets)?(?:\\/js)?(?:\\/min)?(?:\\/pdfjs)?(?:\\/pdf)?(?:\\/all-pdfemb)?(?:-basic)?(?:-min)?(?:-((?:\\d+\\.)+\\d+))?(?:\\.worker)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1\\2",
+    "scriptSrc": "pdf-embedder(?:\\/assets)?(?:\\/js)?(?:\\/min)?(?:\\/pdfjs)?(?:\\/pdf)?(?:\\/all-pdfemb)?(?:-basic)?(?:-min)?(?:-((?:\\d+\\.)+\\d+))?(?:\\.worker)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1\\;version:\\2",
     "website": "https://wordpress.org/plugins/pdf-embedder/"
   },
   "PDF.js": {
