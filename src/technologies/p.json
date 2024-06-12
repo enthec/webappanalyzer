@@ -318,6 +318,19 @@
     "scriptSrc": "cdn\\.pagefly\\.io",
     "website": "https://pagefly.io"
   },
+  "PageLayer": {
+    "cats": [
+      5,
+      87
+    ],
+    "description": "Drag and drop page builder for Wordpress.",
+    "dom": "link[href*='/wp-content/plugins/pagelayer/'], #pagelayer-frontend-css, #pagelayer-global-styles, .pagelayer-body, .pagelayer-header, .pagelayer-footer, .pagelayer-content",
+    "icon": "PageLayer.png",
+    "oss": true,
+    "requires": "WordPress",
+    "scriptSrc": "pagelayer(?:-frontend)?(?:\\/js)?(?:\\/combined)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "website": "https://wordpress.org/plugins/pagelayer"
+  },
   "Pagefai CMS": {
     "cats": [
       1
