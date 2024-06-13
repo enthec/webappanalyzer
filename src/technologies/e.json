@@ -1956,6 +1956,17 @@
     "scriptSrc": "ext-base\\.js",
     "website": "https://www.sencha.com"
   },
+  "Extendify": {
+    "cats": [
+      87
+    ],
+    "description": "Extendify is a popular platform used by WordPress site owners to create high-performing and highly-aesthetic websites with ease.",
+    "dom": "link[href*='/plugins/extendify/'], #extendify-utility-styles-css",
+    "icon": "Extendify.png",
+    "oss": true,
+    "requires": "WordPress",
+    "website": "https://extendify.com"
+  },
   "ExtendThemes Calliope": {
     "cats": [
       80
