@@ -363,6 +363,7 @@
     "cats": [
       31
     ],
+    "cpe": "cpe:2.3:a:fastly:fastly:*:*:*:*:*:*:*:*",
     "description": "Fastly is a cloud computing services provider. Fastly's cloud platform provides a content delivery network, Internet security services, load balancing, and video & streaming services.",
     "headers": {
       "Fastly-Debug-Digest": "",

@@ -1150,6 +1150,7 @@
       87,
       92
     ],
+    "cpe": "cpe:2.3:a:perfmatters:perfmatters:*:*:*:*:*:wordpress:*:*",
     "description": "Perfmatters is a performance optimisation plugin for WordPress websites.",
     "icon": "Perfmatters.svg",
     "pricing": [
@@ -1887,6 +1888,7 @@
       87,
       10
     ],
+    "cpe": "cpe:2.3:a:pixelyoursite:pixelyoursite:*:*:*:*:*:wordpress:*:*",
     "description": "PixelyourSite is now probably the most complex tracking tool for WordPress, managing the Facebook Pixel, Google Analytics, Google Ads Remarketing, Pinterest Tag, Bing Tag, and virtually any other script.",
     "icon": "PixelYourSite.png",
     "js": {
@@ -2232,6 +2234,7 @@
       5,
       68
     ],
+    "cpe": "cpe:2.3:a:plupload:plupload:*:*:*:*:*:*:*:*",
     "description": "Plupload is JavaScript API for building file uploaders.",
     "icon": "plupload.png",
     "oss": true,
@@ -2520,6 +2523,7 @@
     "cats": [
       10
     ],
+    "cpe": "cpe:2.3:a:posthog:posthog:*:*:*:*:*:*:*:*",
     "description": "PostHog is the open-source, all-in-one product analytics platform.",
     "icon": "PostHog.svg",
     "js": {
@@ -3151,6 +3155,7 @@
     "cats": [
       87
     ],
+    "cpe": "cpe:2.3:a:profilepress:profilepress:*:*:*:*:*:wordpress:*:*",
     "cookies": {
       "ppwp_wp_session": ""
     },
@@ -3700,6 +3705,7 @@
     "cats": [
       19
     ],
+    "cpe": "cpe:2.3:a:pyscript:pyscript:*:*:*:*:*:*:*:*",
     "description": "PyScript is a python script that can be run in the browser using a mix of Python and standard HTML.",
     "dom": "py-script",
     "icon": "PyScript.svg",
@@ -3846,6 +3852,7 @@
     "cats": [
       7
     ],
+    "cpe": "cpe:2.3:a:phpalbum:phpalbum:*:*:*:*:*:*:*:*",
     "description": "phpAlbum is an open-source PHP script which allows you to create your personal photo album.",
     "html": "<!--phpalbum ([.\\d\\s]+)-->\\;version:\\1",
     "icon": "phpAlbum.png",
@@ -3958,6 +3965,7 @@
     "cats": [
       1
     ],
+    "cpe": "cpe:2.3:a:phpsqlitecms:phpsqlitecms:*:*:*:*:*:*:*:*",
     "icon": "phpSQLiteCMS.png",
     "implies": [
       "PHP",
@@ -3973,6 +3981,7 @@
       1,
       2
     ],
+    "cpe": "cpe:2.3:a:phpwind:phpwind:*:*:*:*:*:*:*:*",
     "html": "(?:Powered|Code) by <a href=\"[^\"]+phpwind\\.net",
     "icon": "phpwind.png",
     "implies": "PHP",

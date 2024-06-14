@@ -403,6 +403,7 @@
       87,
       110
     ],
+    "cpe": "cpe:2.3:a:wpforms:wpforms:*:*:*:*:pro:wordpress:*:*",
     "description": "WPForms is a drag and drop WordPress form builder.",
     "icon": "WPForms.svg",
     "js": {
@@ -423,6 +424,7 @@
       87,
       89
     ],
+    "cpe": "cpe:2.3:a:wpml:wpml:*:*:*:*:*:wordpress:*:*",
     "cookies": {
       "wp-wpml_current_language": ""
     },
@@ -788,6 +790,7 @@
     "cats": [
       27
     ],
+    "cpe": "cpe:2.3:a:webassembly:webassembly:*:*:*:*:*:*:*:*",
     "description": "WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable compilation target for programming languages, enabling deployment on the web for client and server applications.",
     "headers": {
       "Content-Type": "application/wasm"
@@ -1158,6 +1161,7 @@
     "cats": [
       19
     ],
+    "cpe": "cpe:2.3:a:webmin:webmin:*:*:*:*:*:*:*:*",
     "description": "Webmin is a free, open-source application for Linux server administration.",
     "icon": "Webmin.png",
     "implies": "Perl",
@@ -1571,6 +1575,7 @@
     "cats": [
       8
     ],
+    "cpe": "cpe:2.3:a:wikkawiki:wikkawiki:*:*:*:*:*:*:*:*",
     "description": "WikkaWiki is an open-source wiki application written in PHP.",
     "html": "Powered by <a href=\"[^>]+WikkaWiki",
     "icon": "WikkaWiki.png",
@@ -1640,6 +1645,7 @@
       26,
       12
     ],
+    "cpe": "cpe:2.3:a:wink:wink:*:*:*:*:*:android:*:*",
     "description": "Wink Toolkit is a JavaScript toolkit used to build mobile web apps.",
     "icon": "Wink.png",
     "js": {
@@ -1870,6 +1876,7 @@
       6,
       87
     ],
+    "cpe": "cpe:2.3:a:woocommerce:woocommerce:*:*:*:*:*:wordpress:*:*",
     "description": "WooCommerce is an open-source ecommerce plugin for WordPress.",
     "dom": ".woocommerce, .woocommerce-no-js, link[rel*='woocommerce']",
     "icon": "WooCommerce.svg",
@@ -2167,6 +2174,7 @@
       87,
       16
     ],
+    "cpe": "cpe:2.3:a:wordfence:wordfence:*:*:*:*:*:wordpress:*:*",
     "description": "Wordfence is a security plugin for sites that use WordPress. Wordfence includes an endpoint firewall and malware scanner.",
     "icon": "Wordfence.svg",
     "js": {

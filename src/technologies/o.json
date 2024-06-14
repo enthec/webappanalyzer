@@ -962,6 +962,7 @@
     "cats": [
       59
     ],
+    "cpe": "cpe:2.3:a:opencv:opencv:*:*:*:*:*:*:*:*",
     "description": "OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library.",
     "icon": "OpenCV.svg",
     "implies": "WebAssembly",
@@ -1125,6 +1126,7 @@
     "cats": [
       35
     ],
+    "cpe": "cpe:2.3:a:openstreetmap:openstreetmap:*:*:*:*:*:wordpress:*:*",
     "description": "OpenStreetMap is a free, editable map of the whole world that is being built by volunteers largely from scratch and released with an open-content license.",
     "dom": "iframe[src*='openstreetmap.org'],iframe[data-lazy-src*='openstreetmap.org']",
     "icon": "OpenStreetMap.svg",
@@ -1997,6 +1999,7 @@
     "cats": [
       13
     ],
+    "cpe": "cpe:2.3:a:otrs:otrs:*:*:*:*:*:*:*:*",
     "headers": {
       "X-Powered-By": "OTRS ([\\d.]+)\\;version:\\1"
     },
@@ -2010,6 +2013,7 @@
     "cats": [
       19
     ],
+    "cpe": "cpe:2.3:a:owncloud:owncloud:*:*:*:*:*:*:*:*",
     "html": "<a href=\"https://owncloud\\.com\" target=\"_blank\">ownCloud Inc\\.</a><br/>Your Cloud, Your Data, Your Way!",
     "icon": "ownCloud.png",
     "implies": "PHP",

@@ -6612,6 +6612,7 @@
     "cats": [
       1
     ],
+    "cpe": "cpe:2.3:a:strikingly:strikingly:*:*:*:*:*:*:*:*",
     "html": "<!-- Powered by Strikingly\\.com",
     "icon": "Strikingly.png",
     "website": "https://strikingly.com"
@@ -6620,6 +6621,7 @@
     "cats": [
       41
     ],
+    "cpe": "cpe:2.3:a:stripe:stripe:*:*:*:*:*:*:*:*",
     "cookies": {
       "__stripe_mid": "",
       "__stripe_sid": ""
@@ -7479,6 +7481,7 @@
     "cats": [
       59
     ],
+    "cpe": "cpe:2.3:a:script.aculo.us:script.aculo.us:*:*:*:*:*:*:*:*",
     "icon": "script.aculo.us.png",
     "js": {
       "Scriptaculous.Version": "^(.+)$\\;version:\\1"

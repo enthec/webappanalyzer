@@ -806,6 +806,7 @@
     "cats": [
       6
     ],
+    "cpe": "cpe:2.3:a:virtuemart:virtuemart:*:*:*:*:*:joomla\\!:*:*",
     "html": "<div id=\"vmMainPage",
     "icon": "VirtueMart.png",
     "implies": "Joomla",

@@ -2065,6 +2065,7 @@
     "cats": [
       10
     ],
+    "cpe": "cpe:2.3:a:grafana:grafana:*:*:*:*:*:*:*:*",
     "description": "Grafana is a multi-platform open source analytics and interactive visualisation web application.",
     "icon": "Grafana.svg",
     "implies": [
@@ -2167,6 +2168,7 @@
     "cats": [
       27
     ],
+    "cpe": "cpe:2.3:a:graphql:graphql:*:*:*:*:*:*:*:*",
     "description": "GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data.",
     "icon": "GraphQL.svg",
     "meta": {
@@ -2603,6 +2605,7 @@
     "cats": [
       22
     ],
+    "cpe": "cpe:2.3:a:gunicorn:gunicorn:*:*:*:*:*:*:*:*",
     "headers": {
       "Server": "gunicorn(?:/([\\d.]+))?\\;version:\\1"
     },

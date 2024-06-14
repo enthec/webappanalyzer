@@ -2866,6 +2866,7 @@
       87,
       10
     ],
+    "cpe": "cpe:2.3:a:monsterinsights:monsterinsights:*:*:*:*:*:wordpress:*:*",
     "description": "MonsterInsights is the most popular Google Analytics plugin for WordPress.",
     "icon": "MonsterInsights.png",
     "js": {
@@ -2885,6 +2886,7 @@
     "cats": [
       12
     ],
+    "cpe": "cpe:2.3:a:mootools:mootools:*:*:*:*:*:*:*:*",
     "icon": "MooTools.png",
     "js": {
       "MooTools": "",
@@ -2986,6 +2988,7 @@
     "cats": [
       1
     ],
+    "cpe": "cpe:2.3:a:motocms:motocms:*:*:*:*:*:*:*:*",
     "html": "<link [^>]*href=\"[^>]*\\/mt-content\\/[^>]*\\.css",
     "icon": "MotoCMS.svg",
     "implies": [

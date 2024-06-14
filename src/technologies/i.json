@@ -1513,6 +1513,7 @@
     "cats": [
       8
     ],
+    "cpe": "cpe:2.3:a:ikiwiki:ikiwiki:*:*:*:*:*:*:*:*",
     "description": "ikiwiki is a free and open-source wiki application.",
     "html": [
       "<link rel=\"alternate\" type=\"application/x-wiki\" title=\"Edit this page\" href=\"[^\"]*/ikiwiki\\.cgi",

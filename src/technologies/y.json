@@ -60,6 +60,7 @@
     "cats": [
       2
     ],
+    "cpe": "cpe:2.3:a:yabb:yabb:*:*:*:*:*:*:*:*",
     "html": "Powered by <a href=\"[^>]+yabbforum",
     "icon": "YaBB.png",
     "website": "https://www.yabbforum.com"
@@ -271,6 +272,7 @@
     "cats": [
       22
     ],
+    "cpe": "cpe:2.3:a:yaws:yaws:*:*:*:*:*:*:*:*",
     "description": "Yaws (Yet Another Web Server) is an open-source web server designed to deliver dynamic content efficiently. It was developed by Claes (klacke) Wikström and is written in Erlang, a functional programming language.",
     "headers": {
       "Server": "Yaws(?: ([\\d.]+))?\\;version:\\1"

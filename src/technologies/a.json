@@ -177,6 +177,7 @@
     "cats": [
       87
     ],
+    "cpe": "cpe:2.3:a:ampforwp:accelerated_mobile_pages:*:*:*:*:*:wordpress:*:*",
     "description": "AMP for WordPress automatically adds Accelerated Mobile Pages (Google AMP Project) functionality to your WordPress site.",
     "dom": "link[href*='/wp-content/plugins/amp/']",
     "icon": "Accelerated-Mobile-Pages.svg",
@@ -315,6 +316,7 @@
     "cats": [
       70
     ],
+    "cpe": "cpe:2.3:a:awstats:awstats:*:*:*:*:*:*:*:*",
     "certIssuer": "Amazon",
     "description": "AWS Certificate Manager is a service that lets you easily provision, manage, and deploy public and private Secure Sockets Layer/Transport Layer Security (SSL/TLS) certificates for use with AWS services and your internal connected resources.",
     "icon": "AWS Certificate Manager.svg",
@@ -4981,6 +4983,7 @@
     "cats": [
       59
     ],
+    "cpe": "cpe:2.3:a:axios:axios:*:*:*:*:*:node.js:*:*",
     "description": "Promise based HTTP client for the browser and node.js",
     "icon": "Axios.svg",
     "js": {

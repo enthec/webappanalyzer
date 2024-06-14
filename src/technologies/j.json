@@ -444,6 +444,7 @@
     "cats": [
       52
     ],
+    "cpe": "cpe:2.3:a:jitsi:jitsi:*:*:*:*:*:*:*:*",
     "description": "Jitsi is a free and open-source multiplatform voice (VoIP), videoconferencing and instant messaging applications for the web platform.",
     "icon": "Jitsi.png",
     "scriptSrc": "lib-jitsi-meet.*\\.js",
@@ -467,6 +468,7 @@
     "cats": [
       52
     ],
+    "cpe": "cpe:2.3:a:jivochat:jivochat:*:*:*:*:*:*:*:*",
     "description": "JivoChat is a live chat solution for websites offering customizable web and mobile chat widgets.",
     "icon": "JivoChat.png",
     "js": {
