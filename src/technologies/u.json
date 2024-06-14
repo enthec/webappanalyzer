@@ -69,6 +69,7 @@
     "cats": [
       28
     ],
+    "cpe": "cpe:2.3:o:unix:unix:*:*:*:*:*:*:*:*",
     "description": "Unix is a family of multitasking, multiuser computer operating systems.",
     "headers": {
       "Server": "Unix"
@@ -269,6 +270,7 @@
     "cats": [
       1
     ],
+    "cpe": "cpe:2.3:a:umbraco:umbraco:*:*:*:*:*:*:*:*",
     "cookies": {
       "merchello": "\\;version:7"
     },

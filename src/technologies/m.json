@@ -2986,6 +2986,7 @@
     "cats": [
       1
     ],
+    "cpe": "cpe:2.3:a:motocms:motocms:*:*:*:*:*:*:*:*",
     "html": "<link [^>]*href=\"[^>]*\\/mt-content\\/[^>]*\\.css",
     "icon": "MotoCMS.svg",
     "implies": [

@@ -877,6 +877,7 @@
     "cats": [
       41
     ],
+    "cpe": "cpe:2.3:a:bitcoin:bitcoin:*:*:*:*:*:*:*:*",
     "description": "Bitcoin is a decentralized digital currency, without a central bank or single administrator, that can be sent from user to user on the peer-to-peer bitcoin network without the need for intermediaries.",
     "dom": "[aria-labelledby='pi-bitcoin']",
     "icon": "Bitcoin.svg",

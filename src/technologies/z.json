@@ -671,6 +671,7 @@
     "cats": [
       22
     ],
+    "cpe": "cpe:2.3:a:zope:zope:*:*:*:*:*:*:*:*",
     "headers": {
       "Server": "^Zope/"
     },

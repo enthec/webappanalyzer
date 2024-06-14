@@ -625,6 +625,7 @@
     "cats": [
       22
     ],
+    "cpe": "cpe:2.3:a:deno:deno:*:*:*:*:*:*:*:*",
     "description": "A modern runtime for JavaScript and TypeScript.",
     "icon": "deno.svg",
     "oss": true,
@@ -1798,6 +1799,7 @@
     "cats": [
       95
     ],
+    "cpe": "cpe:2.3:a:dropbox:dropbox:*:*:*:*:*:*:*:*",
     "dns": {
       "TXT": "dropbox-domain-verification"
     },

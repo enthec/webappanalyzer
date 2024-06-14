@@ -1997,6 +1997,7 @@
     "cats": [
       13
     ],
+    "cpe": "cpe:2.3:a:otrs:otrs:*:*:*:*:*:*:*:*",
     "headers": {
       "X-Powered-By": "OTRS ([\\d.]+)\\;version:\\1"
     },
@@ -2010,6 +2011,7 @@
     "cats": [
       19
     ],
+    "cpe": "cpe:2.3:a:owncloud:owncloud:*:*:*:*:*:*:*:*",
     "html": "<a href=\"https://owncloud\\.com\" target=\"_blank\">ownCloud Inc\\.</a><br/>Your Cloud, Your Data, Your Way!",
     "icon": "ownCloud.png",
     "implies": "PHP",

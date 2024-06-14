@@ -2603,6 +2603,7 @@
     "cats": [
       22
     ],
+    "cpe": "cpe:2.3:a:gunicorn:gunicorn:*:*:*:*:*:*:*:*",
     "headers": {
       "Server": "gunicorn(?:/([\\d.]+))?\\;version:\\1"
     },

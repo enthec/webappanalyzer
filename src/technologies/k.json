@@ -571,6 +571,7 @@
     "cats": [
       16
     ],
+    "cpe": "cpe:2.3:a:keybase:keybase:*:*:*:*:*:*:*:*",
     "description": "Keybase is for keeping everyone's chats and files safe, from families to communities to companies. MacOS, Windows, Linux, iPhone, and Android.",
     "dns": {
       "TXT": [

@@ -802,6 +802,7 @@
     "cats": [
       57
     ],
+    "cpe": "cpe:2.3:a:hexo:hexo:*:*:*:*:*:node.js:*:*",
     "description": "Hexo is a blog framework powered by Node.js.",
     "html": [
       "Powered by <a href=\"https?://hexo\\.io/?\"[^>]*>Hexo</"
@@ -1191,6 +1192,7 @@
     "cats": [
       88
     ],
+    "cpe": "cpe:2.3:a:hostinger:hostinger:*:*:*:*:*:*:*:*",
     "description": "Hostinger is an employee-owned Web hosting provider and internet domain registrar.",
     "dns": {
       "SOA": "\\.(?:dns-parking|hostinger)\\.com"

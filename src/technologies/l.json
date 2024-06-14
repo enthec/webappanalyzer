@@ -2081,6 +2081,7 @@
     "cats": [
       22
     ],
+    "cpe": "cpe:2.3:a:lighttpd:lighttpd:*:*:*:*:*:*:*:*",
     "description": "Lighttpd is an open-source web server optimised for speed-critical environment.",
     "headers": {
       "Server": "(?:L|l)ight(?:y)?(?:tpd)?(?:/([\\d\\.]+))?\\;version:\\1"

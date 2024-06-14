@@ -7479,6 +7479,7 @@
     "cats": [
       59
     ],
+    "cpe": "cpe:2.3:a:script.aculo.us:script.aculo.us:*:*:*:*:*:*:*:*",
     "icon": "script.aculo.us.png",
     "js": {
       "Scriptaculous.Version": "^(.+)$\\;version:\\1"

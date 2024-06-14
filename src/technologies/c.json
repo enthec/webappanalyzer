@@ -2188,6 +2188,7 @@
     "cats": [
       31
     ],
+    "cpe": "cpe:2.3:a:cloudflare:cloudflare:*:*:*:*:*:*:*:*",
     "cookies": {
       "__cfduid": ""
     },

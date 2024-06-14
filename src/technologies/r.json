@@ -2237,6 +2237,7 @@
     "cats": [
       52
     ],
+    "cpe": "cpe:2.3:a:rocket.chat:rocket.chat:*:*:*:*:*:*:*:*",
     "description": "Rocket.Chat is a communication hub that facilitates team collaboration and organizes conversations.",
     "icon": "Rocket.Chat.svg",
     "js": {

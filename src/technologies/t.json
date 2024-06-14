@@ -3336,6 +3336,7 @@
     "cats": [
       76
     ],
+    "cpe": "cpe:2.3:a:twiki:twiki:-:*:*:*:*:*:*:*",
     "description": "Twik provides a automated, no-configuration business intelligence & personalization automation engine.",
     "icon": "Twik.svg",
     "js": {

@@ -253,6 +253,7 @@
     "cats": [
       15
     ],
+    "cpe": "cpe:2.3:a:question2answer:question2answer:*:*:*:*:*:*:*:*",
     "description": "Question2Answer (Q2A) is a popular open-source Q&A platform for PHP/MySQL.",
     "html": "<!-- Powered by Question2Answer",
     "icon": "question2answer.png",
