@@ -1322,6 +1322,7 @@
     "cats": [
       52
     ],
+    "cpe": "cpe:2.3:a:livezilla:livezilla:*:*:*:*:*:*:*:*",
     "description": "LiveZilla is a web-based live support platform.",
     "dom": "#lz_overlay_chat",
     "icon": "LiveZilla.png",

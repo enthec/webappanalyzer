@@ -56,6 +56,7 @@
     "cats": [
       1
     ],
+    "cpe": "cpe:2.3:a:redaxo:redaxo:*:*:*:*:*:*:*:*",
     "description": "REDAXO is a content management system that provides business optimisation through web projects and output codes.",
     "icon": "REDAXO.png",
     "implies": "PHP",

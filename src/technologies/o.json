@@ -962,6 +962,7 @@
     "cats": [
       59
     ],
+    "cpe": "cpe:2.3:a:opencv:opencv:*:*:*:*:*:*:*:*",
     "description": "OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library.",
     "icon": "OpenCV.svg",
     "implies": "WebAssembly",
@@ -1125,6 +1126,7 @@
     "cats": [
       35
     ],
+    "cpe": "cpe:2.3:a:openstreetmap:openstreetmap:*:*:*:*:*:wordpress:*:*",
     "description": "OpenStreetMap is a free, editable map of the whole world that is being built by volunteers largely from scratch and released with an open-content license.",
     "dom": "iframe[src*='openstreetmap.org'],iframe[data-lazy-src*='openstreetmap.org']",
     "icon": "OpenStreetMap.svg",

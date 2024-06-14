@@ -2342,6 +2342,7 @@
     "cats": [
       6
     ],
+    "cpe": "cpe:2.3:a:tomatocart:tomatocart:*:*:*:*:*:*:*:*",
     "icon": "TomatoCart.png",
     "js": {
       "AjaxShoppingCart": ""
