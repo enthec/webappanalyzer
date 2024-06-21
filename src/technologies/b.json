@@ -14,7 +14,9 @@
       12
     ],
     "description": "BEM (Block, Element, Modifier) is a naming convention for classes in HTML and CSS what was developed by Yandex.",
-    "html": "<[^>]+data-bem",
+    "html": [
+      "<[^>]+data-bem"
+    ],
     "icon": "BEM.png",
     "oss": true,
     "website": "https://en.bem.info"
@@ -807,7 +809,9 @@
       "bigwareCsid": ""
     },
     "cpe": "cpe:2.3:a:bigware:bigware_shop:*:*:*:*:*:*:*:*",
-    "html": "(?:Diese <a href=[^>]+bigware\\.de|<a href=[^>]+/main_bigware_\\d+\\.php)",
+    "html": [
+      "(?:Diese <a href=[^>]+bigware\\.de|<a href=[^>]+/main_bigware_\\d+\\.php)"
+    ],
     "icon": "Bigware.png",
     "implies": "PHP",
     "url": "(?:\\?|&)bigWAdminID=",
@@ -1019,7 +1023,9 @@
     "headers": {
       "X-Powered-By": "^Blitz$"
     },
-    "html": "<!-- Cached by Blitz on",
+    "html": [
+      "<!-- Cached by Blitz on"
+    ],
     "icon": "Blitz.svg",
     "implies": "Craft CMS",
     "js": {
@@ -1110,7 +1116,9 @@
     "cats": [
       1
     ],
-    "html": "<[^>]+/binaries/(?:[^/]+/)*content/gallery/",
+    "html": [
+      "<[^>]+/binaries/(?:[^/]+/)*content/gallery/"
+    ],
     "icon": "Bloomreach.svg",
     "website": "https://developers.bloomreach.com"
   },
@@ -1649,7 +1657,9 @@
     "cookies": {
       "bf_session": ""
     },
-    "html": "Powered by <a[^>]+href=\"https?://(?:www\\.)?cibonfire\\.com[^>]*>Bonfire v([^<]+)\\;version:\\1",
+    "html": [
+      "Powered by <a[^>]+href=\"https?://(?:www\\.)?cibonfire\\.com[^>]*>Bonfire v([^<]+)\\;version:\\1"
+    ],
     "icon": "Bonfire.png",
     "implies": "CodeIgniter",
     "website": "https://cibonfire.com"
@@ -1947,7 +1957,9 @@
     "cats": [
       59
     ],
-    "html": "<link[^>]+href=\"[^>]*bootstrap-table(?:\\.min)?\\.css",
+    "html": [
+      "<link[^>]+href=\"[^>]*bootstrap-table(?:\\.min)?\\.css"
+    ],
     "icon": "Bootstrap Table.svg",
     "implies": [
       "Bootstrap",
@@ -2228,7 +2240,9 @@
       87
     ],
     "description": "Breadcrumb NavXT is a WordPress plugin compatible with WordPress versions 4.9 and up.",
-    "html": "<!-- Breadcrumb NavXT ([\\d\\.]+)\\;version:\\1",
+    "html": [
+      "<!-- Breadcrumb NavXT ([\\d\\.]+)\\;version:\\1"
+    ],
     "icon": "Breadcrumb NavXT.svg",
     "oss": true,
     "requires": "WordPress",
@@ -2724,7 +2738,9 @@
     "cats": [
       1
     ],
-    "html": "<!-- BC_OBNW -->",
+    "html": [
+      "<!-- BC_OBNW -->"
+    ],
     "icon": "Business Catalyst.svg",
     "scriptSrc": "CatalystScripts",
     "website": "https://businesscatalyst.com"

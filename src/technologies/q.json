@@ -255,7 +255,9 @@
     ],
     "cpe": "cpe:2.3:a:question2answer:question2answer:*:*:*:*:*:*:*:*",
     "description": "Question2Answer (Q2A) is a popular open-source Q&A platform for PHP/MySQL.",
-    "html": "<!-- Powered by Question2Answer",
+    "html": [
+      "<!-- Powered by Question2Answer"
+    ],
     "icon": "question2answer.png",
     "implies": "PHP",
     "scriptSrc": "\\./qa-content/qa-page\\.js\\?([0-9.]+)\\;version:\\1",
@@ -283,7 +285,9 @@
       1
     ],
     "cpe": "cpe:2.3:a:opensolution:quick.cms:*:*:*:*:*:*:*:*",
-    "html": "<a href=\"[^>]+opensolution\\.org/\">CMS by",
+    "html": [
+      "<a href=\"[^>]+opensolution\\.org/\">CMS by"
+    ],
     "icon": "Quick.CMS.png",
     "meta": {
       "generator": "Quick\\.CMS(?: v([\\d.]+))?\\;version:\\1"
@@ -294,7 +298,9 @@
     "cats": [
       6
     ],
-    "html": "<a href=\"[^>]+opensolution\\.org/\">(?:Shopping cart by|Sklep internetowy)",
+    "html": [
+      "<a href=\"[^>]+opensolution\\.org/\">(?:Shopping cart by|Sklep internetowy)"
+    ],
     "icon": "Quick.Cart.png",
     "meta": {
       "generator": "Quick\\.Cart(?: v([\\d.]+))?\\;version:\\1"

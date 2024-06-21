@@ -41,7 +41,9 @@
       29
     ],
     "description": "FAST ESP is a service-oriented architecture development platform which is geared towards production searchable indexes. It provided a flexible framework for creating ETL applications for efficient indexing of searchable content.",
-    "html": "<form[^>]+id=\"fastsearch\"",
+    "html": [
+      "<form[^>]+id=\"fastsearch\""
+    ],
     "icon": "FAST ESP.png",
     "website": "https://microsoft.com/enterprisesearch"
   },
@@ -50,7 +52,9 @@
       29
     ],
     "description": "FAST Search for SharePoint is the search engine for Microsoft's SharePoint collaboration platform. Its purpose is helping SharePoint users locate and retrieve stored enterprise content.",
-    "html": "<input[^>]+ name=\"ParametricSearch",
+    "html": [
+      "<input[^>]+ name=\"ParametricSearch"
+    ],
     "icon": "FAST Search for SharePoint.png",
     "implies": [
       "Microsoft SharePoint",
@@ -176,7 +180,9 @@
       29
     ],
     "description": "Fact Finder is a platform which, combines search, navigation, and merchandising solutions to streamline online search and power sales.",
-    "html": "<!-- Factfinder",
+    "html": [
+      "<!-- Factfinder"
+    ],
     "icon": "Fact Finder.png",
     "scriptSrc": "Suggest\\.ff",
     "url": "(?:/ViewParametricSearch|ffsuggest\\.[a-z]htm)",
@@ -266,7 +272,9 @@
     "cats": [
       1
     ],
-    "html": "<!-- Powered by FaraPy.",
+    "html": [
+      "<!-- Powered by FaraPy."
+    ],
     "icon": "FaraPy.png",
     "implies": "Python",
     "website": "https://faral.tech"
@@ -277,7 +285,9 @@
       72
     ],
     "description": "FareHarbor is an booking and schedule management solution intended for tour and activity companies.",
-    "html": "<iframe[^>]+fareharbor",
+    "html": [
+      "<iframe[^>]+fareharbor"
+    ],
     "icon": "FareHarbor.svg",
     "pricing": [
       "poa"
@@ -853,7 +863,10 @@
     "website": "https://www.fitanalytics.com"
   },
   "FitVids.JS": {
-    "cats": [5, 14],
+    "cats": [
+      5,
+      14
+    ],
     "description": "jQuery plugin for fluid width video embeds",
     "icon": "FitVids.JS.png",
     "scriptSrc": [
@@ -887,7 +900,9 @@
     ],
     "cpe": "cpe:2.3:a:flarum:flarum:*:*:*:*:*:*:*:*",
     "description": "Flarum is a discussion platform.",
-    "html": "<div id=\"flarum-loading\"",
+    "html": [
+      "<div id=\"flarum-loading\""
+    ],
     "icon": "flarum.png",
     "implies": [
       "PHP",
@@ -918,7 +933,9 @@
     "cats": [
       66
     ],
-    "html": "<link[^>]* href=[^>]+flat-ui(?:\\.min)?\\.css",
+    "html": [
+      "<link[^>]* href=[^>]+flat-ui(?:\\.min)?\\.css"
+    ],
     "icon": "Flat UI.png",
     "implies": "Bootstrap",
     "website": "https://designmodo.github.io/Flat-UI/"
@@ -970,7 +987,9 @@
       "X-Flex-Lang": "",
       "X-Powered-By": "FlexCMP.+\\[v\\. ([\\d.]+)\\;version:\\1"
     },
-    "html": "<!--[^>]+FlexCMP[^>v]+v\\. ([\\d.]+)\\;version:\\1",
+    "html": [
+      "<!--[^>]+FlexCMP[^>v]+v\\. ([\\d.]+)\\;version:\\1"
+    ],
     "icon": "FlexCMP.png",
     "meta": {
       "generator": "^FlexCMP"
@@ -1157,7 +1176,9 @@
       2
     ],
     "cpe": "cpe:2.3:a:fluxbb:fluxbb:*:*:*:*:*:*:*:*",
-    "html": "<p id=\"poweredby\">[^<]+<a href=\"https?://fluxbb\\.org/\">",
+    "html": [
+      "<p id=\"poweredby\">[^<]+<a href=\"https?://fluxbb\\.org/\">"
+    ],
     "icon": "FluxBB.png",
     "implies": "PHP",
     "website": "https://fluxbb.org"
@@ -1243,7 +1264,9 @@
     "cookies": {
       "flyspray_project": ""
     },
-    "html": "(?:<a[^>]+>Powered by Flyspray|<map id=\"projectsearchform)",
+    "html": [
+      "(?:<a[^>]+>Powered by Flyspray|<map id=\"projectsearchform)"
+    ],
     "icon": "Flyspray.png",
     "implies": "PHP",
     "website": "https://flyspray.org"
@@ -1648,7 +1671,9 @@
     "cats": [
       6
     ],
-    "html": "(?:<link [^>]*href=\"[^\\/]*\\/\\/www\\.fortune3\\.com\\/[^\"]*siterate\\/rate\\.css|Powered by <a [^>]*href=\"[^\"]+fortune3\\.com)",
+    "html": [
+      "(?:<link [^>]*href=\"[^\\/]*\\/\\/www\\.fortune3\\.com\\/[^\"]*siterate\\/rate\\.css|Powered by <a [^>]*href=\"[^\"]+fortune3\\.com)"
+    ],
     "icon": "Fortune3.png",
     "scriptSrc": "cartjs\\.php\\?(?:.*&)?s=[^&]*myfortune3cart\\.com",
     "website": "https://fortune3.com"
@@ -1884,7 +1909,9 @@
       24
     ],
     "description": "FreeTextBox is a free open-source HTML Editor.",
-    "html": "<!-- \\* FreeTextBox v\\d \\((\\d+\\.\\d+\\.\\d+)\\;version:\\1",
+    "html": [
+      "<!-- \\* FreeTextBox v\\d \\((\\d+\\.\\d+\\.\\d+)\\;version:\\1"
+    ],
     "icon": "FreeTextBox.png",
     "implies": "Microsoft ASP.NET",
     "js": {

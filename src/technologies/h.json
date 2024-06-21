@@ -172,7 +172,9 @@
       4
     ],
     "description": "Haddock is a tool for automatically generating documentation from annotated Haskell source code.",
-    "html": "<p>Produced by <a href=\"http://www\\.haskell\\.org/haddock/\">Haddock</a> version ([0-9.]+)</p>\\;version:\\1",
+    "html": [
+      "<p>Produced by <a href=\"http://www\\.haskell\\.org/haddock/\">Haddock</a> version ([0-9.]+)</p>\\;version:\\1"
+    ],
     "scriptSrc": "haddock-util\\.js",
     "website": "https://www.haskell.org/haddock/"
   },
@@ -425,7 +427,9 @@
     "cats": [
       59
     ],
-    "html": "<[^>]*data-headjs-load",
+    "html": [
+      "<[^>]*data-headjs-load"
+    ],
     "icon": "HeadJS.png",
     "js": {
       "head.browser.name": ""
@@ -915,7 +919,9 @@
       25
     ],
     "description": "Highcharts is a charting library written in pure JavaScript, for adding interactive charts to a website or web application. Highcharts meets accessibility standards and works with Python, Angular, React, iOS, Android, and more.",
-    "html": "<svg[^>]*><desc>Created with Highcharts ([\\d.]*)\\;version:\\1",
+    "html": [
+      "<svg[^>]*><desc>Created with Highcharts ([\\d.]*)\\;version:\\1"
+    ],
     "icon": "Highcharts.svg",
     "js": {
       "Highcharts": "",
@@ -940,7 +946,9 @@
     "cats": [
       25
     ],
-    "html": "<svg[^>]*><desc>Created with Highstock ([\\d.]*)\\;version:\\1",
+    "html": [
+      "<svg[^>]*><desc>Created with Highstock ([\\d.]*)\\;version:\\1"
+    ],
     "icon": "Highcharts.svg",
     "scriptSrc": "highstock[.-]?([\\d\\.]*\\d).*\\.js\\;version:\\1",
     "website": "https://highcharts.com/products/highstock"
@@ -1386,7 +1394,9 @@
         "hubspot-domain-verification"
       ]
     },
-    "html": "<!-- Start of Async HubSpot",
+    "html": [
+      "<!-- Start of Async HubSpot"
+    ],
     "icon": "HubSpot.svg",
     "js": {
       "_hsq": "",

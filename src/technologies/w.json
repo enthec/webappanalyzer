@@ -8,7 +8,9 @@
     "headers": {
       "X-Powered-By": "W3 Total Cache(?:/([\\d.]+))?\\;version:\\1"
     },
-    "html": "<!--[^>]+W3 Total Cache",
+    "html": [
+      "<!--[^>]+W3 Total Cache"
+    ],
     "icon": "W3 Total Cache.png",
     "requires": "WordPress",
     "website": "https://www.w3-edge.com/wordpress-plugins/w3-total-cache"
@@ -39,7 +41,9 @@
     "headers": {
       "WebDevSrc": ""
     },
-    "html": "<!-- [a-zA-Z0-9_]+ [\\d/]+ [\\d:]+ WebDev \\d\\d ([\\d.]+) -->\\;version:\\1",
+    "html": [
+      "<!-- [a-zA-Z0-9_]+ [\\d/]+ [\\d:]+ WebDev \\d\\d ([\\d.]+) -->\\;version:\\1"
+    ],
     "icon": "webdev.png",
     "meta": {
       "generator": "^WEBDEV$"
@@ -286,7 +290,9 @@
       "X-Powered-By": "WP Rocket(?:/([\\d.]+))?\\;version:\\1",
       "X-Rocket-Nginx-Bypass": ""
     },
-    "html": "<!--[^>]+WP Rocket",
+    "html": [
+      "<!--[^>]+WP Rocket"
+    ],
     "icon": "WP Rocket.png",
     "js": {
       "RocketLazyLoadScripts": "",
@@ -308,7 +314,9 @@
       92
     ],
     "description": "WP-Optimize is an all-in-one WordPress plugin that cleans your database, compresses your large images and caches your site.",
-    "html": "<!--[^>]+Cached by WP-Optimize",
+    "html": [
+      "<!--[^>]+Cached by WP-Optimize"
+    ],
     "icon": "WP-Optimize.png",
     "pricing": [
       "freemium",
@@ -370,7 +378,9 @@
     ],
     "description": "WP-Statistics is a WordPress plugin which allows you to know your website statistics.",
     "dom": "link[href*='/wp-content/plugins/wp-statistics/']",
-    "html": "<!-- Analytics by WP-Statistics v([\\d\\.]+)\\;version:\\1",
+    "html": [
+      "<!-- Analytics by WP-Statistics v([\\d\\.]+)\\;version:\\1"
+    ],
     "icon": "WP-Statistics.svg",
     "js": {
       "WP_Statistics_http": "",
@@ -966,7 +976,8 @@
     "pricing": [
       "freemium",
       "low",
-      "recurring"],
+      "recurring"
+    ],
     "saas": true,
     "website": "https://webwavecms.com"
   },
@@ -1310,7 +1321,9 @@
     "cats": [
       10
     ],
-    "html": "<img[^>]+id=\"DCSIMG\"[^>]+webtrends",
+    "html": [
+      "<img[^>]+id=\"DCSIMG\"[^>]+webtrends"
+    ],
     "icon": "Webtrends.png",
     "js": {
       "WTOptimize": "",
@@ -1479,7 +1492,9 @@
     "cats": [
       5
     ],
-    "html": "<iframe src=\"[^>]+whooshkaa\\.com",
+    "html": [
+      "<iframe src=\"[^>]+whooshkaa\\.com"
+    ],
     "icon": "Whooshkaa.svg",
     "website": "https://www.whooshkaa.com"
   },
@@ -1577,7 +1592,9 @@
     ],
     "cpe": "cpe:2.3:a:wikkawiki:wikkawiki:*:*:*:*:*:*:*:*",
     "description": "WikkaWiki is an open-source wiki application written in PHP.",
-    "html": "Powered by <a href=\"[^>]+WikkaWiki",
+    "html": [
+      "Powered by <a href=\"[^>]+WikkaWiki"
+    ],
     "icon": "WikkaWiki.png",
     "meta": {
       "generator": "WikkaWiki"
@@ -1857,7 +1874,9 @@
     "cats": [
       1
     ],
-    "html": "(?:<a href=\"[^>]+wolfcms\\.org[^>]+>Wolf CMS(?:</a>)? inside|Thank you for using <a[^>]+>Wolf CMS)",
+    "html": [
+      "(?:<a href=\"[^>]+wolfcms\\.org[^>]+>Wolf CMS(?:</a>)? inside|Thank you for using <a[^>]+>Wolf CMS)"
+    ],
     "icon": "Wolf CMS.png",
     "implies": "PHP",
     "website": "https://www.wolfcms.org"
@@ -2136,7 +2155,9 @@
     "headers": {
       "WP-Super-Cache": ""
     },
-    "html": "<!--[^>]+WP-Super-Cache",
+    "html": [
+      "<!--[^>]+WP-Super-Cache"
+    ],
     "icon": "wp_super_cache.png",
     "requires": "WordPress",
     "website": "https://z9.io/wp-super-cache/"
@@ -2302,7 +2323,7 @@
       18,
       25
     ],
-    "description":"Reveal CSS animation as you scroll down a page.",
+    "description": "Reveal CSS animation as you scroll down a page.",
     "pricing": [
       "low",
       "onetime"
@@ -2517,7 +2538,9 @@
     "headers": {
       "X-Powered-By": "wpCache(?:/([\\d.]+))?\\;version:\\1"
     },
-    "html": "<!--[^>]+wpCache",
+    "html": [
+      "<!--[^>]+wpCache"
+    ],
     "icon": "wpCache.png",
     "implies": "PHP",
     "meta": {

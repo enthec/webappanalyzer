@@ -4,7 +4,9 @@
       1,
       6
     ],
-    "html": "<html[^>]+xmlns:change=",
+    "html": [
+      "<html[^>]+xmlns:change="
+    ],
     "icon": "RBS Change.png",
     "implies": "PHP",
     "meta": {
@@ -547,7 +549,9 @@
       4
     ],
     "description": "Redoc is an open-source tool that generates API documentation from OpenAPI specifications.",
-    "html": "<redoc ",
+    "html": [
+      "<redoc "
+    ],
     "icon": "redoc.png",
     "implies": "React",
     "js": {
@@ -572,7 +576,9 @@
         "exists": ""
       }
     },
-    "html": "<[^>]+data-react",
+    "html": [
+      "<[^>]+data-react"
+    ],
     "icon": "React.svg",
     "js": {
       "React.version": "^([\\d\\.]+)$\\;version:\\1",
@@ -744,7 +750,9 @@
       "x-rebelmouse-cache-control": "",
       "x-rebelmouse-surrogate-control": ""
     },
-    "html": "<!-- Powered by RebelMouse\\.",
+    "html": [
+      "<!-- Powered by RebelMouse\\."
+    ],
     "icon": "RebelMouse.svg",
     "website": "https://www.rebelmouse.com/"
   },
@@ -940,7 +948,9 @@
       41
     ],
     "description": "Recurly provides enterprise-class subscription billing and recurring payment management for thousands of businesses worldwide.",
-    "html": "<input[^>]+data-recurly",
+    "html": [
+      "<input[^>]+data-recurly"
+    ],
     "icon": "Recurly.png",
     "js": {
       "recurly.version": "^(.+)$\\;version:\\1"
@@ -1026,7 +1036,9 @@
     "cats": [
       2
     ],
-    "html": "(?:<a[^>]+Powered by Reddit|powered by <a[^>]+>reddit<)",
+    "html": [
+      "(?:<a[^>]+Powered by Reddit|powered by <a[^>]+>reddit<)"
+    ],
     "icon": "Reddit.svg",
     "implies": "Python",
     "js": {
@@ -1057,7 +1069,9 @@
     "cats": [
       23
     ],
-    "html": "<!--\\s+Performance optimized by Redis Object Cache",
+    "html": [
+      "<!--\\s+Performance optimized by Redis Object Cache"
+    ],
     "icon": "RedisObjectCache.svg",
     "implies": [
       "Redis",
@@ -1074,7 +1088,9 @@
     },
     "cpe": "cpe:2.3:a:redmine:redmine:*:*:*:*:*:*:*:*",
     "description": "Redmine is a free and open-source, web-based project management and issue tracking tool.",
-    "html": "Powered by <a href=\"[^>]+Redmine",
+    "html": [
+      "Powered by <a href=\"[^>]+Redmine"
+    ],
     "icon": "Redmine.png",
     "implies": "Ruby on Rails",
     "meta": {
@@ -1751,7 +1767,8 @@
   },
   "RevContent": {
     "cats": [
-      36, 5
+      36,
+      5
     ],
     "description": "RevContent is a monetization and recommendation engine that connects advertisers to highly engaged audiences on the web's leading publisher sites.",
     "icon": "revcontent.png",
@@ -2354,7 +2371,9 @@
     ],
     "cpe": "cpe:2.3:a:roundcube:webmail:*:*:*:*:*:*:*:*",
     "description": "RoundCube is free and open-source web-based IMAP email client.",
-    "html": "<title>RoundCube",
+    "html": [
+      "<title>RoundCube"
+    ],
     "icon": "RoundCube.png",
     "implies": "PHP",
     "js": {

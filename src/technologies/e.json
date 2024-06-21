@@ -97,7 +97,9 @@
     "cats": [
       19
     ],
-    "html": "<title>ELOG Logbook Selection</title>",
+    "html": [
+      "<title>ELOG Logbook Selection</title>"
+    ],
     "icon": "ELOG.png",
     "website": "https://midas.psi.ch/elog"
   },
@@ -909,7 +911,9 @@
       66
     ],
     "description": "Elm-UI is a library for creating user interfaces in Elm programming language. It provides a set of functions and abstractions for building responsive and reusable UI components, such as buttons, forms, and layouts, in a declarative and type-safe way.",
-    "html": "<style>[\\s\\S]*\\.explain > \\.s[\\s\\S]*\\.explain > \\.ctr > \\.s",
+    "html": [
+      "<style>[\\s\\S]*\\.explain > \\.s[\\s\\S]*\\.explain > \\.ctr > \\.s"
+    ],
     "icon": "elm.svg",
     "implies": "Elm",
     "website": "https://github.com/mdgriffith/elm-ui"
@@ -1417,7 +1421,9 @@
     "cats": [
       25
     ],
-    "html": "<link[^>]+?href=\"[^\"]+epoch(?:\\.min)?\\.css",
+    "html": [
+      "<link[^>]+?href=\"[^\"]+epoch(?:\\.min)?\\.css"
+    ],
     "implies": "D3",
     "scriptSrc": "epoch(?:\\.min)?\\.js",
     "website": "https://fastly.github.io/epoch"
@@ -1575,7 +1581,9 @@
       12,
       59
     ],
-    "html": "<[^>]+ class ?= ?\"(?:e-control|[^\"]+ e-control)(?: )[^\"]* e-lib\\b",
+    "html": [
+      "<[^>]+ class ?= ?\"(?:e-control|[^\"]+ e-control)(?: )[^\"]* e-lib\\b"
+    ],
     "icon": "syncfusion.svg",
     "website": "https://www.syncfusion.com/javascript-ui-controls"
   },
@@ -1744,7 +1752,9 @@
       72
     ],
     "description": "Eveve is a restaurant table booking widget.",
-    "html": "<iframe[^>]*[\\w]+\\.eveve\\.com",
+    "html": [
+      "<iframe[^>]*[\\w]+\\.eveve\\.com"
+    ],
     "icon": "Eveve.svg",
     "implies": "PHP",
     "pricing": [
@@ -2318,7 +2328,9 @@
       41
     ],
     "description": "eWAY is a global omnichannel payment provider. The company processes secure credit card payments for merchants. eWay works through eCommerce.",
-    "html": "<img [^>]*src=\"[^/]*//[^/]*eway\\.com",
+    "html": [
+      "<img [^>]*src=\"[^/]*//[^/]*eway\\.com"
+    ],
     "icon": "eway.png",
     "scriptSrc": "secure\\.ewaypayments\\.com",
     "website": "https://www.eway.com.au/"

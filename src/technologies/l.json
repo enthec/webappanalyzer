@@ -595,7 +595,9 @@
       18
     ],
     "description": "Leptos is a full-stack, isomorphic Rust web framework leveraging fine-grained reactivity to build declarative user interfaces.",
-    "html": "<!--hk=_.*",
+    "html": [
+      "<!--hk=_.*"
+    ],
     "icon": "Leptos.svg",
     "implies": "Rust",
     "js": {
@@ -611,7 +613,9 @@
     "cats": [
       19
     ],
-    "html": "<link[^>]+ rel=\"stylesheet/less\"",
+    "html": [
+      "<link[^>]+ rel=\"stylesheet/less\""
+    ],
     "icon": "Less.png",
     "website": "https://lesscss.org"
   },
@@ -776,7 +780,9 @@
     "cookies": {
       "lm_online": ""
     },
-    "html": "<!-- Lightmon Engine Copyright Lightmon",
+    "html": [
+      "<!-- Lightmon Engine Copyright Lightmon"
+    ],
     "icon": "LightMon Engine.png",
     "implies": "PHP",
     "meta": {
@@ -829,7 +835,9 @@
     "cats": [
       6
     ],
-    "html": "<!-- \\[START\\] 'blocks/head\\.rain' -->",
+    "html": [
+      "<!-- \\[START\\] 'blocks/head\\.rain' -->"
+    ],
     "icon": "Lightspeed.svg",
     "pricing": [
       "low"
@@ -957,7 +965,9 @@
     "headers": {
       "Content-Security-Policy": "px\\.ads\\.linkedin\\.com"
     },
-    "html": "<img [^>]*src=\"[^/]*//[^/]*px\\.ads\\.linkedin\\.com",
+    "html": [
+      "<img [^>]*src=\"[^/]*//[^/]*px\\.ads\\.linkedin\\.com"
+    ],
     "icon": "Linkedin.svg",
     "website": "https://business.linkedin.com/marketing-solutions/ads"
   },
@@ -1115,7 +1125,9 @@
     "cookies": {
       "LithiumVisitor": ""
     },
-    "html": " <a [^>]+Powered by Lithium",
+    "html": [
+      " <a [^>]+Powered by Lithium"
+    ],
     "icon": "Lithium.png",
     "implies": "PHP",
     "js": {
@@ -1343,7 +1355,9 @@
       15
     ],
     "description": "Livefyre is a platform that integrates with the social web to boost social interaction.",
-    "html": "<[^>]+(?:id|class)=\"livefyre",
+    "html": [
+      "<[^>]+(?:id|class)=\"livefyre"
+    ],
     "icon": "Livefyre.png",
     "js": {
       "FyreLoader": "",
@@ -1389,7 +1403,9 @@
       19
     ],
     "description": "Livewire is a full-stack Laravel framework for building dynamic interfaces.",
-    "html": "<[^>]{1,512}\\bwire:",
+    "html": [
+      "<[^>]{1,512}\\bwire:"
+    ],
     "icon": "Livewire.svg",
     "implies": "Laravel",
     "js": {
@@ -1443,7 +1459,9 @@
     "cats": [
       25
     ],
-    "html": "<iframe[^>]+\\blocalfocus\\b",
+    "html": [
+      "<iframe[^>]+\\blocalfocus\\b"
+    ],
     "icon": "LocalFocus.png",
     "implies": [
       "Angular",
@@ -1512,7 +1530,9 @@
     "cats": [
       1
     ],
-    "html": "<link[^>]*/sites/[a-z\\d]{24}/theme/stylesheets",
+    "html": [
+      "<link[^>]*/sites/[a-z\\d]{24}/theme/stylesheets"
+    ],
     "icon": "LocomotiveCMS.png",
     "implies": [
       "Ruby on Rails",

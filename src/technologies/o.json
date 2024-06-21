@@ -35,7 +35,9 @@
       59
     ],
     "description": "OWL Carousel is an enabled jQuery plugin that lets you create responsive carousel sliders.",
-    "html": "<link [^>]*href=\"[^\"]+owl\\.carousel(?:\\.min)?\\.css",
+    "html": [
+      "<link [^>]*href=\"[^\"]+owl\\.carousel(?:\\.min)?\\.css"
+    ],
     "icon": "OWL Carousel.png",
     "implies": "jQuery",
     "scriptSrc": "owl\\.carousel.*\\.js",
@@ -67,7 +69,9 @@
     ],
     "description": "OXID eShop Community Edition is a free, open source ecommerce solution built using object oriented programming and PHP.",
     "excludes": "OXID eShop",
-    "html": "<!--[^-]*OXID eShop Community Edition, Version (\\d+)\\;version:\\1",
+    "html": [
+      "<!--[^-]*OXID eShop Community Edition, Version (\\d+)\\;version:\\1"
+    ],
     "icon": "OXID eShop.svg",
     "implies": "PHP",
     "website": "https://www.oxid-esales.com"
@@ -79,7 +83,9 @@
     ],
     "description": "OXID eShop Enterprise Edition is a B2B or B2C ecommerce solution built using object oriented programming and PHP.",
     "excludes": "OXID eShop",
-    "html": "<!--[^-]*OXID eShop Enterprise Edition, Version (\\d+)\\;version:\\1",
+    "html": [
+      "<!--[^-]*OXID eShop Enterprise Edition, Version (\\d+)\\;version:\\1"
+    ],
     "icon": "OXID eShop.svg",
     "implies": "PHP",
     "website": "https://www.oxid-esales.com"
@@ -90,7 +96,9 @@
     ],
     "description": "OXID eShop Professional Edition is an e-ommerce platform for both small start-up companies and experience online retailers with a wide range of functions, software maintenance and support.",
     "excludes": "OXID eShop",
-    "html": "<!--[^-]*OXID eShop Professional Edition, Version (\\d+)\\;version:\\1",
+    "html": [
+      "<!--[^-]*OXID eShop Professional Edition, Version (\\d+)\\;version:\\1"
+    ],
     "icon": "OXID eShop.svg",
     "implies": "PHP",
     "pricing": [
@@ -282,7 +290,9 @@
       57
     ],
     "description": "Octopress is a static blogging framework.",
-    "html": "Powered by <a href=\"http://octopress\\.org\">",
+    "html": [
+      "Powered by <a href=\"http://octopress\\.org\">"
+    ],
     "icon": "octopress.png",
     "implies": "Jekyll",
     "meta": {
@@ -312,7 +322,9 @@
     ],
     "cpe": "cpe:2.3:a:odoo:odoo:*:*:*:*:*:*:*:*",
     "description": "Odoo is business management software which includes CRM, ecommerce, billing, accounting, manufacturing, warehouse, project management, and inventory management.",
-    "html": "<link[^>]* href=[^>]+/web/css/(?:web\\.assets_common/|website\\.assets_frontend/)\\;confidence:25",
+    "html": [
+      "<link[^>]* href=[^>]+/web/css/(?:web\\.assets_common/|website\\.assets_frontend/)\\;confidence:25"
+    ],
     "icon": "Odoo.svg",
     "implies": [
       "Python",
@@ -894,7 +906,9 @@
       10
     ],
     "cpe": "cpe:2.3:a:openwebanalytics:open_web_analytics:*:*:*:*:*:*:*:*",
-    "html": "<!-- (?:Start|End) Open Web Analytics Tracker -->",
+    "html": [
+      "<!-- (?:Start|End) Open Web Analytics Tracker -->"
+    ],
     "icon": "Open Web Analytics.png",
     "js": {
       "OWA.config.baseUrl": "",
@@ -1009,7 +1023,9 @@
     "headers": {
       "Server": "OpenCms"
     },
-    "html": "<link href=\"/opencms/",
+    "html": [
+      "<link href=\"/opencms/"
+    ],
     "icon": "OpenCms.png",
     "implies": "Java",
     "oss": true,
@@ -1165,7 +1181,9 @@
     "cats": [
       1
     ],
-    "html": "<!--[^>]+published by Open Text Web Solutions",
+    "html": [
+      "<!--[^>]+published by Open Text Web Solutions"
+    ],
     "icon": "OpenText Web Solutions.png",
     "implies": "Microsoft ASP.NET",
     "website": "https://websolutions.opentext.com"
@@ -1879,7 +1897,9 @@
     "headers": {
       "X-OWA-Version": "([\\d\\.]+)?\\;version:\\1"
     },
-    "html": "<link[^>]+/owa/auth/([\\d\\.]+)/themes/resources\\;version:\\1",
+    "html": [
+      "<link[^>]+/owa/auth/([\\d\\.]+)/themes/resources\\;version:\\1"
+    ],
     "icon": "Outlook.svg",
     "implies": "Microsoft ASP.NET",
     "js": {
@@ -1936,7 +1956,9 @@
       6
     ],
     "description": "ocStore is an online store based on Opencart and open-source.",
-    "html": "<!--[^>]+ocStore(?:\\s([\\d\\.a-z]+))?\\;version:\\1",
+    "html": [
+      "<!--[^>]+ocStore(?:\\s([\\d\\.a-z]+))?\\;version:\\1"
+    ],
     "icon": "ocStore.png",
     "implies": "OpenCart",
     "oss": true,
@@ -1967,7 +1989,7 @@
     "cookies": {
       "osCsid": ""
     },
-    "description": "OsCommerce is an open-source ecommerce and online store-management software program​.",
+    "description": "OsCommerce is an open-source ecommerce and online store-management software program.",
     "html": [
       "<br />Powered by <a href=\"https?://www\\.oscommerce\\.com",
       "<(?:input|a)[^>]+name=\"osCsid\"",
@@ -2003,7 +2025,9 @@
     "headers": {
       "X-Powered-By": "OTRS ([\\d.]+)\\;version:\\1"
     },
-    "html": "<!--\\s+OTRS: Copyright",
+    "html": [
+      "<!--\\s+OTRS: Copyright"
+    ],
     "icon": "otrs.png",
     "implies": "Perl",
     "scriptSrc": "^/otrs-web/js/",
@@ -2014,7 +2038,9 @@
       19
     ],
     "cpe": "cpe:2.3:a:owncloud:owncloud:*:*:*:*:*:*:*:*",
-    "html": "<a href=\"https://owncloud\\.com\" target=\"_blank\">ownCloud Inc\\.</a><br/>Your Cloud, Your Data, Your Way!",
+    "html": [
+      "<a href=\"https://owncloud\\.com\" target=\"_blank\">ownCloud Inc\\.</a><br/>Your Cloud, Your Data, Your Way!"
+    ],
     "icon": "ownCloud.png",
     "implies": "PHP",
     "meta": {

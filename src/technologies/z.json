@@ -3,7 +3,9 @@
     "cats": [
       18
     ],
-    "html": "<!-- ZK [.\\d\\s]+-->",
+    "html": [
+      "<!-- ZK [.\\d\\s]+-->"
+    ],
     "icon": "ZK.png",
     "implies": "Java",
     "scriptSrc": "zkau/",
@@ -29,7 +31,9 @@
       19
     ],
     "cpe": "cpe:2.3:a:zabbix:zabbix:*:*:*:*:*:*:*:*",
-    "html": "<body[^>]+zbxCallPostScripts",
+    "html": [
+      "<body[^>]+zbxCallPostScripts"
+    ],
     "icon": "Zabbix.png",
     "implies": "PHP",
     "js": {
@@ -119,7 +123,9 @@
     "cats": [
       36
     ],
-    "html": "<img [^>]*src=\"[^\"]+ad\\.zanox\\.com",
+    "html": [
+      "<img [^>]*src=\"[^\"]+ad\\.zanox\\.com"
+    ],
     "icon": "Zanox.png",
     "js": {
       "zanox": ""

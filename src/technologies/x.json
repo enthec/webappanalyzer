@@ -38,7 +38,9 @@
     "cats": [
       22
     ],
-    "html": "<title>XAMPP(?: Version ([\\d\\.]+))?</title>\\;version:\\1",
+    "html": [
+      "<title>XAMPP(?: Version ([\\d\\.]+))?</title>\\;version:\\1"
+    ],
     "icon": "XAMPP.png",
     "implies": [
       "Apache HTTP Server",
@@ -68,7 +70,9 @@
     "cats": [
       2
     ],
-    "html": "<!-- Powered by XMB",
+    "html": [
+      "<!-- Powered by XMB"
+    ],
     "icon": "XMB.png",
     "website": "https://www.xmbforum.com"
   },
@@ -107,7 +111,9 @@
       27
     ],
     "description": "XSLT is designed for use as part of XSL, which is a stylesheet language for XML.",
-    "html": "<xsl[^>]* version=\"(.+)\"\\;version:\\1",
+    "html": [
+      "<xsl[^>]* version=\"(.+)\"\\;version:\\1"
+    ],
     "icon": "W3C.png",
     "website": "https://www.w3.org/TR/xslt-10"
   },
@@ -179,7 +185,9 @@
       "Server": "XeoraEngine",
       "X-Powered-By": "XeoraCube"
     },
-    "html": "<input type=\"hidden\" name=\"_sys_bind_\\d+\" id=\"_sys_bind_\\d+\" />",
+    "html": [
+      "<input type=\"hidden\" name=\"_sys_bind_\\d+\" id=\"_sys_bind_\\d+\" />"
+    ],
     "icon": "xeora.png",
     "implies": "Microsoft ASP.NET",
     "scriptSrc": "/_bi_sps_v.+\\.js",
@@ -307,7 +315,9 @@
     "cats": [
       25
     ],
-    "html": "<link[^>]* href=\"[^\"]*xcharts(?:\\.min)?\\.css",
+    "html": [
+      "<link[^>]* href=\"[^\"]*xcharts(?:\\.min)?\\.css"
+    ],
     "implies": "D3",
     "js": {
       "xChart": ""
@@ -319,7 +329,9 @@
     "cats": [
       6
     ],
-    "html": "<div class=\"copyright\">[^<]+<a[^>]+>xt:Commerce",
+    "html": [
+      "<div class=\"copyright\">[^<]+<a[^>]+>xt:Commerce"
+    ],
     "icon": "xtCommerce.png",
     "meta": {
       "generator": "xt:Commerce"
