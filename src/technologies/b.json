@@ -6,7 +6,9 @@
     "description": "B2C Europe offers logistic solutions for your ecommerce businesses.",
     "icon": "B2C Europe.svg",
     "requiresCategory": 6,
-    "text": "\\bB2C Europe\\b",
+    "text": [
+      "\\bB2C Europe\\b"
+    ],
     "website": "https://www.b2ceurope.eu/"
   },
   "BEM": {

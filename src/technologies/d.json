@@ -60,7 +60,9 @@
     },
     "icon": "DHL.svg",
     "requiresCategory": 6,
-    "text": "\\bDHL\\b",
+    "text": [
+      "\\bDHL\\b"
+    ],
     "website": "https://www.dhl.com"
   },
   "DHTMLX": {

@@ -224,7 +224,9 @@
     "description": "MRW is a Spanish courier company specialised in express national and international shipping services.",
     "icon": "MRW.png",
     "requiresCategory": 6,
-    "text": "\\bMRW\\b",
+    "text": [
+      "\\bMRW\\b"
+    ],
     "website": "https://www.mrw.es"
   },
   "MSHOP": {
@@ -2753,7 +2755,9 @@
     "description": "Mondial Relay is a parcel shipping and delivery service in Europe.",
     "icon": "Mondial Relay.svg",
     "requiresCategory": 6,
-    "text": "\\bMondial Relay\\b",
+    "text": [
+      "\\bMondial Relay\\b"
+    ],
     "website": "https://www.mondialrelay.com"
   },
   "Mondo Media": {
@@ -3163,7 +3167,9 @@
     "description": "My Flying Box is an international parcel shipping company.",
     "icon": "My Flying Box.svg",
     "requiresCategory": 6,
-    "text": "\\bMy Flying Box\\b",
+    "text": [
+      "\\bMy Flying Box\\b"
+    ],
     "website": "https://www.myflyingbox.com/"
   },
   "My Food Link": {

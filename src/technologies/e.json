@@ -643,7 +643,9 @@
       "poa"
     ],
     "saas": true,
-    "text": "Web CMS by Elcom",
+    "text": [
+      "Web CMS by Elcom"
+    ],
     "website": "https://www.elcom.com.au/"
   },
   "Eleanor CMS": {
