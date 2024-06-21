@@ -3,7 +3,9 @@
     "cats": [
       6
     ],
-    "html": "<a href=\"http://www\\.tsoft\\.com\\.tr\" target=\"_blank\" title=\"T-Soft E-ticaret Sistemleri\">",
+    "html": [
+      "<a href=\"http://www\\.tsoft\\.com\\.tr\" target=\"_blank\" title=\"T-Soft E-ticaret Sistemleri\">"
+    ],
     "icon": "Tsoft.png",
     "website": "https://www.tsoft.com.tr/"
   },
@@ -212,7 +214,9 @@
       "TWIKISID": ""
     },
     "description": "TWiki is an open-source wiki and application platform.",
-    "html": "<img [^>]*(?:title|alt)=\"This site is powered by the TWiki collaboration platform",
+    "html": [
+      "<img [^>]*(?:title|alt)=\"This site is powered by the TWiki collaboration platform"
+    ],
     "icon": "TWiki.png",
     "implies": "Perl",
     "scriptSrc": "(?:TWikiJavascripts|twikilib(?:\\.min)?\\.js)",
@@ -601,7 +605,9 @@
     "cats": [
       5
     ],
-    "html": "<link [^>]*href=\"http://tamago\\.temonalab\\.com",
+    "html": [
+      "<link [^>]*href=\"http://tamago\\.temonalab\\.com"
+    ],
     "icon": "Tamago.png",
     "website": "https://tamago.temonalab.com"
   },
@@ -825,7 +831,9 @@
       44
     ],
     "description": "TeamCity is a build management and continuous integration server from JetBrains.",
-    "html": "<span class=\"versionTag\"><span class=\"vWord\">Version</span> ([\\d\\.]+)\\;version:\\1",
+    "html": [
+      "<span class=\"versionTag\"><span class=\"vWord\">Version</span> ([\\d\\.]+)\\;version:\\1"
+    ],
     "icon": "TeamCity.svg",
     "implies": [
       "Apache Tomcat",
@@ -989,7 +997,9 @@
     "cats": [
       53
     ],
-    "html": "<!--[^>]+Tessitura Version: (\\d*\\.\\d*\\.\\d*)?\\;version:\\1",
+    "html": [
+      "<!--[^>]+Tessitura Version: (\\d*\\.\\d*\\.\\d*)?\\;version:\\1"
+    ],
     "icon": "tessitura.svg",
     "implies": [
       "Microsoft ASP.NET",
@@ -1115,7 +1125,9 @@
       87
     ],
     "description": "The SEO Framework is the only WordPress plugin that can intelligently generate critical SEO meta tags by reading your WordPress environment.",
-    "html": "<!--[^>]+The SEO Framework by Sybre Waaijer",
+    "html": [
+      "<!--[^>]+The SEO Framework by Sybre Waaijer"
+    ],
     "icon": "The SEO Framework.svg",
     "pricing": [
       "freemium",
@@ -1211,7 +1223,9 @@
       1,
       6
     ],
-    "html": "<(?:link|style|script)[^>]+/assets/frontOffice/",
+    "html": [
+      "<(?:link|style|script)[^>]+/assets/frontOffice/"
+    ],
     "icon": "Thelia.png",
     "implies": [
       "PHP",
@@ -1998,7 +2012,9 @@
     "cats": [
       6
     ],
-    "html": "<link[^>]*tictail\\.com",
+    "html": [
+      "<link[^>]*tictail\\.com"
+    ],
     "icon": "tictail.png",
     "website": "https://tictail.com"
   },
@@ -2010,7 +2026,9 @@
       8
     ],
     "description": "TiddlyWiki is an open-source notebook for capturing, organising and sharing complex information.",
-    "html": "<[^>]*type=[^>]text\\/vnd\\.tiddlywiki",
+    "html": [
+      "<[^>]*type=[^>]text\\/vnd\\.tiddlywiki"
+    ],
     "icon": "TiddlyWiki.png",
     "js": {
       "tiddler": ""
@@ -2126,7 +2144,9 @@
       1
     ],
     "description": "Tilda is a web design tool.",
-    "html": "<link[^>]* href=[^>]+tilda(?:cdn|\\.ws|-blocks)",
+    "html": [
+      "<link[^>]* href=[^>]+tilda(?:cdn|\\.ws|-blocks)"
+    ],
     "icon": "Tilda.svg",
     "pricing": [
       "low",
@@ -2455,7 +2475,7 @@
     "description": "Track123 is a product under Lingxing, founded in September 2021, with a focus on providing all-in-one tracking and management services for cross-border sellers.",
     "icon": "Track123.svg",
     "js": {
-      "api_base":"https://www.track123.com",
+      "api_base": "https://www.track123.com",
       "track123": ""
     },
     "pricing": [
@@ -3050,7 +3070,9 @@
     "headers": {
       "X-Tumblr-User": ""
     },
-    "html": "<iframe src=\"[^>]+tumblr\\.com",
+    "html": [
+      "<iframe src=\"[^>]+tumblr\\.com"
+    ],
     "icon": "Tumblr.png",
     "url": "^https?://(?:www\\.)?[^/]+\\.tumblr\\.com/",
     "website": "https://www.tumblr.com"
@@ -3574,7 +3596,9 @@
       17
     ],
     "description": "Typekit is an online service which offers a subscription library of fonts.",
-    "html": "<link [^>]*href=\"[^\"]+use\\.typekit\\.(?:net|com)",
+    "html": [
+      "<link [^>]*href=\"[^\"]+use\\.typekit\\.(?:net|com)"
+    ],
     "icon": "Typekit.png",
     "js": {
       "Typekit.config.js": "^(.+)$\\;version:\\1"

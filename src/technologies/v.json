@@ -70,7 +70,9 @@
     "cats": [
       6
     ],
-    "html": "<a[^>]+>Powered By VP-ASP Shopping Cart</a>",
+    "html": [
+      "<a[^>]+>Powered By VP-ASP Shopping Cart</a>"
+    ],
     "icon": "VP-ASP.png",
     "implies": "Microsoft ASP.NET",
     "scriptSrc": "vs350\\.js",
@@ -202,7 +204,9 @@
     "headers": {
       "X-Powered-By": "Vanilla"
     },
-    "html": "<body id=\"(?:DiscussionsPage|vanilla)",
+    "html": [
+      "<body id=\"(?:DiscussionsPage|vanilla)"
+    ],
     "icon": "Vanilla.png",
     "implies": "PHP",
     "website": "https://vanillaforums.org"
@@ -359,7 +363,9 @@
     "cats": [
       36
     ],
-    "html": "<img [^>]*src=\"[^\"]+tracking\\.veoxa\\.com",
+    "html": [
+      "<img [^>]*src=\"[^\"]+tracking\\.veoxa\\.com"
+    ],
     "icon": "Veoxa.png",
     "js": {
       "VuVeoxaContent": ""
@@ -633,7 +639,9 @@
     "cookies": {
       "_gphw_mode": ""
     },
-    "html": "<link[^>]* href=[^>]+(?:\\.vigbo\\.com|\\.gophotoweb\\.com)",
+    "html": [
+      "<link[^>]* href=[^>]+(?:\\.vigbo\\.com|\\.gophotoweb\\.com)"
+    ],
     "icon": "vigbo.png",
     "scriptSrc": "(?:\\.vigbo\\.com|\\.gophotoweb\\.com)",
     "website": "https://vigbo.com"
@@ -660,7 +668,9 @@
     "cats": [
       1
     ],
-    "html": "<[^>]+=\"vgn-?ext",
+    "html": [
+      "<[^>]+=\"vgn-?ext"
+    ],
     "icon": "Vignette.png",
     "website": "https://www.vignette.com"
   },
@@ -807,7 +817,9 @@
       6
     ],
     "cpe": "cpe:2.3:a:virtuemart:virtuemart:*:*:*:*:*:joomla\\!:*:*",
-    "html": "<div id=\"vmMainPage",
+    "html": [
+      "<div id=\"vmMainPage"
+    ],
     "icon": "VirtueMart.png",
     "implies": "Joomla",
     "website": "https://virtuemart.net"
@@ -1147,7 +1159,9 @@
       1,
       6
     ],
-    "html": "<script [^>]*src=\"[^\"]*voog\\.com/tracker\\.js",
+    "html": [
+      "<script [^>]*src=\"[^\"]*voog\\.com/tracker\\.js"
+    ],
     "icon": "Voog.png",
     "scriptSrc": "voog\\.com/tracker\\.js",
     "website": "https://www.voog.com/"
@@ -1244,7 +1258,9 @@
     "css": "\\.vue-notification-group",
     "description": "Vue.js is an open-source model–view–viewmodel JavaScript framework for building user interfaces and single-page applications.",
     "dom": ".vue-app",
-    "html": "<[^>]+\\sdata-v(?:ue)?-",
+    "html": [
+      "<[^>]+\\sdata-v(?:ue)?-"
+    ],
     "icon": "vue.svg",
     "js": {
       "Vue": "",
@@ -1363,7 +1379,9 @@
     },
     "cpe": "cpe:2.3:a:vbulletin:vbulletin:*:*:*:*:*:*:*:*",
     "description": "vBulletin is tool that is used to create and manage online forums or discussion boards. It is written in PHP and uses a MySQL database server.",
-    "html": "<div id=\"copyright\">Powered by vBulletin",
+    "html": [
+      "<div id=\"copyright\">Powered by vBulletin"
+    ],
     "icon": "vBulletin.png",
     "implies": "PHP",
     "js": {

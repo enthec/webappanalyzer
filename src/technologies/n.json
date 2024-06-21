@@ -50,7 +50,9 @@
       25
     ],
     "description": "NVD3 is a JavaScript visualisation library that is a free open-source tool.",
-    "html": "<link[^>]* href=[^>]+nv\\.d3(?:\\.min)?\\.css",
+    "html": [
+      "<link[^>]* href=[^>]+nv\\.d3(?:\\.min)?\\.css"
+    ],
     "icon": "NVD3.png",
     "implies": "D3",
     "js": {
@@ -1205,8 +1207,10 @@
     "cookies": {
       "Nop.customer": ""
     },
-    "description": "nopCommerce is an open-source ecommerce solution based on Microsoft's ASP​.NET Core framework and MS SQL Server 2012 (or higher) backend database.",
-    "html": "(?:<!--Powered by nopCommerce|Powered by: <a[^>]+nopcommerce)",
+    "description": "nopCommerce is an open-source ecommerce solution based on Microsoft's ASP.NET Core framework and MS SQL Server 2012 (or higher) backend database.",
+    "html": [
+      "(?:<!--Powered by nopCommerce|Powered by: <a[^>]+nopcommerce)"
+    ],
     "icon": "nopCommerce.png",
     "implies": "Microsoft ASP.NET",
     "meta": {

@@ -86,7 +86,9 @@
     "cats": [
       1
     ],
-    "html": "<img[^>]+_tcm\\d{2,3}-\\d{6}\\.",
+    "html": [
+      "<img[^>]+_tcm\\d{2,3}-\\d{6}\\."
+    ],
     "icon": "SDL Tridion.svg",
     "website": "https://www.sdl.com/products/tridion"
   },
@@ -198,7 +200,9 @@
     "cats": [
       19
     ],
-    "html": "(?:<!-- start of Sigsiu Online Business Index|<div[^>]* class=\"sobi2)",
+    "html": [
+      "(?:<!-- start of Sigsiu Online Business Index|<div[^>]* class=\"sobi2)"
+    ],
     "icon": "SOBI 2.png",
     "implies": "Joomla",
     "website": "https://www.sigsiu.net/sobi2.html"
@@ -248,7 +252,9 @@
       3
     ],
     "description": "SQL Buddy is an open-source web-based application written in PHP to handle the administration of MySQL and SQLite with the use of a Web browser.",
-    "html": "(?:<title>SQL Buddy</title>|<[^>]+onclick=\"sideMainClick\\(\"home\\.php)",
+    "html": [
+      "(?:<title>SQL Buddy</title>|<[^>]+onclick=\"sideMainClick\\(\"home\\.php)"
+    ],
     "icon": "SQL Buddy.png",
     "implies": "PHP",
     "website": "https://www.sqlbuddy.com"
@@ -604,7 +610,9 @@
         "salesforce\\.com"
       ]
     },
-    "html": "<[^>]+=\"brandQuaternaryFgrs\"",
+    "html": [
+      "<[^>]+=\"brandQuaternaryFgrs\""
+    ],
     "icon": "Salesforce.svg",
     "js": {
       "SFDCApp": "",
@@ -1119,7 +1127,9 @@
       1
     ],
     "description": "Scorpion is a marketing and technology provider.",
-    "html": "<[^>]+id=\"HSScorpion",
+    "html": [
+      "<[^>]+id=\"HSScorpion"
+    ],
     "icon": "Scorpion.svg",
     "js": {
       "Process.UserData": ""
@@ -2008,7 +2018,9 @@
     "cats": [
       66
     ],
-    "html": "<link[^>]* href=\"[^\"]*shapecss(?:\\.min)?\\.css",
+    "html": [
+      "<link[^>]* href=\"[^\"]*shapecss(?:\\.min)?\\.css"
+    ],
     "icon": "Shapecss.svg",
     "js": {
       "Shapecss": ""
@@ -2211,7 +2223,9 @@
     "cats": [
       10
     ],
-    "html": "<img[^>]*\\s+src=['\"]?https?://www\\.shinystat\\.com/cgi-bin/shinystat\\.cgi\\?[^'\"\\s>]*['\"\\s/>]",
+    "html": [
+      "<img[^>]*\\s+src=['\"]?https?://www\\.shinystat\\.com/cgi-bin/shinystat\\.cgi\\?[^'\"\\s>]*['\"\\s/>]"
+    ],
     "icon": "ShinyStat.png",
     "js": {
       "SSsdk": ""
@@ -2907,7 +2921,9 @@
       6
     ],
     "description": "Shoptet is an ecommerce solutions from store builder, inventory management of online payments.",
-    "html": "<link [^>]*href=\"https?://cdn\\.myshoptet\\.com/",
+    "html": [
+      "<link [^>]*href=\"https?://cdn\\.myshoptet\\.com/"
+    ],
     "icon": "Shoptet.svg",
     "implies": "PHP",
     "js": {
@@ -2933,7 +2949,9 @@
       "sw-language-id": "^[a-fA-F0-9]{32}$\\;version:6",
       "sw-version-id": "\\;version:6"
     },
-    "html": "<title>Shopware ([\\d\\.]+) [^<]+\\;version:\\1",
+    "html": [
+      "<title>Shopware ([\\d\\.]+) [^<]+\\;version:\\1"
+    ],
     "icon": "Shopware.svg",
     "implies": [
       "PHP",
@@ -3136,7 +3154,9 @@
       1
     ],
     "description": "Silverstripe CMS is a free and open source Content Management System and Framework for creating and maintaining websites and web applications.",
-    "html": "Powered by <a href=\"[^>]+Silverstripe",
+    "html": [
+      "Powered by <a href=\"[^>]+Silverstripe"
+    ],
     "icon": "SilverStripe.svg",
     "implies": "PHP",
     "meta": {
@@ -3883,7 +3903,9 @@
     "cats": [
       36
     ],
-    "html": "(?:<a [^>]*href=\"[^/]*//[^/]*serving-sys\\.com/|<img [^>]*src=\"[^/]*//[^/]*serving-sys\\.com/)",
+    "html": [
+      "(?:<a [^>]*href=\"[^/]*//[^/]*serving-sys\\.com/|<img [^>]*src=\"[^/]*//[^/]*serving-sys\\.com/)"
+    ],
     "icon": "Sizmek.png",
     "scriptSrc": "serving-sys\\.com/",
     "website": "https://sizmek.com"
@@ -4133,7 +4155,9 @@
     "cats": [
       59
     ],
-    "html": "<link [^>]+(?:/([\\d.]+)/)?slick-theme\\.css\\;version:\\1",
+    "html": [
+      "<link [^>]+(?:/([\\d.]+)/)?slick-theme\\.css\\;version:\\1"
+    ],
     "icon": "Slick.svg",
     "implies": "jQuery",
     "scriptSrc": "(?:/([\\d.]+))?/slick(?:\\.min)?\\.js\\;version:\\1",
@@ -4201,7 +4225,9 @@
     "cats": [
       59
     ],
-    "html": "<link [^>]*href=\"[^/]*slimbox(?:-rtl)?\\.css",
+    "html": [
+      "<link [^>]*href=\"[^/]*slimbox(?:-rtl)?\\.css"
+    ],
     "icon": "Slimbox.png",
     "implies": "MooTools",
     "scriptSrc": "slimbox\\.js",
@@ -4211,7 +4237,9 @@
     "cats": [
       59
     ],
-    "html": "<link [^>]*href=\"[^/]*slimbox2(?:-rtl)?\\.css",
+    "html": [
+      "<link [^>]*href=\"[^/]*slimbox2(?:-rtl)?\\.css"
+    ],
     "icon": "Slimbox 2.png",
     "implies": "jQuery",
     "scriptSrc": "slimbox2\\.js",
@@ -4267,7 +4295,9 @@
     "cats": [
       1
     ],
-    "html": "<[^>]+/smartsite\\.(?:dws|shtml)\\?id=",
+    "html": [
+      "<[^>]+/smartsite\\.(?:dws|shtml)\\?id="
+    ],
     "icon": "SmartSite.png",
     "meta": {
       "author": "Redacteur SmartInstant"
@@ -4370,7 +4400,9 @@
       1
     ],
     "css": "\\.g-stage \\.g-stage-root",
-    "html": "<section[^>]+class=\"g-stage",
+    "html": [
+      "<section[^>]+class=\"g-stage"
+    ],
     "icon": "Smartstore.png",
     "implies": "Microsoft ASP.NET",
     "website": "https://www.smartstore.com"
@@ -4537,7 +4569,9 @@
       52
     ],
     "description": "SnapEngage is a live chat solution that caters to businesses across various industries.",
-    "html": "<!-- begin SnapEngage",
+    "html": [
+      "<!-- begin SnapEngage"
+    ],
     "icon": "SnapEngage.svg",
     "js": {
       "SnapEngage": "",
@@ -4874,7 +4908,9 @@
     "headers": {
       "solodev_session": ""
     },
-    "html": "<div class=[\"']dynamicDiv[\"'] id=[\"']dd\\.\\d\\.\\d(?:\\.\\d)?[\"']>",
+    "html": [
+      "<div class=[\"']dynamicDiv[\"'] id=[\"']dd\\.\\d\\.\\d(?:\\.\\d)?[\"']>"
+    ],
     "icon": "Solodev.png",
     "implies": "PHP",
     "website": "https://www.solodev.com"
@@ -5312,7 +5348,9 @@
       4
     ],
     "description": "Sphinx is a tool that makes it easy to create documentation.",
-    "html": "Created using <a href=\"https?://(?:www\\.)?sphinx-doc\\.org/\">Sphinx</a> ([0-9.]+)\\.\\;version:\\1",
+    "html": [
+      "Created using <a href=\"https?://(?:www\\.)?sphinx-doc\\.org/\">Sphinx</a> ([0-9.]+)\\.\\;version:\\1"
+    ],
     "icon": "Sphinx.svg",
     "js": {
       "DOCUMENTATION_OPTIONS": ""
@@ -5589,7 +5627,9 @@
     "cats": [
       6
     ],
-    "html": "(?:<link[^>]*/assets/store/all-[a-z\\d]{32}\\.css[^>]+>|<script>\\s*Spree\\.(?:routes|translations|api_key))",
+    "html": [
+      "(?:<link[^>]*/assets/store/all-[a-z\\d]{32}\\.css[^>]+>|<script>\\s*Spree\\.(?:routes|translations|api_key))"
+    ],
     "icon": "Spree.png",
     "implies": "Ruby on Rails",
     "website": "https://spreecommerce.org"
@@ -5943,7 +5983,9 @@
     ],
     "cpe": "cpe:2.3:a:squirrelmail:squirrelmail:*:*:*:*:*:*:*:*",
     "description": "SquirrelMail is an open-source web-mail package that is based on PHP language. It provides a web-based-email client and a proxy server for IMAP protocol.",
-    "html": "<small>SquirrelMail version ([.\\d]+)[^<]*<br \\;version:\\1",
+    "html": [
+      "<small>SquirrelMail version ([.\\d]+)[^<]*<br \\;version:\\1"
+    ],
     "icon": "SquirrelMail.png",
     "implies": "PHP",
     "js": {
@@ -5962,7 +6004,9 @@
     "headers": {
       "X-Powered-By": "Squiz Matrix"
     },
-    "html": "<!--\\s+Running (?:MySource|Squiz) Matrix",
+    "html": [
+      "<!--\\s+Running (?:MySource|Squiz) Matrix"
+    ],
     "icon": "Squiz Matrix.png",
     "implies": "PHP",
     "meta": {
@@ -6361,7 +6405,9 @@
       12
     ],
     "description": "A modest JavaScript framework for the HTML you already have.",
-    "html": "<[^>]+data-controller",
+    "html": [
+      "<[^>]+data-controller"
+    ],
     "icon": "Stimulus.svg",
     "website": "https://stimulusjs.org/"
   },
@@ -6613,7 +6659,9 @@
       1
     ],
     "cpe": "cpe:2.3:a:strikingly:strikingly:*:*:*:*:*:*:*:*",
-    "html": "<!-- Powered by Strikingly\\.com",
+    "html": [
+      "<!-- Powered by Strikingly\\.com"
+    ],
     "icon": "Strikingly.png",
     "website": "https://strikingly.com"
   },
@@ -6631,7 +6679,9 @@
       "TXT": "stripe-verification="
     },
     "dom": "a[href*='billing.stripe.com'][target='_blank']",
-    "html": "<input[^>]+data-stripe",
+    "html": [
+      "<input[^>]+data-stripe"
+    ],
     "icon": "Stripe.svg",
     "js": {
       "Stripe.version": "^(.+)$\\;version:\\1",
@@ -7243,7 +7293,7 @@
     ],
     "description": "Swiper is a JavaScript library that creates modern touch sliders with hardware-accelerated transitions.",
     "dom": [
-      "div[data-swiper-slide-index]", 
+      "div[data-swiper-slide-index]",
       "swiper-container",
       "swiper-slide",
       "div.swiper-wrapper",
@@ -7350,7 +7400,9 @@
       30
     ],
     "description": "Sympa is an open-source mailing list management (MLM) software.",
-    "html": "<a href=\"https?://www\\.sympa\\.org\">\\s*Powered by Sympa\\s*</a>",
+    "html": [
+      "<a href=\"https?://www\\.sympa\\.org\">\\s*Powered by Sympa\\s*</a>"
+    ],
     "icon": "sympa.png",
     "implies": "Perl",
     "meta": {
@@ -7402,7 +7454,9 @@
       48
     ],
     "description": "DiskStation provides a full-featured network attached storage.",
-    "html": "<noscript><div class='syno-no-script'",
+    "html": [
+      "<noscript><div class='syno-no-script'"
+    ],
     "icon": "Synology DiskStation.svg",
     "meta": {
       "application-name": "Synology DiskStation",
@@ -7415,7 +7469,9 @@
     "cats": [
       19
     ],
-    "html": "<(?:script|link)[^>]*sh(?:Core|Brush|ThemeDefault)",
+    "html": [
+      "<(?:script|link)[^>]*sh(?:Core|Brush|ThemeDefault)"
+    ],
     "icon": "SyntaxHighlighter.png",
     "js": {
       "SyntaxHighlighter": ""
@@ -7494,7 +7550,9 @@
       59
     ],
     "description": "Reveal elements as they enter the viewport.",
-    "html": "<[^>]+data-sr(?:-id)",
+    "html": [
+      "<[^>]+data-sr(?:-id)"
+    ],
     "icon": "scrollreveal.svg",
     "pricing": [
       "onetime"

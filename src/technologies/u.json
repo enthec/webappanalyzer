@@ -21,7 +21,9 @@
       66
     ],
     "description": "UIKit is the framework used for developing iOS applications.",
-    "html": "<[^>]+class=\"[^\"]*(?:uk-container|uk-section)",
+    "html": [
+      "<[^>]+class=\"[^\"]*(?:uk-container|uk-section)"
+    ],
     "icon": "UIKit.svg",
     "scriptSrc": "uikit.*\\.js",
     "website": "https://getuikit.com"
@@ -244,7 +246,9 @@
     "cats": [
       6
     ],
-    "html": "<form [^>]*action=\"[^\"]*\\/cgi-bin\\/UCEditor\\?(?:[^\"]*&)?merchantId=[^\"]",
+    "html": [
+      "<form [^>]*action=\"[^\"]*\\/cgi-bin\\/UCEditor\\?(?:[^\"]*&)?merchantId=[^\"]"
+    ],
     "icon": "UltraCart.png",
     "js": {
       "ucCatalog": ""
@@ -936,7 +940,9 @@
     "headers": {
       "X-Content-Encoded-By": "uKnowva ([\\d.]+)\\;version:\\1"
     },
-    "html": "<a[^>]+>Powered by uKnowva</a>",
+    "html": [
+      "<a[^>]+>Powered by uKnowva</a>"
+    ],
     "icon": "uKnowva.png",
     "implies": "PHP",
     "meta": {
@@ -1017,7 +1023,9 @@
     "cats": [
       10
     ],
-    "html": "<div[^>]+/id=\"ue_widget\"",
+    "html": [
+      "<div[^>]+/id=\"ue_widget\""
+    ],
     "icon": "user.com.svg",
     "js": {
       "UserEngage": ""

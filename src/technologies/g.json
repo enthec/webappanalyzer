@@ -199,7 +199,9 @@
     "cats": [
       1
     ],
-    "html": "<!--\\s+Powered by GX",
+    "html": [
+      "<!--\\s+Powered by GX"
+    ],
     "icon": "GX WebManager.png",
     "meta": {
       "generator": "GX WebManager(?: ([\\d.]+))?\\;version:\\1"
@@ -227,7 +229,9 @@
       6
     ],
     "description": "Gambio is an all-in-one shopping cart solution for small to medium sized businesses.",
-    "html": "(?:<link[^>]* href=\"templates/gambio/|<a[^>]content\\.php\\?coID=\\d|<!-- gambio eof -->|<!--[\\s=]+Shopsoftware by Gambio GmbH \\(c\\))",
+    "html": [
+      "(?:<link[^>]* href=\"templates/gambio/|<a[^>]content\\.php\\?coID=\\d|<!-- gambio eof -->|<!--[\\s=]+Shopsoftware by Gambio GmbH \\(c\\))"
+    ],
     "icon": "Gambio.png",
     "implies": "PHP",
     "js": {
@@ -342,7 +346,9 @@
     "cats": [
       10
     ],
-    "html": "<a [^>]*onclick=\"gemius_hit",
+    "html": [
+      "<a [^>]*onclick=\"gemius_hit"
+    ],
     "icon": "Gemius.png",
     "js": {
       "gemius_hit": "",
@@ -859,7 +865,9 @@
     "cats": [
       47
     ],
-    "html": "Powered by <a href=\"https://gerrit\\.googlesource\\.com/gitiles/\">Gitiles<",
+    "html": [
+      "Powered by <a href=\"https://gerrit\\.googlesource\\.com/gitiles/\">Gitiles<"
+    ],
     "implies": [
       "Java",
       "git"
@@ -1166,7 +1174,9 @@
       17
     ],
     "description": "Glyphicons are icon fonts which you can use in your web projects.",
-    "html": "(?:<link[^>]* href=[^>]+glyphicons(?:\\.min)?\\.css|<img[^>]* src=[^>]+glyphicons)",
+    "html": [
+      "(?:<link[^>]* href=[^>]+glyphicons(?:\\.min)?\\.css|<img[^>]* src=[^>]+glyphicons)"
+    ],
     "icon": "Glyphicons.png",
     "website": "https://glyphicons.com"
   },
@@ -2102,7 +2112,9 @@
     "cookies": {
       "Grand.customer": ""
     },
-    "html": "(?:<!--GrandNode |<a[^>]+grandnode - Powered by |Powered by: <a[^>]+nopcommerce)",
+    "html": [
+      "(?:<!--GrandNode |<a[^>]+grandnode - Powered by |Powered by: <a[^>]+nopcommerce)"
+    ],
     "icon": "GrandNode.svg",
     "implies": "Microsoft ASP.NET",
     "meta": {
@@ -2230,7 +2242,9 @@
       19
     ],
     "description": "Gravatar is a service for providing globally unique avatars.",
-    "html": "<[^>]+gravatar\\.com/avatar/",
+    "html": [
+      "<[^>]+gravatar\\.com/avatar/"
+    ],
     "icon": "Gravatar.png",
     "js": {
       "Gravatar": ""
@@ -2290,7 +2304,9 @@
     "cats": [
       1
     ],
-    "html": "<img[^>]+/dsresource\\?objectid=",
+    "html": [
+      "<img[^>]+/dsresource\\?objectid="
+    ],
     "icon": "Green Valley CMS.png",
     "implies": "Apache Tomcat",
     "meta": {
@@ -2567,7 +2583,9 @@
       47
     ],
     "cpe": "cpe:2.3:a:gitlist:gitlist:*:*:*:*:*:*:*:*",
-    "html": "<p>Powered by <a[^>]+>GitList ([\\d.]+)\\;version:\\1",
+    "html": [
+      "<p>Powered by <a[^>]+>GitList ([\\d.]+)\\;version:\\1"
+    ],
     "implies": [
       "PHP",
       "git"
@@ -2578,7 +2596,9 @@
     "cats": [
       47
     ],
-    "html": "<!-- git web interface version ([\\d.]+)?\\;version:\\1",
+    "html": [
+      "<!-- git web interface version ([\\d.]+)?\\;version:\\1"
+    ],
     "icon": "git.svg",
     "implies": [
       "Perl",

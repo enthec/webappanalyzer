@@ -115,7 +115,9 @@
       "ipbWWLmodpids": "",
       "ipbWWLsession_id": ""
     },
-    "html": "<link[^>]+ipb_[^>]+\\.css",
+    "html": [
+      "<link[^>]+ipb_[^>]+\\.css"
+    ],
     "icon": "IPB.png",
     "implies": [
       "PHP",
@@ -590,7 +592,9 @@
       1
     ],
     "cpe": "cpe:2.3:a:indexhibit:indexhibit:*:*:*:*:*:*:*:*",
-    "html": "<(?:link|a href) [^>]+ndxz-studio",
+    "html": [
+      "<(?:link|a href) [^>]+ndxz-studio"
+    ],
     "implies": [
       "PHP",
       "Apache HTTP Server",
@@ -621,7 +625,9 @@
     "cookies": {
       "MAKACSESSION": ""
     },
-    "html": "Powered by\\s+(?:CERN )?<a href=\"http://(?:cdsware\\.cern\\.ch/indico/|indico-software\\.org|cern\\.ch/indico)\">(?:CDS )?Indico( [\\d\\.]+)?\\;version:\\1",
+    "html": [
+      "Powered by\\s+(?:CERN )?<a href=\"http://(?:cdsware\\.cern\\.ch/indico/|indico-software\\.org|cern\\.ch/indico)\">(?:CDS )?Indico( [\\d\\.]+)?\\;version:\\1"
+    ],
     "icon": "Indico.png",
     "website": "https://indico-software.org"
   },
@@ -1087,7 +1093,9 @@
       4
     ],
     "description": "Intercom Articles is a tool to create, organise and publish help articles.",
-    "html": "<a href=\"https://www.intercom.com/intercom-link[^\"]+solution=customer-support[^>]+>We run on Intercom",
+    "html": [
+      "<a href=\"https://www.intercom.com/intercom-link[^\"]+solution=customer-support[^>]+>We run on Intercom"
+    ],
     "icon": "Intercom.svg",
     "website": "https://www.intercom.com/articles"
   },
@@ -1127,7 +1135,9 @@
       6
     ],
     "description": "Intershop is an ecommerce platform, tailored to the needs of complex business processes and major organisations.",
-    "html": "<ish-root",
+    "html": [
+      "<ish-root"
+    ],
     "icon": "Intershop.png",
     "pricing": [
       "onetime",
@@ -1145,7 +1155,9 @@
       "INVENIOSESSION": ""
     },
     "description": "Invenio is an open-source software framework for large-scale digital repositories that provides the tools for management of digital assets in an institutional repository and research data management systems.",
-    "html": "(?:Powered by|System)\\s+(?:CERN )?<a (?:class=\"footer\" )?href=\"http://(?:cdsware\\.cern\\.ch(?:/invenio)?|invenio-software\\.org|cern\\.ch/invenio)(?:/)?\">(?:CDS )?Invenio</a>\\s*v?([\\d\\.]+)?\\;version:\\1",
+    "html": [
+      "(?:Powered by|System)\\s+(?:CERN )?<a (?:class=\"footer\" )?href=\"http://(?:cdsware\\.cern\\.ch(?:/invenio)?|invenio-software\\.org|cern\\.ch/invenio)(?:/)?\">(?:CDS )?Invenio</a>\\s*v?([\\d\\.]+)?\\;version:\\1"
+    ],
     "icon": "Invenio.png",
     "website": "https://invenio-software.org"
   },
@@ -1241,7 +1253,9 @@
     "cats": [
       6
     ],
-    "html": "<a[^>]*href=\"https://www\\.irroba\\.com\\.br",
+    "html": [
+      "<a[^>]*href=\"https://www\\.irroba\\.com\\.br"
+    ],
     "icon": "irroba.svg",
     "website": "https://www.irroba.com.br/"
   },

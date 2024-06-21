@@ -16,7 +16,9 @@
     "cats": [
       19
     ],
-    "html": "<!--(?: JoomlaWorks \"K2\"| Start K2)",
+    "html": [
+      "<!--(?: JoomlaWorks \"K2\"| Start K2)"
+    ],
     "icon": "K2.png",
     "implies": "Joomla",
     "js": {
@@ -451,7 +453,9 @@
       66
     ],
     "description": "Kendo UI is a HTML5 user interface framework for building interactive and high-performance websites and applications.",
-    "html": "<link[^>]*\\s+href=[^>]*styles/kendo\\.common(?:\\.min)?\\.css[^>]*/>",
+    "html": [
+      "<link[^>]*\\s+href=[^>]*styles/kendo\\.common(?:\\.min)?\\.css[^>]*/>"
+    ],
     "icon": "Kendo UI.png",
     "implies": "jQuery",
     "js": {
@@ -597,7 +601,9 @@
       "kbn-name": "kibana",
       "kbn-version": "^([\\d.]+)$\\;version:\\1"
     },
-    "html": "<title>Kibana</title>",
+    "html": [
+      "<title>Kibana</title>"
+    ],
     "icon": "kibana.svg",
     "implies": [
       "Node.js",
@@ -650,7 +656,7 @@
     "cookies": {
       "_kicksite_session": ""
     },
-    "dom":"iframe[src*='.kicksite.net/']",
+    "dom": "iframe[src*='.kicksite.net/']",
     "pricing": [
       "mid",
       "recurring"
@@ -976,7 +982,9 @@
       1,
       18
     ],
-    "html": "<!--[^>]+This website is powered by Koala Web Framework CMS",
+    "html": [
+      "<!--[^>]+This website is powered by Koala Web Framework CMS"
+    ],
     "icon": "Koala Framework.png",
     "implies": "PHP",
     "meta": {
@@ -1120,7 +1128,9 @@
     "cats": [
       1
     ],
-    "html": "<!--[^K>-]+Koobi ([a-z\\d.]+)\\;version:\\1",
+    "html": [
+      "<!--[^K>-]+Koobi ([a-z\\d.]+)\\;version:\\1"
+    ],
     "icon": "Koobi.png",
     "meta": {
       "generator": "Koobi"

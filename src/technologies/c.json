@@ -2549,7 +2549,9 @@
       "exp_tracker": ""
     },
     "cpe": "cpe:2.3:a:codeigniter:codeigniter:*:*:*:*:*:*:*:*",
-    "html": "<input[^>]+name=\"ci_csrf_token\"\\;version:2+",
+    "html": [
+      "<input[^>]+name=\"ci_csrf_token\"\\;version:2+"
+    ],
     "icon": "CodeIgniter.png",
     "implies": "PHP",
     "website": "https://codeigniter.com"
@@ -3341,7 +3343,9 @@
     "headers": {
       "x-contentful-request-id": ""
     },
-    "html": "<[^>]+(?:assets|downloads|images|videos)\\.(?:ct?fassets\\.net|contentful\\.com)",
+    "html": [
+      "<[^>]+(?:assets|downloads|images|videos)\\.(?:ct?fassets\\.net|contentful\\.com)"
+    ],
     "icon": "Contentful.svg",
     "pricing": [
       "mid",
@@ -3678,7 +3682,9 @@
     "website": "https://cookie-script.com"
   },
   "Cookie Seal": {
-    "cats": [67],
+    "cats": [
+      67
+    ],
     "description": "Cookie Seal is a tool or system that helps you manage and configure the use of cookies on your website in accordance with data protection laws, ensuring compliance with relevant regulations.",
     "icon": "Cookie Seal.svg",
     "js": {
@@ -3800,7 +3806,9 @@
     ],
     "cpe": "cpe:2.3:a:coppermine-gallery:coppermine_photo_gallery:*:*:*:*:*:*:*:*",
     "description": "Coppermine is an open-source image gallery application.",
-    "html": "<!--Coppermine Photo Gallery ([\\d.]+)\\;version:\\1",
+    "html": [
+      "<!--Coppermine Photo Gallery ([\\d.]+)\\;version:\\1"
+    ],
     "icon": "Coppermine.png",
     "implies": "PHP",
     "website": "https://coppermine-gallery.net"
@@ -4646,7 +4654,9 @@
     "headers": {
       "Server": "cpsrvd/([\\d.]+)\\;version:\\1"
     },
-    "html": "<!-- cPanel",
+    "html": [
+      "<!-- cPanel"
+    ],
     "icon": "cPanel.png",
     "website": "https://www.cpanel.net"
   },
