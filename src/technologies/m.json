@@ -266,7 +266,9 @@
     "cats": [
       66
     ],
-    "css": "\\.MuiPaper-root",
+    "css": [
+      "\\.MuiPaper-root"
+    ],
     "description": "MUI(formerly Material UI) is a simple and customisable component library to build faster, beautiful, and more accessible React applications.",
     "dom": "style[data-meta='MuiPaper'], div.MuiBox-root, div.MuiPaper-root, style[data-meta='MuiButton']",
     "icon": "MUI.svg",
@@ -2737,7 +2739,9 @@
     "cats": [
       24
     ],
-    "css": "\\.monaco-editor",
+    "css": [
+      "\\.monaco-editor"
+    ],
     "description": "Monaco Editor is the code editor that powers VS Code. Monaco Editor is a tool in the text editor category of a tech stack.",
     "icon": "Microsoft.svg",
     "js": {

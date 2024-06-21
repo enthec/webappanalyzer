@@ -4399,7 +4399,9 @@
     "cats": [
       1
     ],
-    "css": "\\.g-stage \\.g-stage-root",
+    "css": [
+      "\\.g-stage \\.g-stage-root"
+    ],
     "html": [
       "<section[^>]+class=\"g-stage"
     ],

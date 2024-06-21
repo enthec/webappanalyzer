@@ -1896,7 +1896,9 @@
     "cats": [
       16
     ],
-    "css": "#cf-hcaptcha-container",
+    "css": [
+      "#cf-hcaptcha-container"
+    ],
     "description": "hCaptcha is an anti-bot solution that protects user privacy and rewards websites.",
     "dom": "link[href*='hcaptcha.com']",
     "headers": {

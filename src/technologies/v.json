@@ -1255,7 +1255,9 @@
     "cats": [
       12
     ],
-    "css": "\\.vue-notification-group",
+    "css": [
+      "\\.vue-notification-group"
+    ],
     "description": "Vue.js is an open-source model–view–viewmodel JavaScript framework for building user interfaces and single-page applications.",
     "dom": ".vue-app",
     "html": [
@@ -1311,7 +1313,9 @@
     "cats": [
       66
     ],
-    "css": "\\.v-application \\.d-block",
+    "css": [
+      "\\.v-application \\.d-block"
+    ],
     "description": "Vuetify is a reusable semantic component framework for Vue.js that aims to provide clean, semantic and reusable components.",
     "dom": "style#vuetify-theme-stylesheet",
     "icon": "Vuetify.svg",

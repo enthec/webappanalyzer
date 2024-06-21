@@ -1997,7 +1997,9 @@
     "cats": [
       47
     ],
-    "css": "\\.ClickOnceInfoText",
+    "css": [
+      "\\.ClickOnceInfoText"
+    ],
     "description": "ClickOnce is a Microsoft .NET deployment technology that enables the creation of self-updating Windows-based applications that can be installed and run with minimal user interaction.",
     "dom": {
       "a[href='https://go.microsoft.com/fwlink/?LinkId=154571']": {

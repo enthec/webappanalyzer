@@ -467,7 +467,9 @@
     "cats": [
       66
     ],
-    "css": "--un-(?:rotate|translate|space-x|text-opacity|border-opacity)",
+    "css": [
+      "--un-(?:rotate|translate|space-x|text-opacity|border-opacity)"
+    ],
     "description": "UnoCSS is instant on-demand Atomic CSS engine.",
     "dom": {
       "style[data-unocss]": {
