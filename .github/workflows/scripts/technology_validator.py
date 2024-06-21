@@ -145,6 +145,11 @@ class RegexValidator(abc.ABC, AbstractValidator):
         return True
 
 
+class ArrayValidator(RegexValidator):
+    def get_type(self) -> list[Type]:
+        return [list]
+
+
 class StringOrArrayValidator(RegexValidator):
     def get_type(self) -> list[Type]:
         return [str, list]
@@ -257,7 +262,7 @@ class TechnologiesValidator:
             "meta": DictValidator(contains_regex=True),
             "scriptSrc": StringOrArrayValidator(contains_regex=True),
             "scripts": StringOrArrayValidator(contains_regex=True),
-            "html": StringOrArrayValidator(contains_regex=True),
+            "html": ArrayValidator(contains_regex=True),
             "certIssuer": StringValidator()
         }
 
