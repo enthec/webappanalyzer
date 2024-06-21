@@ -227,7 +227,9 @@
     "description": "APC offers door-to-door parcel and mail delivery.",
     "icon": "APC.svg",
     "requiresCategory": 6,
-    "text": "\\APC\\b",
+    "text": [
+      "\\APC\\b"
+    ],
     "website": "https://www.apc-pli.com"
   },
   "ARI Network Services": {
@@ -4273,7 +4275,9 @@
     "description": "Asendia is an international mail joint venture of French La Poste and Swiss Post.",
     "icon": "Asendia.svg",
     "requiresCategory": 6,
-    "text": "\\Asendia\\b",
+    "text": [
+      "\\Asendia\\b"
+    ],
     "website": "https://www.asendia.com"
   },
   "Asgaros Forum": {

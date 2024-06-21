@@ -253,7 +253,7 @@ class TechnologiesValidator:
             "dns": DictValidator(contains_regex=True),
             "js": DictValidator(contains_regex=True),
             "headers": DictValidator(contains_regex=True),
-            "text": StringOrArrayValidator(contains_regex=True),
+            "text": ArrayValidator(contains_regex=True),
             "css": StringOrArrayValidator(contains_regex=True),
             "probe": DictValidator(),
             "robots": StringOrArrayValidator(),
