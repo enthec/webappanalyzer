@@ -427,7 +427,9 @@
     "cats": [
       66
     ],
-    "css": "--made-with-panda",
+    "css": [
+      "--made-with-panda"
+    ],
     "description": "Panda is a styling engine that generates styling primitives to author atomic CSS and recipes in a type-safe and readable manner.",
     "icon": "PandaCSS.svg",
     "oss": true,
@@ -2257,7 +2259,9 @@
     "cats": [
       14
     ],
-    "css": "--plyr-progress",
+    "css": [
+      "--plyr-progress"
+    ],
     "description": "Plyr is a simple, lightweight, accessible and customizable HTML5, YouTube and Vimeo media player that supports modern browsers.",
     "icon": "Plyr.png",
     "js": {
@@ -2955,7 +2959,9 @@
     "cats": [
       66
     ],
-    "css": "\\.p-(?:toast|calendar|dialog-mask|menuitem-text)(?:-content)?\\{",
+    "css": [
+      "\\.p-(?:toast|calendar|dialog-mask|menuitem-text)(?:-content)?\\{"
+    ],
     "description": "PrimeNG is a rich set of open-source UI Components for Angular.",
     "icon": "PrimeNG.svg",
     "oss": true,
@@ -2969,7 +2975,9 @@
     "cats": [
       66
     ],
-    "css": "\\.p-(?:toast|calendar|dialog-mask|menuitem-text)(?:-content)?\\{",
+    "css": [
+      "\\.p-(?:toast|calendar|dialog-mask|menuitem-text)(?:-content)?\\{"
+    ],
     "description": "PrimeReact is a rich set of open-source UI Components for React.",
     "icon": "PrimeReact.svg",
     "oss": true,
@@ -2983,7 +2991,9 @@
     "cats": [
       66
     ],
-    "css": "\\.p-(?:toast|calendar|dialog-mask|menuitem-text)(?:-content)?\\{",
+    "css": [
+      "\\.p-(?:toast|calendar|dialog-mask|menuitem-text)(?:-content)?\\{"
+    ],
     "description": "PrimeVue is a rich set of open-source UI Components for Vue.js.",
     "icon": "PrimeVue.svg",
     "oss": true,

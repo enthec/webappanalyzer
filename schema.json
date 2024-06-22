@@ -117,17 +117,10 @@
         }
       },
       "css": {
-        "oneOf": [
-          {
-            "type": "array",
-            "items": {
-              "$ref": "#/definitions/non-empty-non-blank-string"
-            }
-          },
-          {
-            "$ref": "#/definitions/non-empty-non-blank-string"
-          }
-        ]
+        "type": "array",
+        "items": {
+          "$ref": "#/definitions/non-empty-non-blank-string"
+        }
       },
       "robots": {
         "oneOf": [

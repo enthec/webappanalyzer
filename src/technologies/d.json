@@ -2136,7 +2136,9 @@
     "cats": [
       103
     ],
-    "css": "\\.dyte-client-selfVideo",
+    "css": [
+      "\\.dyte-client-selfVideo"
+    ],
     "description": "Dyte is a developer-friendly, real-time audio and video communication software development kit (SDK).",
     "icon": "Dyte.svg",
     "implies": "WebRTC",

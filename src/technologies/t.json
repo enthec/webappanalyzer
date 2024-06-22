@@ -499,7 +499,9 @@
     "cats": [
       66
     ],
-    "css": "--tw-(?:rotate|translate|space-x|text-opacity|border-opacity)",
+    "css": [
+      "--tw-(?:rotate|translate|space-x|text-opacity|border-opacity)"
+    ],
     "description": "Tailwind is a utility-first CSS framework.",
     "dom": {
       "link[rel='stylesheet'][href*='tailwind']": {
