@@ -70,7 +70,9 @@
       22
     ],
     "cpe": "cpe:2.3:a:redhat:jbossweb:*:*:*:*:*:*:*:*",
-    "excludes": "Apache Tomcat",
+    "excludes": [
+      "Apache Tomcat"
+    ],
     "headers": {
       "X-Powered-By": "JBossWeb(?:-([\\d.]+))?\\;version:\\1"
     },

@@ -143,17 +143,10 @@
         "$ref": "#/definitions/non-empty-non-blank-string"
       },
       "excludes": {
-        "oneOf": [
-          {
-            "type": "array",
-            "items": {
-              "$ref": "#/definitions/non-empty-non-blank-string"
-            }
-          },
-          {
-            "$ref": "#/definitions/non-empty-non-blank-string"
-          }
-        ]
+        "type": "array",
+        "items": {
+          "$ref": "#/definitions/non-empty-non-blank-string"
+        }
       },
       "implies": {
         "oneOf": [

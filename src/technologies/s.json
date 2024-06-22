@@ -211,7 +211,9 @@
     "cats": [
       19
     ],
-    "excludes": "HTTP/2",
+    "excludes": [
+      "HTTP/2"
+    ],
     "headers": {
       "X-Firefox-Spdy": "\\d\\.\\d"
     },
@@ -2722,7 +2724,9 @@
       6
     ],
     "description": "Shopline provides solutions for merchants to set up an online store.",
-    "excludes": "Shopify",
+    "excludes": [
+      "Shopify"
+    ],
     "icon": "Shopline.svg",
     "js": {
       "Shopline": "",
@@ -7257,7 +7261,9 @@
     },
     "description": "Swell is a headless ecommerce platform for modern brands, startups, and agencies.",
     "dom": "img[srcset*='.swell.is'], img[srcset*='.swell.store'], img[srcset*='.schema.io']",
-    "excludes": "Shopify",
+    "excludes": [
+      "Shopify"
+    ],
     "icon": "Swell.svg",
     "js": {
       "swell.version": ""

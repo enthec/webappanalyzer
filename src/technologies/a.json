@@ -1552,7 +1552,9 @@
     "cpe": "cpe:2.3:a:adobe:experience_manager:*:*:*:*:*:*:*:*",
     "description": "Adobe Experience Manager Franklin, also known as Project Helix or Composability, is a new way to publish AEM pages using Google Drive or Microsoft Office via Sharepoint. Instead of components, Franklin uses blocks to build pages. Blocks are pieces of a document that will be transformed into web page content.",
     "icon": "Adobe Experience Manager Franklin.svg",
-    "excludes": "Adobe Experience Manager",
+    "excludes": [
+      "Adobe Experience Manager"
+    ],
     "scriptSrc": "^.+/scripts/lib-franklin\\.js$",
     "website": "https://www.hlx.live"
   },
@@ -3212,7 +3214,9 @@
       66
     ],
     "description": "Angular Material is a UI component library for Angular JS developers. Angular Material components assist in constructing attractive, consistent, and functional web pages and web applications.",
-    "excludes": "Material Design Lite",
+    "excludes": [
+      "Material Design Lite"
+    ],
     "icon": "AngularJS.svg",
     "implies": "AngularJS",
     "js": {
@@ -4025,7 +4029,9 @@
     ],
     "cpe": "cpe:2.3:a:arastta:ecommerce:*:*:*:*:*:*:*:*",
     "description": "Arastta is a free and open-source project with contributors from all over the world.",
-    "excludes": "OpenCart",
+    "excludes": [
+      "OpenCart"
+    ],
     "headers": {
       "Arastta": "^(.+)$\\;version:\\1",
       "X-Arastta": "",
@@ -5059,7 +5065,9 @@
       106
     ],
     "description": "Azoya helps international brands and retailers sell directly to Chinese consumers through cross-border ecommerce.",
-    "excludes": "Magento",
+    "excludes": [
+      "Magento"
+    ],
     "headers": {
       "x-azoya-webisteid": ""
     },

@@ -68,7 +68,9 @@
       6
     ],
     "description": "OXID eShop Community Edition is a free, open source ecommerce solution built using object oriented programming and PHP.",
-    "excludes": "OXID eShop",
+    "excludes": [
+      "OXID eShop"
+    ],
     "html": [
       "<!--[^-]*OXID eShop Community Edition, Version (\\d+)\\;version:\\1"
     ],
@@ -82,7 +84,9 @@
       62
     ],
     "description": "OXID eShop Enterprise Edition is a B2B or B2C ecommerce solution built using object oriented programming and PHP.",
-    "excludes": "OXID eShop",
+    "excludes": [
+      "OXID eShop"
+    ],
     "html": [
       "<!--[^-]*OXID eShop Enterprise Edition, Version (\\d+)\\;version:\\1"
     ],
@@ -95,7 +99,9 @@
       6
     ],
     "description": "OXID eShop Professional Edition is an e-ommerce platform for both small start-up companies and experience online retailers with a wide range of functions, software maintenance and support.",
-    "excludes": "OXID eShop",
+    "excludes": [
+      "OXID eShop"
+    ],
     "html": [
       "<!--[^-]*OXID eShop Professional Edition, Version (\\d+)\\;version:\\1"
     ],
@@ -604,7 +610,9 @@
     ],
     "description": "OnShop is an ecommerce platform for online merchants.",
     "dom": "link[href*='cdn.onshop.asia/']",
-    "excludes": "OpenCart",
+    "excludes": [
+      "OpenCart"
+    ],
     "icon": "Onshop.svg",
     "implies": "PHP",
     "meta": {
@@ -964,7 +972,9 @@
       22
     ],
     "cpe": "cpe:2.3:a:openbsd:openbsd:*:*:*:*:*:*:*:*",
-    "excludes": "Apache HTTP Server",
+    "excludes": [
+      "Apache HTTP Server"
+    ],
     "headers": {
       "Server": "^OpenBSD httpd"
     },

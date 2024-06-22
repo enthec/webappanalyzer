@@ -1355,7 +1355,9 @@
     ],
     "description": "GoDaddy Escapade is a GoDaddy Primer child theme with a unique sidebar navigation.",
     "dom": "link[href*='/wp-content/themes/escapade/']",
-    "excludes": "GoDaddy Primer",
+    "excludes": [
+      "GoDaddy Primer"
+    ],
     "icon": "GoDaddy.svg",
     "requires": "WordPress",
     "website": "https://github.com/godaddy-wordpress/primer-child-escapade"
@@ -1381,7 +1383,9 @@
     ],
     "description": "GoDaddy Lyrical is a GoDaddy Primer child theme with a focus on photography and beautiful fonts.",
     "dom": "link[href*='/wp-content/themes/lyrical/']",
-    "excludes": "GoDaddy Primer",
+    "excludes": [
+      "GoDaddy Primer"
+    ],
     "icon": "GoDaddy.svg",
     "requires": "WordPress",
     "website": "https://github.com/godaddy-wordpress/primer-child-lyrical"
@@ -1414,7 +1418,9 @@
     ],
     "description": "GoDaddy Uptown Style is a GoDaddy Primer child theme with elegance and class.",
     "dom": "link[href*='/wp-content/themes/uptown-style/']",
-    "excludes": "GoDaddy Primer",
+    "excludes": [
+      "GoDaddy Primer"
+    ],
     "icon": "GoDaddy.svg",
     "requires": "WordPress",
     "website": "https://github.com/godaddy-wordpress/primer-child-uptownstyle"

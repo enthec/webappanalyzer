@@ -431,7 +431,9 @@
       6
     ],
     "description": "FatherShops is an ecommerce platform.",
-    "excludes": "OpenCart",
+    "excludes": [
+      "OpenCart"
+    ],
     "icon": "FatherShops.png",
     "pricing": [
       "poa"

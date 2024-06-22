@@ -1423,7 +1423,9 @@
     "cats": [
       6
     ],
-    "excludes": "PrestaShop",
+    "excludes": [
+      "PrestaShop"
+    ],
     "icon": "vibecommerce.png",
     "implies": "PHP",
     "meta": {

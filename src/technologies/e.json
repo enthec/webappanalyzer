@@ -1996,7 +1996,9 @@
     ],
     "description": "ExtendThemes EmpowerWP is an flexible, multipurpose WordPress theme.",
     "dom": "link[href*='/wp-content/themes/empowerwp']",
-    "excludes": "ExtendThemes Mesmerize",
+    "excludes": [
+      "ExtendThemes Mesmerize"
+    ],
     "icon": "ExtendThemes.svg",
     "pricing": [
       "freemium",
@@ -2014,7 +2016,9 @@
     ],
     "description": "ExtendThemes Highlight is an flexible, multipurpose WordPress theme.",
     "dom": "link[href*='/wp-content/themes/highlight/'], link[href*='/wp-content/themes/highlight-pro/']",
-    "excludes": "ExtendThemes Mesmerize",
+    "excludes": [
+      "ExtendThemes Mesmerize"
+    ],
     "icon": "ExtendThemes.svg",
     "pricing": [
       "freemium",

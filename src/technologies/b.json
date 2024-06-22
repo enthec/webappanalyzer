@@ -731,7 +731,9 @@
       6
     ],
     "description": "BigCommerce B2B Edition is a specialised version of the BigCommerce ecommerce platform tailored for B2B companies, offering features such as custom pricing, catalogues, bulk ordering, quote requests, multi-user accounts, PO processing, and advanced reporting.",
-    "excludes": "BigCommerce",
+    "excludes": [
+      "BigCommerce"
+    ],
     "icon": "BigCommerce B2B Edition.svg",
     "js": {
       "bundleB2BFeatureFlags": "",

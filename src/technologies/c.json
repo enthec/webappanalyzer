@@ -996,7 +996,9 @@
     ],
     "description": "Centra is the headless ecommerce platform.",
     "dom": "img[src*='.centracdn.net/']",
-    "excludes": "Magento",
+    "excludes": [
+      "Magento"
+    ],
     "headers": {
       "Content-Security-Policy": "\\.centra(?:cdn)?\\.(?:com|net)"
     },

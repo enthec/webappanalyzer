@@ -133,7 +133,9 @@
       19
     ],
     "description": "HTTP/2 (originally named HTTP/2.0) is a major revision of the HTTP network protocol used by the World Wide Web.",
-    "excludes": "SPDY",
+    "excludes": [
+      "SPDY"
+    ],
     "headers": {
       "Alt-Svc": "h2",
       "X-Firefox-Spdy": "h2"
@@ -146,7 +148,9 @@
       19
     ],
     "description": "HTTP/3 is the third major version of the Hypertext Transfer Protocol used to exchange information on the World Wide Web.",
-    "excludes": "HTTP/2",
+    "excludes": [
+      "HTTP/2"
+    ],
     "headers": {
       "Alt-Svc": "h3",
       "X-Firefox-Http3": "h3"

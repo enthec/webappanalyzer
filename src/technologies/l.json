@@ -1546,7 +1546,9 @@
     ],
     "cpe": "cpe:2.3:a:lodash:lodash:*:*:*:*:*:*:*:*",
     "description": "Lodash is a JavaScript library which provides utility functions for common programming tasks using the functional programming paradigm.",
-    "excludes": "Underscore.js",
+    "excludes": [
+      "Underscore.js"
+    ],
     "icon": "Lodash.svg",
     "js": {
       "_.VERSION": "^(.+)$\\;confidence:0\\;version:\\1",
