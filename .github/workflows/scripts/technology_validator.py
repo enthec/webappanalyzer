@@ -256,7 +256,7 @@ class TechnologiesValidator:
             "text": ArrayValidator(contains_regex=True),
             "css": ArrayValidator(contains_regex=True),
             "probe": DictValidator(),
-            "robots": StringOrArrayValidator(),
+            "robots": ArrayValidator(),
             "url": StringOrArrayValidator(contains_regex=True),
             "xhr": StringOrArrayValidator(contains_regex=True),
             "meta": DictValidator(contains_regex=True),

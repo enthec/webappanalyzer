@@ -2781,7 +2781,9 @@
       "low",
       "recurring"
     ],
-    "robots": "# Powered by Shoporama",
+    "robots": [
+      "# Powered by Shoporama"
+    ],
     "website": "https://www.shoporama.dk"
   },
   "Shoppiko": {
