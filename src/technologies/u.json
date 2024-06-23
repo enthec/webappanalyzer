@@ -399,7 +399,9 @@
       59
     ],
     "description": "Underscore.js is a JavaScript library which provides utility functions for common programming tasks. It is comparable to features provided by Prototype.js and the Ruby language, but opts for a functional programming design instead of extending object prototypes.",
-    "excludes": "Lodash",
+    "excludes": [
+      "Lodash"
+    ],
     "icon": "Underscore.js.png",
     "js": {
       "_.VERSION": "^(.+)$\\;confidence:0\\;version:\\1",

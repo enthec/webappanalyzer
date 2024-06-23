@@ -123,7 +123,9 @@
     ],
     "cpe": "cpe:2.3:a:xwiki:xwiki:*:*:*:*:*:*:*:*",
     "description": "XWiki is a free wiki software platform written in Java.",
-    "excludes": "MediaWiki",
+    "excludes": [
+      "MediaWiki"
+    ],
     "html": [
       "<html[^>]data-xwiki-[^>]>"
     ],

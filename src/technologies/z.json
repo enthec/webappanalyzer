@@ -524,7 +524,9 @@
       6
     ],
     "description": "Zoey is a cloud-based ecommerce platform for B2B and wholesale businesses.",
-    "excludes": "Magento",
+    "excludes": [
+      "Magento"
+    ],
     "icon": "Zoey.svg",
     "implies": [
       "PHP",
@@ -710,7 +712,9 @@
         "text": "^Zozo"
       }
     },
-    "excludes": "OpenCart",
+    "excludes": [
+      "OpenCart"
+    ],
     "icon": "Zozo.png",
     "implies": [
       "PHP",

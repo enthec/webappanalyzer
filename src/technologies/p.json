@@ -1513,7 +1513,9 @@
         }
       }
     },
-    "excludes": "PhotoShelter",
+    "excludes": [
+      "PhotoShelter"
+    ],
     "icon": "PhotoShelter.png",
     "pricing": [
       "poa"
@@ -1850,7 +1852,9 @@
       10
     ],
     "description": "Piwik PRO Core is a free alternative to Google Analytics that is privacy & compliance focused.",
-    "excludes": "Matomo Analytics",
+    "excludes": [
+      "Matomo Analytics"
+    ],
     "icon": "Piwik PRO Core.svg",
     "pricing": [
       "freemium",

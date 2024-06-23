@@ -246,7 +246,7 @@ class TechnologiesValidator:
             "pricing": PricingValidator(),
             "implies": StringOrArrayValidator(),  # TODO cat validation
             "requires": StringOrArrayValidator(),  # TODO ^
-            "excludes": StringOrArrayValidator(),  # TODO ^
+            "excludes": ArrayValidator(),  # TODO ^
             "requiresCategory": CategoryValidator(self._CATEGORIES),
             "cookies": DictValidator(contains_regex=True),
             "dom": StringOrArrayOrDictValidator(),  # TODO query selector validator
@@ -256,7 +256,7 @@ class TechnologiesValidator:
             "text": ArrayValidator(contains_regex=True),
             "css": ArrayValidator(contains_regex=True),
             "probe": DictValidator(),
-            "robots": StringOrArrayValidator(),
+            "robots": ArrayValidator(),
             "url": StringOrArrayValidator(contains_regex=True),
             "xhr": StringOrArrayValidator(contains_regex=True),
             "meta": DictValidator(contains_regex=True),

@@ -740,7 +740,9 @@
     "cats": [
       1
     ],
-    "excludes": "Joomla",
+    "excludes": [
+      "Joomla"
+    ],
     "icon": "Mambo.png",
     "meta": {
       "generator": "Mambo"
@@ -3305,7 +3307,9 @@
       51
     ],
     "description": "MyWebsite is website builder designed for easy editing and fast results.",
-    "excludes": "Jimdo",
+    "excludes": [
+      "Jimdo"
+    ],
     "icon": "MyWebsite.svg",
     "js": {
       "SystemID": "^.*1AND1.*$\\;version:8"
@@ -3415,7 +3419,9 @@
     ],
     "description": "News Portal Lite is child theme of News Portal ultimate magazine WordPress theme by MysteryThemes.",
     "dom": "link[href*='/wp-content/themes/news-portal-lite/']",
-    "excludes": "MysteryThemes News Portal",
+    "excludes": [
+      "MysteryThemes News Portal"
+    ],
     "icon": "MysteryThemes.png",
     "pricing": [
       "freemium",
@@ -3430,7 +3436,9 @@
     ],
     "description": "News Portal Mag is child theme of News Portal ultimate magazine WordPress theme by MysteryThemes.",
     "dom": "link[href*='/wp-content/themes/news-portal-mag/']",
-    "excludes": "MysteryThemes News Portal",
+    "excludes": [
+      "MysteryThemes News Portal"
+    ],
     "icon": "MysteryThemes.png",
     "pricing": [
       "onetime"

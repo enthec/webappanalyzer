@@ -353,7 +353,9 @@
     "cats": [
       1
     ],
-    "excludes": "TYPO3 CMS",
+    "excludes": [
+      "TYPO3 CMS"
+    ],
     "headers": {
       "X-Flow-Powered": "Neos/?(.+)?$\\;version:\\1"
     },
@@ -366,7 +368,9 @@
     "cats": [
       18
     ],
-    "excludes": "TYPO3 CMS",
+    "excludes": [
+      "TYPO3 CMS"
+    ],
     "headers": {
       "X-Flow-Powered": "Flow/?(.+)?$\\;version:\\1"
     },

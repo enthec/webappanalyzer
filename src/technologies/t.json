@@ -1550,7 +1550,9 @@
     ],
     "description": "Themeansar Newsberg is a fast, clean, modern-looking, responsive news magazine WordPress theme.",
     "dom": "link#newsberg-style-css",
-    "excludes": "Themeansar Newsup",
+    "excludes": [
+      "Themeansar Newsup"
+    ],
     "icon": "Themeansar.png",
     "pricing": [
       "freemium",
