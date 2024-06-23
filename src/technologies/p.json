@@ -306,7 +306,9 @@
       "recurring",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/page-builder-framework/.+site-min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://wp-pagebuilderframework.com"
   },
@@ -335,7 +337,9 @@
     "dom": "link[href*='/wp-content/plugins/pagelayer/'], #pagelayer-frontend-css, #pagelayer-global-styles, .pagelayer-body, .pagelayer-header, .pagelayer-footer, .pagelayer-content",
     "icon": "PageLayer.png",
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "pagelayer(?:-frontend)?(?:\\/js)?(?:\\/combined)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
     "website": "https://wordpress.org/plugins/pagelayer"
   },
@@ -422,7 +426,9 @@
     "pricing": [
       "payg"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "\\.getpaloma\\.com/",
     "website": "https://www.getpaloma.com"
@@ -637,7 +643,9 @@
     "pricing": [
       "poa"
     ],
-    "requires": "Microsoft ASP.NET",
+    "requires": [
+      "Microsoft ASP.NET"
+    ],
     "saas": true,
     "website": "https://www.parttrap.com"
   },
@@ -1146,7 +1154,9 @@
       "low",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "swift\\.perfectapps\\.io/",
     "website": "https://apps.shopify.com/swift"
@@ -1177,7 +1187,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "saas": true,
     "scriptSrc": "/wp-content/(?:plugins|cache|uploads)/perfmatters/",
     "website": "https://perfmatters.io"
@@ -1192,7 +1204,9 @@
     "meta": {
       "generator": "^Performance Lab ?([\\d.]+)?\\;version:\\1"
     },
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://wordpress.org/plugins/performance-lab/"
   },
   "PerimeterX": {
@@ -1409,7 +1423,9 @@
       "low",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/phlox(?:-pro)?/",
     "website": "https://www.phlox.pro"
   },
@@ -1490,7 +1506,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/photo-gallery/.+scripts\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://10web.io/plugins/wordpress-photo-gallery"
   },
@@ -1942,7 +1960,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/pixelyoursite/",
     "website": "https://www.pixelyoursite.com"
   },
@@ -2124,7 +2144,9 @@
       "mid",
       "recurring"
     ],
-    "requires": "Microsoft ASP.NET",
+    "requires": [
+      "Microsoft ASP.NET"
+    ],
     "saas": true,
     "scriptSrc": "//platincdn\\.com/",
     "website": "https://www.platinmarket.com"
@@ -2456,7 +2478,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://wordpress.org/plugins/polylang"
   },
   "Polymer": {
@@ -2528,7 +2552,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/popularfx/.+\\?ver=([\\d\\.]+)\\;version:\\1",
     "website": "https://popularfx.com"
   },
@@ -2546,7 +2572,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/popup-maker/(?:.+site(?:\\.min)?\\.js\\?.+ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://wppopupmaker.com"
   },
@@ -2834,7 +2862,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "saas": true,
     "scriptSrc": "/wp-content/plugins/chaty/",
     "website": "https://premio.io/downloads/chaty"
@@ -2872,7 +2902,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/customizr/.+js(?:\\?ver=([\\d\\.]+))?\\;version:\\1",
     "website": "https://presscustomizr.com/customizr"
   },
@@ -2889,7 +2921,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/hueman/.+scripts\\.min\\.js(?:\\?ver=([\\d\\.]+))?\\;version:\\1",
     "website": "https://presscustomizr.com/hueman"
   },
@@ -2909,7 +2943,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/customify/.+theme\\.min\\.js(?:.+ver=([\\d\\.]+))?\\;version:\\1",
     "website": "https://pressmaximum.com/customify"
   },
@@ -2976,7 +3012,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://prettylinks.com"
   },
   "PriceSpider": {
@@ -3008,7 +3046,9 @@
     "pricing": [
       "onetime"
     ],
-    "requires": "Angular",
+    "requires": [
+      "Angular"
+    ],
     "website": "https://www.primefaces.org"
   },
   "PrimeReact": {
@@ -3024,7 +3064,9 @@
     "pricing": [
       "onetime"
     ],
-    "requires": "React",
+    "requires": [
+      "React"
+    ],
     "website": "https://www.primefaces.org"
   },
   "PrimeVue": {
@@ -3040,7 +3082,9 @@
     "pricing": [
       "onetime"
     ],
-    "requires": "Vue.js",
+    "requires": [
+      "Vue.js"
+    ],
     "website": "https://www.primefaces.org"
   },
   "Primis": {
@@ -3160,7 +3204,9 @@
       "freemium",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "//shopify\\.privy\\.com/",
     "website": "https://apps.shopify.com/privy"
@@ -3236,7 +3282,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/wp-user-avatar(?:-pro)?/.+frontend\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://profilepress.net"
   },
@@ -3298,7 +3346,9 @@
     "description": "Progress WS_FTP is a file transfer client software developed by Progress Software Corporation, supporting FTP, FTPS, SFTP, and HTTPS protocols with features like drag-and-drop support, file synchronization, and encrypted data transmission.",
     "dom": "form[name='formLogin'][action='login.aspx' i][id='formLogin']\\;confidence:40",
     "icon": "Progress.svg",
-    "requires": "Microsoft ASP.NET",
+    "requires": [
+      "Microsoft ASP.NET"
+    ],
     "scriptSrc": "/ThinClient/(?:WTM|WebResource)(?:\\.axd|/public)\\;confidence:60",
     "website": "https://www.progress.com/ws_ftp"
   },
@@ -3473,7 +3523,9 @@
       "pmg-spam-archive": ""
     },
     "oss": true,
-    "requires": "Proxmox VE",
+    "requires": [
+      "Proxmox VE"
+    ],
     "website": "https://proxmox.com/en/proxmox-mail-gateway"
   },
   "Proxmox VE": {
@@ -3740,7 +3792,9 @@
       "freemium",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "/sdks/pushowl-shopify\\.js",
     "website": "https://apps.shopify.com/pushowl"

@@ -180,7 +180,9 @@
       "ewww_webp_supported": ""
     },
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/ewww-image-optimizer/",
     "website": "https://github.com/nosilver4u/ewww-image-optimizer"
   },
@@ -259,7 +261,9 @@
     "pricing": [
       "payg"
     ],
-    "requires": "Next.js",
+    "requires": [
+      "Next.js"
+    ],
     "saas": true,
     "website": "https://www.easy-orders.net",
     "xhr": "api\\.easy-orders\\.net/"
@@ -305,7 +309,9 @@
       "mid",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "saas": true,
     "website": "https://easydigitaldownloads.com"
   },
@@ -338,7 +344,9 @@
       "low",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "website": "https://apps.shopify.com/gifter-cart-auto-include"
   },
@@ -709,7 +717,9 @@
     },
     "icon": "ElementUI.svg",
     "oss": true,
-    "requires": "Vue.js",
+    "requires": [
+      "Vue.js"
+    ],
     "website": "https://element.eleme.io/"
   },
   "Elementor": {
@@ -732,7 +742,9 @@
       "onetime",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "saas": true,
     "scriptSrc": "/wp-content/plugins/elementor(?:-pro)?/.+frontend-modules\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://elementor.com"
@@ -746,7 +758,9 @@
     "dom": "link[href*='/wp-content/plugins/addon-elements-for-elementor-page-builder/']",
     "icon": "Elementor Addon Elements.png",
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "addon-elements-for-elementor-page-builder(?:\\/assets)?(?:\\/js)?(?:\\/lib)?(?:\\/animated-main)?(?:\\/build)?(?:\\/eae)?(?:\\/iconHelper)?(?:\\/index)?(?:\\/magnific)?(?:\\/particles)?(?:\\/vegas){0,2}(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
     "website": "https://wordpress.org/plugins/addon-elements-for-elementor-page-builder"
   },
@@ -803,7 +817,9 @@
       "mid",
       "recurring"
     ],
-    "requires": "Elementor",
+    "requires": [
+      "Elementor"
+    ],
     "website": "https://wpmet.com/plugin/elementskit"
   },
   "Elevar": {
@@ -891,7 +907,9 @@
       "elk_iso_case_folding": ""
     },
     "oss": true,
-    "requires": "PHP",
+    "requires": [
+      "PHP"
+    ],
     "website": "https://www.elkarte.net"
   },
   "Elliptic": {
@@ -993,7 +1011,9 @@
     "dom": "link#eeb-css-frontend-css, link[href*='/wp-content/plugins/email-encoder-bundle/']",
     "icon": "Email Encoder for Wordpress.png",
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "email-encoder-bundle(?:\\/core)?(?:\\/includes)?(?:\\/assets)?(?:\\/js)?(?:\\/custom)?(?:\\/encoder-form)?\\.js",
     "website": "https://wordpress.org/plugins/email-encoder-bundle"
   },
@@ -1055,7 +1075,9 @@
     "description": "Embed a PDF from the Media Library or elsewhere via oEmbed.",
     "dom": "#embed-pdf-viewer-css, link[href*='/wp-content/plugins/embed-pdf-viewer/']",
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://wordpress.org/plugins/embed-pdf-viewer"
   },
   "Embed Any Document": {
@@ -1066,7 +1088,9 @@
     "description": "Embed PDF, DOC, PPT and XLS documents easily on your WordPress website.",
     "dom": "#awsm-ead-public-css, link[href*='/wp-content/plugins/embed-any-document/']",
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "embed-any-document(?:\\/js)?(?:\\/embed-public)?(?:\\/pdfobject)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
     "website": "https://wordpress.org/plugins/embed-any-document"
   },
@@ -1080,7 +1104,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/youtube-embed-plus(?:-pro)?/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://www.embedplus.com"
   },
@@ -1093,7 +1119,9 @@
     "dom": "#embedpress-css, #embedpress-elementor-css-css, #embedpress_blocks-cgb-style-css-css, link[href*='/wp-content/plugins/embedpress/']",
     "icon": "EmbedPress.png",
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "embedpress(?:\\/assets)?(?:\\/js)?(?:\\/ads)?(?:\\/pdfobject)?(?:\\/front)?(?:\\/documents-viewer-script)?(?:\\/vimeo-player)?(?:\\/initplyr)?(?:\\/plyr)?(?:\\.polyfilled)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
     "website": "https://wordpress.org/plugins/embedpress"
   },
@@ -1228,7 +1256,9 @@
     },
     "icon": "endurance-cache.png",
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://github.com/bluehost/endurance-page-cache"
   },
   "EngagementHQ": {
@@ -1260,7 +1290,9 @@
       "X-Server-Powered-By": "^Engintron$"
     },
     "icon": "engintron.png",
-    "requires": "Nginx",
+    "requires": [
+      "Nginx"
+    ],
     "website": "https://github.com/engintron/engintron"
   },
   "Enigma": {
@@ -1272,7 +1304,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/enigma/",
     "website": "https://wordpress.org/themes/enigma"
   },
@@ -1369,7 +1403,9 @@
       "recurring",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/envo-shop/.+customscript\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://envothemes.com/free-envo-shop"
   },
@@ -1385,7 +1421,9 @@
       "recurring",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/envo-storefront/.+customscript\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://envothemes.com/free-envo-storefront"
   },
@@ -1401,7 +1439,9 @@
       "recurring",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/envo-ecommerce/.+customscript\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://envothemes.com/free-envo-ecommerce/"
   },
@@ -1612,7 +1652,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/uploads/essential-addons-elementor/",
     "website": "https://essential-addons.com/elementor/"
   },
@@ -1842,7 +1884,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/google-analytics-dashboard-for-wp/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://www.exactmetrics.com"
   },
@@ -2024,7 +2068,9 @@
     "dom": "link[href*='/plugins/extendify/'], #extendify-utility-styles-css",
     "icon": "Extendify.png",
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://extendify.com"
   },
   "ExtendThemes Calliope": {
@@ -2034,7 +2080,9 @@
     "description": "ExtendThemes Calliope is an flexible, multipurpose WordPress child theme of Colibri WP.",
     "dom": "link[href*='/wp-content/themes/calliope/']",
     "icon": "ExtendThemes.svg",
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/calliope/",
     "website": "https://wordpress.org/themes/calliope"
   },
@@ -2054,7 +2102,9 @@
       "recurring",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/empowerwp(?:-pro)?/",
     "website": "https://extendthemes.com/empowerwp"
   },
@@ -2074,7 +2124,9 @@
       "recurring",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/highlight(?:-pro)?/",
     "website": "https://extendthemes.com/highlight"
   },
@@ -2096,7 +2148,9 @@
       "recurring",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/materialis(?:-pro)?/",
     "website": "https://extendthemes.com/materialis"
   },
@@ -2119,7 +2173,9 @@
       "recurring",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/mesmerize(?:-pro)?/",
     "website": "https://extendthemes.com/mesmerize"
   },

@@ -349,7 +349,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/jetpack/",
     "website": "https://jetpack.com"
   },
@@ -360,7 +362,9 @@
     "description": "Jetpack Boost – Website Speed, Performance and Critical CSS.",
     "dom": "style[id='jetpack-boost-critical-css']",
     "icon": "Jetpack.svg",
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/jetpack-boost/",
     "website": "https://jetpack.com"
   },
@@ -422,7 +426,9 @@
     "js": {
       "jiltStorefrontParams.platform": "^shopify$"
     },
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "website": "https://community.shopify.com/c/shopify-apps/jilt-is-over-what-app-to-use-for-abandoned-carts-now/td-p/1575095"
   },
   "Jilt plugin": {
@@ -432,7 +438,9 @@
     ],
     "description": "Jilt plugin helps ecommerce store owners track and recover abandoned orders. Works seamlessly with Shopify and WooCommerce.",
     "icon": "Jilt.svg",
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "\\.jilt\\.com/.+/jilt\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://wordpress.org/plugins/jilt-for-woocommerce"
   },
@@ -879,7 +887,9 @@
       "recurring",
       "low"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "//scripttags\\.justuno\\.com/shopify_justuno",
     "website": "https://apps.shopify.com/justuno-pop-ups-email-conversion"

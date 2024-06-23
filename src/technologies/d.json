@@ -192,7 +192,9 @@
       "high",
       "recurring"
     ],
-    "requires": "DNN",
+    "requires": [
+      "DNN"
+    ],
     "saas": true,
     "scriptSrc": "\\.dx1app\\.com/",
     "website": "https://www.dx1app.com"
@@ -921,7 +923,9 @@
     ],
     "description": "dimple.js is a powerful and flexible open-source charting API for d3 letting you quickly and easily create and combine bar, line, area and scatter charts.",
     "oss": true,
-    "requires": "D3",
+    "requires": [
+      "D3"
+    ],
     "scriptSrc": "dimple(?:\\/lib\\/[\\w\\.]+)?(?:\\/theme\\/js\\/[\\w\\.-]+)?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1",
     "website": "http://dimplejs.org/"
   },
@@ -1090,7 +1094,9 @@
       "recurring",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "saas": true,
     "scriptSrc": "Divi/js/custom\\.(?:min|unified)\\.js\\?ver=([\\d.]+)\\;version:\\1",
     "website": "https://www.elegantthemes.com/gallery/divi"
@@ -1421,7 +1427,9 @@
     "implies": [
       "Doppler"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/doppler-form/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://wordpress.org/plugins/doppler-form/"
   },
@@ -1629,7 +1637,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://www.download-monitor.com"
   },
   "Doxygen": {
@@ -1670,7 +1680,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://draftpress.com/products/header-footer-code-manager-pro/"
   },
   "Dragon": {
@@ -1822,7 +1834,9 @@
       "low",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "website": "https://apps.shopify.com/drop-a-hint-v2"
   },
@@ -1990,7 +2004,9 @@
     },
     "icon": "Drupal.svg",
     "oss": true,
-    "requires": "Drupal",
+    "requires": [
+      "Drupal"
+    ],
     "scriptSrc": [
       "/sites/(?!(?:default|all)/).*/(?:files|themes|modules)/"
     ],
@@ -2081,7 +2097,9 @@
     ],
     "description": "Dynamic Conditions of Widgets is a cutting-edge WordPress plugin that extends the functionality of your website using conditional logic.",
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "dynamic-conditions-public\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
     "website": "https://wordpress.org/plugins/dynamicconditions"
   },

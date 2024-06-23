@@ -201,7 +201,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://ultimateelementor.com"
   },
   "Ultimate Bulletin Board": {
@@ -233,7 +235,9 @@
     "pricing": [
       "low"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://www.createit.com/gdpr"
   },
   "UltimatelySocial": {
@@ -246,7 +250,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/ultimate-social-media-icons/",
     "website": "https://www.ultimatelysocial.com"
   },
@@ -435,7 +441,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "wp-content/themes/understrap(?:[masterchild-]+)?(?:[masterchild-]+)?/",
     "website": "https://understrap.com"
   },
@@ -448,7 +456,9 @@
     "js": {
       "unifiConstant.VERSION": "^([\\d+\\.]+)$\\;version:\\1"
     },
-    "requires": "AngularJS",
+    "requires": [
+      "AngularJS"
+    ],
     "website": "https://www.ui.com/"
   },
   "Uniconsent": {
@@ -552,7 +562,9 @@
     "pricing": [
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/Zephyr/.+us\\.theme\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://zephyr.us-themes.com"
   },

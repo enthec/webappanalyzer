@@ -201,7 +201,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/nisarg(?:pro)?/",
     "website": "https://www.falgunithemes.com/downloads/nisarg"
   },
@@ -219,7 +221,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://www.famethemes.com/themes/onepress"
   },
   "FameThemes Screenr": {
@@ -232,7 +236,9 @@
       "Screenr.autoplay": "",
       "Screenr_Plus": ""
     },
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://www.famethemes.com/themes/screenr"
   },
   "FancyBox": {
@@ -743,7 +749,9 @@
       "low",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "//alireviews\\.fireapps\\.io/",
     "website": "https://apps.shopify.com/ali-reviews"
@@ -1236,7 +1244,9 @@
     "description": "Flying Analytics is a performance optimisation plugin for WordPress websites designed to reduce page load times and improve the user experience.",
     "dom": "link[href*='/wp-content/plugins/flying-analytics/']",
     "icon": "default.svg",
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/flying-analytics/",
     "website": "https://wordpress.org/plugins/flying-analytics/"
   },
@@ -1249,7 +1259,9 @@
     "js": {
       "flyingImages": ""
     },
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://wordpress.org/plugins/nazy-load/"
   },
   "Flying Pages": {
@@ -1263,7 +1275,9 @@
     "js": {
       "flyingPages": ""
     },
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/flying-pages/.+\\.js(?:\\?ver=([\\d\\.]+))?\\;version:\\1",
     "website": "https://wordpress.org/plugins/flying-pages/"
   },
@@ -1279,7 +1293,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/flying-press/",
     "website": "https://flying-press.com"
   },
@@ -1402,7 +1418,9 @@
       "freemium",
       "payg"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "fontify\\.nitroapps\\.co/",
     "website": "https://apps.shopify.com/fontify-change-customize-font-for-your-store"
@@ -1429,7 +1447,9 @@
       "recurring",
       "low"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://fooplugins.com/foogallery-wordpress-gallery-plugin"
   },
   "Food-Ordering.co.uk": {
@@ -1606,7 +1626,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://formidableforms.com"
   },
   "Formitable": {
@@ -1846,7 +1868,9 @@
       "recurring",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "saas": true,
     "website": "https://getframes.io"
   },
@@ -1993,7 +2017,9 @@
       "low",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "\\.codeblackbelt\\.com/js/modules/frequently-bought-together/",
     "website": "https://www.codeblackbelt.com"
@@ -2518,7 +2544,9 @@
       "recurring",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/futurio/.+customscript\\.js(?:\\?ver=([\\d\\.]+))?\\;version:\\1",
     "website": "https://futuriowp.com"
   },

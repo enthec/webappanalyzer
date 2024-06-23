@@ -261,7 +261,9 @@
       "low",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "cdn\\.tabarn\\.app/",
     "website": "https://tabarnapp.com"
@@ -326,7 +328,9 @@
     "dom": "link[href*='/wp-content/plugins/tablepress/']",
     "icon": "TablePress.png",
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://tablepress.org"
   },
   "Tablesorter": {
@@ -681,7 +685,9 @@
       "mid",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "cdn\\.tapcart\\.com/",
     "website": "https://tapcart.com"
@@ -897,7 +903,9 @@
       "Sass",
       "PHP"
     ],
-    "requires": "Cart Functionality",
+    "requires": [
+      "Cart Functionality"
+    ],
     "saas": true,
     "scripts": "\\.tebexLogin",
     "website": "https://www.tebex.io"
@@ -990,7 +998,9 @@
     "pricing": [
       "payg"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "scriptSrc": "live\\.tern-returns\\.eastsideapps\\.io/",
     "website": "https://www.tern.eco"
   },
@@ -1103,7 +1113,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/the-events-calendar(?:-pro)?/",
     "website": "https://theeventscalendar.com"
   },
@@ -1144,7 +1156,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "saas": true,
     "website": "https://theseoframework.com"
   },
@@ -1164,7 +1178,9 @@
       "recurring",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/make(?:-child)?/.+frontend\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://thethemefoundry.com/wordpress-themes/make"
   },
@@ -1256,7 +1272,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/edge(?:-plus)?/",
     "website": "https://themefreesia.com/themes/edge"
   },
@@ -1270,7 +1288,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/photograph(?:-plus)?/",
     "website": "https://themefreesia.com/themes/Photograph"
   },
@@ -1287,7 +1307,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/shoppingcart(?:-plus)?/",
     "website": "https://themefreesia.com/themes/shoppingcart"
   },
@@ -1302,7 +1324,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/attitude(?:-pro)?/",
     "website": "https://www.themehorse.com/themes/attitude"
   },
@@ -1317,7 +1341,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/newscard(?:-pro)?/",
     "website": "https://www.themehorse.com/themes/newscard"
   },
@@ -1335,7 +1361,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/agama(?:-pro)?/.+functions\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://theme-vision.com/agama"
   },
@@ -1352,7 +1380,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/evolve(?:-plus)?/",
     "website": "https://theme4press.com/evolve-multipurpose-wordpress-theme"
   },
@@ -1369,7 +1399,9 @@
       "recurring",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/accelerate(?:-pro)?/",
     "website": "https://themegrill.com/themes/accelerate"
   },
@@ -1386,7 +1418,9 @@
       "recurring",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/cenote(?:-pro)?/",
     "website": "https://themegrill.com/themes/cenote"
   },
@@ -1403,7 +1437,9 @@
       "recurring",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/colormag(?:-pro)?/",
     "website": "https://themegrill.com/themes/colormag"
   },
@@ -1420,7 +1456,9 @@
       "recurring",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/flash(?:-pro)?/",
     "website": "https://themegrill.com/themes/flash"
   },
@@ -1440,7 +1478,9 @@
       "recurring",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/radiate(?:-pro)?/",
     "website": "https://themegrill.com/themes/radiate"
   },
@@ -1460,7 +1500,9 @@
       "recurring",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/spacious(?:-pro)?/",
     "website": "https://themegrill.com/themes/spacious"
   },
@@ -1482,7 +1524,9 @@
       "recurring",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/e(?:s|S)tore(?:-pro)?/",
     "website": "https://themegrill.com/themes/estore"
   },
@@ -1493,7 +1537,9 @@
     "description": "ThemeIsle Menu Icons plugin gives you the ability to add icons to your menu items, similar to the look of the latest dashboard menu.",
     "dom": "link[href*='/wp-content/plugins/menu-icons/']",
     "icon": "ThemeIsle.png",
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://wordpress.org/plugins/menu-icons"
   },
   "ThemeZee Donovan": {
@@ -1512,7 +1558,9 @@
       "recurring",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/donovan/",
     "website": "https://themezee.com/themes/donovan"
   },
@@ -1531,7 +1579,9 @@
       "recurring",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/poseidon/",
     "website": "https://themezee.com/themes/poseidon"
   },
@@ -1550,7 +1600,9 @@
       "recurring",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/wellington/",
     "website": "https://themezee.com/themes/wellington"
   },
@@ -1568,7 +1620,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://themeansar.com/free-themes/newsberg"
   },
   "Themeansar Newsup": {
@@ -1581,7 +1635,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/newsup(?:-pro)?/",
     "website": "https://themeansar.com/free-themes/newsup"
   },
@@ -1598,7 +1654,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://themebeez.com/themes/cream-magazine"
   },
   "Themebeez Orchid Store": {
@@ -1614,7 +1672,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/orchid-store(?:-child)?/.+bundle\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://themebeez.com/themes/orchid-store"
   },
@@ -1628,7 +1688,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/graphy(?:-pro)?/",
     "website": "https://themegraphy.com/wordpress-themes/graphy"
   },
@@ -1642,7 +1704,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/bulk(?:-pro)?/.+customscript\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://themes4wp.com/theme/bulk"
   },
@@ -1656,7 +1720,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/bam(?:-pro)?/",
     "website": "https://themezhut.com/themes/bam"
   },
@@ -1670,7 +1736,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/hitmag(?:-pro)?/",
     "website": "https://themezhut.com/themes/hitmag"
   },
@@ -1685,7 +1753,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/iconic-one(?:-[\\w]+)?/",
     "website": "https://themonic.com/iconic-one"
   },
@@ -1716,7 +1786,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://wordpress.org/plugins/learnpress-course-review"
   },
   "ThimPress Course Wishlist": {
@@ -1763,7 +1835,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/learnpress/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://wordpress.org/plugins/learnpress"
   },
@@ -1793,7 +1867,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/consulting(?:-pro)?/",
     "website": "https://www.thinkupthemes.com/themes/consulting"
   },
@@ -1808,7 +1884,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/minamaze(?:-pro)?/",
     "website": "https://www.thinkupthemes.com/themes/minamaze"
   },
@@ -1911,7 +1989,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "saas": true,
     "scriptSrc": "/wp-content/plugins/thrive-apprentice/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://thrivethemes.com/apprentice/"
@@ -1928,7 +2008,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "saas": true,
     "scriptSrc": "/wp-content/plugins/thrive-visual-editor/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://thrivethemes.com/architect/"
@@ -1944,7 +2026,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "saas": true,
     "scriptSrc": "/wp-content/plugins/thrive-comments/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://thrivethemes.com/comments/"
@@ -1960,7 +2044,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "saas": true,
     "scriptSrc": "/wp-content/plugins/thrive-leads/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://thrivethemes.com/leads/"
@@ -1976,7 +2062,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "saas": true,
     "scriptSrc": "/wp-content/plugins/thrive-quiz-builder/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://thrivethemes.com/quizbuilder"
@@ -1992,7 +2080,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "saas": true,
     "scriptSrc": "/wp-content/plugins/thrive-ultimatum/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://thrivethemes.com/ultimatum/"
@@ -2500,7 +2590,9 @@
       "freemium",
       "payg"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "track123\\.com\\/common\\/checkout-script-loader\\.js",
     "website": "https://www.track123.com"
@@ -2666,7 +2758,9 @@
     ],
     "description": "Translate WordPress is a website translator plugin which can translate any website to any language automatically. Translate WordPress plugin is now a part of GTranslate family.",
     "icon": "GTranslate.svg",
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/google-language-translator/.+scripts\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://gtranslate.io"
   },
@@ -3147,7 +3241,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://wordpress.org/themes/twentyeleven"
   },
   "Twenty Fifteen": {
@@ -3160,7 +3256,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/twentyfifteen/",
     "website": "https://wordpress.org/themes/twentyfifteen"
   },
@@ -3174,7 +3272,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/twentyfourteen/",
     "website": "https://wordpress.org/themes/twentyfourteen"
   },
@@ -3188,7 +3288,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/twentynineteen/",
     "website": "https://wordpress.org/themes/twentynineteen"
   },
@@ -3205,7 +3307,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/twentyseventeen/",
     "website": "https://wordpress.org/themes/twentyseventeen"
   },
@@ -3219,7 +3323,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/twentysixteen/",
     "website": "https://wordpress.org/themes/twentysixteen"
   },
@@ -3233,7 +3339,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/twentyten/",
     "website": "https://wordpress.org/themes/twentyten"
   },
@@ -3247,7 +3355,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/twentythirteen/",
     "website": "https://wordpress.org/themes/twentythirteen"
   },
@@ -3261,7 +3371,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/twentytwelve/",
     "website": "https://wordpress.org/themes/twentytwelve"
   },
@@ -3278,7 +3390,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/twentytwenty/",
     "website": "https://wordpress.org/themes/twentytwenty"
   },
@@ -3296,7 +3410,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/twentytwentyone/",
     "website": "https://wordpress.org/themes/twentytwentyone"
   },
@@ -3317,7 +3433,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://wordpress.org/themes/twentytwentythree"
   },
   "Twenty Twenty-Two": {
@@ -3338,7 +3456,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://wordpress.org/themes/twentytwentytwo"
   },
   "TwicPics": {

@@ -75,7 +75,9 @@
     "implies": [
       "MDBootstrap"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://mdbgo.com/docs/projects/wordpress/"
   },
   "MDS Brand": {
@@ -135,7 +137,9 @@
     "pricing": [
       "poa"
     ],
-    "requires": "PHP",
+    "requires": [
+      "PHP"
+    ],
     "saas": true,
     "scriptSrc": "\\.mgpanel\\.org/",
     "website": "https://mgpanel.org"
@@ -315,7 +319,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/Newsmag(?:-child)?/",
     "website": "https://www.machothemes.com/item/newsmag-lite"
   },
@@ -372,7 +378,9 @@
     "dom": "link[href*='MageWorx_SearchSuiteAutocomplete']",
     "icon": "MageWorx.svg",
     "oss": true,
-    "requires": "Magento",
+    "requires": [
+      "Magento"
+    ],
     "scriptSrc": "MageWorx_SearchSuiteAutocomplete",
     "website": "https://github.com/mageworx/search-suite-autocomplete"
   },
@@ -521,7 +529,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/mailchimp-for-woocommerce/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://mailchimp.com/integrations/woocommerce"
   },
@@ -544,7 +554,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/mailchimp-for-wp/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://www.mc4wp.com"
   },
@@ -563,7 +575,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "mailoptin(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
     "website": "https://mailoptin.io/"
   },
@@ -623,7 +637,9 @@
     "implies": [
       "MailerLite"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/woo-mailerlite/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://ru.wordpress.org/plugins/official-mailerlite-sign-up-forms/"
   },
@@ -793,7 +809,9 @@
       "TypeScript"
     ],
     "oss": true,
-    "requires": "React",
+    "requires": [
+      "React"
+    ],
     "website": "https://mantine.dev"
   },
   "MantisBT": {
@@ -808,7 +826,9 @@
       "MySQL"
     ],
     "oss": true,
-    "requires": "PHP",
+    "requires": [
+      "PHP"
+    ],
     "website": "https://www.mantisbt.org"
   },
   "ManyChat": {
@@ -866,7 +886,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://mappresspro.com"
   },
   "Mapbox GL JS": {
@@ -1151,7 +1173,9 @@
     "implies": [
       "Master Slider"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://wordpress.org/plugins/master-slider"
   },
   "Mastercard": {
@@ -1358,7 +1382,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "(?:max)?megamenu(?:-pro)?(?:\\/assets)?(?:\\/public)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
     "website": "https://www.megamenu.com/"
   },
@@ -1614,7 +1640,9 @@
     "description": "Meks Simple Flickr Widget is a WordPress plugin created by Meks. This plugin is designed to help WordPress website owners easily integrate Flickr photo streams into their websites.",
     "dom": "link[href*='/wp-content/plugins/meks-simple-flickr-widget/'], link#meks-flickr-widget-css",
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://wordpress.org/plugins/meks-simple-flickr-widget"
   },
   "Melis Platform": {
@@ -1767,7 +1795,9 @@
     "description": "The Mesmerize Companion is a WordPress plugin that enhances the Mesmerize theme by adding drag-and-drop page builder functionality.",
     "dom": "link[href*='/wp-content/plugins/mesmerize-companion/'], link#companion-bundle-css",
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "mesmerize-companion\\/theme-data\\/mesmerize\\/assets\\/js\\/companion(?:\\.bundle)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
     "website": "https://wordpress.org/plugins/mesmerize-companion"
   },
@@ -1783,7 +1813,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/ml-slider(?:-pro)?/",
     "website": "https://www.metaslider.com"
   },
@@ -1886,7 +1918,9 @@
     "icon": "Metronet Profile Picture.png",
     "dom": "link[href*='/wp-content/plugins/metronet-profile-picture/']",
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "metronet-profile-picture(?:\\/js)?(?:\\/mpp-frontend)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
     "website": "https://wordpress.org/plugins/metronet-profile-picture/"
   },
@@ -2336,7 +2370,9 @@
     "dom": "link[href*='/wp-content/plugins/miniorange-login-openid/'], #js-cookie-script-js, #mo-social-login-script-js",
     "icon": "MiniOrange Login.png",
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "miniorange-login-openid\\/includes\\/js(?:\\/mo_openid_jquery)?(?:\\/mo-openid-social_login)?(?:\\/social_login)?(?:\\/jquery)?(?:\\.cookie)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
     "website": "https://wordpress.org/plugins/miniorange-login-openid"
   },
@@ -2861,7 +2897,9 @@
     "js": {
       "wc_moneris_hosted_tokenization_params": ""
     },
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/woocommerce-gateway-moneris/",
     "website": "https://wordpress.org/plugins/wc-moneris-payment-gateway"
   },
@@ -2977,7 +3015,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/google-analytics-for-wordpress/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://www.monsterinsights.com"
   },
@@ -3042,7 +3082,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "saas": true,
     "website": "https://www.mooveagency.com/wordpress/gdpr-cookie-compliance-plugin"
   },
@@ -3477,7 +3519,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/news-portal(?:-pro)?/.+np-custom-scripts\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://mysterythemes.com/wp-themes/news-portal"
   },
@@ -3495,7 +3539,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://mysterythemes.com/wp-themes/news-portal-lite"
   },
   "MysteryThemes News Portal Mag": {
@@ -3511,7 +3557,9 @@
     "pricing": [
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://mysterythemes.com/wp-themes/news-portal-mag"
   },
   "mParticle": {

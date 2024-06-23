@@ -68,7 +68,9 @@
       "low",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "sdk\\.qikify\\.com/",
     "website": "https://qikify.com"
@@ -228,7 +230,9 @@
     },
     "icon": "Quasar.svg",
     "oss": true,
-    "requires": "Vue.js",
+    "requires": [
+      "Vue.js"
+    ],
     "website": "https://quasar.dev"
   },
   "Qubit": {

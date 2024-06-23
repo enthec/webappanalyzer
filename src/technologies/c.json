@@ -13,7 +13,9 @@
     ],
     "description": "D3 based reusable chart library",
     "icon": "C3.js.png",
-    "requires": "D3",
+    "requires": [
+      "D3"
+    ],
     "scriptSrc": "c3(?:\\.min)?(?:-[a-zA-Z0-9]{8})?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1",
     "website": "https://c3js.org/"
   },
@@ -75,7 +77,9 @@
     "pricing": [
       "payg"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "app\\.cjdropshipping\\.com/",
     "website": "https://apps.shopify.com/cucheng"
@@ -227,7 +231,9 @@
       "recurring",
       "low"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/olsen-light/.+scripts(?:\\.min)?\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://www.cssigniter.com/themes/olsen-light"
   },
@@ -388,7 +394,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/caldera-forms/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://calderaforms.com"
   },
@@ -507,7 +515,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/fairy(?:-premium)?/.+custom\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://www.candidthemes.com/themes/fairy"
   },
@@ -709,7 +719,9 @@
       "low",
       "recurring"
     ],
-    "requires": "Apache HTTP Server",
+    "requires": [
+      "Apache HTTP Server"
+    ],
     "saas": true,
     "scripts": "\\(\\!section\\s\\|\\|\\ssection\\.tagName\\s\\!\\=\\s\\'SECTION\\'\\)",
     "website": "https://carrd.co"
@@ -903,7 +915,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/catch-box(?:-pro)?/",
     "website": "https://catchthemes.com/themes/catch-box"
   },
@@ -918,7 +932,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/fotografie(?:-pro)?/",
     "website": "https://catchthemes.com/themes/fotografie"
   },
@@ -1348,7 +1364,9 @@
       "recurring",
       "mid"
     ],
-    "requires": "Nuxt.js",
+    "requires": [
+      "Nuxt.js"
+    ],
     "saas": true,
     "website": "https://www.checklyhq.com",
     "xhr": "api\\.checklyhq\\.com/"
@@ -1481,7 +1499,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "saas": true,
     "website": "https://chimpmatic.com"
   },
@@ -1714,7 +1734,9 @@
     "implies": [
       "CiviCRM"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "wp-content/plugins/(?:[\\w\\-]+)?civicrm(?:[\\w\\-]+)?/",
     "website": "https://wordpress.org/plugins/search/civicrm/"
   },
@@ -2754,7 +2776,9 @@
       "recurring",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/colibri-page-builder.+\\.js(?:.+ver=([\\d\\.\\-\\w]+))?\\;version:\\1",
     "website": "https://colibriwp.com"
   },
@@ -2798,7 +2822,9 @@
       }
     },
     "icon": "ThemeGrill.png",
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "themes/colormag.*\\.js(?:\\?ver=([0-9.]+))?\\;version:\\1",
     "website": "https://themegrill.com/themes/colormag/"
   },
@@ -2826,7 +2852,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/activello/",
     "website": "https://colorlib.com/wp/themes/activello"
   },
@@ -2840,7 +2868,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/illdy/",
     "website": "https://colorlib.com/wp/themes/illdy"
   },
@@ -2857,7 +2887,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/shapely/",
     "website": "https://colorlib.com/wp/themes/shapely"
   },
@@ -2871,7 +2903,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/sparkling/",
     "website": "https://colorlib.com/wp/themes/sparkling"
   },
@@ -2888,7 +2922,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/travelify/",
     "website": "https://colorlib.com/wp/themes/travelify"
   },
@@ -3101,7 +3137,9 @@
     "pricing": [
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "saas": true,
     "scriptSrc": "wp-content/plugins/complianz-gdpr-premium",
     "website": "https://complianz.io"
@@ -3141,7 +3179,9 @@
       "Contact Form 7"
     ],
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "cf7-conditional-fields(?:\\/js)?(?:\\/scripts)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
     "website": "https://wordpress.org/plugins/cf7-conditional-fields"
   },
@@ -3292,7 +3332,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/contact-form-7/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://contactform7.com"
   },
@@ -3395,7 +3437,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "content-views(?:-pro)?(?:-query-and-display-post-page)?(?:\\/public)?(?:\\/assets)?(?:\\/js)?(?:\\/cv(?:pro)?)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
     "website": "https://wordpress.org/plugins/content-views-query-and-display-post-page/"
   },
@@ -3481,7 +3525,9 @@
     "dom": "link[href*='/wp-content/plugins/contextual-related-posts/']",
     "icon": "Contextual Related Posts.png",
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://wordpress.org/plugins/contextual-related-posts/"
   },
   "Contlo": {
@@ -3547,7 +3593,9 @@
     "pricing": [
       "poa"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "\\.conversio\\.com/.+\\.myshopify\\.com",
     "website": "https://apps.shopify.com/conversio"
@@ -3720,7 +3768,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/wp-gdpr-compliance/",
     "website": "https://wordpress.org/plugins/wp-gdpr-compliance"
   },
@@ -3838,7 +3888,9 @@
     "description": "A simple tag cloud system for WordPress.",
     "dom": "link#cool-tag-cloud-css[href*='/wp-content/plugins/cool-tag-cloud/'], .cool-tag-cloud, .widget_cool_tag_cloud, .cool-tag-cloud-open, .cool-tag-cloud-close, .cool-tag-cloud-inner",
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://wordpress.org/plugins/cool-tag-cloud"
   },
   "Cool Timeline": {
@@ -3849,7 +3901,9 @@
     "description": "Creates vertical and horizontal history timeline blocks.",
     "dom": "link[href*='/plugins/cool-timeline/'], script[src*='/cool-timeline/'], .cooltimeline-body",
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://wordpress.org/plugins/cool-timeline"
   },
   "Cooladata": {
@@ -3949,7 +4003,9 @@
     "description": "Enhanced content management for WordPress.",
     "dom": "#cornerstone-generated-css",
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "cornerstone(?:\\/assets)?(?:\\/js)?(?:\\/site)?(?:\\/cs-classic)?\\.?((?:\\d+\\.)+\\d+)?\\.js\\;version:\\1",
     "website": "https://wordpress.org/plugins/cornerstone"
   },
@@ -4033,7 +4089,9 @@
     "description": "Add and display responsive Countdown timer on your website.",
     "dom": "link[href*='/wp-content/plugins/countdown-timer-ultimate/']",
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://wordpress.org/plugins/countdown-timer-ultimate"
   },
   "Countly": {
@@ -4235,7 +4293,9 @@
       "CrayonTagEditorSettings": ""
     },
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "crayon-syntax-highlighter(?:\\/js)?(?:\\/min)?(?:\\/crayon)?(?:\\.te)?(?:\\.min)?\\.js(?:\\?v(?:er)?=_((?:\\d+\\.)+\\d+))?\\;version:\\1",
     "website": "https://wordpress.org/plugins/crayon-syntax-highlighter/"
   },
@@ -4288,7 +4348,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/creative-mail-by-constant-contact/",
     "website": "https://www.creativemail.com"
   },
@@ -4375,7 +4437,9 @@
       "low",
       "recurring"
     ],
-    "requires": "Elementor",
+    "requires": [
+      "Elementor"
+    ],
     "website": "https://crocoblock.com/plugins/jetelements"
   },
   "Cross Pixel": {
@@ -4453,7 +4517,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/bravada(?:-plus)?/.+frontend\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://www.cryoutcreations.eu/wordpress-themes/bravada"
   },
@@ -4469,7 +4535,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/fluida(?:-plus)?/.+frontend\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://www.cryoutcreations.eu/wordpress-themes/fluida"
   },
@@ -4490,7 +4558,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/mantra(?:-plus)?/.+frontend\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://www.cryoutcreations.eu/wordpress-themes/mantra"
   },
@@ -4508,7 +4578,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/parabola/.+frontend\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://www.cryoutcreations.eu/wordpress-themes/parabola"
   },
@@ -4597,7 +4669,9 @@
     "description": "Custom Fonts plugin helps you easily embed custom fonts files (woff2, woff, ttf, svg, eot, otf) easily in your WordPress website.",
     "icon": "Custom Fonts.png",
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/custom-fonts/",
     "website": "https://github.com/brainstormforce/custom-fonts"
   },
@@ -4608,7 +4682,9 @@
     ],
     "description": "Custom Twitter Feeds for Wordpress.",
     "dom": "link[href*='/wp-content/plugins/custom-twitter-feeds/']",
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "custom-twitter-feeds(?:\\/js)?(?:\\/ctf-scripts)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
     "website": "https://wordpress.org/plugins/custom-twitter-feeds"
   },
@@ -4657,7 +4733,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/cwicly/",
     "website": "https://cwicly.com"
   },
@@ -4694,7 +4772,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/responsive(?:pro)?/",
     "website": "https://cyberchimps.com/responsive"
   },
