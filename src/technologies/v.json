@@ -74,7 +74,9 @@
       "<a[^>]+>Powered By VP-ASP Shopping Cart</a>"
     ],
     "icon": "VP-ASP.png",
-    "implies": "Microsoft ASP.NET",
+    "implies": [
+      "Microsoft ASP.NET"
+    ],
     "scriptSrc": "vs350\\.js",
     "website": "https://www.vpasp.com"
   },
@@ -151,7 +153,9 @@
     ],
     "description": "Vaadin is an open-source framework for building user interfaces and single-page applications using Java and TypeScript.",
     "icon": "Vaadin.svg",
-    "implies": "Java",
+    "implies": [
+      "Java"
+    ],
     "js": {
       "vaadin": ""
     },
@@ -208,7 +212,9 @@
       "<body id=\"(?:DiscussionsPage|vanilla)"
     ],
     "icon": "Vanilla.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "website": "https://vanillaforums.org"
   },
   "Vant": {
@@ -224,7 +230,9 @@
       }
     },
     "icon": "Vant.png",
-    "implies": "TypeScript",
+    "implies": [
+      "TypeScript"
+    ],
     "js": {
       "vant.version": "([\\d\\.]+)\\;version:\\1"
     },
@@ -239,7 +247,9 @@
     "cpe": "cpe:2.3:a:vardot:varbase:*:*:*:*:*:*:*:*",
     "dom": "meta[content='Varbase'],div[class*='varbase_'],div[class*='_varbase'],div[class*='varbase-'],div[class*='block-varbase'],div[class*='blockvarbase']",
     "icon": "varbase.png",
-    "implies": "Drupal",
+    "implies": [
+      "Drupal"
+    ],
     "js": {
       "drupalSettings.ajaxPageState.libraries": ".+varbase_.+"
     },
@@ -694,7 +704,9 @@
     ],
     "description": "Vimeo OTT allows brands and creators to launch their own white-label video subscription channels, where subscribers can access video content for free, as a rental, or for purchase.",
     "icon": "Vimeo.svg",
-    "implies": "Vimeo",
+    "implies": [
+      "Vimeo"
+    ],
     "js": {
       "VHX.config": "",
       "_vhx": ""
@@ -821,7 +833,9 @@
       "<div id=\"vmMainPage"
     ],
     "icon": "VirtueMart.png",
-    "implies": "Joomla",
+    "implies": [
+      "Joomla"
+    ],
     "website": "https://virtuemart.net"
   },
   "Virtuoso": {
@@ -1225,7 +1239,9 @@
     ],
     "description": "Vue Storefront is a frontend platform for headless ecommerce.",
     "icon": "vue-storefront.svg",
-    "implies": "Vue.js",
+    "implies": [
+      "Vue.js"
+    ],
     "meta": {
       "generator": "^Vue Storefront ([0-9.]+)?$\\;version:\\1"
     },
@@ -1299,7 +1315,9 @@
     ],
     "description": "VuePress is a static site generator with a Vue-powered theming system, and a default theme for writing technical documentation.",
     "icon": "VuePress.svg",
-    "implies": "Vue.js",
+    "implies": [
+      "Vue.js"
+    ],
     "js": {
       "__VUEPRESS__.version": "([\\d\\.]+)\\;version:\\1"
     },
@@ -1319,7 +1337,9 @@
     "description": "Vuetify is a reusable semantic component framework for Vue.js that aims to provide clean, semantic and reusable components.",
     "dom": "style#vuetify-theme-stylesheet",
     "icon": "Vuetify.svg",
-    "implies": "Vue.js",
+    "implies": [
+      "Vue.js"
+    ],
     "oss": true,
     "website": "https://vuetifyjs.com"
   },
@@ -1329,7 +1349,9 @@
     ],
     "description": "Vuex is a state management pattern + library for Vue.js applications.",
     "icon": "vue.svg",
-    "implies": "Vue.js",
+    "implies": [
+      "Vue.js"
+    ],
     "js": {
       "Vuex.version": "(.*)\\;version:\\1"
     },
@@ -1387,7 +1409,9 @@
       "<div id=\"copyright\">Powered by vBulletin"
     ],
     "icon": "vBulletin.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "vBulletin": ""
     },
@@ -1427,7 +1451,9 @@
       "PrestaShop"
     ],
     "icon": "vibecommerce.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "designer": "vibecommerce",
       "generator": "vibecommerce"

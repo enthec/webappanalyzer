@@ -105,7 +105,9 @@
     },
     "cpe": "cpe:2.3:a:cmsmadesimple:cms_made_simple:*:*:*:*:*:*:*:*",
     "icon": "CMS Made Simple.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "generator": "CMS Made Simple"
     },
@@ -116,7 +118,9 @@
       1
     ],
     "cpe": "cpe:2.3:a:cmsimple:cmsimple:*:*:*:*:*:*:*:*",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "generator": "CMSimple( [\\d.]+)?\\;version:\\1"
     },
@@ -152,7 +156,9 @@
       "X-Powered-By": "^Dragonfly CMS"
     },
     "icon": "CPG Dragonfly.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "generator": "CPG Dragonfly"
     },
@@ -194,7 +200,9 @@
     "description": "CS Cart is a turnkey ecommerce shopping cart software solution.",
     "dom": "a[href*='.cs-cart.com'][target='_blank']",
     "icon": "CS Cart.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "fn_buy_together_apply_discount": "",
       "fn_calculate_total_shipping": "",
@@ -272,7 +280,9 @@
     ],
     "description": "Cachet is the free and open-source status page for your API, service or company.",
     "icon": "Cachet.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "Cachet.Notifier": ""
     },
@@ -348,7 +358,9 @@
     "cpe": "cpe:2.3:a:cakephp:cakephp:*:*:*:*:*:*:*:*",
     "description": "CakePHP is an open-source web framework. It follows the model–view–controller (MVC) approach and is written in PHP.",
     "icon": "CakePHP.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "application-name": "CakePHP"
     },
@@ -639,7 +651,9 @@
     ],
     "description": "CareCart is a smart app to recover big value carts on all sizes of shopify stores.",
     "icon": "CareCart.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "pricing": [
       "low",
       "recurring"
@@ -655,7 +669,9 @@
     ],
     "description": "CareCart Sales Pop Up is a stock countdown timer, recent sales notifications, live sales pop up widget.",
     "icon": "CareCart.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "pricing": [
       "freemium"
     ],
@@ -669,7 +685,9 @@
     ],
     "description": "Cargo is a professional site building platform for designers and artists.",
     "icon": "Cargo.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "Cargo.Config": "",
       "__cargo_js_ver__": ""
@@ -702,7 +720,9 @@
     ],
     "description": "Carro connects participating Shopify stores together to enable cross-store selling or the ability for like-minded partners to directly sell each other products without the need for inventory, managing returns, or minimum order quantities.",
     "icon": "Carro.svg",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "pricing": [
       "freemium",
       "low",
@@ -790,7 +810,9 @@
     ],
     "description": "Cart.js is a very small open-source Javascript library that makes the addition of powerful Ajax cart functionality to your Shopify theme a breeze.",
     "icon": "Cart.js.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "oss": true,
     "scriptSrc": "(?:shopify-cartjs/([\\d\\.]+)|assets)/rivets-cart\\.min\\.js\\;version:\\1",
     "website": "https://cartjs.org"
@@ -850,7 +872,9 @@
       "X-Powered-By": "Catberry"
     },
     "icon": "Catberry.js.png",
-    "implies": "Node.js",
+    "implies": [
+      "Node.js"
+    ],
     "js": {
       "catberry": "",
       "catberry.version": "^(.+)$\\;version:\\1"
@@ -1036,7 +1060,9 @@
     "description": "Chakra UI is a simple, modular and accessible component library that gives you the building blocks you need to build your React applications.",
     "dom": "html[style*='chakra-ui-color-mode'], body.chakra-ui-dark, body.chakra-ui-light, div.chakra-portal",
     "icon": "Chakra UI.svg",
-    "implies": "React",
+    "implies": [
+      "React"
+    ],
     "oss": true,
     "scriptSrc": "\\.chakra-ui\\.",
     "website": "https://chakra-ui.com"
@@ -1086,7 +1112,9 @@
       "X-Powered-By": "Chamilo ([\\d.]+)\\;version:\\1"
     },
     "icon": "Chamilo.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "generator": "Chamilo ([\\d.]+)\\;version:\\1"
     },
@@ -1383,7 +1411,9 @@
     ],
     "description": "Chevereto is an image hosting software that allows you to create a full-featured image hosting website on your own server.",
     "icon": "Chevereto.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "CHEVERETO.version": "([\\d\\.]+)\\;version:\\1"
     },
@@ -1407,7 +1437,9 @@
     },
     "description": "Chicago Boss is a web framework for Erlang.",
     "icon": "Chicago Boss.svg",
-    "implies": "Erlang",
+    "implies": [
+      "Erlang"
+    ],
     "oss": true,
     "website": "https://github.com/ChicagoBoss/ChicagoBoss"
   },
@@ -1679,7 +1711,9 @@
     ],
     "description": "CiviCRM is a web-based suite of internationalised open-source software for constituency relationship management.",
     "icon": "CiviCRM.png",
-    "implies": "CiviCRM",
+    "implies": [
+      "CiviCRM"
+    ],
     "requires": "WordPress",
     "scriptSrc": "wp-content/plugins/(?:[\\w\\-]+)?civicrm(?:[\\w\\-]+)?/",
     "website": "https://wordpress.org/plugins/search/civicrm/"
@@ -1762,7 +1796,9 @@
     "description": "Clarity is an open-source design system that brings together UX guidelines, an HTML/CSS framework, and Angular components.",
     "dom": "link[href*='clr-ui'], clr-main-container",
     "icon": "clarity.svg",
-    "implies": "Angular",
+    "implies": [
+      "Angular"
+    ],
     "js": {
       "ClarityIcons": ""
     },
@@ -1988,7 +2024,9 @@
       10
     ],
     "icon": "ClickHeat.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "clickHeatServer": ""
     },
@@ -2120,7 +2158,9 @@
       "x-clockwork-version": "^([\\d\\.]+)$\\;version:\\1"
     },
     "icon": "default.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "oss": true,
     "website": "https://github.com/underground-works/clockwork-app"
   },
@@ -2225,7 +2265,9 @@
     },
     "description": "Cloudflare bot management solution identifies and mitigates automated traffic to protect websites from bad bots.",
     "icon": "CloudFlare.svg",
-    "implies": "Cloudflare",
+    "implies": [
+      "Cloudflare"
+    ],
     "saas": true,
     "website": "https://www.cloudflare.com/en-gb/products/bot-management/"
   },
@@ -2494,7 +2536,9 @@
     ],
     "cpe": "cpe:2.3:a:web-feet:coaster_cms:*:*:*:*:*:*:*:*",
     "icon": "coaster-cms.png",
-    "implies": "Laravel",
+    "implies": [
+      "Laravel"
+    ],
     "meta": {
       "generator": "^Coaster CMS v([\\d.]+)$\\;version:\\1"
     },
@@ -2557,7 +2601,9 @@
       "<input[^>]+name=\"ci_csrf_token\"\\;version:2+"
     ],
     "icon": "CodeIgniter.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "website": "https://codeigniter.com"
   },
   "CodeMirror": {
@@ -2605,7 +2651,9 @@
     ],
     "description": "Coin Currency Converter is an automatic currency conversion app for Shopify.",
     "icon": "Coin Currency Converter.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "pricing": [
       "low",
       "recurring"
@@ -2970,7 +3018,9 @@
       "COMMERCE-SERVER-SOFTWARE": ""
     },
     "icon": "Commerce Server.png",
-    "implies": "Microsoft ASP.NET",
+    "implies": [
+      "Microsoft ASP.NET"
+    ],
     "website": "https://commerceserver.net"
   },
   "Commerce.js": {
@@ -3065,7 +3115,9 @@
     },
     "cpe": "cpe:2.3:a:concrete5:concrete5:*:*:*:*:*:*:*:*",
     "icon": "Concrete CMS.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "CCM_IMAGE_PATH": "",
       "Concrete": ""
@@ -3085,7 +3137,9 @@
     "description": "Adds conditional logic to Contact Form 7.",
     "dom": "link[href*='/wp-content/plugins/cf7-conditional-fields/']",
     "icon": "Conditional Fields for Contact Form 7.png",
-    "implies": "Contact Form 7",
+    "implies": [
+      "Contact Form 7"
+    ],
     "oss": true,
     "requires": "WordPress",
     "scriptSrc": "cf7-conditional-fields(?:\\/js)?(?:\\/scripts)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
@@ -3263,7 +3317,9 @@
     "description": "Contao is an open source CMS that allows you to create websites and scalable web applications.",
     "dom": "link[href*='/typolight.css'], link[href*='/contao.css']",
     "icon": "Contao.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "generator": "^Contao Open Source CMS$"
     },
@@ -3276,7 +3332,9 @@
     ],
     "cpe": "cpe:2.3:a:contenido:contendio:*:*:*:*:*:*:*:*",
     "icon": "Contenido.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "generator": "Contenido ([\\d.]+)\\;version:\\1"
     },
@@ -3302,7 +3360,9 @@
       11
     ],
     "icon": "ContentBox.png",
-    "implies": "Adobe ColdFusion",
+    "implies": [
+      "Adobe ColdFusion"
+    ],
     "meta": {
       "generator": "ContentBox powered by ColdBox"
     },
@@ -3481,7 +3541,9 @@
     ],
     "description": "Conversio App is an optimisation and analytics app for Shopify stores.",
     "icon": "Conversio.svg",
-    "implies": "Conversio",
+    "implies": [
+      "Conversio"
+    ],
     "pricing": [
       "poa"
     ],
@@ -3650,7 +3712,9 @@
     ],
     "description": "Cookie Information plugin helps your website stay compliant with GDPR using a free cookie pop-up, consent log, and more.",
     "icon": "Cookie Information.svg",
-    "implies": "Cookie Information",
+    "implies": [
+      "Cookie Information"
+    ],
     "pricing": [
       "freemium",
       "low",
@@ -3814,7 +3878,9 @@
       "<!--Coppermine Photo Gallery ([\\d.]+)\\;version:\\1"
     ],
     "icon": "Coppermine.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "website": "https://coppermine-gallery.net"
   },
   "CopyPoison": {
@@ -3940,7 +4006,9 @@
     ],
     "cpe": "cpe:2.3:a:cotonti:cotonti_siena:*:*:*:*:*:*:*:*",
     "icon": "Cotonti.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "generator": "Cotonti"
     },
@@ -4043,7 +4111,9 @@
       "Server": "^Cowboy$"
     },
     "icon": "Cowboy.png",
-    "implies": "Erlang",
+    "implies": [
+      "Erlang"
+    ],
     "oss": true,
     "website": "https://github.com/ninenines/cowboy"
   },
@@ -4053,7 +4123,9 @@
     ],
     "description": "Cozy AntiTheft helps you to protect your store content, images and texts from being stolen with a few simple clicks.",
     "icon": "Cozy AntiTheft.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "js": {
       "cozyEcoAdnsUa": ""
     },
@@ -4087,7 +4159,9 @@
       "X-Powered-By": "\\bCraft CMS\\b"
     },
     "icon": "Craft CMS.svg",
-    "implies": "Yii",
+    "implies": [
+      "Yii"
+    ],
     "oss": true,
     "pricing": [
       "low",
@@ -4105,7 +4179,9 @@
       "X-Powered-By": "\\bCraft Commerce\\b"
     },
     "icon": "Craft CMS.svg",
-    "implies": "Craft CMS",
+    "implies": [
+      "Craft CMS"
+    ],
     "website": "https://craftcommerce.com"
   },
   "Craftum": {
@@ -4480,7 +4556,9 @@
     "description": "CubeCart is a free ecommerce platform that businesses can use to build, manage, and market their online stores.",
     "dom": "a[href*='.cubecart.com'][target='_blank']",
     "icon": "CubeCart.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "generator": "cubecart"
     },
@@ -4572,7 +4650,9 @@
     "description": "Cwicly is an advanced professional design and block toolkit that integrates directly with the WordPress editor.",
     "dom": "link[href*='/wp-content/uploads/cwicly/']",
     "icon": "Cwicly.png",
-    "implies": "Gutenberg",
+    "implies": [
+      "Gutenberg"
+    ],
     "pricing": [
       "low",
       "recurring"
@@ -4700,7 +4780,9 @@
     "description": "cdnjs is a free distributed JS library delivery service.",
     "dom": "link[href*='cdnjs.cloudflare.com/']",
     "icon": "cdnjs.svg",
-    "implies": "Cloudflare",
+    "implies": [
+      "Cloudflare"
+    ],
     "oss": true,
     "scriptSrc": "cdnjs\\.cloudflare\\.com",
     "website": "https://cdnjs.com"
@@ -4766,7 +4848,9 @@
     "description": "commercetools is a headless commerce platform.",
     "dom": "link[href*='.commercetools.com/'], body[data-commerce-tools-host*='.commercetools.com']",
     "icon": "commercetools.svg",
-    "implies": "GraphQL",
+    "implies": [
+      "GraphQL"
+    ],
     "js": {
       "COMMERCE_TOOLS_HOST_ATT": "",
       "COMMERCE_TOOLS_PROJECT_KEY_ATT": "",

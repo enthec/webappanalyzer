@@ -54,7 +54,9 @@
       "<link[^>]* href=[^>]+nv\\.d3(?:\\.min)?\\.css"
     ],
     "icon": "NVD3.png",
-    "implies": "D3",
+    "implies": [
+      "D3"
+    ],
     "js": {
       "nv.addGraph": "",
       "nv.version": "^(.+)$\\;confidence:0\\;version:\\1"
@@ -73,7 +75,9 @@
       }
     },
     "icon": "Nacelle.svg",
-    "implies": "GraphQL",
+    "implies": [
+      "GraphQL"
+    ],
     "js": {
       "__NEXT_DATA__.props.pageProps.page.nacelleEntryId": "",
       "nacelleEventData": ""
@@ -320,7 +324,9 @@
     ],
     "description": "Neat A/B Testing is a Shopify app built by NeatShift.",
     "icon": "Neat.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "pricing": [
       "mid",
       "recurring"
@@ -360,7 +366,9 @@
       "X-Flow-Powered": "Neos/?(.+)?$\\;version:\\1"
     },
     "icon": "Neos.svg",
-    "implies": "Neos Flow",
+    "implies": [
+      "Neos Flow"
+    ],
     "url": "/neos/",
     "website": "https://neos.io"
   },
@@ -375,7 +383,9 @@
       "X-Flow-Powered": "Flow/?(.+)?$\\;version:\\1"
     },
     "icon": "Neos.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "website": "https://flow.neos.io"
   },
   "Nepso": {
@@ -473,7 +483,9 @@
     "description": "Netlify Forms is a serverless form handling solution for static websites.",
     "dom": "form[data-netlify]",
     "icon": "Netlify.svg",
-    "implies": "Netlify",
+    "implies": [
+      "Netlify"
+    ],
     "website": "https://www.netlify.com/products/forms"
   },
   "Neto": {
@@ -504,7 +516,9 @@
       "<input[^>]+id=\"frm-"
     ],
     "icon": "Nette Framework.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "Nette": "",
       "Nette.version": "^(.+)$\\;version:\\1"
@@ -601,7 +615,9 @@
       "host-header": "Newspack"
     },
     "icon": "NewspackLogo.png",
-    "implies": "Newspack",
+    "implies": [
+      "Newspack"
+    ],
     "pricing": [
       "mid",
       "recurring"
@@ -733,7 +749,9 @@
     "cpe": "cpe:2.3:a:nextcloud:nextcloud:*:*:*:*:*:*:*:*",
     "description": "Nextcloud is a suite of client-server software for creating and using file hosting services.",
     "icon": "Nextcloud.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "oc_config.version": "^([\\.\\d]+)$\\;version:\\1\\;confidence:0"
     },
@@ -843,7 +861,9 @@
       "x-powered-by": "Niagahoster"
     },
     "icon": "Niagahoster.svg",
-    "implies": "Niagahoster",
+    "implies": [
+      "Niagahoster"
+    ],
     "pricing": [
       "low",
       "recurring"
@@ -966,7 +986,9 @@
       "X-Powered-By": "^NodeBB$"
     },
     "icon": "NodeBB.svg",
-    "implies": "Node.js",
+    "implies": [
+      "Node.js"
+    ],
     "pricing": [
       "mid",
       "recurring"
@@ -1029,7 +1051,9 @@
     ],
     "description": "Norton Shopping Guarantee offering a third-party shopping guarantee to customers provides added protection and validation that you are safe to buy from.",
     "icon": "Norton Shopping Guarantee.svg",
-    "implies": "Cart Functionality",
+    "implies": [
+      "Cart Functionality"
+    ],
     "js": {
       "DO_NORTON_SHOPPING": ""
     },
@@ -1218,7 +1242,9 @@
       "(?:<!--Powered by nopCommerce|Powered by: <a[^>]+nopcommerce)"
     ],
     "icon": "nopCommerce.png",
-    "implies": "Microsoft ASP.NET",
+    "implies": [
+      "Microsoft ASP.NET"
+    ],
     "meta": {
       "generator": "^nopCommerce$"
     },
@@ -1232,7 +1258,9 @@
     "description": "nopStation is a one stop ecommerce solution with custom integrations and custom built plugins based on custom tailored requirements on top of nopCommerce.",
     "dom": "a[href*='.nop-station.com/']",
     "icon": "nopStation.png",
-    "implies": "Microsoft ASP.NET",
+    "implies": [
+      "Microsoft ASP.NET"
+    ],
     "requires": [
       "nopCommerce"
     ],

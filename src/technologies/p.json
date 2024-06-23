@@ -61,7 +61,9 @@
       "<[^>]+Powered by PHP-Nuke"
     ],
     "icon": "PHP-Nuke.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "generator": "PHP-Nuke"
     },
@@ -230,7 +232,9 @@
     ],
     "description": "Packlink PRO is a multicarrier shipping solutions for ecommerce and marketplaces.",
     "icon": "Packlink.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "pricing": [
       "payg"
     ],
@@ -838,7 +842,9 @@
     "description": "PayPal Credit is a reusable line of credit that lets you pay for online purchases over time.",
     "dom": "img[alt*='PayPal Credit'], a[title*='PayPal Credit']",
     "icon": "PayPal.svg",
-    "implies": "PayPal",
+    "implies": [
+      "PayPal"
+    ],
     "js": {
       "PaypalOffersObject": "",
       "payPalCreditPopover": ""
@@ -854,7 +860,9 @@
     ],
     "description": "PayPal Marketing Solutions enables merchants to see shopper insights and provide custom rewards for buyers with PayPal accounts.",
     "icon": "PayPal.svg",
-    "implies": "PayPal",
+    "implies": [
+      "PayPal"
+    ],
     "pricing": [
       "freemium"
     ],
@@ -1047,7 +1055,9 @@
       "powered by <a href=\"https?://pelican\\.notmyidea\\.org"
     ],
     "icon": "pelican.png",
-    "implies": "Python",
+    "implies": [
+      "Python"
+    ],
     "website": "https://blog.getpelican.com/"
   },
   "PencilBlue": {
@@ -1059,7 +1069,9 @@
       "X-Powered-By": "PencilBlue"
     },
     "icon": "PencilBlue.png",
-    "implies": "Node.js",
+    "implies": [
+      "Node.js"
+    ],
     "website": "https://github.com/pencilblue/pencilblue"
   },
   "Pendo": {
@@ -1337,7 +1349,9 @@
       "<[^>]+(?:class|id)=\"phabricator-"
     ],
     "icon": "Phabricator.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "scriptSrc": "/phabricator/[a-f0-9]{8}/rsrc/js/phui/[a-z-]+\\.js$",
     "website": "https://phacility.com"
   },
@@ -1361,7 +1375,9 @@
       "<[^>]+id=\"phenomic(?:root)?\""
     ],
     "icon": "Phenomic.svg",
-    "implies": "React",
+    "implies": [
+      "React"
+    ],
     "scriptSrc": "/phenomic\\.browser\\.[a-f0-9]+\\.js",
     "website": "https://phenomic.io/"
   },
@@ -1418,7 +1434,9 @@
     ],
     "description": "Phoenix Framework is an open-source web application framework built using the Elixir programming language.",
     "icon": "Phoenix Framework.svg",
-    "implies": "Elixir",
+    "implies": [
+      "Elixir"
+    ],
     "js": {
       "Phoenix.Channel": ""
     },
@@ -1432,7 +1450,9 @@
     "description": "Phoenix LiveView is a library that brings live, interactive, real-time user experiences to your Phoenix applications.",
     "dom": "div[data-phx-session]",
     "icon": "Phoenix Framework.svg",
-    "implies": "Phoenix Framework",
+    "implies": [
+      "Phoenix Framework"
+    ],
     "js": {
       "liveSocket.socket": ""
     },
@@ -1597,7 +1617,9 @@
     ],
     "description": "PickyStory is the ecommerce conversion platform.",
     "icon": "PickyStory.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "js": {
       "pickystory.overrideStore": ""
     },
@@ -1703,7 +1725,9 @@
       "X-Powered-By": "^pimcore$"
     },
     "icon": "pimcore.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "oss": true,
     "pricing": [
       "poa"
@@ -1758,7 +1782,9 @@
       1
     ],
     "icon": "Pingoteam.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "designer": "Pingoteam"
     },
@@ -1834,7 +1860,9 @@
     ],
     "description": "Piwigo is an open-source photo management software designed for creating and managing online photo galleries.",
     "icon": "Piwigo.svg",
-    "implies": "MySQL",
+    "implies": [
+      "MySQL"
+    ],
     "meta": {
       "generator": "^Piwigo\\s"
     },
@@ -2122,7 +2150,9 @@
     },
     "cpe": "cpe:2.3:a:playframework:play_framework:*:*:*:*:*:*:*:*",
     "icon": "Play.svg",
-    "implies": "Scala",
+    "implies": [
+      "Scala"
+    ],
     "website": "https://www.playframework.com"
   },
   "Plaza": {
@@ -2205,7 +2235,9 @@
     "description": "Plone is a free and open source content management system (CMS) built on top of the Zope application server.",
     "dom": "link[href^='/++resource++']",
     "icon": "Plone.svg",
-    "implies": "Python",
+    "implies": [
+      "Python"
+    ],
     "meta": {
       "generator": "Plone"
     },
@@ -2218,7 +2250,9 @@
       25
     ],
     "icon": "Plotly.png",
-    "implies": "D3",
+    "implies": [
+      "D3"
+    ],
     "js": {
       "Plotly.version": "([\\d.])\\;version:\\1"
     },
@@ -2779,7 +2813,9 @@
     ],
     "description": "Preline UI is an open-source set of prebuilt UI components based on the utility-first Tailwind CSS framework.",
     "icon": "Preline UI.svg",
-    "implies": "Tailwind CSS",
+    "implies": [
+      "Tailwind CSS"
+    ],
     "oss": true,
     "scriptSrc": "/preline\\.js",
     "website": "https://preline.co"
@@ -3116,7 +3152,9 @@
     ],
     "description": "Privy App helps you improve your website conversion rate, grow your email list, automate your email marketing, drive repeat purchases and much more.",
     "icon": "Privy.svg",
-    "implies": "Privy",
+    "implies": [
+      "Privy"
+    ],
     "pricing": [
       "low",
       "freemium",
@@ -3136,7 +3174,9 @@
       "X-Powered-By": "ProcessWire CMS"
     },
     "icon": "ProcessWire.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "ProcessWire": ""
     },
@@ -3170,7 +3210,9 @@
     ],
     "description": "Product Personalizer apps can help you to customise your products and offer a more personalised experience for your customers.",
     "icon": "Product Personalizer.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "pricing": [
       "low",
       "recurring"
@@ -3233,7 +3275,9 @@
     "cpe": "cpe:2.3:a:progress:sitefinity:*:*:*:*:*:*:*:*",
     "description": "Progress Sitefinity is a content management system (CMS) that you use to create, store, manage, and present content on your website.",
     "icon": "Sitefinity.svg",
-    "implies": "Microsoft ASP.NET",
+    "implies": [
+      "Microsoft ASP.NET"
+    ],
     "js": {
       "sfDataIntell": ""
     },
@@ -3535,7 +3579,9 @@
       "X-Powered-PublicCMS": "^(.+)$\\;version:\\1"
     },
     "icon": "Public CMS.png",
-    "implies": "Java",
+    "implies": [
+      "Java"
+    ],
     "website": "https://www.publiccms.com"
   },
   "Publii": {
@@ -3686,7 +3732,9 @@
     ],
     "description": "PushOwl Web Push Notifications are a Shopify app which helps recover abandoned carts and market better with web push.",
     "icon": "PushOwl.svg",
-    "implies": "PushOwl",
+    "implies": [
+      "PushOwl"
+    ],
     "pricing": [
       "low",
       "freemium",
@@ -3768,7 +3816,9 @@
       "X-Streams-Distribution": "PyroCMS"
     },
     "icon": "PyroCMS.png",
-    "implies": "Laravel",
+    "implies": [
+      "Laravel"
+    ],
     "website": "https://pyrocms.com"
   },
   "Python": {
@@ -3793,7 +3843,9 @@
       "Server": "^PythonAnywhere$"
     },
     "icon": "PythonAnywhere.svg",
-    "implies": "Python",
+    "implies": [
+      "Python"
+    ],
     "oss": false,
     "pricing": [
       "payg",
@@ -3824,7 +3876,9 @@
       "<link[^>]*/papaya-themes/"
     ],
     "icon": "papaya CMS.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "website": "https://papaya-cms.com"
   },
   "parallax.js": {
@@ -3896,7 +3950,9 @@
       "<!--phpalbum ([.\\d\\s]+)-->\\;version:\\1"
     ],
     "icon": "phpAlbum.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "website": "https://phpalbum.net"
   },
   "phpBB": {
@@ -3916,7 +3972,9 @@
       "<table class=\"[^\"]*forumline"
     ],
     "icon": "phpBB.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "phpbb": "",
       "style_cookie_settings": ""
@@ -3932,7 +3990,9 @@
     ],
     "cpe": "cpe:2.3:a:phpcms:phpcms:*:*:*:*:*:*:*:*",
     "icon": "PHP.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "phpcms": ""
     },
@@ -3947,7 +4007,9 @@
       "<!-- Generated by phpDocumentor"
     ],
     "icon": "phpDocumentor.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "website": "https://www.phpdoc.org"
   },
   "phpMyAdmin": {
@@ -3982,7 +4044,9 @@
       "(?:<title>phpPgAdmin</title>|<span class=\"appname\">phpPgAdmin)"
     ],
     "icon": "phpPgAdmin.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "website": "https://phppgadmin.sourceforge.net"
   },
   "phpRS": {
@@ -3998,7 +4062,9 @@
       }
     },
     "icon": "default.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "generator": "^phpRS$"
     },
@@ -4030,7 +4096,9 @@
       "(?:Powered|Code) by <a href=\"[^\"]+phpwind\\.net"
     ],
     "icon": "phpwind.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "generator": "^phpwind(?: v([0-9-]+))?\\;version:\\1"
     },
@@ -4057,7 +4125,9 @@
       "pinoox_session": ""
     },
     "icon": "pinoox.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "pinoox": ""
     },
@@ -4072,7 +4142,9 @@
       "<input[^>]+cbi:///cms/"
     ],
     "icon": "pirobaseCMS.svg",
-    "implies": "Java",
+    "implies": [
+      "Java"
+    ],
     "website": "https://www.pirobase-imperia.com/de/produkte/produktuebersicht/pirobase-cms"
   },
   "plentyShop LTS": {
@@ -4112,7 +4184,9 @@
       "(?:<link [^>]*href=\"[^\"]*prettyPhoto(?:\\.min)?\\.css|<a [^>]*rel=\"prettyPhoto)"
     ],
     "icon": "prettyPhoto.png",
-    "implies": "jQuery",
+    "implies": [
+      "jQuery"
+    ],
     "js": {
       "pp_alreadyInitialized": "",
       "pp_descriptions": "",
@@ -4130,7 +4204,9 @@
       "Powered by <a href=\"[^>]+punbb"
     ],
     "icon": "punBB.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "PUNBB": ""
     },

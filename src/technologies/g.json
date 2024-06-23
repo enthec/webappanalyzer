@@ -41,7 +41,9 @@
       }
     },
     "icon": "GLPI.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "glpiUnsavedFormChanges": ""
     },
@@ -79,7 +81,9 @@
       "<div[^>]+govuk-box-highlight\\;confidence:25"
     ],
     "icon": "govuk.png",
-    "implies": "GOV.UK Toolkit",
+    "implies": [
+      "GOV.UK Toolkit"
+    ],
     "website": "https://github.com/alphagov/govuk_elements/"
   },
   "GOV.UK Frontend": {
@@ -233,7 +237,9 @@
       "(?:<link[^>]* href=\"templates/gambio/|<a[^>]content\\.php\\?coID=\\d|<!-- gambio eof -->|<!--[\\s=]+Shopsoftware by Gambio GmbH \\(c\\))"
     ],
     "icon": "Gambio.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "gambio": ""
     },
@@ -329,7 +335,9 @@
     ],
     "description": "GemPages is a powerful Shopify landing page buidler that empowers SMEs, agency, and freelancers to build their brands and sell online.",
     "icon": "GemPages.svg",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "js": {
       "GEMSTORE": "",
       "GEMVENDOR": ""
@@ -436,7 +444,9 @@
     ],
     "description": "GP Premium is a premium add-on plugin for the GeneratePress WordPress theme.",
     "icon": "generatepress.png",
-    "implies": "GeneratePress",
+    "implies": [
+      "GeneratePress"
+    ],
     "pricing": [
       "onetime",
       "recurring"
@@ -626,7 +636,9 @@
     ],
     "cpe": "cpe:2.3:a:get-simple:getsimple_cms:*:*:*:*:*:*:*:*",
     "icon": "GetSimple CMS.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "generator": "GetSimple"
     },
@@ -714,7 +726,9 @@
       "X-Ghost-Cache-Status": ""
     },
     "icon": "Ghost.svg",
-    "implies": "Node.js",
+    "implies": [
+      "Node.js"
+    ],
     "meta": {
       "generator": "Ghost(?:\\s([\\d.]+))?\\;version:\\1"
     },
@@ -836,7 +850,9 @@
       47
     ],
     "icon": "GitLab CI.png",
-    "implies": "Ruby on Rails",
+    "implies": [
+      "Ruby on Rails"
+    ],
     "meta": {
       "description": "GitLab CI/CD is a tool built into GitLab for software development through continuous methodologies."
     },
@@ -855,7 +871,9 @@
       "<div class=\"ui left\">\\n\\s+© Gitea Version: ([\\d.]+)\\;version:\\1"
     ],
     "icon": "gitea.svg",
-    "implies": "Go",
+    "implies": [
+      "Go"
+    ],
     "meta": {
       "keywords": "^go,git,self-hosted,gitea$"
     },
@@ -962,7 +980,9 @@
       "Server": "GlassFish(?: Server)?(?: Open Source Edition)?(?: ?/?([\\d.]+))?\\;version:\\1"
     },
     "icon": "GlassFish.png",
-    "implies": "Java",
+    "implies": [
+      "Java"
+    ],
     "website": "https://glassfish.java.net"
   },
   "Glassbox": {
@@ -1079,7 +1099,9 @@
     ],
     "description": "Also Bought is a conversion Shopify app by Globo.",
     "icon": "Globo apps.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "pricing": [
       "freemium",
       "low",
@@ -1095,7 +1117,9 @@
     ],
     "description": "Globo Color Swatch app gives you an easy-to-use tool to display product variants on both collection page, homepage and product page creatively as a means to enhance customers' experience and stimulate them to purchase.",
     "icon": "Globo apps.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "pricing": [
       "freemium"
     ],
@@ -1110,7 +1134,9 @@
     ],
     "description": "Form Builder is a Shopify form builder app for contact form built by Globo.",
     "icon": "Globo apps.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "pricing": [
       "freemium",
       "low",
@@ -1126,7 +1152,9 @@
     ],
     "description": "Globo Pre-Order is a Shopify app for building pre-order functionality on Shopify stores.",
     "icon": "Globo apps.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "js": {
       "GloboPreorderParams": ""
     },
@@ -1620,7 +1648,9 @@
     ],
     "description": "Google Ads Conversion Tracking is a free tool that shows you what happens after a customer interacts with your ads.",
     "icon": "Google.svg",
-    "implies": "Google Ads",
+    "implies": [
+      "Google Ads"
+    ],
     "js": {
       "google_trackConversion": ""
     },
@@ -1729,7 +1759,9 @@
       "Via": "^1\\.1 google$"
     },
     "icon": "google-cloud-cdn.svg",
-    "implies": "Google Cloud",
+    "implies": [
+      "Google Cloud"
+    ],
     "website": "https://cloud.google.com/cdn"
   },
   "Google Cloud Storage": {
@@ -1741,7 +1773,9 @@
       "x-goog-storage-class": "^\\w+$"
     },
     "icon": "google-cloud-storage.svg",
-    "implies": "Google Cloud",
+    "implies": [
+      "Google Cloud"
+    ],
     "website": "https://cloud.google.com/storage"
   },
   "Google Cloud Trace": {
@@ -1753,7 +1787,9 @@
       "x-cloud-trace-context": ""
     },
     "icon": "google-cloud-trace.svg",
-    "implies": "Google Cloud",
+    "implies": [
+      "Google Cloud"
+    ],
     "website": "https://cloud.google.com/trace"
   },
   "Google Code Prettify": {
@@ -1944,7 +1980,9 @@
     "description": "Google Tag Manager for WordPress plugin places the GTM container code snippets onto your wordpress website so that you do not need to add this manually.",
     "dom": "link[href*='/wp-content/plugins/duracelltomi-google-tag-manager/']",
     "icon": "Google Tag Manager for WordPress.png",
-    "implies": "Google Tag Manager",
+    "implies": [
+      "Google Tag Manager"
+    ],
     "oss": true,
     "requires": "WordPress",
     "scriptSrc": "/wp-content/plugins/duracelltomi-google-tag-manager/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
@@ -1980,7 +2018,9 @@
     "cpe": "cpe:2.3:a:google:web_toolkit:*:*:*:*:*:*:*:*",
     "description": "Google Web Toolkit (GWT) is an open-source Java software development framework that makes writing AJAX applications.",
     "icon": "Google Web Toolkit.png",
-    "implies": "Java",
+    "implies": [
+      "Java"
+    ],
     "js": {
       "__gwt_": "",
       "__gwt_activeModules": "",
@@ -2048,7 +2088,9 @@
     ],
     "description": "Govalo is a software startup company that builds a Shopify app.",
     "icon": "Govalo.svg",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "js": {
       "Govalo.meta": ""
     },
@@ -2104,7 +2146,9 @@
       "graffitibot": ""
     },
     "icon": "Graffiti CMS.png",
-    "implies": "Microsoft ASP.NET",
+    "implies": [
+      "Microsoft ASP.NET"
+    ],
     "meta": {
       "generator": "Graffiti CMS ([^\"]+)\\;version:\\1"
     },
@@ -2122,7 +2166,9 @@
       "(?:<!--GrandNode |<a[^>]+grandnode - Powered by |Powered by: <a[^>]+nopcommerce)"
     ],
     "icon": "GrandNode.svg",
-    "implies": "Microsoft ASP.NET",
+    "implies": [
+      "Microsoft ASP.NET"
+    ],
     "meta": {
       "generator": "grandnode"
     },
@@ -2237,7 +2283,9 @@
       1
     ],
     "icon": "Grav.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "generator": "GravCMS(?:\\s([\\d.]+))?\\;version:\\1"
     },
@@ -2314,7 +2362,9 @@
       "<img[^>]+/dsresource\\?objectid="
     ],
     "icon": "Green Valley CMS.png",
-    "implies": "Apache Tomcat",
+    "implies": [
+      "Apache Tomcat"
+    ],
     "meta": {
       "DC.identifier": "/content\\.jsp\\?objectid="
     },
@@ -2363,7 +2413,9 @@
     ],
     "description": "Gridsome is a free and open-source Vue-powered static site generator for building static websites.",
     "icon": "Gridsome.svg",
-    "implies": "Vue.js",
+    "implies": [
+      "Vue.js"
+    ],
     "meta": {
       "generator": "^Gridsome v([\\d.]+)$\\;version:\\1"
     },
@@ -2621,7 +2673,9 @@
       1
     ],
     "icon": "govCMS.svg",
-    "implies": "Drupal",
+    "implies": [
+      "Drupal"
+    ],
     "meta": {
       "generator": "Drupal ([\\d]+) \\(http:\\/\\/drupal\\.org\\) \\+ govCMS\\;version:\\1"
     },
@@ -2636,7 +2690,9 @@
       "Server": "gunicorn(?:/([\\d.]+))?\\;version:\\1"
     },
     "icon": "gunicorn.png",
-    "implies": "Python",
+    "implies": [
+      "Python"
+    ],
     "website": "https://gunicorn.org"
   }
 }

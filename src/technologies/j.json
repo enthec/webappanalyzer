@@ -6,7 +6,9 @@
     "cpe": "cpe:2.3:a:j2store:j2store:*:*:*:*:*:joomla\\!:*:*",
     "description": "J2Store is a Joomla shopping cart and ecommerce extension.",
     "icon": "j2store.png",
-    "implies": "Joomla",
+    "implies": [
+      "Joomla"
+    ],
     "js": {
       "j2storeURL": ""
     },
@@ -48,7 +50,9 @@
     ],
     "description": "jAlbum is across-platform photo website software for creating and uploading galleries from images and videos.",
     "icon": "JAlbum.png",
-    "implies": "Java",
+    "implies": [
+      "Java"
+    ],
     "meta": {
       "generator": "JAlbum( [\\d.]+)?\\;version:\\1"
     },
@@ -77,7 +81,9 @@
       "X-Powered-By": "JBossWeb(?:-([\\d.]+))?\\;version:\\1"
     },
     "icon": "JBoss Web.png",
-    "implies": "JBoss Application Server",
+    "implies": [
+      "JBoss Application Server"
+    ],
     "website": "https://jboss.org/jbossweb"
   },
   "JET Enterprise": {
@@ -231,7 +237,9 @@
       "X-Powered-By": "Servlet(?:\\/([\\d.]+))?\\;version:\\1"
     },
     "icon": "Java.svg",
-    "implies": "Java",
+    "implies": [
+      "Java"
+    ],
     "website": "https://www.oracle.com/technetwork/java/index-jsp-135475.html"
   },
   "JavaScript Infovis Toolkit": {
@@ -255,7 +263,9 @@
       "X-Powered-By": "JSF(?:/([\\d.]+))?\\;version:\\1"
     },
     "icon": "JavaServer Faces.png",
-    "implies": "Java",
+    "implies": [
+      "Java"
+    ],
     "website": "https://javaserverfaces.java.net"
   },
   "JavaServer Pages": {
@@ -266,7 +276,9 @@
       "X-Powered-By": "JSP(?:/([\\d.]+))?\\;version:\\1"
     },
     "icon": "Java.svg",
-    "implies": "Java",
+    "implies": [
+      "Java"
+    ],
     "website": "https://www.oracle.com/technetwork/java/javaee/jsp/index.html"
   },
   "Javadoc": {
@@ -292,7 +304,9 @@
       "<!-- Begin Jekyll SEO tag"
     ],
     "icon": "Jekyll.svg",
-    "implies": "Ruby",
+    "implies": [
+      "Ruby"
+    ],
     "js": {
       "SimpleJekyllSearch": ""
     },
@@ -314,7 +328,9 @@
       "<span class=\"jenkins_ver\"><a href=\"https://jenkins\\.io/\">Jenkins ver\\. ([\\d.]+)\\;version:\\1"
     ],
     "icon": "Jenkins.png",
-    "implies": "Java",
+    "implies": [
+      "Java"
+    ],
     "js": {
       "jenkinsCIGlobal": "",
       "jenkinsRules": ""
@@ -369,7 +385,9 @@
       "Server": "Jetty(?:\\(([\\d\\.]*\\d+))?\\;version:\\1"
     },
     "icon": "Jetty.png",
-    "implies": "Java",
+    "implies": [
+      "Java"
+    ],
     "website": "https://www.eclipse.org/jetty"
   },
   "Jibres": {
@@ -532,7 +550,9 @@
     ],
     "description": "Jobberbase is an open-source job board platform that enables the creation of job sites.",
     "icon": "JobberBase.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "Jobber": ""
     },
@@ -566,7 +586,9 @@
     ],
     "description": "JoomShopping is an open-source ecommerce plugin for Joomla.",
     "icon": "JoomShopping.png",
-    "implies": "Joomla",
+    "implies": [
+      "Joomla"
+    ],
     "js": {
       "joomshoppingVideoHtml5": ""
     },
@@ -590,7 +612,9 @@
       "(?:<div[^>]+id=\"wrapper_r\"|<(?:link|script)[^>]+(?:feed|components)/com_|<table[^>]+class=\"pill)\\;confidence:50"
     ],
     "icon": "Joomla.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "Joomla": "",
       "jcomments": ""
@@ -636,7 +660,9 @@
     ],
     "description": "JsRender is the template library. The library is developed and maintained by Microsoft employee Boris Moore and is used in projects such as Outlook.com and Windows Azure.",
     "icon": "JsRender.svg",
-    "implies": "JsViews",
+    "implies": [
+      "JsViews"
+    ],
     "oss": true,
     "scriptSrc": "([\\d\\.]+)?/jsrender(?:\\.min)?\\.js\\;version:\\1",
     "website": "https://www.jsviews.com/#jsrender"
@@ -697,7 +723,9 @@
     ],
     "description": "Jumbo is a page speed optimizer app for Shopify based sites.",
     "icon": "Jumbo.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "scriptSrc": "mt\\.tryjumbo\\.com",
     "website": "https://www.tryjumbo.com/"
   },
@@ -843,7 +871,9 @@
     ],
     "description": "Justuno is a premium conversion marketing and analytics platform that provides retailers with powerful tools to increase conversions.",
     "icon": "Justuno.svg",
-    "implies": "Justuno",
+    "implies": [
+      "Justuno"
+    ],
     "pricing": [
       "freemium",
       "recurring",
@@ -860,7 +890,9 @@
       59
     ],
     "icon": "jComponent.png",
-    "implies": "jQuery",
+    "implies": [
+      "jQuery"
+    ],
     "js": {
       "MAIN.version": "(.*)\\;version:\\1"
     },
@@ -873,7 +905,9 @@
     ],
     "description": "jPlayer is a cross-browser JavaScript library developed as a jQuery plugin which facilitates the embedding of web based media, notably HTML5 audio and video in addition to Adobe Flash based media.",
     "icon": "jPlayer.png",
-    "implies": "jQuery",
+    "implies": [
+      "jQuery"
+    ],
     "js": {
       "jPlayerPlaylist": ""
     },
@@ -918,7 +952,9 @@
     ],
     "description": "jQuery CDN is a way to include jQuery in your website without actually downloading and keeping it your website's folder.",
     "icon": "jQuery.svg",
-    "implies": "jQuery",
+    "implies": [
+      "jQuery"
+    ],
     "scriptSrc": "code\\.jquery\\.com/",
     "website": "https://code.jquery.com/"
   },
@@ -928,7 +964,9 @@
     ],
     "description": "Ajax Autocomplete for jQuery allows you to easily create autocomplete/autosuggest boxes for text input fields.",
     "icon": "jQuery.svg",
-    "implies": "jQuery",
+    "implies": [
+      "jQuery"
+    ],
     "js": {
       "$.devbridgeAutocomplete": "",
       "jQuery.devbridgeAutocomplete": ""
@@ -945,7 +983,9 @@
     ],
     "description": "Query Migrate is a javascript library that allows you to preserve the compatibility of your jQuery code developed for versions of jQuery older than 1.9.",
     "icon": "jQuery.svg",
-    "implies": "jQuery",
+    "implies": [
+      "jQuery"
+    ],
     "js": {
       "jQuery.migrateVersion": "((?:\\d+\\.){1,2}\\d+)\\;version:\\1",
       "jQuery.migrateWarnings": "",
@@ -960,7 +1000,9 @@
     ],
     "description": "jQuery Mobile is a HTML5-based user interface system designed to make responsive web sites and apps that are accessible on all smartphone, tablet and desktop devices.",
     "icon": "jQuery Mobile.svg",
-    "implies": "jQuery",
+    "implies": [
+      "jQuery"
+    ],
     "js": {
       "jQuery.mobile.version": "^(.+)$\\;version:\\1"
     },
@@ -974,7 +1016,9 @@
     "description": "jQuery Modal is an overlay dialog box or in other words, a popup window that is made to display on the top or 'overlayed' on the current page.",
     "dom": "link[href*='jquery.modal.min.css']",
     "icon": "jQuery Modal.png",
-    "implies": "jQuery",
+    "implies": [
+      "jQuery"
+    ],
     "oss": true,
     "scriptSrc": "jquery-modal/([\\d\\.]+)/jquery\\.modal\\.min\\.js\\;version:\\1",
     "website": "https://jquerymodal.com"
@@ -984,7 +1028,9 @@
       25
     ],
     "description": "jQuery Sparklines is a plugin that generates sparklines (small inline charts) directly in the browser using data supplied either inline in the HTML, or via javascript.",
-    "implies": "jQuery",
+    "implies": [
+      "jQuery"
+    ],
     "scriptSrc": "jquery\\.sparkline.*\\.js",
     "website": "https://omnipotent.net/jquery.sparkline/"
   },
@@ -995,7 +1041,9 @@
     "cpe": "cpe:2.3:a:jquery:jquery_ui:*:*:*:*:*:*:*:*",
     "description": "jQuery UI is a collection of GUI widgets, animated visual effects, and themes implemented with jQuery, Cascading Style Sheets, and HTML.",
     "icon": "jQuery UI.svg",
-    "implies": "jQuery",
+    "implies": [
+      "jQuery"
+    ],
     "js": {
       "jQuery.ui.version": "^(.+)$\\;version:\\1"
     },
@@ -1014,7 +1062,9 @@
     "html": [
       "<div[^>]+data-pjax-container"
     ],
-    "implies": "jQuery",
+    "implies": [
+      "jQuery"
+    ],
     "js": {
       "jQuery.pjax": ""
     },
@@ -1031,7 +1081,9 @@
       25
     ],
     "icon": "jqPlot.png",
-    "implies": "jQuery",
+    "implies": [
+      "jQuery"
+    ],
     "scriptSrc": "jqplot.*\\.js",
     "website": "https://www.jqplot.com"
   },

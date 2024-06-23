@@ -7,7 +7,9 @@
       "<a-scene[^<>]*>"
     ],
     "icon": "A-Frame.svg",
-    "implies": "Three.js",
+    "implies": [
+      "Three.js"
+    ],
     "js": {
       "AFRAME.version": "^(.+)$\\;version:\\1"
     },
@@ -66,7 +68,9 @@
     ],
     "description": "ABP Framework is a complete infrastructure to create modern web applications by following the best practices and conventions of software development.",
     "icon": "abp.svg",
-    "implies": "Microsoft ASP.NET",
+    "implies": [
+      "Microsoft ASP.NET"
+    ],
     "js": {
       "abp.timing.timeZone": "",
       "abp.version": "(.*)\\;version:\\1"
@@ -183,7 +187,9 @@
     "description": "AMP for WordPress automatically adds Accelerated Mobile Pages (Google AMP Project) functionality to your WordPress site.",
     "dom": "link[href*='/wp-content/plugins/amp/']",
     "icon": "Accelerated-Mobile-Pages.svg",
-    "implies": "AMP",
+    "implies": [
+      "AMP"
+    ],
     "meta": {
       "generator": "^AMP Plugin v(\\d+\\.\\d+.*)$\\;version:\\1"
     },
@@ -251,7 +257,9 @@
     ],
     "description": "ASP.NET Boilerplate is a general purpose application framework especially designed for new modern web applications. It uses already familiar tools and implements best practices around them to provide you a SOLID development experience.",
     "icon": "aspnetboilerplate.png",
-    "implies": "Microsoft ASP.NET",
+    "implies": [
+      "Microsoft ASP.NET"
+    ],
     "js": {
       "abp.aspnetboilerplate.version": "(.*)\\;version:\\1",
       "abp.timing.utcClockProvider": ""
@@ -324,7 +332,9 @@
     "certIssuer": "Amazon",
     "description": "AWS Certificate Manager is a service that lets you easily provision, manage, and deploy public and private Secure Sockets Layer/Transport Layer Security (SSL/TLS) certificates for use with AWS services and your internal connected resources.",
     "icon": "AWS Certificate Manager.svg",
-    "implies": "Amazon Web Services",
+    "implies": [
+      "Amazon Web Services"
+    ],
     "saas": true,
     "website": "https://aws.amazon.com/certificate-manager/"
   },
@@ -337,7 +347,9 @@
       "x-amzn-waf-action": "^captcha$"
     },
     "icon": "AWS WAF Captcha.svg",
-    "implies": "Amazon Web Services",
+    "implies": [
+      "Amazon Web Services"
+    ],
     "pricing": [
       "recurring",
       "payg"
@@ -352,7 +364,9 @@
     ],
     "cpe": "cpe:2.3:a:laurent_destailleur:awstats:*:*:*:*:*:*:*:*",
     "icon": "AWStats.png",
-    "implies": "Perl",
+    "implies": [
+      "Perl"
+    ],
     "meta": {
       "generator": "AWStats ([\\d.]+(?: \\(build [\\d.]+\\))?)\\;version:\\1"
     },
@@ -650,7 +664,9 @@
       "via": "Acquia Platform CDN (.+)\\;version:\\1"
     },
     "icon": "acquia-cloud-platform.svg",
-    "implies": "Acquia Cloud Platform",
+    "implies": [
+      "Acquia Cloud Platform"
+    ],
     "saas": true,
     "website": "https://docs.acquia.com/cloud-platform/platformcdn/"
   },
@@ -962,7 +978,9 @@
       36
     ],
     "icon": "AdOcean.png",
-    "implies": "Gemius",
+    "implies": [
+      "Gemius"
+    ],
     "js": {
       "ado.master": "",
       "ado.placement": "",
@@ -980,7 +998,9 @@
     ],
     "description": "AdOpt is a consent tool that prioritises privacy and usability towards the LGPD.",
     "icon": "AdOpt.svg",
-    "implies": "Svelte",
+    "implies": [
+      "Svelte"
+    ],
     "js": {
       "adoptApp.domain": "",
       "adopt_website_code": ""
@@ -1246,7 +1266,9 @@
     ],
     "description": "AddToAny Share Buttons plugin for WordPress increases traffic and engagement by helping people share your posts and pages to any service.",
     "icon": "AddToAny.svg",
-    "implies": "AddToAny",
+    "implies": [
+      "AddToAny"
+    ],
     "oss": true,
     "requires": "WordPress",
     "scriptSrc": "/wp-content/plugins/add-to-any/addtoany\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
@@ -1333,7 +1355,9 @@
       "onclick=\"bodyClick\\(event\\);\" onload=\"verifyVersion\\('([\\d.]+)'\\);\">\\;version:\\1"
     ],
     "icon": "adminer.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "website": "https://www.adminer.org"
   },
   "Admiral": {
@@ -1487,7 +1511,9 @@
       "<!-- START headerTags\\.cfm"
     ],
     "icon": "Adobe ColdFusion.svg",
-    "implies": "CFML",
+    "implies": [
+      "CFML"
+    ],
     "js": {
       "_cfEmails": ""
     },
@@ -1532,7 +1558,9 @@
       "<div class=\"[^\"]*aem-Grid"
     ],
     "icon": "Adobe Experience Platform.svg",
-    "implies": "Java",
+    "implies": [
+      "Java"
+    ],
     "pricing": [
       "poa"
     ],
@@ -1672,7 +1700,9 @@
       "adonis-session-values": ""
     },
     "icon": "AdonisJS.png",
-    "implies": "Node.js",
+    "implies": [
+      "Node.js"
+    ],
     "website": "https://adonisjs.com"
   },
   "Advally": {
@@ -1989,7 +2019,9 @@
       "ahoy_visitor": ""
     },
     "description": "Ahoy is a Ruby gem that provides simple and powerful analytics for Ruby on Rails applications.",
-    "implies": "Ruby on Rails",
+    "implies": [
+      "Ruby on Rails"
+    ],
     "js": {
       "ahoy": ""
     },
@@ -2019,7 +2051,9 @@
     ],
     "description": "AiSpeed is a shopify app focused on improving site speed.",
     "icon": "AiSpeed.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "js": {
       "aispeed_init": ""
     },
@@ -2163,7 +2197,9 @@
     },
     "description": "Akamai Bot Manager detect bots using device fingerprinting bot signatures.",
     "icon": "Akamai.svg",
-    "implies": "Akamai",
+    "implies": [
+      "Akamai"
+    ],
     "pricing": [
       "poa"
     ],
@@ -2176,7 +2212,9 @@
     ],
     "description": "Akamai Web Application Protector is designed for companies looking for a more automated approach to web application firewall (WAF) and distributed denial-of-service (DDoS) security.",
     "icon": "Akamai.svg",
-    "implies": "Akamai",
+    "implies": [
+      "Akamai"
+    ],
     "js": {
       "AKSB": "\\;confidence:50"
     },
@@ -2227,7 +2265,9 @@
       "Powered By Akaunting: <a [^>]*href=\"https?://(?:www\\.)?akaunting\\.com[^>]+>"
     ],
     "icon": "akaunting.svg",
-    "implies": "Laravel",
+    "implies": [
+      "Laravel"
+    ],
     "oss": true,
     "website": "https://akaunting.com"
   },
@@ -2412,7 +2452,9 @@
     ],
     "description": "Algolia DocSearch is a search widget specifically designed for documentation websites.",
     "icon": "DocSearch.svg",
-    "implies": "Algolia",
+    "implies": [
+      "Algolia"
+    ],
     "js": {
       "docsearch.version": "([\\d\\.]+)\\;version:\\1"
     },
@@ -2671,7 +2713,9 @@
     },
     "description": "Amazon Application Load Balancer (ALB) distributes incoming application traffic to increase availability and support content-based routing.",
     "icon": "Amazon ELB.svg",
-    "implies": "Amazon Web Services",
+    "implies": [
+      "Amazon Web Services"
+    ],
     "website": "https://aws.amazon.com/elasticloadbalancing/"
   },
   "Amazon Advertising": {
@@ -2717,7 +2761,9 @@
     ],
     "description": "Amazon Aurora is a relational database service developed and offered by Amazon Web Services.",
     "icon": "Amazon Aurora.svg",
-    "implies": "Amazon Web Services",
+    "implies": [
+      "Amazon Web Services"
+    ],
     "website": "https://aws.amazon.com/rds/aurora"
   },
   "Amazon CloudFront": {
@@ -2733,7 +2779,9 @@
       "X-Amz-Cf-Id": ""
     },
     "icon": "Amazon Cloudfront.svg",
-    "implies": "Amazon Web Services",
+    "implies": [
+      "Amazon Web Services"
+    ],
     "saas": true,
     "website": "https://aws.amazon.com/cloudfront/"
   },
@@ -2761,7 +2809,9 @@
     ],
     "description": "Amazon Cognito lets you add user sign-up, sign-in, and access control to your web and mobile apps. Amazon Cognito supports sign-in with social identity providers, such as Apple, Facebook, Google, and Amazon, and enterprise identity providers via SAML 2.0 and OpenID Connect.",
     "icon": "Amazon Cognito.svg",
-    "implies": "Amazon Web Services",
+    "implies": [
+      "Amazon Web Services"
+    ],
     "pricing": [
       "payg"
     ],
@@ -2777,7 +2827,9 @@
       "Server": "\\(Amazon\\)"
     },
     "icon": "Amazon EC2.svg",
-    "implies": "Amazon Web Services",
+    "implies": [
+      "Amazon Web Services"
+    ],
     "saas": true,
     "website": "https://aws.amazon.com/ec2/"
   },
@@ -2820,7 +2872,9 @@
       "Server": "awselb"
     },
     "icon": "Amazon ELB.svg",
-    "implies": "Amazon Web Services",
+    "implies": [
+      "Amazon Web Services"
+    ],
     "saas": true,
     "website": "https://aws.amazon.com/elasticloadbalancing/"
   },
@@ -2862,7 +2916,9 @@
       "server": "^AmazonS3$"
     },
     "icon": "Amazon S3.svg",
-    "implies": "Amazon Web Services",
+    "implies": [
+      "Amazon Web Services"
+    ],
     "saas": true,
     "scriptSrc": "s3[^ ]*\\.amazonaws\\.com/",
     "website": "https://aws.amazon.com/s3/"
@@ -2878,7 +2934,9 @@
       ]
     },
     "icon": "Amazon SES.svg",
-    "implies": "Amazon Web Services",
+    "implies": [
+      "Amazon Web Services"
+    ],
     "saas": true,
     "website": "https://aws.amazon.com/ses/"
   },
@@ -2958,7 +3016,9 @@
       1
     ],
     "icon": "Ametys.png",
-    "implies": "Java",
+    "implies": [
+      "Java"
+    ],
     "meta": {
       "generator": "(?:Ametys|Anyware Technologies)"
     },
@@ -3190,7 +3250,9 @@
       "AngularJS"
     ],
     "icon": "Angular.svg",
-    "implies": "TypeScript",
+    "implies": [
+      "TypeScript"
+    ],
     "js": {
       "ng.coreTokens": "",
       "ng.probe": ""
@@ -3218,7 +3280,9 @@
       "Material Design Lite"
     ],
     "icon": "AngularJS.svg",
-    "implies": "AngularJS",
+    "implies": [
+      "AngularJS"
+    ],
     "js": {
       "ngMaterial": ""
     },
@@ -3234,7 +3298,9 @@
       "AngularJS"
     ],
     "icon": "AngularDart.svg",
-    "implies": "Dart",
+    "implies": [
+      "Dart"
+    ],
     "js": {
       "ngTestabilityRegistries": ""
     },
@@ -3326,7 +3392,9 @@
     "description": "Aniview Video Ad Player is a video player technology developed by Aniview, a company that specialises in providing video advertising solutions.",
     "dom": "link[href*='player.aniview.com']",
     "icon": "Aniview.png",
-    "implies": "Aniview Ad Server",
+    "implies": [
+      "Aniview Ad Server"
+    ],
     "pricing": [
       "poa"
     ],
@@ -3531,7 +3599,9 @@
       "<html[^>]* xmlns:jspwiki="
     ],
     "icon": "Apache.svg",
-    "implies": "Apache Tomcat",
+    "implies": [
+      "Apache Tomcat"
+    ],
     "oss": true,
     "scriptSrc": "jspwiki",
     "url": "wiki\\.jsp",
@@ -3548,7 +3618,9 @@
       "X-Powered-By": "\\bTomcat\\b(?:-([\\d.]+))?\\;version:\\1"
     },
     "icon": "Apache Tomcat.svg",
-    "implies": "Java",
+    "implies": [
+      "Java"
+    ],
     "oss": true,
     "website": "https://tomcat.apache.org"
   },
@@ -3572,7 +3644,9 @@
     "cpe": "cpe:2.3:a:apache:wicket:*:*:*:*:*:*:*:*",
     "description": "Apache Wicket is an open-source Java web application framework for building scalable and maintainable web applications.",
     "icon": "Apache Wicket.svg",
-    "implies": "Java",
+    "implies": [
+      "Java"
+    ],
     "js": {
       "Wicket": ""
     },
@@ -3633,7 +3707,9 @@
       "X-Powered-By": "Salesforce\\.com ApexPages"
     },
     "icon": "Salesforce.svg",
-    "implies": "Salesforce",
+    "implies": [
+      "Salesforce"
+    ],
     "website": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_intro.htm"
   },
   "Apigee": {
@@ -3724,7 +3800,9 @@
     ],
     "description": "ApostropheCMS is a powerful website builder platform built on an enterprise open source CMS.",
     "icon": "ApostropheCMS.svg",
-    "implies": "Node.js",
+    "implies": [
+      "Node.js"
+    ],
     "js": {
       "APOS_DIALOGS.dialogAttributes": "",
       "apos.csrfCookieName": ""
@@ -3925,7 +4003,9 @@
       "X-Powered-By": "^ARR/([\\d\\.]+)$\\;version:\\1"
     },
     "icon": "Microsoft.svg",
-    "implies": "IIS",
+    "implies": [
+      "IIS"
+    ],
     "website": "https://www.iis.net/downloads/microsoft/application-request-routing"
   },
   "Appointy": {
@@ -4038,7 +4118,9 @@
       "x-arastta": ""
     },
     "icon": "Arastta.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "oss": true,
     "scriptSrc": "arastta\\.js",
     "website": "https://arastta.org"
@@ -4164,7 +4246,9 @@
       "Server": "Artifactory(?:/([\\d.]+))?\\;version:\\1"
     },
     "icon": "Artifactory.svg",
-    "implies": "Artifactory",
+    "implies": [
+      "Artifactory"
+    ],
     "website": "https://jfrog.com/open-source/#os-arti"
   },
   "Aruba.it": {
@@ -4247,7 +4331,9 @@
     ],
     "description": "Asciidoctor is an open-source text processor and publishing toolchain, written in Ruby, for converting AsciiDoc content to HTML 5, DocBook 5, and other formats.",
     "icon": "Asciidoctor.png",
-    "implies": "Ruby",
+    "implies": [
+      "Ruby"
+    ],
     "meta": {
       "generator": "^Asciidoctor\\s([\\d\\.]+)$\\;version:\\1"
     },
@@ -4450,7 +4536,9 @@
       "<li>Atlassian Bitbucket <span title=\"[a-z0-9]+\" id=\"product-version\" data-commitid=\"[a-z0-9]+\" data-system-build-number=\"[a-z0-9]+\"> v([\\d.]+)<\\;version:\\1"
     ],
     "icon": "Atlassian Bitbucket.svg",
-    "implies": "Python",
+    "implies": [
+      "Python"
+    ],
     "js": {
       "bitbucket": ""
     },
@@ -4474,7 +4562,9 @@
       "X-Confluence-Request-Time": ""
     },
     "icon": "Atlassian Confluence.svg",
-    "implies": "Java",
+    "implies": [
+      "Java"
+    ],
     "meta": {
       "confluence-request-time": ""
     },
@@ -4501,7 +4591,9 @@
     "cpe": "cpe:2.3:a:atlassian:jira:*:*:*:*:*:*:*:*",
     "dom": "#jira",
     "icon": "Atlassian Jira.svg",
-    "implies": "Java",
+    "implies": [
+      "Java"
+    ],
     "js": {
       "jira.id": ""
     },
@@ -4715,7 +4807,9 @@
     ],
     "description": "Auth0 Lock enables you to easily add social identity providers, so that your users can log in seamlessly using any desired provider.",
     "icon": "Auth0.svg",
-    "implies": "Auth0",
+    "implies": [
+      "Auth0"
+    ],
     "scriptSrc": "/lock/([\\d.]+)/lock(?:.min)?\\.js\\;version:\\1",
     "website": "https://auth0.com/docs/libraries/lock"
   },
@@ -4903,7 +4997,9 @@
     ],
     "description": "Avangate (2Checkout) is a digital ecommerce platform for businesses that sell physical goods or digital products.",
     "icon": "Avangate.svg",
-    "implies": "Verifone 2Checkout",
+    "implies": [
+      "Verifone 2Checkout"
+    ],
     "js": {
       "AvaCart.version": "(.+)\\;version:\\1",
       "__avng8_callbacks": "",
@@ -5119,7 +5215,9 @@
     ],
     "description": "Azure Active Directory B2C is a customer identity access management (CIAM) solution.",
     "icon": "AzureADB2C.png",
-    "implies": "Azure",
+    "implies": [
+      "Azure"
+    ],
     "url": "https.+\\.b2clogin\\.com",
     "website": "https://azure.microsoft.com/en-us/services/active-directory/external-identities/b2c/"
   },
@@ -5134,7 +5232,9 @@
       "server": "^(?:ECAcc|ECS|ECD)"
     },
     "icon": "Azure.svg",
-    "implies": "Azure",
+    "implies": [
+      "Azure"
+    ],
     "website": "https://azure.microsoft.com/en-us/services/cdn/"
   },
   "Azure Edge Network": {
@@ -5163,7 +5263,9 @@
       "X-Azure-Ref": ""
     },
     "icon": "Azure.svg",
-    "implies": "Azure",
+    "implies": [
+      "Azure"
+    ],
     "website": "https://docs.microsoft.com/en-us/azure/frontdoor/"
   },
   "Azure Monitor": {
@@ -5177,7 +5279,9 @@
       "Content-Security-Policy": "js\\.monitor\\.azure\\.com"
     },
     "icon": "Azure.svg",
-    "implies": "Azure",
+    "implies": [
+      "Azure"
+    ],
     "pricing": [
       "payg"
     ],
@@ -5190,7 +5294,9 @@
       1
     ],
     "icon": "a-blog cms.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "generator": "a-blog cms"
     },
@@ -5305,7 +5411,9 @@
       "X-Powered-By": "actionhero API"
     },
     "icon": "actionhero.js.png",
-    "implies": "Node.js",
+    "implies": [
+      "Node.js"
+    ],
     "js": {
       "actionheroClient": ""
     },

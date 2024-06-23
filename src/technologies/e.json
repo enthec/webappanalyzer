@@ -51,7 +51,9 @@
     "cpe": "cpe:2.3:a:lockon:ec-cube:*:*:*:*:*:*:*:*",
     "description": "EC-CUBE is an open source package used to build ecommerce sites.",
     "icon": "EC-CUBE.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "oss": true,
     "scriptSrc": [
       "eccube\\.js",
@@ -111,7 +113,9 @@
       "Server": "ELOG HTTP ?([\\d.-]+)?\\;version:\\1"
     },
     "icon": "ELOG.png",
-    "implies": "ELOG",
+    "implies": [
+      "ELOG"
+    ],
     "website": "https://midas.psi.ch/elog"
   },
   "EPrints": {
@@ -119,7 +123,9 @@
       19
     ],
     "icon": "EPrints.png",
-    "implies": "Perl",
+    "implies": [
+      "Perl"
+    ],
     "js": {
       "EPJS_menu_template": "",
       "EPrints": ""
@@ -136,7 +142,9 @@
     "cpe": "cpe:2.3:a:frappe:erpnext:*:*:*:*:*:*:*:*",
     "description": "ERPNext is a free and open-source integrated Enterprise Resource Planning (ERP) software developed by Frappe Technologies.",
     "icon": "ERPNext.png",
-    "implies": "Frappe",
+    "implies": [
+      "Frappe"
+    ],
     "js": {
       "erpnext.shopping_cart": "",
       "erpnext.subscribe_to_newsletter": ""
@@ -225,7 +233,9 @@
     ],
     "description": "Easy Hide PayPal hides PayPal button from product page, cart and checkout but keep PayPal as payment option in checkout.",
     "icon": "Easy Hide PayPal.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "pricing": [
       "low",
       "recurring"
@@ -269,7 +279,9 @@
     ],
     "description": "Easy Redirects is a Shopify app built by Eastside, and part of the best Shopify Apps collection.",
     "icon": "Easy Redirects.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "pricing": [
       "freemium",
       "low",
@@ -307,7 +319,9 @@
       "x-powered-by": "^EasyEngine (.*)$\\;version:\\1"
     },
     "icon": "EasyEngine.png",
-    "implies": "Docker",
+    "implies": [
+      "Docker"
+    ],
     "website": "https://easyengine.io"
   },
   "EasyGift": {
@@ -530,7 +544,9 @@
     "cpe": "cpe:2.3:a:ektron:ektron_content_management_system:*:*:*:*:*:*:*:*",
     "description": "Ektron CMS is developed on the Microsoft .NET framework and is 100% ASP.NET. In 2015 Ektron merged with EPiServer.",
     "icon": "Optimizely.svg",
-    "implies": "Microsoft ASP.NET",
+    "implies": [
+      "Microsoft ASP.NET"
+    ],
     "js": {
       "Ektron": ""
     },
@@ -635,7 +651,9 @@
     ],
     "description": "The Elcom Platform is a web content management and intranet portal software written in Microsoft ASP.NET and SQL Server by Elcom Technology.",
     "icon": "elcom.png",
-    "implies": "Microsoft ASP.NET",
+    "implies": [
+      "Microsoft ASP.NET"
+    ],
     "meta": {
       "generator": "^elcomCMS"
     },
@@ -654,7 +672,9 @@
     ],
     "cpe": "cpe:2.3:a:eleanor-cms:eleanor_cms:*:*:*:*:*:*:*:*",
     "icon": "Eleanor CMS.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "generator": "Eleanor"
     },
@@ -756,7 +776,9 @@
     "description": "Elementor Header & Footer Builder is a simple yet powerful WordPress plugin that allows you to create a layout with Elementor and set it as.",
     "dom": "link[href*='/wp-content/plugins/header-footer-elementor/']",
     "icon": "Elementor Header & Footer Builder.svg",
-    "implies": "Elementor",
+    "implies": [
+      "Elementor"
+    ],
     "pricing": [
       "freemium"
     ],
@@ -849,7 +871,9 @@
     ],
     "description": "Elixir is a dynamic, functional language designed for building scalable and maintainable applications.",
     "icon": "Elixir.svg",
-    "implies": "Erlang",
+    "implies": [
+      "Erlang"
+    ],
     "oss": true,
     "website": "https://elixir-lang.org"
   },
@@ -859,7 +883,9 @@
     ],
     "description": "ElkArte is an open-source PHP-based forum software with MySQL integration, offering features such as user authentication, topic categorisation, post formatting, private messaging, moderation tools, and customisable themes and extensions.",
     "icon": "ElkArte.png",
-    "implies": "MySQL",
+    "implies": [
+      "MySQL"
+    ],
     "js": {
       "elk_forum_action": "",
       "elk_iso_case_folding": ""
@@ -917,7 +943,9 @@
       "<style>[\\s\\S]*\\.explain > \\.s[\\s\\S]*\\.explain > \\.ctr > \\.s"
     ],
     "icon": "elm.svg",
-    "implies": "Elm",
+    "implies": [
+      "Elm"
+    ],
     "website": "https://github.com/mdgriffith/elm-ui"
   },
   "Eloomi": {
@@ -1273,7 +1301,9 @@
     ],
     "description": "Enlistly tracks referral orders in realtime. Orders that are partially refunded, refunded, or cancelled update on the fly.",
     "icon": "Enlistly.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "pricing": [
       "freemium",
       "low",
@@ -1426,7 +1456,9 @@
     "html": [
       "<link[^>]+?href=\"[^\"]+epoch(?:\\.min)?\\.css"
     ],
-    "implies": "D3",
+    "implies": [
+      "D3"
+    ],
     "scriptSrc": "epoch(?:\\.min)?\\.js",
     "website": "https://fastly.github.io/epoch"
   },
@@ -1456,7 +1488,9 @@
     ],
     "description": "EraofEcom Cartroids makes it easy for you to create highly targeted upsells, cross-sells and bundle offers.",
     "icon": "EraofEcom.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "js": {
       "cartroids.appBase": "cartroids\\.eraofecom\\.org"
     },
@@ -1472,7 +1506,9 @@
     ],
     "description": "EraofEcom MTL is a Shopify pop up app that enables you to catch your website visitors.",
     "icon": "EraofEcom.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "pricing": [
       "poa"
     ],
@@ -1487,7 +1523,9 @@
     "description": "EraofEcom WinAds is an all-in-one Facebook pixel app for Shopify.",
     "dom": "link[href*='winads.eraofecom.org']",
     "icon": "EraofEcom.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "js": {
       "win_ads.baseURL": "winads\\.eraofecom\\.org"
     },
@@ -1622,7 +1660,9 @@
       "Server": "^Etherpad"
     },
     "icon": "etherpad.png",
-    "implies": "Node.js",
+    "implies": [
+      "Node.js"
+    ],
     "js": {
       "padeditbar": "",
       "padimpexp": ""
@@ -1758,7 +1798,9 @@
       "<iframe[^>]*[\\w]+\\.eveve\\.com"
     ],
     "icon": "Eveve.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "pricing": [
       "mid",
       "recurring"
@@ -1811,7 +1853,9 @@
     ],
     "description": "Exemptify allows you to conduct proper EU B2B transactions by validating EU VAT IDs.",
     "icon": "Exemptify.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "js": {
       "ExemptifyTriggerUpdate": "",
       "m4u_ex_vat_postfix_txt": ""
@@ -1935,7 +1979,9 @@
       "X-Powered-By": "^Express(?:$|,)"
     },
     "icon": "Express.svg",
-    "implies": "Node.js",
+    "implies": [
+      "Node.js"
+    ],
     "website": "https://expressjs.com"
   },
   "ExpressionEngine": {
@@ -1950,7 +1996,9 @@
     "cpe": "cpe:2.3:a:ellislab:expressionengine:*:*:*:*:*:*:*:*",
     "description": "ExpressionEngine is a free and open-source CMS.",
     "icon": "ExpressionEngine.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "oss": true,
     "website": "https://expressionengine.com/"
   },
@@ -2161,7 +2209,9 @@
       "X-Powered-By": "e107"
     },
     "icon": "e107.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "scriptSrc": "[^a-z\\d]e107\\.js",
     "website": "https://e107.org"
   },
@@ -2286,7 +2336,9 @@
     ],
     "description": "eShopCRM is an ecommerce CRM for Shopify.",
     "icon": "eShopCRM.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "pricing": [
       "poa"
     ],
@@ -2320,7 +2372,9 @@
       "X-Drectory-Script": "^eSyndiCat"
     },
     "icon": "eSyndiCat.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "esyndicat": ""
     },
@@ -2354,7 +2408,9 @@
       "X-Powered-By": "^eZ Publish"
     },
     "icon": "eZ.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "generator": "eZ Publish"
     },
@@ -2418,7 +2474,9 @@
       "X-Powered-By": "^enduro\\.js"
     },
     "icon": "enduro.js.svg",
-    "implies": "Node.js",
+    "implies": [
+      "Node.js"
+    ],
     "website": "https://endurojs.com"
   },
   "etika": {
@@ -2452,7 +2510,9 @@
     ],
     "cpe": "cpe:2.3:a:experiencedcms:experiencedcms:*:*:*:*:*:*:*:*",
     "icon": "experiencedCMS_Logo.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "generator": "^experiencedCMS$"
     },

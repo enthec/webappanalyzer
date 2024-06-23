@@ -38,7 +38,9 @@
     "headers": {
       "X-Powered-By": "MATORI.NET"
     },
-    "implies": "OpenResty",
+    "implies": [
+      "OpenResty"
+    ],
     "website": "https://matori.net"
   },
   "MDBootstrap": {
@@ -47,7 +49,9 @@
     ],
     "description": "MDBootstrap (Material Design for Bootstrap) is a complete UI package that can be integrated with other frameworks such as Angular, React, Vue, etc. It is used to design a fully responsive and mobile-friendly layout using various components, plugins, animation.",
     "icon": "MDBootstrap.png",
-    "implies": "Bootstrap",
+    "implies": [
+      "Bootstrap"
+    ],
     "js": {
       "mdb.ScrollSpy": ""
     },
@@ -68,7 +72,9 @@
       }
     },
     "icon": "MDBootstrap.png",
-    "implies": "MDBootstrap",
+    "implies": [
+      "MDBootstrap"
+    ],
     "requires": "WordPress",
     "website": "https://mdbgo.com/docs/projects/wordpress/"
   },
@@ -123,7 +129,9 @@
     ],
     "description": "MGPanel has it all, a content management system that gives programmers the freedom to create professional web pages from scratch, also providing their clients with a self-managing platform.",
     "icon": "MGPanel.png",
-    "implies": "MySQL",
+    "implies": [
+      "MySQL"
+    ],
     "pricing": [
       "poa"
     ],
@@ -165,7 +173,9 @@
       "<input[^>]+id=\"ajaxSearch_input\\;confidence:20"
     ],
     "icon": "MODX.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "MODX": "",
       "MODX_MEDIA_PATH": ""
@@ -272,7 +282,9 @@
     "description": "MUI(formerly Material UI) is a simple and customisable component library to build faster, beautiful, and more accessible React applications.",
     "dom": "style[data-meta='MuiPaper'], div.MuiBox-root, div.MuiPaper-root, style[data-meta='MuiButton']",
     "icon": "MUI.svg",
-    "implies": "React",
+    "implies": [
+      "React"
+    ],
     "oss": true,
     "pricing": [
       "freemium",
@@ -287,7 +299,9 @@
     ],
     "description": "Macaron is a high productive and modular web framework in Go.",
     "icon": "Macaron.png",
-    "implies": "Go",
+    "implies": [
+      "Go"
+    ],
     "website": "https://go-macaron.com"
   },
   "MachoThemes NewsMag": {
@@ -501,7 +515,9 @@
     ],
     "description": "MailChimp for WooCommerce gives you the ability to automatically sync customer purchase data to your MailChimp account.",
     "icon": "mailchimp.svg",
-    "implies": "MailChimp",
+    "implies": [
+      "MailChimp"
+    ],
     "pricing": [
       "freemium"
     ],
@@ -517,7 +533,9 @@
     "description": "MailChimp for WordPress is an email marketing plugin that enables you to build subscriber lists.",
     "dom": "link[href*='/wp-content/plugins/mailchimp-for-wp/']",
     "icon": "MailChimp for WordPress.png",
-    "implies": "MailChimp",
+    "implies": [
+      "MailChimp"
+    ],
     "js": {
       "mc4wp": ""
     },
@@ -602,7 +620,9 @@
     ],
     "description": "The official MailerLite signup forms plugin makes it easy to grow your newsletter subscriber list from your WordPress blog or website. The plugin automatically integrates your WordPress form with your MailerLite email marketing account.",
     "icon": "MailerLite.svg",
-    "implies": "MailerLite",
+    "implies": [
+      "MailerLite"
+    ],
     "requires": "WordPress",
     "scriptSrc": "/wp-content/plugins/woo-mailerlite/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://ru.wordpress.org/plugins/official-mailerlite-sign-up-forms/"
@@ -769,7 +789,9 @@
     "description": "Mantine is an open-source UI framework and component library for React.",
     "dom": "style[data-emotion='mantine-global'], style[data-emotion='mantine']",
     "icon": "Mantine.svg",
-    "implies": "TypeScript",
+    "implies": [
+      "TypeScript"
+    ],
     "oss": true,
     "requires": "React",
     "website": "https://mantine.dev"
@@ -782,7 +804,9 @@
     "description": "MantisBT is an open-source, web-based issue tracking system written in PHP with a MySQL database backend, designed to facilitate bug tracking and project management for software development teams.",
     "dom": "link[rel='stylesheet'][href*='/css/ace-mantis.css']",
     "icon": "MantisBT.png",
-    "implies": "MySQL",
+    "implies": [
+      "MySQL"
+    ],
     "oss": true,
     "requires": "PHP",
     "website": "https://www.mantisbt.org"
@@ -866,7 +890,9 @@
     "description": "Mapbox.js is a JavaScript library provided by Mapbox for working with interactive maps and geospatial data.",
     "dom": "link[href*='api.mapbox.com/']",
     "icon": "Mapbox.svg",
-    "implies": "Leaflet",
+    "implies": [
+      "Leaflet"
+    ],
     "oss": true,
     "scriptSrc": "api\\.mapbox\\.com/mapbox\\.js/v([\\d\\.]+)/\\;version:\\1",
     "scripts": "api\\.mapbox\\.com/mapbox\\.js/v([\\d\\.]+)/\\;version:\\1",
@@ -1085,7 +1111,9 @@
     "description": "Marko is HTML re-imagined as a language for building dynamic and reactive user interfaces.",
     "dom": "#data-marko-key, html[data-framework='marko']",
     "icon": "Marko.svg",
-    "implies": "Node.js",
+    "implies": [
+      "Node.js"
+    ],
     "js": {
       "markoComponent": "",
       "markoSections": "",
@@ -1120,7 +1148,9 @@
       }
     },
     "icon": "master_slider.png",
-    "implies": "Master Slider",
+    "implies": [
+      "Master Slider"
+    ],
     "requires": "WordPress",
     "website": "https://wordpress.org/plugins/master-slider"
   },
@@ -1369,7 +1399,9 @@
       1
     ],
     "icon": "MaxSite CMS.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "generator": "MaxSite CMS"
     },
@@ -1470,7 +1502,9 @@
       "<a[^>]+/Special:WhatLinksHere/"
     ],
     "icon": "MediaWiki.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "mw.util.toggleToc": "",
       "wgTitle": "",
@@ -1505,7 +1539,9 @@
       "X-Powered-By": "^Medium$"
     },
     "icon": "Medium.svg",
-    "implies": "Node.js",
+    "implies": [
+      "Node.js"
+    ],
     "scriptSrc": "medium\\.com",
     "url": "^https?://(?:www\\.)?medium\\.com",
     "website": "https://medium.com"
@@ -1978,7 +2014,9 @@
     ],
     "description": "Microsoft Azure Maps is a cloud-based mapping and geospatial platform provided by Microsoft.",
     "icon": "Microsoft.svg",
-    "implies": "Azure",
+    "implies": [
+      "Azure"
+    ],
     "meta": {
       "enabled-features": "GEOJSON_AZURE_MAPS"
     },
@@ -2201,7 +2239,9 @@
     ],
     "description": "Milestone CMS is a SEO-first CMS that offers built-in advanced schema markups and Core Web Vitals conformance for improved search performance.",
     "icon": "Milestone.svg",
-    "implies": "Microsoft ASP.NET",
+    "implies": [
+      "Microsoft ASP.NET"
+    ],
     "meta": {
       "generator": "^Milestone\\sCMS\\s([\\d\\.]+)$\\;version:\\1"
     },
@@ -2227,7 +2267,9 @@
     ],
     "description": "MinMaxify is an app that allows Shopify store owners to set minimum and maximum values for customer orders built by Intillium.",
     "icon": "MinMaxify.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "js": {
       "minMaxify.checkLimits": "",
       "minMaxify.shop": ""
@@ -2305,7 +2347,9 @@
     "headers": {
       "Server": "MiniServ/([\\d\\.]+)\\;version:\\1"
     },
-    "implies": "Webmin",
+    "implies": [
+      "Webmin"
+    ],
     "oss": true,
     "website": "https://github.com/webmin/webmin/blob/master/miniserv.pl"
   },
@@ -2482,7 +2526,9 @@
     ],
     "description": "MkDocs is a static site generator, used for building project documentation.",
     "icon": "mkdocs.png",
-    "implies": "Python",
+    "implies": [
+      "Python"
+    ],
     "meta": {
       "generator": "^mkdocs-([\\d.]+)\\;version:\\1"
     },
@@ -2645,7 +2691,9 @@
       "<link[^>]+href=[\"'][^\"]+mg-(?:core|plugins|templates)/"
     ],
     "icon": "Moguta.CMS.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "scriptSrc": "mg-(?:core|plugins|templates)/",
     "website": "https://moguta.ru"
   },
@@ -2659,7 +2707,9 @@
     "cpe": "cpe:2.3:a:moinmo:moinmoin:*:*:*:*:*:*:*:*",
     "description": "MoinMoin is a wiki engine implemented in Python.",
     "icon": "MoinMoin.png",
-    "implies": "Python",
+    "implies": [
+      "Python"
+    ],
     "js": {
       "show_switch2gui": ""
     },
@@ -2675,7 +2725,9 @@
       "x-powered-by": "mojolicious"
     },
     "icon": "Mojolicious.png",
-    "implies": "Perl",
+    "implies": [
+      "Perl"
+    ],
     "website": "https://mojolicio.us"
   },
   "Mokka": {
@@ -2719,7 +2771,9 @@
       59
     ],
     "icon": "Moment.js.svg",
-    "implies": "Moment.js",
+    "implies": [
+      "Moment.js"
+    ],
     "scriptSrc": "moment-timezone(?:-data)?(?:\\.min)?\\.js",
     "website": "https://momentjs.com/timezone/"
   },
@@ -2848,7 +2902,9 @@
       "Server": "Mongrel"
     },
     "icon": "Mongrel.png",
-    "implies": "Ruby",
+    "implies": [
+      "Ruby"
+    ],
     "website": "https://mongrel2.org"
   },
   "Monkey HTTP Server": {
@@ -2877,7 +2933,9 @@
       1
     ],
     "icon": "Mono.net.png",
-    "implies": "Matomo Analytics",
+    "implies": [
+      "Matomo Analytics"
+    ],
     "js": {
       "_monoTracker": ""
     },
@@ -2950,7 +3008,9 @@
       "<img[^>]+moodlelogo"
     ],
     "icon": "Moodle.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "M.core": "",
       "Y.Moodle": ""
@@ -3112,7 +3172,9 @@
     ],
     "description": "Mulberry is a developer of personalised product protection solutions used to help brands unlock additional revenue.",
     "icon": "Mulberry.svg",
-    "implies": "Cart Functionality",
+    "implies": [
+      "Cart Functionality"
+    ],
     "js": {
       "mulberry.cta": "",
       "mulberryShop": ""
@@ -3132,7 +3194,9 @@
     "cpe": "cpe:2.3:a:blueriver:muracms:*:*:*:*:*:*:*:*",
     "description": "Mura CMS is the cloud-based, API driven, content management platform.",
     "icon": "Mura CMS.svg",
-    "implies": "Adobe ColdFusion",
+    "implies": [
+      "Adobe ColdFusion"
+    ],
     "meta": {
       "generator": "Mura\\sCMS\\s([\\d\\.]+)\\;version:\\1"
     },
@@ -3205,7 +3269,9 @@
     "cpe": "cpe:2.3:a:mybb:mybb:*:*:*:*:*:*:*:*",
     "description": "MyBB is a free and open-source forum software written in PHP.",
     "icon": "MyBB.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "MyBB": "",
       "MyBBEditor": ""
@@ -3330,7 +3396,9 @@
     ],
     "description": "MyWebsite Creator is website builder designed for easy editing and fast results.",
     "icon": "MyWebsite.svg",
-    "implies": "Duda",
+    "implies": [
+      "Duda"
+    ],
     "pricing": [
       "low",
       "recurring"
@@ -3491,7 +3559,9 @@
       59
     ],
     "description": "metisMenu is a collapsible jQuery menu plugin.",
-    "implies": "jQuery",
+    "implies": [
+      "jQuery"
+    ],
     "js": {
       "MetisMenu": "",
       "metisMenu": ""
@@ -3571,7 +3641,9 @@
       "Server": "mod_auth_pam(?:/([\\d\\.]+))?\\;version:\\1"
     },
     "icon": "Apache.svg",
-    "implies": "Apache HTTP Server",
+    "implies": [
+      "Apache HTTP Server"
+    ],
     "website": "https://pam.sourceforge.net/mod_auth_pam"
   },
   "mod_dav": {
@@ -3583,7 +3655,9 @@
       "Server": "\\b(?:mod_)?DAV\\b(?:/([\\d.]+))?\\;version:\\1"
     },
     "icon": "Apache.svg",
-    "implies": "Apache HTTP Server",
+    "implies": [
+      "Apache HTTP Server"
+    ],
     "website": "https://webdav.org/mod_dav"
   },
   "mod_fastcgi": {
@@ -3595,7 +3669,9 @@
       "Server": "mod_fastcgi(?:/([\\d.]+))?\\;version:\\1"
     },
     "icon": "Apache.svg",
-    "implies": "Apache HTTP Server",
+    "implies": [
+      "Apache HTTP Server"
+    ],
     "website": "https://www.fastcgi.com/mod_fastcgi/docs/mod_fastcgi.html"
   },
   "mod_jk": {
@@ -3687,7 +3763,9 @@
       "Server": "mod_ssl(?:/([\\d.]+))?\\;version:\\1"
     },
     "icon": "mod_ssl.png",
-    "implies": "Apache HTTP Server",
+    "implies": [
+      "Apache HTTP Server"
+    ],
     "website": "https://modssl.org"
   },
   "mod_wsgi": {

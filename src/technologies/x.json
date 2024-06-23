@@ -5,7 +5,9 @@
     ],
     "description": " X-Cart is an open source PHP shopping cart ecommerce software platform.",
     "icon": "X-Cart.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "xcart_web_dir": "",
       "xliteConfig": ""
@@ -82,7 +84,9 @@
     ],
     "cpe": "cpe:2.3:a:xoops:xoops:*:*:*:*:*:*:*:*",
     "icon": "XOOPS.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "xoops": ""
     },
@@ -130,7 +134,9 @@
       "<html[^>]data-xwiki-[^>]>"
     ],
     "icon": "xwiki.png",
-    "implies": "Java\\;confidence:99",
+    "implies": [
+      "Java\\;confidence:99"
+    ],
     "meta": {
       "wiki": "xwiki"
     },
@@ -191,7 +197,9 @@
       "<input type=\"hidden\" name=\"_sys_bind_\\d+\" id=\"_sys_bind_\\d+\" />"
     ],
     "icon": "xeora.png",
-    "implies": "Microsoft ASP.NET",
+    "implies": [
+      "Microsoft ASP.NET"
+    ],
     "scriptSrc": "/_bi_sps_v.+\\.js",
     "website": "https://www.xeora.org"
   },
@@ -320,7 +328,9 @@
     "html": [
       "<link[^>]* href=\"[^\"]*xcharts(?:\\.min)?\\.css"
     ],
-    "implies": "D3",
+    "implies": [
+      "D3"
+    ],
     "js": {
       "xChart": ""
     },

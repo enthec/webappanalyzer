@@ -259,7 +259,9 @@
       "<!-- Powered by Question2Answer"
     ],
     "icon": "question2answer.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "scriptSrc": "\\./qa-content/qa-page\\.js\\?([0-9.]+)\\;version:\\1",
     "website": "https://www.question2answer.org"
   },

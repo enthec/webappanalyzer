@@ -61,7 +61,9 @@
       "Server": "^(?:Microsoft-)?IIS(?:/([\\d.]+))?\\;version:\\1"
     },
     "icon": "Microsoft.svg",
-    "implies": "Windows Server",
+    "implies": [
+      "Windows Server"
+    ],
     "website": "https://www.iis.net"
   },
   "INFOnline": {
@@ -441,7 +443,9 @@
     },
     "cpe": "cpe:2.3:a:impresscms:impresscms:*:*:*:*:*:*:*:*",
     "icon": "ImpressCMS.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "generator": "ImpressCMS"
     },
@@ -454,7 +458,9 @@
     ],
     "cpe": "cpe:2.3:a:impresspages:impresspages_cms:*:*:*:*:*:*:*:*",
     "icon": "ImpressPages.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "generator": "ImpressPages(?: CMS)?( [\\d.]*)?\\;version:\\1"
     },
@@ -922,7 +928,9 @@
     },
     "cpe": "cpe:2.3:a:instantcms:instantcms:*:*:*:*:*:*:*:*",
     "icon": "InstantCMS.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "generator": "InstantCMS"
     },
@@ -1306,7 +1314,9 @@
     "js": {
       "Isso.fetchComments": ""
     },
-    "implies": "Python",
+    "implies": [
+      "Python"
+    ],
     "oss": true,
     "website": "https://github.com/posativ/isso/"
   },
@@ -1552,7 +1562,9 @@
     "description": "imperia CMS is a headless content management for large editorial.",
     "dom": "source[srcset*='.de/imperia/md/images/']",
     "icon": "imperiaCMS.svg",
-    "implies": "Perl",
+    "implies": [
+      "Perl"
+    ],
     "meta": {
       "generator": "^IMPERIA\\s([\\d\\.\\_]+)\\;version:\\1",
       "x-imperia-live-info": ""
