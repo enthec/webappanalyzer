@@ -29,7 +29,9 @@
     ],
     "description": "Bigace is a free open-source content management developed in PHP and JavaScript that uses a MySQL or ADOdb environment.",
     "icon": "BIGACE.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "generator": "BIGACE ([\\d.]+)\\;version:\\1"
     },
@@ -62,7 +64,9 @@
       "X-Supplied-By": "MANA"
     },
     "icon": "boom.svg",
-    "implies": "WordPress",
+    "implies": [
+      "WordPress"
+    ],
     "meta": {
       "generator": "^boom site builder$"
     },
@@ -167,7 +171,9 @@
     "cpe": "cpe:2.3:a:backbone_project:backbone:*:*:*:*:*:*:*:*",
     "description": "BackboneJS is a JavaScript library that allows to develop and structure the client side applications that run in a web browser.",
     "icon": "Backbone.js.png",
-    "implies": "Underscore.js",
+    "implies": [
+      "Underscore.js"
+    ],
     "js": {
       "Backbone": "",
       "Backbone.VERSION": "^(.+)$\\;version:\\1"
@@ -190,7 +196,9 @@
       "X-Generator": "^Backdrop CMS(?:\\s([\\d.]+))?\\;version:\\1"
     },
     "icon": "Backdrop.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "Backdrop": ""
     },
@@ -288,7 +296,9 @@
       "X-Powered-By": "Banshee PHP framework v([\\d\\.]+)\\;version:\\1"
     },
     "icon": "Banshee.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "generator": "Banshee PHP"
     },
@@ -423,7 +433,9 @@
     ],
     "description": "AfterSell is a Shopify app by Beam which helps brands create powerful post purchase offers.",
     "icon": "AfterSell.svg",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "js": {
       "aftersell.hooks": ""
     },
@@ -442,7 +454,9 @@
     ],
     "description": "OutSell is a Shopify app by Beam. Frequently Bought Together, Discounted Upsell, Also Bought.",
     "icon": "Beam.svg",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "js": {
       "outsellAiRecommendationsIsEnabled": "",
       "outsellApp": ""
@@ -584,7 +598,9 @@
     ],
     "description": "Better Price is a Shopify app which provide coupons to real leads only when discounted price is requested build by Architechpro.",
     "icon": "Better Price.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "js": {
       "fc_metafield_betterprice.betterpricesuccess": ""
     },
@@ -633,7 +649,9 @@
     ],
     "description": "BetterDocs plugin is an advanced documentation and knowledge base plugin for WordPress.",
     "icon": "BetterDocs.png",
-    "implies": "BetterDocs",
+    "implies": [
+      "BetterDocs"
+    ],
     "pricing": [
       "onetime"
     ],
@@ -648,7 +666,9 @@
     ],
     "description": "Betty Blocks is a cloud-based application development solution featuring a no-code, drag-and-drop interface for developing business applications.",
     "icon": "Betty Blocks.svg",
-    "implies": "React",
+    "implies": [
+      "React"
+    ],
     "meta": {
       "description": "^Made with Betty Blocks$"
     },
@@ -817,7 +837,9 @@
       "(?:Diese <a href=[^>]+bigware\\.de|<a href=[^>]+/main_bigware_\\d+\\.php)"
     ],
     "icon": "Bigware.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "url": "(?:\\?|&)bigWAdminID=",
     "website": "https://bigware.de"
   },
@@ -981,7 +1003,9 @@
       "X-Powered-By": "blade-([\\w.]+)?\\;version:\\1"
     },
     "icon": "Blade.png",
-    "implies": "Java",
+    "implies": [
+      "Java"
+    ],
     "website": "https://lets-blade.com"
   },
   "Blazor": {
@@ -989,7 +1013,9 @@
       18
     ],
     "icon": "Blazor.png",
-    "implies": "Microsoft ASP.NET",
+    "implies": [
+      "Microsoft ASP.NET"
+    ],
     "scriptSrc": [
       "blazor\\.server\\.js",
       "blazor\\.host\\.min\\.js",
@@ -1003,7 +1029,9 @@
     ],
     "description": "Blessing Skin is a plubin that brings your custom skins back in offline Minecraft servers.",
     "icon": "Blessing Skin.png",
-    "implies": "Laravel",
+    "implies": [
+      "Laravel"
+    ],
     "js": {
       "blessing.version": "^(.+)$\\;version:\\1"
     },
@@ -1031,7 +1059,9 @@
       "<!-- Cached by Blitz on"
     ],
     "icon": "Blitz.svg",
-    "implies": "Craft CMS",
+    "implies": [
+      "Craft CMS"
+    ],
     "js": {
       "Blitz": "",
       "blitzReplace": ""
@@ -1051,7 +1081,9 @@
       "X-Powered-By": "^Blitz\\.js?([0-9.]+)?\\;version:\\1"
     },
     "icon": "blitzjs.svg",
-    "implies": "Next.js",
+    "implies": [
+      "Next.js"
+    ],
     "js": {
       "__BLITZ_MIDDLEWARE_HOOKS": "",
       "__BLITZ_SUSPENSE_ENABLED": ""
@@ -1093,7 +1125,9 @@
       }
     },
     "icon": "Blocksy.svg",
-    "implies": "Blocksy",
+    "implies": [
+      "Blocksy"
+    ],
     "pricing": [
       "freemium",
       "low",
@@ -1109,7 +1143,9 @@
     ],
     "description": "Blogger is a blog-publishing service that allows multi-user blogs with time-stamped entries.",
     "icon": "Blogger.png",
-    "implies": "Python",
+    "implies": [
+      "Python"
+    ],
     "meta": {
       "generator": "^Blogger$"
     },
@@ -1345,7 +1381,9 @@
     "cats": [
       59
     ],
-    "implies": "Google Analytics",
+    "implies": [
+      "Google Analytics"
+    ],
     "scriptSrc": "boba(?:\\.min)?\\.js",
     "website": "https://boba.space150.com"
   },
@@ -1358,7 +1396,9 @@
       "X-Powered-By": "BoidCMS"
     },
     "icon": "BoidCMS.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "oss": true,
     "website": "https://boidcms.github.io"
   },
@@ -1367,7 +1407,9 @@
       25
     ],
     "icon": "bokeh.png",
-    "implies": "Python",
+    "implies": [
+      "Python"
+    ],
     "js": {
       "Bokeh": "",
       "Bokeh.version": "^(.+)$\\;version:\\1"
@@ -1570,7 +1612,9 @@
     ],
     "description": "Bold Themes is a powerful and easy to use premium WordPress themes.",
     "icon": "Bold Themes.png",
-    "implies": "WordPress",
+    "implies": [
+      "WordPress"
+    ],
     "js": {
       "BoldThemesURI": "",
       "boldthemes_theme_loaded": "^true$"
@@ -1624,7 +1668,9 @@
     ],
     "cpe": "cpe:2.3:a:bolt:bolt:*:*:*:*:*:*:*:*",
     "icon": "Bolt CMS.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "generator": "Bolt"
     },
@@ -1665,7 +1711,9 @@
       "Powered by <a[^>]+href=\"https?://(?:www\\.)?cibonfire\\.com[^>]*>Bonfire v([^<]+)\\;version:\\1"
     ],
     "icon": "Bonfire.png",
-    "implies": "CodeIgniter",
+    "implies": [
+      "CodeIgniter"
+    ],
     "website": "https://cibonfire.com"
   },
   "BookDinners": {
@@ -1702,7 +1750,9 @@
     ],
     "description": "BookThatApp is a Shopify appointment booking, product rental and class booking app.",
     "icon": "BookThatApp.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "js": {
       "BookThatApp": ""
     },
@@ -1786,7 +1836,9 @@
     "description": "Booking.com is one of the largest ecommerce travel companies in the world. As an affiliate member, you can make up to 40% commission.",
     "dom": "form[action*='.booking.com/'][target='_blank'], img[src*='q-xx.bstatic.com/']",
     "icon": "Booking.com.svg",
-    "implies": "Booking.com",
+    "implies": [
+      "Booking.com"
+    ],
     "scriptSrc": "q\\.bstatic\\.com/",
     "website": "https://www.booking.com/affiliate-program/v2/selfmanaged.html"
   },
@@ -2058,7 +2110,9 @@
       "CMS-Version": "^(.+)$\\;version:\\1\\;confidence:0"
     },
     "icon": "Botble-CMS.png",
-    "implies": "Laravel",
+    "implies": [
+      "Laravel"
+    ],
     "website": "https://botble.com"
   },
   "Boutiq": {
@@ -2382,7 +2436,9 @@
       "X-Powered-By": "^Brightspot$"
     },
     "icon": "Brightspot.svg",
-    "implies": "Java",
+    "implies": [
+      "Java"
+    ],
     "website": "https://www.brightspot.com"
   },
   "Brilliant Web-to-Lead": {
@@ -2391,7 +2447,9 @@
     ],
     "description": "Brilliant Web-to-Lead plugin facilitates the technical integration between WordPress installations and Salesforce CRM accounts, enabling the exchange and synchronization of data.",
     "icon": "Brilliant Web-to-Lead.png",
-    "implies": "Salesforce",
+    "implies": [
+      "Salesforce"
+    ],
     "requires": "WordPress",
     "scriptSrc": "/wp-content/plugins/salesforce-wordpress-to-lead/",
     "website": "https://brilliantplugins.com/downloads/salesforce/"
@@ -2495,7 +2553,9 @@
       1
     ],
     "icon": "BrowserCMS.png",
-    "implies": "Ruby",
+    "implies": [
+      "Ruby"
+    ],
     "meta": {
       "generator": "BrowserCMS ([\\d.]+)\\;version:\\1"
     },
@@ -2510,7 +2570,9 @@
     },
     "description": "Bsale is an store management solution for retail businesses that sell both in store and online.",
     "icon": "Bsale.png",
-    "implies": "Nginx",
+    "implies": [
+      "Nginx"
+    ],
     "js": {
       "Bsale.version": "([\\d.]+)\\;version:\\1"
     },
@@ -2537,7 +2599,9 @@
       "x-bubble-perf": ""
     },
     "icon": "bubble.png",
-    "implies": "Node.js",
+    "implies": [
+      "Node.js"
+    ],
     "js": {
       "_bubble_page_load_data": "",
       "bubble_environment": "",
@@ -2640,7 +2704,9 @@
       "<span id=\"information\" class=\"header_addl_info\">version ([\\d.]+)<\\;version:\\1"
     ],
     "icon": "Bugzilla.png",
-    "implies": "Perl",
+    "implies": [
+      "Perl"
+    ],
     "js": {
       "BUGZILLA": ""
     },
@@ -2734,7 +2800,9 @@
     "description": "Bunny Fonts is an open-source, privacy-first web font platform designed to put privacy back into the internet.",
     "dom": "link[href*='fonts.bunny.net']",
     "icon": "Bunny.svg",
-    "implies": "Bunny",
+    "implies": [
+      "Bunny"
+    ],
     "oss": true,
     "website": "https://fonts.bunny.net"
   },
@@ -2811,7 +2879,9 @@
       19
     ],
     "description": "Buy with Prime is a feature offered by Amazon that allows Amazon Prime members to make purchases with the benefits associated with their Prime membership.",
-    "implies": "Amazon Pay",
+    "implies": [
+      "Amazon Pay"
+    ],
     "js": {
       "bwp.sku": ""
     },

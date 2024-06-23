@@ -7,7 +7,9 @@
       "<!-- ZK [.\\d\\s]+-->"
     ],
     "icon": "ZK.png",
-    "implies": "Java",
+    "implies": [
+      "Java"
+    ],
     "scriptSrc": "zkau/",
     "website": "https://zkoss.org"
   },
@@ -35,7 +37,9 @@
       "<body[^>]+zbxCallPostScripts"
     ],
     "icon": "Zabbix.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "zbxCallPostScripts": ""
     },
@@ -71,7 +75,9 @@
     ],
     "description": "Zakeke Interactive Product Designer lets customers personalise any product and visualise how they’ll look before checking out.",
     "icon": "Zakeke.png",
-    "implies": "Zakeke",
+    "implies": [
+      "Zakeke"
+    ],
     "pricing": [
       "recurring",
       "low"
@@ -88,7 +94,9 @@
     ],
     "description": "Zakeke Visual Customizer is a cloud-connected visual ecommerce tool that allows brands and retailers to offer live, personalised, 2D, 3D, and augmented reality (AR) functionality for their products.",
     "icon": "Zakeke.png",
-    "implies": "Zakeke",
+    "implies": [
+      "Zakeke"
+    ],
     "pricing": [
       "recurring",
       "low"
@@ -249,7 +257,9 @@
     ],
     "description": "Zendesk Sunshine Conversations lets you share a single, continuous conversation with every team in your business. With a unified API and native connectors to popular business applications like Zendesk and Slack, everyone in your organization can get access to a single view of the customer conversation.",
     "icon": "Zendesk.svg",
-    "implies": "Zendesk",
+    "implies": [
+      "Zendesk"
+    ],
     "pricing": [
       "low",
       "recurring"
@@ -372,7 +382,9 @@
     },
     "cpe": "cpe:2.3:a:zimbra:zimbra:*:*:*:*:*:*:*:*",
     "icon": "Zimbra.png",
-    "implies": "Java",
+    "implies": [
+      "Java"
+    ],
     "website": "https://www.zimbra.com/"
   },
   "ZingChart": {
@@ -398,7 +410,9 @@
     ],
     "description": "Zimbra is a is a collaborative software suite that includes an email server and a web client.",
     "icon": "Zinnia.png",
-    "implies": "Django",
+    "implies": [
+      "Django"
+    ],
     "meta": {
       "generator": "Zinnia"
     },
@@ -463,7 +477,9 @@
     ],
     "description": "Zipify Pages the first landing page builder uniquely designed for ecommerce.",
     "icon": "Zipify Pages.svg",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "js": {
       "ZipifyPages": ""
     },
@@ -569,7 +585,9 @@
       ]
     },
     "icon": "Zoho.svg",
-    "implies": "Zoho",
+    "implies": [
+      "Zoho"
+    ],
     "website": "https://www.zoho.com/mail/"
   },
   "Zoho PageSense": {
@@ -579,7 +597,9 @@
     ],
     "description": "Zoho PageSense is a conversion optimisation platform which combines the power of web analytics, A/B testing, and personalisation.",
     "icon": "Zoho.svg",
-    "implies": "Zoho",
+    "implies": [
+      "Zoho"
+    ],
     "js": {
       "$pagesense": "",
       "pagesense": ""
@@ -618,7 +638,9 @@
       12
     ],
     "icon": "Angular.svg",
-    "implies": "Angular",
+    "implies": [
+      "Angular"
+    ],
     "js": {
       "Zone.root": ""
     },

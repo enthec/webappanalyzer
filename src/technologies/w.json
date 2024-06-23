@@ -154,7 +154,9 @@
       "wpe-backend": ""
     },
     "icon": "wpengine.svg",
-    "implies": "WordPress",
+    "implies": [
+      "WordPress"
+    ],
     "website": "https://wpengine.com"
   },
   "WP Fastest Cache": {
@@ -615,7 +617,9 @@
       "Server": "^Warp/(\\d+(?:\\.\\d+)+)?$\\;version:\\1"
     },
     "icon": "Warp.png",
-    "implies": "Haskell",
+    "implies": [
+      "Haskell"
+    ],
     "website": "https://www.stackage.org/package/warp"
   },
   "Wask": {
@@ -747,7 +751,9 @@
     "description": "Web Stories is a format for visual storytelling for the open web.",
     "dom": "amp-story",
     "icon": "Web-Stories.svg",
-    "implies": "AMP",
+    "implies": [
+      "AMP"
+    ],
     "oss": true,
     "website": "https://amp.dev/about/stories/"
   },
@@ -758,7 +764,9 @@
     ],
     "description": "Web Stories for WordPress is a visual editor for creating Web Stories.",
     "icon": "Web-Stories.svg",
-    "implies": "Web Stories",
+    "implies": [
+      "Web Stories"
+    ],
     "meta": {
       "amp-story-generator-name": "^Web Stories for WordPress$",
       "amp-story-generator-version": "^(.+)$\\;version:\\1"
@@ -772,7 +780,9 @@
       2
     ],
     "description": "Web Wiz Forums is a web-based forum software that enables developers to create and manage online discussion boards or forums for engaging user interactions and community building.",
-    "implies": "Microsoft ASP.NET",
+    "implies": [
+      "Microsoft ASP.NET"
+    ],
     "meta": {
       "generator": "^Web\\sWiz\\sForums(?:\\s([\\d\\.]+))?$\\;version:\\1"
     },
@@ -865,7 +875,9 @@
       "wgSession": ""
     },
     "icon": "WebGUI.png",
-    "implies": "Perl",
+    "implies": [
+      "Perl"
+    ],
     "meta": {
       "generator": "^WebGUI ([\\d.]+)\\;version:\\1"
     },
@@ -1165,7 +1177,9 @@
       "Server": "^WebLogic\\sServer\\s([\\d\\.]+)?\\;version:\\1"
     },
     "icon": "Oracle.svg",
-    "implies": "JavaServer Pages",
+    "implies": [
+      "JavaServer Pages"
+    ],
     "website": "https://www.oracle.com/java/weblogic"
   },
   "Webmin": {
@@ -1175,7 +1189,9 @@
     "cpe": "cpe:2.3:a:webmin:webmin:*:*:*:*:*:*:*:*",
     "description": "Webmin is a free, open-source application for Linux server administration.",
     "icon": "Webmin.png",
-    "implies": "Perl",
+    "implies": [
+      "Perl"
+    ],
     "oss": true,
     "website": "https://www.webmin.com"
   },
@@ -1425,7 +1441,9 @@
     "description": "Pearl Theme for Magento 2 by WeltPixel. Pearl Theme is following the Magento architecture, layouts and best practice in order to assure highest compatibility with 3rd party extensions.",
     "dom": "body.theme-pearl",
     "icon": "WeltPixel.svg",
-    "implies": "Magento\\;version:2",
+    "implies": [
+      "Magento\\;version:2"
+    ],
     "js": {
       "Pearl": ""
     },
@@ -1504,7 +1522,9 @@
     ],
     "description": "WideBundle is a Shopify application that allows a merchant to set up bundles on his store.",
     "icon": "WideBundle.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "pricing": [
       "low",
       "recurring"
@@ -1568,7 +1588,9 @@
     ],
     "description": "Wiki.js is a wiki engine running on Node.js and written in JavaScript.",
     "icon": "Wiki.js.png",
-    "implies": "Node.js",
+    "implies": [
+      "Node.js"
+    ],
     "js": {
       "WIKI.$_apolloInitData": "",
       "WIKI.$apolloProvider": ""
@@ -1787,7 +1809,9 @@
       "X-Wix-Server-Artifact-Id": ""
     },
     "icon": "Wix.svg",
-    "implies": "React",
+    "implies": [
+      "React"
+    ],
     "js": {
       "wixBiSession": "",
       "wixPerformanceMeasurements": ""
@@ -1828,7 +1852,9 @@
       }
     },
     "icon": "Wix.svg",
-    "implies": "Wix",
+    "implies": [
+      "Wix"
+    ],
     "pricing": [
       "low",
       "recurring"
@@ -1878,7 +1904,9 @@
       "(?:<a href=\"[^>]+wolfcms\\.org[^>]+>Wolf CMS(?:</a>)? inside|Thank you for using <a[^>]+>Wolf CMS)"
     ],
     "icon": "Wolf CMS.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "website": "https://www.wolfcms.org"
   },
   "Woltlab Community Framework": {
@@ -1886,7 +1914,9 @@
       1
     ],
     "icon": "Woltlab Community Framework.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "scriptSrc": "WCF\\..*\\.js",
     "website": "https://www.woltlab.com"
   },
@@ -1954,7 +1984,9 @@
     "description": "WooCommerce PayPal Checkout Payment Gateway is a WordPress plugin which allows you to securely sell your products and subscriptions online using in-context checkout.",
     "dom": "link[href*='/wp-content/plugins/woocommerce-gateway-paypal-express-checkout/']",
     "icon": "WooCommerce PayPal.png",
-    "implies": "PayPal",
+    "implies": [
+      "PayPal"
+    ],
     "oss": true,
     "pricing": [
       "freemium"
@@ -1970,7 +2002,9 @@
     "description": "WooCommerce PayPal Payments is a latest WordPress plugin with most complete payment processing solution. Accept PayPal exclusives, credit/debit cards and local payment methods.",
     "dom": "link[href*='/wp-content/plugins/woocommerce-paypal-payments/']",
     "icon": "WooCommerce PayPal.png",
-    "implies": "PayPal",
+    "implies": [
+      "PayPal"
+    ],
     "oss": true,
     "requires": "WordPress",
     "scriptSrc": "/wp-content/plugins/woocommerce-paypal-payments/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
@@ -1983,7 +2017,9 @@
     "description": "WooCommerce Stripe Payment Gateway plugin extends WooCommerce allowing you to take payments directly on your store via Stripe’s API.",
     "dom": "link[href*='/wp-content/plugins/woocommerce-gateway-stripe/']",
     "icon": "WooCommerce Stripe Payment Gateway.png",
-    "implies": "Stripe",
+    "implies": [
+      "Stripe"
+    ],
     "pricing": [
       "freemium"
     ],
@@ -1998,7 +2034,9 @@
     "description": "WooCommerce Subscriptions primarily allows you to create and sell subscription products from your WooCommerce shop.",
     "dom": "link[href*='/wp-content/plugins/woocommerce-subscriptions/']",
     "icon": "WooCommerce.svg",
-    "implies": "WooCommerce",
+    "implies": [
+      "WooCommerce"
+    ],
     "pricing": [
       "low",
       "recurring"
@@ -2020,7 +2058,9 @@
     ],
     "description": "Woostify is fast, lightweight, responsive and flexible WooCommerce theme built with SEO, speed, and usability in mind.",
     "icon": "Woostify.png",
-    "implies": "WooCommerce",
+    "implies": [
+      "WooCommerce"
+    ],
     "js": {
       "woostifyConditionScrolling": "",
       "woostify_woocommerce_general": ""
@@ -2430,7 +2470,9 @@
     ],
     "description": "WysiBB very simple and functional open-source WYSIWYG BBCode editor based on jQuery.",
     "icon": "WysiBB.svg",
-    "implies": "jQuery",
+    "implies": [
+      "jQuery"
+    ],
     "oss": true,
     "scriptSrc": "/jquery\\.wysibb\\.min\\.js",
     "website": "https://wysibb.com"
@@ -2464,7 +2506,9 @@
     ],
     "description": "The wap.store provides a range of services for ecommerce businesses, including a platform, a marketplace hub, and a digital agency.",
     "icon": "wap.store.svg",
-    "implies": "MySQL",
+    "implies": [
+      "MySQL"
+    ],
     "js": {
       "WapStore.categoria": ""
     },
@@ -2518,7 +2562,9 @@
     ],
     "description": "WPBakery is a drag and drop visual page builder plugin for WordPress.",
     "icon": "wpBakery.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "generator": "WPBakery"
     },
@@ -2542,7 +2588,9 @@
       "<!--[^>]+wpCache"
     ],
     "icon": "wpCache.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "generator": "wpCache",
       "keywords": "wpCache"

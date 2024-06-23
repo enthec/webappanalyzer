@@ -25,7 +25,9 @@
     "description": "HCL Commerce is a software platform framework for ecommerce, including marketing, sales, customer and order processing functionality.",
     "dom": "link[href*='/wcsstore/'], link[href*='webapp/wcs/'], a[href*='/wcsstore/'], a[href*='webapp/wcs/'], script[src*='/wcsstore/'], script[src*='webapp/wcs/']",
     "icon": "HCL Commerce.svg",
-    "implies": "Java",
+    "implies": [
+      "Java"
+    ],
     "pricing": [
       "poa"
     ],
@@ -45,7 +47,9 @@
       "Itx-Generated-Timestamp": ""
     },
     "icon": "hcl-dx.png",
-    "implies": "Java",
+    "implies": [
+      "Java"
+    ],
     "js": {
       "ibmCfg.themeConfig.modulesWebAppBaseURI": "/wps/themeModules"
     },
@@ -66,7 +70,9 @@
       "Server": "^Lotus-Domino$"
     },
     "icon": "HCL Domino.svg",
-    "implies": "Java",
+    "implies": [
+      "Java"
+    ],
     "pricing": [
       "payg",
       "recurring"
@@ -82,7 +88,9 @@
       "X-Powered-By": "HHVM/?([\\d.]+)?\\;version:\\1"
     },
     "icon": "HHVM.png",
-    "implies": "PHP\\;confidence:75",
+    "implies": [
+      "PHP\\;confidence:75"
+    ],
     "website": "https://hhvm.com"
   },
   "HP Compact Server": {
@@ -188,7 +196,9 @@
       11
     ],
     "icon": "Halo.png",
-    "implies": "Java",
+    "implies": [
+      "Java"
+    ],
     "meta": {
       "generator": "Halo ([\\d.]+)?\\;version:\\1"
     },
@@ -200,7 +210,9 @@
     ],
     "description": "Hamechio is a web application framework.",
     "icon": "Hamechio.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "generator": "hamech\\.io/"
     },
@@ -358,7 +370,9 @@
     "description": "Harbor is an open-source registry that secures artifacts with policies and role-based access control, ensures images are scanned and free from vulnerabilities, and signs images as trusted.",
     "dom": "harbor-app",
     "icon": "Harbor.svg",
-    "implies": "Go",
+    "implies": [
+      "Go"
+    ],
     "oss": true,
     "website": "https://goharbor.io"
   },
@@ -549,7 +563,9 @@
     "headers": {
       "X-Powered-By": "Adrikikicp Development"
     },
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "helium.js": ""
     },
@@ -572,7 +588,9 @@
     "description": "Helix Ultimate a free template framework for Joomla.",
     "dom": "header#sp-header, body.helix-ultimate",
     "icon": "HelixUltimate.svg",
-    "implies": "Joomla",
+    "implies": [
+      "Joomla"
+    ],
     "oss": true,
     "website": "https://www.joomshaper.com/joomla-templates/helixultimate"
   },
@@ -582,7 +600,9 @@
     ],
     "description": "Helixo UFE is a lightweight Shopify upsell sales funnel app.",
     "icon": "Helixo.svg",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "js": {
       "ufe.funnelData": "",
       "ufeStore.cartTotal": ""
@@ -635,7 +655,9 @@
       }
     },
     "icon": "Hello Elementor.png",
-    "implies": "Elementor",
+    "implies": [
+      "Elementor"
+    ],
     "pricing": [
       "low",
       "freemium"
@@ -816,7 +838,9 @@
       "Powered by <a href=\"https?://hexo\\.io/?\"[^>]*>Hexo</"
     ],
     "icon": "Hexo.png",
-    "implies": "Node.js",
+    "implies": [
+      "Node.js"
+    ],
     "meta": {
       "generator": "Hexo(?: v?([\\d.]+))?\\;version:\\1"
     },
@@ -828,7 +852,9 @@
     ],
     "description": "Free Shipping Bar is a Shopify app built by Hextom. Free Shipping Bar help promote free shipping with progressive messages to motivate customers to buy more.",
     "icon": "Hextom.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "pricing": [
       "freemium",
       "low",
@@ -844,7 +870,9 @@
     ],
     "description": "Ultimate Sales Boost by Hextom is an app designed to help you drive more sales by creating a sense of urgency, scarcity and trust.",
     "icon": "Hextom.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "js": {
       "hextom_usb": "",
       "ht_usb.isLoaded": ""
@@ -907,7 +935,9 @@
       6
     ],
     "description": "HighStore is an ecommerce platform from Iran.",
-    "implies": "Microsoft ASP.NET",
+    "implies": [
+      "Microsoft ASP.NET"
+    ],
     "meta": {
       "generator": "^HighStore\\.IR$",
       "hs:version": "^([\\d\\.]+)$\\;version:\\1\\;confidence:50"
@@ -972,7 +1002,9 @@
       6
     ],
     "icon": "hinza_advanced_cms.svg",
-    "implies": "Laravel",
+    "implies": [
+      "Laravel"
+    ],
     "meta": {
       "generator": "hinzacms"
     },
@@ -1240,7 +1272,9 @@
     ],
     "description": "Hostinger Website Builder is a web-based platform that allows users to create and design websites without needing to write code or have extensive technical knowledge.",
     "icon": "Hostinger.svg",
-    "implies": "Vue.js",
+    "implies": [
+      "Vue.js"
+    ],
     "meta": {
       "generator": "Hostinger Website Builder"
     },
@@ -1305,7 +1339,9 @@
       "hotaru_mobile": ""
     },
     "icon": "Hotaru CMS.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "generator": "Hotaru CMS"
     },
@@ -1432,7 +1468,9 @@
       "x-powered-by": "HubSpot"
     },
     "icon": "HubSpot.svg",
-    "implies": "HubSpot",
+    "implies": [
+      "HubSpot"
+    ],
     "meta": {
       "generator": "HubSpot"
     },
@@ -1578,7 +1616,9 @@
     ],
     "description": "HulkApps Age Verification allow your customers to certify their age before they land in your store.",
     "icon": "HulkApps.svg",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "pricing": [
       "low",
       "recurring"
@@ -1595,7 +1635,9 @@
     ],
     "description": "HulkApps Form Builder is an application that creates customizable, job-specific forms for unit needs.",
     "icon": "HulkApps.svg",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "pricing": [
       "freemium",
       "low",
@@ -1612,7 +1654,9 @@
     ],
     "description": "HulkApps GDPR/CCPA Compliance Manager is a consent management solution.",
     "icon": "HulkApps.svg",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "js": {
       "hulkSetCookie": ""
     },
@@ -1631,7 +1675,9 @@
     ],
     "description": "HulkApps Infinite Product Options is a unlimited custom options for products. Display variant options as buttons, color and image swatches, and more.",
     "icon": "HulkApps.svg",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "js": {
       "hulkapps.po_url": "productoption\\.hulkapps\\.com"
     },
@@ -1651,7 +1697,9 @@
     "description": "HulkApps Product Reviews is a customer product reviews app for building social proof for store.",
     "dom": "link[href*='reviews.hulkapps.com/']",
     "icon": "HulkApps.svg",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "js": {
       "hulkappsProductReview": "",
       "hulkappsReviews": ""
@@ -1790,7 +1838,9 @@
       "Server": "hypercorn"
     },
     "icon": "hypercorn.png",
-    "implies": "Python",
+    "implies": [
+      "Python"
+    ],
     "oss": true,
     "website": "https://pgjones.gitlab.io/hypercorn/"
   },
@@ -1848,7 +1898,9 @@
       }
     },
     "icon": "Hypestyle CSS.png",
-    "implies": "Sass",
+    "implies": [
+      "Sass"
+    ],
     "oss": true,
     "website": "https://www.hypestylecss.xyz"
   },
@@ -1891,7 +1943,9 @@
     ],
     "description": "h5ai is a modern HTTP web server index for Apache httpd, lighttpd, and nginx.",
     "icon": "default.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "oss": true,
     "scriptSrc": "/_h5ai/(?:public|client)/js/scripts\\.js",
     "website": "https://github.com/lrsjng/h5ai"

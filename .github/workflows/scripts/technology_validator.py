@@ -244,7 +244,7 @@ class TechnologiesValidator:
             "saas": BoolValidator(),
             "oss": BoolValidator(),
             "pricing": PricingValidator(),
-            "implies": StringOrArrayValidator(),  # TODO cat validation
+            "implies": ArrayValidator(),  # TODO cat validation
             "requires": StringOrArrayValidator(),  # TODO ^
             "excludes": ArrayValidator(),  # TODO ^
             "requiresCategory": CategoryValidator(self._CATEGORIES),

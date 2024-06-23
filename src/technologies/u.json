@@ -64,7 +64,9 @@
       "X-Generated-By": "UMI\\.CMS"
     },
     "icon": "UMI.CMS.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "website": "https://www.umi-cms.ru"
   },
   "UNIX": {
@@ -122,7 +124,9 @@
       6
     ],
     "icon": "Ubercart.png",
-    "implies": "Drupal",
+    "implies": [
+      "Drupal"
+    ],
     "scriptSrc": "uc_cart/uc_cart_block\\.js",
     "website": "https://www.ubercart.org"
   },
@@ -186,7 +190,9 @@
       }
     },
     "icon": "Ultimate Addons for Elementor.svg",
-    "implies": "Elementor",
+    "implies": [
+      "Elementor"
+    ],
     "js": {
       "uael_particles_script.particles_url": "/wp-content/plugins/ultimate-elementor/"
     },
@@ -203,7 +209,9 @@
       2
     ],
     "description": "Ultimate Bulletin Board is an internet forum software designed for online communities, offering features such as user registration, thread organisation, moderation tools, search functionality, and customisable design options to facilitate discussions and community engagement.",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "generator": "^UBB\\.threads\\s([\\d\\.]+)$\\;version:\\1"
     },
@@ -287,7 +295,9 @@
       "X-Umbraco-Version": "^(.+)$\\;version:\\1"
     },
     "icon": "Umbraco.svg",
-    "implies": "Microsoft ASP.NET",
+    "implies": [
+      "Microsoft ASP.NET"
+    ],
     "js": {
       "ITEM_INFO_SERVICE": "",
       "UC_IMAGE_SERVICE": "",
@@ -316,7 +326,9 @@
     ],
     "description": "UmiJs is a scalable, enterprise-class frontend application framework that supports both configuration and conventional routing while maintaining functional completeness, such as dynamic routing, nested routing, and permission routing.",
     "icon": "UmiJs.png",
-    "implies": "Node.js",
+    "implies": [
+      "Node.js"
+    ],
     "js": {
       "g_umi.version": "([\\d\\.]+)\\;version:\\1"
     },
@@ -653,7 +665,9 @@
       }
     },
     "icon": "upvoty.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "upvoty": ""
     },
@@ -911,7 +925,9 @@
       "Server": "uvicorn"
     },
     "icon": "uvicorn.png",
-    "implies": "Python",
+    "implies": [
+      "Python"
+    ],
     "oss": true,
     "website": "https://www.uvicorn.org/"
   },
@@ -948,7 +964,9 @@
       "<a[^>]+>Powered by uKnowva</a>"
     ],
     "icon": "uKnowva.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "generator": "uKnowva (?: ([\\d.]+))?\\;version:\\1"
     },
@@ -977,7 +995,9 @@
     ],
     "description": "uMarketingSuite is a set of diverse features that together form a full marketing suite for the Umbraco platform.",
     "icon": "uMarketingSuite.svg",
-    "implies": "Umbraco",
+    "implies": [
+      "Umbraco"
+    ],
     "js": {
       "uMarketingSuite": ""
     },
@@ -1004,7 +1024,9 @@
     ],
     "description": "uPortal is an open source enterprise portal framework built by and for higher education institutions.",
     "icon": "uPortal.png",
-    "implies": "Java",
+    "implies": [
+      "Java"
+    ],
     "js": {
       "uportal": ""
     },

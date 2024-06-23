@@ -142,7 +142,9 @@
     },
     "description": "Tessitura is an enterprise application to manage activities in ticketing, fundraising, customer relationship management, and marketing.",
     "icon": "tessitura.svg",
-    "implies": "Tessitura",
+    "implies": [
+      "Tessitura"
+    ],
     "website": "https://www.tessituranetwork.com"
   },
   "TNS Payments": {
@@ -218,7 +220,9 @@
       "<img [^>]*(?:title|alt)=\"This site is powered by the TWiki collaboration platform"
     ],
     "icon": "TWiki.png",
-    "implies": "Perl",
+    "implies": [
+      "Perl"
+    ],
     "scriptSrc": "(?:TWikiJavascripts|twikilib(?:\\.min)?\\.js)",
     "website": "https://twiki.org"
   },
@@ -230,7 +234,9 @@
     "description": "TYPO3 is a free and open-source Web content management system written in PHP.",
     "dom": "link[href*='typo3conf'], link[href*='typo3temp'], img[src*='typo3conf'], img[src*='typo3temp']",
     "icon": "TYPO3.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "generator": "TYPO3\\s+(?:CMS\\s+)?(?:[\\d.]+)?(?:\\s+CMS)?"
     },
@@ -385,7 +391,9 @@
     ],
     "description": "Tada offers interactive website popups that allow Shopify merchants to collect more emails and increase sales by engaging website visitors through gamification.",
     "icon": "Tada.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "pricing": [
       "freemium",
       "payg",
@@ -1462,7 +1470,9 @@
     ],
     "description": "ThemeGrill eStore is one of the most popular WooCommerce integrated WordPress themes.",
     "icon": "ThemeGrill.png",
-    "implies": "Cart Functionality",
+    "implies": [
+      "Cart Functionality"
+    ],
     "meta": {
       "generator": "eStore v\\.([\\d\\.]+)\\;version:\\1"
     },
@@ -1815,7 +1825,9 @@
       "X-Powered-By": "ThinkPHP"
     },
     "icon": "ThinkPHP.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "oss": true,
     "website": "https://www.thinkphp.cn"
   },
@@ -2468,7 +2480,9 @@
       "Powered by <a href=\"[^\"]*\"><strong>Trac(?:[ /]([\\d.]+))?\\;version:\\1"
     ],
     "icon": "Trac.png",
-    "implies": "Python",
+    "implies": [
+      "Python"
+    ],
     "website": "https://trac.edgewall.org"
   },
   "Track123": {
@@ -2511,7 +2525,9 @@
     ],
     "description": "Trackify X is a pixel engine that helps merchants backup their pixel data and manage multiple pixels.",
     "icon": "Trackify X.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "pricing": [
       "low",
       "recurring"
@@ -2603,7 +2619,9 @@
     ],
     "description": "Transcy is a Shopify translation app. Transcy allows you to translate your whole store content into target languages to reach different nation shoppers.",
     "icon": "Transcy.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "js": {
       "_transcy": "",
       "transcy_apiURI": "",
@@ -3420,7 +3438,9 @@
       "X-Powered-By": "TwistPHP"
     },
     "icon": "TwistPHP.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "website": "https://twistphp.com"
   },
   "TwistedWeb": {
@@ -3502,7 +3522,9 @@
       12
     ],
     "icon": "Twitter Flight.png",
-    "implies": "jQuery",
+    "implies": [
+      "jQuery"
+    ],
     "js": {
       "flight": ""
     },
@@ -3513,7 +3535,9 @@
       59
     ],
     "icon": "Twitter typeahead.js.png",
-    "implies": "jQuery",
+    "implies": [
+      "jQuery"
+    ],
     "js": {
       "typeahead": ""
     },
@@ -3526,7 +3550,9 @@
     ],
     "description": "TypeDoc is an API documentation generator for TypeScript projects.",
     "icon": "TypeDoc.png",
-    "implies": "TypeScript",
+    "implies": [
+      "TypeScript"
+    ],
     "oss": true,
     "website": "https://typedoc.org"
   },
@@ -3557,7 +3583,9 @@
     ],
     "description": "Typecho is a PHP Blogging Platform.",
     "icon": "typecho.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "TypechoComment": ""
     },
@@ -3639,7 +3667,9 @@
     ],
     "description": "Tyslo EasySell replaces default Shopify checkout process by embedding (or popup) a simple order form on the product or cart page.",
     "icon": "Tyslo EasySell.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "js": {
       "openTysloForm": "",
       "tysloApplyDiscount": "",
@@ -3722,7 +3752,9 @@
       "X-Powered-By": "^total\\.js"
     },
     "icon": "total.js.png",
-    "implies": "Node.js",
+    "implies": [
+      "Node.js"
+    ],
     "website": "https://totaljs.com"
   }
 }
