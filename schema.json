@@ -161,17 +161,10 @@
         }
       },
       "requiresCategory": {
-        "oneOf": [
-          {
-            "type": "array",
-            "items": {
-              "type": "number"
-            }
-          },
-          {
-            "type": "number"
-          }
-        ]
+        "type": "array",
+        "items": {
+          "type": "number"
+        }
       },
       "meta": {
         "type": "object",
