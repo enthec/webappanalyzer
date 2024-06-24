@@ -125,7 +125,9 @@
     "js": {
       "facebookChatSettings": ""
     },
-    "scriptSrc": "connect\\.facebook\\.net/.+\\.customerchat\\.js",
+    "scriptSrc": [
+      "connect\\.facebook\\.net/.+\\.customerchat\\.js"
+    ],
     "website": "https://developers.facebook.com/docs/messenger-platform/discovery/facebook-chat-plugin/"
   },
   "Facebook Login": {
@@ -172,7 +174,9 @@
     ],
     "description": "Facil-iti is a web accessibility overlay which provides support for some people with disabilities and seniors.",
     "icon": "Facil-iti.svg",
-    "scriptSrc": "ws\\.facil-iti\\.com/tag/faciliti-tag\\.min\\.js",
+    "scriptSrc": [
+      "ws\\.facil-iti\\.com/tag/faciliti-tag\\.min\\.js"
+    ],
     "website": "https://www.facil-iti.com/"
   },
   "Fact Finder": {
@@ -184,7 +188,9 @@
       "<!-- Factfinder"
     ],
     "icon": "Fact Finder.png",
-    "scriptSrc": "Suggest\\.ff",
+    "scriptSrc": [
+      "Suggest\\.ff"
+    ],
     "url": "(?:/ViewParametricSearch|ffsuggest\\.[a-z]htm)",
     "website": "https://fact-finder.com"
   },
@@ -204,7 +210,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/themes/nisarg(?:pro)?/",
+    "scriptSrc": [
+      "/wp-content/themes/nisarg(?:pro)?/"
+    ],
     "website": "https://www.falgunithemes.com/downloads/nisarg"
   },
   "FameThemes OnePress": {
@@ -255,7 +263,9 @@
       "Fancybox.version": "^(.+)$\\;version:\\1",
       "jQuery.fancybox.version": "^(.+)$\\;version:\\1"
     },
-    "scriptSrc": "jquery\\.fancybox(?:\\.pack|\\.min)?\\.js(?:\\?v=([\\d.]+))?$\\;version:\\1",
+    "scriptSrc": [
+      "jquery\\.fancybox(?:\\.pack|\\.min)?\\.js(?:\\?v=([\\d.]+))?$\\;version:\\1"
+    ],
     "website": "https://fancyapps.com/fancybox"
   },
   "Fanplayr": {
@@ -273,7 +283,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.fanplayr\\.com/.+/([\\d\\.]+)\\;version:\\1",
+    "scriptSrc": [
+      "cdn\\.fanplayr\\.com/.+/([\\d\\.]+)\\;version:\\1"
+    ],
     "website": "https://fanplayr.com"
   },
   "FaraPy": {
@@ -303,7 +315,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "fareharbor\\.com/embeds/api/",
+    "scriptSrc": [
+      "fareharbor\\.com/embeds/api/"
+    ],
     "website": "https://fareharbor.com"
   },
   "Fast Bundle": {
@@ -325,7 +339,9 @@
       "low"
     ],
     "saas": true,
-    "scriptSrc": "api\\.fastbundle\\.co/",
+    "scriptSrc": [
+      "api\\.fastbundle\\.co/"
+    ],
     "website": "https://fastbundle.co"
   },
   "Fast Checkout": {
@@ -342,7 +358,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "js\\.fast\\.co/",
+    "scriptSrc": [
+      "js\\.fast\\.co/"
+    ],
     "website": "https://www.fast.co"
   },
   "FastComet": {
@@ -424,7 +442,9 @@
       "<(?:iframe)[^>]+FatZebraFrame"
     ],
     "icon": "fatzebra.png",
-    "scriptSrc": "paynow\\.pmnts\\.io",
+    "scriptSrc": [
+      "paynow\\.pmnts\\.io"
+    ],
     "website": "https://www.fatzebra.com/"
   },
   "Fat-Free Framework": {
@@ -453,7 +473,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "fathershop/view/theme/fs/",
+    "scriptSrc": [
+      "fathershop/view/theme/fs/"
+    ],
     "website": "https://fathershops.com"
   },
   "Fathom": {
@@ -470,7 +492,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.usefathom\\.com/",
+    "scriptSrc": [
+      "cdn\\.usefathom\\.com/"
+    ],
     "website": "https://usefathom.com"
   },
   "Faveo": {
@@ -482,7 +506,9 @@
     "dom": "link[href*='/lb-faveo/']",
     "icon": "Faveo.png",
     "oss": true,
-    "scriptSrc": "faveo(?:\\/js)?(?:\\/jquery)?(?:\\/know)?(?:\\/mobilemenu)?(?:\\/plugins)?(?:\\/bootstrap)?(?:\\/superfish)?(?:\\/iCheck\\/icheck)?(?:-wysihtml5\\/bootstrap3-wysihtml5)?(?:\\.all)?(?:\\.rating)?(?:\\.pack)?((?:\\d+\\.)+\\d+)?(?:\\.min)?\\.js\\;version:\\1",
+    "scriptSrc": [
+      "faveo(?:\\/js)?(?:\\/jquery)?(?:\\/know)?(?:\\/mobilemenu)?(?:\\/plugins)?(?:\\/bootstrap)?(?:\\/superfish)?(?:\\/iCheck\\/icheck)?(?:-wysihtml5\\/bootstrap3-wysihtml5)?(?:\\.all)?(?:\\.rating)?(?:\\.pack)?((?:\\d+\\.)+\\d+)?(?:\\.min)?\\.js\\;version:\\1"
+    ],
     "website": "https://faveohelpdesk.com"
   },
   "Fbits": {
@@ -540,7 +566,9 @@
     ],
     "description": "Feedback Fish is a widget for collecting website feedback from users.",
     "icon": "feedback-fish.svg",
-    "scriptSrc": "^https://feedback\\.fish/ff\\.js",
+    "scriptSrc": [
+      "^https://feedback\\.fish/ff\\.js"
+    ],
     "website": "https://feedback.fish"
   },
   "Feefo": {
@@ -559,7 +587,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.feefo\\.com/",
+    "scriptSrc": [
+      "\\.feefo\\.com/"
+    ],
     "website": "https://www.feefo.com"
   },
   "Fenicio": {
@@ -595,7 +625,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.fera\\.ai",
+    "scriptSrc": [
+      "cdn\\.fera\\.ai"
+    ],
     "website": "https://fera.ai/"
   },
   "Fera Product Reviews App": {
@@ -630,7 +662,9 @@
       "FilePond.create": "",
       "FilePond.setOptions": ""
     },
-    "scriptSrc": "filepond.js",
+    "scriptSrc": [
+      "filepond.js"
+    ],
     "website": "https://pqina.nl/filepond/"
   },
   "FinanceAds": {
@@ -662,7 +696,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "@findify/bundle@([\\d.]+)/dist/.+\\.js\\;version:\\1",
+    "scriptSrc": [
+      "@findify/bundle@([\\d.]+)/dist/.+\\.js\\;version:\\1"
+    ],
     "website": "https://www.findify.io"
   },
   "Findmeashoe": {
@@ -753,7 +789,9 @@
       "Shopify"
     ],
     "saas": true,
-    "scriptSrc": "//alireviews\\.fireapps\\.io/",
+    "scriptSrc": [
+      "//alireviews\\.fireapps\\.io/"
+    ],
     "website": "https://apps.shopify.com/ali-reviews"
   },
   "Firebase": {
@@ -829,7 +867,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "firsthive\\.com/engage/",
+    "scriptSrc": [
+      "firsthive\\.com/engage/"
+    ],
     "website": "https://firsthive.com"
   },
   "FirstImpression.io": {
@@ -842,7 +882,9 @@
       "FI.options": "",
       "fiPrebidAnalyticsHandler": ""
     },
-    "scriptSrc": "\\.firstimpression\\.io",
+    "scriptSrc": [
+      "\\.firstimpression\\.io"
+    ],
     "website": "https://www.firstimpression.io",
     "xhr": "\\.firstimpression\\.io"
   },
@@ -862,7 +904,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.firstpromoter\\.com/",
+    "scriptSrc": [
+      "cdn\\.firstpromoter\\.com/"
+    ],
     "website": "https://firstpromoter.com"
   },
   "Fit Analytics": {
@@ -879,7 +923,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.fitanalytics\\.com",
+    "scriptSrc": [
+      "\\.fitanalytics\\.com"
+    ],
     "website": "https://www.fitanalytics.com"
   },
   "FitVids.JS": {
@@ -911,7 +957,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.flagsmith\\.com/",
+    "scriptSrc": [
+      "cdn\\.flagsmith\\.com/"
+    ],
     "website": "https://flagsmith.com"
   },
   "Flarum": {
@@ -981,7 +1029,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "//flazio\\.org/",
+    "scriptSrc": [
+      "//flazio\\.org/"
+    ],
     "website": "https://flazio.com"
   },
   "Fleksa": {
@@ -1044,7 +1094,9 @@
       "Flickity": ""
     },
     "oss": true,
-    "scriptSrc": "flickity(?:/|@)([\\d\\.]+).+flickity(?:\\.pkgd)?(?:\\.min)?\\.js\\;version:\\1",
+    "scriptSrc": [
+      "flickity(?:/|@)([\\d\\.]+).+flickity(?:\\.pkgd)?(?:\\.min)?\\.js\\;version:\\1"
+    ],
     "website": "https://flickity.metafizzy.co"
   },
   "FlipClock.js": {
@@ -1054,7 +1106,9 @@
     ],
     "description": "FlipClock.js is a JavaScript library, offering a modern twist to displaying time and countdowns on web applications.",
     "oss": true,
-    "scriptSrc": "flipclock(?:\\.min)?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "scriptSrc": [
+      "flipclock(?:\\.min)?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+    ],
     "website": "https://flipclock.readthedocs.io/en/dev-1.0.0/CHANGE%20LOG/"
   },
   "FlippingBook": {
@@ -1073,7 +1127,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "online\\.flippingbook\\.com/",
+    "scriptSrc": [
+      "online\\.flippingbook\\.com/"
+    ],
     "website": "https://flippingbook.com"
   },
   "Flits": {
@@ -1102,7 +1158,9 @@
     "description": "A JavaScript library to position floating elements and create interactions for them.",
     "icon": "Floating UI.svg",
     "oss": true,
-    "scriptSrc": "floating-ui(?:\\/core)?(?:\\/dom)?(?:\\.js)?(?:@?(?:\\?v(?:er)?=)?((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "scriptSrc": [
+      "floating-ui(?:\\/core)?(?:\\/dom)?(?:\\.js)?(?:@?(?:\\?v(?:er)?=)?((?:\\d+\\.)+\\d+))?\\;version:\\1"
+    ],
     "website": "https://floating-ui.com/"
   },
   "Flocktory": {
@@ -1121,7 +1179,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.flocktory\\.com/",
+    "scriptSrc": [
+      "\\.flocktory\\.com/"
+    ],
     "website": "https://www.flocktory.com"
   },
   "Flot": {
@@ -1131,7 +1191,9 @@
     "description": "Attractive Javascript plotting for jQuery.",
     "icon": "Flot.png",
     "oss": true,
-    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/(?:jquery\\.)?)?flot(?:\\/curvedLines)?(?:\\/excanvas)?(?:\\/jquery)?(?:\\.categories)?(?:\\.pack)?(?:\\.pie)?(?:\\.resize)?(?:\\.selection)?(?:\\.spline)?(?:\\.symbol)?(?:\\.time)?(?:\\.tooltip)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1\\2",
+    "scriptSrc": [
+      "(?:((?:\\d+\\.)+\\d+)\\/(?:jquery\\.)?)?flot(?:\\/curvedLines)?(?:\\/excanvas)?(?:\\/jquery)?(?:\\.categories)?(?:\\.pack)?(?:\\.pie)?(?:\\.resize)?(?:\\.selection)?(?:\\.spline)?(?:\\.symbol)?(?:\\.time)?(?:\\.tooltip)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1\\2"
+    ],
     "website": "https://flotcharts.org/"
   },
   "Flow": {
@@ -1149,7 +1211,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "(?:shopify-)?cdn\\.flow\\.io/",
+    "scriptSrc": [
+      "(?:shopify-)?cdn\\.flow\\.io/"
+    ],
     "website": "https://www.flow.io/"
   },
   "Flowbite": {
@@ -1162,7 +1226,9 @@
       "Tailwind CSS"
     ],
     "oss": true,
-    "scriptSrc": "/flowbite(?:@([\\d\\.]+)/|\\.bundle\\.js)\\;version:\\1",
+    "scriptSrc": [
+      "/flowbite(?:@([\\d\\.]+)/|\\.bundle\\.js)\\;version:\\1"
+    ],
     "website": "https://github.com/themesberg/flowbite"
   },
   "Flowplayer": {
@@ -1247,7 +1313,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/plugins/flying-analytics/",
+    "scriptSrc": [
+      "/wp-content/plugins/flying-analytics/"
+    ],
     "website": "https://wordpress.org/plugins/flying-analytics/"
   },
   "Flying Images": {
@@ -1278,7 +1346,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/plugins/flying-pages/.+\\.js(?:\\?ver=([\\d\\.]+))?\\;version:\\1",
+    "scriptSrc": [
+      "/wp-content/plugins/flying-pages/.+\\.js(?:\\?ver=([\\d\\.]+))?\\;version:\\1"
+    ],
     "website": "https://wordpress.org/plugins/flying-pages/"
   },
   "FlyingPress": {
@@ -1296,7 +1366,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/plugins/flying-press/",
+    "scriptSrc": [
+      "/wp-content/plugins/flying-press/"
+    ],
     "website": "https://flying-press.com"
   },
   "Flyspray": {
@@ -1347,7 +1419,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "fomo\\.com/api/v",
+    "scriptSrc": [
+      "fomo\\.com/api/v"
+    ],
     "website": "https://fomo.com"
   },
   "Font Awesome": {
@@ -1422,7 +1496,9 @@
       "Shopify"
     ],
     "saas": true,
-    "scriptSrc": "fontify\\.nitroapps\\.co/",
+    "scriptSrc": [
+      "fontify\\.nitroapps\\.co/"
+    ],
     "website": "https://apps.shopify.com/fontify-change-customize-font-for-your-store"
   },
   "FooPlugins FooGallery": {
@@ -1495,7 +1571,9 @@
       "onetime"
     ],
     "saas": true,
-    "scriptSrc": "\\.(?:fbgcdn|foodbooking)\\.com/",
+    "scriptSrc": [
+      "\\.(?:fbgcdn|foodbooking)\\.com/"
+    ],
     "website": "https://www.foodbooking.com"
   },
   "Foodomaa": {
@@ -1525,7 +1603,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "solve-widget\\.forethought\\.ai/",
+    "scriptSrc": [
+      "solve-widget\\.forethought\\.ai/"
+    ],
     "website": "https://forethought.ai/platform/solve/"
   },
   "Fork Awesome": {
@@ -1609,7 +1689,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "//formaloo\\.net/",
+    "scriptSrc": [
+      "//formaloo\\.net/"
+    ],
     "website": "https://www.formaloo.com"
   },
   "Formidable Form": {
@@ -1660,7 +1742,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "(?:app|cdn)\\.(?:formli|humanagency)\\.(?:com|org)/",
+    "scriptSrc": [
+      "(?:app|cdn)\\.(?:formli|humanagency)\\.(?:com|org)/"
+    ],
     "website": "https://formli.com"
   },
   "ForoshGostar": {
@@ -1689,7 +1773,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "checkout\\.forte\\.net",
+    "scriptSrc": [
+      "checkout\\.forte\\.net"
+    ],
     "website": "https://www.forte.net"
   },
   "Forter": {
@@ -1708,7 +1794,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "forter\\.com",
+    "scriptSrc": [
+      "forter\\.com"
+    ],
     "website": "https://www.forter.com"
   },
   "Fortinet FortiGate": {
@@ -1733,7 +1821,9 @@
       "(?:<link [^>]*href=\"[^\\/]*\\/\\/www\\.fortune3\\.com\\/[^\"]*siterate\\/rate\\.css|Powered by <a [^>]*href=\"[^\"]+fortune3\\.com)"
     ],
     "icon": "Fortune3.png",
-    "scriptSrc": "cartjs\\.php\\?(?:.*&)?s=[^&]*myfortune3cart\\.com",
+    "scriptSrc": [
+      "cartjs\\.php\\?(?:.*&)?s=[^&]*myfortune3cart\\.com"
+    ],
     "website": "https://fortune3.com"
   },
   "Foswiki": {
@@ -1777,7 +1867,9 @@
       "Four": ""
     },
     "saas": true,
-    "scriptSrc": "scripts\\.paywithfour\\.com",
+    "scriptSrc": [
+      "scripts\\.paywithfour\\.com"
+    ],
     "website": "https://paywithfour.com/"
   },
   "Foursixty": {
@@ -1794,7 +1886,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "foursixty\\.com",
+    "scriptSrc": [
+      "foursixty\\.com"
+    ],
     "website": "https://foursixty.com/"
   },
   "Fourthwall": {
@@ -1814,7 +1908,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "\\.fourthwall\\.com",
+    "scriptSrc": [
+      "\\.fourthwall\\.com"
+    ],
     "website": "https://fourthwall.com/"
   },
   "Foxy.io": {
@@ -1828,7 +1924,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.foxycart\\.com",
+    "scriptSrc": [
+      "cdn\\.foxycart\\.com"
+    ],
     "website": "https://www.foxy.io"
   },
   "Framer Sites": {
@@ -1853,7 +1951,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "framerusercontent\\.com",
+    "scriptSrc": [
+      "framerusercontent\\.com"
+    ],
     "website": "https://framer.com/sites"
   },
   "Frames": {
@@ -1916,7 +2016,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "monitor\\.fraudblocker\\.com/",
+    "scriptSrc": [
+      "monitor\\.fraudblocker\\.com/"
+    ],
     "website": "https://fraudblocker.com"
   },
   "FraudLabs Pro": {
@@ -1934,7 +2036,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.fraudlabspro\\.com/",
+    "scriptSrc": [
+      "\\.fraudlabspro\\.com/"
+    ],
     "website": "https://www.fraudlabspro.com"
   },
   "FreakOut": {
@@ -1953,7 +2057,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.fout\\.jp/",
+    "scriptSrc": [
+      "\\.fout\\.jp/"
+    ],
     "website": "https://www.fout.co.jp"
   },
   "FreeBSD": {
@@ -1991,7 +2097,9 @@
       10
     ],
     "icon": "Freespee.svg",
-    "scriptSrc": "analytics\\.freespee\\.com/js/external/fs\\.(?:min\\.)?js",
+    "scriptSrc": [
+      "analytics\\.freespee\\.com/js/external/fs\\.(?:min\\.)?js"
+    ],
     "website": "https://www.freespee.com"
   },
   "Frequenceo": {
@@ -2021,7 +2129,9 @@
       "Shopify"
     ],
     "saas": true,
-    "scriptSrc": "\\.codeblackbelt\\.com/js/modules/frequently-bought-together/",
+    "scriptSrc": [
+      "\\.codeblackbelt\\.com/js/modules/frequently-bought-together/"
+    ],
     "website": "https://www.codeblackbelt.com"
   },
   "Fresco": {
@@ -2072,7 +2182,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "wchat\\.freshchat\\.com/js/widget\\.js",
+    "scriptSrc": [
+      "wchat\\.freshchat\\.com/js/widget\\.js"
+    ],
     "website": "https://www.freshworks.com/live-chat-software/"
   },
   "Freshop": {
@@ -2092,7 +2204,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "asset(?:cdn)?\\.freshop\\.com/",
+    "scriptSrc": [
+      "asset(?:cdn)?\\.freshop\\.com/"
+    ],
     "website": "https://www.freshop.com"
   },
   "Freshteam": {
@@ -2108,7 +2222,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "assets\\.freshteam\\.com/",
+    "scriptSrc": [
+      "assets\\.freshteam\\.com/"
+    ],
     "website": "https://www.freshworks.com/hrms/"
   },
   "Freshworks CRM": {
@@ -2191,7 +2307,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.frizbit\\.com/",
+    "scriptSrc": [
+      "cdn\\.frizbit\\.com/"
+    ],
     "website": "https://frizbit.com"
   },
   "Froala Editor": {
@@ -2231,7 +2349,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "//chat-assets\\.frontapp\\.com/",
+    "scriptSrc": [
+      "//chat-assets\\.frontapp\\.com/"
+    ],
     "website": "https://front.com"
   },
   "Front-Commerce": {
@@ -2320,7 +2440,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "frosmo\\.easy\\.js",
+    "scriptSrc": [
+      "frosmo\\.easy\\.js"
+    ],
     "website": "https://frosmo.com"
   },
   "FullCalendar": {
@@ -2341,7 +2463,9 @@
       "mid",
       "poa"
     ],
-    "scriptSrc": "/fullcalendar\\.min\\.js",
+    "scriptSrc": [
+      "/fullcalendar\\.min\\.js"
+    ],
     "website": "https://fullcalendar.io"
   },
   "FullContact": {
@@ -2358,7 +2482,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "tags\\.fullcontact\\.com/",
+    "scriptSrc": [
+      "tags\\.fullcontact\\.com/"
+    ],
     "website": "https://www.fullcontact.com"
   },
   "FullStory": {
@@ -2376,7 +2502,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.fullstory\\.com/",
+    "scriptSrc": [
+      "\\.fullstory\\.com/"
+    ],
     "website": "https://www.fullstory.com"
   },
   "FunCaptcha": {
@@ -2414,7 +2542,9 @@
     "js": {
       "__googlefc": ""
     },
-    "scriptSrc": "fundingchoicesmessages\\.google\\.com",
+    "scriptSrc": [
+      "fundingchoicesmessages\\.google\\.com"
+    ],
     "website": "https://developers.google.com/funding-choices"
   },
   "Fundraise Up": {
@@ -2430,7 +2560,9 @@
       "payg",
       "recurring"
     ],
-    "scriptSrc": "\\.fundraiseup\\.com/",
+    "scriptSrc": [
+      "\\.fundraiseup\\.com/"
+    ],
     "website": "https://fundraiseup.com"
   },
   "FunnelCockpit": {
@@ -2445,7 +2577,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.funnelcockpit\\.com/",
+    "scriptSrc": [
+      "\\.funnelcockpit\\.com/"
+    ],
     "website": "https://funnelcockpit.com"
   },
   "Funnelish": {
@@ -2491,7 +2625,9 @@
     "pricing": [
       "poa"
     ],
-    "scriptSrc": "\\.furnituredealer\\.net/",
+    "scriptSrc": [
+      "\\.furnituredealer\\.net/"
+    ],
     "website": "https://www.furnituredealer.net"
   },
   "Fusion Ads": {
@@ -2502,7 +2638,9 @@
     "js": {
       "_fusion": ""
     },
-    "scriptSrc": "^[^\\/]*//[ac]dn\\.fusionads\\.net/(?:api/([\\d.]+)/)?\\;version:\\1",
+    "scriptSrc": [
+      "^[^\\/]*//[ac]dn\\.fusionads\\.net/(?:api/([\\d.]+)/)?\\;version:\\1"
+    ],
     "website": "https://fusionads.net"
   },
   "FusionCharts": {
@@ -2528,7 +2666,9 @@
       6
     ],
     "icon": "futureshop.png",
-    "scriptSrc": "future-shop.*\\.js",
+    "scriptSrc": [
+      "future-shop.*\\.js"
+    ],
     "website": "https://www.future-shop.jp"
   },
   "Futurio": {
@@ -2547,7 +2687,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/themes/futurio/.+customscript\\.js(?:\\?ver=([\\d\\.]+))?\\;version:\\1",
+    "scriptSrc": [
+      "/wp-content/themes/futurio/.+customscript\\.js(?:\\?ver=([\\d\\.]+))?\\;version:\\1"
+    ],
     "website": "https://futuriowp.com"
   },
   "Fynd Platform": {
@@ -2579,7 +2721,9 @@
     "dom": "link[href*='framework7'], .framework7-root, .framework7-modals",
     "icon": "framework7.png",
     "oss": true,
-    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/(?:js\\/)?)?framework7(?:-((?:\\d+\\.)+\\d+))?(?:\\.custom)?(?:\\.min)?(?:-vue)?_?[\\w\\.]{0,29}\\.js\\;version:\\1\\2",
+    "scriptSrc": [
+      "(?:((?:\\d+\\.)+\\d+)\\/(?:js\\/)?)?framework7(?:-((?:\\d+\\.)+\\d+))?(?:\\.custom)?(?:\\.min)?(?:-vue)?_?[\\w\\.]{0,29}\\.js\\;version:\\1\\2"
+    ],
     "website": "https://framework7.io/"
   },
   "fullPage.js": {
@@ -2595,7 +2739,9 @@
       "fullpage_api.version": "([\\d\\.]+)\\;version:\\1"
     },
     "oss": true,
-    "scriptSrc": "/fullPage\\.js(?:/([\\d\\.]+)/)?\\;version:\\1",
+    "scriptSrc": [
+      "/fullPage\\.js(?:/([\\d\\.]+)/)?\\;version:\\1"
+    ],
     "website": "https://github.com/alvarotrigo/fullpage.js"
   }
 }

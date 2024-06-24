@@ -13,7 +13,9 @@
     "js": {
       "AFRAME.version": "^(.+)$\\;version:\\1"
     },
-    "scriptSrc": "/?([\\d.]+)?/aframe(?:\\.min)?\\.js\\;version:\\1",
+    "scriptSrc": [
+      "/?([\\d.]+)?/aframe(?:\\.min)?\\.js\\;version:\\1"
+    ],
     "website": "https://aframe.io"
   },
   "A8.net": {
@@ -28,7 +30,9 @@
       "a8sales": "",
       "map_A8": ""
     },
-    "scriptSrc": "statics\\.a8\\.net",
+    "scriptSrc": [
+      "statics\\.a8\\.net"
+    ],
     "website": "https://www.a8.net"
   },
   "AB Tasty": {
@@ -46,7 +50,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "try\\.abtasty\\.com",
+    "scriptSrc": [
+      "try\\.abtasty\\.com"
+    ],
     "website": "https://www.abtasty.com"
   },
   "ABOUT YOU Commerce Suite": {
@@ -94,7 +100,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "\\.ebis\\.ne\\.jp/",
+    "scriptSrc": [
+      "\\.ebis\\.ne\\.jp/"
+    ],
     "website": "https://www.ebis.ne.jp"
   },
   "ADAPT": {
@@ -149,7 +157,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/themes/covernews(?:-pro)?/",
+    "scriptSrc": [
+      "/wp-content/themes/covernews(?:-pro)?/"
+    ],
     "website": "https://afthemes.com/products/covernews"
   },
   "ALL-INKL": {
@@ -252,7 +262,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.ari-secure\\.com/",
+    "scriptSrc": [
+      "\\.ari-secure\\.com/"
+    ],
     "website": "https://arinet.com"
   },
   "ASP.NET Boilerplate": {
@@ -290,7 +302,9 @@
     "js": {
       "xt_click": ""
     },
-    "scriptSrc": "xiti\\.com/hit\\.xiti",
+    "scriptSrc": [
+      "xiti\\.com/hit\\.xiti"
+    ],
     "website": "https://atinternet.com/en"
   },
   "ATSHOP": {
@@ -305,7 +319,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.atshop\\.io",
+    "scriptSrc": [
+      "\\.atshop\\.io"
+    ],
     "website": "https://atshop.io"
   },
   "AWIN": {
@@ -325,7 +341,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "dwin1\\.com",
+    "scriptSrc": [
+      "dwin1\\.com"
+    ],
     "website": "https://www.awin.com"
   },
   "AWS Certificate Manager": {
@@ -359,7 +377,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "captcha\\.awswaf\\.com/",
+    "scriptSrc": [
+      "captcha\\.awswaf\\.com/"
+    ],
     "website": "https://docs.aws.amazon.com/waf/latest/developerguide/waf-captcha.html"
   },
   "AWStats": {
@@ -477,7 +497,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "acsbapp?\\.com/.*/acsb\\.js",
+    "scriptSrc": [
+      "acsbapp?\\.com/.*/acsb\\.js"
+    ],
     "website": "https://accessibe.com"
   },
   "Accessibility Toolbar Plugin": {
@@ -523,7 +545,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "accessibly\\.onthemapmarketing\\.com",
+    "scriptSrc": [
+      "accessibly\\.onthemapmarketing\\.com"
+    ],
     "website": "https://www.onthemapmarketing.com/accessibly/"
   },
   "Accesso": {
@@ -536,7 +560,9 @@
     "js": {
       "accesso": ""
     },
-    "scriptSrc": "/embed/accesso\\.js",
+    "scriptSrc": [
+      "/embed/accesso\\.js"
+    ],
     "website": "https://accesso.com/"
   },
   "Acconsento.click": {
@@ -799,7 +825,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.acquire\\.io/cobrowse/",
+    "scriptSrc": [
+      "\\.acquire\\.io/cobrowse/"
+    ],
     "website": "https://acquire.io/co-browsing"
   },
   "Acquire Live Chat": {
@@ -816,7 +844,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.acquire\\.io/(?!cobrowse)",
+    "scriptSrc": [
+      "\\.acquire\\.io/(?!cobrowse)"
+    ],
     "website": "https://acquire.io"
   },
   "Act-On": {
@@ -833,7 +863,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "/cdnr/\\d+/acton/bn/tracker/\\d+",
+    "scriptSrc": [
+      "/cdnr/\\d+/acton/bn/tracker/\\d+"
+    ],
     "website": "https://act-on.com"
   },
   "ActBlue": {
@@ -920,7 +952,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.acuityscheduling\\.com",
+    "scriptSrc": [
+      "\\.acuityscheduling\\.com"
+    ],
     "website": "https://acuityscheduling.com"
   },
   "AcuityAds": {
@@ -952,7 +986,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.adlightning\\.com",
+    "scriptSrc": [
+      "\\.adlightning\\.com"
+    ],
     "website": "https://www.adlightning.com"
   },
   "AdBridg": {
@@ -976,7 +1012,9 @@
       36
     ],
     "icon": "AdInfinity.png",
-    "scriptSrc": "adinfinity\\.com\\.au",
+    "scriptSrc": [
+      "adinfinity\\.com\\.au"
+    ],
     "website": "https://adinfinity.com.au"
   },
   "AdOcean": {
@@ -1017,7 +1055,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "tag\\.goadopt\\.io/",
+    "scriptSrc": [
+      "tag\\.goadopt\\.io/"
+    ],
     "website": "https://goadopt.io"
   },
   "AdRecover": {
@@ -1048,7 +1088,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "\\.adriver\\.ru/",
+    "scriptSrc": [
+      "\\.adriver\\.ru/"
+    ],
     "website": "https://adriver.ru"
   },
   "AdRoll": {
@@ -1069,7 +1111,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "(?:a|s)\\.adroll\\.com",
+    "scriptSrc": [
+      "(?:a|s)\\.adroll\\.com"
+    ],
     "website": "https://adroll.com"
   },
   "AdRoll CMP System": {
@@ -1106,7 +1150,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "\\.adscale\\.com/",
+    "scriptSrc": [
+      "\\.adscale\\.com/"
+    ],
     "website": "https://www.adscale.com"
   },
   "AdThrive": {
@@ -1120,7 +1166,9 @@
       "adthriveVideosInjected": ""
     },
     "saas": true,
-    "scriptSrc": "ads\\.adthrive\\.com",
+    "scriptSrc": [
+      "ads\\.adthrive\\.com"
+    ],
     "website": "https://www.adthrive.com"
   },
   "Ada": {
@@ -1137,7 +1185,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.ada\\.support",
+    "scriptSrc": [
+      "\\.ada\\.support"
+    ],
     "website": "https://www.ada.cx"
   },
   "AdaSiteCompliance": {
@@ -1172,7 +1222,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "track\\.adabra\\.com",
+    "scriptSrc": [
+      "track\\.adabra\\.com"
+    ],
     "website": "https://www.adabra.com",
     "xhr": "my\\.adabra\\.com"
   },
@@ -1181,7 +1233,9 @@
       68
     ],
     "icon": "Adally.png",
-    "scriptSrc": "cloudfront\\.net/.*/adally\\.js",
+    "scriptSrc": [
+      "cloudfront\\.net/.*/adally\\.js"
+    ],
     "website": "https://adally.com/"
   },
   "Adalyser": {
@@ -1193,7 +1247,9 @@
     "js": {
       "adalyserModules": ""
     },
-    "scriptSrc": "c5\\.adalyser\\.com",
+    "scriptSrc": [
+      "c5\\.adalyser\\.com"
+    ],
     "website": "https://adalyser.com/"
   },
   "Adcash": {
@@ -1210,7 +1266,9 @@
       "ct_siteunder": "",
       "ct_tag": ""
     },
-    "scriptSrc": "^[^\\/]*//(?:[^\\/]+\\.)?adcash\\.com/(?:script|ad)/",
+    "scriptSrc": [
+      "^[^\\/]*//(?:[^\\/]+\\.)?adcash\\.com/(?:script|ad)/"
+    ],
     "url": "^https?://(?:[^\\/]+\\.)?adcash\\.com/script/pop_",
     "website": "https://adcash.com"
   },
@@ -1225,7 +1283,9 @@
       "recurring",
       "poa"
     ],
-    "scriptSrc": "//addevent\\.com/",
+    "scriptSrc": [
+      "//addevent\\.com/"
+    ],
     "website": "https://www.addevent.com"
   },
   "AddShoppers": {
@@ -1239,7 +1299,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "(?:cdn\\.)?shop\\.pe/widget/",
+    "scriptSrc": [
+      "(?:cdn\\.)?shop\\.pe/widget/"
+    ],
     "website": "https://www.addshoppers.com"
   },
   "AddThis": {
@@ -1251,7 +1313,9 @@
     "js": {
       "addthis": ""
     },
-    "scriptSrc": "addthis\\.com/js/",
+    "scriptSrc": [
+      "addthis\\.com/js/"
+    ],
     "website": "https://www.addthis.com"
   },
   "AddToAny": {
@@ -1263,7 +1327,9 @@
     "js": {
       "a2apage_init": ""
     },
-    "scriptSrc": "addtoany\\.com/menu/page\\.js",
+    "scriptSrc": [
+      "addtoany\\.com/menu/page\\.js"
+    ],
     "website": "https://www.addtoany.com"
   },
   "AddToAny Share Buttons": {
@@ -1279,7 +1345,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/plugins/add-to-any/addtoany\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
+    "scriptSrc": [
+      "/wp-content/plugins/add-to-any/addtoany\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+    ],
     "website": "https://github.com/projectestac/wordpress-add-to-any"
   },
   "Addi": {
@@ -1288,7 +1356,9 @@
     ],
     "description": "Addi is a service that allows users to make purchases and pay for them in installments over time",
     "icon": "addi.png",
-    "scriptSrc": "s3\\.amazonaws\\.com/widgets\\.addi\\.com/bundle\\.min\\.js",
+    "scriptSrc": [
+      "s3\\.amazonaws\\.com/widgets\\.addi\\.com/bundle\\.min\\.js"
+    ],
     "website": "https://co.addi.com/"
   },
   "Addsearch": {
@@ -1306,7 +1376,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "//addsearch\\.com/js/",
+    "scriptSrc": [
+      "//addsearch\\.com/js/"
+    ],
     "website": "https://www.addsearch.com/"
   },
   "Adform": {
@@ -1320,7 +1392,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.adform\\.net/",
+    "scriptSrc": [
+      "\\.adform\\.net/"
+    ],
     "website": "https://site.adform.com"
   },
   "Adjust": {
@@ -1350,7 +1424,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.adlooxtracking\\.com/",
+    "scriptSrc": [
+      "\\.adlooxtracking\\.com/"
+    ],
     "website": "https://www.adloox.com"
   },
   "Adminer": {
@@ -1422,7 +1498,9 @@
       "onetime"
     ],
     "saas": true,
-    "scriptSrc": "\\.admixer\\.net/",
+    "scriptSrc": [
+      "\\.admixer\\.net/"
+    ],
     "website": "https://admixer.com"
   },
   "Admo.tv": {
@@ -1453,7 +1531,9 @@
       "X-Advertising-By": "adnegah\\.net"
     },
     "icon": "Adnegah.png",
-    "scriptSrc": "\\.adnegah\\.net/",
+    "scriptSrc": [
+      "\\.adnegah\\.net/"
+    ],
     "website": "https://adnegah.net"
   },
   "Adobe Analytics": {
@@ -1525,7 +1605,9 @@
     "js": {
       "_cfEmails": ""
     },
-    "scriptSrc": "/cfajax/",
+    "scriptSrc": [
+      "/cfajax/"
+    ],
     "url": "\\.cfm(?:$|\\?)",
     "website": "https://adobe.com/products/coldfusion-family.html"
   },
@@ -1591,7 +1673,9 @@
     "excludes": [
       "Adobe Experience Manager"
     ],
-    "scriptSrc": "^.+/scripts/lib-franklin\\.js$",
+    "scriptSrc": [
+      "^.+/scripts/lib-franklin\\.js$"
+    ],
     "website": "https://www.hlx.live"
   },
   "Adobe Experience Platform Identity Service": {
@@ -1679,7 +1763,9 @@
     "meta": {
       "generator": "^Adobe RoboHelp(?: ([\\d]+))?\\;version:\\1"
     },
-    "scriptSrc": "(?:wh(?:utils|ver|proxy|lang|topic|msg)|ehlpdhtm)\\.js",
+    "scriptSrc": [
+      "(?:wh(?:utils|ver|proxy|lang|topic|msg)|ehlpdhtm)\\.js"
+    ],
     "website": "https://adobe.com/products/robohelp.html"
   },
   "Adobe Target": {
@@ -1728,7 +1814,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.adligature\\.com/.+/advally-([\\d.]+)\\.js\\;version:\\1",
+    "scriptSrc": [
+      "cdn\\.adligature\\.com/.+/advally-([\\d.]+)\\.js\\;version:\\1"
+    ],
     "website": "https://www.advally.com"
   },
   "Advanced Custom Fields": {
@@ -1749,7 +1837,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/plugins/advanced-custom-fields(?:-pro)?/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
+    "scriptSrc": [
+      "/wp-content/plugins/advanced-custom-fields(?:-pro)?/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+    ],
     "website": "https://www.advancedcustomfields.com"
   },
   "Advert Stream": {
@@ -1760,7 +1850,9 @@
     "js": {
       "advst_is_above_the_fold": ""
     },
-    "scriptSrc": "(?:ad\\.advertstream\\.com|adxcore\\.com)",
+    "scriptSrc": [
+      "(?:ad\\.advertstream\\.com|adxcore\\.com)"
+    ],
     "website": "https://www.advertstream.com"
   },
   "Adverticum": {
@@ -1774,7 +1866,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.adverticum\\.net/",
+    "scriptSrc": [
+      "\\.adverticum\\.net/"
+    ],
     "website": "https://adverticum.net"
   },
   "Adyen": {
@@ -1834,7 +1928,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "static\\.affilae\\.com/(?:.+v([\\d\\.]+)|.+)?\\.js\\;version:\\1",
+    "scriptSrc": [
+      "static\\.affilae\\.com/(?:.+v([\\d\\.]+)|.+)?\\.js\\;version:\\1"
+    ],
     "website": "https://affilae.com"
   },
   "Affiliate B": {
@@ -1845,7 +1941,9 @@
     "description": "Affiliate B is an advertising system that allows site operators (HP, blogs, e-mail newsletters, etc.) to place advertiser advertisements on their own sites.",
     "dom": "img[src*='www.afi-b.com']",
     "icon": "Affiliate B.svg",
-    "scriptSrc": "t\\.afi-b\\.com",
+    "scriptSrc": [
+      "t\\.afi-b\\.com"
+    ],
     "website": "https://affiliate-b.com"
   },
   "Affiliate Future": {
@@ -1855,7 +1953,9 @@
     "description": "Affiliate Future is a provider of advertisers with marketing solution through its affiliate network and tools.",
     "dom": "img[src*='banners.affiliatefuture.com']",
     "icon": "Affiliate Future.png",
-    "scriptSrc": "tags\\.affiliatefuture\\.com",
+    "scriptSrc": [
+      "tags\\.affiliatefuture\\.com"
+    ],
     "website": "https://affiliatefuture.com"
   },
   "Affiliatly": {
@@ -1869,7 +1969,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "static\\.affiliatly\\.com/",
+    "scriptSrc": [
+      "static\\.affiliatly\\.com/"
+    ],
     "website": "https://www.affiliatly.com"
   },
   "Affilio": {
@@ -1898,7 +2000,9 @@
       "Shopify"
     ],
     "saas": true,
-    "scriptSrc": "//affilo\\.io/",
+    "scriptSrc": [
+      "//affilo\\.io/"
+    ],
     "website": "https://affilo.io"
   },
   "Affirm": {
@@ -1914,7 +2018,9 @@
       "affirm.Rollbar": ""
     },
     "saas": true,
-    "scriptSrc": "\\.affirm\\.com/js/v([\\d\\.]+)/affirm\\.js\\;version:\\1",
+    "scriptSrc": [
+      "\\.affirm\\.com/js/v([\\d\\.]+)/affirm\\.js\\;version:\\1"
+    ],
     "website": "https://www.affirm.com"
   },
   "Afosto": {
@@ -1943,7 +2049,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "\\.afterbuy\\.de/",
+    "scriptSrc": [
+      "\\.afterbuy\\.de/"
+    ],
     "website": "https://www.afterbuy.de"
   },
   "AfterShip": {
@@ -2020,7 +2128,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "age-gate(?:\\/dist)?(?:\\/all)?(?:\\/focus)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "scriptSrc": [
+      "age-gate(?:\\/dist)?(?:\\/all)?(?:\\/focus)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+    ],
     "website": "https://wordpress.org/plugins/age-gate"
   },
   "Ahoy": {
@@ -2071,7 +2181,9 @@
     "js": {
       "aispeed_init": ""
     },
-    "scriptSrc": "aispeed\\.js",
+    "scriptSrc": [
+      "aispeed\\.js"
+    ],
     "website": "https://apps.shopify.com/aispeed"
   },
   "Aimtell": {
@@ -2090,7 +2202,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.aimtell\\.\\w+/",
+    "scriptSrc": [
+      "cdn\\.aimtell\\.\\w+/"
+    ],
     "website": "https://aimtell.com"
   },
   "Air360": {
@@ -2131,7 +2245,9 @@
     "description": "Aircall is a cloud-based phone system for customer support and sales teams.",
     "icon": "aircall.png",
     "saas": true,
-    "scriptSrc": "^https?://cdn\\.aircall\\.io/",
+    "scriptSrc": [
+      "^https?://cdn\\.aircall\\.io/"
+    ],
     "website": "https://aircall.io"
   },
   "Airee": {
@@ -2165,7 +2281,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "urbanairship\\.\\w+/notify/v([\\d.]+)\\;version:\\1",
+    "scriptSrc": [
+      "urbanairship\\.\\w+/notify/v([\\d.]+)\\;version:\\1"
+    ],
     "website": "https://www.airship.com"
   },
   "Airtable": {
@@ -2302,7 +2420,9 @@
       "Microsoft ASP.NET"
     ],
     "saas": true,
-    "scriptSrc": "\\.akilliticaret\\.com/",
+    "scriptSrc": [
+      "\\.akilliticaret\\.com/"
+    ],
     "website": "https://akilliticaret.com"
   },
   "Akinon": {
@@ -2314,7 +2434,9 @@
     "pricing": [
       "poa"
     ],
-    "scriptSrc": "cdn-mgsm\\.akinon\\.net/",
+    "scriptSrc": [
+      "cdn-mgsm\\.akinon\\.net/"
+    ],
     "website": "https://www.akinon.com/"
   },
   "Akismet": {
@@ -2335,7 +2457,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/plugins/akismet/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
+    "scriptSrc": [
+      "/wp-content/plugins/akismet/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+    ],
     "website": "https://akismet.com"
   },
   "Akka HTTP": {
@@ -2365,7 +2489,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.aklamio\\.com/",
+    "scriptSrc": [
+      "\\.aklamio\\.com/"
+    ],
     "website": "https://www.aklamio.com"
   },
   "Aksara CMS": {
@@ -2402,7 +2528,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.albacross\\.com",
+    "scriptSrc": [
+      "\\.albacross\\.com"
+    ],
     "website": "https://albacross.com"
   },
   "AlertifyJS": {
@@ -2415,7 +2543,9 @@
       "alertify.defaults.autoReset": ""
     },
     "oss": true,
-    "scriptSrc": "/alertify/alertify\\.min\\.js",
+    "scriptSrc": [
+      "/alertify/alertify\\.min\\.js"
+    ],
     "website": "https://alertifyjs.com"
   },
   "Alexa Certified Site Metrics": {
@@ -2433,7 +2563,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.cloudfront\\.net/atrk\\.js",
+    "scriptSrc": [
+      "\\.cloudfront\\.net/atrk\\.js"
+    ],
     "website": "https://support.alexa.com/hc/en-us/sections/200063374"
   },
   "Algolia": {
@@ -2504,7 +2636,9 @@
     "description": "Alibaba Cloud CDN is a global network of servers designed to deliver high-performance, low-latency content to users around the world. It is a cloud-based service provided by Alibaba Cloud, a subsidiary of the Alibaba Group, that enables businesses to accelerate the delivery of their web content, including images, videos, and static files, to end-users.",
     "dom": "img[src*='.alicdn.com/']",
     "icon": "Alibaba Cloud.svg",
-    "scriptSrc": "\\.alicdn\\.com/",
+    "scriptSrc": [
+      "\\.alicdn\\.com/"
+    ],
     "website": "https://www.alibabacloud.com/product/content-delivery-network"
   },
   "Alibaba Cloud Object Storage Service": {
@@ -2530,7 +2664,9 @@
     ],
     "description": "Alibaba Cloud Verification Code is a security feature provided by Alibaba Cloud to help protect user accounts from unauthorised access.",
     "icon": "Alibaba Cloud.svg",
-    "scriptSrc": "cf\\.aliyun\\.com/",
+    "scriptSrc": [
+      "cf\\.aliyun\\.com/"
+    ],
     "website": "https://help.aliyun.com/document_detail/193141.html"
   },
   "All in One SEO Pack": {
@@ -2565,7 +2701,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.alliai\\.com/",
+    "scriptSrc": [
+      "\\.alliai\\.com/"
+    ],
     "website": "https://www.alliai.com"
   },
   "Alliance Auth": {
@@ -2597,7 +2735,9 @@
     "js": {
       "AUI": ""
     },
-    "scriptSrc": "^https?://cdn\\.alloyui\\.com/",
+    "scriptSrc": [
+      "^https?://cdn\\.alloyui\\.com/"
+    ],
     "website": "https://www.alloyui.com"
   },
   "Allyable": {
@@ -2612,7 +2752,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "portal\\.allyable\\.com/",
+    "scriptSrc": [
+      "portal\\.allyable\\.com/"
+    ],
     "website": "https://allyable.com"
   },
   "AlmaLinux": {
@@ -2667,7 +2809,9 @@
       "Debian"
     ],
     "saas": false,
-    "scriptSrc": "js/alternc\\.js",
+    "scriptSrc": [
+      "js/alternc\\.js"
+    ],
     "website": "https://alternc.com"
   },
   "AlumnIQ": {
@@ -2722,7 +2866,9 @@
     "description": "Amaze UI is a mobile-first JavaScript library designed to simplify front-end development.",
     "icon": "Amaze UI.png",
     "oss": true,
-    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/(?:js\\/)?)?amazeui(?:\\/js\\/jquery)?(?:\\.widgets)?(?:\\.helper)?(?:\\.legacy)?(?:\\.min)?\\.js\\;version:\\1",
+    "scriptSrc": [
+      "(?:((?:\\d+\\.)+\\d+)\\/(?:js\\/)?)?amazeui(?:\\/js\\/jquery)?(?:\\.widgets)?(?:\\.helper)?(?:\\.legacy)?(?:\\.min)?\\.js\\;version:\\1"
+    ],
     "website": "https://amazeui.shopxo.net/"
   },
   "Amazon ALB": {
@@ -2751,7 +2897,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "\\.amazon-adsystem\\.com",
+    "scriptSrc": [
+      "\\.amazon-adsystem\\.com"
+    ],
     "website": "https://advertising.amazon.com",
     "xhr": "\\.amazon-adsystem\\.com"
   },
@@ -2774,7 +2922,9 @@
     },
     "icon": "Amazon.svg",
     "saas": true,
-    "scriptSrc": "\\.associates-amazon\\.com",
+    "scriptSrc": [
+      "\\.associates-amazon\\.com"
+    ],
     "website": "https://affiliate-program.amazon.com"
   },
   "Amazon Aurora": {
@@ -2942,7 +3092,9 @@
       "Amazon Web Services"
     ],
     "saas": true,
-    "scriptSrc": "s3[^ ]*\\.amazonaws\\.com/",
+    "scriptSrc": [
+      "s3[^ ]*\\.amazonaws\\.com/"
+    ],
     "website": "https://aws.amazon.com/s3/"
   },
   "Amazon SES": {
@@ -3010,7 +3162,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.getambassador\\.com/",
+    "scriptSrc": [
+      "cdn\\.getambassador\\.com/"
+    ],
     "website": "https://www.getambassador.com"
   },
   "Amber": {
@@ -3044,7 +3198,9 @@
     "meta": {
       "generator": "(?:Ametys|Anyware Technologies)"
     },
-    "scriptSrc": "ametys\\.js",
+    "scriptSrc": [
+      "ametys\\.js"
+    ],
     "website": "https://ametys.org"
   },
   "Amex Express Checkout": {
@@ -3053,7 +3209,9 @@
     ],
     "description": "Amex Express Checkout is a service that simplifies the checkout experience by auto-filling necessary cardholder payment data into merchant checkout fields.",
     "icon": "amex.png",
-    "scriptSrc": "aexp-static\\.com",
+    "scriptSrc": [
+      "aexp-static\\.com"
+    ],
     "website": "https://www.americanexpress.com/us/express-checkout/"
   },
   "Amiro.CMS": {
@@ -3109,7 +3267,9 @@
     "description": "AmplifyJS is a set of components designed to solve common web application problems with a simplistic API. Amplify's goal is to simplify all forms of data handling by providing a unified API for various data sources.",
     "icon": "Amplify JS.png",
     "oss": true,
-    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/)?amplify(?:-production)?(?:\\.core)?(?:\\.store)?(?:\\.min)?(?:[-\\.][\\d\\w]{0,40})?\\.js\\;version:\\1",
+    "scriptSrc": [
+      "(?:((?:\\d+\\.)+\\d+)\\/)?amplify(?:-production)?(?:\\.core)?(?:\\.store)?(?:\\.min)?(?:[-\\.][\\d\\w]{0,40})?\\.js\\;version:\\1"
+    ],
     "website": "https://amplifyjs.com/"
   },
   "Amplitude": {
@@ -3129,7 +3289,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.(?:segment.+)?amplitude(?:\\.com|-plugins)",
+    "scriptSrc": [
+      "cdn\\.(?:segment.+)?amplitude(?:\\.com|-plugins)"
+    ],
     "website": "https://amplitude.com",
     "xhr": "\\.amplitude\\.com"
   },
@@ -3144,7 +3306,9 @@
     "js": {
       "AnalysysAgent": ""
     },
-    "scriptSrc": "AnalysysFangzhou_JS_SDK\\.min\\.js\\?v=([\\d.]+)\\;version:\\1",
+    "scriptSrc": [
+      "AnalysysFangzhou_JS_SDK\\.min\\.js\\?v=([\\d.]+)\\;version:\\1"
+    ],
     "website": "https://ark.analysys.cn"
   },
   "Analyzee": {
@@ -3162,7 +3326,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.analyzee\\.io/sdk/(.*)\\.js",
+    "scriptSrc": [
+      "cdn\\.analyzee\\.io/sdk/(.*)\\.js"
+    ],
     "website": "https://analyzee.io"
   },
   "AndersNoren Baskerville": {
@@ -3177,7 +3343,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/themes/baskerville(?:-2)?/",
+    "scriptSrc": [
+      "/wp-content/themes/baskerville(?:-2)?/"
+    ],
     "website": "https://andersnoren.se/teman/baskerville-wordpress-theme"
   },
   "AndersNoren Fukasawa": {
@@ -3192,7 +3360,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/themes/fukasawa/",
+    "scriptSrc": [
+      "/wp-content/themes/fukasawa/"
+    ],
     "website": "https://andersnoren.se/teman/fukasawa-wordpress-theme"
   },
   "AndersNoren Hemingway": {
@@ -3207,7 +3377,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/themes/hemingway/",
+    "scriptSrc": [
+      "/wp-content/themes/hemingway/"
+    ],
     "website": "https://andersnoren.se/teman/hemingway-wordpress-theme"
   },
   "AndersNoren Hitchcock": {
@@ -3222,7 +3394,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/themes/hitchcock/",
+    "scriptSrc": [
+      "/wp-content/themes/hitchcock/"
+    ],
     "website": "https://andersnoren.se/teman/hitchcock-wordpress-theme"
   },
   "AndersNoren Lovecraft": {
@@ -3237,7 +3411,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/themes/lovecraft/",
+    "scriptSrc": [
+      "/wp-content/themes/lovecraft/"
+    ],
     "website": "https://andersnoren.se/teman/lovecraft-wordpress-theme"
   },
   "Anetwork": {
@@ -3245,7 +3421,9 @@
       36
     ],
     "icon": "Anetwork.png",
-    "scriptSrc": "static-cdn\\.anetwork\\.ir/",
+    "scriptSrc": [
+      "static-cdn\\.anetwork\\.ir/"
+    ],
     "website": "https://www.anetwork.ir"
   },
   "Angie": {
@@ -3300,7 +3478,9 @@
     "description": "Gridster is a JavaScript library, with a simple drag-and-drop interface, for creating intuitive, dynamic and customizable layouts in web applications.",
     "icon": "Angular.svg",
     "oss": true,
-    "scriptSrc": "angular-gridster(?:\\.min)?\\.js",
+    "scriptSrc": [
+      "angular-gridster(?:\\.min)?\\.js"
+    ],
     "website": "https://tiberiuzuld.github.io/angular-gridster2/"
   },
   "Angular Material": {
@@ -3318,7 +3498,9 @@
     "js": {
       "ngMaterial": ""
     },
-    "scriptSrc": "/([\\d.rc-]+)?/angular-material(?:\\.min)?\\.js\\;version:\\1",
+    "scriptSrc": [
+      "/([\\d.rc-]+)?/angular-material(?:\\.min)?\\.js\\;version:\\1"
+    ],
     "website": "https://material.angularjs.org"
   },
   "AngularDart": {
@@ -3375,7 +3557,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "animate-it(?:\\/assets)?(?:\\/js)?(?:\\/animo)?(?:\\/edsanimate)?(?:\\/jquery)?(?:\\/viewportchecker)?(?:\\.ba-throttle-debounce)?(?:\\.min)?(?:\\.site)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "scriptSrc": [
+      "animate-it(?:\\/assets)?(?:\\/js)?(?:\\/animo)?(?:\\/edsanimate)?(?:\\/jquery)?(?:\\/viewportchecker)?(?:\\.ba-throttle-debounce)?(?:\\.min)?(?:\\.site)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+    ],
     "website": "https://wordpress.org/plugins/animate-it/"
   },
   "Animate.css": {
@@ -3416,7 +3600,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "^(?!.*player).*aniview\\.com/",
+    "scriptSrc": [
+      "^(?!.*player).*aniview\\.com/"
+    ],
     "website": "https://aniview.com/video-ad-servers/"
   },
   "Aniview Video Ad Player": {
@@ -3433,7 +3619,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "player\\.aniview\\.com/script/([\\d\\.]+)/\\;version:\\1",
+    "scriptSrc": [
+      "player\\.aniview\\.com/script/([\\d\\.]+)/\\;version:\\1"
+    ],
     "website": "https://aniview.com/video-ad-player/"
   },
   "AnswerDash": {
@@ -3450,7 +3638,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.answerdash\\.com/",
+    "scriptSrc": [
+      "\\.answerdash\\.com/"
+    ],
     "website": "https://www.answerdash.com"
   },
   "Ant Design": {
@@ -3553,7 +3743,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "/antibot8/static/peel\\.js",
+    "scriptSrc": [
+      "/antibot8/static/peel\\.js"
+    ],
     "website": "https://antibot.cloud"
   },
   "Antsomi CDP 365": {
@@ -3566,7 +3758,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.cdp\\.asia/",
+    "scriptSrc": [
+      "\\.cdp\\.asia/"
+    ],
     "website": "https://www.antsomi.com"
   },
   "AnyClip": {
@@ -3583,7 +3777,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "\\.anyclip\\.com",
+    "scriptSrc": [
+      "\\.anyclip\\.com"
+    ],
     "website": "https://www.anyclip.com"
   },
   "AnythingSlider": {
@@ -3593,7 +3789,9 @@
     "description": "A robust jQuery-based slider plugin.",
     "icon": "AnythingSlider.svg",
     "oss": true,
-    "scriptSrc": "anythingslider(?:\\.min)?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "scriptSrc": [
+      "anythingslider(?:\\.min)?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+    ],
     "website": "https://css-tricks.com/anythingslider-jquery-plugin/"
   },
   "Apache APISIX": {
@@ -3637,7 +3835,9 @@
       "Apache Tomcat"
     ],
     "oss": true,
-    "scriptSrc": "jspwiki",
+    "scriptSrc": [
+      "jspwiki"
+    ],
     "url": "wiki\\.jsp",
     "website": "https://jspwiki.org"
   },
@@ -3758,7 +3958,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "/profiles/apigee",
+    "scriptSrc": [
+      "/profiles/apigee"
+    ],
     "website": "https://cloud.google.com/apigee/"
   },
   "Apisearch": {
@@ -3772,7 +3974,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "static\\.apisearch\\.cloud",
+    "scriptSrc": [
+      "static\\.apisearch\\.cloud"
+    ],
     "website": "https://apisearch.io"
   },
   "Aplazame": {
@@ -3827,7 +4031,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/themes/rife(?:-free)?/(?:.+script\\.min\\.js(?:\\?ver=([\\d\\.]+)))?\\;version:\\1",
+    "scriptSrc": [
+      "/wp-content/themes/rife(?:-free)?/(?:.+script\\.min\\.js(?:\\?ver=([\\d\\.]+)))?\\;version:\\1"
+    ],
     "website": "https://apollo13themes.com/rife"
   },
   "ApostropheCMS": {
@@ -3865,7 +4071,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "adrum",
+    "scriptSrc": [
+      "adrum"
+    ],
     "website": "https://appdynamics.com"
   },
   "AppNexus": {
@@ -3883,7 +4091,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "adnxs\\.(?:net|com)",
+    "scriptSrc": [
+      "adnxs\\.(?:net|com)"
+    ],
     "website": "https://appnexus.com",
     "xhr": "prebid\\.adnxs\\.com"
   },
@@ -3897,7 +4107,9 @@
       "Appcues": ""
     },
     "saas": true,
-    "scriptSrc": "fast\\.appcues\\.com",
+    "scriptSrc": [
+      "fast\\.appcues\\.com"
+    ],
     "website": "https://www.appcues.com/"
   },
   "Appian": {
@@ -3913,7 +4125,9 @@
       "webpackJsonpAppian": ""
     },
     "saas": true,
-    "scriptSrc": "tempo/ui/sail-client/embeddedBootstrap\\.nocache\\.js",
+    "scriptSrc": [
+      "tempo/ui/sail-client/embeddedBootstrap\\.nocache\\.js"
+    ],
     "website": "https://www.appian.com"
   },
   "Apple Business Chat": {
@@ -3931,7 +4145,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "/apple_business_chat_commerce/.+/apple_message_button_v([\\d\\.]+)\\.js\\;version:\\1",
+    "scriptSrc": [
+      "/apple_business_chat_commerce/.+/apple_message_button_v([\\d\\.]+)\\.js\\;version:\\1"
+    ],
     "website": "https://developer.apple.com/documentation/businesschat"
   },
   "Apple MapKit JS": {
@@ -3950,7 +4166,9 @@
       "freemium",
       "payg"
     ],
-    "scriptSrc": "//cdn\\.apple-mapkit\\.com/mk/([\\d\\.\\w]+)\\;version:\\1",
+    "scriptSrc": [
+      "//cdn\\.apple-mapkit\\.com/mk/([\\d\\.\\w]+)\\;version:\\1"
+    ],
     "website": "https://developer.apple.com/maps/web/"
   },
   "Apple Pay": {
@@ -3995,7 +4213,9 @@
     "meta": {
       "appleid-signin-client-id": ""
     },
-    "scriptSrc": "appleid\\.auth\\.js",
+    "scriptSrc": [
+      "appleid\\.auth\\.js"
+    ],
     "website": "https://developer.apple.com/sign-in-with-apple/"
   },
   "Apple iCloud Mail": {
@@ -4027,7 +4247,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.applicantstack\\.com/",
+    "scriptSrc": [
+      "\\.applicantstack\\.com/"
+    ],
     "website": "https://www.applicantstack.com"
   },
   "Application Request Routing": {
@@ -4068,7 +4290,9 @@
     "js": {
       "AppsFlyerSdkObject": ""
     },
-    "scriptSrc": "websdk\\.appsflyer\\.com",
+    "scriptSrc": [
+      "websdk\\.appsflyer\\.com"
+    ],
     "website": "https://www.appsflyer.com/"
   },
   "Apptus": {
@@ -4090,7 +4314,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.esales\\.apptus\\.com.+(?:apptus-esales-api-([\\d.]+))\\.min\\.js\\;version:\\1",
+    "scriptSrc": [
+      "cdn\\.esales\\.apptus\\.com.+(?:apptus-esales-api-([\\d.]+))\\.min\\.js\\;version:\\1"
+    ],
     "website": "https://www.apptus.com"
   },
   "Aprimo": {
@@ -4158,7 +4384,9 @@
       "PHP"
     ],
     "oss": true,
-    "scriptSrc": "arastta\\.js",
+    "scriptSrc": [
+      "arastta\\.js"
+    ],
     "website": "https://arastta.org"
   },
   "Arc": {
@@ -4177,7 +4405,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "arc\\.io/widget\\.js",
+    "scriptSrc": [
+      "arc\\.io/widget\\.js"
+    ],
     "website": "https://arc.io",
     "xhr": "\\.arc\\.io"
   },
@@ -4244,7 +4474,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "/Arreva-OnlineDonations-Portlet/",
+    "scriptSrc": [
+      "/Arreva-OnlineDonations-Portlet/"
+    ],
     "website": "https://www.arreva.com"
   },
   "Arsys Domain Parking": {
@@ -4393,7 +4625,9 @@
       "AsciinemaPlayer": "",
       "asciinema": ""
     },
-    "scriptSrc": "asciinema\\.org/",
+    "scriptSrc": [
+      "asciinema\\.org/"
+    ],
     "website": "https://asciinema.org/"
   },
   "Asendia": {
@@ -4420,7 +4654,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/plugins/asgaros-forum/",
+    "scriptSrc": [
+      "/wp-content/plugins/asgaros-forum/"
+    ],
     "website": "https://www.asgaros.de"
   },
   "Assertive Yield": {
@@ -4462,7 +4698,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "themes/astra\\S*\\.js(?:\\?ver=([0-9.]+))?\\;version:\\1",
+    "scriptSrc": [
+      "themes/astra\\S*\\.js(?:\\?ver=([0-9.]+))?\\;version:\\1"
+    ],
     "website": "https://wpastra.com/"
   },
   "Astra Widgets": {
@@ -4532,7 +4770,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.iperceptions\\.com",
+    "scriptSrc": [
+      "\\.iperceptions\\.com"
+    ],
     "website": "https://astutesolutions.com"
   },
   "Atatus": {
@@ -4549,7 +4789,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "/atatus\\.js",
+    "scriptSrc": [
+      "/atatus\\.js"
+    ],
     "website": "https://www.atatus.com"
   },
   "Athena Search": {
@@ -4563,7 +4805,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "wp-content/plugins/athena-search",
+    "scriptSrc": [
+      "wp-content/plugins/athena-search"
+    ],
     "website": "https://www.athenasearch.io"
   },
   "Atlassian Bitbucket": {
@@ -4684,7 +4928,9 @@
     "js": {
       "atomeWidget": ""
     },
-    "scriptSrc": "gateway\\.apaylater\\.com/",
+    "scriptSrc": [
+      "gateway\\.apaylater\\.com/"
+    ],
     "website": "https://www.atome.sg/"
   },
   "Attentive": {
@@ -4702,7 +4948,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.attn\\.tv",
+    "scriptSrc": [
+      "cdn\\.attn\\.tv"
+    ],
     "website": "https://www.attentivemobile.com"
   },
   "Attraqt": {
@@ -4715,7 +4963,9 @@
     "js": {
       "_attraqt": ""
     },
-    "scriptSrc": "cdn\\.attraqt\\.io",
+    "scriptSrc": [
+      "cdn\\.attraqt\\.io"
+    ],
     "website": "https://www.attraqt.com/"
   },
   "AudioEye": {
@@ -4734,7 +4984,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "(?:\\.)?audioeye\\.com/(?:ae\\.js)?",
+    "scriptSrc": [
+      "(?:\\.)?audioeye\\.com/(?:ae\\.js)?"
+    ],
     "website": "https://www.audioeye.com"
   },
   "Audiohook": {
@@ -4786,7 +5038,9 @@
       "localAurelia": ""
     },
     "oss": true,
-    "scriptSrc": "/aurelia[\\d\\w\\-\\.]+\\.js",
+    "scriptSrc": [
+      "/aurelia[\\d\\w\\-\\.]+\\.js"
+    ],
     "website": "https://aurelia.io"
   },
   "Auryc": {
@@ -4802,7 +5056,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.auryc\\.com/",
+    "scriptSrc": [
+      "cdn\\.auryc\\.com/"
+    ],
     "website": "https://www.auryc.com"
   },
   "Australia Post": {
@@ -4850,7 +5106,9 @@
     "implies": [
       "Auth0"
     ],
-    "scriptSrc": "/lock/([\\d.]+)/lock(?:.min)?\\.js\\;version:\\1",
+    "scriptSrc": [
+      "/lock/([\\d.]+)/lock(?:.min)?\\.js\\;version:\\1"
+    ],
     "website": "https://auth0.com/docs/libraries/lock"
   },
   "Autoketing": {
@@ -4894,7 +5152,9 @@
     ],
     "description": "Automatad is a digital media products company that provides a suite of programmatic monetisation solutions.",
     "icon": "automatad.png",
-    "scriptSrc": "//go\\.automatad\\.com/",
+    "scriptSrc": [
+      "//go\\.automatad\\.com/"
+    ],
     "website": "https://automatad.com/"
   },
   "Automatic.css": {
@@ -4929,7 +5189,9 @@
       "freemium",
       "payg"
     ],
-    "scriptSrc": "\\.automizely\\.com/",
+    "scriptSrc": [
+      "\\.automizely\\.com/"
+    ],
     "website": "https://www.automizely.com/marketing"
   },
   "Autopilot": {
@@ -4966,7 +5228,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/plugins/autoptimize/.+\\.js(?:\\?ao_version=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
+    "scriptSrc": [
+      "/wp-content/plugins/autoptimize/.+\\.js(?:\\?ao_version=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+    ],
     "website": "https://autoptimize.com"
   },
   "Avada AVASHIP": {
@@ -4985,7 +5249,9 @@
       "Shopify"
     ],
     "saas": true,
-    "scriptSrc": "freeshippingbar\\.apps\\.avada\\.io/",
+    "scriptSrc": [
+      "freeshippingbar\\.apps\\.avada\\.io/"
+    ],
     "website": "https://apps.shopify.com/avaship"
   },
   "Avada Boost Sales": {
@@ -5005,7 +5271,9 @@
       "Shopify"
     ],
     "saas": true,
-    "scriptSrc": "boostsales\\.apps\\.avada\\.io/",
+    "scriptSrc": [
+      "boostsales\\.apps\\.avada\\.io/"
+    ],
     "website": "https://apps.shopify.com/avada-boost-sales"
   },
   "Avada SEO": {
@@ -5024,7 +5292,9 @@
       "Shopify"
     ],
     "saas": true,
-    "scriptSrc": "seo\\.apps\\.avada\\.io/",
+    "scriptSrc": [
+      "seo\\.apps\\.avada\\.io/"
+    ],
     "website": "https://apps.shopify.com/avada-seo-suite"
   },
   "Avada Size Chart": {
@@ -5040,7 +5310,9 @@
       "Shopify"
     ],
     "saas": true,
-    "scriptSrc": "sizechart\\.apps\\.avada\\.io/",
+    "scriptSrc": [
+      "sizechart\\.apps\\.avada\\.io/"
+    ],
     "website": "https://apps.shopify.com/avada-size-chart"
   },
   "Avangate": {
@@ -5057,7 +5329,9 @@
       "__avng8_callbacks": "",
       "avaSlugify": ""
     },
-    "scriptSrc": "^https?://edge\\.avangate\\.net/",
+    "scriptSrc": [
+      "^https?://edge\\.avangate\\.net/"
+    ],
     "website": "https://www.2checkout.com"
   },
   "Avanser": {
@@ -5083,7 +5357,9 @@
       5
     ],
     "icon": "Avasize.png",
-    "scriptSrc": "^https?://cdn\\.avasize\\.com/",
+    "scriptSrc": [
+      "^https?://cdn\\.avasize\\.com/"
+    ],
     "website": "https://www.avasize.com"
   },
   "Avis Verifies": {
@@ -5101,7 +5377,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.avis-verifies\\.com/",
+    "scriptSrc": [
+      "\\.avis-verifies\\.com/"
+    ],
     "website": "https://www.netreviews.com"
   },
   "Aweber": {
@@ -5121,7 +5399,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.aweber\\.com/",
+    "scriptSrc": [
+      "\\.aweber\\.com/"
+    ],
     "website": "https://www.aweber.com"
   },
   "Awesomplete": {
@@ -5135,7 +5415,9 @@
     "js": {
       "awesomplete": ""
     },
-    "scriptSrc": "/awesomplete\\.js(?:$|\\?)",
+    "scriptSrc": [
+      "/awesomplete\\.js(?:$|\\?)"
+    ],
     "website": "https://leaverou.github.io/awesomplete/"
   },
   "Axeptio": {
@@ -5204,7 +5486,9 @@
       "Slick"
     ],
     "saas": true,
-    "scriptSrc": "//js\\.fw\\.azko\\.fr/",
+    "scriptSrc": [
+      "//js\\.fw\\.azko\\.fr/"
+    ],
     "website": "https://www.azko.fr"
   },
   "Azoya": {
@@ -5299,7 +5583,9 @@
       "content-security-policy": "\\.azureedge\\.net"
     },
     "icon": "Azure.svg",
-    "scriptSrc": "\\.azureedge\\.net/",
+    "scriptSrc": [
+      "\\.azureedge\\.net/"
+    ],
     "website": "https://learn.microsoft.com/en-us/azure/cdn/cdn-overview"
   },
   "Azure Front Door": {
@@ -5338,7 +5624,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "js\\.monitor\\.azure\\.com/",
+    "scriptSrc": [
+      "js\\.monitor\\.azure\\.com/"
+    ],
     "website": "https://azure.microsoft.com/en-us/services/monitor"
   },
   "a-blog cms": {
@@ -5373,7 +5661,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/plugins/a3-lazy-load/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
+    "scriptSrc": [
+      "/wp-content/plugins/a3-lazy-load/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+    ],
     "website": "https://a3rev.com/shop/a3-lazy-load/"
   },
   "aThemes Airi": {
@@ -5391,7 +5681,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/themes/airi/",
+    "scriptSrc": [
+      "/wp-content/themes/airi/"
+    ],
     "website": "https://athemes.com/theme/airi"
   },
   "aThemes Astrid": {
@@ -5410,7 +5702,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/themes/astrid/",
+    "scriptSrc": [
+      "/wp-content/themes/astrid/"
+    ],
     "website": "https://athemes.com/theme/astrid"
   },
   "aThemes Hiero": {
@@ -5425,7 +5719,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/themes/hiero/",
+    "scriptSrc": [
+      "/wp-content/themes/hiero/"
+    ],
     "website": "https://athemes.com/theme/hiero"
   },
   "aThemes Moesia": {
@@ -5444,7 +5740,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/themes/moesia(?:-pro-ii)?/",
+    "scriptSrc": [
+      "/wp-content/themes/moesia(?:-pro-ii)?/"
+    ],
     "website": "https://athemes.com/theme/moesia"
   },
   "aThemes Sydney": {
@@ -5463,7 +5761,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/themes/sydney(?:-pro-ii)?/",
+    "scriptSrc": [
+      "/wp-content/themes/sydney(?:-pro-ii)?/"
+    ],
     "website": "https://athemes.com/theme/sydney"
   },
   "actionhero.js": {
@@ -5481,7 +5781,9 @@
     "js": {
       "actionheroClient": ""
     },
-    "scriptSrc": "actionheroClient\\.js",
+    "scriptSrc": [
+      "actionheroClient\\.js"
+    ],
     "website": "https://www.actionherojs.com"
   },
   "amCharts": {
@@ -5496,7 +5798,9 @@
     "js": {
       "AmCharts": ""
     },
-    "scriptSrc": "amcharts.*\\.js",
+    "scriptSrc": [
+      "amcharts.*\\.js"
+    ],
     "website": "https://amcharts.com"
   },
   "amoCRM": {
@@ -5517,7 +5821,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "\\.amocrm\\.(?:ru|com)",
+    "scriptSrc": [
+      "\\.amocrm\\.(?:ru|com)"
+    ],
     "website": "https://www.amocrm.com"
   },
   "anime.js": {
@@ -5559,7 +5865,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "\\.authorize\\.net/",
+    "scriptSrc": [
+      "\\.authorize\\.net/"
+    ],
     "website": "https://www.authorize.net"
   },
   "autoComplete.js": {
@@ -5569,7 +5877,9 @@
     "description": "autoComplete.js is a simple, pure vanilla Javascript library.",
     "icon": "autoComplete.js.svg",
     "oss": true,
-    "scriptSrc": "@tarekraafat/autocomplete\\.js@([\\d\\.]+)/\\;version:\\1",
+    "scriptSrc": [
+      "@tarekraafat/autocomplete\\.js@([\\d\\.]+)/\\;version:\\1"
+    ],
     "website": "https://tarekraafat.github.io/autoComplete.js"
   }
 }

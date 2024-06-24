@@ -55,7 +55,9 @@
       "Shopify"
     ],
     "saas": true,
-    "scriptSrc": "app\\.bonloyalty\\.com/",
+    "scriptSrc": [
+      "app\\.bonloyalty\\.com/"
+    ],
     "website": "https://bonloyalty.com"
   },
   "BOOM": {
@@ -134,7 +136,9 @@
     ],
     "description": "Babylist is a universal wish list.",
     "icon": "Babylist.svg",
-    "scriptSrc": "babylist\\.com/",
+    "scriptSrc": [
+      "babylist\\.com/"
+    ],
     "website": "https://www.babylist.com"
   },
   "Babylon.js": {
@@ -165,7 +169,9 @@
       "Shopify"
     ],
     "saas": true,
-    "scriptSrc": "app\\.backinstock\\.org/",
+    "scriptSrc": [
+      "app\\.backinstock\\.org/"
+    ],
     "website": "https://backinstock.org"
   },
   "Backbone.js": {
@@ -182,7 +188,9 @@
       "Backbone": "",
       "Backbone.VERSION": "^(.+)$\\;version:\\1"
     },
-    "scriptSrc": "backbone.*\\.js",
+    "scriptSrc": [
+      "backbone.*\\.js"
+    ],
     "website": "https://backbonejs.org"
   },
   "Backdrop": {
@@ -219,7 +227,9 @@
     ],
     "description": "A simple jQuery plugin that allows you to add a dynamically-resized, slideshow-capable background image to any page or element.",
     "oss": true,
-    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/)?(?:jquery\\.)?backstretch(?:\\.min)?\\.js\\;version:\\1",
+    "scriptSrc": [
+      "(?:((?:\\d+\\.)+\\d+)\\/)?(?:jquery\\.)?backstretch(?:\\.min)?\\.js\\;version:\\1"
+    ],
     "website": "https://www.jquery-backstretch.com/"
   },
   "Baidu Analytics (百度统计)": {
@@ -228,7 +238,9 @@
     ],
     "description": "Baidu Analytics (百度统计) is a free tool for tracking and reporting traffic data of users visiting your site.",
     "icon": "Baidu Tongji.png",
-    "scriptSrc": "hm\\.baidu\\.com/hm?\\.js",
+    "scriptSrc": [
+      "hm\\.baidu\\.com/hm?\\.js"
+    ],
     "website": "https://tongji.baidu.com/"
   },
   "Baidu Maps": {
@@ -261,7 +273,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.bamboohr\\.com/",
+    "scriptSrc": [
+      "\\.bamboohr\\.com/"
+    ],
     "website": "https://www.bamboohr.com"
   },
   "Bambuser": {
@@ -278,7 +292,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.bambuser\\.com/",
+    "scriptSrc": [
+      "\\.bambuser\\.com/"
+    ],
     "website": "https://bambuser.com"
   },
   "BandsInTown Events Widget": {
@@ -287,7 +303,9 @@
     ],
     "description": "Bandsintown Events Widget is a free widget which makes it simple to embed your event listings and allow fans to buy tickets, RSVP, follow you and join your Email & SMS lists.",
     "icon": "BandsInTown.png",
-    "scriptSrc": "widget\\.bandsintown\\.com/",
+    "scriptSrc": [
+      "widget\\.bandsintown\\.com/"
+    ],
     "website": "https://artists.bandsintown.com/support/events-widget"
   },
   "Banshee": {
@@ -331,7 +349,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.barilliance\\.net/",
+    "scriptSrc": [
+      "\\.barilliance\\.net/"
+    ],
     "website": "https://www.barilliance.com"
   },
   "Base": {
@@ -348,7 +368,9 @@
       "base-theme-name": "\\;confidence:50",
       "base-theme-version": "\\d+\\;confidence:50"
     },
-    "scriptSrc": "thebase\\.in/js",
+    "scriptSrc": [
+      "thebase\\.in/js"
+    ],
     "website": "https://thebase.in"
   },
   "Basic": {
@@ -376,7 +398,9 @@
     ],
     "description": "Basis Technologies, formerly ‘Centro,’ provides cloud-based workflow automation and business intelligence software for marketing.",
     "icon": "Basis.png",
-    "scriptSrc": "cdn01\\.basis\\.net",
+    "scriptSrc": [
+      "cdn01\\.basis\\.net"
+    ],
     "website": "https://basis.net/"
   },
   "Batflat": {
@@ -449,7 +473,9 @@
       "low"
     ],
     "saas": true,
-    "scriptSrc": "\\.aftersell\\.app/",
+    "scriptSrc": [
+      "\\.aftersell\\.app/"
+    ],
     "website": "https://www.aftersell.com"
   },
   "Beam OutSell": {
@@ -469,7 +495,9 @@
       "freemium"
     ],
     "saas": true,
-    "scriptSrc": "//outsellapp\\.com/",
+    "scriptSrc": [
+      "//outsellapp\\.com/"
+    ],
     "website": "https://apps.shopify.com/outsell"
   },
   "Beamer": {
@@ -503,7 +531,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.trybeans\\.com",
+    "scriptSrc": [
+      "cdn\\.trybeans\\.com"
+    ],
     "website": "https://www.trybeans.com/"
   },
   "Beehiiv": {
@@ -552,7 +582,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "sdk\\.beeketing\\.com/",
+    "scriptSrc": [
+      "sdk\\.beeketing\\.com/"
+    ],
     "website": "https://beeketing.com"
   },
   "Beeswax": {
@@ -561,7 +593,9 @@
     ],
     "description": "Beeswax offers Bidder-as-a-Service solution.",
     "icon": "Beeswax.png",
-    "scriptSrc": "segment\\.prod\\.bidr\\.io",
+    "scriptSrc": [
+      "segment\\.prod\\.bidr\\.io"
+    ],
     "website": "https://www.beeswax.com/"
   },
   "Bentobox": {
@@ -578,7 +612,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.getbento\\.com/",
+    "scriptSrc": [
+      "\\.getbento\\.com/"
+    ],
     "website": "https://getbento.com"
   },
   "Better Click To Tweet": {
@@ -615,7 +651,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "/shopify-apps//js/betterprice/betterprice\\.js",
+    "scriptSrc": [
+      "/shopify-apps//js/betterprice/betterprice\\.js"
+    ],
     "website": "https://apps.shopify.com/better-price"
   },
   "Better Stack": {
@@ -630,7 +668,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "//(?:uptime\\.)?(?:betteruptime|betterstack)\\.com/",
+    "scriptSrc": [
+      "//(?:uptime\\.)?(?:betteruptime|betterstack)\\.com/"
+    ],
     "website": "https://betterstack.com/uptime"
   },
   "BetterDocs": {
@@ -664,7 +704,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/plugins/betterdocs(?:-pro)?/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
+    "scriptSrc": [
+      "/wp-content/plugins/betterdocs(?:-pro)?/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+    ],
     "website": "https://betterdocs.co/docs/wordpress"
   },
   "Betty Blocks": {
@@ -705,7 +747,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "msecnd\\.net/api/beYableJSv(\\d+)\\;version:\\1",
+    "scriptSrc": [
+      "msecnd\\.net/api/beYableJSv(\\d+)\\;version:\\1"
+    ],
     "website": "https://beyable.com"
   },
   "BeyondMenu": {
@@ -719,7 +763,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "static\\.beyondmenu\\.com/",
+    "scriptSrc": [
+      "static\\.beyondmenu\\.com/"
+    ],
     "website": "https://www.beyondmenu.com/contactus.aspx"
   },
   "Big Cartel": {
@@ -749,7 +795,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "(?:\\.|plugins/)?bigcommerce(?:\\.com)?/(?:assets)?",
+    "scriptSrc": [
+      "(?:\\.|plugins/)?bigcommerce(?:\\.com)?/(?:assets)?"
+    ],
     "scripts": "bigcommerceProductId",
     "url": "mybigcommerce\\.com",
     "website": "https://www.bigcommerce.com"
@@ -775,7 +823,9 @@
       "BigCommerce"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.bundleb2b\\.net/",
+    "scriptSrc": [
+      "cdn\\.bundleb2b\\.net/"
+    ],
     "website": "https://www.bundleb2b.com"
   },
   "BigDataCloud IP Geolocation": {
@@ -790,7 +840,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "bigdatacloud\\.net",
+    "scriptSrc": [
+      "bigdatacloud\\.net"
+    ],
     "website": "https://www.bigdatacloud.com/packages/ip-geolocation",
     "xhr": "api\\.bigdatacloud\\.net"
   },
@@ -831,7 +883,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "sdk\\.bigin\\.io/",
+    "scriptSrc": [
+      "sdk\\.bigin\\.io/"
+    ],
     "website": "https://en.bigin.io"
   },
   "Bigware": {
@@ -865,7 +919,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "assets\\.bikayi\\.com/",
+    "scriptSrc": [
+      "assets\\.bikayi\\.com/"
+    ],
     "website": "https://bikayi.com"
   },
   "Billbee": {
@@ -939,7 +995,9 @@
       "Shopify"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.bitespeed\\.co/",
+    "scriptSrc": [
+      "cdn\\.bitespeed\\.co/"
+    ],
     "scripts": "app\\.bitespeed\\.co/",
     "website": "https://www.bitespeed.co"
   },
@@ -974,7 +1032,9 @@
     "js": {
       "bitt": ""
     },
-    "scriptSrc": "bittads\\.com/js/bitt\\.js$",
+    "scriptSrc": [
+      "bittads\\.com/js/bitt\\.js$"
+    ],
     "website": "https://bittads.com"
   },
   "Bizweb": {
@@ -1002,7 +1062,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "js/convio/modules\\.js",
+    "scriptSrc": [
+      "js/convio/modules\\.js"
+    ],
     "url": "/site/Donation2?.*df_id=",
     "website": "https://www.blackbaud.com"
   },
@@ -1123,7 +1185,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/themes/blocksy/(?:.+main\\.js(?:\\?ver=([\\d\\.]+)))?\\;version:\\1",
+    "scriptSrc": [
+      "/wp-content/themes/blocksy/(?:.+main\\.js(?:\\?ver=([\\d\\.]+)))?\\;version:\\1"
+    ],
     "website": "https://creativethemes.com/blocksy"
   },
   "Blocksy Companion": {
@@ -1150,7 +1214,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/plugins/blocksy-companion(?:-pro)?/",
+    "scriptSrc": [
+      "/wp-content/plugins/blocksy-companion(?:-pro)?/"
+    ],
     "website": "https://creativethemes.com/blocksy/companion/"
   },
   "Blogger": {
@@ -1217,7 +1283,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/themes/blossom-travel(?:-pro)?/.+custom\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
+    "scriptSrc": [
+      "/wp-content/themes/blossom-travel(?:-pro)?/.+custom\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+    ],
     "website": "https://blossomthemes.com/wordpress-themes/blossom-travel"
   },
   "Blotout EdgeTag": {
@@ -1251,7 +1319,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.getblue\\.io",
+    "scriptSrc": [
+      "\\.getblue\\.io"
+    ],
     "website": "https://web.getblue.io/en/"
   },
   "Blue Triangle": {
@@ -1270,7 +1340,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.btttag\\.com/btt\\.js",
+    "scriptSrc": [
+      "\\.btttag\\.com/btt\\.js"
+    ],
     "website": "https://bluetriangle.com",
     "xhr": "\\.btttag\\.com"
   },
@@ -1309,7 +1381,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.bluecore\\.com",
+    "scriptSrc": [
+      "\\.bluecore\\.com"
+    ],
     "website": "https://www.bluecore.com"
   },
   "Bluefish": {
@@ -1356,7 +1430,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.blueknow\\.com",
+    "scriptSrc": [
+      "\\.blueknow\\.com"
+    ],
     "website": "https://www.blueknow.com"
   },
   "Blueshift": {
@@ -1365,7 +1441,9 @@
     ],
     "description": "Blueshift offers the SmartHub CDP, which helps brands deliver relevant and connected experiences across every customer interaction.",
     "icon": "Blueshift.png",
-    "scriptSrc": "cdn.getblueshift.com/",
+    "scriptSrc": [
+      "cdn.getblueshift.com/"
+    ],
     "website": "https://blueshift.com/"
   },
   "Bluestone PIM": {
@@ -1404,7 +1482,9 @@
     "implies": [
       "Google Analytics"
     ],
-    "scriptSrc": "boba(?:\\.min)?\\.js",
+    "scriptSrc": [
+      "boba(?:\\.min)?\\.js"
+    ],
     "website": "https://boba.space150.com"
   },
   "BoidCMS": {
@@ -1434,7 +1514,9 @@
       "Bokeh": "",
       "Bokeh.version": "^(.+)$\\;version:\\1"
     },
-    "scriptSrc": "bokeh.*\\.js",
+    "scriptSrc": [
+      "bokeh.*\\.js"
+    ],
     "website": "https://bokeh.org"
   },
   "Bokun": {
@@ -1476,7 +1558,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "brain-assets\\.boldapps\\.net/",
+    "scriptSrc": [
+      "brain-assets\\.boldapps\\.net/"
+    ],
     "website": "https://boldcommerce.com/bold-brain"
   },
   "Bold Bundles": {
@@ -1497,7 +1581,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "bundles\\.boldapps\\.net/",
+    "scriptSrc": [
+      "bundles\\.boldapps\\.net/"
+    ],
     "website": "https://boldcommerce.com/bundles"
   },
   "Bold Chat": {
@@ -1510,7 +1596,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "^https?://vmss\\.boldchat\\.com/aid/\\d{18}/bc\\.vms4/vms\\.js",
+    "scriptSrc": [
+      "^https?://vmss\\.boldchat\\.com/aid/\\d{18}/bc\\.vms4/vms\\.js"
+    ],
     "website": "https://www.boldchat.com/"
   },
   "Bold Commerce": {
@@ -1550,7 +1638,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "cp.\\.boldapps\\.net/",
+    "scriptSrc": [
+      "cp.\\.boldapps\\.net/"
+    ],
     "website": "https://boldcommerce.com/custom-pricing"
   },
   "Bold Motivator": {
@@ -1568,7 +1658,9 @@
       "low"
     ],
     "saas": true,
-    "scriptSrc": "motivate\\.boldapps\\.net/",
+    "scriptSrc": [
+      "motivate\\.boldapps\\.net/"
+    ],
     "website": "https://boldcommerce.com/motivator"
   },
   "Bold Page Builder": {
@@ -1581,7 +1673,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/plugins/bold-page-builder/",
+    "scriptSrc": [
+      "/wp-content/plugins/bold-page-builder/"
+    ],
     "website": "https://wordpress.org/plugins/bold-page-builder"
   },
   "Bold Product Options": {
@@ -1602,7 +1696,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "option\\.boldapps\\.net/",
+    "scriptSrc": [
+      "option\\.boldapps\\.net/"
+    ],
     "website": "https://boldcommerce.com/product-options"
   },
   "Bold Subscriptions": {
@@ -1625,7 +1721,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "sub\\.boldapps\\.net/",
+    "scriptSrc": [
+      "sub\\.boldapps\\.net/"
+    ],
     "website": "https://boldcommerce.com/shopify-subscription-app"
   },
   "Bold Themes": {
@@ -1665,7 +1763,9 @@
       "low"
     ],
     "saas": true,
-    "scriptSrc": "upsells\\.boldapps\\.net/",
+    "scriptSrc": [
+      "upsells\\.boldapps\\.net/"
+    ],
     "website": "https://boldcommerce.com/upsell"
   },
   "BoldGrid": {
@@ -1683,7 +1783,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/plugins/post-and-page-builder",
+    "scriptSrc": [
+      "/wp-content/plugins/post-and-page-builder"
+    ],
     "website": "https://boldgrid.com"
   },
   "Bolt CMS": {
@@ -1746,7 +1848,9 @@
     ],
     "description": "BookDinners is a restaurant table booking widget.",
     "icon": "BookDinners.svg",
-    "scriptSrc": "bookdinners\\.nl/widget\\.js",
+    "scriptSrc": [
+      "bookdinners\\.nl/widget\\.js"
+    ],
     "website": "https://www.bookdinners.nl"
   },
   "BookStack": {
@@ -1784,7 +1888,9 @@
       "low",
       "recurring"
     ],
-    "scriptSrc": "\\.bookthatapp\\.com/",
+    "scriptSrc": [
+      "\\.bookthatapp\\.com/"
+    ],
     "website": "https://www.bookthatapp.com"
   },
   "BookVisit": {
@@ -1797,7 +1903,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "online\\.bookvisit\\.com/",
+    "scriptSrc": [
+      "online\\.bookvisit\\.com/"
+    ],
     "website": "https://bookvisit.com"
   },
   "Bookatable": {
@@ -1806,7 +1914,9 @@
     ],
     "description": "Bookatable is a restaurant table booking widget.",
     "icon": "Bookatable.svg",
-    "scriptSrc": "bda\\.bookatable\\.com/deploy/lbui\\.direct\\.min\\.js",
+    "scriptSrc": [
+      "bda\\.bookatable\\.com/deploy/lbui\\.direct\\.min\\.js"
+    ],
     "website": "https://www.bookatable.co.uk"
   },
   "Bookeo": {
@@ -1840,7 +1950,9 @@
       "low",
       "recurring"
     ],
-    "scriptSrc": "cdn\\.bookero\\.pl",
+    "scriptSrc": [
+      "cdn\\.bookero\\.pl"
+    ],
     "url": "\\.bookero\\.(?:org|pl)",
     "website": "https://www.bookero.org"
   },
@@ -1850,7 +1962,9 @@
     ],
     "description": "Booking.com is one of the largest ecommerce travel companies in the world. As an affiliate member, you can make up to 40% commission.",
     "icon": "Booking.com.svg",
-    "scriptSrc": "aff\\.bstatic\\.com/",
+    "scriptSrc": [
+      "aff\\.bstatic\\.com/"
+    ],
     "website": "https://www.booking.com/affiliate-program/v2/selfmanaged.html"
   },
   "Booking.com widget": {
@@ -1863,7 +1977,9 @@
     "implies": [
       "Booking.com"
     ],
-    "scriptSrc": "q\\.bstatic\\.com/",
+    "scriptSrc": [
+      "q\\.bstatic\\.com/"
+    ],
     "website": "https://www.booking.com/affiliate-program/v2/selfmanaged.html"
   },
   "Bookingkit": {
@@ -1902,7 +2018,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/plugins/bookly-responsive-appointment-booking-tool/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
+    "scriptSrc": [
+      "/wp-content/plugins/bookly-responsive-appointment-booking-tool/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+    ],
     "website": "https://www.booking-wp-plugin.com"
   },
   "Booksy": {
@@ -1919,7 +2037,9 @@
       "low",
       "recurring"
     ],
-    "scriptSrc": "booksy\\.com/widget/code\\.js",
+    "scriptSrc": [
+      "booksy\\.com/widget/code\\.js"
+    ],
     "website": "https://booksy.com/"
   },
   "Boomerang": {
@@ -1971,7 +2091,9 @@
     "requires": [
       "Shopify"
     ],
-    "scriptSrc": "/assets/booster-page-speed-optimizer\\.js",
+    "scriptSrc": [
+      "/assets/booster-page-speed-optimizer\\.js"
+    ],
     "website": "https://apps.shopify.com/page-speed-optimizer"
   },
   "Bootbox.js": {
@@ -1981,7 +2103,9 @@
     "description": "Bootbox.js is a small JavaScript library which allows you to create custom modal dialogs using Bootstrap modals, without having to worry about creating, managing, or removing any of the required DOM elements or JavaScript event handlers.",
     "icon": "Bootbox.js.png",
     "oss": true,
-    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/)?bootbox(?:\\.min)?\\.js\\;version:\\1",
+    "scriptSrc": [
+      "(?:((?:\\d+\\.)+\\d+)\\/)?bootbox(?:\\.min)?\\.js\\;version:\\1"
+    ],
     "website": "https://bootboxjs.com/"
   },
   "Bootic": {
@@ -2051,7 +2175,9 @@
       "Bootstrap",
       "jQuery"
     ],
-    "scriptSrc": "bootstrap-table(?:\\.min)?\\.js",
+    "scriptSrc": [
+      "bootstrap-table(?:\\.min)?\\.js"
+    ],
     "website": "https://bootstrap-table.wenzhixin.net.cn/"
   },
   "BootstrapCDN": {
@@ -2061,7 +2187,9 @@
     "description": "BootstrapCDN is a powerful and reliable Content Delivery Network (CDN) that delivers static resources, including CSS, JavaScript, and font files, for the widely-used Bootstrap framework. By leveraging multiple server locations worldwide, BootstrapCDN accelerates website loading times, ensuring a smooth and visually appealing user experience. Additionally, it ensures website compatibility with various devices and browsers. The service reduces bandwidth usage and server load, improving web performance for developers and end-users alike.",
     "icon": "BootstrapCDN.png",
     "oss": true,
-    "scriptSrc": "bootstrapcdn\\.com\\/bootstrap\\/((?:\\d+\\.)+\\d+)?(?:\\/js\\/)?bootstrap(?:\\.min)?\\.js\\;version:\\1",
+    "scriptSrc": [
+      "bootstrapcdn\\.com\\/bootstrap\\/((?:\\d+\\.)+\\d+)?(?:\\/js\\/)?bootstrap(?:\\.min)?\\.js\\;version:\\1"
+    ],
     "website": "https://www.bootstrapcdn.com/"
   },
   "Booxi": {
@@ -2080,7 +2208,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "/bxe_core\\.js",
+    "scriptSrc": [
+      "/bxe_core\\.js"
+    ],
     "website": "https://www.booxi.com"
   },
   "Borderfree": {
@@ -2246,7 +2376,9 @@
       "Braintree": "",
       "Braintree.version": "^(.+)$\\;version:\\1"
     },
-    "scriptSrc": "js\\.braintreegateway\\.com",
+    "scriptSrc": [
+      "js\\.braintreegateway\\.com"
+    ],
     "website": "https://www.braintreepayments.com"
   },
   "Branch": {
@@ -2284,7 +2416,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.brandfolder\\.com/",
+    "scriptSrc": [
+      "cdn\\.brandfolder\\.com/"
+    ],
     "website": "https://brandfolder.com"
   },
   "Braze": {
@@ -2302,7 +2436,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "js\\.appboycdn\\.com/web-sdk/([\\d.]+)\\;version:\\1",
+    "scriptSrc": [
+      "js\\.appboycdn\\.com/web-sdk/([\\d.]+)\\;version:\\1"
+    ],
     "website": "https://www.braze.com"
   },
   "Bread": {
@@ -2324,7 +2460,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.getbread\\.com",
+    "scriptSrc": [
+      "\\.getbread\\.com"
+    ],
     "website": "https://www.breadpayments.com"
   },
   "Breadcrumb NavXT": {
@@ -2390,7 +2528,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/themes/bricks/assets/",
+    "scriptSrc": [
+      "/wp-content/themes/bricks/assets/"
+    ],
     "website": "https://bricksbuilder.io"
   },
   "Bricksite": {
@@ -2428,7 +2568,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.brightedge\\.com/",
+    "scriptSrc": [
+      "\\.brightedge\\.com/"
+    ],
     "website": "https://www.brightedge.com"
   },
   "BrightInfo": {
@@ -2448,7 +2590,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "app\\.brightinfo\\.com",
+    "scriptSrc": [
+      "app\\.brightinfo\\.com"
+    ],
     "website": "https://www.brightinfo.com"
   },
   "Brightcove": {
@@ -2491,7 +2635,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/plugins/salesforce-wordpress-to-lead/",
+    "scriptSrc": [
+      "/wp-content/plugins/salesforce-wordpress-to-lead/"
+    ],
     "website": "https://brilliantplugins.com/downloads/salesforce/"
   },
   "Brimble": {
@@ -2525,7 +2671,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.broadstreetads\\.com",
+    "scriptSrc": [
+      "cdn\\.broadstreetads\\.com"
+    ],
     "website": "https://broadstreetads.com"
   },
   "Bronto": {
@@ -2544,7 +2692,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "(?:snip|cdn)\\.bronto\\.com",
+    "scriptSrc": [
+      "(?:snip|cdn)\\.bronto\\.com"
+    ],
     "website": "https://bronto.com"
   },
   "Brownie": {
@@ -2572,7 +2722,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "assets\\.youthsrl\\.com/brownie",
+    "scriptSrc": [
+      "assets\\.youthsrl\\.com/brownie"
+    ],
     "website": "https://www.browniesuite.com"
   },
   "Browser-Update.org": {
@@ -2677,7 +2829,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/plugins/buddypress/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
+    "scriptSrc": [
+      "/wp-content/plugins/buddypress/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+    ],
     "website": "https://buddypress.org"
   },
   "BugHerd": {
@@ -2694,7 +2848,9 @@
       "low"
     ],
     "saas": true,
-    "scriptSrc": "\\.bugherd\\.com/",
+    "scriptSrc": [
+      "\\.bugherd\\.com/"
+    ],
     "website": "https://bugherd.com"
   },
   "BugSnag": {
@@ -2715,7 +2871,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "/bugsnag.*\\.js",
+    "scriptSrc": [
+      "/bugsnag.*\\.js"
+    ],
     "website": "https://bugsnag.com"
   },
   "Bugcrowd": {
@@ -2856,7 +3014,9 @@
       "<!-- BC_OBNW -->"
     ],
     "icon": "Business Catalyst.svg",
-    "scriptSrc": "CatalystScripts",
+    "scriptSrc": [
+      "CatalystScripts"
+    ],
     "website": "https://businesscatalyst.com"
   },
   "Business Website Builder": {
@@ -2913,7 +3073,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "cdnjs\\.buymeacoffee\\.com/([\\d.]+)\\;version:\\1",
+    "scriptSrc": [
+      "cdnjs\\.buymeacoffee\\.com/([\\d.]+)\\;version:\\1"
+    ],
     "website": "https://www.buymeacoffee.com"
   },
   "Buy with Prime": {
@@ -2931,7 +3093,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "code\\.buywithprime\\.amazon\\.com/",
+    "scriptSrc": [
+      "code\\.buywithprime\\.amazon\\.com/"
+    ],
     "website": "https://buywithprime.amazon.com"
   },
   "BuySellAds": {
@@ -2965,7 +3129,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.co-buying\\.com/",
+    "scriptSrc": [
+      "cdn\\.co-buying\\.com/"
+    ],
     "website": "https://www.buyapowa.com"
   },
   "BySide": {
@@ -2984,7 +3150,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "webcare\\.byside\\.com/",
+    "scriptSrc": [
+      "webcare\\.byside\\.com/"
+    ],
     "website": "https://byside.com"
   },
   "Bynder": {
@@ -3046,7 +3214,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.ibdok\\.ir/",
+    "scriptSrc": [
+      "cdn\\.ibdok\\.ir/"
+    ],
     "website": "https://bdok.ir"
   },
   "bowser": {
@@ -3055,7 +3225,9 @@
     ],
     "description": "A small, fast and rich-API browser/platform/engine detector for both browser and node.",
     "oss": true,
-    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/)?bowser(?:\\.min)?(?:[-\\.][\\d\\w]{0,64})?\\.js\\;version:\\1",
+    "scriptSrc": [
+      "(?:((?:\\d+\\.)+\\d+)\\/)?bowser(?:\\.min)?(?:[-\\.][\\d\\w]{0,64})?\\.js\\;version:\\1"
+    ],
     "website": "https://opencollective.com/bowser"
   },
   "bxSlider": {
@@ -3070,7 +3242,9 @@
       "low",
       "onetime"
     ],
-    "scriptSrc": "bxslider(?:\\.min)?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "scriptSrc": [
+      "bxslider(?:\\.min)?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+    ],
     "website": "https://bxslider.com/"
   }
 }

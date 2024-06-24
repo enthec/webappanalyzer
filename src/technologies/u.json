@@ -25,7 +25,9 @@
       "<[^>]+class=\"[^\"]*(?:uk-container|uk-section)"
     ],
     "icon": "UIKit.svg",
-    "scriptSrc": "uikit.*\\.js",
+    "scriptSrc": [
+      "uikit.*\\.js"
+    ],
     "website": "https://getuikit.com"
   },
   "UK Mail": {
@@ -116,7 +118,9 @@
       "uswdsPresent": ""
     },
     "oss": true,
-    "scriptSrc": "\\buswds\\b",
+    "scriptSrc": [
+      "\\buswds\\b"
+    ],
     "website": "https://designsystem.digital.gov"
   },
   "Ubercart": {
@@ -127,7 +131,9 @@
     "implies": [
       "Drupal"
     ],
-    "scriptSrc": "uc_cart/uc_cart_block\\.js",
+    "scriptSrc": [
+      "uc_cart/uc_cart_block\\.js"
+    ],
     "website": "https://www.ubercart.org"
   },
   "Ubiliz": {
@@ -253,7 +259,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/plugins/ultimate-social-media-icons/",
+    "scriptSrc": [
+      "/wp-content/plugins/ultimate-social-media-icons/"
+    ],
     "website": "https://www.ultimatelysocial.com"
   },
   "UltraCart": {
@@ -267,7 +275,9 @@
     "js": {
       "ucCatalog": ""
     },
-    "scriptSrc": "cgi-bin\\/UCJavaScript\\?",
+    "scriptSrc": [
+      "cgi-bin\\/UCJavaScript\\?"
+    ],
     "url": "/cgi-bin/UCEditor\\?",
     "website": "https://ultracart.com"
   },
@@ -281,7 +291,9 @@
       "umami": ""
     },
     "oss": true,
-    "scriptSrc": "umami\\.js",
+    "scriptSrc": [
+      "umami\\.js"
+    ],
     "website": "https://umami.is/"
   },
   "Umbraco": {
@@ -339,7 +351,9 @@
       "g_umi.version": "([\\d\\.]+)\\;version:\\1"
     },
     "oss": true,
-    "scriptSrc": "/umi(\\.[\\w\\d]{8})?\\.js",
+    "scriptSrc": [
+      "/umi(\\.[\\w\\d]{8})?\\.js"
+    ],
     "website": "https://umijs.org"
   },
   "Umso": {
@@ -388,7 +402,9 @@
       "X-Unbounce-PageId": ""
     },
     "icon": "Unbounce.png",
-    "scriptSrc": "ubembed\\.com",
+    "scriptSrc": [
+      "ubembed\\.com"
+    ],
     "website": "https://unbounce.com"
   },
   "Unbxd": {
@@ -425,7 +441,9 @@
       "_.VERSION": "^(.+)$\\;confidence:0\\;version:\\1",
       "_.restArguments": ""
     },
-    "scriptSrc": "underscore.*\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1",
+    "scriptSrc": [
+      "underscore.*\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1"
+    ],
     "website": "https://underscorejs.org"
   },
   "Understrap": {
@@ -444,7 +462,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "wp-content/themes/understrap(?:[masterchild-]+)?(?:[masterchild-]+)?/",
+    "scriptSrc": [
+      "wp-content/themes/understrap(?:[masterchild-]+)?(?:[masterchild-]+)?/"
+    ],
     "website": "https://understrap.com"
   },
   "UniFi OS": {
@@ -466,7 +486,9 @@
       67
     ],
     "icon": "Uniconsent.png",
-    "scriptSrc": "cmp\\.uniconsent\\.mgr\\.consensu\\.org/dfp\\.js",
+    "scriptSrc": [
+      "cmp\\.uniconsent\\.mgr\\.consensu\\.org/dfp\\.js"
+    ],
     "website": "https://www.uniconsent.com/"
   },
   "Unicorn Platform": {
@@ -514,7 +536,9 @@
     "dom": "link[href*='unpkg.com']",
     "icon": "Unpkg.png",
     "oss": true,
-    "scriptSrc": "unpkg\\.com/",
+    "scriptSrc": [
+      "unpkg\\.com/"
+    ],
     "website": "https://unpkg.com"
   },
   "Unruly": {
@@ -550,7 +574,9 @@
       "mid"
     ],
     "saas": true,
-    "scriptSrc": "www\\.upsellit\\.com/",
+    "scriptSrc": [
+      "www\\.upsellit\\.com/"
+    ],
     "website": "https://us.upsellit.com"
   },
   "UpSolution Zephyr": {
@@ -565,7 +591,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/themes/Zephyr/.+us\\.theme\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
+    "scriptSrc": [
+      "/wp-content/themes/Zephyr/.+us\\.theme\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+    ],
     "website": "https://zephyr.us-themes.com"
   },
   "Upfluence": {
@@ -578,7 +606,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.upfluence\\.co/",
+    "scriptSrc": [
+      "\\.upfluence\\.co/"
+    ],
     "website": "https://www.upfluence.com"
   },
   "Uploadcare": {
@@ -622,7 +652,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "app\\.upserve\\.com/",
+    "scriptSrc": [
+      "app\\.upserve\\.com/"
+    ],
     "website": "https://onlineordering.upserve.com"
   },
   "UptimeRobot": {
@@ -647,7 +679,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.uptimerobot\\.com/",
+    "scriptSrc": [
+      "\\.uptimerobot\\.com/"
+    ],
     "website": "https://uptimerobot.com"
   },
   "Uptrends": {
@@ -664,7 +698,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "\\.uptrendsdata\\.com/",
+    "scriptSrc": [
+      "\\.uptrendsdata\\.com/"
+    ],
     "website": "https://www.uptrends.com"
   },
   "Upvoty": {
@@ -705,7 +741,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.usablenet\\.com/pt/",
+    "scriptSrc": [
+      "\\.usablenet\\.com/pt/"
+    ],
     "website": "https://usablenet.com"
   },
   "Uscreen": {
@@ -739,7 +777,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "//system\\.user-a\\.co\\.il/",
+    "scriptSrc": [
+      "//system\\.user-a\\.co\\.il/"
+    ],
     "website": "https://user-a.co.il"
   },
   "UserLike": {
@@ -779,7 +819,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.userreport\\.com/",
+    "scriptSrc": [
+      "\\.userreport\\.com/"
+    ],
     "website": "https://www.userreport.com"
   },
   "UserRules": {
@@ -807,7 +849,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.uservoice\\.com/",
+    "scriptSrc": [
+      "\\.uservoice\\.com/"
+    ],
     "website": "https://uservoice.com"
   },
   "UserWay": {
@@ -816,7 +860,9 @@
     ],
     "description": "UserWay is a web accessibility overlay for websites that claims to improve compliance with accessibility standards.",
     "icon": "UserWay.svg",
-    "scriptSrc": "cdn\\.userway\\.org/widget.*\\.js",
+    "scriptSrc": [
+      "cdn\\.userway\\.org/widget.*\\.js"
+    ],
     "website": "https://userway.org/"
   },
   "UserZoom": {
@@ -832,7 +878,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.userzoom\\.com/",
+    "scriptSrc": [
+      "\\.userzoom\\.com/"
+    ],
     "website": "https://www.userzoom.com"
   },
   "Usercentrics": {
@@ -851,7 +899,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.usercentrics\\.eu/.+\\.js",
+    "scriptSrc": [
+      "\\.usercentrics\\.eu/.+\\.js"
+    ],
     "website": "https://usercentrics.com"
   },
   "Userflow": {
@@ -870,7 +920,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.userflow\\.com/",
+    "scriptSrc": [
+      "\\.userflow\\.com/"
+    ],
     "website": "https://userflow.com"
   },
   "Userpilot": {
@@ -910,7 +962,9 @@
     "js": {
       "Ushahidi": ""
     },
-    "scriptSrc": "/js/ushahidi\\.js$",
+    "scriptSrc": [
+      "/js/ushahidi\\.js$"
+    ],
     "website": "https://www.ushahidi.com"
   },
   "Usizy": {
@@ -926,7 +980,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "static\\.usizy\\.es/",
+    "scriptSrc": [
+      "static\\.usizy\\.es/"
+    ],
     "website": "https://usizy.com"
   },
   "Uvicorn": {
@@ -960,7 +1016,9 @@
       "low"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.uvo\\.do/",
+    "scriptSrc": [
+      "cdn\\.uvo\\.do/"
+    ],
     "website": "https://uvodo.com"
   },
   "uKnowva": {
@@ -982,7 +1040,9 @@
     "meta": {
       "generator": "uKnowva (?: ([\\d.]+))?\\;version:\\1"
     },
-    "scriptSrc": "/media/conv/js/jquery\\.js",
+    "scriptSrc": [
+      "/media/conv/js/jquery\\.js"
+    ],
     "website": "https://uknowva.com"
   },
   "uLogin": {
@@ -1054,7 +1114,9 @@
     ],
     "description": "uRemediate provides web accessibility testing tools and accessibility overlays.",
     "icon": "User1st.png",
-    "scriptSrc": "fecdn\\.user1st\\.info/Loader/head",
+    "scriptSrc": [
+      "fecdn\\.user1st\\.info/Loader/head"
+    ],
     "website": "https://www.user1st.com/uremediate/"
   },
   "user.com": {
