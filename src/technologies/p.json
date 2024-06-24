@@ -21,7 +21,9 @@
     "cats": [
       19
     ],
-    "html": "<\\/div>\\s*<!-- outerContainer -->\\s*<div\\s*id=\"printContainer\"><\\/div>",
+    "html": [
+      "<\\/div>\\s*<!-- outerContainer -->\\s*<div\\s*id=\"printContainer\"><\\/div>"
+    ],
     "icon": "PDF.js.svg",
     "js": {
       "PDFJS": "",
@@ -55,9 +57,13 @@
       1
     ],
     "cpe": "cpe:2.3:a:phpnuke:php-nuke:*:*:*:*:*:*:*:*",
-    "html": "<[^>]+Powered by PHP-Nuke",
+    "html": [
+      "<[^>]+Powered by PHP-Nuke"
+    ],
     "icon": "PHP-Nuke.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "generator": "PHP-Nuke"
     },
@@ -226,7 +232,9 @@
     ],
     "description": "Packlink PRO is a multicarrier shipping solutions for ecommerce and marketplaces.",
     "icon": "Packlink.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "pricing": [
       "payg"
     ],
@@ -298,7 +306,9 @@
       "recurring",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/page-builder-framework/.+site-min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://wp-pagebuilderframework.com"
   },
@@ -327,7 +337,9 @@
     "dom": "link[href*='/wp-content/plugins/pagelayer/'], #pagelayer-frontend-css, #pagelayer-global-styles, .pagelayer-body, .pagelayer-header, .pagelayer-footer, .pagelayer-content",
     "icon": "PageLayer.png",
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "pagelayer(?:-frontend)?(?:\\/js)?(?:\\/combined)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
     "website": "https://wordpress.org/plugins/pagelayer"
   },
@@ -414,7 +426,9 @@
     "pricing": [
       "payg"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "\\.getpaloma\\.com/",
     "website": "https://www.getpaloma.com"
@@ -423,7 +437,9 @@
     "cats": [
       66
     ],
-    "css": "--made-with-panda",
+    "css": [
+      "--made-with-panda"
+    ],
     "description": "Panda is a styling engine that generates styling primitives to author atomic CSS and recipes in a type-safe and readable manner.",
     "icon": "PandaCSS.svg",
     "oss": true,
@@ -627,7 +643,9 @@
     "pricing": [
       "poa"
     ],
-    "requires": "Microsoft ASP.NET",
+    "requires": [
+      "Microsoft ASP.NET"
+    ],
     "saas": true,
     "website": "https://www.parttrap.com"
   },
@@ -832,7 +850,9 @@
     "description": "PayPal Credit is a reusable line of credit that lets you pay for online purchases over time.",
     "dom": "img[alt*='PayPal Credit'], a[title*='PayPal Credit']",
     "icon": "PayPal.svg",
-    "implies": "PayPal",
+    "implies": [
+      "PayPal"
+    ],
     "js": {
       "PaypalOffersObject": "",
       "payPalCreditPopover": ""
@@ -848,7 +868,9 @@
     ],
     "description": "PayPal Marketing Solutions enables merchants to see shopper insights and provide custom rewards for buyers with PayPal accounts.",
     "icon": "PayPal.svg",
-    "implies": "PayPal",
+    "implies": [
+      "PayPal"
+    ],
     "pricing": [
       "freemium"
     ],
@@ -1041,7 +1063,9 @@
       "powered by <a href=\"https?://pelican\\.notmyidea\\.org"
     ],
     "icon": "pelican.png",
-    "implies": "Python",
+    "implies": [
+      "Python"
+    ],
     "website": "https://blog.getpelican.com/"
   },
   "PencilBlue": {
@@ -1053,7 +1077,9 @@
       "X-Powered-By": "PencilBlue"
     },
     "icon": "PencilBlue.png",
-    "implies": "Node.js",
+    "implies": [
+      "Node.js"
+    ],
     "website": "https://github.com/pencilblue/pencilblue"
   },
   "Pendo": {
@@ -1104,7 +1130,9 @@
     "cats": [
       1
     ],
-    "html": "<[^>]+class=\"perc-region\"",
+    "html": [
+      "<[^>]+class=\"perc-region\""
+    ],
     "icon": "Percussion.png",
     "meta": {
       "generator": "(?:Percussion|Rhythmyx)"
@@ -1126,7 +1154,9 @@
       "low",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "swift\\.perfectapps\\.io/",
     "website": "https://apps.shopify.com/swift"
@@ -1157,7 +1187,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "saas": true,
     "scriptSrc": "/wp-content/(?:plugins|cache|uploads)/perfmatters/",
     "website": "https://perfmatters.io"
@@ -1172,7 +1204,9 @@
     "meta": {
       "generator": "^Performance Lab ?([\\d.]+)?\\;version:\\1"
     },
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://wordpress.org/plugins/performance-lab/"
   },
   "PerimeterX": {
@@ -1325,9 +1359,13 @@
       "phsid": ""
     },
     "description": "Phabricator is a suite of web-based software development collaboration tools, including the Differential code review tool, the Diffusion repository browser, the Herald change monitoring tool, the Maniphest bug tracker and the Phriction wiki. Phabricator integrates with Git, Mercurial, and Subversion.",
-    "html": "<[^>]+(?:class|id)=\"phabricator-",
+    "html": [
+      "<[^>]+(?:class|id)=\"phabricator-"
+    ],
     "icon": "Phabricator.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "scriptSrc": "/phabricator/[a-f0-9]{8}/rsrc/js/phui/[a-z-]+\\.js$",
     "website": "https://phacility.com"
   },
@@ -1351,7 +1389,9 @@
       "<[^>]+id=\"phenomic(?:root)?\""
     ],
     "icon": "Phenomic.svg",
-    "implies": "React",
+    "implies": [
+      "React"
+    ],
     "scriptSrc": "/phenomic\\.browser\\.[a-f0-9]+\\.js",
     "website": "https://phenomic.io/"
   },
@@ -1383,7 +1423,9 @@
       "low",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/phlox(?:-pro)?/",
     "website": "https://www.phlox.pro"
   },
@@ -1408,7 +1450,9 @@
     ],
     "description": "Phoenix Framework is an open-source web application framework built using the Elixir programming language.",
     "icon": "Phoenix Framework.svg",
-    "implies": "Elixir",
+    "implies": [
+      "Elixir"
+    ],
     "js": {
       "Phoenix.Channel": ""
     },
@@ -1422,7 +1466,9 @@
     "description": "Phoenix LiveView is a library that brings live, interactive, real-time user experiences to your Phoenix applications.",
     "dom": "div[data-phx-session]",
     "icon": "Phoenix Framework.svg",
-    "implies": "Phoenix Framework",
+    "implies": [
+      "Phoenix Framework"
+    ],
     "js": {
       "liveSocket.socket": ""
     },
@@ -1460,7 +1506,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/photo-gallery/.+scripts\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://10web.io/plugins/wordpress-photo-gallery"
   },
@@ -1503,7 +1551,9 @@
         }
       }
     },
-    "excludes": "PhotoShelter",
+    "excludes": [
+      "PhotoShelter"
+    ],
     "icon": "PhotoShelter.png",
     "pricing": [
       "poa"
@@ -1585,7 +1635,9 @@
     ],
     "description": "PickyStory is the ecommerce conversion platform.",
     "icon": "PickyStory.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "js": {
       "pickystory.overrideStore": ""
     },
@@ -1691,7 +1743,9 @@
       "X-Powered-By": "^pimcore$"
     },
     "icon": "pimcore.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "oss": true,
     "pricing": [
       "poa"
@@ -1746,7 +1800,9 @@
       1
     ],
     "icon": "Pingoteam.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "designer": "Pingoteam"
     },
@@ -1822,7 +1878,9 @@
     ],
     "description": "Piwigo is an open-source photo management software designed for creating and managing online photo galleries.",
     "icon": "Piwigo.svg",
-    "implies": "MySQL",
+    "implies": [
+      "MySQL"
+    ],
     "meta": {
       "generator": "^Piwigo\\s"
     },
@@ -1840,7 +1898,9 @@
       10
     ],
     "description": "Piwik PRO Core is a free alternative to Google Analytics that is privacy & compliance focused.",
-    "excludes": "Matomo Analytics",
+    "excludes": [
+      "Matomo Analytics"
+    ],
     "icon": "Piwik PRO Core.svg",
     "pricing": [
       "freemium",
@@ -1900,7 +1960,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/pixelyoursite/",
     "website": "https://www.pixelyoursite.com"
   },
@@ -2082,7 +2144,9 @@
       "mid",
       "recurring"
     ],
-    "requires": "Microsoft ASP.NET",
+    "requires": [
+      "Microsoft ASP.NET"
+    ],
     "saas": true,
     "scriptSrc": "//platincdn\\.com/",
     "website": "https://www.platinmarket.com"
@@ -2108,7 +2172,9 @@
     },
     "cpe": "cpe:2.3:a:playframework:play_framework:*:*:*:*:*:*:*:*",
     "icon": "Play.svg",
-    "implies": "Scala",
+    "implies": [
+      "Scala"
+    ],
     "website": "https://www.playframework.com"
   },
   "Plaza": {
@@ -2171,7 +2237,9 @@
       1
     ],
     "cpe": "cpe:2.3:a:pligg:pligg_cms:*:*:*:*:*:*:*:*",
-    "html": "<span[^>]+id=\"xvotes-0",
+    "html": [
+      "<span[^>]+id=\"xvotes-0"
+    ],
     "icon": "Pligg.svg",
     "js": {
       "pligg_": ""
@@ -2189,7 +2257,9 @@
     "description": "Plone is a free and open source content management system (CMS) built on top of the Zope application server.",
     "dom": "link[href^='/++resource++']",
     "icon": "Plone.svg",
-    "implies": "Python",
+    "implies": [
+      "Python"
+    ],
     "meta": {
       "generator": "Plone"
     },
@@ -2202,7 +2272,9 @@
       25
     ],
     "icon": "Plotly.png",
-    "implies": "D3",
+    "implies": [
+      "D3"
+    ],
     "js": {
       "Plotly.version": "([\\d.])\\;version:\\1"
     },
@@ -2247,7 +2319,9 @@
     "cats": [
       14
     ],
-    "css": "--plyr-progress",
+    "css": [
+      "--plyr-progress"
+    ],
     "description": "Plyr is a simple, lightweight, accessible and customizable HTML5, YouTube and Vimeo media player that supports modern browsers.",
     "icon": "Plyr.png",
     "js": {
@@ -2404,14 +2478,18 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://wordpress.org/plugins/polylang"
   },
   "Polymer": {
     "cats": [
       12
     ],
-    "html": "(?:<polymer-[^>]+|<link[^>]+rel=\"import\"[^>]+/polymer\\.html\")",
+    "html": [
+      "(?:<polymer-[^>]+|<link[^>]+rel=\"import\"[^>]+/polymer\\.html\")"
+    ],
     "icon": "Polymer.png",
     "js": {
       "Polymer.version": "^(.+)$\\;version:\\1"
@@ -2474,7 +2552,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/popularfx/.+\\?ver=([\\d\\.]+)\\;version:\\1",
     "website": "https://popularfx.com"
   },
@@ -2492,7 +2572,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/popup-maker/(?:.+site(?:\\.min)?\\.js\\?.+ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://wppopupmaker.com"
   },
@@ -2568,7 +2650,9 @@
       1,
       11
     ],
-    "html": "<div class=\"posterous",
+    "html": [
+      "<div class=\"posterous"
+    ],
     "icon": "Posterous.png",
     "js": {
       "Posterous": ""
@@ -2757,7 +2841,9 @@
     ],
     "description": "Preline UI is an open-source set of prebuilt UI components based on the utility-first Tailwind CSS framework.",
     "icon": "Preline UI.svg",
-    "implies": "Tailwind CSS",
+    "implies": [
+      "Tailwind CSS"
+    ],
     "oss": true,
     "scriptSrc": "/preline\\.js",
     "website": "https://preline.co"
@@ -2776,7 +2862,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "saas": true,
     "scriptSrc": "/wp-content/plugins/chaty/",
     "website": "https://premio.io/downloads/chaty"
@@ -2814,7 +2902,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/customizr/.+js(?:\\?ver=([\\d\\.]+))?\\;version:\\1",
     "website": "https://presscustomizr.com/customizr"
   },
@@ -2831,7 +2921,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/hueman/.+scripts\\.min\\.js(?:\\?ver=([\\d\\.]+))?\\;version:\\1",
     "website": "https://presscustomizr.com/hueman"
   },
@@ -2851,7 +2943,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/customify/.+theme\\.min\\.js(?:.+ver=([\\d\\.]+))?\\;version:\\1",
     "website": "https://pressmaximum.com/customify"
   },
@@ -2918,7 +3012,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://prettylinks.com"
   },
   "PriceSpider": {
@@ -2941,42 +3037,54 @@
     "cats": [
       66
     ],
-    "css": "\\.p-(?:toast|calendar|dialog-mask|menuitem-text)(?:-content)?\\{",
+    "css": [
+      "\\.p-(?:toast|calendar|dialog-mask|menuitem-text)(?:-content)?\\{"
+    ],
     "description": "PrimeNG is a rich set of open-source UI Components for Angular.",
     "icon": "PrimeNG.svg",
     "oss": true,
     "pricing": [
       "onetime"
     ],
-    "requires": "Angular",
+    "requires": [
+      "Angular"
+    ],
     "website": "https://www.primefaces.org"
   },
   "PrimeReact": {
     "cats": [
       66
     ],
-    "css": "\\.p-(?:toast|calendar|dialog-mask|menuitem-text)(?:-content)?\\{",
+    "css": [
+      "\\.p-(?:toast|calendar|dialog-mask|menuitem-text)(?:-content)?\\{"
+    ],
     "description": "PrimeReact is a rich set of open-source UI Components for React.",
     "icon": "PrimeReact.svg",
     "oss": true,
     "pricing": [
       "onetime"
     ],
-    "requires": "React",
+    "requires": [
+      "React"
+    ],
     "website": "https://www.primefaces.org"
   },
   "PrimeVue": {
     "cats": [
       66
     ],
-    "css": "\\.p-(?:toast|calendar|dialog-mask|menuitem-text)(?:-content)?\\{",
+    "css": [
+      "\\.p-(?:toast|calendar|dialog-mask|menuitem-text)(?:-content)?\\{"
+    ],
     "description": "PrimeVue is a rich set of open-source UI Components for Vue.js.",
     "icon": "PrimeVue.svg",
     "oss": true,
     "pricing": [
       "onetime"
     ],
-    "requires": "Vue.js",
+    "requires": [
+      "Vue.js"
+    ],
     "website": "https://www.primefaces.org"
   },
   "Primis": {
@@ -3088,13 +3196,17 @@
     ],
     "description": "Privy App helps you improve your website conversion rate, grow your email list, automate your email marketing, drive repeat purchases and much more.",
     "icon": "Privy.svg",
-    "implies": "Privy",
+    "implies": [
+      "Privy"
+    ],
     "pricing": [
       "low",
       "freemium",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "//shopify\\.privy\\.com/",
     "website": "https://apps.shopify.com/privy"
@@ -3108,7 +3220,9 @@
       "X-Powered-By": "ProcessWire CMS"
     },
     "icon": "ProcessWire.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "ProcessWire": ""
     },
@@ -3142,7 +3256,9 @@
     ],
     "description": "Product Personalizer apps can help you to customise your products and offer a more personalised experience for your customers.",
     "icon": "Product Personalizer.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "pricing": [
       "low",
       "recurring"
@@ -3166,7 +3282,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/wp-user-avatar(?:-pro)?/.+frontend\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://profilepress.net"
   },
@@ -3205,7 +3323,9 @@
     "cpe": "cpe:2.3:a:progress:sitefinity:*:*:*:*:*:*:*:*",
     "description": "Progress Sitefinity is a content management system (CMS) that you use to create, store, manage, and present content on your website.",
     "icon": "Sitefinity.svg",
-    "implies": "Microsoft ASP.NET",
+    "implies": [
+      "Microsoft ASP.NET"
+    ],
     "js": {
       "sfDataIntell": ""
     },
@@ -3226,7 +3346,9 @@
     "description": "Progress WS_FTP is a file transfer client software developed by Progress Software Corporation, supporting FTP, FTPS, SFTP, and HTTPS protocols with features like drag-and-drop support, file synchronization, and encrypted data transmission.",
     "dom": "form[name='formLogin'][action='login.aspx' i][id='formLogin']\\;confidence:40",
     "icon": "Progress.svg",
-    "requires": "Microsoft ASP.NET",
+    "requires": [
+      "Microsoft ASP.NET"
+    ],
     "scriptSrc": "/ThinClient/(?:WTM|WebResource)(?:\\.axd|/public)\\;confidence:60",
     "website": "https://www.progress.com/ws_ftp"
   },
@@ -3244,7 +3366,9 @@
     "cats": [
       36
     ],
-    "html": "<div[^>]+id=\"pw_adbox_",
+    "html": [
+      "<div[^>]+id=\"pw_adbox_"
+    ],
     "icon": "Project Wonderful.png",
     "js": {
       "pw_adloader": ""
@@ -3270,7 +3394,9 @@
       "promobuilding_session": ""
     },
     "description": "PromoBuilding is a subscription-based website builder for optimising budgets for creating promotional campaigns.",
-    "html": "<!-- made with https://promobuilding\\.ru",
+    "html": [
+      "<!-- made with https://promobuilding\\.ru"
+    ],
     "icon": "PromoBuilding.svg",
     "js": {
       "promoApi": "\\;confidence:25",
@@ -3370,7 +3496,9 @@
       6,
       1
     ],
-    "html": "<html[^>]+data-ng-app=\"RbsChangeApp\"",
+    "html": [
+      "<html[^>]+data-ng-app=\"RbsChangeApp\""
+    ],
     "icon": "Proximis Omnichannel.png",
     "implies": [
       "PHP",
@@ -3395,7 +3523,9 @@
       "pmg-spam-archive": ""
     },
     "oss": true,
-    "requires": "Proxmox VE",
+    "requires": [
+      "Proxmox VE"
+    ],
     "website": "https://proxmox.com/en/proxmox-mail-gateway"
   },
   "Proxmox VE": {
@@ -3501,7 +3631,9 @@
       "X-Powered-PublicCMS": "^(.+)$\\;version:\\1"
     },
     "icon": "Public CMS.png",
-    "implies": "Java",
+    "implies": [
+      "Java"
+    ],
     "website": "https://www.publiccms.com"
   },
   "Publii": {
@@ -3652,13 +3784,17 @@
     ],
     "description": "PushOwl Web Push Notifications are a Shopify app which helps recover abandoned carts and market better with web push.",
     "icon": "PushOwl.svg",
-    "implies": "PushOwl",
+    "implies": [
+      "PushOwl"
+    ],
     "pricing": [
       "low",
       "freemium",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "/sdks/pushowl-shopify\\.js",
     "website": "https://apps.shopify.com/pushowl"
@@ -3717,7 +3853,9 @@
       19
     ],
     "cpe": "cpe:2.3:a:pygments:pygments:*:*:*:*:*:*:*:*",
-    "html": "<link[^>]+pygments\\.css[\"']",
+    "html": [
+      "<link[^>]+pygments\\.css[\"']"
+    ],
     "icon": "pygments.png",
     "website": "https://pygments.org"
   },
@@ -3732,7 +3870,9 @@
       "X-Streams-Distribution": "PyroCMS"
     },
     "icon": "PyroCMS.png",
-    "implies": "Laravel",
+    "implies": [
+      "Laravel"
+    ],
     "website": "https://pyrocms.com"
   },
   "Python": {
@@ -3757,7 +3897,9 @@
       "Server": "^PythonAnywhere$"
     },
     "icon": "PythonAnywhere.svg",
-    "implies": "Python",
+    "implies": [
+      "Python"
+    ],
     "oss": false,
     "pricing": [
       "payg",
@@ -3784,9 +3926,13 @@
     "cats": [
       1
     ],
-    "html": "<link[^>]*/papaya-themes/",
+    "html": [
+      "<link[^>]*/papaya-themes/"
+    ],
     "icon": "papaya CMS.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "website": "https://papaya-cms.com"
   },
   "parallax.js": {
@@ -3854,9 +4000,13 @@
     ],
     "cpe": "cpe:2.3:a:phpalbum:phpalbum:*:*:*:*:*:*:*:*",
     "description": "phpAlbum is an open-source PHP script which allows you to create your personal photo album.",
-    "html": "<!--phpalbum ([.\\d\\s]+)-->\\;version:\\1",
+    "html": [
+      "<!--phpalbum ([.\\d\\s]+)-->\\;version:\\1"
+    ],
     "icon": "phpAlbum.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "website": "https://phpalbum.net"
   },
   "phpBB": {
@@ -3876,7 +4026,9 @@
       "<table class=\"[^\"]*forumline"
     ],
     "icon": "phpBB.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "phpbb": "",
       "style_cookie_settings": ""
@@ -3892,7 +4044,9 @@
     ],
     "cpe": "cpe:2.3:a:phpcms:phpcms:*:*:*:*:*:*:*:*",
     "icon": "PHP.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "phpcms": ""
     },
@@ -3903,9 +4057,13 @@
       4
     ],
     "description": "phpDocumentor is an open-source documentation generator written in PHP.",
-    "html": "<!-- Generated by phpDocumentor",
+    "html": [
+      "<!-- Generated by phpDocumentor"
+    ],
     "icon": "phpDocumentor.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "website": "https://www.phpdoc.org"
   },
   "phpMyAdmin": {
@@ -3936,9 +4094,13 @@
       3
     ],
     "cpe": "cpe:2.3:a:phppgadmin_project:phppgadmin:*:*:*:*:*:*:*:*",
-    "html": "(?:<title>phpPgAdmin</title>|<span class=\"appname\">phpPgAdmin)",
+    "html": [
+      "(?:<title>phpPgAdmin</title>|<span class=\"appname\">phpPgAdmin)"
+    ],
     "icon": "phpPgAdmin.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "website": "https://phppgadmin.sourceforge.net"
   },
   "phpRS": {
@@ -3954,7 +4116,9 @@
       }
     },
     "icon": "default.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "generator": "^phpRS$"
     },
@@ -3982,9 +4146,13 @@
       2
     ],
     "cpe": "cpe:2.3:a:phpwind:phpwind:*:*:*:*:*:*:*:*",
-    "html": "(?:Powered|Code) by <a href=\"[^\"]+phpwind\\.net",
+    "html": [
+      "(?:Powered|Code) by <a href=\"[^\"]+phpwind\\.net"
+    ],
     "icon": "phpwind.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "generator": "^phpwind(?: v([0-9-]+))?\\;version:\\1"
     },
@@ -4011,7 +4179,9 @@
       "pinoox_session": ""
     },
     "icon": "pinoox.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "pinoox": ""
     },
@@ -4026,7 +4196,9 @@
       "<input[^>]+cbi:///cms/"
     ],
     "icon": "pirobaseCMS.svg",
-    "implies": "Java",
+    "implies": [
+      "Java"
+    ],
     "website": "https://www.pirobase-imperia.com/de/produkte/produktuebersicht/pirobase-cms"
   },
   "plentyShop LTS": {
@@ -4062,9 +4234,13 @@
     "cats": [
       59
     ],
-    "html": "(?:<link [^>]*href=\"[^\"]*prettyPhoto(?:\\.min)?\\.css|<a [^>]*rel=\"prettyPhoto)",
+    "html": [
+      "(?:<link [^>]*href=\"[^\"]*prettyPhoto(?:\\.min)?\\.css|<a [^>]*rel=\"prettyPhoto)"
+    ],
     "icon": "prettyPhoto.png",
-    "implies": "jQuery",
+    "implies": [
+      "jQuery"
+    ],
     "js": {
       "pp_alreadyInitialized": "",
       "pp_descriptions": "",
@@ -4078,9 +4254,13 @@
     "cats": [
       2
     ],
-    "html": "Powered by <a href=\"[^>]+punbb",
+    "html": [
+      "Powered by <a href=\"[^>]+punbb"
+    ],
     "icon": "punBB.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "PUNBB": ""
     },

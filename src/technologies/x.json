@@ -5,7 +5,9 @@
     ],
     "description": " X-Cart is an open source PHP shopping cart ecommerce software platform.",
     "icon": "X-Cart.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "xcart_web_dir": "",
       "xliteConfig": ""
@@ -38,7 +40,9 @@
     "cats": [
       22
     ],
-    "html": "<title>XAMPP(?: Version ([\\d\\.]+))?</title>\\;version:\\1",
+    "html": [
+      "<title>XAMPP(?: Version ([\\d\\.]+))?</title>\\;version:\\1"
+    ],
     "icon": "XAMPP.png",
     "implies": [
       "Apache HTTP Server",
@@ -68,7 +72,9 @@
     "cats": [
       2
     ],
-    "html": "<!-- Powered by XMB",
+    "html": [
+      "<!-- Powered by XMB"
+    ],
     "icon": "XMB.png",
     "website": "https://www.xmbforum.com"
   },
@@ -78,7 +84,9 @@
     ],
     "cpe": "cpe:2.3:a:xoops:xoops:*:*:*:*:*:*:*:*",
     "icon": "XOOPS.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "xoops": ""
     },
@@ -107,7 +115,9 @@
       27
     ],
     "description": "XSLT is designed for use as part of XSL, which is a stylesheet language for XML.",
-    "html": "<xsl[^>]* version=\"(.+)\"\\;version:\\1",
+    "html": [
+      "<xsl[^>]* version=\"(.+)\"\\;version:\\1"
+    ],
     "icon": "W3C.png",
     "website": "https://www.w3.org/TR/xslt-10"
   },
@@ -117,12 +127,16 @@
     ],
     "cpe": "cpe:2.3:a:xwiki:xwiki:*:*:*:*:*:*:*:*",
     "description": "XWiki is a free wiki software platform written in Java.",
-    "excludes": "MediaWiki",
+    "excludes": [
+      "MediaWiki"
+    ],
     "html": [
       "<html[^>]data-xwiki-[^>]>"
     ],
     "icon": "xwiki.png",
-    "implies": "Java\\;confidence:99",
+    "implies": [
+      "Java\\;confidence:99"
+    ],
     "meta": {
       "wiki": "xwiki"
     },
@@ -179,9 +193,13 @@
       "Server": "XeoraEngine",
       "X-Powered-By": "XeoraCube"
     },
-    "html": "<input type=\"hidden\" name=\"_sys_bind_\\d+\" id=\"_sys_bind_\\d+\" />",
+    "html": [
+      "<input type=\"hidden\" name=\"_sys_bind_\\d+\" id=\"_sys_bind_\\d+\" />"
+    ],
     "icon": "xeora.png",
-    "implies": "Microsoft ASP.NET",
+    "implies": [
+      "Microsoft ASP.NET"
+    ],
     "scriptSrc": "/_bi_sps_v.+\\.js",
     "website": "https://www.xeora.org"
   },
@@ -288,7 +306,9 @@
       "low",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/xtra/.+custom\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://xtratheme.com"
   },
@@ -307,8 +327,12 @@
     "cats": [
       25
     ],
-    "html": "<link[^>]* href=\"[^\"]*xcharts(?:\\.min)?\\.css",
-    "implies": "D3",
+    "html": [
+      "<link[^>]* href=\"[^\"]*xcharts(?:\\.min)?\\.css"
+    ],
+    "implies": [
+      "D3"
+    ],
     "js": {
       "xChart": ""
     },
@@ -319,7 +343,9 @@
     "cats": [
       6
     ],
-    "html": "<div class=\"copyright\">[^<]+<a[^>]+>xt:Commerce",
+    "html": [
+      "<div class=\"copyright\">[^<]+<a[^>]+>xt:Commerce"
+    ],
     "icon": "xtCommerce.png",
     "meta": {
       "generator": "xt:Commerce"

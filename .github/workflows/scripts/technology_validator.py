@@ -145,6 +145,11 @@ class RegexValidator(abc.ABC, AbstractValidator):
         return True
 
 
+class ArrayValidator(RegexValidator):
+    def get_type(self) -> list[Type]:
+        return [list]
+
+
 class StringOrArrayValidator(RegexValidator):
     def get_type(self) -> list[Type]:
         return [str, list]
@@ -239,25 +244,25 @@ class TechnologiesValidator:
             "saas": BoolValidator(),
             "oss": BoolValidator(),
             "pricing": PricingValidator(),
-            "implies": StringOrArrayValidator(),  # TODO cat validation
-            "requires": StringOrArrayValidator(),  # TODO ^
-            "excludes": StringOrArrayValidator(),  # TODO ^
+            "implies": ArrayValidator(),  # TODO cat validation
+            "requires": ArrayValidator(),  # TODO ^
+            "excludes": ArrayValidator(),  # TODO ^
             "requiresCategory": CategoryValidator(self._CATEGORIES),
             "cookies": DictValidator(contains_regex=True),
             "dom": StringOrArrayOrDictValidator(),  # TODO query selector validator
             "dns": DictValidator(contains_regex=True),
             "js": DictValidator(contains_regex=True),
             "headers": DictValidator(contains_regex=True),
-            "text": StringOrArrayValidator(contains_regex=True),
-            "css": StringOrArrayValidator(contains_regex=True),
+            "text": ArrayValidator(contains_regex=True),
+            "css": ArrayValidator(contains_regex=True),
             "probe": DictValidator(),
-            "robots": StringOrArrayValidator(),
+            "robots": ArrayValidator(),
             "url": StringOrArrayValidator(contains_regex=True),
             "xhr": StringOrArrayValidator(contains_regex=True),
             "meta": DictValidator(contains_regex=True),
             "scriptSrc": StringOrArrayValidator(contains_regex=True),
             "scripts": StringOrArrayValidator(contains_regex=True),
-            "html": StringOrArrayValidator(contains_regex=True),
+            "html": ArrayValidator(contains_regex=True),
             "certIssuer": StringValidator()
         }
 
