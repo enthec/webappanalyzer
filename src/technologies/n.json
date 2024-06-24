@@ -555,7 +555,9 @@
       }
     },
     "icon": "ThemeIsle.png",
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "themes/neve\\S*\\.js(?:\\?ver=([0-9.]+))?\\;version:\\1",
     "website": "https://themeisle.com/themes/neve/"
   },
@@ -700,7 +702,9 @@
     "description": "NextAuth.js is a complete open-source authentication solution for Next.js applications.",
     "icon": "Next-Auth.png",
     "oss": true,
-    "requires": "Next.js",
+    "requires": [
+      "Next.js"
+    ],
     "website": "https://next-auth.js.org"
   },
   "NextGEN Gallery": {
@@ -717,7 +721,9 @@
     "js": {
       "nextgen_lightbox_settings.static_path": "/wp-content/plugins/nextgen-gallery/"
     },
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/nextgen-gallery/js/",
     "website": "https://www.imagely.com/wordpress-gallery-plugin"
   },
@@ -787,7 +793,9 @@
       "__nextra_pageContext__": ""
     },
     "oss": true,
-    "requires": "Next.js",
+    "requires": [
+      "Next.js"
+    ],
     "website": "https://nextra.site/"
   },
   "Nextsale": {
@@ -923,7 +931,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/ninja-forms/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://ninjaforms.com"
   },

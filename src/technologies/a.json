@@ -146,7 +146,9 @@
       "recurring",
       "low"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/covernews(?:-pro)?/",
     "website": "https://afthemes.com/products/covernews"
   },
@@ -193,7 +195,9 @@
     "meta": {
       "generator": "^AMP Plugin v(\\d+\\.\\d+.*)$\\;version:\\1"
     },
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://amp-wp.org"
   },
   "AOLserver": {
@@ -438,7 +442,9 @@
       "mid",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scripts": "\\.accentuate\\.io/",
     "website": "https://www.accentuate.io"
@@ -1270,7 +1276,9 @@
       "AddToAny"
     ],
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/add-to-any/addtoany\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://github.com/projectestac/wordpress-add-to-any"
   },
@@ -1738,7 +1746,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/advanced-custom-fields(?:-pro)?/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://www.advancedcustomfields.com"
   },
@@ -1884,7 +1894,9 @@
     "pricing": [
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "//affilo\\.io/",
     "website": "https://affilo.io"
@@ -2005,7 +2017,9 @@
       "age_gate": ""
     },
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "age-gate(?:\\/dist)?(?:\\/all)?(?:\\/focus)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
     "website": "https://wordpress.org/plugins/age-gate"
   },
@@ -2284,7 +2298,9 @@
       "mid",
       "recurring"
     ],
-    "requires": "Microsoft ASP.NET",
+    "requires": [
+      "Microsoft ASP.NET"
+    ],
     "saas": true,
     "scriptSrc": "\\.akilliticaret\\.com/",
     "website": "https://akilliticaret.com"
@@ -2316,7 +2332,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/akismet/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://akismet.com"
   },
@@ -2531,7 +2549,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://aioseo.com"
   },
   "Alli": {
@@ -2643,7 +2663,9 @@
     "description": "AlternC is a set of software management on Linux shared hosting.",
     "icon": "AlternC.png",
     "oss": true,
-    "requires": "Debian",
+    "requires": [
+      "Debian"
+    ],
     "saas": false,
     "scriptSrc": "js/alternc\\.js",
     "website": "https://alternc.com"
@@ -3152,7 +3174,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/baskerville(?:-2)?/",
     "website": "https://andersnoren.se/teman/baskerville-wordpress-theme"
   },
@@ -3165,7 +3189,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/fukasawa/",
     "website": "https://andersnoren.se/teman/fukasawa-wordpress-theme"
   },
@@ -3178,7 +3204,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/hemingway/",
     "website": "https://andersnoren.se/teman/hemingway-wordpress-theme"
   },
@@ -3191,7 +3219,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/hitchcock/",
     "website": "https://andersnoren.se/teman/hitchcock-wordpress-theme"
   },
@@ -3204,7 +3234,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/lovecraft/",
     "website": "https://andersnoren.se/teman/lovecraft-wordpress-theme"
   },
@@ -3340,7 +3372,9 @@
     "dom": "link[href*='/wp-content/plugins/animate-it/']",
     "icon": "Animate It.png",
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "animate-it(?:\\/assets)?(?:\\/js)?(?:\\/animo)?(?:\\/edsanimate)?(?:\\/jquery)?(?:\\/viewportchecker)?(?:\\.ba-throttle-debounce)?(?:\\.min)?(?:\\.site)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
     "website": "https://wordpress.org/plugins/animate-it/"
   },
@@ -3790,7 +3824,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/rife(?:-free)?/(?:.+script\\.min\\.js(?:\\?ver=([\\d\\.]+)))?\\;version:\\1",
     "website": "https://apollo13themes.com/rife"
   },
@@ -4381,7 +4417,9 @@
     "dom": "link[href*='/wp-content/plugins/asgaros-forum/']",
     "icon": "Asgaros Forum.png",
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/asgaros-forum/",
     "website": "https://www.asgaros.de"
   },
@@ -4421,7 +4459,9 @@
       "low",
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "themes/astra\\S*\\.js(?:\\?ver=([0-9.]+))?\\;version:\\1",
     "website": "https://wpastra.com/"
   },
@@ -4869,7 +4909,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://automaticcss.com"
   },
   "Automizely": {
@@ -4921,7 +4963,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/autoptimize/.+\\.js(?:\\?ao_version=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://autoptimize.com"
   },
@@ -4937,7 +4981,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "freeshippingbar\\.apps\\.avada\\.io/",
     "website": "https://apps.shopify.com/avaship"
@@ -4955,7 +5001,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "boostsales\\.apps\\.avada\\.io/",
     "website": "https://apps.shopify.com/avada-boost-sales"
@@ -4972,7 +5020,9 @@
       "recurring",
       "low"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "seo\\.apps\\.avada\\.io/",
     "website": "https://apps.shopify.com/avada-seo-suite"
@@ -4986,7 +5036,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "sizechart\\.apps\\.avada\\.io/",
     "website": "https://apps.shopify.com/avada-size-chart"
@@ -5318,7 +5370,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/a3-lazy-load/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://a3rev.com/shop/a3-lazy-load/"
   },
@@ -5334,7 +5388,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/airi/",
     "website": "https://athemes.com/theme/airi"
   },
@@ -5351,7 +5407,9 @@
       "onetime",
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/astrid/",
     "website": "https://athemes.com/theme/astrid"
   },
@@ -5364,7 +5422,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/hiero/",
     "website": "https://athemes.com/theme/hiero"
   },
@@ -5381,7 +5441,9 @@
       "onetime",
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/moesia(?:-pro-ii)?/",
     "website": "https://athemes.com/theme/moesia"
   },
@@ -5398,7 +5460,9 @@
       "onetime",
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/sydney(?:-pro-ii)?/",
     "website": "https://athemes.com/theme/sydney"
   },

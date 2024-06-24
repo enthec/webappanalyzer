@@ -237,7 +237,9 @@
       "vant.version": "([\\d\\.]+)\\;version:\\1"
     },
     "oss": true,
-    "requires": "Vue.js",
+    "requires": [
+      "Vue.js"
+    ],
     "website": "https://github.com/youzan/vant"
   },
   "Varbase": {
@@ -617,7 +619,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "website": "https://apps.shopify.com/videogreet-gift-messages"
   },
   "VideoJS": {
@@ -916,7 +920,9 @@
       "mid",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "website": "https://visely.io"
   },
@@ -952,7 +958,9 @@
     "pricing": [
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://visualportfolio.co"
   },
   "Visual Quiz Builder": {
@@ -965,7 +973,9 @@
       "low",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "//whai-cdn\\.nyc\\d\\.cdn\\.digitaloceanspaces\\.com/",
     "website": "https://apps.shopify.com/product-recommendation-quiz"
@@ -1004,7 +1014,9 @@
     },
     "icon": "Visx.svg",
     "oss": true,
-    "requires": "React",
+    "requires": [
+      "React"
+    ],
     "website": "https://airbnb.io/visx/"
   },
   "Vitals": {
@@ -1024,7 +1036,9 @@
       "low",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "//appsolve\\.io/",
     "website": "https://vitals.co"
@@ -1468,7 +1482,9 @@
     "dom": "div[class*='vxe-table']",
     "icon": "vxe-table.png",
     "oss": true,
-    "requires": "Vue.js",
+    "requires": [
+      "Vue.js"
+    ],
     "website": "https://vxetable.cn"
   }
 }

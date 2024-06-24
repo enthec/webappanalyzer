@@ -137,7 +137,9 @@
       "recurring",
       "freemium"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "cdn\\.shopify\\.com/extensions/.+/([\\.\\d]{3,})/assets/upsell\\.min\\.js\\;version:\\1",
     "website": "https://obsidianapps.co"
@@ -177,7 +179,9 @@
       "mid",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "deploy\\.hiconversion\\.com",
     "website": "https://www.obviyo.com"
@@ -225,7 +229,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "themes/oceanwp\\S*\\.js(?:\\?ver=([0-9.]+))?\\;version:\\1",
     "website": "https://oceanwp.org"
   },
@@ -585,7 +591,9 @@
       "freemium",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "omnis(?:nippet1|rc)\\.com/inShop/Embed/shopify\\.js",
     "website": "https://apps.shopify.com/omnisend"
@@ -731,7 +739,9 @@
       "recurring",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/one-page-express(?:-pro)?/",
     "website": "https://onepageexpress.com"
   },
@@ -749,7 +759,9 @@
       "freemium",
       "low"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/social-?locker(?:-next-premium)?/bizpanda/assets/",
     "website": "https://wordpress.org/plugins/social-locker"
   },
@@ -1304,7 +1316,9 @@
     "description": "Opigno LMS is an open-source Learning Management System (LMS) based on Drupal, designed for creating and delivering online courses and educational content.",
     "icon": "Opigno LMS.svg",
     "oss": true,
-    "requires": "Drupal",
+    "requires": [
+      "Drupal"
+    ],
     "scripts": "opigno_(?:commerce|wtp_app|scorm|learning_path)",
     "website": "https://www.opigno.org"
   },
@@ -1474,7 +1488,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/optinmonster/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://optinmonster.com"
   },
@@ -1688,7 +1704,9 @@
     "description": "OrbitFox is a multi-featured WordPress plugin that works with the Elementor, Beaver Builder and Gutenberg site-building utilities by Themeisle.",
     "dom": "link[href*='/wp-content/plugins/themeisle-companion/']",
     "icon": "OrbitFox.svg",
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://themeisle.com/plugins/orbit-fox-companion"
   },
   "Orchard Core": {
@@ -1932,7 +1950,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/panoramic/.+custom\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://www.outtheboxthemes.com/wordpress-themes/panoramic"
   },
@@ -2015,7 +2035,9 @@
       "<link [^>]*href=(?:\"|')[^>]*wp-content/plugins/oxygen/"
     ],
     "icon": "Oxygen.png",
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": [
       "wp-content/plugins/oxygen"
     ],

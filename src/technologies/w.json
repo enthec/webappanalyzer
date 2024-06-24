@@ -12,7 +12,9 @@
       "<!--[^>]+W3 Total Cache"
     ],
     "icon": "W3 Total Cache.png",
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://www.w3-edge.com/wordpress-plugins/w3-total-cache"
   },
   "W3.CSS": {
@@ -92,7 +94,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/education-hub(?:-pro)?/",
     "website": "https://wenthemes.com/item/wordpress-themes/education-hub"
   },
@@ -109,7 +113,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://wenthemes.com/item/wordpress-themes/signify-dark"
   },
   "WHMCS": {
@@ -137,7 +143,9 @@
     "pricing": [
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/wp-automatic/",
     "website": "https://wpautomatic.com"
   },
@@ -174,7 +182,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/cache/wpfc-minified/",
     "website": "https://www.wpfastestcache.com"
   },
@@ -184,7 +194,9 @@
     ],
     "description": "WP Featherlight is a WordPress lightbox plugin for adding a minimal, high-performance, responsive jQuery lightbox to your WordPress website.",
     "icon": "WP_Featherlight.png",
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wpFeatherlight\\.pkgd\\.min\\.js",
     "website": "https://wordpress.org/plugins/wp-featherlight"
   },
@@ -202,7 +214,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/wp-google-map-plugin/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://www.wpmapspro.com"
   },
@@ -222,7 +236,9 @@
       "recurring",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "saas": true,
     "scriptSrc": "/wp-content/plugins/wp-job-openings/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://wpjobopenings.com"
@@ -235,7 +251,9 @@
     "description": "WP Live Visitor Counter is a WordPress plugin that displays the number of online visitors on a website in real-time.",
     "dom": "link[href*='/wp-content/plugins/wp-visitors-widget/']",
     "icon": "default.svg",
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://wordpress.org/plugins/wp-visitors-widget/"
   },
   "WP Maintenance Mode": {
@@ -248,7 +266,9 @@
       "wpmm_vars": ""
     },
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/wp-maintenance-mode/.+wpmm\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://github.com/andrianvaleanu/WP-Maintenance-Mode"
   },
@@ -263,7 +283,9 @@
       "recurring",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/astra-portfolio/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://wpportfolio.net"
   },
@@ -277,7 +299,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/basic/",
     "website": "https://wp-puzzle.com/basic"
   },
@@ -305,7 +329,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "saas": true,
     "scriptSrc": "/wp-content/plugins/wp-rocket/",
     "website": "https://wp-rocket.me"
@@ -325,7 +351,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://getwpo.com"
   },
   "WP-PageNavi": {
@@ -336,7 +364,9 @@
     "dom": "link[href*='/wp-content/plugins/wp-pagenavi/']",
     "icon": "WP-PageNavi.svg",
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://github.com/lesterchan/wp-pagenavi"
   },
   "WP-Royal Ashe": {
@@ -354,7 +384,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/ashe(?:-pro-premium)?/",
     "website": "https://wp-royal.com/themes/item-ashe-free"
   },
@@ -369,7 +401,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/bard(?:-pro-premium)?/",
     "website": "https://wp-royal.com/themes/item-bard-free"
   },
@@ -392,7 +426,9 @@
     "pricing": [
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://wp-statistics.com"
   },
   "WPCacheOn": {
@@ -427,7 +463,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/wpforms(?:-lite)?/.+(?:frontend\\.min|wpforms)\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://wpforms.com"
   },
@@ -450,7 +488,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/sitepress-multilingual-cms/",
     "website": "https://wpml.org/"
   },
@@ -465,7 +505,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/wp-smushit(?:-pro)?/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://wpmudev.com/project/wp-smush-pro"
   },
@@ -478,7 +520,9 @@
     "js": {
       "wpspagevisit": ""
     },
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://wordpress.org/plugins/wps-visitor-counter/"
   },
   "Wagtail": {
@@ -647,7 +691,9 @@
     "js": {
       "Waveform": ""
     },
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://music.flatfull.com/waveme/about/"
   },
   "Waveme": {
@@ -664,7 +710,9 @@
     "pricing": [
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://music.flatfull.com/waveme/about/"
   },
   "WayForPay": {
@@ -721,7 +769,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/weaver-xtreme/.+weaverxjslib-end\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://weavertheme.com"
   },
@@ -772,7 +822,9 @@
       "amp-story-generator-version": "^(.+)$\\;version:\\1"
     },
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://wp.stories.google"
   },
   "Web Wiz Forums": {
@@ -853,7 +905,9 @@
       "mtnc_front_options": ""
     },
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://wordpress.org/plugins/maintenance"
   },
   "WebFactory Under Construction": {
@@ -864,7 +918,9 @@
     "dom": "link[href*='/wp-content/plugins/under-construction-page/']",
     "icon": "WebFactory.png",
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://wordpress.org/plugins/under-construction-page"
   },
   "WebGUI": {
@@ -971,7 +1027,9 @@
       "recurring",
       "low"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "saas": true,
     "website": "https://www.webtoffee.com/product/woocommerce-stripe-payment-gateway/"
   },
@@ -1088,7 +1146,9 @@
       "low",
       "recurring"
     ],
-    "requires": "Webflow",
+    "requires": [
+      "Webflow"
+    ],
     "saas": true,
     "website": "https://webflow.com/ecommerce"
   },
@@ -1252,7 +1312,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/busiprof(?:-pro)?/",
     "website": "https://webriti.com/busiprof-premium-wordpress-theme-1"
   },
@@ -1430,7 +1492,9 @@
       "<!-- Welcart version : v([\\d.]+)\\;version:\\1"
     ],
     "icon": "Welcart.svg",
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "uscesL10n",
     "website": "https://www.welcart.com"
   },
@@ -1754,7 +1818,9 @@
       "low",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "website": "https://appmate.io"
   },
@@ -1936,7 +2002,9 @@
       "generator": "WooCommerce ([\\d.]+)\\;version:\\1"
     },
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": [
       "woocommerce",
       "/woocommerce(?:\\.min)?\\.js(?:\\?ver=([0-9.]+))?\\;version:\\1"
@@ -1991,7 +2059,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/woocommerce-gateway-paypal-express-checkout/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://github.com/woocommerce/woocommerce-gateway-paypal-express-checkout"
   },
@@ -2006,7 +2076,9 @@
       "PayPal"
     ],
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/woocommerce-paypal-payments/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://github.com/woocommerce/woocommerce-paypal-payments"
   },
@@ -2023,7 +2095,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/woocommerce-gateway-stripe/",
     "website": "https://woocommerce.com/products/stripe"
   },
@@ -2041,7 +2115,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://woocommerce.com/products/woocommerce-subscriptions"
   },
   "Woopra": {
@@ -2070,7 +2146,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/woostify/",
     "website": "https://woostify.com"
   },
@@ -2156,7 +2234,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/default/",
     "website": "https://wordpress.org/themes/default"
   },
@@ -2183,7 +2263,9 @@
     },
     "icon": "WordPress.svg",
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://wordpress.org/documentation/article/create-a-network/"
   },
   "WordPress Super Cache": {
@@ -2199,7 +2281,9 @@
       "<!--[^>]+WP-Super-Cache"
     ],
     "icon": "wp_super_cache.png",
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://z9.io/wp-super-cache/"
   },
   "WordPress VIP": {
@@ -2246,7 +2330,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/wordfence/.+admin\\.ajaxWatcher\\.\\d+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://www.wordfence.com"
   },
@@ -2262,7 +2348,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/wordfence/.+login\\.\\d+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://www.wordfence.com"
   },
@@ -2572,7 +2660,9 @@
       "low",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://wpbakery.com"
   },
   "wpCache": {
@@ -2595,7 +2685,9 @@
       "generator": "wpCache",
       "keywords": "wpCache"
     },
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "url": "^https?://[^/]+\\.wpcache\\.co",
     "website": "https://wpcache.co"
   }

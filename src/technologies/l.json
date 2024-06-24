@@ -107,7 +107,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/landingpress-wp/.+script\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://landingpress.net"
   },
@@ -352,7 +354,9 @@
       "payg",
       "poa"
     ],
-    "requires": "LiveChat",
+    "requires": [
+      "LiveChat"
+    ],
     "scriptSrc": "(?://|\\.)chatsystem\\.io/",
     "website": "https://www.leadchat.com"
   },
@@ -477,7 +481,9 @@
         }
       }
     },
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "pricing": [
       "low",
       "onetime",
@@ -691,7 +697,9 @@
     "pricing": [
       "poa"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "saas": true,
     "website": "https://level5advertising.com/websites/"
   },
@@ -847,7 +855,9 @@
       "mid",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/lightning(?:-pro)?/.+lightning\\.min\\.js(?:.+ver=([\\d\\.]+))?\\;version:\\1",
     "website": "https://lightning.vektor-inc.co.jp/en/"
   },
@@ -928,7 +938,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://www.limitloginattempts.com"
   },
   "Linen": {
@@ -1135,7 +1147,9 @@
       "x-turbo-charged-by": "LiteSpeed"
     },
     "icon": "litespeed-cache.png",
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://wordpress.org/plugins/litespeed-cache/"
   },
   "Lithium": {
@@ -1219,7 +1233,9 @@
       "recurring",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/livecanvas/",
     "website": "https://livecanvas.com"
   },
@@ -2081,7 +2097,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/kale(?:-pro)?/",
     "website": "https://www.lyrathemes.com/kale"
   },

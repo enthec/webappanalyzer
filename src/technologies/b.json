@@ -51,7 +51,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "app\\.bonloyalty\\.com/",
     "website": "https://bonloyalty.com"
@@ -159,7 +161,9 @@
       "low",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "app\\.backinstock\\.org/",
     "website": "https://backinstock.org"
@@ -589,7 +593,9 @@
       "mid",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://wordpress.org/plugins/better-click-to-tweet/"
   },
   "Better Price": {
@@ -655,7 +661,9 @@
     "pricing": [
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/betterdocs(?:-pro)?/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://betterdocs.co/docs/wordpress"
   },
@@ -763,7 +771,9 @@
       "mid",
       "recurring"
     ],
-    "requires": "BigCommerce",
+    "requires": [
+      "BigCommerce"
+    ],
     "saas": true,
     "scriptSrc": "cdn\\.bundleb2b\\.net/",
     "website": "https://www.bundleb2b.com"
@@ -925,7 +935,9 @@
       "low",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "cdn\\.bitespeed\\.co/",
     "scripts": "app\\.bitespeed\\.co/",
@@ -1108,7 +1120,9 @@
       "recurring",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/blocksy/(?:.+main\\.js(?:\\?ver=([\\d\\.]+)))?\\;version:\\1",
     "website": "https://creativethemes.com/blocksy"
   },
@@ -1133,7 +1147,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/blocksy-companion(?:-pro)?/",
     "website": "https://creativethemes.com/blocksy/companion/"
   },
@@ -1198,7 +1214,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/blossom-travel(?:-pro)?/.+custom\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://blossomthemes.com/wordpress-themes/blossom-travel"
   },
@@ -1373,7 +1391,9 @@
     "pricing": [
       "poa"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "saas": true,
     "website": "https://www.boatsgroup.com/websites"
   },
@@ -1558,7 +1578,9 @@
     ],
     "description": "Bold Page Builder is a plugin or a theme component that allows users to structure and design responsive pages.",
     "icon": "Bold Page Builder.png",
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/bold-page-builder/",
     "website": "https://wordpress.org/plugins/bold-page-builder"
   },
@@ -1658,7 +1680,9 @@
       "<link rel=[\"']stylesheet[\"'] [^>]+post-and-page-builder",
       "<link[^>]+s\\d+\\.boldgrid\\.com"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/post-and-page-builder",
     "website": "https://boldgrid.com"
   },
@@ -1875,7 +1899,9 @@
       "low",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/bookly-responsive-appointment-booking-tool/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://www.booking-wp-plugin.com"
   },
@@ -1926,7 +1952,9 @@
       "payg",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "website": "https://boostcommerce.net"
   },
@@ -1940,7 +1968,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "scriptSrc": "/assets/booster-page-speed-optimizer\\.js",
     "website": "https://apps.shopify.com/page-speed-optimizer"
   },
@@ -2095,7 +2125,9 @@
       "low",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://borlabs.io/borlabs-cookie/"
   },
   "Botble CMS": {
@@ -2129,7 +2161,9 @@
       "mid",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "website": "https://www.getboutiq.com"
   },
@@ -2303,7 +2337,9 @@
     ],
     "icon": "Breadcrumb NavXT.svg",
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://github.com/mtekk/Breadcrumb-NavXT"
   },
   "Breakdance": {
@@ -2351,7 +2387,9 @@
       "low",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/bricks/assets/",
     "website": "https://bricksbuilder.io"
   },
@@ -2450,7 +2488,9 @@
     "implies": [
       "Salesforce"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/salesforce-wordpress-to-lead/",
     "website": "https://brilliantplugins.com/downloads/salesforce/"
   },
@@ -2634,7 +2674,9 @@
     ],
     "description": "BuddyPress is designed to allow schools, companies, sports teams, or any other niche community to start their own social network or communication tool.",
     "icon": "BuddyPress.svg",
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/buddypress/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://buddypress.org"
   },

@@ -147,7 +147,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/gpt3-ai-content-generator/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://gptaipower.com"
   },
@@ -179,7 +181,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://gtranslate.io"
   },
   "GTranslate app": {
@@ -195,7 +199,9 @@
       "low",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "scriptSrc": "gtranslate\\.io/shopify/",
     "website": "https://apps.shopify.com/multilingual-shop-by-gtranslate"
   },
@@ -401,7 +407,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://generateblocks.com"
   },
   "GeneratePress": {
@@ -434,7 +442,9 @@
       "recurring",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "themes\\/generatepress(?:(?:%20)?_?child)?(?:\\/assets)?(?:\\/inc)?(?:\\/js)?(?:\\/accordion){0,2}(?:\\/lity)?(?:\\/menu)?(?:\\/owl)?(?:\\/slick){0,2}(?:\\/vs(?:loadmore)?(?:postviews)?)?(?:\\/back-to-top)?(?:\\/keen-slider)?(?:\\/tab-img)?(?:-init)?(?:\\.carousel)?(?:\\/jquery)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
     "website": "https://generatepress.com"
   },
@@ -451,7 +461,9 @@
       "onetime",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "saas": true,
     "scriptSrc": "wp-content\\/plugins\\/gp-premium(?:\\/menu-plus)?(?:\\/sections)?\\/functions\\/js(?:\\/offside)?(?:\\/parallax)?(?:\\/sticky)?(?:\\.min)?(?:-((?:\\d+\\.)+\\d+))?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1\\2",
     "website": "https://docs.generatepress.com/article/installing-gp-premium/"
@@ -466,7 +478,9 @@
       "genesisBlocksShare": "",
       "genesis_responsive_menu": ""
     },
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/genesis/lib/js/",
     "website": "https://www.studiopress.com/themes/genesis"
   },
@@ -775,7 +789,9 @@
       "recurring",
       "payg"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "assets/js/giftship\\.([\\d\\.]+)\\.js\\;version:\\1",
     "website": "https://gist-apps.com/giftship"
@@ -938,7 +954,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/give/.+give\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://givewp.com"
   },
@@ -1364,7 +1382,9 @@
     "dom": "link[href*='/wp-content/plugins/coblocks/']",
     "icon": "GoDaddy.svg",
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/coblocks/",
     "website": "https://github.com/godaddy-wordpress/coblocks"
   },
@@ -1387,7 +1407,9 @@
       "GoDaddy Primer"
     ],
     "icon": "GoDaddy.svg",
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://github.com/godaddy-wordpress/primer-child-escapade"
   },
   "GoDaddy Go": {
@@ -1401,7 +1423,9 @@
       "goFrontend.openMenuOnHover": ""
     },
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/go/.+frontend\\.min\\.js(?:.+ver=([\\d\\.]+))?\\;version:\\1",
     "website": "https://github.com/godaddy-wordpress/go"
   },
@@ -1415,7 +1439,9 @@
       "GoDaddy Primer"
     ],
     "icon": "GoDaddy.svg",
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://github.com/godaddy-wordpress/primer-child-lyrical"
   },
   "GoDaddy Online Store": {
@@ -1436,7 +1462,9 @@
     "description": "GoDaddy Primer is a powerful theme that brings clarity to your content in a fresh design. This is the parent for all themes in the GoDaddy Primer theme family.",
     "dom": "link[href*='/wp-content/themes/primer/']",
     "icon": "GoDaddy.svg",
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/primer/.+navigation\\.min\\.js(?:.+ver=([\\d\\.]+))?\\;version:\\1",
     "website": "https://github.com/godaddy-wordpress/primer"
   },
@@ -1450,7 +1478,9 @@
       "GoDaddy Primer"
     ],
     "icon": "GoDaddy.svg",
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://github.com/godaddy-wordpress/primer-child-uptownstyle"
   },
   "GoDaddy Website Builder": {
@@ -1984,7 +2014,9 @@
       "Google Tag Manager"
     ],
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/duracelltomi-google-tag-manager/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://gtm4wp.com"
   },
@@ -2256,7 +2288,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/graphene(?:-plus)?/.+graphene\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://www.graphene-theme.com/graphene-theme"
   },
@@ -2336,7 +2370,9 @@
       "<link [^>]*href=(?:\"|')[^>]*wp-content/plugins/gravityforms/css/"
     ],
     "icon": "gravityforms.svg",
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/gravityforms/js/[^/]+\\.js\\?ver=([\\d.]+)$\\;version:\\1",
     "website": "https://gravityforms.com"
   },
@@ -2471,7 +2507,9 @@
       "low",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "\\.socialshopwave\\.com/",
     "website": "https://growave.io"
@@ -2605,7 +2643,9 @@
     },
     "icon": "Gutenberg.png",
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/gutenberg/",
     "website": "https://github.com/WordPress/gutenberg"
   },

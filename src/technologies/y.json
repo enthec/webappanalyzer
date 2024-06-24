@@ -459,7 +459,9 @@
     "description": "Yoast Duplicate Post is a WordPress plugin which allows users to clone posts of any type, or copy them to new drafts for further editing.",
     "dom": "link[href*='/wp-content/plugins/duplicate-post/']",
     "icon": "Yoast SEO.png",
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://wordpress.org/plugins/duplicate-post"
   },
   "Yoast SEO": {

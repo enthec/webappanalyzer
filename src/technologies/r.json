@@ -188,7 +188,9 @@
     "dom": "a[data-radix-collection-item], button[data-radix-collection-item]",
     "icon": "Radix UI.svg",
     "oss": true,
-    "requires": "React",
+    "requires": [
+      "React"
+    ],
     "website": "https://www.radix-ui.com"
   },
   "Rain": {
@@ -322,7 +324,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/seo-by-rank-math(?:-pro)?/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://rankmath.com"
   },
@@ -535,7 +539,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/wpcf7-recaptcha/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://wordpress.org/plugins/wpcf7-recaptcha/"
   },
@@ -631,7 +637,9 @@
       "mid",
       "recurring"
     ],
-    "requires": "React",
+    "requires": [
+      "React"
+    ],
     "saas": true,
     "website": "https://reactbricks.com"
   },
@@ -759,7 +767,9 @@
     "dom": "img[src*='/wp-content/plugins/really-simple-captcha/']",
     "icon": "Really Simple CAPTCHA.png",
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://wordpress.org/plugins/really-simple-captcha"
   },
   "RebelMouse": {
@@ -839,7 +849,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://wordpress.org/plugins/recent-posts-widget-with-thumbnails/"
   },
   "Recharge": {
@@ -965,7 +977,9 @@
       }
     },
     "icon": "Recurate.svg",
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "scripts": "\"(?:vendor|title)?\"\\:\"Recurate\"",
     "website": "https://www.recurate.com"
   },
@@ -1159,7 +1173,9 @@
       "generator": "Redux\\s([\\d\\.]+)\\;version:\\1"
     },
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://redux.io"
   },
   "RedwoodJS": {
@@ -1416,7 +1432,9 @@
     "js": {
       "renderbetter": ""
     },
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "website": "https://www.renderbetter.com"
   },
   "Replicache": {
@@ -1466,7 +1484,9 @@
       "low",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "\\.reputon\\.com/",
     "website": "https://reputon.com"
@@ -1638,7 +1658,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/responsive-lightbox/.+front\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://dfactory.eu/products/responsive-lightbox-gallery-extensions/"
   },
@@ -1740,7 +1762,9 @@
       "low",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "scriptSrc": "//return-prime-proxy-prod\\.s3[^ ]*\\.amazonaws\\.com/",
     "website": "https://www.returnprime.com/"
   },
@@ -1976,7 +2000,9 @@
       "low",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "api\\.revy\\.io/",
     "website": "https://revy.io"
@@ -2046,7 +2072,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "saas": true,
     "scriptSrc": "/wp-content/plugins/widget-google-reviews/",
     "website": "https://richplugins.com/business-reviews-bundle-wordpress-plugin"
@@ -2156,7 +2184,9 @@
       "payg",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "strn\\.rise-ai\\.com/",
     "website": "https://rise.ai"

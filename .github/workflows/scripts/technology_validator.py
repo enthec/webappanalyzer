@@ -245,7 +245,7 @@ class TechnologiesValidator:
             "oss": BoolValidator(),
             "pricing": PricingValidator(),
             "implies": ArrayValidator(),  # TODO cat validation
-            "requires": StringOrArrayValidator(),  # TODO ^
+            "requires": ArrayValidator(),  # TODO ^
             "excludes": ArrayValidator(),  # TODO ^
             "requiresCategory": CategoryValidator(self._CATEGORIES),
             "cookies": DictValidator(contains_regex=True),

@@ -199,7 +199,9 @@
       "onetime",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://snosites.com"
   },
   "SOBI 2": {
@@ -342,7 +344,9 @@
     "dom": "link[href*='/wp-content/plugins/svg-support/']",
     "icon": "SVG Support.png",
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/svg-support/",
     "website": "https://github.com/wp-plugins/svg-support"
   },
@@ -1002,7 +1006,9 @@
     "description": "Sassy Social Share allows your website visitors to share your content over Facebook, Twitter, Google, Linkedin, Whatsapp, Tumblr, Pinterest, Reddit, Gab, Gettr and over 110 more social sharing and bookmarking services.",
     "dom": "link[href*='/wp-content/plugins/sassy-social-share/']",
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "sassy-social-share(?:-public)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
     "website": "https://wordpress.org/plugins/sassy-social-share"
   },
@@ -1032,7 +1038,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/bento/",
     "website": "https://satoristudio.net/bento-free-wordpress-theme"
   },
@@ -1129,7 +1137,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/writee(?:-pro)?/",
     "website": "https://www.scissorthemes.com/themes/writee-free"
   },
@@ -1422,7 +1432,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/coming-soon/",
     "website": "https://www.seedprod.com/features/coming-soon-page-templates-for-wordpress"
   },
@@ -1622,7 +1634,9 @@
     "pricing": [
       "poa"
     ],
-    "requires": "Microsoft ASP.NET",
+    "requires": [
+      "Microsoft ASP.NET"
+    ],
     "saas": true,
     "scriptSrc": "\\.sellerscommerce\\.com/",
     "website": "https://www.sellerscommerce.com"
@@ -1770,7 +1784,9 @@
     "pricing": [
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/semplice(?:\\d+)?(?:-child)?(?:-theme)?/",
     "website": "https://www.semplice.com"
   },
@@ -2370,7 +2386,9 @@
       "mid",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "\\.getshogun\\.com/.+\\.myshopify\\.com",
     "website": "https://apps.shopify.com/shogun"
@@ -2409,7 +2427,9 @@
     "js": {
       "ShopifyPay.apiHost": ""
     },
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "scriptSrc": [
       "cdn\\.shopify\\.com/shopifycloud/shopify_pay/"
     ],
@@ -2426,7 +2446,9 @@
       "Affirm",
       "Shop Pay"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "website": "https://shoppay.affirm.com"
   },
   "ShopBase": {
@@ -2508,7 +2530,9 @@
       "ShopaholicCart": ""
     },
     "oss": true,
-    "requires": "October CMS",
+    "requires": [
+      "October CMS"
+    ],
     "website": "https://shopaholic.one"
   },
   "Shopapps": {
@@ -3061,7 +3085,9 @@
       "payg",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://shortpixel.com"
   },
   "Shortcodes Ultimate": {
@@ -3076,7 +3102,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/shortcodes-ultimate/.+index\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://getshortcodes.com"
   },
@@ -3456,7 +3484,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/sinatra/.+sinatra\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://try.sinatrawp.com"
   },
@@ -3512,7 +3542,9 @@
       "low",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "cdn\\.app\\.sirge\\.com/",
     "website": "https://www.sirge.com"
@@ -3543,7 +3575,9 @@
     "meta": {
       "generator": "^Site Kit by Google ?([\\d.]+)?\\;version:\\1"
     },
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://sitekit.withgoogle.com/"
   },
   "Site Meter": {
@@ -3624,7 +3658,9 @@
     "description": "SiteGurad WP Plugin is the plugin specialised for the protection against the attack to the management page and login.",
     "dom": "img[src*='/wp-content/plugins/siteguard/']",
     "icon": "SiteGuard WP Plugin.png",
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://www.jp-secure.com/siteguard_wp_plugin_en"
   },
   "SiteJabber": {
@@ -3652,7 +3688,9 @@
       "low",
       "recurring"
     ],
-    "requires": "PHP",
+    "requires": [
+      "PHP"
+    ],
     "saas": true,
     "scriptSrc": "s\\d+\\.sitemn\\.gr/",
     "website": "https://www.sitemanager.io"
@@ -3683,7 +3721,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/siteorigin-panels/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://siteorigin.com/page-builder"
   },
@@ -3697,7 +3737,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/vantage/",
     "website": "https://siteorigin.com/theme/vantage"
   },
@@ -3711,7 +3753,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/so-widgets-bundle/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://siteorigin.com/widgets-bundle"
   },
@@ -4225,7 +4269,9 @@
       "low",
       "recurring"
     ],
-    "requires": "Vue.js",
+    "requires": [
+      "Vue.js"
+    ],
     "saas": true,
     "scriptSrc": "\\.sleekplan\\.com/",
     "website": "https://sleekplan.com"
@@ -4374,7 +4420,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/smart-slider-3(?:-pro)?/",
     "website": "https://smartslider3.com"
   },
@@ -4553,7 +4601,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/instagram-feed/",
     "website": "https://smashballoon.com/instagram-feed"
   },
@@ -4589,7 +4639,9 @@
       "mid",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "js\\.smile\\.io/.+smile-shopify\\.js",
     "website": "https://apps.shopify.com/smile-io"
@@ -4897,7 +4949,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "saas": true,
     "scriptSrc": "/wp-content/plugins/ag-core/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://www.societe-des-avis-garantis.fr"
@@ -5393,7 +5447,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/plugins/ultimate-addons-for-gutenberg/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://wpspectra.com"
   },
@@ -5499,7 +5555,9 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/spicepress(?:-pro)?/",
     "website": "https://spicethemes.com/spicepress-wordpress-theme"
   },
@@ -5526,7 +5584,9 @@
       "low",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "client\\.spinasale\\.com/",
     "website": "https://spinasale.com"
@@ -5794,7 +5854,9 @@
     "description": "Sprig is a free plugin for Craft CMS that allows you to create reactive components from Twig templates ​or PHP classes.",
     "dom": "form[sprig], button[sprig], input[sprig], div.sprig-component",
     "icon": "Sprig plugin.svg",
-    "requires": "Craft CMS",
+    "requires": [
+      "Craft CMS"
+    ],
     "website": "https://putyourlightson.com/plugins/sprig"
   },
   "Spring": {
@@ -6061,7 +6123,9 @@
       "recurring",
       "payg"
     ],
-    "requires": "Weebly",
+    "requires": [
+      "Weebly"
+    ],
     "saas": true,
     "website": "https://squareup.com/us/en/online-store"
   },
@@ -6242,7 +6306,9 @@
       "recurring",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "saas": true,
     "website": "https://wpstackable.com"
   },
@@ -7127,7 +7193,9 @@
       "mid",
       "recurring"
     ],
-    "requires": "Next.js",
+    "requires": [
+      "Next.js"
+    ],
     "saas": true,
     "website": "https://suncel.io"
   },
@@ -7180,7 +7248,9 @@
     "description": "Super Socializer is a multipurpose social media plugin for WordPress.",
     "icon": "Super Socializer.png",
     "oss": true,
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "plugins/super-socializer/.+?ver=([\\d.]+)\\;version:\\1",
     "website": "https://super-socializer-wordpress.heateor.com"
   },
@@ -7198,7 +7268,9 @@
       "low",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "/files/superlemon_.+\\.js",
     "website": "https://apps.shopify.com/whatsapp-chat-button"
@@ -7371,7 +7443,9 @@
       "low",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "api\\.swagifyapp\\.com/",
     "website": "https://swagifyapp.com"

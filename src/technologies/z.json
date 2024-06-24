@@ -82,7 +82,9 @@
       "recurring",
       "low"
     ],
-    "requires": "WooCommerce",
+    "requires": [
+      "WooCommerce"
+    ],
     "saas": true,
     "scriptSrc": "/wp-content/plugins/zakeke-interactive-product-designer/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://www.zakeke.com"
@@ -101,7 +103,9 @@
       "recurring",
       "low"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "scriptSrc": "\\.zakeke\\.com/Scripts/integration/shopify/",
     "website": "https://www.zakeke.com"
@@ -123,7 +127,9 @@
       "recurring",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": "/wp-content/themes/zakra/",
     "website": "https://zakratheme.com"
   },
@@ -168,7 +174,9 @@
     "pricing": [
       "poa"
     ],
-    "requires": "Cart Functionality",
+    "requires": [
+      "Cart Functionality"
+    ],
     "website": "https://www.zeald.com"
   },
   "Zeleris": {
