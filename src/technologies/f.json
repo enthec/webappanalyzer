@@ -542,7 +542,9 @@
     ],
     "description": "FedEx is an American multinational company which focuses on transportation, ecommerce and business services.",
     "icon": "FedEx.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bFedEx\\b"
     ],
@@ -1980,7 +1982,9 @@
     ],
     "description": "France Express is a delivery service based in France.",
     "icon": "France Express.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bFrance Express\\b"
     ],
@@ -2108,7 +2112,9 @@
     ],
     "description": "Frequenceo is a fixed-rate postage service in France.",
     "icon": "La Poste.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bFrequenceo\\b"
     ],

@@ -36,7 +36,9 @@
     ],
     "description": "UK Mail is a postal service company operating in the United Kingdom.",
     "icon": "UK Mail.png",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bUK Mail\\b"
     ],
@@ -89,7 +91,9 @@
     ],
     "description": "UPS is an American multinational shipping & receiving and supply chain management company.",
     "icon": "UPS.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\b(?<!-)UPS\\b"
     ],
@@ -101,7 +105,9 @@
     ],
     "description": "The United States Postal Service (USPS) is an independent agency of the executive branch of the United States federal government responsible for providing postal service in the United States.",
     "icon": "USPS.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bUSPS\\b",
       "\\bUnited States Postal Service\\b"

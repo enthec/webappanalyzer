@@ -5,7 +5,9 @@
     ],
     "description": "GEODIS is a global transport and logistics company.",
     "icon": "GEODIS.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bGeodis\\b"
     ],
@@ -66,7 +68,9 @@
     ],
     "description": "GLS offers parcel, logistics and express services, throughout Europe as well as in the US and in Canada.",
     "icon": "GLS.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bGLS\\b"
     ],
@@ -1603,7 +1607,9 @@
     "pricing": [
       "poa"
     ],
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "saas": true,
     "website": "https://www.gokwik.co"
   },

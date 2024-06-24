@@ -257,7 +257,9 @@
     ],
     "description": "CTT operates as the national postal service of Portugal.",
     "icon": "CTT.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bTourline Express\\b",
       "\\bCTT\\b"
@@ -1005,7 +1007,9 @@
     ],
     "description": "Celeritas offers transportation logistics services for package deliveries.",
     "icon": "Celeritas.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bCeleritas\\b"
     ],
@@ -1235,7 +1239,9 @@
       "mid",
       "recurring"
     ],
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "saas": true,
     "website": "https://www.channelape.com",
     "xhr": "\\.channelape\\.com"
@@ -1686,7 +1692,9 @@
     ],
     "description": "Chronofresh is an express transport service for food products.",
     "icon": "Chronopost.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bChronofresh\\b"
     ],
@@ -1698,7 +1706,9 @@
     ],
     "description": "Chronopost provides a domestic and international express shipping and delivery service.",
     "icon": "Chronopost.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bChronopost\\b"
     ],
@@ -1795,7 +1805,9 @@
     ],
     "description": "CityMail is a private postal organisation operating in Sweden.",
     "icon": "CityMail.png",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bCitymail\\b"
     ],
@@ -2930,7 +2942,9 @@
     ],
     "description": "Colis Privé is a private parcel delivery service provider specialised in last-mile delivery.",
     "icon": "Colis Prive.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bColis Priv[eé]\\b"
     ],
@@ -2942,7 +2956,9 @@
     ],
     "description": "Colissimo is a 'drop off' parcel delivery service.",
     "icon": "DPD.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bColissimo\\b"
     ],
@@ -3378,7 +3394,9 @@
     "pricing": [
       "poa"
     ],
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "saas": true,
     "scriptSrc": [
       "\\.conferwith\\.io/"
@@ -4237,7 +4255,9 @@
     ],
     "description": "Correos is a state-owned company responsible for providing postal service in Spain.",
     "icon": "Correos.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bCorreos\\b"
     ],
@@ -4336,7 +4356,9 @@
     ],
     "description": "Coureon is a digital logistics carrier for international shipping.",
     "icon": "Coureon.png",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bCoureon\\b"
     ],
@@ -4899,7 +4921,9 @@
     ],
     "description": "Cubyn is B2B logistics company headquartered in France.",
     "icon": "Cubyn.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bCubyn\\b"
     ],
@@ -5124,7 +5148,9 @@
     "pricing": [
       "payg"
     ],
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "saas": true,
     "scriptSrc": [
       "\\.cashewpayments\\.com/"

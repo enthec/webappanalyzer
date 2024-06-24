@@ -847,7 +847,9 @@
       "recurring",
       "payg"
     ],
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "saas": true,
     "scriptSrc": [
       "\\.juniphq\\.com/"

@@ -1158,7 +1158,9 @@
     "pricing": [
       "poa"
     ],
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "saas": true,
     "website": "https://www.webeyez.com"
   },
@@ -1632,7 +1634,9 @@
     ],
     "description": "Whistl is a postal delivery company operating in the United Kingdom.",
     "icon": "Whistl.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bWhistl\\b"
     ],

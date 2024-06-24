@@ -194,7 +194,9 @@
       99
     ],
     "description": "Zeleris provides door to door shipment delivery to Ireland, UK and the EU.",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\Zeleris\\b"
     ],

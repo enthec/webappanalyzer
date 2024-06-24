@@ -462,7 +462,9 @@
     ],
     "description": "Keen Delivery is a Dutch shipping platform ",
     "icon": "Keen Delivery.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bKeen Delivery\\b"
     ],

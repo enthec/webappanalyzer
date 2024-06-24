@@ -385,7 +385,9 @@
       99
     ],
     "description": "EasyLog is a logistics company based in Brazil.",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bEasylog\\b"
     ],
@@ -442,7 +444,9 @@
     ],
     "description": "Ecovium is an end-to-end logistics company in Germany.",
     "icon": "Ecovium.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bMHP\\b",
       "\\bEcovium\\b"
@@ -1451,7 +1455,9 @@
     ],
     "description": "",
     "icon": "Envialia.png",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bEnvialia\\b"
     ],

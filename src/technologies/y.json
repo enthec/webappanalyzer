@@ -560,7 +560,9 @@
       99
     ],
     "description": "Yodel is a delivery company for B2B and B2C orders in the United Kingdom.",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bYodel\\b"
     ],

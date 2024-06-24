@@ -2555,7 +2555,9 @@
     ],
     "description": "TIPSA is a parcel delivery company in Spain, Portugal and Andorra.",
     "icon": "Tipsa.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bTipsa\\b"
     ],
@@ -2955,7 +2957,9 @@
       99
     ],
     "description": "Transmart is a shipping company in Turkey.",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bTransmart\\b"
     ],
@@ -3252,7 +3256,9 @@
     ],
     "description": "Trunkrs is a Dutch parcel delivery service.",
     "icon": "Trunkrs.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bTrunkrs\\b"
     ],

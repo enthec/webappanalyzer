@@ -246,7 +246,9 @@
     ],
     "description": "APC offers door-to-door parcel and mail delivery.",
     "icon": "APC.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\APC\\b"
     ],
@@ -2103,7 +2105,9 @@
       "afterpay_product": "",
       "checkout.enabledpayments.afterpay": "^true$"
     },
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "saas": true,
     "scriptSrc": [
       "portal\\.afterpay\\.com",
@@ -4636,7 +4640,9 @@
     ],
     "description": "Asendia is an international mail joint venture of French La Poste and Swiss Post.",
     "icon": "Asendia.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\Asendia\\b"
     ],
@@ -5010,7 +5016,9 @@
       "low",
       "recurring"
     ],
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "saas": true,
     "website": "https://aument.io"
   },
@@ -5067,7 +5075,9 @@
     ],
     "description": "Australia Post is the government business enterprise that provides postal services in Australia.",
     "icon": "AusPost.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bAusPost\\b",
       "\\bAustralia Post\\b"

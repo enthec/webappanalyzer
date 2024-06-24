@@ -876,7 +876,9 @@
     "pricing": [
       "payg"
     ],
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "scriptSrc": [
       "/modules/oney(?:/)?/views/js/front\\.js"
     ],
@@ -1475,7 +1477,9 @@
     "pricing": [
       "poa"
     ],
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "website": "https://www.optimizely.com/products/commerce/b2c/"
   },
   "Optimizely Content Management": {
@@ -2001,7 +2005,9 @@
     ],
     "description": "Österreichische Post is an Austrian logistics and postal services provider.",
     "icon": "Post AG.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bpost\\.at\\b",
       "\\bPost AG\\b",

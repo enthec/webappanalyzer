@@ -282,7 +282,9 @@
     "pricing": [
       "payg"
     ],
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "saas": true,
     "scriptSrc": [
       "\\.laybuy\\.com/",
@@ -1248,7 +1250,9 @@
       "mid",
       "recurring"
     ],
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "saas": true,
     "website": "https://www.littledata.io"
   },
@@ -1816,7 +1820,9 @@
     ],
     "description": "LogoiX is a German shipping company.",
     "icon": "LogoiX.png",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bLogoiX\\b"
     ],
@@ -1928,7 +1934,9 @@
       "low",
       "recurring"
     ],
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "saas": true,
     "website": "https://www.loopreturns.com"
   },
@@ -2241,7 +2249,9 @@
       "low",
       "recurring"
     ],
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "saas": true,
     "website": "https://langify-app.com"
   },

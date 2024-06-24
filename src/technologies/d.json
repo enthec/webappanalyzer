@@ -61,7 +61,9 @@
       }
     },
     "icon": "DHL.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bDHL\\b"
     ],
@@ -138,7 +140,9 @@
     ],
     "description": "DPD is an international parcel delivery service for sorter compatible parcels.",
     "icon": "DPD.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bDPD\\b"
     ],
@@ -181,7 +185,9 @@
     ],
     "description": "DX (also known as DX Freight) is a British mail, courier and logistics company.",
     "icon": "DX.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bDX\\b"
     ],
@@ -215,7 +221,9 @@
     ],
     "description": "Dachser is a German freight company.",
     "icon": "Dachser.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bDachser\\b"
     ],
@@ -621,7 +629,9 @@
     ],
     "description": "Delivengo is an international shipping service powered by La Poste.",
     "icon": "La Poste.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bDelivengo\\b"
     ],
@@ -776,7 +786,9 @@
     ],
     "description": "Deutsche Post is a German multinational package delivery and supply chain management company in Germany.",
     "icon": "Deutsche Post.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bDeutsche Post\\b"
     ],
@@ -1792,7 +1804,9 @@
       "drapr_data": "",
       "drapr_deferLoading": ""
     },
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "scriptSrc": [
       "draprpubsubtest\\.firebaseapp\\.com/"
     ],

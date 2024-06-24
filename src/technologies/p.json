@@ -554,7 +554,9 @@
     ],
     "description": "Parcelforce is a courier and logistics service in the United Kingdom.",
     "icon": "Parcelforce.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bParcelforce\\b"
     ],
@@ -907,7 +909,9 @@
       "PaypalOffersObject": "",
       "payPalCreditPopover": ""
     },
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "scriptSrc": [
       "\\.paypalobjects\\.com/.+/smart-credit-message@([\\d\\.]+)\\.js\\;version:\\1"
     ],
@@ -2787,7 +2791,9 @@
     "description": "PostNL (formerly TNT) is a mail, parcel and ecommerce corporation with operations in the Netherlands, Germany, Italy, Belgium, and the United Kingdom.",
     "dom": "img[alt*='postnl' i], img[src*='postnl' i]",
     "icon": "PostNL.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bPostNL\\b"
     ],
@@ -2799,7 +2805,9 @@
     ],
     "description": "Poste Italiane is the Italian postal service provider.",
     "icon": "Poste Italiane.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bPoste Italiane\\b"
     ],
@@ -3065,7 +3073,9 @@
       "mid",
       "recurring"
     ],
-    "requiresCategory": 12,
+    "requiresCategory": [
+      12
+    ],
     "saas": true,
     "scriptSrc": [
       "\\.prepr\\.io/"

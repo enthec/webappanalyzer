@@ -778,7 +778,9 @@
     ],
     "description": "Hermes offers integrated solutions along the supply chain and partners with national and international trading companies.",
     "icon": "Hermes.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bHermes\\b"
     ],
@@ -1195,7 +1197,9 @@
     ],
     "description": "Homerr is a logistics company operating in the Netherlands and Belgium.",
     "icon": "Homerr.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bHomerr\\b"
     ],

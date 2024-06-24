@@ -5,7 +5,9 @@
     ],
     "description": "NACEX is an express courier company in Spain, Andorra and Portugal.",
     "icon": "NACEX.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bNACEX\\b"
     ],
@@ -674,7 +676,9 @@
     ],
     "description": "Nexive is a postal operator in Italy.",
     "icon": "Nexive.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bNexive\\b"
     ],
@@ -998,7 +1002,9 @@
     "pricing": [
       "poa"
     ],
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "saas": true,
     "scriptSrc": [
       "services\\.nofraud\\.com/"
@@ -1082,7 +1088,9 @@
       "recurring",
       "poa"
     ],
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "scriptSrc": [
       "\\.nogin\\.com/"
     ],
@@ -1200,7 +1208,9 @@
       "low",
       "recurring"
     ],
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "saas": true,
     "scriptSrc": [
       "\\.nudgify\\.com/",

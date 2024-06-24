@@ -141,7 +141,9 @@
     ],
     "description": "SEUR is a Spanish shipments and express transport company.",
     "icon": "DPD.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bSEUR\\b"
     ],
@@ -3279,7 +3281,9 @@
       "low",
       "recurring"
     ],
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "scriptSrc": [
       "\\.shoutout\\.global/"
     ],
@@ -4093,7 +4097,9 @@
       "recurring",
       "high"
     ],
-    "requiresCategory": 12,
+    "requiresCategory": [
+      12
+    ],
     "saas": false,
     "website": "https://doc.sitecore.com/xp/en/developers/101/developer-tools/experience-edge-for-xm-apis.html"
   },
@@ -5064,7 +5070,9 @@
       "low",
       "recurring"
     ],
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "saas": true,
     "scriptSrc": [
       "\\.sniperfast\\.com"

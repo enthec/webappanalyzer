@@ -1078,7 +1078,9 @@
     ],
     "description": "Red je Pakketje is a Dutch company specialised in same-day-delivery.",
     "icon": "Red je Pakketje.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bRed je Pakketje\\b"
     ],
@@ -1368,7 +1370,9 @@
     "pricing": [
       "poa"
     ],
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "saas": true,
     "website": "https://refundid.com"
   },
@@ -1405,7 +1409,9 @@
     ],
     "description": "Relais Colis is a French parcel delivery network.",
     "icon": "Relais Colis.png",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bRelais Colis\\b"
     ],
@@ -2606,7 +2612,9 @@
     ],
     "description": "Royal Mail is a British multinational postal service and courier company.",
     "icon": "Royal Mail.png",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bRoyal Mail\\b"
     ],

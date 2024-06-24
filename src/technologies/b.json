@@ -5,7 +5,9 @@
     ],
     "description": "B2C Europe offers logistic solutions for your ecommerce businesses.",
     "icon": "B2C Europe.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bB2C Europe\\b"
     ],
@@ -82,7 +84,9 @@
     ],
     "description": "BRT, also known as Bartolini, is an Italian-based logistics service provider.",
     "icon": "BRT.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bBRT\\b"
     ],
@@ -930,7 +934,9 @@
     ],
     "description": "Billbee is an order processing and inventory management solution.",
     "icon": "Billbee.png",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bBillbee\\b"
     ],
@@ -2326,7 +2332,9 @@
     ],
     "description": "Boxtal is a cloud-based multi-carrier shipping solution.",
     "icon": "Boxtal.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bBoxtal\\b"
     ],
@@ -2338,7 +2346,9 @@
     ],
     "description": "Bpost, also known as the Belgian Post Group, is the Belgian company responsible for the delivery of national and international mail.",
     "icon": "Bpost.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bBpost\\b"
     ],
@@ -2814,7 +2824,9 @@
     ],
     "description": "Budbee is a tech company that operates a logistics service for ecommerce.",
     "icon": "Budbee.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bBudbee\\b"
     ],
