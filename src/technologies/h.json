@@ -133,7 +133,9 @@
     ],
     "description": "HTML5 Media enables video and audio tags in all major browsers.",
     "oss": true,
-    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/)?html5media(?:\\.min)?\\.js\\;version:\\1",
+    "scriptSrc": [
+      "(?:((?:\\d+\\.)+\\d+)\\/)?html5media(?:\\.min)?\\.js\\;version:\\1"
+    ],
     "website": "https://html5media.info/"
   },
   "HTTP/2": {
@@ -178,7 +180,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "ht-mega-for-elementor(?:\\/admin)?\\/assets\\/js(?:\\/admin)?(?:\\/(?:htb)?bootstrap)?(?:\\/jquery)?(?:\\/popper)?(?:\\/slick)?(?:\\/waypoints)?(?:\\.counterup)?(?:\\/htmega-widgets-active)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "scriptSrc": [
+      "ht-mega-for-elementor(?:\\/admin)?\\/assets\\/js(?:\\/admin)?(?:\\/(?:htb)?bootstrap)?(?:\\/jquery)?(?:\\/popper)?(?:\\/slick)?(?:\\/waypoints)?(?:\\.counterup)?(?:\\/htmega-widgets-active)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+    ],
     "website": "https://wordpress.org/plugins/ht-mega-for-elementor/"
   },
   "Haddock": {
@@ -189,7 +193,9 @@
     "html": [
       "<p>Produced by <a href=\"http://www\\.haskell\\.org/haddock/\">Haddock</a> version ([0-9.]+)</p>\\;version:\\1"
     ],
-    "scriptSrc": "haddock-util\\.js",
+    "scriptSrc": [
+      "haddock-util\\.js"
+    ],
     "website": "https://www.haskell.org/haddock/"
   },
   "Halo": {
@@ -231,7 +237,9 @@
       "Hammer": "",
       "Hammer.VERSION": "^(.+)$\\;version:\\1"
     },
-    "scriptSrc": "hammer(?:\\.min)?\\.js",
+    "scriptSrc": [
+      "hammer(?:\\.min)?\\.js"
+    ],
     "website": "https://hammerjs.github.io"
   },
   "Handlebars": {
@@ -247,7 +255,9 @@
       "Handlebars.VERSION": "^(.+)$\\;version:\\1"
     },
     "oss": true,
-    "scriptSrc": "handlebars(?:\\.runtime)?(?:-v([\\d.]+?))?(?:\\.min)?\\.js\\;version:\\1",
+    "scriptSrc": [
+      "handlebars(?:\\.runtime)?(?:-v([\\d.]+?))?(?:\\.min)?\\.js\\;version:\\1"
+    ],
     "website": "https://handlebarsjs.com"
   },
   "Handsontable": {
@@ -257,7 +267,9 @@
     "description": "A front-end component that combines data grid features with spreadsheet UX/UI. Professional support included.",
     "icon": "Handsontable.png",
     "oss": true,
-    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/)?(?:jquery\\.)?handsontable(?:\\.full)?(?:\\.min)?(?:\\.[\\w]+)?\\.js\\;version:\\1",
+    "scriptSrc": [
+      "(?:((?:\\d+\\.)+\\d+)\\/)?(?:jquery\\.)?handsontable(?:\\.full)?(?:\\.min)?(?:\\.[\\w]+)?\\.js\\;version:\\1"
+    ],
     "website": "https://handsontable.com/"
   },
   "Handtalk": {
@@ -269,7 +281,9 @@
     "js": {
       "HandTalk": ""
     },
-    "scriptSrc": "api\\.handtalk\\.me",
+    "scriptSrc": [
+      "api\\.handtalk\\.me"
+    ],
     "website": "https://www.handtalk.me/"
   },
   "Hansel": {
@@ -287,7 +301,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.hansel\\.io/web/([\\d\\.]+)/\\;version:\\1",
+    "scriptSrc": [
+      "\\.hansel\\.io/web/([\\d\\.]+)/\\;version:\\1"
+    ],
     "website": "https://hansel.io"
   },
   "Happy Returns": {
@@ -314,7 +330,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.happyfox\\.com/media/",
+    "scriptSrc": [
+      "\\.happyfox\\.com/media/"
+    ],
     "website": "https://www.happyfox.com/customer-service-software/"
   },
   "HappyFox Live Chat": {
@@ -331,7 +349,9 @@
       "low"
     ],
     "saas": true,
-    "scriptSrc": "\\.happyfoxchat\\.com/",
+    "scriptSrc": [
+      "\\.happyfoxchat\\.com/"
+    ],
     "website": "https://www.happyfox.com/live-chat"
   },
   "Haptik": {
@@ -350,7 +370,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.haptikapi\\.com/",
+    "scriptSrc": [
+      "\\.haptikapi\\.com/"
+    ],
     "website": "https://www.haptik.ai"
   },
   "Haravan": {
@@ -362,7 +384,9 @@
     "js": {
       "Haravan": ""
     },
-    "scriptSrc": "haravan.*\\.js",
+    "scriptSrc": [
+      "haravan.*\\.js"
+    ],
     "website": "https://www.haravan.com"
   },
   "Harbor": {
@@ -392,7 +416,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "/wp-content/themes/(?:t|T)otal(?:-plus)?/",
+    "scriptSrc": [
+      "/wp-content/themes/(?:t|T)otal(?:-plus)?/"
+    ],
     "website": "https://hashthemes.com/wordpress-theme/total"
   },
   "Hashnode": {
@@ -402,7 +428,9 @@
     "description": "Hashnode is a free developer blogging platform that allows you to publish articles on your own domain and helps you stay connected with a global developer community.",
     "dom": "div.css-zigog8",
     "icon": "hashnode.png",
-    "scriptSrc": "hashnode\\.com",
+    "scriptSrc": [
+      "hashnode\\.com"
+    ],
     "url": "^https?://[^/]+\\.(?:hashnode)\\.dev",
     "website": "https://hashnode.com/"
   },
@@ -442,7 +470,9 @@
       "low",
       "recurring"
     ],
-    "scriptSrc": "cdn\\.blog\\.st-hatena\\.com/",
+    "scriptSrc": [
+      "cdn\\.blog\\.st-hatena\\.com/"
+    ],
     "website": "https://hatenablog.com"
   },
   "HeadJS": {
@@ -456,7 +486,9 @@
     "js": {
       "head.browser.name": ""
     },
-    "scriptSrc": "head\\.(?:core|load)(?:\\.min)?\\.js",
+    "scriptSrc": [
+      "head\\.(?:core|load)(?:\\.min)?\\.js"
+    ],
     "website": "https://headjs.com"
   },
   "Header Bidding Ai": {
@@ -470,7 +502,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.headerbidding\\.ai/",
+    "scriptSrc": [
+      "\\.headerbidding\\.ai/"
+    ],
     "website": "https://headerbidding.ai"
   },
   "Headless UI": {
@@ -501,7 +535,9 @@
     ],
     "description": "Headroom.js is a JS widget that allows you to react to the user's scroll. The header slides out of view when scrolling down and slides back in when scrolling up.",
     "oss": true,
-    "scriptSrc": "headroom(?:\\.min)?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "scriptSrc": [
+      "headroom(?:\\.min)?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+    ],
     "website": "https://wicky.nillia.ms/headroom.js/"
   },
   "Heap": {
@@ -536,7 +572,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.heartlandportico\\.com",
+    "scriptSrc": [
+      "\\.heartlandportico\\.com"
+    ],
     "website": "https://www.heartlandpaymentsystems.com"
   },
   "Helhost": {
@@ -635,7 +673,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.?hellobar\\.(?:com|js)",
+    "scriptSrc": [
+      "\\.?hellobar\\.(?:com|js)"
+    ],
     "website": "https://hellobar.com"
   },
   "Hello Elementor": {
@@ -687,7 +727,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.helpscout\\.net/",
+    "scriptSrc": [
+      "\\.helpscout\\.net/"
+    ],
     "website": "https://www.helpscout.com"
   },
   "HelpDocs": {
@@ -706,7 +748,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.helpdocs\\.io",
+    "scriptSrc": [
+      "cdn\\.helpdocs\\.io"
+    ],
     "website": "https://www.helpdocs.io"
   },
   "Here": {
@@ -734,7 +778,9 @@
     ],
     "description": "Hermes offers integrated solutions along the supply chain and partners with national and international trading companies.",
     "icon": "Hermes.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bHermes\\b"
     ],
@@ -752,7 +798,9 @@
     "js": {
       "HeroWebPluginSettings": ""
     },
-    "scriptSrc": "cdn\\.usehero\\.com",
+    "scriptSrc": [
+      "cdn\\.usehero\\.com"
+    ],
     "website": "https://www.usehero.com/"
   },
   "Heroku": {
@@ -791,7 +839,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "themes/hestia.*\\.js(?:\\?ver=([0-9.]+))?\\;version:\\1",
+    "scriptSrc": [
+      "themes/hestia.*\\.js(?:\\?ver=([0-9.]+))?\\;version:\\1"
+    ],
     "website": "https://themeisle.com/themes/hestia/"
   },
   "HetrixTools": {
@@ -812,7 +862,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.hetrixtools\\.com/",
+    "scriptSrc": [
+      "\\.hetrixtools\\.com/"
+    ],
     "website": "https://hetrixtools.com"
   },
   "Hetzner": {
@@ -869,7 +921,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.hextom\\.com/js/freeshippingbar\\.js",
+    "scriptSrc": [
+      "\\.hextom\\.com/js/freeshippingbar\\.js"
+    ],
     "website": "https://hextom.com/case_study/free-shipping-bar"
   },
   "Hextom Ultimate Sales Boost": {
@@ -891,7 +945,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.hextom\\.com/js/ultimatesalesboost\\.js",
+    "scriptSrc": [
+      "\\.hextom\\.com/js/ultimatesalesboost\\.js"
+    ],
     "website": "https://hextom.com/case_study/ultimate-sales-boost"
   },
   "Hi Platform": {
@@ -907,7 +963,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.hiplatform\\.com/",
+    "scriptSrc": [
+      "\\.hiplatform\\.com/"
+    ],
     "website": "https://www.hiplatform.com"
   },
   "Hiawatha": {
@@ -935,7 +993,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.leadconnectorhq\\.com/",
+    "scriptSrc": [
+      "\\.leadconnectorhq\\.com/"
+    ],
     "website": "https://www.gohighlevel.com"
   },
   "HighStore": {
@@ -969,7 +1029,9 @@
       "Highcharts": "",
       "Highcharts.version": "^(.+)$\\;version:\\1"
     },
-    "scriptSrc": "highcharts.*\\.js",
+    "scriptSrc": [
+      "highcharts.*\\.js"
+    ],
     "website": "https://www.highcharts.com"
   },
   "Highlight.js": {
@@ -981,7 +1043,9 @@
       "hljs.highlightBlock": "",
       "hljs.listLanguages": ""
     },
-    "scriptSrc": "/(?:([\\d.])+/)?highlight(?:\\.min)?\\.js\\;version:\\1",
+    "scriptSrc": [
+      "/(?:([\\d.])+/)?highlight(?:\\.min)?\\.js\\;version:\\1"
+    ],
     "website": "https://highlightjs.org/"
   },
   "Highstock": {
@@ -992,7 +1056,9 @@
       "<svg[^>]*><desc>Created with Highstock ([\\d.]*)\\;version:\\1"
     ],
     "icon": "Highcharts.svg",
-    "scriptSrc": "highstock[.-]?([\\d\\.]*\\d).*\\.js\\;version:\\1",
+    "scriptSrc": [
+      "highstock[.-]?([\\d\\.]*\\d).*\\.js\\;version:\\1"
+    ],
     "website": "https://highcharts.com/products/highstock"
   },
   "HikeOrders": {
@@ -1001,7 +1067,9 @@
     ],
     "description": "HikeOrders is a web accessibility overlay that claims to make your site disability friendly.",
     "icon": "HikeOrders.png",
-    "scriptSrc": "hikeorders\\.com/main/assets/js/hko-accessibility\\.min\\.js",
+    "scriptSrc": [
+      "hikeorders\\.com/main/assets/js/hko-accessibility\\.min\\.js"
+    ],
     "website": "https://hikeorders.com/"
   },
   "Hinza Advanced CMS": {
@@ -1129,7 +1197,9 @@
     ],
     "description": "Homerr is a logistics company operating in the Netherlands and Belgium.",
     "icon": "Homerr.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bHomerr\\b"
     ],
@@ -1291,7 +1361,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "userapp\\.zyrosite\\.com/",
+    "scriptSrc": [
+      "userapp\\.zyrosite\\.com/"
+    ],
     "website": "https://www.hostinger.com"
   },
   "Hostiq": {
@@ -1321,7 +1393,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "tables\\.hostmeapp\\.com",
+    "scriptSrc": [
+      "tables\\.hostmeapp\\.com"
+    ],
     "website": "https://www.hostmeapp.com"
   },
   "Hostpoint": {
@@ -1372,7 +1446,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "//static\\.hotjar\\.com/",
+    "scriptSrc": [
+      "//static\\.hotjar\\.com/"
+    ],
     "website": "https://www.hotjar.com"
   },
   "Hotjar Incoming Feedback": {
@@ -1382,7 +1458,9 @@
     "description": "Hotjar Incoming Feedback is a widget that sits at the edge of a page.",
     "dom": "a[href*='hotjar.com/incoming-feedback'][target='_blank']",
     "icon": "Hotjar.svg",
-    "scriptSrc": "\\.hotjar\\.com/preact-incoming-feedback",
+    "scriptSrc": [
+      "\\.hotjar\\.com/preact-incoming-feedback"
+    ],
     "website": "https://www.hotjar.com"
   },
   "Howler.js": {
@@ -1413,7 +1491,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "\\.hrflow\\.ai",
+    "scriptSrc": [
+      "\\.hrflow\\.ai"
+    ],
     "website": "https://hrflow.ai"
   },
   "Htmx": {
@@ -1427,7 +1507,9 @@
       "htmx": ""
     },
     "oss": true,
-    "scriptSrc": "/htmx\\.org@([\\d\\.]+)\\;version:\\1",
+    "scriptSrc": [
+      "/htmx\\.org@([\\d\\.]+)\\;version:\\1"
+    ],
     "website": "https://htmx.org"
   },
   "HubSpot": {
@@ -1463,7 +1545,9 @@
     ],
     "description": "HubSpot is a marketing and sales software that helps companies attract visitors, convert leads, and close customers.",
     "icon": "HubSpot.svg",
-    "scriptSrc": "js\\.hs-analytics\\.net/analytics",
+    "scriptSrc": [
+      "js\\.hs-analytics\\.net/analytics"
+    ],
     "website": "https://www.hubspot.com/products/marketing/analytics"
   },
   "HubSpot CMS Hub": {
@@ -1502,7 +1586,9 @@
       "freemium"
     ],
     "saas": true,
-    "scriptSrc": "js\\.usemessages\\.com",
+    "scriptSrc": [
+      "js\\.usemessages\\.com"
+    ],
     "website": "https://www.hubspot.com/products/crm/live-chat"
   },
   "HubSpot Cookie Policy Banner": {
@@ -1579,7 +1665,9 @@
       "freemium"
     ],
     "saas": true,
-    "scriptSrc": "analytics\\.huberway\\.com/pixel/",
+    "scriptSrc": [
+      "analytics\\.huberway\\.com/pixel/"
+    ],
     "website": "https://www.huberway.com/analytics-software"
   },
   "Huddle": {
@@ -1634,7 +1722,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "age-verification\\.hulkapps\\.com/",
+    "scriptSrc": [
+      "age-verification\\.hulkapps\\.com/"
+    ],
     "website": "https://www.hulkapps.com/products/age-verification-shopify"
   },
   "HulkApps Form Builder": {
@@ -1654,7 +1744,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "formbuilder\\.hulkapps\\.com/",
+    "scriptSrc": [
+      "formbuilder\\.hulkapps\\.com/"
+    ],
     "website": "https://www.hulkapps.com/products/form-builder-shopify"
   },
   "HulkApps GDPR/CCPA Compliance Manager": {
@@ -1675,7 +1767,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "cookiebar\\.hulkapps\\.com/hulk_cookie_bar\\.js",
+    "scriptSrc": [
+      "cookiebar\\.hulkapps\\.com/hulk_cookie_bar\\.js"
+    ],
     "website": "https://www.hulkapps.com/products/gdpr-ccpa-cookie-manager-shopify-app"
   },
   "HulkApps Infinite Product Options": {
@@ -1733,7 +1827,9 @@
       "mid",
       "recurring"
     ],
-    "scriptSrc": "/.*\\.humanpresence\\.(?:io|app)/",
+    "scriptSrc": [
+      "/.*\\.humanpresence\\.(?:io|app)/"
+    ],
     "website": "https://www.humanpresence.io"
   },
   "Humm": {
@@ -1767,7 +1863,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "\\.hund\\.io/",
+    "scriptSrc": [
+      "\\.hund\\.io/"
+    ],
     "website": "https://hund.io"
   },
   "HurryTimer": {
@@ -1789,7 +1887,9 @@
     "requires": [
       "WordPress"
     ],
-    "scriptSrc": "hurrytimer(?:\\/assets)?(?:\\/js)?(?:\\/cookie)?(?:\\/jquery)?(?:\\.countdown)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "scriptSrc": [
+      "hurrytimer(?:\\/assets)?(?:\\/js)?(?:\\/cookie)?(?:\\/jquery)?(?:\\.countdown)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+    ],
     "website": "https://wordpress.org/plugins/hurrytimer"
   },
   "Hushly": {
@@ -1806,7 +1906,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "\\.hushly\\.com/",
+    "scriptSrc": [
+      "\\.hushly\\.com/"
+    ],
     "website": "https://www.hushly.com"
   },
   "Hydra-Shield": {
@@ -1875,7 +1977,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.shopify\\.com/.+/assets/hs-(?:instantload|lazysizes)\\.min\\.js",
+    "scriptSrc": [
+      "cdn\\.shopify\\.com/.+/assets/hs-(?:instantload|lazysizes)\\.min\\.js"
+    ],
     "website": "https://www.hyperspeed.me"
   },
   "Hypervisual Page Builder": {
@@ -1896,7 +2000,9 @@
       "Shopify"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.gethypervisual\\.com/",
+    "scriptSrc": [
+      "cdn\\.gethypervisual\\.com/"
+    ],
     "website": "https://gethypervisual.com"
   },
   "Hypestyle CSS": {
@@ -1929,7 +2035,9 @@
       "low"
     ],
     "saas": true,
-    "scriptSrc": "/v1/lst/universal-script\\?ph\\=",
+    "scriptSrc": [
+      "/v1/lst/universal-script\\?ph\\="
+    ],
     "website": "https://hyros.com"
   },
   "Hyva Themes": {
@@ -1961,7 +2069,9 @@
       "PHP"
     ],
     "oss": true,
-    "scriptSrc": "/_h5ai/(?:public|client)/js/scripts\\.js",
+    "scriptSrc": [
+      "/_h5ai/(?:public|client)/js/scripts\\.js"
+    ],
     "website": "https://github.com/lrsjng/h5ai"
   },
   "hCaptcha": {
@@ -1987,7 +2097,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "hcaptcha\\.com/([\\d]+?)/api\\.js\\;version:\\1",
+    "scriptSrc": [
+      "hcaptcha\\.com/([\\d]+?)/api\\.js\\;version:\\1"
+    ],
     "website": "https://www.hcaptcha.com"
   },
   "hantana": {
@@ -1998,7 +2110,9 @@
     "js": {
       "Hantana": ""
     },
-    "scriptSrc": "//hantana\\.org/widget",
+    "scriptSrc": [
+      "//hantana\\.org/widget"
+    ],
     "website": "https://hantana.org/"
   },
   "hoolah": {
@@ -2014,7 +2128,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "merchant\\.cdn\\.hoolah\\.co/",
+    "scriptSrc": [
+      "merchant\\.cdn\\.hoolah\\.co/"
+    ],
     "website": "https://www.hoolah.co"
   },
   "html2canvas": {
@@ -2023,7 +2139,9 @@
     ],
     "description": "Screenshots with JavaScript.",
     "oss": true,
-    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/)?html2canvas(?:\\.min)?(?:[_\\w]{0,8})?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1\\2",
+    "scriptSrc": [
+      "(?:((?:\\d+\\.)+\\d+)\\/)?html2canvas(?:\\.min)?(?:[_\\w]{0,8})?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1\\2"
+    ],
     "website": "https://html2canvas.hertzen.com/"
   }
 }

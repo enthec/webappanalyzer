@@ -159,18 +159,12 @@ class StringOrArrayOrDictValidator(AbstractValidator):
     def get_type(self) -> list[Type]:
         return [str, list, dict]
 
-
-class IntOrArrayValidator(AbstractValidator):
-    def get_type(self) -> list[Type]:
-        return [int, list]
-
-
 class DictValidator(RegexValidator):
     def get_type(self) -> list[Type]:
         return [dict]
 
 
-class CategoryValidator(IntOrArrayValidator):
+class CategoryValidator(ArrayValidator):
     def __init__(self, categories: list[int], required: bool = False):
         super().__init__(required)
         self._categories: Final[list[int]] = categories
@@ -179,8 +173,6 @@ class CategoryValidator(IntOrArrayValidator):
         type_validator: bool = super()._validate(tech_name, data)
         if not type_validator:
             return False
-        if isinstance(data, int):
-            data = [data]
         for category_id in data:
             if category_id not in self._categories:
                 self._set_custom_error(CategoryNotFoundException(f"The category '{category_id}' for tech '{tech_name}' does not exist!"))
@@ -260,7 +252,7 @@ class TechnologiesValidator:
             "url": StringOrArrayValidator(contains_regex=True),
             "xhr": StringOrArrayValidator(contains_regex=True),
             "meta": DictValidator(contains_regex=True),
-            "scriptSrc": StringOrArrayValidator(contains_regex=True),
+            "scriptSrc": ArrayValidator(contains_regex=True),
             "scripts": StringOrArrayValidator(contains_regex=True),
             "html": ArrayValidator(contains_regex=True),
             "certIssuer": StringValidator()
