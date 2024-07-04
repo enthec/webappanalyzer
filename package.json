@@ -1,0 +1,33 @@
+{
+  "name": "webappanalyzer",
+  "version": "1.0.0",
+  "description": "[![Validator Status](https://github.com/enthec/webappanalyzer/actions/workflows/validate.yml/badge.svg)](https://github.com/enthec/webappanalyzer/actions/workflows/validate.yml) [![License](https://img.shields.io/github/license/enthec/webappanalyzer.svg)](https://opensource.org/license/gpl-3-0/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "repositoryUrl": "https://github.com/offensity/webappanalyzer",
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/github",
+      "@semantic-release/git"
+    ]
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^13.0.0",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^10.0.7",
+    "@semantic-release/release-notes-generator": "^14.0.1",
+    "semantic-release": "^24.0.0"
+  }
+}
