@@ -2,8 +2,8 @@ name: Sync Fork
 
 on:
   schedule:
-    - cron: '0 0 * * MON' # every 30 minutes
-  workflow_dispatch: # on button click
+    - cron: '36 1 * * MON' # Scheduled to run at 1:36 AM on Mondays
+  workflow_dispatch: # On button click
 
 jobs:
   sync:
@@ -16,3 +16,25 @@ jobs:
           owner: enthec
           base: main
           head: main
+
+
+      - name: Create Tag
+        id: create_tag
+        run: |
+          TAG_NAME="sync-$(date +'%Y%m%d%H%M%S')"
+          git tag $TAG_NAME
+          git push origin $TAG_NAME
+          echo "::set-output name=tag::$TAG_NAME"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npx semantic-release
