@@ -94,7 +94,9 @@
     ],
     "saas": true,
     "website": "https://nacelle.com",
-    "xhr": "storefront\\.api\\.nacelle\\.com"
+    "xhr": [
+      "storefront\\.api\\.nacelle\\.com"
+    ]
   },
   "NagaCommerce": {
     "cats": [
@@ -504,7 +506,9 @@
       "^https?://[^/]+\\.netlify\\.(?:com|app)/"
     ],
     "website": "https://www.netlify.com/",
-    "xhr": "cdn\\.netlify\\.com"
+    "xhr": [
+      "cdn\\.netlify\\.com"
+    ]
   },
   "Netlify Forms": {
     "cats": [

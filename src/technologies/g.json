@@ -753,7 +753,9 @@
     ],
     "saas": true,
     "website": "https://getintent.com",
-    "xhr": "\\.adhigh\\.net"
+    "xhr": [
+      "\\.adhigh\\.net"
+    ]
   },
   "Getsitecontrol": {
     "cats": [
@@ -2392,7 +2394,9 @@
       "freemium"
     ],
     "website": "https://graphcms.com",
-    "xhr": "\\.graphcms\\.com"
+    "xhr": [
+      "\\.graphcms\\.com"
+    ]
   },
   "GraphQL": {
     "cats": [
@@ -2406,7 +2410,9 @@
     },
     "oss": true,
     "website": "https://graphql.org",
-    "xhr": "graphql\\.[\\w]+\\.(?:com|net)/"
+    "xhr": [
+      "graphql\\.[\\w]+\\.(?:com|net)/"
+    ]
   },
   "Graphene": {
     "cats": [
@@ -2723,7 +2729,9 @@
     ],
     "saas": true,
     "website": "https://gumgum.com",
-    "xhr": "\\.gumgum\\.com"
+    "xhr": [
+      "\\.gumgum\\.com"
+    ]
   },
   "Gumlet": {
     "cats": [

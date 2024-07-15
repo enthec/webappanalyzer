@@ -456,7 +456,9 @@
       "\\.infusionsoft\\.com/"
     ],
     "website": "https://keap.com",
-    "xhr": "property\\.infusionsoft\\.com"
+    "xhr": [
+      "property\\.infusionsoft\\.com"
+    ]
   },
   "Keen Delivery": {
     "cats": [
@@ -1067,7 +1069,9 @@
       "cdn\\.getkoala\\.com/"
     ],
     "website": "https://getkoala.com/",
-    "xhr": "api\\.getkoala\\.com"
+    "xhr": [
+      "api\\.getkoala\\.com"
+    ]
   },
   "Koala Framework": {
     "cats": [

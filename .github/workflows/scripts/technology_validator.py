@@ -150,14 +150,10 @@ class ArrayValidator(RegexValidator):
         return [list]
 
 
-class StringOrArrayValidator(RegexValidator):
-    def get_type(self) -> list[Type]:
-        return [str, list]
-
-
 class StringOrArrayOrDictValidator(AbstractValidator):
     def get_type(self) -> list[Type]:
         return [str, list, dict]
+
 
 class DictValidator(RegexValidator):
     def get_type(self) -> list[Type]:
@@ -250,7 +246,7 @@ class TechnologiesValidator:
             "probe": DictValidator(),
             "robots": ArrayValidator(),
             "url": ArrayValidator(contains_regex=True),
-            "xhr": StringOrArrayValidator(contains_regex=True),
+            "xhr": ArrayValidator(contains_regex=True),
             "meta": DictValidator(contains_regex=True),
             "scriptSrc": ArrayValidator(contains_regex=True),
             "scripts": ArrayValidator(contains_regex=True),

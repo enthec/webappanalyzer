@@ -390,7 +390,9 @@
       "\\.taboola\\.com"
     ],
     "website": "https://www.taboola.com",
-    "xhr": "\\.taboola\\.com"
+    "xhr": [
+      "\\.taboola\\.com"
+    ]
   },
   "Tachyons": {
     "cats": [
@@ -833,7 +835,9 @@
       "teads\\.tv"
     ],
     "website": "https://www.teads.com",
-    "xhr": "\\.teads\\.tv"
+    "xhr": [
+      "\\.teads\\.tv"
+    ]
   },
   "Tealium": {
     "cats": [
@@ -2371,7 +2375,9 @@
       "TiktokAnalyticsObject": ""
     },
     "website": "https://ads.tiktok.com",
-    "xhr": "analytics\\.tiktok\\.com"
+    "xhr": [
+      "analytics\\.tiktok\\.com"
+    ]
   },
   "Tiki Wiki CMS Groupware": {
     "cats": [
@@ -2644,7 +2650,9 @@
       "api\\.tomtom\\.com"
     ],
     "website": "https://www.tomtom.com",
-    "xhr": "api\\.tomtom\\.com"
+    "xhr": [
+      "api\\.tomtom\\.com"
+    ]
   },
   "TomatoCart": {
     "cats": [
@@ -3114,7 +3122,9 @@
     ],
     "saas": true,
     "website": "https://triplewhale.com/",
-    "xhr": "triplewhale-pixel\\.web\\.app"
+    "xhr": [
+      "triplewhale-pixel\\.web\\.app"
+    ]
   },
   "TripleLift": {
     "cats": [
@@ -3135,7 +3145,9 @@
     ],
     "saas": true,
     "website": "https://triplelift.com",
-    "xhr": "\\.3lift\\.com"
+    "xhr": [
+      "\\.3lift\\.com"
+    ]
   },
   "Tritac Katana Commerce": {
     "cats": [
@@ -3179,7 +3191,9 @@
     "icon": "trove.png",
     "saas": true,
     "website": "https://trove.co",
-    "xhr": "reware-production\\.yerdlesite\\.com"
+    "xhr": [
+      "reware-production\\.yerdlesite\\.com"
+    ]
   },
   "TruValidate": {
     "cats": [
@@ -4109,7 +4123,9 @@
       "\\.adsrvr\\.org/"
     ],
     "website": "https://www.thetradedesk.com",
-    "xhr": "adsvr\\.org"
+    "xhr": [
+      "adsvr\\.org"
+    ]
   },
   "thttpd": {
     "cats": [

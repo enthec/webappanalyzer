@@ -140,7 +140,9 @@
     ],
     "saas": true,
     "website": "https://www.rtbhouse.com",
-    "xhr": "\\.creativecdn\\.com"
+    "xhr": [
+      "\\.creativecdn\\.com"
+    ]
   },
   "RX Web Server": {
     "cats": [
@@ -740,7 +742,9 @@
     "dom": "div#ra-player, div[data-skin*='assets\\.sitespeaker\\.link/embed/skins']",
     "icon": "default.svg",
     "website": "https://www.readaloudwidget.com",
-    "xhr": "assets\\.sitespeaker\\.link"
+    "xhr": [
+      "assets\\.sitespeaker\\.link"
+    ]
   },
   "ReadMe": {
     "cats": [
@@ -2669,7 +2673,9 @@
       "https?://[^/]*\\.rubiconproject\\.com"
     ],
     "website": "https://rubiconproject.com/",
-    "xhr": "\\.rubiconproject\\.com"
+    "xhr": [
+      "\\.rubiconproject\\.com"
+    ]
   },
   "Ruby": {
     "cats": [

@@ -51,7 +51,9 @@
       "^https://(?:cdn\\.)?id5-sync\\.com/"
     ],
     "website": "https://id5.io/",
-    "xhr": ".*id5-sync\\.com"
+    "xhr": [
+      ".*id5-sync\\.com"
+    ]
   },
   "IIS": {
     "cats": [
@@ -166,7 +168,9 @@
     "icon": "IPInfoDB.png",
     "saas": true,
     "website": "https://www.ipinfodb.com/",
-    "xhr": "api\\.ipinfodb\\.com"
+    "xhr": [
+      "api\\.ipinfodb\\.com"
+    ]
   },
   "IPinfo": {
     "cats": [
@@ -183,7 +187,9 @@
       "ipinfo\\.io/"
     ],
     "website": "https://ipinfo.io",
-    "xhr": "ipinfo\\.io/"
+    "xhr": [
+      "ipinfo\\.io/"
+    ]
   },
   "ISAY": {
     "cats": [
@@ -625,7 +631,9 @@
     "description": "Index Exchange is a customizable exchange technology that enables sell side media firms to monetize ad inventories programmatically and in real time.",
     "icon": "Index Exchange.svg",
     "website": "https://www.indexexchange.com",
-    "xhr": "\\.casalemedia\\.com"
+    "xhr": [
+      "\\.casalemedia\\.com"
+    ]
   },
   "Indexhibit": {
     "cats": [
@@ -1722,7 +1730,9 @@
     ],
     "saas": true,
     "website": "https://ip-api.com/",
-    "xhr": "ip-api\\.com"
+    "xhr": [
+      "ip-api\\.com"
+    ]
   },
   "ip-label": {
     "cats": [
@@ -1750,7 +1760,9 @@
     ],
     "saas": true,
     "website": "https://ipapi.com",
-    "xhr": "api\\.ipapi\\.com"
+    "xhr": [
+      "api\\.ipapi\\.com"
+    ]
   },
   "ipapi.co": {
     "cats": [
@@ -1765,7 +1777,9 @@
     ],
     "saas": true,
     "website": "https://ipapi.co",
-    "xhr": "ipapi\\.co/"
+    "xhr": [
+      "ipapi\\.co/"
+    ]
   },
   "ipbase": {
     "cats": [
@@ -1780,7 +1794,9 @@
     ],
     "saas": true,
     "website": "https://ipbase.com",
-    "xhr": "api\\.ipbase\\.com"
+    "xhr": [
+      "api\\.ipbase\\.com"
+    ]
   },
   "ipdata": {
     "cats": [
@@ -1795,7 +1811,9 @@
     ],
     "saas": true,
     "website": "https://ipdata.co/",
-    "xhr": "api\\.ipdata\\.co"
+    "xhr": [
+      "api\\.ipdata\\.co"
+    ]
   },
   "ipgeolocation": {
     "cats": [
@@ -1810,7 +1828,9 @@
     ],
     "saas": true,
     "website": "https://ipgeolocation.co/",
-    "xhr": "api\\.ipgeolocation\\.io"
+    "xhr": [
+      "api\\.ipgeolocation\\.io"
+    ]
   },
   "ipify": {
     "cats": [
@@ -1829,7 +1849,9 @@
       "\\.ipify\\.org"
     ],
     "website": "https://ipify.org",
-    "xhr": "(?:api|api64|geo)\\.ipify\\.org"
+    "xhr": [
+      "(?:api|api64|geo)\\.ipify\\.org"
+    ]
   },
   "ipstack": {
     "cats": [
@@ -1846,7 +1868,9 @@
     ],
     "saas": true,
     "website": "https://ipstack.com",
-    "xhr": "api\\.ipstack\\.com"
+    "xhr": [
+      "api\\.ipstack\\.com"
+    ]
   },
   "iubenda": {
     "cats": [

@@ -852,7 +852,9 @@
       "bigdatacloud\\.net"
     ],
     "website": "https://www.bigdatacloud.com/packages/ip-geolocation",
-    "xhr": "api\\.bigdatacloud\\.net"
+    "xhr": [
+      "api\\.bigdatacloud\\.net"
+    ]
   },
   "BigTree CMS": {
     "cats": [
@@ -1362,7 +1364,9 @@
       "\\.btttag\\.com/btt\\.js"
     ],
     "website": "https://bluetriangle.com",
-    "xhr": "\\.btttag\\.com"
+    "xhr": [
+      "\\.btttag\\.com"
+    ]
   },
   "BlueConic": {
     "cats": [
@@ -1842,7 +1846,9 @@
       "account\\.bolt\\.com/"
     ],
     "website": "https://www.bolt.com/",
-    "xhr": "connect\\.bolt\\.com"
+    "xhr": [
+      "connect\\.bolt\\.com"
+    ]
   },
   "Bonfire": {
     "cats": [
@@ -2957,7 +2963,9 @@
     ],
     "saas": true,
     "website": "https://builder.io",
-    "xhr": "cdn\\.builder\\.io"
+    "xhr": [
+      "cdn\\.builder\\.io"
+    ]
   },
   "Buildertrend": {
     "cats": [

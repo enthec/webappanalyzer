@@ -189,7 +189,9 @@
     "icon": "Accelerated-Mobile-Pages.svg",
     "oss": true,
     "website": "https://www.amp.dev",
-    "xhr": "cdn\\.ampproject\\.org"
+    "xhr": [
+      "cdn\\.ampproject\\.org"
+    ]
   },
   "AMP for WordPress": {
     "cats": [
@@ -797,7 +799,9 @@
       "lift\\.acquia\\.com"
     ],
     "website": "https://www.acquia.com/products/marketing-cloud/personalization",
-    "xhr": "lift\\.acquia\\.com"
+    "xhr": [
+      "lift\\.acquia\\.com"
+    ]
   },
   "Acquia Site Studio": {
     "cats": [
@@ -1234,7 +1238,9 @@
       "track\\.adabra\\.com"
     ],
     "website": "https://www.adabra.com",
-    "xhr": "my\\.adabra\\.com"
+    "xhr": [
+      "my\\.adabra\\.com"
+    ]
   },
   "Adally": {
     "cats": [
@@ -2921,7 +2927,9 @@
       "\\.amazon-adsystem\\.com"
     ],
     "website": "https://advertising.amazon.com",
-    "xhr": "\\.amazon-adsystem\\.com"
+    "xhr": [
+      "\\.amazon-adsystem\\.com"
+    ]
   },
   "Amazon Associates": {
     "cats": [
@@ -3008,7 +3016,9 @@
       "payg"
     ],
     "website": "https://aws.amazon.com/cognito/",
-    "xhr": "cognito-idp\\..+\\.amazonaws\\.com"
+    "xhr": [
+      "cognito-idp\\..+\\.amazonaws\\.com"
+    ]
   },
   "Amazon EC2": {
     "cats": [
@@ -3095,7 +3105,9 @@
       "\\.payments-amazon\\.com/"
     ],
     "website": "https://pay.amazon.com",
-    "xhr": "payments\\.amazon\\.com"
+    "xhr": [
+      "payments\\.amazon\\.com"
+    ]
   },
   "Amazon S3": {
     "cats": [
@@ -3313,7 +3325,9 @@
       "cdn\\.(?:segment.+)?amplitude(?:\\.com|-plugins)"
     ],
     "website": "https://amplitude.com",
-    "xhr": "\\.amplitude\\.com"
+    "xhr": [
+      "\\.amplitude\\.com"
+    ]
   },
   "Analysys Ark": {
     "cats": [
@@ -4119,7 +4133,9 @@
       "adnxs\\.(?:net|com)"
     ],
     "website": "https://appnexus.com",
-    "xhr": "prebid\\.adnxs\\.com"
+    "xhr": [
+      "prebid\\.adnxs\\.com"
+    ]
   },
   "Appcues": {
     "cats": [
@@ -4433,7 +4449,9 @@
       "arc\\.io/widget\\.js"
     ],
     "website": "https://arc.io",
-    "xhr": "\\.arc\\.io"
+    "xhr": [
+      "\\.arc\\.io"
+    ]
   },
   "Arc XP": {
     "cats": [

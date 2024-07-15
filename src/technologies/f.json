@@ -423,7 +423,9 @@
       "payg"
     ],
     "website": "https://www.fastly.com",
-    "xhr": "\\.fastly\\.net"
+    "xhr": [
+      "\\.fastly\\.net"
+    ]
   },
   "Fastspring": {
     "cats": [
@@ -892,7 +894,9 @@
       "\\.firstimpression\\.io"
     ],
     "website": "https://www.firstimpression.io",
-    "xhr": "\\.firstimpression\\.io"
+    "xhr": [
+      "\\.firstimpression\\.io"
+    ]
   },
   "FirstPromoter": {
     "cats": [
@@ -2300,7 +2304,9 @@
       "x-frc-client\",\"js-(\\d+(\\.\\d+)+)\\;version:\\1"
     ],
     "website": "https://friendlycaptcha.com",
-    "xhr": "api.friendlycaptcha.com"
+    "xhr": [
+      "api.friendlycaptcha.com"
+    ]
   },
   "Frizbit": {
     "cats": [
@@ -2526,7 +2532,9 @@
     "description": "FunCaptcha is a type of CAPTCHA, which is a security measure used to protect websites and online services from spam, bots, and other forms of automated abuse.",
     "icon": "fun_captcha.svg",
     "website": "https://www.arkoselabs.com/arkose-matchkey/",
-    "xhr": "api\\.funcaptcha\\.com"
+    "xhr": [
+      "api\\.funcaptcha\\.com"
+    ]
   },
   "Fundiin": {
     "cats": [

@@ -56,7 +56,9 @@
       "\\.lkqd\\.net"
     ],
     "website": "https://wiki.lkqd.com",
-    "xhr": "\\.lkqd\\.net"
+    "xhr": [
+      "\\.lkqd\\.net"
+    ]
   },
   "LOU": {
     "cats": [
@@ -1363,7 +1365,9 @@
       "\\.liadm\\.com"
     ],
     "website": "https://www.liveintent.com",
-    "xhr": "\\.liadm\\.com"
+    "xhr": [
+      "\\.liadm\\.com"
+    ]
   },
   "LiveJournal": {
     "cats": [
@@ -1636,7 +1640,9 @@
     ],
     "saas": true,
     "website": "https://www.localised.com",
-    "xhr": "api\\.localised\\.com"
+    "xhr": [
+      "api\\.localised\\.com"
+    ]
   },
   "Locksmith": {
     "cats": [

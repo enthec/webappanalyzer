@@ -200,7 +200,9 @@
       "\\.jwpcdn\\.com"
     ],
     "website": "https://www.jwplayer.com",
-    "xhr": "\\.jwpsrv\\.com"
+    "xhr": [
+      "\\.jwpsrv\\.com"
+    ]
   },
   "Jahia DX": {
     "cats": [
@@ -834,7 +836,9 @@
       "static\\.june\\.so/analytics\\.js/"
     ],
     "website": "https://june.so",
-    "xhr": "a\\.june\\.so"
+    "xhr": [
+      "a\\.june\\.so"
+    ]
   },
   "Junip": {
     "cats": [
@@ -1180,6 +1184,8 @@
       "cdn\\.jsdelivr\\.net"
     ],
     "website": "https://www.jsdelivr.com/",
-    "xhr": "cdn\\.jsdelivr\\.net"
+    "xhr": [
+      "cdn\\.jsdelivr\\.net"
+    ]
   }
 }

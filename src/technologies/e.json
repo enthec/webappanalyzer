@@ -209,7 +209,9 @@
       "\\.playbuzz\\.com"
     ],
     "website": "https://ex.co",
-    "xhr": "prd-collector-anon\\.ex\\.co"
+    "xhr": [
+      "prd-collector-anon\\.ex\\.co"
+    ]
   },
   "EZproxy": {
     "cats": [
@@ -272,7 +274,9 @@
     ],
     "saas": true,
     "website": "https://www.easy-orders.net",
-    "xhr": "api\\.easy-orders\\.net/"
+    "xhr": [
+      "api\\.easy-orders\\.net/"
+    ]
   },
   "Easy Pie Chart": {
     "cats": [

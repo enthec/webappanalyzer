@@ -554,7 +554,9 @@
       "cdn\\.dealerspike\\.com"
     ],
     "website": "https://www.dealerspike.com",
-    "xhr": "\\.dealerspike\\.com"
+    "xhr": [
+      "\\.dealerspike\\.com"
+    ]
   },
   "Debian": {
     "cats": [
@@ -1114,7 +1116,9 @@
     "icon": "District M.svg",
     "saas": true,
     "website": "https://districtm.net",
-    "xhr": "\\.districtm\\.io"
+    "xhr": [
+      "\\.districtm\\.io"
+    ]
   },
   "Dito": {
     "cats": [
@@ -1290,7 +1294,9 @@
     ],
     "saas": true,
     "website": "https://www.docusign.com",
-    "xhr": "docusign\\.net"
+    "xhr": [
+      "docusign\\.net"
+    ]
   },
   "Docusaurus": {
     "cats": [
@@ -2344,7 +2350,9 @@
     ],
     "saas": true,
     "website": "https://dyte.io",
-    "xhr": "cdn\\.dyte\\.in/"
+    "xhr": [
+      "cdn\\.dyte\\.in/"
+    ]
   },
   "daisyUI": {
     "cats": [
@@ -2383,7 +2391,9 @@
       "cdn\\.db-ip\\.com"
     ],
     "website": "https://db-ip.com/",
-    "xhr": "api\\.db-ip\\.com"
+    "xhr": [
+      "api\\.db-ip\\.com"
+    ]
   },
   "dc.js": {
     "cats": [

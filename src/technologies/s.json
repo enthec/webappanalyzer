@@ -975,7 +975,9 @@
     ],
     "saas": true,
     "website": "https://www.sanity.io",
-    "xhr": "api(?:cdn)?\\.sanity\\.io"
+    "xhr": [
+      "api(?:cdn)?\\.sanity\\.io"
+    ]
   },
   "Sapper": {
     "cats": [
@@ -2833,7 +2835,9 @@
       "^https?//.+\\.myshopify\\.com"
     ],
     "website": "https://shopify.com",
-    "xhr": "\\.myshopify\\.com"
+    "xhr": [
+      "\\.myshopify\\.com"
+    ]
   },
   "Shopify Buy Button": {
     "cats": [
@@ -4348,7 +4352,9 @@
       "\\.skimresources\\.com"
     ],
     "website": "https://skimlinks.com",
-    "xhr": "\\.skimresources\\.com"
+    "xhr": [
+      "\\.skimresources\\.com"
+    ]
   },
   "Skio": {
     "cats": [
@@ -5503,7 +5509,9 @@
     "icon": "Sonobi.png",
     "saas": true,
     "website": "https://sonobi.com",
-    "xhr": "apex\\.go\\.sonobi\\.com"
+    "xhr": [
+      "apex\\.go\\.sonobi\\.com"
+    ]
   },
   "Sortable": {
     "cats": [
@@ -5654,7 +5662,9 @@
       "\\.(?:linksmart|lijit)\\.com/"
     ],
     "website": "https://www.sovrn.com",
-    "xhr": "\\.lijit\\.com"
+    "xhr": [
+      "\\.lijit\\.com"
+    ]
   },
   "Sovrn//Commerce": {
     "cats": [
@@ -6116,7 +6126,9 @@
       "js\\.spotx\\.tv"
     ],
     "website": "https://www.spotx.tv",
-    "xhr": "\\.spotx(?:change|cdn)\\.com"
+    "xhr": [
+      "\\.spotx(?:change|cdn)\\.com"
+    ]
   },
   "Spotify Web API": {
     "cats": [
@@ -6473,7 +6485,9 @@
       "js\\.squareup\\.com"
     ],
     "website": "https://squareup.com/",
-    "xhr": "\\.squareup\\.com"
+    "xhr": [
+      "\\.squareup\\.com"
+    ]
   },
   "Square Online": {
     "cats": [
@@ -6918,7 +6932,9 @@
     },
     "saas": true,
     "website": "https://statsig.com/",
-    "xhr": "\\.statsigapi\\.net"
+    "xhr": [
+      "\\.statsigapi\\.net"
+    ]
   },
   "Status.io": {
     "cats": [

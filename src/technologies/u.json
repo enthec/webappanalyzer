@@ -348,7 +348,9 @@
       "/umbraco/login\\.aspx(?:$|\\?)"
     ],
     "website": "https://umbraco.com/",
-    "xhr": "/umbraco/api/"
+    "xhr": [
+      "/umbraco/api/"
+    ]
   },
   "UmiJs": {
     "cats": [
@@ -1155,6 +1157,8 @@
     "icon": "utterances.svg",
     "oss": true,
     "website": "https://utteranc.es/",
-    "xhr": "\\.utteranc\\.es"
+    "xhr": [
+      "\\.utteranc\\.es"
+    ]
   }
 }

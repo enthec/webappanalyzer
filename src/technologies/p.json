@@ -903,7 +903,9 @@
       "paypalobjects\\.com"
     ],
     "website": "https://paypal.com",
-    "xhr": "\\.paypal\\.com"
+    "xhr": [
+      "\\.paypal\\.com"
+    ]
   },
   "PayPal Credit": {
     "cats": [
@@ -1385,7 +1387,9 @@
       "cdn\\.permutive\\.com"
     ],
     "website": "https://permutive.com",
-    "xhr": "api\\.permutive\\.com"
+    "xhr": [
+      "api\\.permutive\\.com"
+    ]
   },
   "PersonaClick": {
     "cats": [
@@ -1974,7 +1978,9 @@
     "description": "Pinterest Ads is an online advertising platform developed by Pinterest.",
     "icon": "Pinterest.svg",
     "website": "https://ads.pinterest.com/",
-    "xhr": "ct\\.pinterest\\.com"
+    "xhr": [
+      "ct\\.pinterest\\.com"
+    ]
   },
   "Pinterest Conversion Tag": {
     "cats": [
@@ -2690,7 +2696,9 @@
       "mid"
     ],
     "website": "https://get.popmenu.com",
-    "xhr": "popmenu\\.com"
+    "xhr": [
+      "popmenu\\.com"
+    ]
   },
   "Popper": {
     "cats": [
@@ -3325,7 +3333,9 @@
       "\\.sekindo\\.com"
     ],
     "website": "https://www.primis.tech",
-    "xhr": "\\.sekindo\\.com"
+    "xhr": [
+      "\\.sekindo\\.com"
+    ]
   },
   "Printful": {
     "cats": [
@@ -3385,7 +3395,9 @@
       "\\.prismic\\.io/"
     ],
     "website": "https://prismic.io",
-    "xhr": "\\.cdn\\.prismic\\.io"
+    "xhr": [
+      "\\.cdn\\.prismic\\.io"
+    ]
   },
   "Privy": {
     "cats": [
@@ -3851,7 +3863,9 @@
       "https?://[^/]*\\.pubmatic\\.com"
     ],
     "website": "https://www.pubmatic.com/",
-    "xhr": "\\.pubmatic\\.com"
+    "xhr": [
+      "\\.pubmatic\\.com"
+    ]
   },
   "PubSubJS": {
     "cats": [

@@ -69,7 +69,9 @@
       "\\.tynt\\.com/"
     ],
     "website": "https://www.33across.com",
-    "xhr": "\\.33across\\.com"
+    "xhr": [
+      "\\.33across\\.com"
+    ]
   },
   "34SP.com": {
     "cats": [
@@ -196,7 +198,9 @@
     ],
     "saas": true,
     "website": "https://8base.com",
-    "xhr": "api\\.8base\\.com"
+    "xhr": [
+      "api\\.8base\\.com"
+    ]
   },
   "<model-viewer>": {
     "cats": [

@@ -1510,7 +1510,9 @@
       "geoip-js\\.com/.+/v([\\d\\.]+)/\\;version:\\1"
     ],
     "website": "https://www.maxmind.com",
-    "xhr": "\\.maxmind\\.com"
+    "xhr": [
+      "\\.maxmind\\.com"
+    ]
   },
   "MaxSite CMS": {
     "cats": [
@@ -2583,7 +2585,9 @@
     ],
     "saas": true,
     "website": "https://miso.ai",
-    "xhr": "\\.askmiso\\.com/"
+    "xhr": [
+      "\\.askmiso\\.com/"
+    ]
   },
   "Misskey": {
     "cats": [
@@ -3562,7 +3566,9 @@
       "onetime"
     ],
     "website": "https://www.myfonts.com",
-    "xhr": "\\.myfonts\\.net/"
+    "xhr": [
+      "\\.myfonts\\.net/"
+    ]
   },
   "MyLiveChat": {
     "cats": [
@@ -3853,7 +3859,9 @@
     ],
     "saas": true,
     "website": "https://microcms.io",
-    "xhr": "\\.microcms\\.io"
+    "xhr": [
+      "\\.microcms\\.io"
+    ]
   },
   "mini_httpd": {
     "cats": [

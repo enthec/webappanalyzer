@@ -749,7 +749,9 @@
     ],
     "saas": true,
     "website": "https://vimeo.com/ott",
-    "xhr": "api\\.vhx\\.tv"
+    "xhr": [
+      "api\\.vhx\\.tv"
+    ]
   },
   "Viqeo": {
     "cats": [

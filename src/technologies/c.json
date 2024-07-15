@@ -1250,7 +1250,9 @@
     ],
     "saas": true,
     "website": "https://www.channelape.com",
-    "xhr": "\\.channelape\\.com"
+    "xhr": [
+      "\\.channelape\\.com"
+    ]
   },
   "Chaport": {
     "cats": [
@@ -1394,7 +1396,9 @@
       "call\\.chatra\\.io/chatra\\.js"
     ],
     "website": "https://chatra.com",
-    "xhr": "chat\\.chatra\\.io/"
+    "xhr": [
+      "chat\\.chatra\\.io/"
+    ]
   },
   "Chatwoot": {
     "cats": [
@@ -1451,7 +1455,9 @@
     ],
     "saas": true,
     "website": "https://www.checklyhq.com",
-    "xhr": "api\\.checklyhq\\.com/"
+    "xhr": [
+      "api\\.checklyhq\\.com/"
+    ]
   },
   "Checkout.com": {
     "cats": [
@@ -2505,7 +2511,9 @@
     ],
     "saas": true,
     "website": "https://workers.cloudflare.com",
-    "xhr": "\\.workers\\.dev"
+    "xhr": [
+      "\\.workers\\.dev"
+    ]
   },
   "Cloudflare Zaraz": {
     "cats": [
@@ -3283,7 +3291,9 @@
       "cdn\\.commerce7\\.com"
     ],
     "website": "https://commerce7.com",
-    "xhr": "api\\.commerce7\\.com"
+    "xhr": [
+      "api\\.commerce7\\.com"
+    ]
   },
   "Commercelayer": {
     "cats": [
@@ -3297,7 +3307,9 @@
     ],
     "saas": true,
     "website": "https://commercelayer.io",
-    "xhr": "\\.commercelayer\\.io"
+    "xhr": [
+      "\\.commercelayer\\.io"
+    ]
   },
   "Community Funded": {
     "cats": [
@@ -3676,7 +3688,9 @@
     ],
     "saas": true,
     "website": "https://www.contentful.com",
-    "xhr": "(?:cdn|graphql)\\.contentful\\.com"
+    "xhr": [
+      "(?:cdn|graphql)\\.contentful\\.com"
+    ]
   },
   "Contently": {
     "cats": [
@@ -5272,7 +5286,9 @@
     ],
     "saas": true,
     "website": "https://commercetools.com",
-    "xhr": "\\.commercetools\\.com/"
+    "xhr": [
+      "\\.commercetools\\.com/"
+    ]
   },
   "core-js": {
     "cats": [
