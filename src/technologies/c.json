@@ -761,7 +761,9 @@
       "Apache HTTP Server"
     ],
     "saas": true,
-    "scripts": "\\(\\!section\\s\\|\\|\\ssection\\.tagName\\s\\!\\=\\s\\'SECTION\\'\\)",
+    "scripts": [
+      "\\(\\!section\\s\\|\\|\\ssection\\.tagName\\s\\!\\=\\s\\'SECTION\\'\\)"
+    ],
     "website": "https://carrd.co"
   },
   "Carro": {
@@ -833,7 +835,9 @@
     "scriptSrc": [
       "googlecommerce\\.com/trustedstores/api/js"
     ],
-    "url": "/(?:cart|order|basket|trolley|bag|shoppingbag|checkout)",
+    "url": [
+      "/(?:cart|order|basket|trolley|bag|shoppingbag|checkout)"
+    ],
     "website": "https://www.wappalyzer.com/technologies/ecommerce/cart-functionality"
   },
   "Cart.com": {
@@ -1105,7 +1109,9 @@
       "poa"
     ],
     "saas": true,
-    "scripts": "centraCheckoutScript",
+    "scripts": [
+      "centraCheckoutScript"
+    ],
     "website": "https://centra.com"
   },
   "Chabokan": {
@@ -1244,7 +1250,9 @@
     ],
     "saas": true,
     "website": "https://www.channelape.com",
-    "xhr": "\\.channelape\\.com"
+    "xhr": [
+      "\\.channelape\\.com"
+    ]
   },
   "Chaport": {
     "cats": [
@@ -1388,7 +1396,9 @@
       "call\\.chatra\\.io/chatra\\.js"
     ],
     "website": "https://chatra.com",
-    "xhr": "chat\\.chatra\\.io/"
+    "xhr": [
+      "chat\\.chatra\\.io/"
+    ]
   },
   "Chatwoot": {
     "cats": [
@@ -1445,7 +1455,9 @@
     ],
     "saas": true,
     "website": "https://www.checklyhq.com",
-    "xhr": "api\\.checklyhq\\.com/"
+    "xhr": [
+      "api\\.checklyhq\\.com/"
+    ]
   },
   "Checkout.com": {
     "cats": [
@@ -1910,7 +1922,9 @@
       "Application Request Routing",
       "Java"
     ],
-    "url": "\\.[\\w]+/fmi/webd/",
+    "url": [
+      "\\.[\\w]+/fmi/webd/"
+    ],
     "website": "https://www.claris.com/filemaker"
   },
   "Clarity": {
@@ -1973,7 +1987,9 @@
     "js": {
       "Classy.clientId": ""
     },
-    "scripts": "classy\\.org",
+    "scripts": [
+      "classy\\.org"
+    ],
     "website": "https://www.classy.org/"
   },
   "ClearSale": {
@@ -2495,7 +2511,9 @@
     ],
     "saas": true,
     "website": "https://workers.cloudflare.com",
-    "xhr": "\\.workers\\.dev"
+    "xhr": [
+      "\\.workers\\.dev"
+    ]
   },
   "Cloudflare Zaraz": {
     "cats": [
@@ -2843,7 +2861,9 @@
       "\\/(?:coinhive|(authedmine))(?:\\.min)?\\.js\\;version:\\1?opt-in:",
       "coinhive\\.com/lib"
     ],
-    "url": "https?://cnhv\\.co/",
+    "url": [
+      "https?://cnhv\\.co/"
+    ],
     "website": "https://coinhive.com"
   },
   "CoinHive Captcha": {
@@ -3250,7 +3270,9 @@
       "cdn\\.chec\\.io/v(\\d+)/commerce\\.js\\;version:\\1",
       "chec/commerce\\.js"
     ],
-    "url": "\\.spaces.chec\\.io",
+    "url": [
+      "\\.spaces.chec\\.io"
+    ],
     "website": "https://www.commercejs.com"
   },
   "Commerce7": {
@@ -3269,7 +3291,9 @@
       "cdn\\.commerce7\\.com"
     ],
     "website": "https://commerce7.com",
-    "xhr": "api\\.commerce7\\.com"
+    "xhr": [
+      "api\\.commerce7\\.com"
+    ]
   },
   "Commercelayer": {
     "cats": [
@@ -3283,7 +3307,9 @@
     ],
     "saas": true,
     "website": "https://commercelayer.io",
-    "xhr": "\\.commercelayer\\.io"
+    "xhr": [
+      "\\.commercelayer\\.io"
+    ]
   },
   "Community Funded": {
     "cats": [
@@ -3662,7 +3688,9 @@
     ],
     "saas": true,
     "website": "https://www.contentful.com",
-    "xhr": "(?:cdn|graphql)\\.contentful\\.com"
+    "xhr": [
+      "(?:cdn|graphql)\\.contentful\\.com"
+    ]
   },
   "Contently": {
     "cats": [
@@ -4215,7 +4243,9 @@
       "recurring"
     ],
     "saas": true,
-    "scripts": "webpackJsonp@coreui/coreui",
+    "scripts": [
+      "webpackJsonp@coreui/coreui"
+    ],
     "website": "https://coreui.io"
   },
   "Corebine": {
@@ -4772,7 +4802,9 @@
     "scriptSrc": [
       "js/crownpeak\\."
     ],
-    "scripts": "crownpeak\\.net",
+    "scripts": [
+      "crownpeak\\.net"
+    ],
     "website": "https://www.crownpeak.com"
   },
   "Cryout Creations Bravada": {
@@ -5254,7 +5286,9 @@
     ],
     "saas": true,
     "website": "https://commercetools.com",
-    "xhr": "\\.commercetools\\.com/"
+    "xhr": [
+      "\\.commercetools\\.com/"
+    ]
   },
   "core-js": {
     "cats": [

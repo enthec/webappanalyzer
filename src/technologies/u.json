@@ -284,7 +284,9 @@
     "scriptSrc": [
       "cgi-bin\\/UCJavaScript\\?"
     ],
-    "url": "/cgi-bin/UCEditor\\?",
+    "url": [
+      "/cgi-bin/UCEditor\\?"
+    ],
     "website": "https://ultracart.com"
   },
   "Umami": {
@@ -339,10 +341,16 @@
       "low"
     ],
     "saas": true,
-    "scripts": "/Umbraco/Api/",
-    "url": "/umbraco/login\\.aspx(?:$|\\?)",
+    "scripts": [
+      "/Umbraco/Api/"
+    ],
+    "url": [
+      "/umbraco/login\\.aspx(?:$|\\?)"
+    ],
     "website": "https://umbraco.com/",
-    "xhr": "/umbraco/api/"
+    "xhr": [
+      "/umbraco/api/"
+    ]
   },
   "UmiJs": {
     "cats": [
@@ -374,7 +382,9 @@
       "recurring"
     ],
     "saas": true,
-    "scripts": "isPriorBlockingEnabled\\;confidence:75",
+    "scripts": [
+      "isPriorBlockingEnabled\\;confidence:75"
+    ],
     "website": "https://www.umso.com"
   },
   "Unas": {
@@ -1147,6 +1157,8 @@
     "icon": "utterances.svg",
     "oss": true,
     "website": "https://utteranc.es/",
-    "xhr": "\\.utteranc\\.es"
+    "xhr": [
+      "\\.utteranc\\.es"
+    ]
   }
 }

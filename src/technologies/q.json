@@ -489,7 +489,9 @@
     },
     "icon": "qiankun.svg",
     "oss": true,
-    "scripts": "__POWERED_BY_QIANKUN__",
+    "scripts": [
+      "__POWERED_BY_QIANKUN__"
+    ],
     "website": "https://qiankun.umijs.org"
   }
 }

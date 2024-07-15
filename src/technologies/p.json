@@ -32,7 +32,9 @@
       "pdfjsDistBuildPdf.version": "^(.+)$\\;version:\\1",
       "pdfjsLib.version": "^(.+)$\\;version:\\1"
     },
-    "url": "/web/viewer\\.html?file=[^&]\\.pdf",
+    "url": [
+      "/web/viewer\\.html?file=[^&]\\.pdf"
+    ],
     "website": "https://mozilla.github.io/pdf.js/"
   },
   "PHP": {
@@ -49,7 +51,9 @@
       "X-Powered-By": "^php/?([\\d.]+)?\\;version:\\1"
     },
     "icon": "PHP.svg",
-    "url": "\\.php(?:$|\\?)",
+    "url": [
+      "\\.php(?:$|\\?)"
+    ],
     "website": "https://php.net"
   },
   "PHP-Nuke": {
@@ -118,7 +122,9 @@
     "scriptSrc": [
       "pixi(?:\\.min|-legacy)?\\.js$"
     ],
-    "url": ".+\\.pixijs\\.com",
+    "url": [
+      ".+\\.pixijs\\.com"
+    ],
     "website": "https://www.pixijs.com"
   },
   "POLi Payment": {
@@ -196,7 +202,9 @@
       "fetchRootComponent": "\\;confidence:50"
     },
     "oss": true,
-    "scripts": "RootCmp_CMS_PAGE",
+    "scripts": [
+      "RootCmp_CMS_PAGE"
+    ],
     "website": "https://developer.adobe.com/commerce/pwa-studio/"
   },
   "Pace": {
@@ -571,7 +579,9 @@
     "js": {
       "pcrewAdloaded": ""
     },
-    "scripts": "var\\slink\\s=\\s'www\\.parkingcrew\\.net'",
+    "scripts": [
+      "var\\slink\\s=\\s'www\\.parkingcrew\\.net'"
+    ],
     "website": "https://www.parkingcrew.com"
   },
   "Parmin Cloud": {
@@ -893,7 +903,9 @@
       "paypalobjects\\.com"
     ],
     "website": "https://paypal.com",
-    "xhr": "\\.paypal\\.com"
+    "xhr": [
+      "\\.paypal\\.com"
+    ]
   },
   "PayPal Credit": {
     "cats": [
@@ -1375,7 +1387,9 @@
       "cdn\\.permutive\\.com"
     ],
     "website": "https://permutive.com",
-    "xhr": "api\\.permutive\\.com"
+    "xhr": [
+      "api\\.permutive\\.com"
+    ]
   },
   "PersonaClick": {
     "cats": [
@@ -1635,7 +1649,9 @@
     "scriptSrc": [
       "\\.psecn\\.photoshelter\\.com/"
     ],
-    "url": "photoshelter\\.com",
+    "url": [
+      "photoshelter\\.com"
+    ],
     "website": "https://www.photoshelter.com"
   },
   "PhotoShelter for Brands": {
@@ -1962,7 +1978,9 @@
     "description": "Pinterest Ads is an online advertising platform developed by Pinterest.",
     "icon": "Pinterest.svg",
     "website": "https://ads.pinterest.com/",
-    "xhr": "ct\\.pinterest\\.com"
+    "xhr": [
+      "ct\\.pinterest\\.com"
+    ]
   },
   "Pinterest Conversion Tag": {
     "cats": [
@@ -2678,7 +2696,9 @@
       "mid"
     ],
     "website": "https://get.popmenu.com",
-    "xhr": "popmenu\\.com"
+    "xhr": [
+      "popmenu\\.com"
+    ]
   },
   "Popper": {
     "cats": [
@@ -3313,7 +3333,9 @@
       "\\.sekindo\\.com"
     ],
     "website": "https://www.primis.tech",
-    "xhr": "\\.sekindo\\.com"
+    "xhr": [
+      "\\.sekindo\\.com"
+    ]
   },
   "Printful": {
     "cats": [
@@ -3373,7 +3395,9 @@
       "\\.prismic\\.io/"
     ],
     "website": "https://prismic.io",
-    "xhr": "\\.cdn\\.prismic\\.io"
+    "xhr": [
+      "\\.cdn\\.prismic\\.io"
+    ]
   },
   "Privy": {
     "cats": [
@@ -3839,7 +3863,9 @@
       "https?://[^/]*\\.pubmatic\\.com"
     ],
     "website": "https://www.pubmatic.com/",
-    "xhr": "\\.pubmatic\\.com"
+    "xhr": [
+      "\\.pubmatic\\.com"
+    ]
   },
   "PubSubJS": {
     "cats": [
@@ -3893,7 +3919,9 @@
     "cpe": "cpe:2.3:a:pulsesecure:pulse_connect_secure:*:*:*:*:*:*:*:*",
     "description": "Pulse Secure allows to deploy VPNs to securely to your internal resources.",
     "icon": "PulseSecure.png",
-    "url": "/dana-na/auth/",
+    "url": [
+      "/dana-na/auth/"
+    ],
     "website": "https://www.pulsesecure.net/products/remote-access-overview/"
   },
   "Pure CSS": {
@@ -4253,7 +4281,9 @@
     "scriptSrc": [
       "/petite-vue"
     ],
-    "scripts": "/petite-vue@([\\d\\.]+)/\\;version:\\1",
+    "scripts": [
+      "/petite-vue@([\\d\\.]+)/\\;version:\\1"
+    ],
     "website": "https://github.com/vuejs/petite-vue"
   },
   "phpAlbum": {

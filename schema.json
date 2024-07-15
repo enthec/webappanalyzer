@@ -184,30 +184,16 @@
         }
       },
       "scripts": {
-        "oneOf": [
-          {
-            "type": "array",
-            "items": {
-              "$ref": "#/definitions/non-empty-non-blank-string"
-            }
-          },
-          {
-            "$ref": "#/definitions/non-empty-non-blank-string"
-          }
-        ]
+        "type": "array",
+        "items": {
+          "$ref": "#/definitions/non-empty-non-blank-string"
+        }
       },
       "url": {
-        "oneOf": [
-          {
-            "type": "array",
-            "items": {
-              "$ref": "#/definitions/non-empty-non-blank-string"
-            }
-          },
-          {
-            "$ref": "#/definitions/non-empty-non-blank-string"
-          }
-        ]
+        "type": "array",
+        "items": {
+          "$ref": "#/definitions/non-empty-non-blank-string"
+        }
       },
       "website": {
         "$ref": "#/definitions/non-empty-non-blank-string"
@@ -216,17 +202,10 @@
         "$ref": "#/definitions/non-empty-non-blank-string"
       },
       "xhr": {
-        "oneOf": [
-          {
-            "type": "array",
-            "items": {
-              "$ref": "#/definitions/non-empty-non-blank-string"
-            }
-          },
-          {
-            "$ref": "#/definitions/non-empty-non-blank-string"
-          }
-        ]
+        "type": "array",
+        "items": {
+          "$ref": "#/definitions/non-empty-non-blank-string"
+        }
       }
     }
   }

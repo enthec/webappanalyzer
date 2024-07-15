@@ -802,8 +802,12 @@
     "scriptSrc": [
       "(?:\\.|plugins/)?bigcommerce(?:\\.com)?/(?:assets)?"
     ],
-    "scripts": "bigcommerceProductId",
-    "url": "mybigcommerce\\.com",
+    "scripts": [
+      "bigcommerceProductId"
+    ],
+    "url": [
+      "mybigcommerce\\.com"
+    ],
     "website": "https://www.bigcommerce.com"
   },
   "BigCommerce B2B Edition": {
@@ -848,7 +852,9 @@
       "bigdatacloud\\.net"
     ],
     "website": "https://www.bigdatacloud.com/packages/ip-geolocation",
-    "xhr": "api\\.bigdatacloud\\.net"
+    "xhr": [
+      "api\\.bigdatacloud\\.net"
+    ]
   },
   "BigTree CMS": {
     "cats": [
@@ -908,7 +914,9 @@
     "implies": [
       "PHP"
     ],
-    "url": "(?:\\?|&)bigWAdminID=",
+    "url": [
+      "(?:\\?|&)bigWAdminID="
+    ],
     "website": "https://bigware.de"
   },
   "Bikayi": {
@@ -1004,7 +1012,9 @@
     "scriptSrc": [
       "cdn\\.bitespeed\\.co/"
     ],
-    "scripts": "app\\.bitespeed\\.co/",
+    "scripts": [
+      "app\\.bitespeed\\.co/"
+    ],
     "website": "https://www.bitespeed.co"
   },
   "Bitrix24": {
@@ -1071,7 +1081,9 @@
     "scriptSrc": [
       "js/convio/modules\\.js"
     ],
-    "url": "/site/Donation2?.*df_id=",
+    "url": [
+      "/site/Donation2?.*df_id="
+    ],
     "website": "https://www.blackbaud.com"
   },
   "Blade": {
@@ -1237,7 +1249,9 @@
     "meta": {
       "generator": "^Blogger$"
     },
-    "url": "^https?://[^/]+\\.(?:blogspot|blogger)\\.com",
+    "url": [
+      "^https?://[^/]+\\.(?:blogspot|blogger)\\.com"
+    ],
     "website": "https://www.blogger.com"
   },
   "Bloomreach": {
@@ -1350,7 +1364,9 @@
       "\\.btttag\\.com/btt\\.js"
     ],
     "website": "https://bluetriangle.com",
-    "xhr": "\\.btttag\\.com"
+    "xhr": [
+      "\\.btttag\\.com"
+    ]
   },
   "BlueConic": {
     "cats": [
@@ -1830,7 +1846,9 @@
       "account\\.bolt\\.com/"
     ],
     "website": "https://www.bolt.com/",
-    "xhr": "connect\\.bolt\\.com"
+    "xhr": [
+      "connect\\.bolt\\.com"
+    ]
   },
   "Bonfire": {
     "cats": [
@@ -1959,7 +1977,9 @@
     "scriptSrc": [
       "cdn\\.bookero\\.pl"
     ],
-    "url": "\\.bookero\\.(?:org|pl)",
+    "url": [
+      "\\.bookero\\.(?:org|pl)"
+    ],
     "website": "https://www.bookero.org"
   },
   "Booking.com": {
@@ -2617,7 +2637,9 @@
       "recurring"
     ],
     "saas": true,
-    "scripts": "players\\.brightcove\\.net/",
+    "scripts": [
+      "players\\.brightcove\\.net/"
+    ],
     "website": "https://www.brightcove.com"
   },
   "Brightspot": {
@@ -2941,7 +2963,9 @@
     ],
     "saas": true,
     "website": "https://builder.io",
-    "xhr": "cdn\\.builder\\.io"
+    "xhr": [
+      "cdn\\.builder\\.io"
+    ]
   },
   "Buildertrend": {
     "cats": [
@@ -3036,7 +3060,9 @@
       1
     ],
     "icon": "Google.svg",
-    "url": "https?://[^.]+\\.business\\.page",
+    "url": [
+      "https?://[^.]+\\.business\\.page"
+    ],
     "website": "https://businesswebsites.google.com/welcome"
   },
   "ButterCMS": {

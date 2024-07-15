@@ -60,7 +60,9 @@
       "Microsoft SharePoint",
       "Microsoft ASP.NET"
     ],
-    "url": "Pages/SearchResults\\.aspx\\?k=",
+    "url": [
+      "Pages/SearchResults\\.aspx\\?k="
+    ],
     "website": "https://sharepoint.microsoft.com/en-us/product/capabilities/search/Pages/Fast-Search.aspx"
   },
   "FUDforum": {
@@ -191,7 +193,9 @@
     "scriptSrc": [
       "Suggest\\.ff"
     ],
-    "url": "(?:/ViewParametricSearch|ffsuggest\\.[a-z]htm)",
+    "url": [
+      "(?:/ViewParametricSearch|ffsuggest\\.[a-z]htm)"
+    ],
     "website": "https://fact-finder.com"
   },
   "FalguniThemes Nisarg": {
@@ -419,7 +423,9 @@
       "payg"
     ],
     "website": "https://www.fastly.com",
-    "xhr": "\\.fastly\\.net"
+    "xhr": [
+      "\\.fastly\\.net"
+    ]
   },
   "Fastspring": {
     "cats": [
@@ -888,7 +894,9 @@
       "\\.firstimpression\\.io"
     ],
     "website": "https://www.firstimpression.io",
-    "xhr": "\\.firstimpression\\.io"
+    "xhr": [
+      "\\.firstimpression\\.io"
+    ]
   },
   "FirstPromoter": {
     "cats": [
@@ -2292,9 +2300,13 @@
       "poa"
     ],
     "saas": true,
-    "scripts": "x-frc-client\",\"js-(\\d+(\\.\\d+)+)\\;version:\\1",
+    "scripts": [
+      "x-frc-client\",\"js-(\\d+(\\.\\d+)+)\\;version:\\1"
+    ],
     "website": "https://friendlycaptcha.com",
-    "xhr": "api.friendlycaptcha.com"
+    "xhr": [
+      "api.friendlycaptcha.com"
+    ]
   },
   "Frizbit": {
     "cats": [
@@ -2520,7 +2532,9 @@
     "description": "FunCaptcha is a type of CAPTCHA, which is a security measure used to protect websites and online services from spam, bots, and other forms of automated abuse.",
     "icon": "fun_captcha.svg",
     "website": "https://www.arkoselabs.com/arkose-matchkey/",
-    "xhr": "api\\.funcaptcha\\.com"
+    "xhr": [
+      "api\\.funcaptcha\\.com"
+    ]
   },
   "Fundiin": {
     "cats": [

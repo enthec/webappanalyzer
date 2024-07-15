@@ -209,7 +209,9 @@
       "\\.playbuzz\\.com"
     ],
     "website": "https://ex.co",
-    "xhr": "prd-collector-anon\\.ex\\.co"
+    "xhr": [
+      "prd-collector-anon\\.ex\\.co"
+    ]
   },
   "EZproxy": {
     "cats": [
@@ -272,7 +274,9 @@
     ],
     "saas": true,
     "website": "https://www.easy-orders.net",
-    "xhr": "api\\.easy-orders\\.net/"
+    "xhr": [
+      "api\\.easy-orders\\.net/"
+    ]
   },
   "Easy Pie Chart": {
     "cats": [
@@ -484,7 +488,9 @@
       "Server": "^ECD\\s\\(\\S+\\)"
     },
     "icon": "EdgeCast.png",
-    "url": "https?://(?:[^/]+\\.)?edgecastcdn\\.net/",
+    "url": [
+      "https?://(?:[^/]+\\.)?edgecastcdn\\.net/"
+    ],
     "website": "https://www.edgecast.com"
   },
   "Edgio": {
@@ -1238,7 +1244,9 @@
       "Ember.VERSION": "^(.+)$\\;version:\\1",
       "EmberENV": ""
     },
-    "scripts": "@overview\\s+Ember -[\\s\\S]+@version\\s+(.+)\\;version:\\1",
+    "scripts": [
+      "@overview\\s+Ember -[\\s\\S]+@version\\s+(.+)\\;version:\\1"
+    ],
     "website": "https://emberjs.com"
   },
   "Emotion": {
@@ -1594,7 +1602,9 @@
     "js": {
       "epomCustomParams": ""
     },
-    "url": "^https?://(?:[^/]+\\.)?ad(?:op)?shost1\\.com/",
+    "url": [
+      "^https?://(?:[^/]+\\.)?ad(?:op)?shost1\\.com/"
+    ],
     "website": "https://epom.com"
   },
   "EqualWeb": {

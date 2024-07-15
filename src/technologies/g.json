@@ -753,7 +753,9 @@
     ],
     "saas": true,
     "website": "https://getintent.com",
-    "xhr": "\\.adhigh\\.net"
+    "xhr": [
+      "\\.adhigh\\.net"
+    ]
   },
   "Getsitecontrol": {
     "cats": [
@@ -801,7 +803,9 @@
       "recurring",
       "freemium"
     ],
-    "url": "\\.gigalixirapp\\.com",
+    "url": [
+      "\\.gigalixirapp\\.com"
+    ],
     "website": "https://gigalixir.com/"
   },
   "Gist": {
@@ -860,7 +864,9 @@
       "recurring"
     ],
     "saas": true,
-    "url": "^https?://[^/]+\\.gitbook\\.com/",
+    "url": [
+      "^https?://[^/]+\\.gitbook\\.com/"
+    ],
     "website": "https://www.gitbook.com"
   },
   "GitHub Pages": {
@@ -873,7 +879,9 @@
       "X-GitHub-Request-Id": ""
     },
     "icon": "GitHub.svg",
-    "url": "^https?://[^/]+\\.github\\.io",
+    "url": [
+      "^https?://[^/]+\\.github\\.io"
+    ],
     "website": "https://pages.github.com/"
   },
   "GitLab": {
@@ -1127,7 +1135,9 @@
       "low",
       "recurring"
     ],
-    "url": "https://[^.]+\\.glitch\\.me",
+    "url": [
+      "https://[^.]+\\.glitch\\.me"
+    ],
     "website": "https://glitch.com"
   },
   "Global-e": {
@@ -1472,7 +1482,9 @@
     ],
     "description": "GoDaddy is used as a web host and domain registrar.",
     "icon": "GoDaddy.svg",
-    "scripts": "wsimg\\.com/parking-lander",
+    "scripts": [
+      "wsimg\\.com/parking-lander"
+    ],
     "website": "https://www.godaddy.com"
   },
   "GoDaddy Escapade": {
@@ -1781,7 +1793,9 @@
     "scriptSrc": [
       "\\.googleadservices\\.com/pagead/conversion_async\\.js"
     ],
-    "scripts": "gtag\\([^)]+'(AW-)",
+    "scripts": [
+      "gtag\\([^)]+'(AW-)"
+    ],
     "website": "https://support.google.com/google-ads/answer/1722022"
   },
   "Google Analytics": {
@@ -2009,7 +2023,9 @@
       1
     ],
     "icon": "Google.svg",
-    "url": "https?://[^.]+\\.business\\.site",
+    "url": [
+      "https?://[^.]+\\.business\\.site"
+    ],
     "website": "https://www.google.com/business/website-builder"
   },
   "Google Optimize": {
@@ -2087,7 +2103,9 @@
     ],
     "dom": "[data-abuse-proto*='https://sites.google.com/']",
     "icon": "Google Sites.png",
-    "url": "^https?://sites\\.google\\.com",
+    "url": [
+      "^https?://sites\\.google\\.com"
+    ],
     "website": "https://sites.google.com"
   },
   "Google Tag Manager": {
@@ -2281,7 +2299,9 @@
     "scriptSrc": [
       "grafana\\..+\\.com/public/build/"
     ],
-    "scripts": ".+latestVersion\":\"[\\d\\.\\w\\-]+\"\\,\"version\":\"([\\d\\.]+)\\;version:\\1\\;confidence:75",
+    "scripts": [
+      ".+latestVersion\":\"[\\d\\.\\w\\-]+\"\\,\"version\":\"([\\d\\.]+)\\;version:\\1\\;confidence:75"
+    ],
     "website": "https://grafana.com"
   },
   "Graffiti CMS": {
@@ -2374,7 +2394,9 @@
       "freemium"
     ],
     "website": "https://graphcms.com",
-    "xhr": "\\.graphcms\\.com"
+    "xhr": [
+      "\\.graphcms\\.com"
+    ]
   },
   "GraphQL": {
     "cats": [
@@ -2388,7 +2410,9 @@
     },
     "oss": true,
     "website": "https://graphql.org",
-    "xhr": "graphql\\.[\\w]+\\.(?:com|net)/"
+    "xhr": [
+      "graphql\\.[\\w]+\\.(?:com|net)/"
+    ]
   },
   "Graphene": {
     "cats": [
@@ -2705,7 +2729,9 @@
     ],
     "saas": true,
     "website": "https://gumgum.com",
-    "xhr": "\\.gumgum\\.com"
+    "xhr": [
+      "\\.gumgum\\.com"
+    ]
   },
   "Gumlet": {
     "cats": [

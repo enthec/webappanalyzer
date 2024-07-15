@@ -554,7 +554,9 @@
       "cdn\\.dealerspike\\.com"
     ],
     "website": "https://www.dealerspike.com",
-    "xhr": "\\.dealerspike\\.com"
+    "xhr": [
+      "\\.dealerspike\\.com"
+    ]
   },
   "Debian": {
     "cats": [
@@ -764,7 +766,9 @@
       "Server": "^Deta$"
     },
     "icon": "deta.svg",
-    "url": "^https?://[^/]+\\.deta\\.(?:app|dev)",
+    "url": [
+      "^https?://[^/]+\\.deta\\.(?:app|dev)"
+    ],
     "website": "https://deta.sh"
   },
   "Detectify": {
@@ -1112,7 +1116,9 @@
     "icon": "District M.svg",
     "saas": true,
     "website": "https://districtm.net",
-    "xhr": "\\.districtm\\.io"
+    "xhr": [
+      "\\.districtm\\.io"
+    ]
   },
   "Dito": {
     "cats": [
@@ -1288,7 +1294,9 @@
     ],
     "saas": true,
     "website": "https://www.docusign.com",
-    "xhr": "docusign\\.net"
+    "xhr": [
+      "docusign\\.net"
+    ]
   },
   "Docusaurus": {
     "cats": [
@@ -1791,7 +1799,9 @@
     "implies": [
       "Apache HTTP Server"
     ],
-    "url": "^.*(?:\\.dgn)$",
+    "url": [
+      "^.*(?:\\.dgn)$"
+    ],
     "website": "https://dragon-lang.org"
   },
   "Drapr": {
@@ -2068,7 +2078,9 @@
     "scriptSrc": [
       "drupal\\.js"
     ],
-    "scripts": "drupal_internal__nid",
+    "scripts": [
+      "drupal_internal__nid"
+    ],
     "website": "https://www.drupal.org/"
   },
   "Drupal Commerce": {
@@ -2338,7 +2350,9 @@
     ],
     "saas": true,
     "website": "https://dyte.io",
-    "xhr": "cdn\\.dyte\\.in/"
+    "xhr": [
+      "cdn\\.dyte\\.in/"
+    ]
   },
   "daisyUI": {
     "cats": [
@@ -2377,7 +2391,9 @@
       "cdn\\.db-ip\\.com"
     ],
     "website": "https://db-ip.com/",
-    "xhr": "api\\.db-ip\\.com"
+    "xhr": [
+      "api\\.db-ip\\.com"
+    ]
   },
   "dc.js": {
     "cats": [

@@ -74,7 +74,9 @@
       "redaxo": "\\;confidence:50"
     },
     "oss": true,
-    "url": "^https?://(?:www\\.)?[\\d\\w\\-]+\\.[\\w]+/redaxo/\\;confidence:50",
+    "url": [
+      "^https?://(?:www\\.)?[\\d\\w\\-]+\\.[\\w]+/redaxo/\\;confidence:50"
+    ],
     "website": "https://redaxo.org"
   },
   "REG.RU": {
@@ -138,7 +140,9 @@
     ],
     "saas": true,
     "website": "https://www.rtbhouse.com",
-    "xhr": "\\.creativecdn\\.com"
+    "xhr": [
+      "\\.creativecdn\\.com"
+    ]
   },
   "RX Web Server": {
     "cats": [
@@ -725,7 +729,9 @@
       "recurring"
     ],
     "saas": true,
-    "url": "^https?//.+\\.reactiveonline\\.io",
+    "url": [
+      "^https?//.+\\.reactiveonline\\.io"
+    ],
     "website": "https://reactiveonline.io"
   },
   "ReadAloud": {
@@ -736,7 +742,9 @@
     "dom": "div#ra-player, div[data-skin*='assets\\.sitespeaker\\.link/embed/skins']",
     "icon": "default.svg",
     "website": "https://www.readaloudwidget.com",
-    "xhr": "assets\\.sitespeaker\\.link"
+    "xhr": [
+      "assets\\.sitespeaker\\.link"
+    ]
   },
   "ReadMe": {
     "cats": [
@@ -1030,7 +1038,9 @@
     "requires": [
       "Shopify"
     ],
-    "scripts": "\"(?:vendor|title)?\"\\:\"Recurate\"",
+    "scripts": [
+      "\"(?:vendor|title)?\"\\:\"Recurate\""
+    ],
     "website": "https://www.recurate.com"
   },
   "Recurly": {
@@ -1140,7 +1150,9 @@
     "js": {
       "reddit": ""
     },
-    "url": "^https?://(?:www\\.)?reddit\\.com",
+    "url": [
+      "^https?://(?:www\\.)?reddit\\.com"
+    ],
     "website": "https://code.reddit.com"
   },
   "Reddit Ads": {
@@ -1843,7 +1855,9 @@
     "scriptSrc": [
       "retool(?:-edge)?(?:\\.com)?(?:\\/embed)?\\/?(?:runtime)?~?(?:app)?(?:custom-components)?(?:\\.\\w{0,20})?\\.js"
     ],
-    "url": "^https://retool\\.[\\d\\w\\-]+\\.(?:com|io)/",
+    "url": [
+      "^https://retool\\.[\\d\\w\\-]+\\.(?:com|io)/"
+    ],
     "website": "https://retool.com"
   },
   "Return Prime": {
@@ -2659,7 +2673,9 @@
       "https?://[^/]*\\.rubiconproject\\.com"
     ],
     "website": "https://rubiconproject.com/",
-    "xhr": "\\.rubiconproject\\.com"
+    "xhr": [
+      "\\.rubiconproject\\.com"
+    ]
   },
   "Ruby": {
     "cats": [
@@ -2817,7 +2833,9 @@
       "recaptcha_ajax\\.js",
       "/recaptcha/(?:api|enterprise)\\.js"
     ],
-    "scripts": "/recaptcha/api\\.js",
+    "scripts": [
+      "/recaptcha/api\\.js"
+    ],
     "website": "https://www.google.com/recaptcha/"
   }
 }

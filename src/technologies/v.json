@@ -459,7 +459,9 @@
       "payg"
     ],
     "saas": true,
-    "scripts": "2checkout\\.com",
+    "scripts": [
+      "2checkout\\.com"
+    ],
     "website": "https://www.2checkout.com"
   },
   "VerifyPass": {
@@ -747,7 +749,9 @@
     ],
     "saas": true,
     "website": "https://vimeo.com/ott",
-    "xhr": "api\\.vhx\\.tv"
+    "xhr": [
+      "api\\.vhx\\.tv"
+    ]
   },
   "Viqeo": {
     "cats": [
@@ -791,7 +795,9 @@
       "X-Powered-By": "^Virgool$"
     },
     "icon": "Virgool.svg",
-    "url": "^https?://(?:www\\.)?virgool\\.io",
+    "url": [
+      "^https?://(?:www\\.)?virgool\\.io"
+    ],
     "website": "https://virgool.io"
   },
   "Virtooal": {
@@ -887,7 +893,9 @@
       "Copyright": "^Copyright &copy; \\d{4} OpenLink Software",
       "Keywords": "^OpenLink Virtuoso Sparql"
     },
-    "url": "/sparql",
+    "url": [
+      "/sparql"
+    ],
     "website": "https://virtuoso.openlinksw.com/"
   },
   "Virtuous": {

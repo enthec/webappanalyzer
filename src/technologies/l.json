@@ -56,7 +56,9 @@
       "\\.lkqd\\.net"
     ],
     "website": "https://wiki.lkqd.com",
-    "xhr": "\\.lkqd\\.net"
+    "xhr": [
+      "\\.lkqd\\.net"
+    ]
   },
   "LOU": {
     "cats": [
@@ -668,7 +670,9 @@
       "__LEPTOS_RESOURCE_RESOLVERS": ""
     },
     "oss": true,
-    "scripts": "export function microtask\\(f\\)\\;confidence:75",
+    "scripts": [
+      "export function microtask\\(f\\)\\;confidence:75"
+    ],
     "website": "https://leptos.dev"
   },
   "Less": {
@@ -928,7 +932,9 @@
     "scriptSrc": [
       "http://assets\\.webshopapp\\.com"
     ],
-    "url": "seoshop.webshopapp.com",
+    "url": [
+      "seoshop.webshopapp.com"
+    ],
     "website": "https://www.lightspeedhq.com/products/ecommerce/"
   },
   "LimeChat": {
@@ -1078,7 +1084,9 @@
       "snap\\.licdn\\.com/li\\.lms-analytics/insight\\.min\\.js",
       "cdn\\.oribi\\.io"
     ],
-    "scripts": "_linkedin_partner_id",
+    "scripts": [
+      "_linkedin_partner_id"
+    ],
     "website": "https://business.linkedin.com/marketing-solutions/insight-tag"
   },
   "Linkedin Sign-in": {
@@ -1357,7 +1365,9 @@
       "\\.liadm\\.com"
     ],
     "website": "https://www.liveintent.com",
-    "xhr": "\\.liadm\\.com"
+    "xhr": [
+      "\\.liadm\\.com"
+    ]
   },
   "LiveJournal": {
     "cats": [
@@ -1365,7 +1375,9 @@
     ],
     "description": "LiveJournal is a social networking service where users can keep a blog, journal or diary.",
     "icon": "LiveJournal.png",
-    "url": "\\.livejournal\\.com",
+    "url": [
+      "\\.livejournal\\.com"
+    ],
     "website": "https://www.livejournal.com"
   },
   "LivePerson": {
@@ -1628,7 +1640,9 @@
     ],
     "saas": true,
     "website": "https://www.localised.com",
-    "xhr": "api\\.localised\\.com"
+    "xhr": [
+      "api\\.localised\\.com"
+    ]
   },
   "Locksmith": {
     "cats": [
@@ -2064,7 +2078,9 @@
       "lozad": ""
     },
     "oss": true,
-    "scripts": "/lozad\\.min\\.js",
+    "scripts": [
+      "/lozad\\.min\\.js"
+    ],
     "website": "https://apoorv.pro/lozad.js/"
   },
   "Lua": {

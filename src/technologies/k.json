@@ -275,7 +275,9 @@
     "scriptSrc": [
       "api\\.kaltura\\.(?:nordu\\.net|com)/"
     ],
-    "scripts": "kalturaPlayer",
+    "scripts": [
+      "kalturaPlayer"
+    ],
     "website": "https://corp.kaltura.com"
   },
   "Kameleoon": {
@@ -454,7 +456,9 @@
       "\\.infusionsoft\\.com/"
     ],
     "website": "https://keap.com",
-    "xhr": "property\\.infusionsoft\\.com"
+    "xhr": [
+      "property\\.infusionsoft\\.com"
+    ]
   },
   "Keen Delivery": {
     "cats": [
@@ -665,7 +669,9 @@
       "Node.js",
       "Elasticsearch"
     ],
-    "url": "kibana#/dashboard/",
+    "url": [
+      "kibana#/dashboard/"
+    ],
     "website": "https://www.elastic.co/products/kibana"
   },
   "Kibo Commerce": {
@@ -733,7 +739,9 @@
       "recurring"
     ],
     "saas": true,
-    "url": "/modules/kiliba/logo\\.png",
+    "url": [
+      "/modules/kiliba/logo\\.png"
+    ],
     "website": "https://en.kiliba.com"
   },
   "Kindful": {
@@ -1061,7 +1069,9 @@
       "cdn\\.getkoala\\.com/"
     ],
     "website": "https://getkoala.com/",
-    "xhr": "api\\.getkoala\\.com"
+    "xhr": [
+      "api\\.getkoala\\.com"
+    ]
   },
   "Koala Framework": {
     "cats": [

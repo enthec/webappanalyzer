@@ -308,7 +308,9 @@
     "scriptSrc": [
       "embed\\.sendtonews\\.com/"
     ],
-    "scripts": "embed\\.sendtonews\\.com/",
+    "scripts": [
+      "embed\\.sendtonews\\.com/"
+    ],
     "website": "https://www.stnvideo.com"
   },
   "STUDIO": {
@@ -973,7 +975,9 @@
     ],
     "saas": true,
     "website": "https://www.sanity.io",
-    "xhr": "api(?:cdn)?\\.sanity\\.io"
+    "xhr": [
+      "api(?:cdn)?\\.sanity\\.io"
+    ]
   },
   "Sapper": {
     "cats": [
@@ -2319,7 +2323,9 @@
       "sheerid": ""
     },
     "saas": true,
-    "scripts": "\"sheerIdEndpoint\":",
+    "scripts": [
+      "\"sheerIdEndpoint\":"
+    ],
     "website": "https://www.sheerid.com/"
   },
   "Shelf": {
@@ -2431,7 +2437,9 @@
       "recurring"
     ],
     "saas": true,
-    "url": "track\\.shipstation\\.com",
+    "url": [
+      "track\\.shipstation\\.com"
+    ],
     "website": "https://www.shipstation.com"
   },
   "ShipTection": {
@@ -2820,10 +2828,16 @@
       "sdks\\.shopifycdn\\.com",
       "cdn\\.shopify\\.com"
     ],
-    "scripts": "shopifyTag",
-    "url": "^https?//.+\\.myshopify\\.com",
+    "scripts": [
+      "shopifyTag"
+    ],
+    "url": [
+      "^https?//.+\\.myshopify\\.com"
+    ],
     "website": "https://shopify.com",
-    "xhr": "\\.myshopify\\.com"
+    "xhr": [
+      "\\.myshopify\\.com"
+    ]
   },
   "Shopify Buy Button": {
     "cats": [
@@ -3684,7 +3698,9 @@
     "scriptSrc": [
       "template\\.sirclocdn\\.com/"
     ],
-    "url": "^https?//.+\\.sirclo\\.me",
+    "url": [
+      "^https?//.+\\.sirclo\\.me"
+    ],
     "website": "https://sirclo.com/"
   },
   "Sirdata": {
@@ -4261,7 +4277,9 @@
     "js": {
       "Ktag_Constants": ""
     },
-    "scripts": "\\.xg4ken\\.com",
+    "scripts": [
+      "\\.xg4ken\\.com"
+    ],
     "website": "https://skai.io"
   },
   "Skedify": {
@@ -4334,7 +4352,9 @@
       "\\.skimresources\\.com"
     ],
     "website": "https://skimlinks.com",
-    "xhr": "\\.skimresources\\.com"
+    "xhr": [
+      "\\.skimresources\\.com"
+    ]
   },
   "Skio": {
     "cats": [
@@ -5489,7 +5509,9 @@
     "icon": "Sonobi.png",
     "saas": true,
     "website": "https://sonobi.com",
-    "xhr": "apex\\.go\\.sonobi\\.com"
+    "xhr": [
+      "apex\\.go\\.sonobi\\.com"
+    ]
   },
   "Sortable": {
     "cats": [
@@ -5620,7 +5642,9 @@
       "poa"
     ],
     "saas": true,
-    "scripts": "SOURCEPOINT_MMS_DOMAIN",
+    "scripts": [
+      "SOURCEPOINT_MMS_DOMAIN"
+    ],
     "website": "https://sourcepoint.com"
   },
   "Sovrn": {
@@ -5638,7 +5662,9 @@
       "\\.(?:linksmart|lijit)\\.com/"
     ],
     "website": "https://www.sovrn.com",
-    "xhr": "\\.lijit\\.com"
+    "xhr": [
+      "\\.lijit\\.com"
+    ]
   },
   "Sovrn//Commerce": {
     "cats": [
@@ -5717,7 +5743,9 @@
       "onetime",
       "low"
     ],
-    "scripts": "media\\-library\\-pro\\-core",
+    "scripts": [
+      "media\\-library\\-pro\\-core"
+    ],
     "website": "https://medialibrary.pro"
   },
   "Spatie Support Bubble": {
@@ -5807,7 +5835,9 @@
       "/speedsize(?:-sw)?\\.js\\;confidence:90",
       "\\.speedsize\\.com/"
     ],
-    "scripts": "data-speedsize-(?:srcset|src|params)?",
+    "scripts": [
+      "data-speedsize-(?:srcset|src|params)?"
+    ],
     "website": "https://speedsize.com"
   },
   "Speedimize": {
@@ -6096,7 +6126,9 @@
       "js\\.spotx\\.tv"
     ],
     "website": "https://www.spotx.tv",
-    "xhr": "\\.spotx(?:change|cdn)\\.com"
+    "xhr": [
+      "\\.spotx(?:change|cdn)\\.com"
+    ]
   },
   "Spotify Web API": {
     "cats": [
@@ -6453,7 +6485,9 @@
       "js\\.squareup\\.com"
     ],
     "website": "https://squareup.com/",
-    "xhr": "\\.squareup\\.com"
+    "xhr": [
+      "\\.squareup\\.com"
+    ]
   },
   "Square Online": {
     "cats": [
@@ -6561,7 +6595,9 @@
     "js": {
       "squirrelmail_loginpage_onload": ""
     },
-    "url": "/src/webmail\\.php(?:$|\\?)",
+    "url": [
+      "/src/webmail\\.php(?:$|\\?)"
+    ],
     "website": "https://squirrelmail.org"
   },
   "Squiz Matrix": {
@@ -6896,7 +6932,9 @@
     },
     "saas": true,
     "website": "https://statsig.com/",
-    "xhr": "\\.statsigapi\\.net"
+    "xhr": [
+      "\\.statsigapi\\.net"
+    ]
   },
   "Status.io": {
     "cats": [
@@ -7020,7 +7058,9 @@
       "Ruby on Rails",
       "Stimulus"
     ],
-    "scripts": "\\.stimulate",
+    "scripts": [
+      "\\.stimulate"
+    ],
     "website": "https://docs.stimulusreflex.com"
   },
   "Stitches": {
@@ -7750,7 +7790,9 @@
     "scriptSrc": [
       "surge\\.sh(?:\\/[-\\w]{0,40})?\\.js"
     ],
-    "url": "surge\\.sh",
+    "url": [
+      "surge\\.sh"
+    ],
     "website": "https://surge.sh"
   },
   "Survicate": {
@@ -7785,7 +7827,9 @@
     "meta": {
       "generator": "^Svbtle\\.com$"
     },
-    "url": "^https?://[^/]+\\.svbtle\\.com",
+    "url": [
+      "^https?://[^/]+\\.svbtle\\.com"
+    ],
     "website": "https://www.svbtle.com"
   },
   "Svelte": {
