@@ -1381,7 +1381,9 @@
     "requires": [
       "Drupal"
     ],
-    "scripts": "opigno_(?:commerce|wtp_app|scorm|learning_path)",
+    "scripts": [
+      "opigno_(?:commerce|wtp_app|scorm|learning_path)"
+    ],
     "website": "https://www.opigno.org"
   },
   "OpinionLab": {

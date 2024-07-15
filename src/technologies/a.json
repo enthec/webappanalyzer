@@ -468,7 +468,9 @@
       "Shopify"
     ],
     "saas": true,
-    "scripts": "\\.accentuate\\.io/",
+    "scripts": [
+      "\\.accentuate\\.io/"
+    ],
     "website": "https://www.accentuate.io"
   },
   "AccessTrade": {
@@ -1462,7 +1464,9 @@
       "payg"
     ],
     "saas": true,
-    "scripts": "admiral(?:-engaged|:enabled)",
+    "scripts": [
+      "admiral(?:-engaged|:enabled)"
+    ],
     "website": "https://www.getadmiral.com"
   },
   "Admitad": {
@@ -1662,7 +1666,9 @@
       "/etc/clientlibs/",
       "/etc\\.clientlibs/"
     ],
-    "scripts": "aem-(?:GridColumn|apps/)",
+    "scripts": [
+      "aem-(?:GridColumn|apps/)"
+    ],
     "website": "https://www.adobe.com/marketing/experience-manager.html"
   },
   "Adobe Experience Manager Franklin": {

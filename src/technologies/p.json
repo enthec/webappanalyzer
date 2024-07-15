@@ -196,7 +196,9 @@
       "fetchRootComponent": "\\;confidence:50"
     },
     "oss": true,
-    "scripts": "RootCmp_CMS_PAGE",
+    "scripts": [
+      "RootCmp_CMS_PAGE"
+    ],
     "website": "https://developer.adobe.com/commerce/pwa-studio/"
   },
   "Pace": {
@@ -571,7 +573,9 @@
     "js": {
       "pcrewAdloaded": ""
     },
-    "scripts": "var\\slink\\s=\\s'www\\.parkingcrew\\.net'",
+    "scripts": [
+      "var\\slink\\s=\\s'www\\.parkingcrew\\.net'"
+    ],
     "website": "https://www.parkingcrew.com"
   },
   "Parmin Cloud": {
@@ -4253,7 +4257,9 @@
     "scriptSrc": [
       "/petite-vue"
     ],
-    "scripts": "/petite-vue@([\\d\\.]+)/\\;version:\\1",
+    "scripts": [
+      "/petite-vue@([\\d\\.]+)/\\;version:\\1"
+    ],
     "website": "https://github.com/vuejs/petite-vue"
   },
   "phpAlbum": {

@@ -622,7 +622,9 @@
     "pricing": [
       "onetime"
     ],
-    "scripts": "console\\.log\\(\\'Yoori-Ecommerce",
+    "scripts": [
+      "console\\.log\\(\\'Yoori-Ecommerce"
+    ],
     "website": "https://spagreen.net/yoori-ecommerce-solution"
   },
   "Yotpo Loyalty & Referrals": {

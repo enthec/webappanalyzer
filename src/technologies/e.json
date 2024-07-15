@@ -1238,7 +1238,9 @@
       "Ember.VERSION": "^(.+)$\\;version:\\1",
       "EmberENV": ""
     },
-    "scripts": "@overview\\s+Ember -[\\s\\S]+@version\\s+(.+)\\;version:\\1",
+    "scripts": [
+      "@overview\\s+Ember -[\\s\\S]+@version\\s+(.+)\\;version:\\1"
+    ],
     "website": "https://emberjs.com"
   },
   "Emotion": {

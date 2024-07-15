@@ -2292,7 +2292,9 @@
       "poa"
     ],
     "saas": true,
-    "scripts": "x-frc-client\",\"js-(\\d+(\\.\\d+)+)\\;version:\\1",
+    "scripts": [
+      "x-frc-client\",\"js-(\\d+(\\.\\d+)+)\\;version:\\1"
+    ],
     "website": "https://friendlycaptcha.com",
     "xhr": "api.friendlycaptcha.com"
   },

@@ -1359,7 +1359,9 @@
       "freemium",
       "low"
     ],
-    "scripts": "cdn\\.webpushr\\.com/app\\.min\\.js",
+    "scripts": [
+      "cdn\\.webpushr\\.com/app\\.min\\.js"
+    ],
     "website": "https://www.webpushr.com"
   },
   "Webriti Busiprof": {
@@ -2754,7 +2756,9 @@
     "scriptSrc": [
       "web-vitals@([\\d.]+)/dist/web-vitals.*\\.js\\;version:\\1"
     ],
-    "scripts": "(8999999999999[\\s\\S]+1e12[\\s\\S]+(largest-contentful-paint|first-input|layout-shift)|(largest-contentful-paint|first-input|layout-shift)[\\s\\S]+8999999999999[\\s\\S]+1e12)",
+    "scripts": [
+      "(8999999999999[\\s\\S]+1e12[\\s\\S]+(largest-contentful-paint|first-input|layout-shift)|(largest-contentful-paint|first-input|layout-shift)[\\s\\S]+8999999999999[\\s\\S]+1e12)"
+    ],
     "website": "https://github.com/GoogleChrome/web-vitals"
   },
   "webEdition": {

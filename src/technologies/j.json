@@ -973,7 +973,9 @@
     "scriptSrc": [
       "/jquery\\.jplayer\\.min\\.js"
     ],
-    "scripts": "jquery\\.jplayer\\.min\\.js",
+    "scripts": [
+      "jquery\\.jplayer\\.min\\.js"
+    ],
     "website": "https://jplayer.org"
   },
   "jQTouch": {

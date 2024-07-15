@@ -2068,7 +2068,9 @@
     "scriptSrc": [
       "drupal\\.js"
     ],
-    "scripts": "drupal_internal__nid",
+    "scripts": [
+      "drupal_internal__nid"
+    ],
     "website": "https://www.drupal.org/"
   },
   "Drupal Commerce": {

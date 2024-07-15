@@ -761,7 +761,9 @@
       "Apache HTTP Server"
     ],
     "saas": true,
-    "scripts": "\\(\\!section\\s\\|\\|\\ssection\\.tagName\\s\\!\\=\\s\\'SECTION\\'\\)",
+    "scripts": [
+      "\\(\\!section\\s\\|\\|\\ssection\\.tagName\\s\\!\\=\\s\\'SECTION\\'\\)"
+    ],
     "website": "https://carrd.co"
   },
   "Carro": {
@@ -1105,7 +1107,9 @@
       "poa"
     ],
     "saas": true,
-    "scripts": "centraCheckoutScript",
+    "scripts": [
+      "centraCheckoutScript"
+    ],
     "website": "https://centra.com"
   },
   "Chabokan": {
@@ -1973,7 +1977,9 @@
     "js": {
       "Classy.clientId": ""
     },
-    "scripts": "classy\\.org",
+    "scripts": [
+      "classy\\.org"
+    ],
     "website": "https://www.classy.org/"
   },
   "ClearSale": {
@@ -4215,7 +4221,9 @@
       "recurring"
     ],
     "saas": true,
-    "scripts": "webpackJsonp@coreui/coreui",
+    "scripts": [
+      "webpackJsonp@coreui/coreui"
+    ],
     "website": "https://coreui.io"
   },
   "Corebine": {
@@ -4772,7 +4780,9 @@
     "scriptSrc": [
       "js/crownpeak\\."
     ],
-    "scripts": "crownpeak\\.net",
+    "scripts": [
+      "crownpeak\\.net"
+    ],
     "website": "https://www.crownpeak.com"
   },
   "Cryout Creations Bravada": {

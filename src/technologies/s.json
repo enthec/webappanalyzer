@@ -308,7 +308,9 @@
     "scriptSrc": [
       "embed\\.sendtonews\\.com/"
     ],
-    "scripts": "embed\\.sendtonews\\.com/",
+    "scripts": [
+      "embed\\.sendtonews\\.com/"
+    ],
     "website": "https://www.stnvideo.com"
   },
   "STUDIO": {
@@ -2319,7 +2321,9 @@
       "sheerid": ""
     },
     "saas": true,
-    "scripts": "\"sheerIdEndpoint\":",
+    "scripts": [
+      "\"sheerIdEndpoint\":"
+    ],
     "website": "https://www.sheerid.com/"
   },
   "Shelf": {
@@ -2820,7 +2824,9 @@
       "sdks\\.shopifycdn\\.com",
       "cdn\\.shopify\\.com"
     ],
-    "scripts": "shopifyTag",
+    "scripts": [
+      "shopifyTag"
+    ],
     "url": "^https?//.+\\.myshopify\\.com",
     "website": "https://shopify.com",
     "xhr": "\\.myshopify\\.com"
@@ -4261,7 +4267,9 @@
     "js": {
       "Ktag_Constants": ""
     },
-    "scripts": "\\.xg4ken\\.com",
+    "scripts": [
+      "\\.xg4ken\\.com"
+    ],
     "website": "https://skai.io"
   },
   "Skedify": {
@@ -5620,7 +5628,9 @@
       "poa"
     ],
     "saas": true,
-    "scripts": "SOURCEPOINT_MMS_DOMAIN",
+    "scripts": [
+      "SOURCEPOINT_MMS_DOMAIN"
+    ],
     "website": "https://sourcepoint.com"
   },
   "Sovrn": {
@@ -5717,7 +5727,9 @@
       "onetime",
       "low"
     ],
-    "scripts": "media\\-library\\-pro\\-core",
+    "scripts": [
+      "media\\-library\\-pro\\-core"
+    ],
     "website": "https://medialibrary.pro"
   },
   "Spatie Support Bubble": {
@@ -5807,7 +5819,9 @@
       "/speedsize(?:-sw)?\\.js\\;confidence:90",
       "\\.speedsize\\.com/"
     ],
-    "scripts": "data-speedsize-(?:srcset|src|params)?",
+    "scripts": [
+      "data-speedsize-(?:srcset|src|params)?"
+    ],
     "website": "https://speedsize.com"
   },
   "Speedimize": {
@@ -7020,7 +7034,9 @@
       "Ruby on Rails",
       "Stimulus"
     ],
-    "scripts": "\\.stimulate",
+    "scripts": [
+      "\\.stimulate"
+    ],
     "website": "https://docs.stimulusreflex.com"
   },
   "Stitches": {

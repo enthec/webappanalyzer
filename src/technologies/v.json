@@ -459,7 +459,9 @@
       "payg"
     ],
     "saas": true,
-    "scripts": "2checkout\\.com",
+    "scripts": [
+      "2checkout\\.com"
+    ],
     "website": "https://www.2checkout.com"
   },
   "VerifyPass": {

@@ -275,7 +275,9 @@
     "scriptSrc": [
       "api\\.kaltura\\.(?:nordu\\.net|com)/"
     ],
-    "scripts": "kalturaPlayer",
+    "scripts": [
+      "kalturaPlayer"
+    ],
     "website": "https://corp.kaltura.com"
   },
   "Kameleoon": {

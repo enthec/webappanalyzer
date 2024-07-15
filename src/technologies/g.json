@@ -1472,7 +1472,9 @@
     ],
     "description": "GoDaddy is used as a web host and domain registrar.",
     "icon": "GoDaddy.svg",
-    "scripts": "wsimg\\.com/parking-lander",
+    "scripts": [
+      "wsimg\\.com/parking-lander"
+    ],
     "website": "https://www.godaddy.com"
   },
   "GoDaddy Escapade": {
@@ -1781,7 +1783,9 @@
     "scriptSrc": [
       "\\.googleadservices\\.com/pagead/conversion_async\\.js"
     ],
-    "scripts": "gtag\\([^)]+'(AW-)",
+    "scripts": [
+      "gtag\\([^)]+'(AW-)"
+    ],
     "website": "https://support.google.com/google-ads/answer/1722022"
   },
   "Google Analytics": {
@@ -2281,7 +2285,9 @@
     "scriptSrc": [
       "grafana\\..+\\.com/public/build/"
     ],
-    "scripts": ".+latestVersion\":\"[\\d\\.\\w\\-]+\"\\,\"version\":\"([\\d\\.]+)\\;version:\\1\\;confidence:75",
+    "scripts": [
+      ".+latestVersion\":\"[\\d\\.\\w\\-]+\"\\,\"version\":\"([\\d\\.]+)\\;version:\\1\\;confidence:75"
+    ],
     "website": "https://grafana.com"
   },
   "Graffiti CMS": {

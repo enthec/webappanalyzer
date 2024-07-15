@@ -339,7 +339,9 @@
       "low"
     ],
     "saas": true,
-    "scripts": "/Umbraco/Api/",
+    "scripts": [
+      "/Umbraco/Api/"
+    ],
     "url": "/umbraco/login\\.aspx(?:$|\\?)",
     "website": "https://umbraco.com/",
     "xhr": "/umbraco/api/"
@@ -374,7 +376,9 @@
       "recurring"
     ],
     "saas": true,
-    "scripts": "isPriorBlockingEnabled\\;confidence:75",
+    "scripts": [
+      "isPriorBlockingEnabled\\;confidence:75"
+    ],
     "website": "https://www.umso.com"
   },
   "Unas": {

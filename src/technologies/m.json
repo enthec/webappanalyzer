@@ -977,7 +977,9 @@
     "scriptSrc": [
       "api\\.mapbox\\.com/mapbox\\.js/v([\\d\\.]+)/\\;version:\\1"
     ],
-    "scripts": "api\\.mapbox\\.com/mapbox\\.js/v([\\d\\.]+)/\\;version:\\1",
+    "scripts": [
+      "api\\.mapbox\\.com/mapbox\\.js/v([\\d\\.]+)/\\;version:\\1"
+    ],
     "website": "https://github.com/mapbox/mapbox.js"
   },
   "Mapp": {
@@ -1212,7 +1214,9 @@
       "markoVars": ""
     },
     "oss": true,
-    "scripts": "\\.marko(\\.js)?",
+    "scripts": [
+      "\\.marko(\\.js)?"
+    ],
     "website": "https://markojs.com"
   },
   "Master Slider": {
@@ -3801,7 +3805,9 @@
     "description": "mdBook is a utility to create modern online books from Markdown files.",
     "icon": "mdBook.svg",
     "oss": true,
-    "scripts": "localStorage\\.getItem\\('mdbook-(?:sidebar|theme)'\\)",
+    "scripts": [
+      "localStorage\\.getItem\\('mdbook-(?:sidebar|theme)'\\)"
+    ],
     "website": "https://github.com/rust-lang/mdBook"
   },
   "metisMenu": {

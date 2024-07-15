@@ -1030,7 +1030,9 @@
     "requires": [
       "Shopify"
     ],
-    "scripts": "\"(?:vendor|title)?\"\\:\"Recurate\"",
+    "scripts": [
+      "\"(?:vendor|title)?\"\\:\"Recurate\""
+    ],
     "website": "https://www.recurate.com"
   },
   "Recurly": {
@@ -2817,7 +2819,9 @@
       "recaptcha_ajax\\.js",
       "/recaptcha/(?:api|enterprise)\\.js"
     ],
-    "scripts": "/recaptcha/api\\.js",
+    "scripts": [
+      "/recaptcha/api\\.js"
+    ],
     "website": "https://www.google.com/recaptcha/"
   }
 }

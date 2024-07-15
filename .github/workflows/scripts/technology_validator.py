@@ -253,7 +253,7 @@ class TechnologiesValidator:
             "xhr": StringOrArrayValidator(contains_regex=True),
             "meta": DictValidator(contains_regex=True),
             "scriptSrc": ArrayValidator(contains_regex=True),
-            "scripts": StringOrArrayValidator(contains_regex=True),
+            "scripts": ArrayValidator(contains_regex=True),
             "html": ArrayValidator(contains_regex=True),
             "certIssuer": StringValidator()
         }

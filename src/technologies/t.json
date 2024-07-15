@@ -959,7 +959,9 @@
       "Cart Functionality"
     ],
     "saas": true,
-    "scripts": "\\.tebexLogin",
+    "scripts": [
+      "\\.tebexLogin"
+    ],
     "website": "https://www.tebex.io"
   },
   "Telescope": {

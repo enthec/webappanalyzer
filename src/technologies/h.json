@@ -32,7 +32,9 @@
       "poa"
     ],
     "saas": true,
-    "scripts": "/webapp/wcs/",
+    "scripts": [
+      "/webapp/wcs/"
+    ],
     "url": "/wcs/",
     "website": "https://www.hcltechsw.com/commerce"
   },

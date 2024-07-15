@@ -802,7 +802,9 @@
     "scriptSrc": [
       "(?:\\.|plugins/)?bigcommerce(?:\\.com)?/(?:assets)?"
     ],
-    "scripts": "bigcommerceProductId",
+    "scripts": [
+      "bigcommerceProductId"
+    ],
     "url": "mybigcommerce\\.com",
     "website": "https://www.bigcommerce.com"
   },
@@ -1004,7 +1006,9 @@
     "scriptSrc": [
       "cdn\\.bitespeed\\.co/"
     ],
-    "scripts": "app\\.bitespeed\\.co/",
+    "scripts": [
+      "app\\.bitespeed\\.co/"
+    ],
     "website": "https://www.bitespeed.co"
   },
   "Bitrix24": {
@@ -2617,7 +2621,9 @@
       "recurring"
     ],
     "saas": true,
-    "scripts": "players\\.brightcove\\.net/",
+    "scripts": [
+      "players\\.brightcove\\.net/"
+    ],
     "website": "https://www.brightcove.com"
   },
   "Brightspot": {
