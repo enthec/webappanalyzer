@@ -2435,7 +2435,9 @@
       "recurring"
     ],
     "saas": true,
-    "url": "track\\.shipstation\\.com",
+    "url": [
+      "track\\.shipstation\\.com"
+    ],
     "website": "https://www.shipstation.com"
   },
   "ShipTection": {
@@ -2827,7 +2829,9 @@
     "scripts": [
       "shopifyTag"
     ],
-    "url": "^https?//.+\\.myshopify\\.com",
+    "url": [
+      "^https?//.+\\.myshopify\\.com"
+    ],
     "website": "https://shopify.com",
     "xhr": "\\.myshopify\\.com"
   },
@@ -3690,7 +3694,9 @@
     "scriptSrc": [
       "template\\.sirclocdn\\.com/"
     ],
-    "url": "^https?//.+\\.sirclo\\.me",
+    "url": [
+      "^https?//.+\\.sirclo\\.me"
+    ],
     "website": "https://sirclo.com/"
   },
   "Sirdata": {
@@ -6575,7 +6581,9 @@
     "js": {
       "squirrelmail_loginpage_onload": ""
     },
-    "url": "/src/webmail\\.php(?:$|\\?)",
+    "url": [
+      "/src/webmail\\.php(?:$|\\?)"
+    ],
     "website": "https://squirrelmail.org"
   },
   "Squiz Matrix": {
@@ -7766,7 +7774,9 @@
     "scriptSrc": [
       "surge\\.sh(?:\\/[-\\w]{0,40})?\\.js"
     ],
-    "url": "surge\\.sh",
+    "url": [
+      "surge\\.sh"
+    ],
     "website": "https://surge.sh"
   },
   "Survicate": {
@@ -7801,7 +7811,9 @@
     "meta": {
       "generator": "^Svbtle\\.com$"
     },
-    "url": "^https?://[^/]+\\.svbtle\\.com",
+    "url": [
+      "^https?://[^/]+\\.svbtle\\.com"
+    ],
     "website": "https://www.svbtle.com"
   },
   "Svelte": {

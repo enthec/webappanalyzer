@@ -23,7 +23,9 @@
       "powered": "jet-neo"
     },
     "icon": "Plataforma NEO.svg",
-    "url": "\\.plataformaneo\\.com",
+    "url": [
+      "\\.plataformaneo\\.com"
+    ],
     "website": "https://www.jetecommerce.com.br"
   },
   "NSW Design System": {
@@ -391,7 +393,9 @@
     "implies": [
       "Neos Flow"
     ],
-    "url": "/neos/",
+    "url": [
+      "/neos/"
+    ],
     "website": "https://neos.io"
   },
   "Neos Flow": {
@@ -496,7 +500,9 @@
       "recurring",
       "poa"
     ],
-    "url": "^https?://[^/]+\\.netlify\\.(?:com|app)/",
+    "url": [
+      "^https?://[^/]+\\.netlify\\.(?:com|app)/"
+    ],
     "website": "https://www.netlify.com/",
     "xhr": "cdn\\.netlify\\.com"
   },

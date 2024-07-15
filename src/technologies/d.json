@@ -764,7 +764,9 @@
       "Server": "^Deta$"
     },
     "icon": "deta.svg",
-    "url": "^https?://[^/]+\\.deta\\.(?:app|dev)",
+    "url": [
+      "^https?://[^/]+\\.deta\\.(?:app|dev)"
+    ],
     "website": "https://deta.sh"
   },
   "Detectify": {
@@ -1791,7 +1793,9 @@
     "implies": [
       "Apache HTTP Server"
     ],
-    "url": "^.*(?:\\.dgn)$",
+    "url": [
+      "^.*(?:\\.dgn)$"
+    ],
     "website": "https://dragon-lang.org"
   },
   "Drapr": {

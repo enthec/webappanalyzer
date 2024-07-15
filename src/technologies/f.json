@@ -60,7 +60,9 @@
       "Microsoft SharePoint",
       "Microsoft ASP.NET"
     ],
-    "url": "Pages/SearchResults\\.aspx\\?k=",
+    "url": [
+      "Pages/SearchResults\\.aspx\\?k="
+    ],
     "website": "https://sharepoint.microsoft.com/en-us/product/capabilities/search/Pages/Fast-Search.aspx"
   },
   "FUDforum": {
@@ -191,7 +193,9 @@
     "scriptSrc": [
       "Suggest\\.ff"
     ],
-    "url": "(?:/ViewParametricSearch|ffsuggest\\.[a-z]htm)",
+    "url": [
+      "(?:/ViewParametricSearch|ffsuggest\\.[a-z]htm)"
+    ],
     "website": "https://fact-finder.com"
   },
   "FalguniThemes Nisarg": {

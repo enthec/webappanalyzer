@@ -48,7 +48,9 @@
     "meta": {
       "Author": "ZABBIX SIA\\;confidence:70"
     },
-    "url": "\\/zabbix\\/\\;confidence:30",
+    "url": [
+      "\\/zabbix\\/\\;confidence:30"
+    ],
     "website": "https://zabbix.com"
   },
   "Zakeke": {

@@ -801,7 +801,9 @@
       "recurring",
       "freemium"
     ],
-    "url": "\\.gigalixirapp\\.com",
+    "url": [
+      "\\.gigalixirapp\\.com"
+    ],
     "website": "https://gigalixir.com/"
   },
   "Gist": {
@@ -860,7 +862,9 @@
       "recurring"
     ],
     "saas": true,
-    "url": "^https?://[^/]+\\.gitbook\\.com/",
+    "url": [
+      "^https?://[^/]+\\.gitbook\\.com/"
+    ],
     "website": "https://www.gitbook.com"
   },
   "GitHub Pages": {
@@ -873,7 +877,9 @@
       "X-GitHub-Request-Id": ""
     },
     "icon": "GitHub.svg",
-    "url": "^https?://[^/]+\\.github\\.io",
+    "url": [
+      "^https?://[^/]+\\.github\\.io"
+    ],
     "website": "https://pages.github.com/"
   },
   "GitLab": {
@@ -1127,7 +1133,9 @@
       "low",
       "recurring"
     ],
-    "url": "https://[^.]+\\.glitch\\.me",
+    "url": [
+      "https://[^.]+\\.glitch\\.me"
+    ],
     "website": "https://glitch.com"
   },
   "Global-e": {
@@ -2013,7 +2021,9 @@
       1
     ],
     "icon": "Google.svg",
-    "url": "https?://[^.]+\\.business\\.site",
+    "url": [
+      "https?://[^.]+\\.business\\.site"
+    ],
     "website": "https://www.google.com/business/website-builder"
   },
   "Google Optimize": {
@@ -2091,7 +2101,9 @@
     ],
     "dom": "[data-abuse-proto*='https://sites.google.com/']",
     "icon": "Google Sites.png",
-    "url": "^https?://sites\\.google\\.com",
+    "url": [
+      "^https?://sites\\.google\\.com"
+    ],
     "website": "https://sites.google.com"
   },
   "Google Tag Manager": {

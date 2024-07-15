@@ -284,7 +284,9 @@
     "scriptSrc": [
       "cgi-bin\\/UCJavaScript\\?"
     ],
-    "url": "/cgi-bin/UCEditor\\?",
+    "url": [
+      "/cgi-bin/UCEditor\\?"
+    ],
     "website": "https://ultracart.com"
   },
   "Umami": {
@@ -342,7 +344,9 @@
     "scripts": [
       "/Umbraco/Api/"
     ],
-    "url": "/umbraco/login\\.aspx(?:$|\\?)",
+    "url": [
+      "/umbraco/login\\.aspx(?:$|\\?)"
+    ],
     "website": "https://umbraco.com/",
     "xhr": "/umbraco/api/"
   },

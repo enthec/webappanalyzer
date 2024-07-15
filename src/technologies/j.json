@@ -479,7 +479,9 @@
       "recurring"
     ],
     "saas": true,
-    "url": "\\.jimdo(?:site)?\\.com/",
+    "url": [
+      "\\.jimdo(?:site)?\\.com/"
+    ],
     "website": "https://www.jimdo.com"
   },
   "Jirafe": {
@@ -659,7 +661,9 @@
       "generator": "Joomla!(?: ([\\d.]+))?\\;version:\\1"
     },
     "oss": true,
-    "url": "option=com_",
+    "url": [
+      "option=com_"
+    ],
     "website": "https://www.joomla.org/"
   },
   "JouwWeb": {

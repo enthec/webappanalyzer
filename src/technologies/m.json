@@ -544,7 +544,9 @@
       "cdn-images\\.mailchimp\\.com/[^>]*\\.css",
       "chimpstatic\\.com/mcjs-connected"
     ],
-    "url": "^https?://(?:www\\.)?mailchi\\.mp",
+    "url": [
+      "^https?://(?:www\\.)?mailchi\\.mp"
+    ],
     "website": "https://mailchimp.com"
   },
   "MailChimp for WooCommerce": {
@@ -1669,7 +1671,9 @@
     "scriptSrc": [
       "medium\\.com"
     ],
-    "url": "^https?://(?:www\\.)?medium\\.com",
+    "url": [
+      "^https?://(?:www\\.)?medium\\.com"
+    ],
     "website": "https://medium.com"
   },
   "Meebo": {
@@ -1816,7 +1820,9 @@
     "scriptSrc": [
       "memberstack\\.js"
     ],
-    "url": "^https?//.+\\.memberstack\\.io",
+    "url": [
+      "^https?//.+\\.memberstack\\.io"
+    ],
     "website": "https://www.memberstack.io"
   },
   "Mention Me": {
@@ -2099,7 +2105,9 @@
       "<input[^>]+name=\"__VIEWSTATE"
     ],
     "icon": "Microsoft ASP.NET.svg",
-    "url": "\\.aspx?(?:$|\\?)",
+    "url": [
+      "\\.aspx?(?:$|\\?)"
+    ],
     "website": "https://www.asp.net"
   },
   "Microsoft Advertising": {
@@ -3395,7 +3403,9 @@
     "meta": {
       "author": "Mozard"
     },
-    "url": "/mozard/!suite",
+    "url": [
+      "/mozard/!suite"
+    ],
     "website": "https://mozard.nl"
   },
   "Mulberry": {

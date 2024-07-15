@@ -667,7 +667,9 @@
       "Node.js",
       "Elasticsearch"
     ],
-    "url": "kibana#/dashboard/",
+    "url": [
+      "kibana#/dashboard/"
+    ],
     "website": "https://www.elastic.co/products/kibana"
   },
   "Kibo Commerce": {
@@ -735,7 +737,9 @@
       "recurring"
     ],
     "saas": true,
-    "url": "/modules/kiliba/logo\\.png",
+    "url": [
+      "/modules/kiliba/logo\\.png"
+    ],
     "website": "https://en.kiliba.com"
   },
   "Kindful": {

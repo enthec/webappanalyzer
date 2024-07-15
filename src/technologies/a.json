@@ -674,7 +674,9 @@
     "scriptSrc": [
       "https?:\\/\\/.+\\.web\\.ahdev\\.cloud"
     ],
-    "url": "https:?\\/\\/.+\\.web\\.ahdev\\.cloud",
+    "url": [
+      "https:?\\/\\/.+\\.web\\.ahdev\\.cloud"
+    ],
     "website": "https://www.acquia.com/products/drupal-cloud/cloud-ide"
   },
   "Acquia Cloud Platform": {
@@ -747,7 +749,9 @@
     "scriptSrc": [
       "content-hub\\.acquia\\.com"
     ],
-    "url": "https?:\\/\\/.+\\.content-hub\\.acquia\\.com",
+    "url": [
+      "https?:\\/\\/.+\\.content-hub\\.acquia\\.com"
+    ],
     "website": "https://www.acquia.com/products/drupal-cloud/content-hub"
   },
   "Acquia Customer Data Platform": {
@@ -1273,7 +1277,9 @@
     "scriptSrc": [
       "^[^\\/]*//(?:[^\\/]+\\.)?adcash\\.com/(?:script|ad)/"
     ],
-    "url": "^https?://(?:[^\\/]+\\.)?adcash\\.com/script/pop_",
+    "url": [
+      "^https?://(?:[^\\/]+\\.)?adcash\\.com/script/pop_"
+    ],
     "website": "https://adcash.com"
   },
   "AddEvent": {
@@ -1614,7 +1620,9 @@
     "scriptSrc": [
       "/cfajax/"
     ],
-    "url": "\\.cfm(?:$|\\?)",
+    "url": [
+      "\\.cfm(?:$|\\?)"
+    ],
     "website": "https://adobe.com/products/coldfusion-family.html"
   },
   "Adobe DTM": {
@@ -2090,7 +2098,9 @@
       "payg"
     ],
     "saas": true,
-    "url": "https.+\\.returnscenter\\.com",
+    "url": [
+      "https.+\\.returnscenter\\.com"
+    ],
     "website": "https://www.aftership.com/returns"
   },
   "Afterpay": {
@@ -3737,7 +3747,9 @@
       "poa"
     ],
     "saas": true,
-    "url": "https.+\\.imodules\\.com/s/",
+    "url": [
+      "https.+\\.imodules\\.com/s/"
+    ],
     "website": "https://www.anthology.com/products/lifecycle-engagement/alumni-and-advancement/anthology-encompass"
   },
   "AntiBot.Cloud": {
@@ -3848,7 +3860,9 @@
     "scriptSrc": [
       "jspwiki"
     ],
-    "url": "wiki\\.jsp",
+    "url": [
+      "wiki\\.jsp"
+    ],
     "website": "https://jspwiki.org"
   },
   "Apache Tomcat": {
@@ -5570,7 +5584,9 @@
     "implies": [
       "Azure"
     ],
-    "url": "https.+\\.b2clogin\\.com",
+    "url": [
+      "https.+\\.b2clogin\\.com"
+    ],
     "website": "https://azure.microsoft.com/en-us/services/active-directory/external-identities/b2c/"
   },
   "Azure CDN": {

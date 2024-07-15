@@ -484,7 +484,9 @@
       "Server": "^ECD\\s\\(\\S+\\)"
     },
     "icon": "EdgeCast.png",
-    "url": "https?://(?:[^/]+\\.)?edgecastcdn\\.net/",
+    "url": [
+      "https?://(?:[^/]+\\.)?edgecastcdn\\.net/"
+    ],
     "website": "https://www.edgecast.com"
   },
   "Edgio": {
@@ -1596,7 +1598,9 @@
     "js": {
       "epomCustomParams": ""
     },
-    "url": "^https?://(?:[^/]+\\.)?ad(?:op)?shost1\\.com/",
+    "url": [
+      "^https?://(?:[^/]+\\.)?ad(?:op)?shost1\\.com/"
+    ],
     "website": "https://epom.com"
   },
   "EqualWeb": {

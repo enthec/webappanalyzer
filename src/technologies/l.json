@@ -930,7 +930,9 @@
     "scriptSrc": [
       "http://assets\\.webshopapp\\.com"
     ],
-    "url": "seoshop.webshopapp.com",
+    "url": [
+      "seoshop.webshopapp.com"
+    ],
     "website": "https://www.lightspeedhq.com/products/ecommerce/"
   },
   "LimeChat": {
@@ -1369,7 +1371,9 @@
     ],
     "description": "LiveJournal is a social networking service where users can keep a blog, journal or diary.",
     "icon": "LiveJournal.png",
-    "url": "\\.livejournal\\.com",
+    "url": [
+      "\\.livejournal\\.com"
+    ],
     "website": "https://www.livejournal.com"
   },
   "LivePerson": {

@@ -253,7 +253,9 @@
     "scriptSrc": [
       "^/?typo3(?:conf|temp)/"
     ],
-    "url": "/typo3/",
+    "url": [
+      "/typo3/"
+    ],
     "website": "https://typo3.org/"
   },
   "Tabarnapp": {
@@ -505,7 +507,9 @@
       "\\.taggbox\\.com",
       "taggbox\\.com/app/js/embed\\.min\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1"
     ],
-    "url": "\\.taggbox\\.com",
+    "url": [
+      "\\.taggbox\\.com"
+    ],
     "website": "https://taggbox.com/"
   },
   "Taiga": {
@@ -3412,7 +3416,9 @@
       "<iframe src=\"[^>]+tumblr\\.com"
     ],
     "icon": "Tumblr.png",
-    "url": "^https?://(?:www\\.)?[^/]+\\.tumblr\\.com/",
+    "url": [
+      "^https?://(?:www\\.)?[^/]+\\.tumblr\\.com/"
+    ],
     "website": "https://www.tumblr.com"
   },
   "Turbo": {
@@ -3947,7 +3953,9 @@
     "meta": {
       "generator": "typepad"
     },
-    "url": "typepad\\.com",
+    "url": [
+      "typepad\\.com"
+    ],
     "website": "https://www.typepad.com"
   },
   "TypeScript": {
@@ -3974,7 +3982,9 @@
     "meta": {
       "generator": "Typecho( [\\d.]+)?\\;version:\\1"
     },
-    "url": "/admin/login\\.php?referer=http%3A%2F%2F",
+    "url": [
+      "/admin/login\\.php?referer=http%3A%2F%2F"
+    ],
     "website": "https://typecho.org/"
   },
   "Typed.js": {

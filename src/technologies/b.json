@@ -805,7 +805,9 @@
     "scripts": [
       "bigcommerceProductId"
     ],
-    "url": "mybigcommerce\\.com",
+    "url": [
+      "mybigcommerce\\.com"
+    ],
     "website": "https://www.bigcommerce.com"
   },
   "BigCommerce B2B Edition": {
@@ -910,7 +912,9 @@
     "implies": [
       "PHP"
     ],
-    "url": "(?:\\?|&)bigWAdminID=",
+    "url": [
+      "(?:\\?|&)bigWAdminID="
+    ],
     "website": "https://bigware.de"
   },
   "Bikayi": {
@@ -1075,7 +1079,9 @@
     "scriptSrc": [
       "js/convio/modules\\.js"
     ],
-    "url": "/site/Donation2?.*df_id=",
+    "url": [
+      "/site/Donation2?.*df_id="
+    ],
     "website": "https://www.blackbaud.com"
   },
   "Blade": {
@@ -1241,7 +1247,9 @@
     "meta": {
       "generator": "^Blogger$"
     },
-    "url": "^https?://[^/]+\\.(?:blogspot|blogger)\\.com",
+    "url": [
+      "^https?://[^/]+\\.(?:blogspot|blogger)\\.com"
+    ],
     "website": "https://www.blogger.com"
   },
   "Bloomreach": {
@@ -1963,7 +1971,9 @@
     "scriptSrc": [
       "cdn\\.bookero\\.pl"
     ],
-    "url": "\\.bookero\\.(?:org|pl)",
+    "url": [
+      "\\.bookero\\.(?:org|pl)"
+    ],
     "website": "https://www.bookero.org"
   },
   "Booking.com": {
@@ -3042,7 +3052,9 @@
       1
     ],
     "icon": "Google.svg",
-    "url": "https?://[^.]+\\.business\\.page",
+    "url": [
+      "https?://[^.]+\\.business\\.page"
+    ],
     "website": "https://businesswebsites.google.com/welcome"
   },
   "ButterCMS": {

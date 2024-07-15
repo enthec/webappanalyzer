@@ -793,7 +793,9 @@
       "X-Powered-By": "^Virgool$"
     },
     "icon": "Virgool.svg",
-    "url": "^https?://(?:www\\.)?virgool\\.io",
+    "url": [
+      "^https?://(?:www\\.)?virgool\\.io"
+    ],
     "website": "https://virgool.io"
   },
   "Virtooal": {
@@ -889,7 +891,9 @@
       "Copyright": "^Copyright &copy; \\d{4} OpenLink Software",
       "Keywords": "^OpenLink Virtuoso Sparql"
     },
-    "url": "/sparql",
+    "url": [
+      "/sparql"
+    ],
     "website": "https://virtuoso.openlinksw.com/"
   },
   "Virtuous": {

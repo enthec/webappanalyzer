@@ -1881,7 +1881,9 @@
       "recurring"
     ],
     "saas": true,
-    "url": "\\.(?:eu|us1)\\.ordercast\\.io/",
+    "url": [
+      "\\.(?:eu|us1)\\.ordercast\\.io/"
+    ],
     "website": "https://www.ordercast.io"
   },
   "OrderLogic app": {
@@ -2101,7 +2103,9 @@
     "js": {
       "IsOwaPremiumBrowser": ""
     },
-    "url": "/owa/auth/log(?:on|off)\\.aspx",
+    "url": [
+      "/owa/auth/log(?:on|off)\\.aspx"
+    ],
     "website": "https://help.outlook.com"
   },
   "Oxatis": {

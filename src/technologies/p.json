@@ -32,7 +32,9 @@
       "pdfjsDistBuildPdf.version": "^(.+)$\\;version:\\1",
       "pdfjsLib.version": "^(.+)$\\;version:\\1"
     },
-    "url": "/web/viewer\\.html?file=[^&]\\.pdf",
+    "url": [
+      "/web/viewer\\.html?file=[^&]\\.pdf"
+    ],
     "website": "https://mozilla.github.io/pdf.js/"
   },
   "PHP": {
@@ -49,7 +51,9 @@
       "X-Powered-By": "^php/?([\\d.]+)?\\;version:\\1"
     },
     "icon": "PHP.svg",
-    "url": "\\.php(?:$|\\?)",
+    "url": [
+      "\\.php(?:$|\\?)"
+    ],
     "website": "https://php.net"
   },
   "PHP-Nuke": {
@@ -118,7 +122,9 @@
     "scriptSrc": [
       "pixi(?:\\.min|-legacy)?\\.js$"
     ],
-    "url": ".+\\.pixijs\\.com",
+    "url": [
+      ".+\\.pixijs\\.com"
+    ],
     "website": "https://www.pixijs.com"
   },
   "POLi Payment": {
@@ -1639,7 +1645,9 @@
     "scriptSrc": [
       "\\.psecn\\.photoshelter\\.com/"
     ],
-    "url": "photoshelter\\.com",
+    "url": [
+      "photoshelter\\.com"
+    ],
     "website": "https://www.photoshelter.com"
   },
   "PhotoShelter for Brands": {
@@ -3897,7 +3905,9 @@
     "cpe": "cpe:2.3:a:pulsesecure:pulse_connect_secure:*:*:*:*:*:*:*:*",
     "description": "Pulse Secure allows to deploy VPNs to securely to your internal resources.",
     "icon": "PulseSecure.png",
-    "url": "/dana-na/auth/",
+    "url": [
+      "/dana-na/auth/"
+    ],
     "website": "https://www.pulsesecure.net/products/remote-access-overview/"
   },
   "Pure CSS": {

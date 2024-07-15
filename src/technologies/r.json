@@ -74,7 +74,9 @@
       "redaxo": "\\;confidence:50"
     },
     "oss": true,
-    "url": "^https?://(?:www\\.)?[\\d\\w\\-]+\\.[\\w]+/redaxo/\\;confidence:50",
+    "url": [
+      "^https?://(?:www\\.)?[\\d\\w\\-]+\\.[\\w]+/redaxo/\\;confidence:50"
+    ],
     "website": "https://redaxo.org"
   },
   "REG.RU": {
@@ -725,7 +727,9 @@
       "recurring"
     ],
     "saas": true,
-    "url": "^https?//.+\\.reactiveonline\\.io",
+    "url": [
+      "^https?//.+\\.reactiveonline\\.io"
+    ],
     "website": "https://reactiveonline.io"
   },
   "ReadAloud": {
@@ -1142,7 +1146,9 @@
     "js": {
       "reddit": ""
     },
-    "url": "^https?://(?:www\\.)?reddit\\.com",
+    "url": [
+      "^https?://(?:www\\.)?reddit\\.com"
+    ],
     "website": "https://code.reddit.com"
   },
   "Reddit Ads": {
@@ -1845,7 +1851,9 @@
     "scriptSrc": [
       "retool(?:-edge)?(?:\\.com)?(?:\\/embed)?\\/?(?:runtime)?~?(?:app)?(?:custom-components)?(?:\\.\\w{0,20})?\\.js"
     ],
-    "url": "^https://retool\\.[\\d\\w\\-]+\\.(?:com|io)/",
+    "url": [
+      "^https://retool\\.[\\d\\w\\-]+\\.(?:com|io)/"
+    ],
     "website": "https://retool.com"
   },
   "Return Prime": {

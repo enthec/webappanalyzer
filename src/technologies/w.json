@@ -1285,7 +1285,9 @@
     "scriptSrc": [
       "res2\\.weblium\\.site/common/core\\.min\\.js"
     ],
-    "url": "\\.weblium\\.site",
+    "url": [
+      "\\.weblium\\.site"
+    ],
     "website": "https://weblium.com"
   },
   "Weblogic Server": {
@@ -2828,7 +2830,9 @@
     "requires": [
       "WordPress"
     ],
-    "url": "^https?://[^/]+\\.wpcache\\.co",
+    "url": [
+      "^https?://[^/]+\\.wpcache\\.co"
+    ],
     "website": "https://wpcache.co"
   }
 }

@@ -35,7 +35,9 @@
     "scripts": [
       "/webapp/wcs/"
     ],
-    "url": "/wcs/",
+    "url": [
+      "/wcs/"
+    ],
     "website": "https://www.hcltechsw.com/commerce"
   },
   "HCL Digital Experience": {
@@ -59,7 +61,9 @@
       "high",
       "poa"
     ],
-    "url": "/wps/wcm/",
+    "url": [
+      "/wps/wcm/"
+    ],
     "website": "https://www.hcltechsw.com/dx"
   },
   "HCL Domino": {
@@ -126,7 +130,9 @@
     "headers": {
       "Strict-Transport-Security": ""
     },
-    "url": "^https://[\\w\\d\\.\\-]+(?:\\.dev)(?:/.+||/)$",
+    "url": [
+      "^https://[\\w\\d\\.\\-]+(?:\\.dev)(?:/.+||/)$"
+    ],
     "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1"
   },
   "HTML5 Media": {
@@ -433,7 +439,9 @@
     "scriptSrc": [
       "hashnode\\.com"
     ],
-    "url": "^https?://[^/]+\\.(?:hashnode)\\.dev",
+    "url": [
+      "^https?://[^/]+\\.(?:hashnode)\\.dev"
+    ],
     "website": "https://hashnode.com/"
   },
   "Hashtag Labs": {
@@ -819,7 +827,9 @@
       "Via": "[\\d.-]+ vegur$"
     },
     "icon": "heroku.svg",
-    "url": "\\.herokuapp\\.com",
+    "url": [
+      "\\.herokuapp\\.com"
+    ],
     "website": "https://www.heroku.com/"
   },
   "Hestia": {
@@ -1100,7 +1110,9 @@
       "recurring"
     ],
     "saas": true,
-    "url": "sites\\.hireology\\.com/",
+    "url": [
+      "sites\\.hireology\\.com/"
+    ],
     "website": "https://hireology.com"
   },
   "Hirschmann HiOS": {
