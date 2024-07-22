@@ -9,7 +9,10 @@
   "type": "object",
   "additionalProperties": {
     "additionalProperties": false,
-    "required": ["cats","website"],
+    "required": [
+      "cats",
+      "website"
+    ],
     "properties": {
       "description": {
         "type": "string",
@@ -102,56 +105,28 @@
         }
       },
       "html": {
-        "oneOf": [
-          {
-            "type": "array",
-            "items": {
-              "$ref": "#/definitions/non-empty-non-blank-string"
-            }
-          },
-          {
-            "$ref": "#/definitions/non-empty-non-blank-string"
-          }
-        ]
+        "type": "array",
+        "items": {
+          "$ref": "#/definitions/non-empty-non-blank-string"
+        }
       },
       "text": {
-        "oneOf": [
-          {
-            "type": "array",
-            "items": {
-              "$ref": "#/definitions/non-empty-non-blank-string"
-            }
-          },
-          {
-            "$ref": "#/definitions/non-empty-non-blank-string"
-          }
-        ]
+        "type": "array",
+        "items": {
+          "$ref": "#/definitions/non-empty-non-blank-string"
+        }
       },
       "css": {
-        "oneOf": [
-          {
-            "type": "array",
-            "items": {
-              "$ref": "#/definitions/non-empty-non-blank-string"
-            }
-          },
-          {
-            "$ref": "#/definitions/non-empty-non-blank-string"
-          }
-        ]
+        "type": "array",
+        "items": {
+          "$ref": "#/definitions/non-empty-non-blank-string"
+        }
       },
       "robots": {
-        "oneOf": [
-          {
-            "type": "array",
-            "items": {
-              "$ref": "#/definitions/non-empty-non-blank-string"
-            }
-          },
-          {
-            "$ref": "#/definitions/non-empty-non-blank-string"
-          }
-        ]
+        "type": "array",
+        "items": {
+          "$ref": "#/definitions/non-empty-non-blank-string"
+        }
       },
       "probe": {
         "type": "object",
@@ -165,69 +140,31 @@
         }
       },
       "certIssuer": {
-        "oneOf": [
-          {
-            "type": "array",
-            "items": {
-              "$ref": "#/definitions/non-empty-non-blank-string"
-            }
-          },
-          {
-            "$ref": "#/definitions/non-empty-non-blank-string"
-          }
-        ]
+        "$ref": "#/definitions/non-empty-non-blank-string"
       },
       "excludes": {
-        "oneOf": [
-          {
-            "type": "array",
-            "items": {
-              "$ref": "#/definitions/non-empty-non-blank-string"
-            }
-          },
-          {
-            "$ref": "#/definitions/non-empty-non-blank-string"
-          }
-        ]
+        "type": "array",
+        "items": {
+          "$ref": "#/definitions/non-empty-non-blank-string"
+        }
       },
       "implies": {
-        "oneOf": [
-          {
-            "type": "array",
-            "items": {
-              "$ref": "#/definitions/non-empty-non-blank-string"
-            }
-          },
-          {
-            "$ref": "#/definitions/non-empty-non-blank-string"
-          }
-        ]
+        "type": "array",
+        "items": {
+          "$ref": "#/definitions/non-empty-non-blank-string"
+        }
       },
       "requires": {
-        "oneOf": [
-          {
-            "type": "array",
-            "items": {
-              "$ref": "#/definitions/non-empty-non-blank-string"
-            }
-          },
-          {
-            "$ref": "#/definitions/non-empty-non-blank-string"
-          }
-        ]
+        "type": "array",
+        "items": {
+          "$ref": "#/definitions/non-empty-non-blank-string"
+        }
       },
       "requiresCategory": {
-        "oneOf": [
-          {
-            "type": "array",
-            "items": {
-              "type": "number"
-            }
-          },
-          {
-            "type": "number"
-          }
-        ]
+        "type": "array",
+        "items": {
+          "type": "number"
+        }
       },
       "meta": {
         "type": "object",
@@ -241,43 +178,22 @@
         }
       },
       "scriptSrc": {
-        "oneOf": [
-          {
-            "type": "array",
-            "items": {
-              "$ref": "#/definitions/non-empty-non-blank-string"
-            }
-          },
-          {
-            "$ref": "#/definitions/non-empty-non-blank-string"
-          }
-        ]
+        "type": "array",
+        "items": {
+          "$ref": "#/definitions/non-empty-non-blank-string"
+        }
       },
       "scripts": {
-        "oneOf": [
-          {
-            "type": "array",
-            "items": {
-              "$ref": "#/definitions/non-empty-non-blank-string"
-            }
-          },
-          {
-            "$ref": "#/definitions/non-empty-non-blank-string"
-          }
-        ]
+        "type": "array",
+        "items": {
+          "$ref": "#/definitions/non-empty-non-blank-string"
+        }
       },
       "url": {
-        "oneOf": [
-          {
-            "type": "array",
-            "items": {
-              "$ref": "#/definitions/non-empty-non-blank-string"
-            }
-          },
-          {
-            "$ref": "#/definitions/non-empty-non-blank-string"
-          }
-        ]
+        "type": "array",
+        "items": {
+          "$ref": "#/definitions/non-empty-non-blank-string"
+        }
       },
       "website": {
         "$ref": "#/definitions/non-empty-non-blank-string"
@@ -286,17 +202,10 @@
         "$ref": "#/definitions/non-empty-non-blank-string"
       },
       "xhr": {
-        "oneOf": [
-          {
-            "type": "array",
-            "items": {
-              "$ref": "#/definitions/non-empty-non-blank-string"
-            }
-          },
-          {
-            "$ref": "#/definitions/non-empty-non-blank-string"
-          }
-        ]
+        "type": "array",
+        "items": {
+          "$ref": "#/definitions/non-empty-non-blank-string"
+        }
       }
     }
   }

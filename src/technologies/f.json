@@ -41,7 +41,9 @@
       29
     ],
     "description": "FAST ESP is a service-oriented architecture development platform which is geared towards production searchable indexes. It provided a flexible framework for creating ETL applications for efficient indexing of searchable content.",
-    "html": "<form[^>]+id=\"fastsearch\"",
+    "html": [
+      "<form[^>]+id=\"fastsearch\""
+    ],
     "icon": "FAST ESP.png",
     "website": "https://microsoft.com/enterprisesearch"
   },
@@ -50,13 +52,17 @@
       29
     ],
     "description": "FAST Search for SharePoint is the search engine for Microsoft's SharePoint collaboration platform. Its purpose is helping SharePoint users locate and retrieve stored enterprise content.",
-    "html": "<input[^>]+ name=\"ParametricSearch",
+    "html": [
+      "<input[^>]+ name=\"ParametricSearch"
+    ],
     "icon": "FAST Search for SharePoint.png",
     "implies": [
       "Microsoft SharePoint",
       "Microsoft ASP.NET"
     ],
-    "url": "Pages/SearchResults\\.aspx\\?k=",
+    "url": [
+      "Pages/SearchResults\\.aspx\\?k="
+    ],
     "website": "https://sharepoint.microsoft.com/en-us/product/capabilities/search/Pages/Fast-Search.aspx"
   },
   "FUDforum": {
@@ -121,7 +127,9 @@
     "js": {
       "facebookChatSettings": ""
     },
-    "scriptSrc": "connect\\.facebook\\.net/.+\\.customerchat\\.js",
+    "scriptSrc": [
+      "connect\\.facebook\\.net/.+\\.customerchat\\.js"
+    ],
     "website": "https://developers.facebook.com/docs/messenger-platform/discovery/facebook-chat-plugin/"
   },
   "Facebook Login": {
@@ -168,7 +176,9 @@
     ],
     "description": "Facil-iti is a web accessibility overlay which provides support for some people with disabilities and seniors.",
     "icon": "Facil-iti.svg",
-    "scriptSrc": "ws\\.facil-iti\\.com/tag/faciliti-tag\\.min\\.js",
+    "scriptSrc": [
+      "ws\\.facil-iti\\.com/tag/faciliti-tag\\.min\\.js"
+    ],
     "website": "https://www.facil-iti.com/"
   },
   "Fact Finder": {
@@ -176,10 +186,16 @@
       29
     ],
     "description": "Fact Finder is a platform which, combines search, navigation, and merchandising solutions to streamline online search and power sales.",
-    "html": "<!-- Factfinder",
+    "html": [
+      "<!-- Factfinder"
+    ],
     "icon": "Fact Finder.png",
-    "scriptSrc": "Suggest\\.ff",
-    "url": "(?:/ViewParametricSearch|ffsuggest\\.[a-z]htm)",
+    "scriptSrc": [
+      "Suggest\\.ff"
+    ],
+    "url": [
+      "(?:/ViewParametricSearch|ffsuggest\\.[a-z]htm)"
+    ],
     "website": "https://fact-finder.com"
   },
   "FalguniThemes Nisarg": {
@@ -195,8 +211,12 @@
       "freemium",
       "onetime"
     ],
-    "requires": "WordPress",
-    "scriptSrc": "/wp-content/themes/nisarg(?:pro)?/",
+    "requires": [
+      "WordPress"
+    ],
+    "scriptSrc": [
+      "/wp-content/themes/nisarg(?:pro)?/"
+    ],
     "website": "https://www.falgunithemes.com/downloads/nisarg"
   },
   "FameThemes OnePress": {
@@ -213,7 +233,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://www.famethemes.com/themes/onepress"
   },
   "FameThemes Screenr": {
@@ -226,7 +248,9 @@
       "Screenr.autoplay": "",
       "Screenr_Plus": ""
     },
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://www.famethemes.com/themes/screenr"
   },
   "FancyBox": {
@@ -235,13 +259,17 @@
     ],
     "description": "FancyBox is a tool for displaying images, html content and multi-media in a Mac-style 'lightbox' that floats overtop of web page.",
     "icon": "FancyBox.svg",
-    "implies": "jQuery",
+    "implies": [
+      "jQuery"
+    ],
     "js": {
       "$.fancybox.version": "^(.+)$\\;version:\\1",
       "Fancybox.version": "^(.+)$\\;version:\\1",
       "jQuery.fancybox.version": "^(.+)$\\;version:\\1"
     },
-    "scriptSrc": "jquery\\.fancybox(?:\\.pack|\\.min)?\\.js(?:\\?v=([\\d.]+))?$\\;version:\\1",
+    "scriptSrc": [
+      "jquery\\.fancybox(?:\\.pack|\\.min)?\\.js(?:\\?v=([\\d.]+))?$\\;version:\\1"
+    ],
     "website": "https://fancyapps.com/fancybox"
   },
   "Fanplayr": {
@@ -259,16 +287,22 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.fanplayr\\.com/.+/([\\d\\.]+)\\;version:\\1",
+    "scriptSrc": [
+      "cdn\\.fanplayr\\.com/.+/([\\d\\.]+)\\;version:\\1"
+    ],
     "website": "https://fanplayr.com"
   },
   "FaraPy": {
     "cats": [
       1
     ],
-    "html": "<!-- Powered by FaraPy.",
+    "html": [
+      "<!-- Powered by FaraPy."
+    ],
     "icon": "FaraPy.png",
-    "implies": "Python",
+    "implies": [
+      "Python"
+    ],
     "website": "https://faral.tech"
   },
   "FareHarbor": {
@@ -277,13 +311,17 @@
       72
     ],
     "description": "FareHarbor is an booking and schedule management solution intended for tour and activity companies.",
-    "html": "<iframe[^>]+fareharbor",
+    "html": [
+      "<iframe[^>]+fareharbor"
+    ],
     "icon": "FareHarbor.svg",
     "pricing": [
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "fareharbor\\.com/embeds/api/",
+    "scriptSrc": [
+      "fareharbor\\.com/embeds/api/"
+    ],
     "website": "https://fareharbor.com"
   },
   "Fast Bundle": {
@@ -292,7 +330,9 @@
     ],
     "description": "Fast Bundle gives you the ability to create product bundle offers with discounts.",
     "icon": "Fast Bundle.svg",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "js": {
       "FastBundleConf.bundleBox": "",
       "FastBundleConf.cartInfo.app_version": "v([\\d\\.]+)\\;version:\\1"
@@ -303,7 +343,9 @@
       "low"
     ],
     "saas": true,
-    "scriptSrc": "api\\.fastbundle\\.co/",
+    "scriptSrc": [
+      "api\\.fastbundle\\.co/"
+    ],
     "website": "https://fastbundle.co"
   },
   "Fast Checkout": {
@@ -320,7 +362,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "js\\.fast\\.co/",
+    "scriptSrc": [
+      "js\\.fast\\.co/"
+    ],
     "website": "https://www.fast.co"
   },
   "FastComet": {
@@ -379,7 +423,9 @@
       "payg"
     ],
     "website": "https://www.fastly.com",
-    "xhr": "\\.fastly\\.net"
+    "xhr": [
+      "\\.fastly\\.net"
+    ]
   },
   "Fastspring": {
     "cats": [
@@ -402,7 +448,9 @@
       "<(?:iframe)[^>]+FatZebraFrame"
     ],
     "icon": "fatzebra.png",
-    "scriptSrc": "paynow\\.pmnts\\.io",
+    "scriptSrc": [
+      "paynow\\.pmnts\\.io"
+    ],
     "website": "https://www.fatzebra.com/"
   },
   "Fat-Free Framework": {
@@ -413,7 +461,9 @@
       "X-Powered-By": "^Fat-Free Framework$"
     },
     "icon": "Fat-Free Framework.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "website": "https://fatfreeframework.com"
   },
   "FatherShops": {
@@ -421,13 +471,17 @@
       6
     ],
     "description": "FatherShops is an ecommerce platform.",
-    "excludes": "OpenCart",
+    "excludes": [
+      "OpenCart"
+    ],
     "icon": "FatherShops.png",
     "pricing": [
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "fathershop/view/theme/fs/",
+    "scriptSrc": [
+      "fathershop/view/theme/fs/"
+    ],
     "website": "https://fathershops.com"
   },
   "Fathom": {
@@ -444,7 +498,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.usefathom\\.com/",
+    "scriptSrc": [
+      "cdn\\.usefathom\\.com/"
+    ],
     "website": "https://usefathom.com"
   },
   "Faveo": {
@@ -456,7 +512,9 @@
     "dom": "link[href*='/lb-faveo/']",
     "icon": "Faveo.png",
     "oss": true,
-    "scriptSrc": "faveo(?:\\/js)?(?:\\/jquery)?(?:\\/know)?(?:\\/mobilemenu)?(?:\\/plugins)?(?:\\/bootstrap)?(?:\\/superfish)?(?:\\/iCheck\\/icheck)?(?:-wysihtml5\\/bootstrap3-wysihtml5)?(?:\\.all)?(?:\\.rating)?(?:\\.pack)?((?:\\d+\\.)+\\d+)?(?:\\.min)?\\.js\\;version:\\1",
+    "scriptSrc": [
+      "faveo(?:\\/js)?(?:\\/jquery)?(?:\\/know)?(?:\\/mobilemenu)?(?:\\/plugins)?(?:\\/bootstrap)?(?:\\/superfish)?(?:\\/iCheck\\/icheck)?(?:-wysihtml5\\/bootstrap3-wysihtml5)?(?:\\.all)?(?:\\.rating)?(?:\\.pack)?((?:\\d+\\.)+\\d+)?(?:\\.min)?\\.js\\;version:\\1"
+    ],
     "website": "https://faveohelpdesk.com"
   },
   "Fbits": {
@@ -490,7 +548,9 @@
     ],
     "description": "FedEx is an American multinational company which focuses on transportation, ecommerce and business services.",
     "icon": "FedEx.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bFedEx\\b"
     ],
@@ -514,7 +574,9 @@
     ],
     "description": "Feedback Fish is a widget for collecting website feedback from users.",
     "icon": "feedback-fish.svg",
-    "scriptSrc": "^https://feedback\\.fish/ff\\.js",
+    "scriptSrc": [
+      "^https://feedback\\.fish/ff\\.js"
+    ],
     "website": "https://feedback.fish"
   },
   "Feefo": {
@@ -533,7 +595,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.feefo\\.com/",
+    "scriptSrc": [
+      "\\.feefo\\.com/"
+    ],
     "website": "https://www.feefo.com"
   },
   "Fenicio": {
@@ -569,7 +633,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.fera\\.ai",
+    "scriptSrc": [
+      "cdn\\.fera\\.ai"
+    ],
     "website": "https://fera.ai/"
   },
   "Fera Product Reviews App": {
@@ -604,7 +670,9 @@
       "FilePond.create": "",
       "FilePond.setOptions": ""
     },
-    "scriptSrc": "filepond.js",
+    "scriptSrc": [
+      "filepond.js"
+    ],
     "website": "https://pqina.nl/filepond/"
   },
   "FinanceAds": {
@@ -636,7 +704,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "@findify/bundle@([\\d.]+)/dist/.+\\.js\\;version:\\1",
+    "scriptSrc": [
+      "@findify/bundle@([\\d.]+)/dist/.+\\.js\\;version:\\1"
+    ],
     "website": "https://www.findify.io"
   },
   "Findmeashoe": {
@@ -723,9 +793,13 @@
       "low",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
-    "scriptSrc": "//alireviews\\.fireapps\\.io/",
+    "scriptSrc": [
+      "//alireviews\\.fireapps\\.io/"
+    ],
     "website": "https://apps.shopify.com/ali-reviews"
   },
   "Firebase": {
@@ -775,7 +849,9 @@
     "description": "Firepush is an omnichannel marketing app that helps Shopify stores to drive sales with automated web push, email and SMS campaigns.",
     "dom": "link[href*='cdn.firepush.net']",
     "icon": "Firepush.svg",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "pricing": [
       "low",
       "freemium",
@@ -799,7 +875,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "firsthive\\.com/engage/",
+    "scriptSrc": [
+      "firsthive\\.com/engage/"
+    ],
     "website": "https://firsthive.com"
   },
   "FirstImpression.io": {
@@ -812,9 +890,13 @@
       "FI.options": "",
       "fiPrebidAnalyticsHandler": ""
     },
-    "scriptSrc": "\\.firstimpression\\.io",
+    "scriptSrc": [
+      "\\.firstimpression\\.io"
+    ],
     "website": "https://www.firstimpression.io",
-    "xhr": "\\.firstimpression\\.io"
+    "xhr": [
+      "\\.firstimpression\\.io"
+    ]
   },
   "FirstPromoter": {
     "cats": [
@@ -832,7 +914,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.firstpromoter\\.com/",
+    "scriptSrc": [
+      "cdn\\.firstpromoter\\.com/"
+    ],
     "website": "https://firstpromoter.com"
   },
   "Fit Analytics": {
@@ -849,11 +933,16 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.fitanalytics\\.com",
+    "scriptSrc": [
+      "\\.fitanalytics\\.com"
+    ],
     "website": "https://www.fitanalytics.com"
   },
   "FitVids.JS": {
-    "cats": [5, 14],
+    "cats": [
+      5,
+      14
+    ],
     "description": "jQuery plugin for fluid width video embeds",
     "icon": "FitVids.JS.png",
     "scriptSrc": [
@@ -878,7 +967,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.flagsmith\\.com/",
+    "scriptSrc": [
+      "cdn\\.flagsmith\\.com/"
+    ],
     "website": "https://flagsmith.com"
   },
   "Flarum": {
@@ -887,7 +978,9 @@
     ],
     "cpe": "cpe:2.3:a:flarum:flarum:*:*:*:*:*:*:*:*",
     "description": "Flarum is a discussion platform.",
-    "html": "<div id=\"flarum-loading\"",
+    "html": [
+      "<div id=\"flarum-loading\""
+    ],
     "icon": "flarum.png",
     "implies": [
       "PHP",
@@ -910,7 +1003,9 @@
       "Server": "Werkzeug/?([\\d\\.]+)?\\;version:\\1"
     },
     "icon": "Flask.svg",
-    "implies": "Python",
+    "implies": [
+      "Python"
+    ],
     "oss": true,
     "website": "https://github.com/pallets/flask/"
   },
@@ -918,9 +1013,13 @@
     "cats": [
       66
     ],
-    "html": "<link[^>]* href=[^>]+flat-ui(?:\\.min)?\\.css",
+    "html": [
+      "<link[^>]* href=[^>]+flat-ui(?:\\.min)?\\.css"
+    ],
     "icon": "Flat UI.png",
-    "implies": "Bootstrap",
+    "implies": [
+      "Bootstrap"
+    ],
     "website": "https://designmodo.github.io/Flat-UI/"
   },
   "Flazio": {
@@ -940,7 +1039,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "//flazio\\.org/",
+    "scriptSrc": [
+      "//flazio\\.org/"
+    ],
     "website": "https://flazio.com"
   },
   "Fleksa": {
@@ -970,7 +1071,9 @@
       "X-Flex-Lang": "",
       "X-Powered-By": "FlexCMP.+\\[v\\. ([\\d.]+)\\;version:\\1"
     },
-    "html": "<!--[^>]+FlexCMP[^>v]+v\\. ([\\d.]+)\\;version:\\1",
+    "html": [
+      "<!--[^>]+FlexCMP[^>v]+v\\. ([\\d.]+)\\;version:\\1"
+    ],
     "icon": "FlexCMP.png",
     "meta": {
       "generator": "^FlexCMP"
@@ -983,7 +1086,9 @@
     ],
     "description": "FlexSlider is a free jQuery slider plugin.",
     "icon": "FlexSlider.png",
-    "implies": "jQuery",
+    "implies": [
+      "jQuery"
+    ],
     "scriptSrc": [
       "jquery\\.flexslider(?:\\.min)?\\.js$"
     ],
@@ -999,7 +1104,9 @@
       "Flickity": ""
     },
     "oss": true,
-    "scriptSrc": "flickity(?:/|@)([\\d\\.]+).+flickity(?:\\.pkgd)?(?:\\.min)?\\.js\\;version:\\1",
+    "scriptSrc": [
+      "flickity(?:/|@)([\\d\\.]+).+flickity(?:\\.pkgd)?(?:\\.min)?\\.js\\;version:\\1"
+    ],
     "website": "https://flickity.metafizzy.co"
   },
   "FlipClock.js": {
@@ -1009,7 +1116,9 @@
     ],
     "description": "FlipClock.js is a JavaScript library, offering a modern twist to displaying time and countdowns on web applications.",
     "oss": true,
-    "scriptSrc": "flipclock(?:\\.min)?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "scriptSrc": [
+      "flipclock(?:\\.min)?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+    ],
     "website": "https://flipclock.readthedocs.io/en/dev-1.0.0/CHANGE%20LOG/"
   },
   "FlippingBook": {
@@ -1028,7 +1137,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "online\\.flippingbook\\.com/",
+    "scriptSrc": [
+      "online\\.flippingbook\\.com/"
+    ],
     "website": "https://flippingbook.com"
   },
   "Flits": {
@@ -1037,7 +1148,9 @@
     ],
     "description": "Flits is a customer account pages that get all your shopper data in one place.",
     "icon": "Flits.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "js": {
       "flitsObjects.accountPage": ""
     },
@@ -1055,7 +1168,9 @@
     "description": "A JavaScript library to position floating elements and create interactions for them.",
     "icon": "Floating UI.svg",
     "oss": true,
-    "scriptSrc": "floating-ui(?:\\/core)?(?:\\/dom)?(?:\\.js)?(?:@?(?:\\?v(?:er)?=)?((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "scriptSrc": [
+      "floating-ui(?:\\/core)?(?:\\/dom)?(?:\\.js)?(?:@?(?:\\?v(?:er)?=)?((?:\\d+\\.)+\\d+))?\\;version:\\1"
+    ],
     "website": "https://floating-ui.com/"
   },
   "Flocktory": {
@@ -1074,7 +1189,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.flocktory\\.com/",
+    "scriptSrc": [
+      "\\.flocktory\\.com/"
+    ],
     "website": "https://www.flocktory.com"
   },
   "Flot": {
@@ -1084,7 +1201,9 @@
     "description": "Attractive Javascript plotting for jQuery.",
     "icon": "Flot.png",
     "oss": true,
-    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/(?:jquery\\.)?)?flot(?:\\/curvedLines)?(?:\\/excanvas)?(?:\\/jquery)?(?:\\.categories)?(?:\\.pack)?(?:\\.pie)?(?:\\.resize)?(?:\\.selection)?(?:\\.spline)?(?:\\.symbol)?(?:\\.time)?(?:\\.tooltip)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1\\2",
+    "scriptSrc": [
+      "(?:((?:\\d+\\.)+\\d+)\\/(?:jquery\\.)?)?flot(?:\\/curvedLines)?(?:\\/excanvas)?(?:\\/jquery)?(?:\\.categories)?(?:\\.pack)?(?:\\.pie)?(?:\\.resize)?(?:\\.selection)?(?:\\.spline)?(?:\\.symbol)?(?:\\.time)?(?:\\.tooltip)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1\\2"
+    ],
     "website": "https://flotcharts.org/"
   },
   "Flow": {
@@ -1102,7 +1221,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "(?:shopify-)?cdn\\.flow\\.io/",
+    "scriptSrc": [
+      "(?:shopify-)?cdn\\.flow\\.io/"
+    ],
     "website": "https://www.flow.io/"
   },
   "Flowbite": {
@@ -1111,9 +1232,13 @@
     ],
     "description": "Flowbite is an open-source library of UI components based on the utility-first Tailwind CSS framework featuring dark mode support, a Figma design system, and more.",
     "icon": "Flowbite.svg",
-    "implies": "Tailwind CSS",
+    "implies": [
+      "Tailwind CSS"
+    ],
     "oss": true,
-    "scriptSrc": "/flowbite(?:@([\\d\\.]+)/|\\.bundle\\.js)\\;version:\\1",
+    "scriptSrc": [
+      "/flowbite(?:@([\\d\\.]+)/|\\.bundle\\.js)\\;version:\\1"
+    ],
     "website": "https://github.com/themesberg/flowbite"
   },
   "Flowplayer": {
@@ -1140,7 +1265,9 @@
     ],
     "description": "Flutter is an open source framework by Google for building beautiful, natively compiled, multi-platform applications from a single codebase.",
     "icon": "Flutter.svg",
-    "implies": "Dart",
+    "implies": [
+      "Dart"
+    ],
     "js": {
       "_flutter.loader": "",
       "_flutter_web_set_location_strategy": "",
@@ -1157,9 +1284,13 @@
       2
     ],
     "cpe": "cpe:2.3:a:fluxbb:fluxbb:*:*:*:*:*:*:*:*",
-    "html": "<p id=\"poweredby\">[^<]+<a href=\"https?://fluxbb\\.org/\">",
+    "html": [
+      "<p id=\"poweredby\">[^<]+<a href=\"https?://fluxbb\\.org/\">"
+    ],
     "icon": "FluxBB.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "website": "https://fluxbb.org"
   },
   "Fly.io": {
@@ -1189,8 +1320,12 @@
     "description": "Flying Analytics is a performance optimisation plugin for WordPress websites designed to reduce page load times and improve the user experience.",
     "dom": "link[href*='/wp-content/plugins/flying-analytics/']",
     "icon": "default.svg",
-    "requires": "WordPress",
-    "scriptSrc": "/wp-content/plugins/flying-analytics/",
+    "requires": [
+      "WordPress"
+    ],
+    "scriptSrc": [
+      "/wp-content/plugins/flying-analytics/"
+    ],
     "website": "https://wordpress.org/plugins/flying-analytics/"
   },
   "Flying Images": {
@@ -1202,7 +1337,9 @@
     "js": {
       "flyingImages": ""
     },
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://wordpress.org/plugins/nazy-load/"
   },
   "Flying Pages": {
@@ -1216,8 +1353,12 @@
     "js": {
       "flyingPages": ""
     },
-    "requires": "WordPress",
-    "scriptSrc": "/wp-content/plugins/flying-pages/.+\\.js(?:\\?ver=([\\d\\.]+))?\\;version:\\1",
+    "requires": [
+      "WordPress"
+    ],
+    "scriptSrc": [
+      "/wp-content/plugins/flying-pages/.+\\.js(?:\\?ver=([\\d\\.]+))?\\;version:\\1"
+    ],
     "website": "https://wordpress.org/plugins/flying-pages/"
   },
   "FlyingPress": {
@@ -1232,8 +1373,12 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
-    "scriptSrc": "/wp-content/plugins/flying-press/",
+    "requires": [
+      "WordPress"
+    ],
+    "scriptSrc": [
+      "/wp-content/plugins/flying-press/"
+    ],
     "website": "https://flying-press.com"
   },
   "Flyspray": {
@@ -1243,9 +1388,13 @@
     "cookies": {
       "flyspray_project": ""
     },
-    "html": "(?:<a[^>]+>Powered by Flyspray|<map id=\"projectsearchform)",
+    "html": [
+      "(?:<a[^>]+>Powered by Flyspray|<map id=\"projectsearchform)"
+    ],
     "icon": "Flyspray.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "website": "https://flyspray.org"
   },
   "Flywheel": {
@@ -1261,7 +1410,9 @@
       "x-fw-type": ""
     },
     "icon": "flywheel.svg",
-    "implies": "WordPress",
+    "implies": [
+      "WordPress"
+    ],
     "website": "https://getflywheel.com"
   },
   "Fomo": {
@@ -1278,7 +1429,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "fomo\\.com/api/v",
+    "scriptSrc": [
+      "fomo\\.com/api/v"
+    ],
     "website": "https://fomo.com"
   },
   "Font Awesome": {
@@ -1349,9 +1502,13 @@
       "freemium",
       "payg"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
-    "scriptSrc": "fontify\\.nitroapps\\.co/",
+    "scriptSrc": [
+      "fontify\\.nitroapps\\.co/"
+    ],
     "website": "https://apps.shopify.com/fontify-change-customize-font-for-your-store"
   },
   "FooPlugins FooGallery": {
@@ -1376,7 +1533,9 @@
       "recurring",
       "low"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://fooplugins.com/foogallery-wordpress-gallery-plugin"
   },
   "Food-Ordering.co.uk": {
@@ -1413,14 +1572,18 @@
     "description": "FoodBooking is a virtual food court based on a curated list of restaurants that use the GloriaFood ordering system.",
     "dom": "a[href*='.foodbooking.com/ordering/restaurant/'][target='_blank']",
     "icon": "FoodBooking.png",
-    "implies": "GloriaFood",
+    "implies": [
+      "GloriaFood"
+    ],
     "pricing": [
       "low",
       "recurring",
       "onetime"
     ],
     "saas": true,
-    "scriptSrc": "\\.(?:fbgcdn|foodbooking)\\.com/",
+    "scriptSrc": [
+      "\\.(?:fbgcdn|foodbooking)\\.com/"
+    ],
     "website": "https://www.foodbooking.com"
   },
   "Foodomaa": {
@@ -1450,7 +1613,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "solve-widget\\.forethought\\.ai/",
+    "scriptSrc": [
+      "solve-widget\\.forethought\\.ai/"
+    ],
     "website": "https://forethought.ai/platform/solve/"
   },
   "Fork Awesome": {
@@ -1481,7 +1646,9 @@
     "cpe": "cpe:2.3:a:fork-cms:fork_cms:*:*:*:*:*:*:*:*",
     "description": "Fork CMS is an open-source content management system.",
     "icon": "ForkCMS.png",
-    "implies": "Symfony",
+    "implies": [
+      "Symfony"
+    ],
     "meta": {
       "generator": "^Fork CMS$"
     },
@@ -1532,7 +1699,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "//formaloo\\.net/",
+    "scriptSrc": [
+      "//formaloo\\.net/"
+    ],
     "website": "https://www.formaloo.com"
   },
   "Formidable Form": {
@@ -1549,7 +1718,9 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://formidableforms.com"
   },
   "Formitable": {
@@ -1581,7 +1752,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "(?:app|cdn)\\.(?:formli|humanagency)\\.(?:com|org)/",
+    "scriptSrc": [
+      "(?:app|cdn)\\.(?:formli|humanagency)\\.(?:com|org)/"
+    ],
     "website": "https://formli.com"
   },
   "ForoshGostar": {
@@ -1592,7 +1765,9 @@
       "Aws.customer": ""
     },
     "icon": "ForoshGostar.svg",
-    "implies": "Microsoft ASP.NET",
+    "implies": [
+      "Microsoft ASP.NET"
+    ],
     "meta": {
       "generator": "^Forosh\\s?Gostar.*|Arsina Webshop.*$"
     },
@@ -1608,7 +1783,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "checkout\\.forte\\.net",
+    "scriptSrc": [
+      "checkout\\.forte\\.net"
+    ],
     "website": "https://www.forte.net"
   },
   "Forter": {
@@ -1627,7 +1804,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "forter\\.com",
+    "scriptSrc": [
+      "forter\\.com"
+    ],
     "website": "https://www.forter.com"
   },
   "Fortinet FortiGate": {
@@ -1648,9 +1827,13 @@
     "cats": [
       6
     ],
-    "html": "(?:<link [^>]*href=\"[^\\/]*\\/\\/www\\.fortune3\\.com\\/[^\"]*siterate\\/rate\\.css|Powered by <a [^>]*href=\"[^\"]+fortune3\\.com)",
+    "html": [
+      "(?:<link [^>]*href=\"[^\\/]*\\/\\/www\\.fortune3\\.com\\/[^\"]*siterate\\/rate\\.css|Powered by <a [^>]*href=\"[^\"]+fortune3\\.com)"
+    ],
     "icon": "Fortune3.png",
-    "scriptSrc": "cartjs\\.php\\?(?:.*&)?s=[^&]*myfortune3cart\\.com",
+    "scriptSrc": [
+      "cartjs\\.php\\?(?:.*&)?s=[^&]*myfortune3cart\\.com"
+    ],
     "website": "https://fortune3.com"
   },
   "Foswiki": {
@@ -1671,7 +1854,9 @@
       "<div class=\"foswiki(?:Copyright|Page|Main)\">"
     ],
     "icon": "foswiki.png",
-    "implies": "Perl",
+    "implies": [
+      "Perl"
+    ],
     "js": {
       "foswiki": ""
     },
@@ -1692,7 +1877,9 @@
       "Four": ""
     },
     "saas": true,
-    "scriptSrc": "scripts\\.paywithfour\\.com",
+    "scriptSrc": [
+      "scripts\\.paywithfour\\.com"
+    ],
     "website": "https://paywithfour.com/"
   },
   "Foursixty": {
@@ -1709,7 +1896,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "foursixty\\.com",
+    "scriptSrc": [
+      "foursixty\\.com"
+    ],
     "website": "https://foursixty.com/"
   },
   "Fourthwall": {
@@ -1729,7 +1918,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "\\.fourthwall\\.com",
+    "scriptSrc": [
+      "\\.fourthwall\\.com"
+    ],
     "website": "https://fourthwall.com/"
   },
   "Foxy.io": {
@@ -1743,7 +1934,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.foxycart\\.com",
+    "scriptSrc": [
+      "cdn\\.foxycart\\.com"
+    ],
     "website": "https://www.foxy.io"
   },
   "Framer Sites": {
@@ -1752,7 +1945,9 @@
     ],
     "description": "Framer is primarily a design and prototyping tool. It allows you to design interactive prototypes of websites and applications using production components and real data.",
     "icon": "Framer Sites.svg",
-    "implies": "React",
+    "implies": [
+      "React"
+    ],
     "js": {
       "Framer": "",
       "Framer.Animatable": "",
@@ -1766,7 +1961,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "framerusercontent\\.com",
+    "scriptSrc": [
+      "framerusercontent\\.com"
+    ],
     "website": "https://framer.com/sites"
   },
   "Frames": {
@@ -1781,7 +1978,9 @@
       "recurring",
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "saas": true,
     "website": "https://getframes.io"
   },
@@ -1791,7 +1990,9 @@
     ],
     "description": "France Express is a delivery service based in France.",
     "icon": "France Express.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bFrance Express\\b"
     ],
@@ -1827,7 +2028,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "monitor\\.fraudblocker\\.com/",
+    "scriptSrc": [
+      "monitor\\.fraudblocker\\.com/"
+    ],
     "website": "https://fraudblocker.com"
   },
   "FraudLabs Pro": {
@@ -1845,7 +2048,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.fraudlabspro\\.com/",
+    "scriptSrc": [
+      "\\.fraudlabspro\\.com/"
+    ],
     "website": "https://www.fraudlabspro.com"
   },
   "FreakOut": {
@@ -1864,7 +2069,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.fout\\.jp/",
+    "scriptSrc": [
+      "\\.fout\\.jp/"
+    ],
     "website": "https://www.fout.co.jp"
   },
   "FreeBSD": {
@@ -1884,9 +2091,13 @@
       24
     ],
     "description": "FreeTextBox is a free open-source HTML Editor.",
-    "html": "<!-- \\* FreeTextBox v\\d \\((\\d+\\.\\d+\\.\\d+)\\;version:\\1",
+    "html": [
+      "<!-- \\* FreeTextBox v\\d \\((\\d+\\.\\d+\\.\\d+)\\;version:\\1"
+    ],
     "icon": "FreeTextBox.png",
-    "implies": "Microsoft ASP.NET",
+    "implies": [
+      "Microsoft ASP.NET"
+    ],
     "js": {
       "FTB_API": "",
       "FTB_AddEvent": ""
@@ -1898,7 +2109,9 @@
       10
     ],
     "icon": "Freespee.svg",
-    "scriptSrc": "analytics\\.freespee\\.com/js/external/fs\\.(?:min\\.)?js",
+    "scriptSrc": [
+      "analytics\\.freespee\\.com/js/external/fs\\.(?:min\\.)?js"
+    ],
     "website": "https://www.freespee.com"
   },
   "Frequenceo": {
@@ -1907,7 +2120,9 @@
     ],
     "description": "Frequenceo is a fixed-rate postage service in France.",
     "icon": "La Poste.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bFrequenceo\\b"
     ],
@@ -1924,9 +2139,13 @@
       "low",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
-    "scriptSrc": "\\.codeblackbelt\\.com/js/modules/frequently-bought-together/",
+    "scriptSrc": [
+      "\\.codeblackbelt\\.com/js/modules/frequently-bought-together/"
+    ],
     "website": "https://www.codeblackbelt.com"
   },
   "Fresco": {
@@ -1977,7 +2196,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "wchat\\.freshchat\\.com/js/widget\\.js",
+    "scriptSrc": [
+      "wchat\\.freshchat\\.com/js/widget\\.js"
+    ],
     "website": "https://www.freshworks.com/live-chat-software/"
   },
   "Freshop": {
@@ -1997,7 +2218,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "asset(?:cdn)?\\.freshop\\.com/",
+    "scriptSrc": [
+      "asset(?:cdn)?\\.freshop\\.com/"
+    ],
     "website": "https://www.freshop.com"
   },
   "Freshteam": {
@@ -2013,7 +2236,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "assets\\.freshteam\\.com/",
+    "scriptSrc": [
+      "assets\\.freshteam\\.com/"
+    ],
     "website": "https://www.freshworks.com/hrms/"
   },
   "Freshworks CRM": {
@@ -2075,9 +2300,13 @@
       "poa"
     ],
     "saas": true,
-    "scripts": "x-frc-client\",\"js-(\\d+(\\.\\d+)+)\\;version:\\1",
+    "scripts": [
+      "x-frc-client\",\"js-(\\d+(\\.\\d+)+)\\;version:\\1"
+    ],
     "website": "https://friendlycaptcha.com",
-    "xhr": "api.friendlycaptcha.com"
+    "xhr": [
+      "api.friendlycaptcha.com"
+    ]
   },
   "Frizbit": {
     "cats": [
@@ -2096,7 +2325,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.frizbit\\.com/",
+    "scriptSrc": [
+      "cdn\\.frizbit\\.com/"
+    ],
     "website": "https://frizbit.com"
   },
   "Froala Editor": {
@@ -2136,7 +2367,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "//chat-assets\\.frontapp\\.com/",
+    "scriptSrc": [
+      "//chat-assets\\.frontapp\\.com/"
+    ],
     "website": "https://front.com"
   },
   "Front-Commerce": {
@@ -2225,7 +2458,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "frosmo\\.easy\\.js",
+    "scriptSrc": [
+      "frosmo\\.easy\\.js"
+    ],
     "website": "https://frosmo.com"
   },
   "FullCalendar": {
@@ -2234,7 +2469,9 @@
     ],
     "description": "FullCalendar is a full-sized drag and drop JavaScript event calendar.",
     "icon": "FullCalendar.png",
-    "implies": "TypeScript",
+    "implies": [
+      "TypeScript"
+    ],
     "js": {
       "FullCalendar.version": "^([\\d\\.\\-\\w]+)$\\;version:\\1"
     },
@@ -2244,7 +2481,9 @@
       "mid",
       "poa"
     ],
-    "scriptSrc": "/fullcalendar\\.min\\.js",
+    "scriptSrc": [
+      "/fullcalendar\\.min\\.js"
+    ],
     "website": "https://fullcalendar.io"
   },
   "FullContact": {
@@ -2261,7 +2500,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "tags\\.fullcontact\\.com/",
+    "scriptSrc": [
+      "tags\\.fullcontact\\.com/"
+    ],
     "website": "https://www.fullcontact.com"
   },
   "FullStory": {
@@ -2279,7 +2520,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.fullstory\\.com/",
+    "scriptSrc": [
+      "\\.fullstory\\.com/"
+    ],
     "website": "https://www.fullstory.com"
   },
   "FunCaptcha": {
@@ -2289,7 +2532,9 @@
     "description": "FunCaptcha is a type of CAPTCHA, which is a security measure used to protect websites and online services from spam, bots, and other forms of automated abuse.",
     "icon": "fun_captcha.svg",
     "website": "https://www.arkoselabs.com/arkose-matchkey/",
-    "xhr": "api\\.funcaptcha\\.com"
+    "xhr": [
+      "api\\.funcaptcha\\.com"
+    ]
   },
   "Fundiin": {
     "cats": [
@@ -2317,7 +2562,9 @@
     "js": {
       "__googlefc": ""
     },
-    "scriptSrc": "fundingchoicesmessages\\.google\\.com",
+    "scriptSrc": [
+      "fundingchoicesmessages\\.google\\.com"
+    ],
     "website": "https://developers.google.com/funding-choices"
   },
   "Fundraise Up": {
@@ -2333,7 +2580,9 @@
       "payg",
       "recurring"
     ],
-    "scriptSrc": "\\.fundraiseup\\.com/",
+    "scriptSrc": [
+      "\\.fundraiseup\\.com/"
+    ],
     "website": "https://fundraiseup.com"
   },
   "FunnelCockpit": {
@@ -2348,7 +2597,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.funnelcockpit\\.com/",
+    "scriptSrc": [
+      "\\.funnelcockpit\\.com/"
+    ],
     "website": "https://funnelcockpit.com"
   },
   "Funnelish": {
@@ -2394,7 +2645,9 @@
     "pricing": [
       "poa"
     ],
-    "scriptSrc": "\\.furnituredealer\\.net/",
+    "scriptSrc": [
+      "\\.furnituredealer\\.net/"
+    ],
     "website": "https://www.furnituredealer.net"
   },
   "Fusion Ads": {
@@ -2405,7 +2658,9 @@
     "js": {
       "_fusion": ""
     },
-    "scriptSrc": "^[^\\/]*//[ac]dn\\.fusionads\\.net/(?:api/([\\d.]+)/)?\\;version:\\1",
+    "scriptSrc": [
+      "^[^\\/]*//[ac]dn\\.fusionads\\.net/(?:api/([\\d.]+)/)?\\;version:\\1"
+    ],
     "website": "https://fusionads.net"
   },
   "FusionCharts": {
@@ -2431,7 +2686,9 @@
       6
     ],
     "icon": "futureshop.png",
-    "scriptSrc": "future-shop.*\\.js",
+    "scriptSrc": [
+      "future-shop.*\\.js"
+    ],
     "website": "https://www.future-shop.jp"
   },
   "Futurio": {
@@ -2447,8 +2704,12 @@
       "recurring",
       "onetime"
     ],
-    "requires": "WordPress",
-    "scriptSrc": "/wp-content/themes/futurio/.+customscript\\.js(?:\\?ver=([\\d\\.]+))?\\;version:\\1",
+    "requires": [
+      "WordPress"
+    ],
+    "scriptSrc": [
+      "/wp-content/themes/futurio/.+customscript\\.js(?:\\?ver=([\\d\\.]+))?\\;version:\\1"
+    ],
     "website": "https://futuriowp.com"
   },
   "Fynd Platform": {
@@ -2457,7 +2718,9 @@
     ],
     "description": "Fynd Platform is a subscription based software as a service where brands can mange their catalog, send marketing sms/emailers and sell their products.",
     "icon": "Fynd Platform.png",
-    "implies": "Vue.js",
+    "implies": [
+      "Vue.js"
+    ],
     "js": {
       "__fyndAction": ""
     },
@@ -2478,7 +2741,9 @@
     "dom": "link[href*='framework7'], .framework7-root, .framework7-modals",
     "icon": "framework7.png",
     "oss": true,
-    "scriptSrc": "(?:((?:\\d+\\.)+\\d+)\\/(?:js\\/)?)?framework7(?:-((?:\\d+\\.)+\\d+))?(?:\\.custom)?(?:\\.min)?(?:-vue)?_?[\\w\\.]{0,29}\\.js\\;version:\\1\\2",
+    "scriptSrc": [
+      "(?:((?:\\d+\\.)+\\d+)\\/(?:js\\/)?)?framework7(?:-((?:\\d+\\.)+\\d+))?(?:\\.custom)?(?:\\.min)?(?:-vue)?_?[\\w\\.]{0,29}\\.js\\;version:\\1\\2"
+    ],
     "website": "https://framework7.io/"
   },
   "fullPage.js": {
@@ -2487,12 +2752,16 @@
     ],
     "description": "fullPage.js a jQuery and vanilla JavaScript plugin for fullscreen scrolling websites.",
     "icon": "fullPage.js.png",
-    "implies": "jQuery",
+    "implies": [
+      "jQuery"
+    ],
     "js": {
       "fullpage_api.version": "([\\d\\.]+)\\;version:\\1"
     },
     "oss": true,
-    "scriptSrc": "/fullPage\\.js(?:/([\\d\\.]+)/)?\\;version:\\1",
+    "scriptSrc": [
+      "/fullPage\\.js(?:/([\\d\\.]+)/)?\\;version:\\1"
+    ],
     "website": "https://github.com/alvarotrigo/fullpage.js"
   }
 }

@@ -5,7 +5,9 @@
     ],
     "description": "NACEX is an express courier company in Spain, Andorra and Portugal.",
     "icon": "NACEX.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bNACEX\\b"
     ],
@@ -21,7 +23,9 @@
       "powered": "jet-neo"
     },
     "icon": "Plataforma NEO.svg",
-    "url": "\\.plataformaneo\\.com",
+    "url": [
+      "\\.plataformaneo\\.com"
+    ],
     "website": "https://www.jetecommerce.com.br"
   },
   "NSW Design System": {
@@ -50,14 +54,20 @@
       25
     ],
     "description": "NVD3 is a JavaScript visualisation library that is a free open-source tool.",
-    "html": "<link[^>]* href=[^>]+nv\\.d3(?:\\.min)?\\.css",
+    "html": [
+      "<link[^>]* href=[^>]+nv\\.d3(?:\\.min)?\\.css"
+    ],
     "icon": "NVD3.png",
-    "implies": "D3",
+    "implies": [
+      "D3"
+    ],
     "js": {
       "nv.addGraph": "",
       "nv.version": "^(.+)$\\;confidence:0\\;version:\\1"
     },
-    "scriptSrc": "nv\\.d3(?:\\.min)?\\.js",
+    "scriptSrc": [
+      "nv\\.d3(?:\\.min)?\\.js"
+    ],
     "website": "https://nvd3.org"
   },
   "Nacelle": {
@@ -71,7 +81,9 @@
       }
     },
     "icon": "Nacelle.svg",
-    "implies": "GraphQL",
+    "implies": [
+      "GraphQL"
+    ],
     "js": {
       "__NEXT_DATA__.props.pageProps.page.nacelleEntryId": "",
       "nacelleEventData": ""
@@ -82,7 +94,9 @@
     ],
     "saas": true,
     "website": "https://nacelle.com",
-    "xhr": "storefront\\.api\\.nacelle\\.com"
+    "xhr": [
+      "storefront\\.api\\.nacelle\\.com"
+    ]
   },
   "NagaCommerce": {
     "cats": [
@@ -113,7 +127,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.nagich\\.co(?:m|\\.il)/core/([\\d.]+)/accessibility\\.js\\;version:\\1",
+    "scriptSrc": [
+      "\\.nagich\\.co(?:m|\\.il)/core/([\\d.]+)/accessibility\\.js\\;version:\\1"
+    ],
     "website": "https://www.nagich.co.il"
   },
   "NagishLi": {
@@ -167,7 +183,9 @@
       "freemium"
     ],
     "saas": true,
-    "scriptSrc": "app\\.najva\\.com/",
+    "scriptSrc": [
+      "app\\.najva\\.com/"
+    ],
     "website": "https://www.najva.com"
   },
   "Narrativ": {
@@ -176,7 +194,9 @@
     ],
     "description": "Narrativ is a subscription technology platform for brands to acquire new customers through trusted creators.",
     "icon": "Narrativ.png",
-    "scriptSrc": "static\\.narrativ\\.com/",
+    "scriptSrc": [
+      "static\\.narrativ\\.com/"
+    ],
     "website": "https://narrativ.com/"
   },
   "Narvar": {
@@ -243,7 +263,9 @@
       10
     ],
     "icon": "Navegg.png",
-    "scriptSrc": "tag\\.navdmp\\.com",
+    "scriptSrc": [
+      "tag\\.navdmp\\.com"
+    ],
     "website": "https://www.navegg.com/"
   },
   "Naver Analytics": {
@@ -260,7 +282,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "wcs\\.naver\\.net/wcslog\\.js",
+    "scriptSrc": [
+      "wcs\\.naver\\.net/wcslog\\.js"
+    ],
     "website": "https://analytics.naver.com"
   },
   "Naver Maps": {
@@ -277,7 +301,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "openapi\\.map\\.naver\\.com/openapi/v([\\d\\.]+)\\;version:\\1",
+    "scriptSrc": [
+      "openapi\\.map\\.naver\\.com/openapi/v([\\d\\.]+)\\;version:\\1"
+    ],
     "website": "https://www.ncloud.com/product/applicationService/maps"
   },
   "Naver RUA": {
@@ -291,7 +317,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "rua-api\\.ncloud\\.com/",
+    "scriptSrc": [
+      "rua-api\\.ncloud\\.com/"
+    ],
     "website": "https://analytics.naver.com"
   },
   "Navidium Shipping Protection": {
@@ -308,7 +336,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "^.*/navidium-extension-checker\\.js$",
+    "scriptSrc": [
+      "^.*/navidium-extension-checker\\.js$"
+    ],
     "website": "https://navidiumapp.com"
   },
   "Neat A/B testing": {
@@ -318,13 +348,17 @@
     ],
     "description": "Neat A/B Testing is a Shopify app built by NeatShift.",
     "icon": "Neat.png",
-    "implies": "Shopify",
+    "implies": [
+      "Shopify"
+    ],
     "pricing": [
       "mid",
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.neatab\\.com/",
+    "scriptSrc": [
+      "cdn\\.neatab\\.com/"
+    ],
     "website": "https://neatab.com"
   },
   "Neon CRM": {
@@ -351,25 +385,35 @@
     "cats": [
       1
     ],
-    "excludes": "TYPO3 CMS",
+    "excludes": [
+      "TYPO3 CMS"
+    ],
     "headers": {
       "X-Flow-Powered": "Neos/?(.+)?$\\;version:\\1"
     },
     "icon": "Neos.svg",
-    "implies": "Neos Flow",
-    "url": "/neos/",
+    "implies": [
+      "Neos Flow"
+    ],
+    "url": [
+      "/neos/"
+    ],
     "website": "https://neos.io"
   },
   "Neos Flow": {
     "cats": [
       18
     ],
-    "excludes": "TYPO3 CMS",
+    "excludes": [
+      "TYPO3 CMS"
+    ],
     "headers": {
       "X-Flow-Powered": "Flow/?(.+)?$\\;version:\\1"
     },
     "icon": "Neos.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "website": "https://flow.neos.io"
   },
   "Nepso": {
@@ -419,7 +463,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.netcoresmartech\\.com/",
+    "scriptSrc": [
+      "\\.netcoresmartech\\.com/"
+    ],
     "website": "https://netcorecloud.com"
   },
   "Netdeal": {
@@ -456,9 +502,13 @@
       "recurring",
       "poa"
     ],
-    "url": "^https?://[^/]+\\.netlify\\.(?:com|app)/",
+    "url": [
+      "^https?://[^/]+\\.netlify\\.(?:com|app)/"
+    ],
     "website": "https://www.netlify.com/",
-    "xhr": "cdn\\.netlify\\.com"
+    "xhr": [
+      "cdn\\.netlify\\.com"
+    ]
   },
   "Netlify Forms": {
     "cats": [
@@ -467,7 +517,9 @@
     "description": "Netlify Forms is a serverless form handling solution for static websites.",
     "dom": "form[data-netlify]",
     "icon": "Netlify.svg",
-    "implies": "Netlify",
+    "implies": [
+      "Netlify"
+    ],
     "website": "https://www.netlify.com/products/forms"
   },
   "Neto": {
@@ -479,7 +531,9 @@
     "js": {
       "NETO": ""
     },
-    "scriptSrc": "jquery\\.neto.*\\.js",
+    "scriptSrc": [
+      "jquery\\.neto.*\\.js"
+    ],
     "website": "https://www.neto.com.au"
   },
   "Nette Framework": {
@@ -498,7 +552,9 @@
       "<input[^>]+id=\"frm-"
     ],
     "icon": "Nette Framework.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "Nette": "",
       "Nette.version": "^(.+)$\\;version:\\1"
@@ -516,7 +572,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.networkforgood\\.com/",
+    "scriptSrc": [
+      "\\.networkforgood\\.com/"
+    ],
     "website": "https://www.networkforgood.com"
   },
   "Neve": {
@@ -535,8 +593,12 @@
       }
     },
     "icon": "ThemeIsle.png",
-    "requires": "WordPress",
-    "scriptSrc": "themes/neve\\S*\\.js(?:\\?ver=([0-9.]+))?\\;version:\\1",
+    "requires": [
+      "WordPress"
+    ],
+    "scriptSrc": [
+      "themes/neve\\S*\\.js(?:\\?ver=([0-9.]+))?\\;version:\\1"
+    ],
     "website": "https://themeisle.com/themes/neve/"
   },
   "New Relic": {
@@ -573,7 +635,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.api\\.highstreetapp\\.com/",
+    "scriptSrc": [
+      "\\.api\\.highstreetapp\\.com/"
+    ],
     "website": "https://www.newstore.com"
   },
   "Newspack": {
@@ -595,7 +659,9 @@
       "host-header": "Newspack"
     },
     "icon": "NewspackLogo.png",
-    "implies": "Newspack",
+    "implies": [
+      "Newspack"
+    ],
     "pricing": [
       "mid",
       "recurring"
@@ -620,7 +686,9 @@
     ],
     "description": "Nexive is a postal operator in Italy.",
     "icon": "Nexive.svg",
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "text": [
       "\\bNexive\\b"
     ],
@@ -640,7 +708,9 @@
     "pricing": [
       "poa"
     ],
-    "scriptSrc": "\\.nextdirect\\.com/",
+    "scriptSrc": [
+      "\\.nextdirect\\.com/"
+    ],
     "website": "https://www.next.co.uk"
   },
   "Next.js": {
@@ -678,7 +748,9 @@
     "description": "NextAuth.js is a complete open-source authentication solution for Next.js applications.",
     "icon": "Next-Auth.png",
     "oss": true,
-    "requires": "Next.js",
+    "requires": [
+      "Next.js"
+    ],
     "website": "https://next-auth.js.org"
   },
   "NextGEN Gallery": {
@@ -695,15 +767,21 @@
     "js": {
       "nextgen_lightbox_settings.static_path": "/wp-content/plugins/nextgen-gallery/"
     },
-    "requires": "WordPress",
-    "scriptSrc": "/nextgen-gallery/js/",
+    "requires": [
+      "WordPress"
+    ],
+    "scriptSrc": [
+      "/nextgen-gallery/js/"
+    ],
     "website": "https://www.imagely.com/wordpress-gallery-plugin"
   },
   "NextUI": {
     "cats": [
       66
     ],
-    "css": "--nextui-(?:colors-accents1|colors-text|space-0|fonts-sans|fonts-mono)",
+    "css": [
+      "--nextui-(?:colors-accents1|colors-text|space-0|fonts-sans|fonts-mono)"
+    ],
     "description": "NextUI allows you to make beautiful, modern, and fast websites/applications regardless of your design experience, created with React.js and Stitches, based on React Aria and inspired by Vuesax.",
     "icon": "NextUI.svg",
     "implies": [
@@ -725,7 +803,9 @@
     "cpe": "cpe:2.3:a:nextcloud:nextcloud:*:*:*:*:*:*:*:*",
     "description": "Nextcloud is a suite of client-server software for creating and using file hosting services.",
     "icon": "Nextcloud.svg",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "oc_config.version": "^([\\.\\d]+)$\\;version:\\1\\;confidence:0"
     },
@@ -742,7 +822,9 @@
     ],
     "description": "Nextdoor Ads is an easy-to-use expansion of Nextdoor’s proprietary self-serve campaign management platform, designed to help small and medium-sized businesses (SMBs) advertise on Nextdoor.",
     "icon": "Nextdoor Ads.png",
-    "scriptSrc": "ads\\.nextdoor\\.com/",
+    "scriptSrc": [
+      "ads\\.nextdoor\\.com/"
+    ],
     "website": "https://help.nextdoor.com/s/article/About-Neighborhood-Ad-Center-NAC-Conversion-Pixel"
   },
   "Nextra": {
@@ -761,7 +843,9 @@
       "__nextra_pageContext__": ""
     },
     "oss": true,
-    "requires": "Next.js",
+    "requires": [
+      "Next.js"
+    ],
     "website": "https://nextra.site/"
   },
   "Nextsale": {
@@ -780,7 +864,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "(?:api|sdk)\\.nextsale\\.io/",
+    "scriptSrc": [
+      "(?:api|sdk)\\.nextsale\\.io/"
+    ],
     "website": "https://nextsale.io"
   },
   "NexusPHP": {
@@ -835,7 +921,9 @@
       "x-powered-by": "Niagahoster"
     },
     "icon": "Niagahoster.svg",
-    "implies": "Niagahoster",
+    "implies": [
+      "Niagahoster"
+    ],
     "pricing": [
       "low",
       "recurring"
@@ -895,8 +983,12 @@
       "low",
       "recurring"
     ],
-    "requires": "WordPress",
-    "scriptSrc": "/wp-content/plugins/ninja-forms/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
+    "requires": [
+      "WordPress"
+    ],
+    "scriptSrc": [
+      "/wp-content/plugins/ninja-forms/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+    ],
     "website": "https://ninjaforms.com"
   },
   "NitroPack": {
@@ -920,9 +1012,13 @@
     "pricing": [
       "poa"
     ],
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "saas": true,
-    "scriptSrc": "services\\.nofraud\\.com/",
+    "scriptSrc": [
+      "services\\.nofraud\\.com/"
+    ],
     "website": "https://www.nofraud.com"
   },
   "Noddus": {
@@ -936,7 +1032,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "noddus\\.com/",
+    "scriptSrc": [
+      "noddus\\.com/"
+    ],
     "website": "https://www.enterprise.noddus.com"
   },
   "Node.js": {
@@ -958,13 +1056,17 @@
       "X-Powered-By": "^NodeBB$"
     },
     "icon": "NodeBB.svg",
-    "implies": "Node.js",
+    "implies": [
+      "Node.js"
+    ],
     "pricing": [
       "mid",
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "/nodebb\\.min\\.js\\?",
+    "scriptSrc": [
+      "/nodebb\\.min\\.js\\?"
+    ],
     "website": "https://nodebb.org"
   },
   "NodePing": {
@@ -996,8 +1098,12 @@
       "recurring",
       "poa"
     ],
-    "requiresCategory": 6,
-    "scriptSrc": "\\.nogin\\.com/",
+    "requiresCategory": [
+      6
+    ],
+    "scriptSrc": [
+      "\\.nogin\\.com/"
+    ],
     "website": "https://www.nogin.com"
   },
   "Noibu": {
@@ -1021,7 +1127,9 @@
     ],
     "description": "Norton Shopping Guarantee offering a third-party shopping guarantee to customers provides added protection and validation that you are safe to buy from.",
     "icon": "Norton Shopping Guarantee.svg",
-    "implies": "Cart Functionality",
+    "implies": [
+      "Cart Functionality"
+    ],
     "js": {
       "DO_NORTON_SHOPPING": ""
     },
@@ -1031,7 +1139,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "nsg\\.symantec\\.com/",
+    "scriptSrc": [
+      "nsg\\.symantec\\.com/"
+    ],
     "website": "https://norton.buysafe.com"
   },
   "Nosto": {
@@ -1052,7 +1162,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "connect\\.nosto\\.\\w+/",
+    "scriptSrc": [
+      "connect\\.nosto\\.\\w+/"
+    ],
     "website": "https://www.nosto.com"
   },
   "Nosto Visual UGC": {
@@ -1070,7 +1182,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.stackla\\.com/",
+    "scriptSrc": [
+      "\\.stackla\\.com/"
+    ],
     "website": "https://www.nosto.com/products/visual-ugc/"
   },
   "Notion": {
@@ -1104,7 +1218,9 @@
       "low",
       "recurring"
     ],
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "saas": true,
     "scriptSrc": [
       "\\.nudgify\\.com/",
@@ -1142,7 +1258,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.nuqlium\\.com/api",
+    "scriptSrc": [
+      "\\.nuqlium\\.com/api"
+    ],
     "website": "https://www.nuqlium.com"
   },
   "Nuvemshop": {
@@ -1205,10 +1323,14 @@
     "cookies": {
       "Nop.customer": ""
     },
-    "description": "nopCommerce is an open-source ecommerce solution based on Microsoft's ASP​.NET Core framework and MS SQL Server 2012 (or higher) backend database.",
-    "html": "(?:<!--Powered by nopCommerce|Powered by: <a[^>]+nopcommerce)",
+    "description": "nopCommerce is an open-source ecommerce solution based on Microsoft's ASP.NET Core framework and MS SQL Server 2012 (or higher) backend database.",
+    "html": [
+      "(?:<!--Powered by nopCommerce|Powered by: <a[^>]+nopcommerce)"
+    ],
     "icon": "nopCommerce.png",
-    "implies": "Microsoft ASP.NET",
+    "implies": [
+      "Microsoft ASP.NET"
+    ],
     "meta": {
       "generator": "^nopCommerce$"
     },
@@ -1222,7 +1344,9 @@
     "description": "nopStation is a one stop ecommerce solution with custom integrations and custom built plugins based on custom tailored requirements on top of nopCommerce.",
     "dom": "a[href*='.nop-station.com/']",
     "icon": "nopStation.png",
-    "implies": "Microsoft ASP.NET",
+    "implies": [
+      "Microsoft ASP.NET"
+    ],
     "requires": [
       "nopCommerce"
     ],

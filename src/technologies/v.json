@@ -13,7 +13,9 @@
       "freemium"
     ],
     "saas": true,
-    "scriptSrc": "\\.vaptcha\\.com/v([\\d\\.]+)\\.js\\;version:\\1",
+    "scriptSrc": [
+      "\\.vaptcha\\.com/v([\\d\\.]+)\\.js\\;version:\\1"
+    ],
     "website": "https://en.vaptcha.com"
   },
   "VDX.tv": {
@@ -53,7 +55,9 @@
     "description": "VK is a Russian online social media and social networking service.",
     "dom": "img[src*='vk.com/rtrg?p=VK-RTRG-']",
     "icon": "vk.svg",
-    "scriptSrc": "vk\\.com/js/api/openapi\\.js",
+    "scriptSrc": [
+      "vk\\.com/js/api/openapi\\.js"
+    ],
     "website": "https://vk.com/"
   },
   "VKUI": {
@@ -70,10 +74,16 @@
     "cats": [
       6
     ],
-    "html": "<a[^>]+>Powered By VP-ASP Shopping Cart</a>",
+    "html": [
+      "<a[^>]+>Powered By VP-ASP Shopping Cart</a>"
+    ],
     "icon": "VP-ASP.png",
-    "implies": "Microsoft ASP.NET",
-    "scriptSrc": "vs350\\.js",
+    "implies": [
+      "Microsoft ASP.NET"
+    ],
+    "scriptSrc": [
+      "vs350\\.js"
+    ],
     "website": "https://www.vpasp.com"
   },
   "VTEX": {
@@ -140,7 +150,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "cdn\\.pushcrew\\.\\w+",
+    "scriptSrc": [
+      "cdn\\.pushcrew\\.\\w+"
+    ],
     "website": "https://vwo.com/engage"
   },
   "Vaadin": {
@@ -149,11 +161,15 @@
     ],
     "description": "Vaadin is an open-source framework for building user interfaces and single-page applications using Java and TypeScript.",
     "icon": "Vaadin.svg",
-    "implies": "Java",
+    "implies": [
+      "Java"
+    ],
     "js": {
       "vaadin": ""
     },
-    "scriptSrc": "vaadinBootstrap\\.js(?:\\?v=([\\d.]+))?\\;version:\\1",
+    "scriptSrc": [
+      "vaadinBootstrap\\.js(?:\\?v=([\\d.]+))?\\;version:\\1"
+    ],
     "website": "https://vaadin.com"
   },
   "ValueCommerce": {
@@ -174,7 +190,9 @@
       }
     },
     "icon": "ValueCommerce.png",
-    "scriptSrc": "\\.valuecommerce\\.com",
+    "scriptSrc": [
+      "\\.valuecommerce\\.com"
+    ],
     "website": "https://www.valuecommerce.co.jp"
   },
   "Vanco Payment Solutions": {
@@ -191,7 +209,9 @@
       "low"
     ],
     "saas": true,
-    "scriptSrc": "\\.eservicepayments\\.com/",
+    "scriptSrc": [
+      "\\.eservicepayments\\.com/"
+    ],
     "website": "https://www.vancopayments.com"
   },
   "Vanilla": {
@@ -202,9 +222,13 @@
     "headers": {
       "X-Powered-By": "Vanilla"
     },
-    "html": "<body id=\"(?:DiscussionsPage|vanilla)",
+    "html": [
+      "<body id=\"(?:DiscussionsPage|vanilla)"
+    ],
     "icon": "Vanilla.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "website": "https://vanillaforums.org"
   },
   "Vant": {
@@ -220,12 +244,16 @@
       }
     },
     "icon": "Vant.png",
-    "implies": "TypeScript",
+    "implies": [
+      "TypeScript"
+    ],
     "js": {
       "vant.version": "([\\d\\.]+)\\;version:\\1"
     },
     "oss": true,
-    "requires": "Vue.js",
+    "requires": [
+      "Vue.js"
+    ],
     "website": "https://github.com/youzan/vant"
   },
   "Varbase": {
@@ -235,7 +263,9 @@
     "cpe": "cpe:2.3:a:vardot:varbase:*:*:*:*:*:*:*:*",
     "dom": "meta[content='Varbase'],div[class*='varbase_'],div[class*='_varbase'],div[class*='varbase-'],div[class*='block-varbase'],div[class*='blockvarbase']",
     "icon": "varbase.png",
-    "implies": "Drupal",
+    "implies": [
+      "Drupal"
+    ],
     "js": {
       "drupalSettings.ajaxPageState.libraries": ".+varbase_.+"
     },
@@ -359,12 +389,16 @@
     "cats": [
       36
     ],
-    "html": "<img [^>]*src=\"[^\"]+tracking\\.veoxa\\.com",
+    "html": [
+      "<img [^>]*src=\"[^\"]+tracking\\.veoxa\\.com"
+    ],
     "icon": "Veoxa.png",
     "js": {
       "VuVeoxaContent": ""
     },
-    "scriptSrc": "tracking\\.veoxa\\.com",
+    "scriptSrc": [
+      "tracking\\.veoxa\\.com"
+    ],
     "website": "https://veoxa.com"
   },
   "Vercel": {
@@ -425,7 +459,9 @@
       "payg"
     ],
     "saas": true,
-    "scripts": "2checkout\\.com",
+    "scripts": [
+      "2checkout\\.com"
+    ],
     "website": "https://www.2checkout.com"
   },
   "VerifyPass": {
@@ -515,7 +551,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "js\\.verygoodvault\\.com/",
+    "scriptSrc": [
+      "js\\.verygoodvault\\.com/"
+    ],
     "website": "https://www.verygoodsecurity.com"
   },
   "Vev": {
@@ -534,7 +572,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.vev\\.design/",
+    "scriptSrc": [
+      "\\.vev\\.design/"
+    ],
     "website": "https://www.vev.design"
   },
   "ViaBill": {
@@ -551,7 +591,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "\\.viabill\\.com/",
+    "scriptSrc": [
+      "\\.viabill\\.com/"
+    ],
     "website": "https://viabill.com"
   },
   "Viafoura": {
@@ -586,7 +628,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.vidazoo\\.com",
+    "scriptSrc": [
+      "\\.vidazoo\\.com"
+    ],
     "website": "https://www.vidazoo.com"
   },
   "Video Greet": {
@@ -601,7 +645,9 @@
     "pricing": [
       "freemium"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "website": "https://apps.shopify.com/videogreet-gift-messages"
   },
   "VideoJS": {
@@ -633,9 +679,13 @@
     "cookies": {
       "_gphw_mode": ""
     },
-    "html": "<link[^>]* href=[^>]+(?:\\.vigbo\\.com|\\.gophotoweb\\.com)",
+    "html": [
+      "<link[^>]* href=[^>]+(?:\\.vigbo\\.com|\\.gophotoweb\\.com)"
+    ],
     "icon": "vigbo.png",
-    "scriptSrc": "(?:\\.vigbo\\.com|\\.gophotoweb\\.com)",
+    "scriptSrc": [
+      "(?:\\.vigbo\\.com|\\.gophotoweb\\.com)"
+    ],
     "website": "https://vigbo.com"
   },
   "Vigil": {
@@ -660,7 +710,9 @@
     "cats": [
       1
     ],
-    "html": "<[^>]+=\"vgn-?ext",
+    "html": [
+      "<[^>]+=\"vgn-?ext"
+    ],
     "icon": "Vignette.png",
     "website": "https://www.vignette.com"
   },
@@ -684,7 +736,9 @@
     ],
     "description": "Vimeo OTT allows brands and creators to launch their own white-label video subscription channels, where subscribers can access video content for free, as a rental, or for purchase.",
     "icon": "Vimeo.svg",
-    "implies": "Vimeo",
+    "implies": [
+      "Vimeo"
+    ],
     "js": {
       "VHX.config": "",
       "_vhx": ""
@@ -695,7 +749,9 @@
     ],
     "saas": true,
     "website": "https://vimeo.com/ott",
-    "xhr": "api\\.vhx\\.tv"
+    "xhr": [
+      "api\\.vhx\\.tv"
+    ]
   },
   "Viqeo": {
     "cats": [
@@ -726,7 +782,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "app\\.viral-loops\\.com/",
+    "scriptSrc": [
+      "app\\.viral-loops\\.com/"
+    ],
     "website": "https://viral-loops.com"
   },
   "Virgool": {
@@ -737,7 +795,9 @@
       "X-Powered-By": "^Virgool$"
     },
     "icon": "Virgool.svg",
-    "url": "^https?://(?:www\\.)?virgool\\.io",
+    "url": [
+      "^https?://(?:www\\.)?virgool\\.io"
+    ],
     "website": "https://virgool.io"
   },
   "Virtooal": {
@@ -751,9 +811,13 @@
       "low",
       "recurring"
     ],
-    "requiresCategory": 6,
+    "requiresCategory": [
+      6
+    ],
     "saas": true,
-    "scriptSrc": "\\.virtooal\\.com/",
+    "scriptSrc": [
+      "\\.virtooal\\.com/"
+    ],
     "website": "https://try.virtooal.com"
   },
   "Virtuagym": {
@@ -781,7 +845,9 @@
     "description": "Virtual Chat is a live-chat service for web sites.",
     "icon": "Virtual Chat.png",
     "saas": true,
-    "scriptSrc": "virtual-chat\\.co\\.il/",
+    "scriptSrc": [
+      "virtual-chat\\.co\\.il/"
+    ],
     "website": "https://www.virtual-chat.co.il"
   },
   "VirtualSpirits": {
@@ -807,9 +873,13 @@
       6
     ],
     "cpe": "cpe:2.3:a:virtuemart:virtuemart:*:*:*:*:*:joomla\\!:*:*",
-    "html": "<div id=\"vmMainPage",
+    "html": [
+      "<div id=\"vmMainPage"
+    ],
     "icon": "VirtueMart.png",
-    "implies": "Joomla",
+    "implies": [
+      "Joomla"
+    ],
     "website": "https://virtuemart.net"
   },
   "Virtuoso": {
@@ -823,7 +893,9 @@
       "Copyright": "^Copyright &copy; \\d{4} OpenLink Software",
       "Keywords": "^OpenLink Virtuoso Sparql"
     },
-    "url": "/sparql",
+    "url": [
+      "/sparql"
+    ],
     "website": "https://virtuoso.openlinksw.com/"
   },
   "Virtuous": {
@@ -836,7 +908,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.virtuoussoftware\\.com/",
+    "scriptSrc": [
+      "\\.virtuoussoftware\\.com/"
+    ],
     "website": "https://virtuous.org"
   },
   "Virtusize": {
@@ -849,7 +923,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.virtusize\\.jp/",
+    "scriptSrc": [
+      "\\.virtusize\\.jp/"
+    ],
     "website": "https://www.virtusize.com"
   },
   "Visa": {
@@ -871,7 +947,9 @@
     ],
     "description": "Visa facilitates electronic funds transfers throughout the world, most commonly through Visa-branded credit cards, debit cards and prepaid cards.",
     "icon": "Visa.svg",
-    "scriptSrc": "secure\\.checkout\\.visa\\.com",
+    "scriptSrc": [
+      "secure\\.checkout\\.visa\\.com"
+    ],
     "website": "https://checkout.visa.com"
   },
   "Visely": {
@@ -890,7 +968,9 @@
       "mid",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
     "website": "https://visely.io"
   },
@@ -926,7 +1006,9 @@
     "pricing": [
       "onetime"
     ],
-    "requires": "WordPress",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://visualportfolio.co"
   },
   "Visual Quiz Builder": {
@@ -939,9 +1021,13 @@
       "low",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
-    "scriptSrc": "//whai-cdn\\.nyc\\d\\.cdn\\.digitaloceanspaces\\.com/",
+    "scriptSrc": [
+      "//whai-cdn\\.nyc\\d\\.cdn\\.digitaloceanspaces\\.com/"
+    ],
     "website": "https://apps.shopify.com/product-recommendation-quiz"
   },
   "Visualsoft": {
@@ -978,7 +1064,9 @@
     },
     "icon": "Visx.svg",
     "oss": true,
-    "requires": "React",
+    "requires": [
+      "React"
+    ],
     "website": "https://airbnb.io/visx/"
   },
   "Vitals": {
@@ -998,9 +1086,13 @@
       "low",
       "recurring"
     ],
-    "requires": "Shopify",
+    "requires": [
+      "Shopify"
+    ],
     "saas": true,
-    "scriptSrc": "//appsolve\\.io/",
+    "scriptSrc": [
+      "//appsolve\\.io/"
+    ],
     "website": "https://vitals.co"
   },
   "Vite": {
@@ -1049,7 +1141,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.vitrin\\.me/",
+    "scriptSrc": [
+      "\\.vitrin\\.me/"
+    ],
     "website": "https://vitrin.me"
   },
   "Vizury": {
@@ -1066,7 +1160,9 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "\\.vizury\\.com",
+    "scriptSrc": [
+      "\\.vizury\\.com"
+    ],
     "website": "https://www.vizury.com"
   },
   "Vnda": {
@@ -1125,7 +1221,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "/volusion\\.js(?:\\?([\\d.]*))?\\;version:\\1",
+    "scriptSrc": [
+      "/volusion\\.js(?:\\?([\\d.]*))?\\;version:\\1"
+    ],
     "website": "https://www.volusion.com"
   },
   "Vonage Video API": {
@@ -1139,7 +1237,9 @@
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "\\.opentok\\.com/",
+    "scriptSrc": [
+      "\\.opentok\\.com/"
+    ],
     "website": "https://www.vonage.com/communications-apis/video/"
   },
   "Voog.com Website Builder": {
@@ -1147,9 +1247,13 @@
       1,
       6
     ],
-    "html": "<script [^>]*src=\"[^\"]*voog\\.com/tracker\\.js",
+    "html": [
+      "<script [^>]*src=\"[^\"]*voog\\.com/tracker\\.js"
+    ],
     "icon": "Voog.png",
-    "scriptSrc": "voog\\.com/tracker\\.js",
+    "scriptSrc": [
+      "voog\\.com/tracker\\.js"
+    ],
     "website": "https://www.voog.com/"
   },
   "Voracio": {
@@ -1211,7 +1315,9 @@
     ],
     "description": "Vue Storefront is a frontend platform for headless ecommerce.",
     "icon": "vue-storefront.svg",
-    "implies": "Vue.js",
+    "implies": [
+      "Vue.js"
+    ],
     "meta": {
       "generator": "^Vue Storefront ([0-9.]+)?$\\;version:\\1"
     },
@@ -1241,10 +1347,14 @@
     "cats": [
       12
     ],
-    "css": "\\.vue-notification-group",
+    "css": [
+      "\\.vue-notification-group"
+    ],
     "description": "Vue.js is an open-source model–view–viewmodel JavaScript framework for building user interfaces and single-page applications.",
     "dom": ".vue-app",
-    "html": "<[^>]+\\sdata-v(?:ue)?-",
+    "html": [
+      "<[^>]+\\sdata-v(?:ue)?-"
+    ],
     "icon": "vue.svg",
     "js": {
       "Vue": "",
@@ -1281,7 +1391,9 @@
     ],
     "description": "VuePress is a static site generator with a Vue-powered theming system, and a default theme for writing technical documentation.",
     "icon": "VuePress.svg",
-    "implies": "Vue.js",
+    "implies": [
+      "Vue.js"
+    ],
     "js": {
       "__VUEPRESS__.version": "([\\d\\.]+)\\;version:\\1"
     },
@@ -1295,11 +1407,15 @@
     "cats": [
       66
     ],
-    "css": "\\.v-application \\.d-block",
+    "css": [
+      "\\.v-application \\.d-block"
+    ],
     "description": "Vuetify is a reusable semantic component framework for Vue.js that aims to provide clean, semantic and reusable components.",
     "dom": "style#vuetify-theme-stylesheet",
     "icon": "Vuetify.svg",
-    "implies": "Vue.js",
+    "implies": [
+      "Vue.js"
+    ],
     "oss": true,
     "website": "https://vuetifyjs.com"
   },
@@ -1309,7 +1425,9 @@
     ],
     "description": "Vuex is a state management pattern + library for Vue.js applications.",
     "icon": "vue.svg",
-    "implies": "Vue.js",
+    "implies": [
+      "Vue.js"
+    ],
     "js": {
       "Vuex.version": "(.*)\\;version:\\1"
     },
@@ -1349,7 +1467,9 @@
       "recurring"
     ],
     "saas": true,
-    "scriptSrc": "\\.v4guard\\.io/checkpoint",
+    "scriptSrc": [
+      "\\.v4guard\\.io/checkpoint"
+    ],
     "website": "https://v4guard.io"
   },
   "vBulletin": {
@@ -1363,9 +1483,13 @@
     },
     "cpe": "cpe:2.3:a:vbulletin:vbulletin:*:*:*:*:*:*:*:*",
     "description": "vBulletin is tool that is used to create and manage online forums or discussion boards. It is written in PHP and uses a MySQL database server.",
-    "html": "<div id=\"copyright\">Powered by vBulletin",
+    "html": [
+      "<div id=\"copyright\">Powered by vBulletin"
+    ],
     "icon": "vBulletin.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "js": {
       "vBulletin": ""
     },
@@ -1401,9 +1525,13 @@
     "cats": [
       6
     ],
-    "excludes": "PrestaShop",
+    "excludes": [
+      "PrestaShop"
+    ],
     "icon": "vibecommerce.png",
-    "implies": "PHP",
+    "implies": [
+      "PHP"
+    ],
     "meta": {
       "designer": "vibecommerce",
       "generator": "vibecommerce"
@@ -1418,7 +1546,9 @@
     "dom": "div[class*='vxe-table']",
     "icon": "vxe-table.png",
     "oss": true,
-    "requires": "Vue.js",
+    "requires": [
+      "Vue.js"
+    ],
     "website": "https://vxetable.cn"
   }
 }
