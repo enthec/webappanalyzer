@@ -325,6 +325,7 @@
       "layui.v": "([\\d\\.]+)\\;version:\\1"
     },
     "oss": true,
+    "cpe": "cpe:2.3:a:layui:layui:*:*:*:*:*:*:*:*",
     "website": "https://layui.gitee.io"
   },
   "Lazada": {

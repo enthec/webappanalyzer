@@ -1003,6 +1003,7 @@
     "meta": {
       "generator": "^Cecil(?: ([0-9.]+))?$\\;version:\\1"
     },
+    "cpe": "cpe:2.3:a:cecil:cecil:*:*:*:*:*:*:*:*",
     "website": "https://cecil.app"
   },
   "Celeritas": {
@@ -1415,6 +1416,7 @@
       "low",
       "recurring"
     ],
+    "cpe": "cpe:2.3:a:chatwoot:chatwoot:*:*:*:*:*:*:*:*",
     "saas": true,
     "website": "https://www.chatwoot.com"
   },
@@ -1509,8 +1511,9 @@
     "headers": {
       "Server": "CherryPy(?:/([\\d.]+))?\\;version:\\1"
     },
+    "cpe": "cpe:2.3:a:cherrypy:cherrypy:*:*:*:*:*:*:*:*",
     "icon": "CherryPy.svg",
-    "website": "https://cherrypy.org/"
+    "website": "https://cherrypy.dev/"
   },
   "Chevereto": {
     "cats": [
@@ -1532,6 +1535,7 @@
       "low",
       "onetime"
     ],
+    "cpe": "cpe:2.3:a:chevereto:chevereto:*:*:*:*:*:*:*:*",
     "saas": true,
     "scriptSrc": [
       "/chevereto\\.js"
@@ -1833,6 +1837,7 @@
     "dom": "a[href*='/civicrm/contribute/transact'], link[href*='/com_civicrm/civicrm/']",
     "icon": "CiviCRM.png",
     "oss": true,
+    "cpe": "cpe:2.3:a:civicrm:civicrm:*:*:*:*:*:*:*:*",
     "website": "https://civicrm.org"
   },
   "CiviCRM plugins": {
@@ -2798,6 +2803,7 @@
       "CodeMirror": "",
       "CodeMirror.version": "^(.+)$\\;version:\\1"
     },
+    "cpe": "cpe:2.3:a:codemirror:codemirror:*:*:*:*:*:*:*:*",
     "website": "https://codemirror.net"
   },
   "CodeSandbox": {
@@ -4485,6 +4491,7 @@
     "headers": {
       "X-Powered-By": "^CppCMS/([\\d.]+)$\\;version:\\1"
     },
+    "cpe": "cpe:2.3:a:cppcms:cppcms:*:*:*:*:*:*:*:*",
     "icon": "CppCMS.png",
     "website": "https://cppcms.com"
   },

@@ -624,6 +624,7 @@
       "freemium",
       "mid"
     ],
+    "cpe": "cpe:2.3:a:10up:elasticpress:*:*:*:*:*:wordpress:*:*",
     "saas": true,
     "website": "https://www.elasticpress.io/"
   },
@@ -919,6 +920,7 @@
     "scriptSrc": [
       "elgg(?:_dataTables)?(?:\\/Ajax)?(?:\\/Plugin)?(?:\\/require_config)?(?:\\/spinner)?(?:\\/dev)?(?:\\.\\w{0,10})?\\.js"
     ],
+    "cpe": "cpe:2.3:a:elgg:elgg:*:*:*:*:*:*:*:*",
     "website": "https://elgg.org/"
   },
   "Elixir": {
@@ -1720,6 +1722,7 @@
     "scriptSrc": [
       "espo(?:\\.min)?\\.js"
     ],
+    "cpe": "cpe:2.3:a:espocrm:espocrm:*:*:*:*:*:*:*:*",
     "website": "https://www.espocrm.com/"
   },
   "Essent SiteBuilder Pro": {

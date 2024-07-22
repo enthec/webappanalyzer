@@ -863,6 +863,7 @@
       "low",
       "recurring"
     ],
+    "cpe": "cpe:2.3:a:gitbook:gitbook:*:*:*:*:*:*:*:*",
     "saas": true,
     "url": [
       "^https?://[^/]+\\.gitbook\\.com/"
@@ -2465,6 +2466,7 @@
     "meta": {
       "generator": "GravCMS(?:\\s([\\d.]+))?\\;version:\\1"
     },
+    "cpe": "cpe:2.3:a:getgrav:grav:*:*:*:*:*:*:*:*",
     "website": "https://getgrav.org"
   },
   "Gravatar": {
@@ -2620,6 +2622,7 @@
     "scriptSrc": [
       "grin-sdk\\.js"
     ],
+    "cpe": "cpe:2.3:a:grin:grin:*:*:*:*:*:*:*:*",
     "website": "https://grin.co/"
   },
   "GrocerKey": {

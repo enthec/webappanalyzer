@@ -1334,6 +1334,7 @@
     "meta": {
       "generator": "^nopCommerce$"
     },
+    "cpe": "cpe:2.3:a:nopcommerce:nopcommerce:*:*:*:*:*:*:*:*",
     "oss": true,
     "website": "https://www.nopcommerce.com"
   },

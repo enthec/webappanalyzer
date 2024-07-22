@@ -37,6 +37,7 @@
     "meta": {
       "generator": "BIGACE ([\\d.]+)\\;version:\\1"
     },
+    "cpe": "cpe:2.3:a:bigace:bigace:*:*:*:*:*:*:*:*",
     "oss": true,
     "website": "https://github.com/bigace"
   },
@@ -1038,6 +1039,7 @@
       "cdn\\.bitrix24\\.com",
       "\\.bitrix24\\..+/bitrix/js/crm/form_loader\\.js"
     ],
+    "cpe": "cpe:2.3:a:bitrix24:bitrix24:*:*:*:*:*:*:*:*",
     "website": "https://www.bitrix24.com"
   },
   "BittAds": {
@@ -2866,6 +2868,7 @@
     "scriptSrc": [
       "/wp-content/plugins/buddypress/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
     ],
+    "cpe": "cpe:2.3:a:buddypress:buddypress:0.1:*:*:*:*:wordpress:*:*",
     "website": "https://buddypress.org"
   },
   "BugHerd": {

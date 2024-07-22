@@ -416,6 +416,7 @@
       "mid",
       "recurring"
     ],
+    "cpe": "cpe:2.3:a:imgix:imgix:*:*:*:*:*:*:*:*",
     "website": "https://imgix.com/"
   },
   "Immutable.js": {

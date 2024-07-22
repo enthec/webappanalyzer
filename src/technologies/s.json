@@ -589,6 +589,7 @@
       "recurring"
     ],
     "saas": true,
+    "cpe": "cpe:2.3:a:saleor:saleor:*:*:*:*:*:*:*:*",
     "website": "https://saleor.io"
   },
   "SalesFire": {
@@ -1636,6 +1637,7 @@
     "scriptSrc": [
       "select2(?:\\.min|\\.full)?\\.js"
     ],
+    "cpe": "cpe:2.3:a:select2:select2:*:*:*:*:*:*:*:*",
     "website": "https://select2.org/"
   },
   "Selectize": {
@@ -1995,6 +1997,7 @@
     "scriptSrc": [
       "browser\\.sentry\\-cdn\\.com/([0-9.]+)/bundle(?:\\.tracing)?(?:\\.min)?\\.js\\;version:\\1"
     ],
+    "cpe": "cpe:2.3:a:sentry:sentry:*:*:*:*:*:*:*:*",
     "website": "https://sentry.io/"
   },
   "Seravo": {
@@ -2268,6 +2271,7 @@
     "scriptSrc": [
       "\\.sharetribe\\.com/"
     ],
+    "cpe": "cpe:2.3:a:sharetribe:sharetribe:*:*:*:*:*:*:*:*",
     "website": "https://www.sharetribe.com"
   },
   "SharpSpring": {
@@ -3443,6 +3447,7 @@
       "generator": "^SilverStripe"
     },
     "oss": true,
+    "cpe": "cpe:2.3:a:silverstripe:silverstripe:*:*:*:*:*:*:*:*",
     "website": "https://www.silverstripe.org/"
   },
   "Simbel": {
@@ -3545,6 +3550,7 @@
     "implies": [
       "PHP"
     ],
+    "cpe": "cpe:2.3:a:simplesamlphp:simplesamlphp:*:*:*:*:*:*:*:*",
     "oss": true,
     "website": "https://simplesamlphp.org"
   },
@@ -4806,6 +4812,7 @@
     "meta": {
       "generator": "^Smart[sS]tore(.NET)? (.+)$\\;version:\\2"
     },
+    "cpe": "cpe:2.3:a:smartstore:smartstore:*:*:*:*:*:*:*:*",
     "oss": true,
     "website": "https://www.smartstore.com"
   },
@@ -7250,6 +7257,7 @@
     },
     "icon": "Strapi.svg",
     "oss": true,
+    "cpe": "cpe:2.3:a:strapi:strapi:*:*:*:*:*:*:*:*",
     "website": "https://strapi.io"
   },
   "Strato": {
@@ -7539,6 +7547,7 @@
     "js": {
       "SULU_CONFIG.suluVersion": "^([\\d\\.]+)$\\;version:\\1"
     },
+    "cpe": "cpe:2.3:a:sulu:sulu:*:*:*:*:*:*:*:*",
     "oss": true,
     "website": "https://sulu.io"
   },
@@ -8097,6 +8106,7 @@
       "syliusshop/script\\.js",
       "syliusgtmenhancedecommerceplugin"
     ],
+    "cpe": "cpe:2.3:a:sylius:sylius:*:*:*:*:*:*:*:*",
     "website": "https://sylius.com"
   },
   "Symfony": {
@@ -8134,6 +8144,7 @@
     "meta": {
       "generator": "^Sympa$"
     },
+    "cpe": "cpe:2.3:a:sympa:sympa:*:*:*:*:*:*:*:*",
     "website": "https://www.sympa.org/"
   },
   "Syncfusion": {

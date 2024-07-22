@@ -170,6 +170,7 @@
     "scriptSrc": [
       "vaadinBootstrap\\.js(?:\\?v=([\\d.]+))?\\;version:\\1"
     ],
+    "cpe": "cpe:2.3:a:vaadin:vaadin:*:*:*:*:*:*:*:*",
     "website": "https://vaadin.com"
   },
   "ValueCommerce": {

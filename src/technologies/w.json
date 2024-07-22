@@ -898,6 +898,7 @@
     "scriptSrc": [
       "web2py\\.js"
     ],
+    "cpe": "cpe:2.3:a:web2py:web2py:*:*:*:*:*:*:*:*",
     "website": "https://web2py.com"
   },
   "WebAssembly": {
@@ -1432,6 +1433,7 @@
     "meta": {
       "generator": "WebsiteBaker"
     },
+    "cpe": "cpe:2.3:a:websitebaker:websitebaker:*:*:*:*:*:*:*:*",
     "website": "https://websitebaker2.org/en/home.php"
   },
   "WebsiteBuilder": {

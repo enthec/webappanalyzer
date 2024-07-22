@@ -2028,6 +2028,7 @@
       "low",
       "recurring"
     ],
+    "cpe": "cpe:2.3:a:piwigo:piwigo:*:*:*:*:*:*:*:*",
     "saas": true,
     "website": "https://piwigo.com"
   },
@@ -3460,6 +3461,7 @@
     "js": {
       "ProcessWire": ""
     },
+    "cpe": "cpe:2.3:a:processwire:processwire:*:*:*:*:*:*:*:*",
     "oss": true,
     "website": "https://processwire.com/"
   },
@@ -4153,6 +4155,7 @@
     "implies": [
       "Laravel"
     ],
+    "cpe": "cpe:2.3:a:pyrocms:pyrocms:*:*:*:*:*:*:*:*",
     "website": "https://pyrocms.com"
   },
   "Python": {
