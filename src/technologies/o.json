@@ -1240,6 +1240,7 @@
     "implies": [
       "Nginx"
     ],
+    "cpe": "cpe:2.3:a:openresty:openresty:*:*:*:*:*:*:*:*",
     "website": "https://openresty.org"
   },
   "OpenSSL": {
@@ -2037,6 +2038,7 @@
       "high",
       "recurring"
     ],
+    "cpe": "cpe:2.3:a:outsystems:outsystems:*:*:*:*:*:*:*:*",
     "saas": true,
     "scriptSrc": [
       "scripts/OutSystems(?:[\\w]+)?\\.js"
@@ -2206,6 +2208,7 @@
       "PHP",
       "MySQL"
     ],
+    "cpe": "cpe:2.3:a:oscommerce:oscommerce:*:*:*:*:*:*:*:*",
     "oss": true,
     "website": "https://www.oscommerce.com"
   },
@@ -2221,6 +2224,7 @@
       "PHP",
       "MySQL"
     ],
+    "cpe": "cpe:2.3:a:osticket:osticket:*:*:*:*:*:*:*:*",
     "website": "https://osticket.com"
   },
   "otrs": {

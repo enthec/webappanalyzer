@@ -2426,6 +2426,7 @@
     "implies": [
       "Laravel"
     ],
+    "cpe": "cpe:2.3:a:akaunting:akaunting:*:*:*:*:*:*:*:*",
     "oss": true,
     "website": "https://akaunting.com"
   },
@@ -2834,6 +2835,7 @@
     "requires": [
       "Debian"
     ],
+    "cpe": "cpe:2.3:a:alternc:alternc:*:*:*:*:*:*:*:*",
     "saas": false,
     "scriptSrc": [
       "js/alternc\\.js"
@@ -3233,6 +3235,7 @@
     "scriptSrc": [
       "ametys\\.js"
     ],
+    "cpe": "cpe:2.3:a:ametys:ametys:*:*:*:*:*:*:*:*",
     "website": "https://ametys.org"
   },
   "Amex Express Checkout": {
@@ -4092,6 +4095,7 @@
       "mid",
       "recurring"
     ],
+    "cpe": "cpe:2.3:a:apostrophecms:apostrophecms:*:*:*:*:*:*:*:*",
     "saas": true,
     "website": "https://apostrophecms.com"
   },
@@ -4448,6 +4452,7 @@
     "scriptSrc": [
       "arc\\.io/widget\\.js"
     ],
+    "cpe": "cpe:2.3:a:arc:arc:*:*:*:*:*:*:*:*",
     "website": "https://arc.io",
     "xhr": [
       "\\.arc\\.io"
@@ -4648,6 +4653,7 @@
       "generator": "^Asciidoctor\\s([\\d\\.]+)$\\;version:\\1"
     },
     "oss": true,
+    "cpe": "cpe:2.3:a:asciidoctor:asciidoctor:*:*:*:*:*:*:*:*",
     "website": "https://github.com/asciidoctor/asciidoctor"
   },
   "Asciinema": {

@@ -285,7 +285,7 @@
     "cats": [
       18
     ],
-    "description": "Mono.net delivers the a Software-as-a-Service (SaaS) platform to build and sell websites and other digital products.",
+    "description": "Dancer is a simple but powerful web application framework for Perl.",
     "headers": {
       "Server": "Perl Dancer ([\\d.]+)\\;version:\\1",
       "X-Powered-By": "Perl Dancer ([\\d.]+)\\;version:\\1"
@@ -297,6 +297,7 @@
     "pricing": [
       "poa"
     ],
+    "cpe": "cpe:2.3:a:dancer:dancer:*:*:*:*:*:*:*:*",
     "saas": true,
     "website": "https://perldancer.org"
   },
@@ -1043,6 +1044,7 @@
     "js": {
       "Discourse": ""
     },
+    "cpe": "cpe:2.3:a:discourse:discourse:*:*:*:*:*:*:*:*",
     "meta": {
       "generator": "Discourse(?: ?/?([\\d.]+\\d))?\\;version:\\1"
     },
@@ -1368,6 +1370,7 @@
     "meta": {
       "generator": "Dokeos"
     },
+    "cpe": "cpe:2.3:a:dokeos:dokeos:*:*:*:*:*:*:*:*",
     "website": "https://dokeos.com"
   },
   "DokuWiki": {

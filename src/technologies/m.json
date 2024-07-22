@@ -324,6 +324,7 @@
     "implies": [
       "Go"
     ],
+    "cpe": "cpe:2.3:a:go-macaron:macaron:*:*:*:*:*:*:*:*",
     "website": "https://go-macaron.com"
   },
   "MachoThemes NewsMag": {
@@ -1288,6 +1289,7 @@
     "headers": {
       "Server": "^Mastodon$"
     },
+    "cpe": "cpe:2.3:a:joinmastodon:mastodon:*:*:*:*:*:*:*:*",
     "icon": "Mastodon.svg",
     "website": "https://joinmastodon.org"
   },
@@ -1350,6 +1352,7 @@
     "scriptSrc": [
       "([\\d.]+)?/mathjax\\.js\\;version:\\1"
     ],
+    "cpe": "cpe:2.3:a:mathjax:mathjax:*:*:*:*:*:*:*:*",
     "website": "https://www.mathjax.org"
   },
   "Matomo Analytics": {
@@ -2370,6 +2373,7 @@
     "scriptSrc": [
       "[Mm]icroweber(?:\\/includes)?(?:\\/api)?(?:\\/libs)?[\\w\\.\\/-]{0,45}(?:\\.min)?\\.js"
     ],
+    "cpe": "cpe:2.3:a:microweber:microweber:*:*:*:*:*:*:*:*",
     "website": "https://microweber.com"
   },
   "Miestro": {
@@ -2601,6 +2605,7 @@
     "meta": {
       "application-name": "Misskey"
     },
+    "cpe": "cpe:2.3:a:misskey:misskey:*:*:*:*:*:*:*:*",
     "website": "https://join.misskey.page/"
   },
   "Mithril": {
@@ -2936,6 +2941,7 @@
     "implies": [
       "Perl"
     ],
+    "cpe": "cpe:2.3:a:mojolicious:mojolicious:*:*:*:*:*:*:*:*",
     "website": "https://mojolicio.us"
   },
   "Mokka": {
@@ -3871,6 +3877,7 @@
       "Server": "mini_httpd(?:/([\\d.]+))?\\;version:\\1"
     },
     "icon": "mini_httpd.png",
+    "cpe": "cpe:2.3:a:acme:mini_httpd:*:*:*:*:*:*:*:*",
     "website": "https://acme.com/software/mini_httpd"
   },
   "mirrAR": {

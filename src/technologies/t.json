@@ -230,6 +230,7 @@
     "scriptSrc": [
       "(?:TWikiJavascripts|twikilib(?:\\.min)?\\.js)"
     ],
+    "cpe": "cpe:2.3:a:twiki:twiki:*:*:*:*:*:*:*:*",
     "website": "https://twiki.org"
   },
   "TYPO3 CMS": {
@@ -2755,6 +2756,7 @@
     "cats": [
       13
     ],
+    "description": "Trac is an enhanced wiki and issue tracking system for software development projects.",
     "html": [
       "<a id=\"tracpowered",
       "Powered by <a href=\"[^\"]*\"><strong>Trac(?:[ /]([\\d.]+))?\\;version:\\1"
@@ -2935,6 +2937,7 @@
     "js": {
       "Transifex.live.lib_version": "(.+)\\;version:\\1"
     },
+    "cpe": "cpe:2.3:a:transifex:transifex:*:*:*:*:*:*:*:*",
     "website": "https://www.transifex.com"
   },
   "Transistor.fm": {
@@ -3999,6 +4002,7 @@
     "url": [
       "/admin/login\\.php?referer=http%3A%2F%2F"
     ],
+    "cpe": "cpe:2.3:a:typecho:typecho:*:*:*:*:*:*:*:*",
     "website": "https://typecho.org/"
   },
   "Typed.js": {

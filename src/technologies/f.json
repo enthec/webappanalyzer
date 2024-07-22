@@ -1276,6 +1276,7 @@
     "meta": {
       "id": "^flutterweb-theme$"
     },
+    "cpe": "cpe:2.3:a:flutter:flutter:*:*:*:*:*:*:*:*",
     "oss": true,
     "website": "https://flutter.dev"
   },
@@ -2014,6 +2015,7 @@
     "meta": {
       "generator": "^frappe$"
     },
+    "cpe": "cpe:2.3:a:frappe:frappe:*:*:*:*:*:*:*:*",
     "oss": true,
     "website": "https://frappeframework.com"
   },
@@ -2102,6 +2104,7 @@
       "FTB_API": "",
       "FTB_AddEvent": ""
     },
+    "cpe": "cpe:2.3:a:freetextbox:freetextbox:*:*:*:*:*:*:*:*",
     "website": "https://freetextbox.com"
   },
   "Freespee": {
