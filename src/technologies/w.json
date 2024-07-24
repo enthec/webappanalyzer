@@ -2724,7 +2724,8 @@
     "description": "waitForImages is a lightweight, high-performance JavaScript library that simplifies the handling of image preloading events.",
     "oss": true,
     "scriptSrc": [
-      "(?:((?:\\d+\\.)+\\d+)\\/(?:jquery\\.)?)?waitforimages(?:-((?:\\d+\\.)+\\d+)-modded)?(?:\\.min)?\\.js\\;version:\\1\\2"
+      "(?:((?:\\d+\\.)+\\d+)\\/(?:jquery\\.)?)?waitforimages(?:-modded)?(?:\\.min)?\\.js\\;version:\\1",
+      "(?:(?:jquery\\.)?)?waitforimages(?:-((?:\\d+\\.)+\\d+)-modded)?(?:\\.min)?\\.js\\;version:\\1"
     ],
     "website": "https://github.com/alexanderdickson/waitForImages"
   },

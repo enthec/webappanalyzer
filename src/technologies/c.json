@@ -5235,7 +5235,8 @@
     "description": "chroma.js is a small-ish zero-dependency JavaScript library for all kinds of color conversions and color scales.",
     "oss": true,
     "scriptSrc": [
-      "(?:((?:\\d+\\.)+\\d+)\\/)?chroma(?:\\.min)?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1\\2"
+      "chroma(?:\\.min)?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+      "(?:((?:\\d+\\.)+\\d+)\\/)?chroma(?:\\.min)?\\.js\\;version:\\1"
     ],
     "website": "https://www.vis4.net/chromajs/"
   },

@@ -488,7 +488,8 @@
     ],
     "saas": true,
     "scriptSrc": [
-      "wp-content\\/plugins\\/gp-premium(?:\\/menu-plus)?(?:\\/sections)?\\/functions\\/js(?:\\/offside)?(?:\\/parallax)?(?:\\/sticky)?(?:\\.min)?(?:-((?:\\d+\\.)+\\d+))?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1\\2"
+      "wp-content\\/plugins\\/gp-premium(?:\\/menu-plus)?(?:\\/sections)?\\/functions\\/js(?:\\/offside)?(?:\\/parallax)?(?:\\/sticky)?(?:\\.min)?(?:-)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+      "wp-content\\/plugins\\/gp-premium(?:\\/menu-plus)?(?:\\/sections)?\\/functions\\/js(?:\\/offside)?(?:\\/parallax)?(?:\\/sticky)?(?:\\.min)?(?:-((?:\\d+\\.)+\\d+))?\\.js\\;version:\\1"
     ],
     "website": "https://docs.generatepress.com/article/installing-gp-premium/"
   },

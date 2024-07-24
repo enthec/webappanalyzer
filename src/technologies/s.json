@@ -1237,7 +1237,8 @@
     "description": "Simple wrapper for cross-browser usage of the JavaScript Fullscreen API.",
     "oss": true,
     "scriptSrc": [
-      "(?:((?:\\d+\\.)+\\d+)\\/)?screenfull(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1\\2"
+      "screenfull(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+      "(?:((?:\\d+\\.)+\\d+)\\/)?screenfull(?:\\.min)?\\.js\\;version:\\1"
     ],
     "website": "https://sindresorhus.com/screenfull/"
   },
@@ -3318,7 +3319,8 @@
     },
     "oss": true,
     "scriptSrc": [
-      "(?:((?:\\d+\\.)+\\d+)\\/(?:dist\\/)?)?showdown(?:\\.min)?(?:-?((?:\\d+\\.)+\\d+))?\\.js\\;version:\\1\\2"
+      "(?:(?:dist\\/)?)?showdown(?:\\.min)?(?:-?((?:\\d+\\.)+\\d+))?\\.js\\;version:\\1",
+      "(?:((?:\\d+\\.)+\\d+)\\/(?:dist\\/)?)?showdown(?:\\.min)?(?:-)?\\.js\\;version:\\1"
     ],
     "website": "https://showdownjs.com/"
   },
@@ -3407,7 +3409,8 @@
     ],
     "description": "Realtime web communication framework from Microsoft for ASP.NET.",
     "scriptSrc": [
-      "(?:((?:\\d+\\.)+\\d+)\\/jquery\\.)?signal[rR](?:-((?:\\d+\\.)+\\d+))?(?:\\.min)?\\.js\\;version:\\1\\2"
+      "(?:jquery\\.)?signal[rR](?:-((?:\\d+\\.)+\\d+))?(?:\\.min)?\\.js\\;version:\\1",
+      "(?:((?:\\d+\\.)+\\d+)\\/jquery\\.)?signal[rR](?:-)?(?:\\.min)?\\.js\\;version:\\1"
     ],
     "website": "https://dotnet.microsoft.com/es-es/apps/aspnet/signalr"
   },
@@ -4968,7 +4971,8 @@
     "description": "Minimalistic animation library in javascript Snabbt.js.",
     "oss": true,
     "scriptSrc": [
-      "(?:((?:\\d+\\.)+\\d+)\\/)?snabbt(?:[\\.-]min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1\\2"
+      "(?:((?:\\d+\\.)+\\d+)\\/)?snabbt(?:[\\.-]min)?\\.js\\;version:\\1",
+      "snabbt(?:[\\.-]min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1"
     ],
     "website": "https://daniel-lundin.github.io/snabbt.js/"
   },
@@ -5270,7 +5274,8 @@
     "icon": "SockJS.png",
     "oss": true,
     "scriptSrc": [
-      "(?:((?:\\d+\\.)+\\d+)\\/)?sockjs(?:-((?:\\d+\\.)+\\d+))?(?:\\.min)?\\.js\\;version:\\1\\2"
+      "sockjs(?:-((?:\\d+\\.)+\\d+))?(?:\\.min)?\\.js\\;version:\\1",
+      "(?:((?:\\d+\\.)+\\d+)\\/)?sockjs(?:\\.min)?\\.js\\;version:\\1"
     ],
     "website": "https://sockjs.org"
   },
@@ -8381,7 +8386,8 @@
     },
     "oss": true,
     "scriptSrc": [
-      "(?:((?:\\d+\\.)+\\d+)\\/)?slideout(?:-init)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1\\2"
+      "slideout(?:-init)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+      "(?:((?:\\d+\\.)+\\d+)\\/)?slideout(?:-init)?(?:\\.min)?\\.js\\;version:\\1"
     ],
     "website": "https://slideout.js.org/"
   },

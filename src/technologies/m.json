@@ -2617,7 +2617,8 @@
     "icon": "Mithril.svg",
     "oss": true,
     "scriptSrc": [
-      "(?:((?:\\d+\\.)+\\d+)\\/)?mithril(?:[\\.-]min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1\\2"
+      "mithril(?:[\\.-]min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+      "(?:((?:\\d+\\.)+\\d+)\\/)?mithril(?:[\\.-]min)?\\.js\\;version:\\1"
     ],
     "website": "https://mithril.js.org/"
   },
@@ -2839,7 +2840,8 @@
       "Modernizr._version": "^(.+)$\\;version:\\1"
     },
     "scriptSrc": [
-      "([\\d.]+)?/modernizr(?:\\.([\\d.]+))?.*\\.js\\;version:\\1?\\1:\\2"
+      "modernizr(?:\\.([\\d.]+))?.*\\.js\\;version:\\1",
+      "([\\d.]+)?/modernizr.*\\.js\\;version:\\1"
     ],
     "website": "https://modernizr.com"
   },
