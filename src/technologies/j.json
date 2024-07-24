@@ -1066,8 +1066,8 @@
       "jqueryMigrate": ""
     },
     "scriptSrc": [
-      "jquery-migrate(?:\\.min)?(?:-)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
-      "jquery-migrate(?:\\.min)?(?:-?((?:\\d+\\.)+\\d+))?\\.js\\;version:\\1"
+      "jquery-migrate(?:\\.min)?(?:-)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+      "jquery-migrate(?:\\.min)?(?:-?((?:\\d+\\.)+\\d+))?(?:\\.min)?\\.js\\;version:\\1"
     ],
     "website": "https://github.com/jquery/jquery-migrate"
   },
