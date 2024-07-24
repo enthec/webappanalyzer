@@ -424,10 +424,7 @@
     "description": "Abicart is an ecommerce platform developed by the Swedish company Abicart AB.",
     "icon": "abicart.png",
     "meta": {
-      "generator": [
-        "Abicart",
-        "Textalk Webshop"
-      ]
+      "generator": "Abicart"
     },
     "pricing": [
       "mid",

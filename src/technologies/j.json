@@ -1066,7 +1066,8 @@
       "jqueryMigrate": ""
     },
     "scriptSrc": [
-      "jquery-migrate(?:\\.min)?(?:-?((?:\\d+\\.)+\\d+))?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1\\2"
+      "jquery-migrate(?:\\.min)?(?:-)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+      "jquery-migrate(?:\\.min)?(?:-?((?:\\d+\\.)+\\d+))?\\.js\\;version:\\1"
     ],
     "website": "https://github.com/jquery/jquery-migrate"
   },
@@ -1083,7 +1084,8 @@
       "jQuery.mobile.version": "^(.+)$\\;version:\\1"
     },
     "scriptSrc": [
-      "jquery[.-]mobile(?:-([\\d.]))?(?:\\.min)?\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1?\\1:\\2"
+      "jquery[.-]mobile(?:-([\\d.]+))?(?:\\.min)?\\.js\\;version:\\1",
+      "jquery[.-]mobile(?:-)?(?:\\.min)?\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1"
     ],
     "website": "https://jquerymobile.com"
   },
@@ -1156,7 +1158,8 @@
       "pjax-timeout": ""
     },
     "scriptSrc": [
-      "jquery[.-]pjax(?:-([\\d.]))?(?:\\.min)?\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1?\\1:\\2"
+      "jquery[.-]pjax(?:-([\\d.]+))?(?:\\.min)?\\.js\\;version:\\1",
+      "jquery[.-]pjax(?:-)?(?:\\.min)?\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1"
     ],
     "website": "https://github.com/defunkt/jquery-pjax"
   },
