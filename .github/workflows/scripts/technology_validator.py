@@ -180,7 +180,7 @@ class DomValidator(AbstractValidator):
                 BeautifulSoup("", "html.parser").select(element.split(r"\;")[0])
         elif isinstance(data, dict):
             for k, _ in data.items():
-                BeautifulSoup("", "html.parser").select(k.split(r"\;")[0])
+                BeautifulSoup("", "html.parser").select(k)
         else:
             return False
         return True
