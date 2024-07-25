@@ -29,6 +29,11 @@ class CategoryNotFoundException(Exception):
         super().__init__(msg)
 
 
+class InvalidKeyException(Exception):
+    def __init__(self, msg: str):
+        super().__init__(msg)
+
+
 class ImageNotFoundException(Exception):
     def __init__(self, msg: str):
         super().__init__(msg)
@@ -94,8 +99,7 @@ class StringValidator(AbstractValidator):
 
 class PricingValidator(AbstractValidator):
     def _validate(self, tech_name: str, data: Any) -> bool:
-        type_validator: bool = super()._validate(tech_name, data)
-        if not type_validator:
+        if not super()._validate(tech_name, data):
             return False
         for price in data:
             if price not in ("low", "mid", "high", "freemium", "poa", "payg", "onetime", "recurring"):
@@ -107,23 +111,16 @@ class PricingValidator(AbstractValidator):
         return [list]
 
 
-class BoolValidator(AbstractValidator):
-    def get_type(self) -> list[Type]:
-        return [bool]
-
-
 class RegexValidator(abc.ABC, AbstractValidator):
     def __init__(self, contains_regex: bool = False):
         super().__init__()
         self._contains_regex = contains_regex
 
     def _validate(self, tech_name: str, data: Any) -> bool:
-        type_validator: bool = super()._validate(tech_name, data)
-        if not type_validator:
+        if not super()._validate(tech_name, data):
             return False
         if self._contains_regex:
-            valid: bool = self._validate_regex(tech_name, data)
-            if not valid:
+            if not self._validate_regex(tech_name, data):
                 return False
         return True
 
@@ -136,15 +133,18 @@ class RegexValidator(abc.ABC, AbstractValidator):
                 return False
         elif type(data) is dict:
             for _, val in data.items():
-                valid: bool = self._validate_regex(tech_name, val)
-                if not valid:
+                if not self._validate_regex(tech_name, val):
                     return False
         elif type(data) is list:
             for item in data:
-                valid: bool = self._validate_regex(tech_name, item)
-                if not valid:
+                if not self._validate_regex(tech_name, item):
                     return False
         return True
+
+
+class BoolValidator(AbstractValidator):
+    def get_type(self) -> list[Type]:
+        return [bool]
 
 
 class ArrayValidator(RegexValidator):
@@ -163,8 +163,7 @@ class CategoryValidator(ArrayValidator):
         self._categories: Final[list[int]] = categories
 
     def _validate(self, tech_name: str, data: Any) -> bool:
-        type_validator: bool = super()._validate(tech_name, data)
-        if not type_validator:
+        if not super()._validate(tech_name, data):
             return False
         for category_id in data:
             if category_id not in self._categories:
@@ -173,14 +172,44 @@ class CategoryValidator(ArrayValidator):
         return True
 
 
-class DomValidator(AbstractValidator):
+class DomValidator(RegexValidator):
     def _validate(self, tech_name: str, data: Any) -> bool:
         if isinstance(data, list):
             for element in data:
                 BeautifulSoup("", "html.parser").select(element.split(r"\;")[0])
         elif isinstance(data, dict):
-            for k, _ in data.items():
+            for k, v in data.items():
                 BeautifulSoup("", "html.parser").select(k)
+                if isinstance(v, dict):
+                    for key, val in v.items():
+                        if key in ("attributes", "properties"):
+                            if isinstance(val, dict):
+                                for attr_name, attr_val in val.items():
+                                    if not isinstance(attr_name, str):
+                                        self._set_custom_error(InvalidTypeForFieldException(f"Invalid type for dom in tech '{tech_name}', selector '{k}' '{key}' key must be string!"))
+                                        return False
+                                    if not isinstance(attr_val, str):
+                                        self._set_custom_error(InvalidTypeForFieldException(f"Invalid type for dom in tech '{tech_name}', selector '{k}' '{key}' value must be string!"))
+                                        return False
+                                    if not self._validate_regex(tech_name, attr_val):
+                                        return False
+                            else:
+                                self._set_custom_error(InvalidTypeForFieldException(f"Invalid type for dom in tech '{tech_name}', selector '{k}' object is required inside '{key}' but {type(val).__name__} was found!"))
+                                return False
+                        elif key == "text":
+                            if isinstance(val, str):
+                                if not self._validate_regex(tech_name, val):
+                                    return False
+                        elif key == "exists":
+                            if val.split(r"\;")[0] != "":
+                                self._set_custom_error(InvalidTypeForFieldException(f"Invalid value for dom in tech '{tech_name}', selector '{k}' empty string is required inside '{key}' but {val} was found!"))
+                                return False
+                        else:
+                            self._set_custom_error(UnknownFieldsException(f"Invalid key for tech '{tech_name}' (attributes, text, properties, exists) are required but '{key}' was found inside of the {k} selector!"))
+                            return False
+                else:
+                    self._set_custom_error(InvalidTypeForFieldException(f"Invalid type for dom in tech '{tech_name}' object is required inside the selector!"))
+                    return False
         else:
             return False
         return True
@@ -192,11 +221,9 @@ class IconValidator(StringValidator):
         self._icons: Final[list[str]] = icons
 
     def _validate(self, tech_name: str, data: Any) -> bool:
-        type_validator: bool = super()._validate(tech_name, data)
-        if not type_validator:
+        if not super()._validate(tech_name, data):
             return False
-        contains: bool = data in self._icons
-        if not contains:
+        if data not in self._icons:
             self._set_custom_error(ImageNotFoundException(f"The image '{data}' for tech '{tech_name}' does not exist!"))
             return False
         return True
@@ -207,16 +234,14 @@ class CPEValidator(StringValidator):
         super().__init__()
 
     def _validate(self, tech_name: str, data: Any) -> bool:
-        type_validator: bool = super()._validate(tech_name, data)
-        if not type_validator:
+        if not super()._validate(tech_name, data):
             return False
         # https://csrc.nist.gov/schema/cpe/2.3/cpe-naming_2.3.xsd
         cpe_regex: str = r"""cpe:2\.3:[aho\*\-](:(((\?*|\*?)([a-zA-Z0-9\-\._]|(\\[\\\*\?!"#$$%&'\(\)\+,/:;<=>@\[
         \]\^`\{\|}~]))+(\?*|\*?))|[\*\-])){5}(:(([a-zA-Z]{2,3}(-([a-zA-Z]{2}|[0-9]{3}))?)|[\*\-]))(:(((\?*|\*?)([
         a-zA-Z0-9\-\._]|(\\[\\\*\?!"#$$%&'\(\)\+,/:;<=>@\[\]\^`\{\|}~]))+(\?*|\*?))|[\*\-])){4}"""
         pattern: re.Pattern = re.compile(cpe_regex)
-        match: re.Match = pattern.match(data)
-        if not match:
+        if not pattern.match(data):
             self._set_custom_error(InvalidCPEException(f"The cpe {data} for tech '{tech_name}' is invalid!"))
             return False
         return True
@@ -310,6 +335,7 @@ class TechnologyProcessor:
 
 
 if __name__ == '__main__':
+    # TODO validate ;confidence & ;version
     # for letter in string.ascii_lowercase + "_":
     #     TechnologiesValidator(os.getenv("TECH_FILE_NAME", f"{letter}.json")).validate()
     TechnologiesValidator(os.getenv("TECH_FILE_NAME", f"a.json")).validate()

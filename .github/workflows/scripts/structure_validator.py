@@ -53,6 +53,7 @@ class StructureValidator:
             if file.is_dir():
                 raise InvalidStructureException(f"{self._FULL_IMAGES_DIR} can only contain images, {file} is invalid!")
             file_extension: str = file.name.split(".")[-1].lower()
+            # TODO validate with mime!
             if file_extension not in ("svg", "png", "jpg", "jpeg"):
                 raise InvalidStructureException(f"{self._FULL_IMAGES_DIR} can only contain image formatted files, {file} is invalid!")
 
