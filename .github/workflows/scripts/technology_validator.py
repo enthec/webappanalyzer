@@ -6,6 +6,8 @@ import re
 import string
 from typing import Final, Any, Type, Optional
 
+from bs4 import BeautifulSoup
+
 
 class MissingRequiredFieldException(Exception):
     def __init__(self, msg: str):
@@ -150,11 +152,6 @@ class ArrayValidator(RegexValidator):
         return [list]
 
 
-class StringOrArrayOrDictValidator(AbstractValidator):
-    def get_type(self) -> list[Type]:
-        return [str, list, dict]
-
-
 class DictValidator(RegexValidator):
     def get_type(self) -> list[Type]:
         return [dict]
@@ -173,6 +170,19 @@ class CategoryValidator(ArrayValidator):
             if category_id not in self._categories:
                 self._set_custom_error(CategoryNotFoundException(f"The category '{category_id}' for tech '{tech_name}' does not exist!"))
                 return False
+        return True
+
+
+class DomValidator(AbstractValidator):
+    def _validate(self, tech_name: str, data: Any) -> bool:
+        if isinstance(data, list):
+            for element in data:
+                BeautifulSoup("", "html.parser").select(element.split(r"\;")[0])
+        elif isinstance(data, dict):
+            for k, _ in data.items():
+                BeautifulSoup("", "html.parser").select(k.split(r"\;")[0])
+        else:
+            return False
         return True
 
 
@@ -237,7 +247,7 @@ class TechnologiesValidator:
             "excludes": ArrayValidator(),  # TODO ^
             "requiresCategory": CategoryValidator(self._CATEGORIES),
             "cookies": DictValidator(contains_regex=True),
-            "dom": StringOrArrayOrDictValidator(),  # TODO query selector validator
+            "dom": DomValidator(),
             "dns": DictValidator(contains_regex=True),
             "js": DictValidator(contains_regex=True),
             "headers": DictValidator(contains_regex=True),

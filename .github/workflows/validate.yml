@@ -76,7 +76,7 @@ jobs:
           python-version: ${{ matrix.python-version }}
 
       - name: run tech validator
-        run: python3 .github/workflows/scripts/technology_validator.py
+        run: python3 -m pip install bs4 && python3 .github/workflows/scripts/technology_validator.py
         env:
           TECH_FILE_NAME: ${{ matrix.file_name }}
 
