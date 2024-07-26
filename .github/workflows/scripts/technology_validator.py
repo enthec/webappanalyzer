@@ -64,10 +64,21 @@ class InvalidCPEException(Exception):
         super().__init__(msg)
 
 
+class TooManyTagsException(Exception):
+    def __init__(self, msg: str):
+        super().__init__(msg)
+
+
+class InvalidTagException(Exception):
+    def __init__(self, msg: str):
+        super().__init__(msg)
+
+
 class AbstractValidator:
     def __init__(self, required: bool = False):
         self._required = required
         self._custom_error: Optional[Exception] = None
+        self.__version_match = re.compile(r"^(?:(?P<prefix>.*)?\\(?P<group>\d+)(?:\?(?P<first>.*)?:(?P<second>.*)?)?|(?P<fixed>[a-zA-Z0-9.]+)?)$")
 
     def process(self, property_name: str, tech_name: str, data: Any) -> bool:
         if self._required and not data:
@@ -77,10 +88,40 @@ class AbstractValidator:
         return self._validate(tech_name, data)
 
     def _validate(self, tech_name: str, data: Any) -> bool:
+        if isinstance(data, str):
+            if not self._validate_tags(tech_name, data):
+                return False
         for t in self.get_type():
             if isinstance(data, t):
                 return True
         return False
+
+    def _validate_tags(self, tech_name: str, pattern: str) -> bool:
+        tags: list[str] = pattern.split(r"\;")[1:]
+        if len(tags) > 2:
+            self._set_custom_error(TooManyTagsException(f"pattern '{pattern}' for tech '{tech_name}' has more than 2 tags, only confidence & version are allowed!"))
+            return False
+        tag_names: list[str] = [tag.split(":")[0].lower() for tag in tags]
+        if len(tag_names) == 2 and tag_names[0] == tag_names[1]:
+            self._set_custom_error(TooManyTagsException(f"pattern '{pattern}' for tech '{tech_name}' has more than 2 tags named {tag_names[1]}!"))
+            return False
+        for tag_name, tag_value in {tag.split(":")[0]: ":".join(tag.split(":")[1:]) for tag in tags}.items():
+            if tag_name == "confidence":
+                if not tag_value.isnumeric():
+                    self._set_custom_error(InvalidTagException(f"Invalid tag value '{tag_value}' for tech '{tech_name}' in pattern '{pattern}', confidence must be numeric!"))
+                    return False
+                if 0 >= int(tag_value) >= 100:
+                    self._set_custom_error(InvalidTagException(f"Invalid tag value '{tag_value}' for tech '{tech_name}' in pattern '{pattern}', confidence must be between 0 and 100!"))
+                    return False
+            elif tag_name == "version":
+                match: re.Match = self.__version_match.match(tag_value)
+                if not match:
+                    self._set_custom_error(InvalidTagException(f"Invalid tag value '{tag_value}' for tech '{tech_name}' in pattern '{pattern}', version is invalid!"))
+                    return False
+            else:
+                self._set_custom_error(InvalidTagException(f"this tag '{tag_name}' for tech '{tech_name}' in pattern '{pattern}'doesn't exist!"))
+                return False
+        return True
 
     def get_type(self) -> list[Type]:
         raise NotImplementedError()
@@ -90,11 +131,6 @@ class AbstractValidator:
 
     def _set_custom_error(self, custom_error: Exception) -> None:
         self._custom_error = custom_error
-
-
-class StringValidator(AbstractValidator):
-    def get_type(self) -> list[Type]:
-        return [str]
 
 
 class PricingValidator(AbstractValidator):
@@ -125,21 +161,28 @@ class RegexValidator(abc.ABC, AbstractValidator):
         return True
 
     def _validate_regex(self, tech_name: str, data: Any) -> bool:
-        if type(data) is str:
+        if isinstance(data, str):
             try:
-                re.compile(data)
+                if not self._validate_tags(tech_name, data):
+                    return False
+                re.compile(data.split(r"\;")[0])
             except re.error as e:
                 self._set_custom_error(InvalidRegexException(f"Unable to compile regex '{data}' for tech '{tech_name}', got error: {e.msg}"))
                 return False
-        elif type(data) is dict:
+        elif isinstance(data, dict):
             for _, val in data.items():
                 if not self._validate_regex(tech_name, val):
                     return False
-        elif type(data) is list:
+        elif isinstance(data, list):
             for item in data:
                 if not self._validate_regex(tech_name, item):
                     return False
         return True
+
+
+class StringValidator(AbstractValidator):
+    def get_type(self) -> list[Type]:
+        return [str]
 
 
 class BoolValidator(AbstractValidator):
@@ -176,6 +219,8 @@ class DomValidator(RegexValidator):
     def _validate(self, tech_name: str, data: Any) -> bool:
         if isinstance(data, list):
             for element in data:
+                if not self._validate_tags(tech_name, element):
+                    return False
                 BeautifulSoup("", "html.parser").select(element.split(r"\;")[0])
         elif isinstance(data, dict):
             for k, v in data.items():
@@ -202,6 +247,8 @@ class DomValidator(RegexValidator):
                                     return False
                         elif key == "exists":
                             if val.split(r"\;")[0] != "":
+                                if not self._validate_tags(tech_name, val):
+                                    return False
                                 self._set_custom_error(InvalidTypeForFieldException(f"Invalid value for dom in tech '{tech_name}', selector '{k}' empty string is required inside '{key}' but {val} was found!"))
                                 return False
                         else:
@@ -213,6 +260,9 @@ class DomValidator(RegexValidator):
         else:
             return False
         return True
+
+    def get_type(self) -> list[Type]:
+        return [list, dict]
 
 
 class IconValidator(StringValidator):
@@ -336,6 +386,6 @@ class TechnologyProcessor:
 
 if __name__ == '__main__':
     # TODO validate ;confidence & ;version
-    # for letter in string.ascii_lowercase + "_":
-    #     TechnologiesValidator(os.getenv("TECH_FILE_NAME", f"{letter}.json")).validate()
-    TechnologiesValidator(os.getenv("TECH_FILE_NAME", f"a.json")).validate()
+    for letter in string.ascii_lowercase + "_":
+        TechnologiesValidator(os.getenv("TECH_FILE_NAME", f"{letter}.json")).validate()
+    # TechnologiesValidator(os.getenv("TECH_FILE_NAME", f"a.json")).validate()
