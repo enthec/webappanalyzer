@@ -119,7 +119,7 @@ class AbstractValidator:
                     self._set_custom_error(InvalidTagException(f"Invalid tag value '{tag_value}' for tech '{tech_name}' in pattern '{pattern}', version is invalid!"))
                     return False
             else:
-                self._set_custom_error(InvalidTagException(f"this tag '{tag_name}' for tech '{tech_name}' in pattern '{pattern}'doesn't exist!"))
+                self._set_custom_error(InvalidTagException(f"this tag '{tag_name}' for tech '{tech_name}' in pattern '{pattern}' doesn't exist!"))
                 return False
         return True
 
