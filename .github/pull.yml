@@ -1,5 +1,5 @@
 version: "1"
-rules:                      # Array of rules
-  - base: main            # Required. Target branch
-    upstream: enthec/webappanalyzer:main    # Required. Must be in the same fork network.
-    mergeMethod: rebase  # Optional, one of [none, merge, squash, rebase, hardreset], Default: none.
+rules:
+  - base: main
+    upstream: enthec/webappanalyzer:main    # change `wei` to the owner of upstream repo
+    mergeMethod: rebase
