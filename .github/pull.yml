@@ -4,8 +4,8 @@ rules:
     upstream: enthec/webappanalyzer:main    # change `wei` to the owner of upstream repo
     mergeMethod: hardreset
     mergeUnstable: false
-  - base: main
-    upstream: dev        # Required. Can be a branch in the same forked repo.
+  - base: dev
+    upstream: main        # Required. Can be a branch in the same forked repo.
     assignees: # Optional
       - berishaerblin
     reviewers: # Optional
