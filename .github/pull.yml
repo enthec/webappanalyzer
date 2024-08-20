@@ -2,4 +2,4 @@ version: "1"
 rules:
   - base: main
     upstream: enthec/webappanalyzer:main    # change `wei` to the owner of upstream repo
-    mergeMethod: rebase
+    mergeMethod: hardreset
