@@ -9527,10 +9527,7 @@
       "recurring"
     ],
     "saas": true,
-    "website": "https://supabase.com",
-    "dom": [
-      "a[href*='supabase.com'] > img[src*='/supabase-logo-wordmark--dark.png']"
-    ]
+    "website": "https://supabase.com"
   },
   "Super Builder": {
     "cats": [
