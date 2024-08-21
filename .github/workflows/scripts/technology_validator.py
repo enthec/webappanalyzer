@@ -351,6 +351,8 @@ class TechnologiesValidator:
                 elif first != initial_letter:
                     suggested_file: str = f"{first}.json" if first in string.ascii_lowercase else "_.json"
                     raise InvalidTechFileException(f"Tech '{tech}' does not start with '{initial_letter}', it should not be located in the '{self._TECH_FILE.name}' file, but '{suggested_file}'")
+                if tech.strip() != tech:
+                    raise InvalidTechFileException(f"Tech '{tech}' can't start or end with whitespace ' '")
                 p: TechnologyProcessor = TechnologyProcessor(tech, data, self._validators)
                 p.process()
 
