@@ -1,10 +1,10 @@
 # Contributing
 
-WebAppAnalyzer is an [GPLv3 licensed](https://github.com/wappalyzer/wappalyzer/blob/master/LICENSE), open source project written in JavaScript. Anyone is welcome to contribute.
+WebAppAnalyzer is an [GPLv3 licensed](https://github.com/enthec/webappanalyzer/blob/master/LICENSE), open source project written in JavaScript. Anyone is welcome to contribute.
 
 ## Getting started
 
-To get started, see the [README](https://github.com/wappalyzer/wappalyzer/blob/master/README.md).
+To get started, see the [README](https://github.com/enthec/webappanalyzer/blob/master/README.md).
 
 ## Adding a new technology
 
