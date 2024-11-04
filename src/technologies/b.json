@@ -1614,7 +1614,7 @@
     "cats": [
       18
     ],
-    "icon": "Blazor.png",
+    "icon": "Blazor.svg",
     "implies": [
       "Microsoft ASP.NET"
     ],

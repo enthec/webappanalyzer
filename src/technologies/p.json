@@ -6119,7 +6119,7 @@
     "html": [
       "Powered by <a href=\"[^>]+punbb"
     ],
-    "icon": "punBB.png",
+    "icon": "punBB.svg",
     "implies": [
       "PHP"
     ],

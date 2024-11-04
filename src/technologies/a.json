@@ -5787,7 +5787,7 @@
     "dom": [
       "a[href*='=ArrevaOnlineDonationsPortlet_WA']"
     ],
-    "icon": "Arreva.png",
+    "icon": "Arreva.svg",
     "pricing": [
       "mid",
       "recurring"
