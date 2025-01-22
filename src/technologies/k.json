@@ -2007,6 +2007,21 @@
     "saas": true,
     "website": "https://kuroco.app"
   },
+  "KuronekoServer CDN": {
+    "cats": [
+      31
+    ],
+    "description": "KuronekoServer CDN is a distributed content delivery network utilizing VPS and Cloudflare to enhance performance and reliability.",
+    "dom": [
+      "link[href*='cdn.krnk.org/']"
+    ],
+    "icon": "KuronekoServerCDN.svg",
+    "saas": true,
+    "scripts": [
+      "cdn\\.krnk\\.org/"
+    ],
+    "website": "https://cdn.krnk.org"
+  },
   "Kustomer": {
     "cats": [
       52,

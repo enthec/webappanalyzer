@@ -1332,6 +1332,23 @@
       "api\\.vhx\\.tv"
     ]
   },
+  "Vimos": {
+    "cats": [
+      32
+    ],
+    "description": "Vimos is a marketing SaaS specializing in marketing automation.",
+    "icon": "Vimos.svg",
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "widget\\.vimos\\.io/"
+    ],
+    "website": "https://vimos.io"
+  },
   "Vincere": {
     "cats": [
       101
@@ -1644,6 +1661,17 @@
     "saas": true,
     "website": "https://visitor.chat"
   },
+  "VisitorVille": {
+    "cats": [
+      10
+    ],
+    "description": "VisitorVille is a tool that visualizes website visitors as a SimCity-like map, providing an interactive way to analyze traffic and user behavior.",
+    "saas": true,
+    "scriptSrc": [
+      "www\\.visitorville\\.com/"
+    ],
+    "website": "http://visitorville.com"
+  },
   "Viskan": {
     "cats": [
       6
@@ -1788,7 +1816,10 @@
     ],
     "description": "Vite is a rapid development tool for modern web projects.",
     "dom": [
-      "script#vite-legacy-polyfill, script#vite-legacy-entry, link[href*='vite.svg'][rel='icon']"
+      "script#vite-legacy-polyfill",
+      "script#vite-legacy-entry",
+      "link[href*='vite.svg'][rel='icon']",
+      "script[id^='vite-plugin-']"
     ],
     "icon": "vite.svg",
     "js": {
