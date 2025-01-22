@@ -352,6 +352,18 @@
     ],
     "website": "https://www.xserver.ne.jp"
   },
+  "Xsolla": {
+    "cats": [
+      41
+    ],
+    "description": "Xsolla is a video game business system offering payment solutions and store management.",
+    "icon": "Xsolla.svg",
+    "saas": true,
+    "scriptSrc": [
+      "\\.xsolla\\.(com|net)"
+    ],
+    "website": "https://xsolla.com"
+  },
   "Xtime": {
     "cats": [
       72

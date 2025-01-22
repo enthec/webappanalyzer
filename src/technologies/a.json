@@ -2063,7 +2063,7 @@
       "/etc\\.clientlibs/"
     ],
     "scripts": [
-      "aem-(?:GridColumn|apps/)"
+      "aem-(?:GridColumn|apps/)|AEMMode"
     ],
     "website": "https://www.adobe.com/marketing/experience-manager.html"
   },
@@ -2077,6 +2077,9 @@
       "Adobe Experience Manager"
     ],
     "icon": "Adobe Experience Manager Franklin.svg",
+    "js": {
+      "hlx.RUM_MANUAL_ENHANCE": ""
+    },
     "scriptSrc": [
       "^.+/scripts/lib-franklin\\.js$"
     ],
@@ -2674,6 +2677,9 @@
       "afterpay-products\\.min\\.js",
       "js\\.stripe\\.com/v3/fingerprinted/js/elements-afterpay-clearpay-message-.+\\.js"
     ],
+    "scripts": [
+      "AFTERPAY"
+    ],
     "website": "https://www.afterpay.com/"
   },
   "Age Gate": {
@@ -3187,6 +3193,19 @@
     "oss": true,
     "website": "https://akaunting.com"
   },
+  "Akavita": {
+    "cats": [
+      10,
+      36
+    ],
+    "description": "Akavita is a Russian-based service offering analytics and advertising solutions.",
+    "icon": "Akavita.svg",
+    "saas": true,
+    "scriptSrc": [
+      "adlik\\.akavita\\.com/"
+    ],
+    "website": "https://akavita.com"
+  },
   "Akero": {
     "cats": [
       32
@@ -3226,12 +3245,15 @@
       6
     ],
     "description": "Akinon is a cloud-based headless commerce platform with an integrated application suite including omnichannel and marketplace capabilities, mobile and in-store solutions, and an OMS.",
-    "icon": "akinon.png",
+    "icon": "Akinon.svg",
     "pricing": [
       "poa"
     ],
     "scriptSrc": [
       "cdn-mgsm\\.akinon\\.net/"
+    ],
+    "scripts": [
+      "\\.akinoncloud\\.com"
     ],
     "website": "https://www.akinon.com/"
   },
@@ -3599,6 +3621,24 @@
       "WordPress"
     ],
     "website": "https://aioseo.com"
+  },
+  "AllClients": {
+    "cats": [
+      32
+    ],
+    "description": "AllClients is an all-in-one platform that integrates contact management and marketing automation.",
+    "dom": [
+      "form[action*='www.allclients.com/']",
+      "iframe[href*='www.allclients.com/']"
+    ],
+    "icon": "AllClients.svg",
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://allclients.com"
   },
   "Allbookable": {
     "cats": [
@@ -5548,6 +5588,9 @@
     ],
     "description": "Appointo is a Shopify based booking engine from Sidepanda.",
     "icon": "Appointo.svg",
+    "js": {
+      "onRefreshAppointoWidget": ""
+    },
     "pricing": [
       "poa"
     ],
@@ -5557,6 +5600,9 @@
     "saas": true,
     "scriptSrc": [
       "/appointo-14/assets/appointo_bundle.js"
+    ],
+    "scripts": [
+      "app\\.appointo\\.me"
     ],
     "website": "https://www.sidepanda.com/appointo"
   },
@@ -5634,6 +5680,28 @@
       "cloud\\.appwrite\\.io"
     ]
   },
+  "Appzi": {
+    "cats": [
+      90
+    ],
+    "description": "Appzi is a customer experience software that is a user feedback and bug reporting tool.",
+    "icon": "Appzi.svg",
+    "js": {
+      "appzi.At": "",
+      "appziSettings": "",
+      "apzbtgtr": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "app\\.appzi\\.io/"
+    ],
+    "website": "https://www.appzi.com"
+  },
   "Aprimo": {
     "cats": [
       95
@@ -5699,6 +5767,25 @@
     },
     "oss": true,
     "website": "https://www.aquila-cms.com/"
+  },
+  "Arabot": {
+    "cats": [
+      52
+    ],
+    "description": "Arabot is a no-code chatbot platform designed to automate customer interactions and service fulfillment at scale.",
+    "icon": "Arabot.svg",
+    "js": {
+      "arabotChatScript": "",
+      "arabotSelector": "",
+      "injectArabotScript": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://arabot.io"
   },
   "Arastta": {
     "cats": [
@@ -5937,6 +6024,26 @@
     "icon": "arsys.svg",
     "website": "https://www.arsys.es"
   },
+  "ArtiBot": {
+    "cats": [
+      52,
+      53
+    ],
+    "description": "ArtiBot is a chatbot designed for websites, providing automated assistance and customer engagement through conversational interactions.",
+    "icon": "ArtiBot.svg",
+    "js": {
+      "ArtiBot": "",
+      "_artibotLauncherInitializer": "",
+      "artibotApi": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.artibot.ai"
+  },
   "Artifactory": {
     "cats": [
       47
@@ -6157,6 +6264,45 @@
     ],
     "website": "https://www.asgaros.de"
   },
+  "AskNicely": {
+    "cats": [
+      90
+    ],
+    "description": "AskNicely is a platform that measures and improves customer happiness using the Net Promoter Score (NPS) framework.",
+    "icon": "AskNicely.svg",
+    "js": {
+      "askNicelyConversation": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "static\\.asknice\\.ly/"
+    ],
+    "website": "https://www.asknicely.com"
+  },
+  "AskSpot": {
+    "cats": [
+      52
+    ],
+    "description": "AskSpot is an AI chatbot platform tailored for marketing, digital, and web development agencies.",
+    "icon": "AskSpot.svg",
+    "js": {
+      "askspot.Chatbot": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": [
+      "app\\.askspot\\.ai"
+    ],
+    "website": "https://askspot.ai"
+  },
   "Asksuite": {
     "cats": [
       104
@@ -6363,6 +6509,28 @@
     ],
     "website": "https://www.athenasearch.io"
   },
+  "Atlasmic": {
+    "cats": [
+      52
+    ],
+    "description": "Atlasmic is a live chat and business messenger platform designed to support modern online businesses.",
+    "icon": "Atlasmic.svg",
+    "js": {
+      "atlasmic": "",
+      "atlasmic.VERSION": "^([\\d\\.]+)$\\;version:\\1"
+    },
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scripts": [
+      "\\.atlasmic\\.com"
+    ],
+    "website": "https://atlasmic.com"
+  },
   "Atlassian Bitbucket": {
     "cats": [
       47
@@ -6382,6 +6550,9 @@
     "meta": {
       "application-name": "Bitbucket"
     },
+    "scripts": [
+      "com\\.atlassian\\.bitbucket"
+    ],
     "website": "https://www.atlassian.com/software/bitbucket/overview/"
   },
   "Atlassian Confluence": {
@@ -6760,6 +6931,18 @@
     ],
     "website": "https://www.automanager.io"
   },
+  "AutoOps": {
+    "cats": [
+      72
+    ],
+    "description": "AutoOps is an online scheduling tool that integrates with shop management softwares for auto shops.",
+    "icon": "AutoOps.svg",
+    "js": {
+      "AutoOps.addSourceTracking": ""
+    },
+    "saas": true,
+    "website": "https://www.autoops.com/"
+  },
   "Autocommerce": {
     "cats": [
       100
@@ -6778,6 +6961,21 @@
       "\\.autocommerce\\.io/"
     ],
     "website": "https://autocommerce.io"
+  },
+  "Autoconf": {
+    "cats": [
+      1
+    ],
+    "description": "Autoconf is a system designed for managing car dealership operations, including inventory, sales, and customer data.",
+    "icon": "Autoconf.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "static\\.autoconf\\.com"
+    ],
+    "website": "https://autoconf.com.br"
   },
   "Autoketing": {
     "cats": [

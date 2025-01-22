@@ -257,6 +257,24 @@
     ],
     "website": "https://www.5centscdn.net"
   },
+  "6Valley eCommerce CMS": {
+    "cats": [
+      1,
+      6
+    ],
+    "cookies": {
+      "6valley_session": ""
+    },
+    "description": "6Valley eCommerce CMS is a multi-vendor platform designed to facilitate business launches by providing tools for managing vendors, products, and transactions within an ecommerce ecosystem.",
+    "icon": "6ValleyEcommerceCMS.svg",
+    "pricing": [
+      "onetime"
+    ],
+    "scripts": [
+      "6valley_cookie_consent"
+    ],
+    "website": "https://6valley.app"
+  },
   "6sense": {
     "cats": [
       32,

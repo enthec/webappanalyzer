@@ -1193,6 +1193,19 @@
     ],
     "website": "https://onlim.com"
   },
+  "Onsen UI": {
+    "cats": [
+      26
+    ],
+    "description": "Onsen UI is an open-source HTML5 hybrid app framework offering mobile UI components for PhoneGap and Cordova development.",
+    "icon": "OnsenUI.svg",
+    "oss": true,
+    "saas": true,
+    "scriptSrc": [
+      "(/.*onsen.*min\\.js|.*angular-onsenui\\.min\\.js)"
+    ],
+    "website": "https://onsen.io"
+  },
   "Ookla Speedtest Custom": {
     "cats": [
       5

@@ -1138,6 +1138,27 @@
     "saas": true,
     "website": "https://weaverse.io"
   },
+  "Web CEO": {
+    "cats": [
+      10,
+      32,
+      54
+    ],
+    "description": "Web CEO is an all-in-one platform offering tools for SEO, digital marketing, and performance analytics.",
+    "icon": "WebCEO.svg",
+    "meta": {
+      "application-name": "^WebCEO$"
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.webceo\\.com/"
+    ],
+    "website": "https://www.webceo.com"
+  },
   "Web Font Loader": {
     "cats": [
       59
@@ -1397,6 +1418,23 @@
     ],
     "saas": true,
     "website": "https://www.webnode.com"
+  },
+  "WebQnA": {
+    "cats": [
+      52,
+      53
+    ],
+    "description": "WebQnA is a platform that offers generative AI chatbots for businesses to enhance customer interactions and support.",
+    "icon": "WebQnA.svg",
+    "js": {
+      "webqna": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://webqna.ai"
   },
   "WebRTC": {
     "cats": [
@@ -3177,6 +3215,18 @@
       "assets-cdn\\.woowup\\.com/"
     ],
     "website": "https://www.woowup.com"
+  },
+  "Word of Mouth": {
+    "cats": [
+      90
+    ],
+    "description": "Word of Mouth is a feedback platform that allows users to compare reviews and ratings for various services and businesses.",
+    "icon": "WOMO.svg",
+    "saas": true,
+    "scriptSrc": [
+      "www\\.womo\\.com\\.au/"
+    ],
+    "website": "https://www.wordofmouth.com.au"
   },
   "WordAds": {
     "cats": [
