@@ -19,8 +19,16 @@ class StructureFix:
             "url": self._fix_to_list,
             "xhr": self._fix_to_list,
             "robots": self._fix_to_list,
-            "dom": self._fix_to_list
+            "dom": self._fix_to_list,
+            "dns": self._dns_fix
         }
+
+    @staticmethod
+    def _dns_fix(current_detector) -> dict[str, list[str]]:
+        for k, v in current_detector.items():
+            if isinstance(v, str):
+                current_detector[k] = [v]
+        return current_detector
 
     @staticmethod
     def _fix_to_list(current_detector) -> list:

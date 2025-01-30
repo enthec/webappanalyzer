@@ -105,7 +105,9 @@
     ],
     "description": "IONOS is the web hosting and cloud partner for small and medium-sized businesses.",
     "dns": {
-      "SOA": "ns1\\d+\\.ui-dns\\.(?:de|org|biz|com)"
+      "SOA": [
+        "ns1\\d+\\.ui-dns\\.(?:de|org|biz|com)"
+      ]
     },
     "icon": "IONOS.svg",
     "pricing": [
@@ -568,7 +570,9 @@
     "cpe": "cpe:2.3:a:imgix:imgix:*:*:*:*:*:*:*:*",
     "description": "Imgix is a visual media platform for managing, processing, rendering, optimising and delivering your existing images.",
     "dns": {
-      "SOA": "\\.imgix\\.net"
+      "SOA": [
+        "\\.imgix\\.net"
+      ]
     },
     "dom": [
       "img[src*='.imgix.net/'], img[data-src*='.imgix.net/'], img[srcset*='.imgix.net/'], source[src*='.imgix.net/'], source[data-src*='.imgix.net/']"
@@ -1069,7 +1073,9 @@
     ],
     "description": "Infomaniak is a hosting company based in Geneva, Switzerland.",
     "dns": {
-      "SOA": "\\.infomaniak\\.ch"
+      "SOA": [
+        "\\.infomaniak\\.ch"
+      ]
     },
     "icon": "Infomaniak.svg",
     "pricing": [
@@ -2342,8 +2348,12 @@
     ],
     "description": "idCloudHost is a local web service provider based in Indonesia that offer a wide range of services including domain name registration and cloud hosting.",
     "dns": {
-      "NS": "ns\\d+\\.cloudhost\\.id",
-      "SOA": "ns\\d+\\.cloudhost\\.id"
+      "NS": [
+        "ns\\d+\\.cloudhost\\.id"
+      ],
+      "SOA": [
+        "ns\\d+\\.cloudhost\\.id"
+      ]
     },
     "icon": "idCloudHost.svg",
     "website": "https://idcloudhost.com"

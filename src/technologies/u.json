@@ -88,7 +88,9 @@
     ],
     "description": "UKFast is a business-to-business internet hosting company based in Manchester, UK.",
     "dns": {
-      "SOA": "\\.ukfast\\.net"
+      "SOA": [
+        "\\.ukfast\\.net"
+      ]
     },
     "icon": "UKFast.png",
     "pricing": [

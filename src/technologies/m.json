@@ -3637,7 +3637,9 @@
     ],
     "description": "Mittwald is a web hosting agency, established in 2003 in Espelkamp, Germany",
     "dns": {
-      "SOA": "ns\\d+\\.agenturserver\\.(?:de|co|it)"
+      "SOA": [
+        "ns\\d+\\.agenturserver\\.(?:de|co|it)"
+      ]
     },
     "icon": "Mittwald.svg",
     "pricing": [

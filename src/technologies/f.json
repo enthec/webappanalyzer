@@ -478,7 +478,9 @@
     ],
     "description": "FastComet is a hosting service company from San Francisco, California.",
     "dns": {
-      "SOA": "\\.fcomet\\.com"
+      "SOA": [
+        "\\.fcomet\\.com"
+      ]
     },
     "icon": "FastComet.svg",
     "pricing": [
@@ -3559,7 +3561,9 @@
     ],
     "description": "Funding Choices is a messaging tool that can help you comply with the EU General Data Protection Regulation (GDPR), and recover lost revenue from ad blocking users.",
     "dns": {
-      "SOA": "fundingchoicesmessages"
+      "SOA": [
+        "fundingchoicesmessages"
+      ]
     },
     "dom": [
       ".fc-consent-root, iframe[name='googlefcLoaded'], iframe[name='googlefcPresent'], .fc-dialog, .fc-choice-dialog"

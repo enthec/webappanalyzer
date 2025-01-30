@@ -141,7 +141,9 @@
     ],
     "description": "34SP.com specialises in website hosting, discount domain names, low cost VPS servers and dedicated servers.",
     "dns": {
-      "SOA": "ns(?:\\d+)?\\.34sp\\.com"
+      "SOA": [
+        "ns(?:\\d+)?\\.34sp\\.com"
+      ]
     },
     "icon": "34SP.com.svg",
     "pricing": [

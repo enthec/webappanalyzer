@@ -246,7 +246,9 @@
     ],
     "description": "ALL-INKL is a German-based web hosting provider that promises to offer high-performance services for fair prices.",
     "dns": {
-      "SOA": "\\.kasserver\\.com"
+      "SOA": [
+        "\\.kasserver\\.com"
+      ]
     },
     "icon": "ALL-INKL.svg",
     "pricing": [
@@ -308,7 +310,9 @@
     ],
     "description": "ANS is a UK-based IT services company specializing in cloud computing, managed services, and digital transformation solutions.",
     "dns": {
-      "SOA": "\\.ukfast\\.net"
+      "SOA": [
+        "\\.ukfast\\.net"
+      ]
     },
     "icon": "ANS.svg",
     "pricing": [
@@ -4009,7 +4013,9 @@
     ],
     "description": "Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds.",
     "dns": {
-      "CNAME": "^[a-z0-9]+\\.cloudfront.net\\.?$"
+      "CNAME": [
+        "^[a-z0-9]+\\.cloudfront.net\\.?$"
+      ]
     },
     "headers": {
       "Via": "\\(CloudFront\\)$",
@@ -4191,7 +4197,9 @@
     ],
     "description": "Amazon Web Services (AWS) is a comprehensive cloud services platform offering compute power, database storage, content delivery and other functionality.",
     "dns": {
-      "NS": "\\.awsdns-"
+      "NS": [
+        "\\.awsdns-"
+      ]
     },
     "headers": {
       "x-amz-delete-marker": "",
@@ -6094,7 +6102,9 @@
     ],
     "description": "Aruba.it is an Italian company mainly active in the web hosting and domain registration businesses.",
     "dns": {
-      "SOA": "\\.technorail\\.com"
+      "SOA": [
+        "\\.technorail\\.com"
+      ]
     },
     "headers": {
       "x-servername": "\\.aruba\\.it"
@@ -6633,7 +6643,9 @@
     ],
     "description": "Statuspage is a status and incident communication tool.",
     "dns": {
-      "TXT": "status-page-domain-verification="
+      "TXT": [
+        "status-page-domain-verification="
+      ]
     },
     "headers": {
       "X-StatusPage-Skip-Logging": "",
@@ -7361,7 +7373,9 @@
       31
     ],
     "dns": {
-      "CNAME": "azioncdn\\.net\\.?$"
+      "CNAME": [
+        "azioncdn\\.net\\.?$"
+      ]
     },
     "dom": [
       "link[href*='.azion.com/'][rel='canonical']"

@@ -1370,8 +1370,12 @@
     ],
     "description": "WebHostUK is a UK based web hosting company offering cheap yet reliable and secure web hosting solutions on both Linux and Windows servers.",
     "dns": {
-      "NS": "ns2\\d\\.dnshostcentral\\.com",
-      "SOA": "ns2\\d\\.dnshostcentral\\.com"
+      "NS": [
+        "ns2\\d\\.dnshostcentral\\.com"
+      ],
+      "SOA": [
+        "ns2\\d\\.dnshostcentral\\.com"
+      ]
     },
     "icon": "WebHostUK.svg",
     "pricing": [
@@ -3527,7 +3531,9 @@
     ],
     "description": "World4You operates homepage and domain solutions. World4Youu operates data centers in Austria and provides data protection.",
     "dns": {
-      "SOA": "ns\\d+\\.world4you\\.at"
+      "SOA": [
+        "ns\\d+\\.world4you\\.at"
+      ]
     },
     "icon": "World4You.svg",
     "pricing": [

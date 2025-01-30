@@ -3815,8 +3815,12 @@
     "cpe": "cpe:2.3:a:cloudflare:cloudflare:*:*:*:*:*:*:*:*",
     "description": "Cloudflare is a web-infrastructure and website-security company, providing content-delivery-network services, DDoS mitigation, Internet security, and distributed domain-name-server services.",
     "dns": {
-      "NS": "\\.cloudflare\\.com",
-      "SOA": "\\.cloudflare\\.com"
+      "NS": [
+        "\\.cloudflare\\.com"
+      ],
+      "SOA": [
+        "\\.cloudflare\\.com"
+      ]
     },
     "dom": [
       "img[src*='//cdn.cloudflare']"
@@ -5250,7 +5254,9 @@
     ],
     "description": "Contabo is a German hosting provider, previously known by the name Giga-International.",
     "dns": {
-      "SOA": "\\.contabo\\.net"
+      "SOA": [
+        "\\.contabo\\.net"
+      ]
     },
     "icon": "Contabo.svg",
     "pricing": [

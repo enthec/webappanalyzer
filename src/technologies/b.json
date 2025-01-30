@@ -2215,8 +2215,12 @@
     ],
     "description": "Bluehost is a large web host known for its WordPress expertise, variety of “one-stop-shop” services, and bargain prices.",
     "dns": {
-      "NS": "\\.bluehost\\.com",
-      "SOA": "\\.bluehost\\.com"
+      "NS": [
+        "\\.bluehost\\.com"
+      ],
+      "SOA": [
+        "\\.bluehost\\.com"
+      ]
     },
     "headers": {
       "host-header": "c2hhcmVkLmJsdWVob3N0LmNvbQ=="
