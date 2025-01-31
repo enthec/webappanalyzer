@@ -148,7 +148,7 @@ Find the JSON schema at [`schema.json`](https://github.com/enthec/webappanalyzer
 |--------------------------|---------------------|-----------------------------------------------------------------------------------------------|-------|-------------------------------------|
 | **cookies**              | `{string:string}`   | Cookies                                                                                       | true  | `{"cookie_name": "Cookie value"}`   | 
 | **dom**                  | [DOM](#DOM)         | [Query selectors](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll) | false | `["img[src*='example']"]`           | 
-| **dns**                  | `{string:[]string}` | DNS records                                                                                   | true  | `{"MX": "example\\.com"}`           | 
+| **dns**                  | `{string:[]string}` | DNS records                                                                                   | true  | `{"MX": ["example\\.com"]}`         | 
 | **js**                   | `{string:string}`   | JavaScript properties                                                                         | true  | `{"jQuery.fn.jquery": ""}`          | 
 | **headers**              | `{string:string}`   | HTTP response headers                                                                         | true  | `{"X-Powered-By": "^WordPress$"}`   | 
 | **text**                 | `[]string`          | Matches plain text                                                                            | true  | `["\bexample\b"]`                   | 
