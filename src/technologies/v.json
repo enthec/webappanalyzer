@@ -580,8 +580,12 @@
     ],
     "description": "VentraIP is the largest privately owned web host and domain name registrar in Australia.",
     "dns": {
-      "NS": "\\.(?:nameserver|hostingplatform)\\.net\\.au",
-      "SOA": "\\.(?:nameserver|hostingplatform)\\.net\\.au"
+      "NS": [
+        "\\.(?:nameserver|hostingplatform)\\.net\\.au"
+      ],
+      "SOA": [
+        "\\.(?:nameserver|hostingplatform)\\.net\\.au"
+      ]
     },
     "icon": "VentraIP.svg",
     "pricing": [
@@ -706,7 +710,9 @@
     ],
     "description": "Vercel is a cloud platform for static frontends and serverless functions.",
     "dns": {
-      "SOA": "\\.vercel-dns\\.com"
+      "SOA": [
+        "\\.vercel-dns\\.com"
+      ]
     },
     "headers": {
       "server": "^now|Vercel$",
@@ -2305,7 +2311,9 @@
     ],
     "description": "Vultr is a cloud computing service provider.",
     "dns": {
-      "NS": "\\.vultr\\.com"
+      "NS": [
+        "\\.vultr\\.com"
+      ]
     },
     "icon": "Vultr.svg",
     "website": "https://www.vultr.com"

@@ -2112,7 +2112,9 @@
     ],
     "description": "DomainFactory has been operating as a web hosting company. It is owned by GoDaddy and targets businesses in Austria and Germany.",
     "dns": {
-      "SOA": "ns(?:\\d+)?\\.namespace4you\\.de"
+      "SOA": [
+        "ns(?:\\d+)?\\.namespace4you\\.de"
+      ]
     },
     "icon": "DomainFactory.svg",
     "pricing": [
@@ -2686,8 +2688,12 @@
     ],
     "description": "DreamHost is a Los Angeles-based web hosting provider and domain name registrar.",
     "dns": {
-      "NS": "ns\\d+\\.dreamhost\\.com",
-      "SOA": "ns\\d+\\.dreamhost\\.com"
+      "NS": [
+        "ns\\d+\\.dreamhost\\.com"
+      ],
+      "SOA": [
+        "ns\\d+\\.dreamhost\\.com"
+      ]
     },
     "icon": "DreamHost.svg",
     "pricing": [
@@ -2821,7 +2827,9 @@
     ],
     "cpe": "cpe:2.3:a:dropbox:dropbox:*:*:*:*:*:*:*:*",
     "dns": {
-      "TXT": "dropbox-domain-verification"
+      "TXT": [
+        "dropbox-domain-verification"
+      ]
     },
     "icon": "Dropbox.svg",
     "website": "https://www.dropbox.com"

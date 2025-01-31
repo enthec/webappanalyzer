@@ -119,7 +119,9 @@
     ],
     "description": "REG.RU is a web hosting provider and internet domain registrar.",
     "dns": {
-      "SOA": "(?:\\.hosting)?\\.reg\\.ru"
+      "SOA": [
+        "(?:\\.hosting)?\\.reg\\.ru"
+      ]
     },
     "icon": "REG.RU.svg",
     "pricing": [
@@ -2098,7 +2100,9 @@
     ],
     "description": "Render Better is automated site speed and core web vital optimisation platform for Shopify.",
     "dns": {
-      "CNAME": "\\.renderbetter\\.app"
+      "CNAME": [
+        "\\.renderbetter\\.app"
+      ]
     },
     "icon": "renderbetter.svg",
     "js": {

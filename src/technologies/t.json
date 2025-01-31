@@ -924,8 +924,12 @@
     ],
     "description": "Tangled Network provides a managed services in website devleopment, web and database hosting and domain registration, with a focus on everything managed for small and medium sized businesses.",
     "dns": {
-      "NS": "\\.tanglednetwork\\.com",
-      "SOA": "\\.tanglednetwork\\.com"
+      "NS": [
+        "\\.tanglednetwork\\.com"
+      ],
+      "SOA": [
+        "\\.tanglednetwork\\.com"
+      ]
     },
     "headers": {
       "X-Hosting-Provider": "Tangled Network"
