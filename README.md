@@ -145,24 +145,24 @@ Find the JSON schema at [`schema.json`](https://github.com/enthec/webappanalyzer
 
 ### Patterns
 
-| Field                    | Type                | Description                                                                                   | Regex | Example                             | 
-|--------------------------|---------------------|-----------------------------------------------------------------------------------------------|-------|-------------------------------------|
-| **cookies**              | `{string:string}`   | Cookies                                                                                       | true  | `{"cookie_name": "Cookie value"}`   | 
-| **dom**                  | [DOM](#DOM)         | [Query selectors](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll) | false | `["img[src*='example']"]`           | 
-| **dns**                  | `{string:[]string}` | DNS records                                                                                   | true  | `{"MX": ["example\\.com"]}`         | 
-| **js**                   | `{string:string}`   | JavaScript properties                                                                         | true  | `{"jQuery.fn.jquery": ""}`          | 
-| **headers**              | `{string:string}`   | HTTP response headers                                                                         | true  | `{"X-Powered-By": "^WordPress$"}`   | 
-| **text**                 | `[]string`          | Matches plain text                                                                            | true  | `["\bexample\b"]`                   | 
-| **css**                  | `[]string`          | CSS rules                                                                                     | true  | `["\\.example-class"]`              | 
-| **probe**                | `{string:string}`   | Request a URL to test for its existence or match text content                                 | false | `{"/path": "Example text"}`         | 
-| **robots**               | `[]string`          | Robots.txt contents                                                                           | false | `["Disallow: /unique-path/"]`       | 
-| **url**                  | `[]string`          | Full URL of the page                                                                          | true  | `["^https?//.+\\.wordpress\\.com"]` | 
-| **xhr**                  | `[]string`          | Hostnames of XHR requests                                                                     | true  | `["cdn\\.netlify\\.com"]`           | 
-| **meta**                 | `{string:string}`   | HTML meta tags                                                                                | true  | `{"generator": "^WordPress$"}`      | 
-| **scriptSrc**            | `[]string`          | URLs of JavaScript files                                                                      | true  | `["jquery\\.js"]`                   | 
-| **scripts**              | `[]string`          | JavaScript source code                                                                        | true  | `["<a [^>]*href=\"index.html"]`     | 
-| ~~**html**~~(deprecated) | `[]string`          | HTML source code                                                                              | true  | `{"generator": "^WordPress$"}`      | 
-| **certIssuer**           | `string`            | SSL certificate issuer                                                                        | false | `"Let's Encrypt"`                   | 
+| Field                    | Type                | Description                                                                                   | Regex | Example                                         | 
+|--------------------------|---------------------|-----------------------------------------------------------------------------------------------|-------|-------------------------------------------------|
+| **cookies**              | `{string:string}`   | Cookies                                                                                       | true  | `{"cookie_name": "Cookie value"}`               | 
+| **dom**                  | [DOM](#DOM)         | [Query selectors](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll) | false | `["img[src*='example']"]`                       | 
+| **dns**                  | `{string:[]string}` | DNS records                                                                                   | true  | `{"MX": ["example\\.com"]}`                     | 
+| **js**                   | `{string:string}`   | JavaScript properties                                                                         | true  | `{"jQuery.fn.jquery": ""}`                      | 
+| **headers**              | `{string:string}`   | HTTP response headers                                                                         | true  | `{"X-Powered-By": "^WordPress$"}`               | 
+| **text**                 | `[]string`          | Matches plain text                                                                            | true  | `["\bexample\b"]`                               | 
+| **css**                  | `[]string`          | CSS rules                                                                                     | true  | `["\\.example-class"]`                          | 
+| **probe**                | `{string:string}`   | Request a URL to test for its existence or match text content                                 | false | `{"/path": "Example text"}`                     | 
+| **robots**               | `[]string`          | Robots.txt contents                                                                           | false | `["Disallow: /unique-path/"]`                   | 
+| **url**                  | `[]string`          | Full URL of the page                                                                          | true  | `["^https?//.+\\.wordpress\\.com"]`             | 
+| **xhr**                  | `[]string`          | Hostnames of XHR requests                                                                     | true  | `["cdn\\.netlify\\.com"]`                       | 
+| **meta**                 | `{string:string}`   | HTML meta tags                                                                                | true  | `{"generator": "^WordPress$"}`                  | 
+| **scriptSrc**            | `[]string`          | URLs of JavaScript files                                                                      | true  | `["jquery\\.js"]`                               | 
+| **scripts**              | `[]string`          | JavaScript source code                                                                        | true  | `["function webpackJsonpCallback\\(data\\) {"]` | 
+| ~~**html**~~(deprecated) | `[]string`          | HTML source code                                                                              | true  | `["<a [^>]*href=\"index.html"]`                 | 
+| **certIssuer**           | `string`            | SSL certificate issuer                                                                        | false | `"Let's Encrypt"`                               | 
 
 ## Patterns
 
