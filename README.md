@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/github/license/enthec/webappanalyzer.svg)](https://opensource.org/license/gpl-3-0/)
 
 > [!NOTE]
-> This project is a continuation of the iconic [**Wappalyzer**](https://github.com/wappalyzer/wappalyzer) that went private recently on August 2023.
+> This project is a continuation of the iconic [**Wappalyzer**](https://github.com/wappalyzer/wappalyzer) that went private in August 2023.
 > 
 > First and foremost, Enthec is committed not to set this repo private at any moment since this would be out of the scope of the company's business.
 > 
