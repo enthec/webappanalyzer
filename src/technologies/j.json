@@ -1309,7 +1309,7 @@
     ],
     "description": "jQuery Popup Overlay is a responsive overlay which lets you create modal windows, tooltips, and more.",
     "scriptSrc": [
-      "(\\d+\\.\\d+\\.\\d+)/jquery\\.popupoverlay\\.js\\;version:\\1",
+      "(\\d+\\.\\d+\\.\\d+)/jquery\\.popupoverlay\\.js\\;version:\\1"
     ],
     "website": "https://www.npmjs.com/package/jquery-popup-overlay"
   },
