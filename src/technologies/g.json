@@ -2943,7 +2943,7 @@
       "grafana\\..+\\.com/public/build/"
     ],
     "scripts": [
-      ".+latestVersion\":\"[\\d\\.\\w\\-]+\"\\,\"version\":\"([\\d\\.]+)\\;version:\\1\\;confidence:75"
+      "latestVersion\":\"[\\d\\.\\w\\-]+\"\\,\"version\":\"([\\d\\.]+)\\;version:\\1\\;confidence:75"
     ],
     "website": "https://grafana.com"
   },
