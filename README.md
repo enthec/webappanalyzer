@@ -257,20 +257,6 @@ Dom data type can be either:
 }
 ```
 
-### Pricing
+### Cost
 
-Cost indicator (based on a typical plan or average monthly price) and available pricing models. For paid products only.
-
-**One of**:
-
-- `low`: Less than US $100/mo
-- `mid`: Between US \$100-\$1,000/mo
-- `high`: More than US \$1,000/mo
-
-**Plus any of**:
-
-- `freemium`: Free plan available
-- `onetime`: One-time payments accepted
-- `recurring`: Subscriptions available
-- `poa`: Price on asking
-- `payg`: Pay as you go (e.g. commissions or usage-based fees)
+Full free software. :) You still require to deploy your infra with for example solr.
