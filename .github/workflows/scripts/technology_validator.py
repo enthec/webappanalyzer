@@ -409,4 +409,4 @@ class TechnologyProcessor:
 if __name__ == '__main__':
     # for letter in string.ascii_lowercase + "_":
     #     TechnologiesValidator(os.getenv("TECH_FILE_NAME", f"{letter}.json")).validate()
-    TechnologiesValidator(os.getenv("TECH_FILE_NAME", f"a.json")).validate()
+    TechnologiesValidator(os.getenv("TECH_FILE_NAME")).validate()
