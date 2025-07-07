@@ -581,7 +581,9 @@
     ],
     "description": "Saba.Host is a total web-hosting solutions. It provides shared hosting, WordPress hosting, dedicated server, virtual private server (VPS), SSL and more.",
     "dns": {
-      "SOA": "\\.saba\\.host"
+      "SOA": [
+        "\\.saba\\.host"
+      ]
     },
     "icon": "Saba.Host.svg",
     "pricing": [
@@ -748,8 +750,12 @@
     ],
     "description": "Sakura Internet is a web hosting provider that has been operating for almost 30 years.",
     "dns": {
-      "NS": "\\.gslbN\\.sakura\\.ne\\.jp",
-      "SOA": "tech\\.sakura\\.ad\\.jp"
+      "NS": [
+        "\\.gslbN\\.sakura\\.ne\\.jp"
+      ],
+      "SOA": [
+        "tech\\.sakura\\.ad\\.jp"
+      ]
     },
     "icon": "Sakura Internet.svg",
     "pricing": [
@@ -5374,8 +5380,12 @@
     ],
     "description": "SiteGround is a web hosting service.",
     "dns": {
-      "NS": "ns\\d+\\.c\\d+\\.sgvps\\.net",
-      "SOA": "\\.siteground\\.net"
+      "NS": [
+        "ns\\d+\\.c\\d+\\.sgvps\\.net"
+      ],
+      "SOA": [
+        "\\.siteground\\.net"
+      ]
     },
     "headers": {
       "host-header": "192fc2e7e50945beb8231a492d6a8024|b7440e60b07ee7b8044761568fab26e8|624d5be7be38418a3e2a818cc8b7029b|6b7412fb82ca5edfd0917e3957f05d89"
@@ -9937,7 +9947,9 @@
     ],
     "description": "Strato is an internet hosting service provider headquartered in Berlin, Germany which provide dedicated server hosting, a website builder and a cloud storage services.",
     "dns": {
-      "SOA": "\\.strato-rz\\.de"
+      "SOA": [
+        "\\.strato-rz\\.de"
+      ]
     },
     "icon": "Strato.svg",
     "pricing": [
@@ -10077,7 +10089,9 @@
     "cpe": "cpe:2.3:a:stripe:stripe:*:*:*:*:*:*:*:*",
     "description": "Stripe offers online payment processing for internet businesses as well as fraud prevention, invoicing and subscription management.",
     "dns": {
-      "TXT": "stripe-verification="
+      "TXT": [
+        "stripe-verification="
+      ]
     },
     "dom": [
       "a[href*='billing.stripe.com']",

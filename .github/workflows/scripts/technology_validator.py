@@ -200,6 +200,26 @@ class DictValidator(RegexValidator):
         return [dict]
 
 
+class DNSValidator(DictValidator):
+    def _validate(self, tech_name: str, data: Any) -> bool:
+        if not super()._validate(tech_name, data):
+            return False
+        for k, v in data.items():
+            if not isinstance(k, str):
+                self._set_custom_error(InvalidKeyException(f"key in DNS for tech '{tech_name}' has an invalid type. 'str' is required, got type '{type(k).__name__}' -> '{k}'"))
+                return False
+            if not isinstance(v, list):
+                self._set_custom_error(InvalidKeyException(f"value in DNS for tech '{tech_name}' has an invalid type. 'list' is required, got type '{type(v).__name__}' -> '{v}'"))
+                return False
+            for record in v:
+                if not isinstance(record, str):
+                    self._set_custom_error(InvalidTypeForFieldException(f"Invalid type for dns in tech '{tech_name}', selector '{v}' '{record}' key must be string!"))
+                    return False
+                if not self._validate_regex(tech_name, record):
+                    return False
+        return True
+
+
 class CategoryValidator(ArrayValidator):
     def __init__(self, categories: list[int], required: bool = False):
         super().__init__(required)
@@ -323,7 +343,7 @@ class TechnologiesValidator:
             "requiresCategory": CategoryValidator(self._CATEGORIES),
             "cookies": DictValidator(contains_regex=True),
             "dom": DomValidator(),
-            "dns": DictValidator(contains_regex=True),
+            "dns": DNSValidator(contains_regex=True),
             "js": DictValidator(contains_regex=True),
             "headers": DictValidator(contains_regex=True),
             "text": ArrayValidator(contains_regex=True),

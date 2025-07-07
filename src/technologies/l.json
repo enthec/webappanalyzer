@@ -971,7 +971,9 @@
     ],
     "description": "Leaseweb is an Infrastructure-as-a-Service (IaaS) provider offering dedicated servers, CDN, cloud hosting and hybrid cloud on a global network.",
     "dns": {
-      "SOA": "\\.leaseweb\\.nl"
+      "SOA": [
+        "\\.leaseweb\\.nl"
+      ]
     },
     "icon": "Leaseweb.svg",
     "pricing": [
@@ -1798,7 +1800,9 @@
     ],
     "description": "Liquid Web is a US-based host offering premium managed web hosting solutions.",
     "dns": {
-      "SOA": "\\.liquidweb\\.com"
+      "SOA": [
+        "\\.liquidweb\\.com"
+      ]
     },
     "headers": {
       "x-lw-cache": ""
@@ -2774,7 +2778,9 @@
       103
     ],
     "dns": {
-      "TXT": "loom-verification"
+      "TXT": [
+        "loom-verification"
+      ]
     },
     "icon": "Loom.svg",
     "pricing": [
