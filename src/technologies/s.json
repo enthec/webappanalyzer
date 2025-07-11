@@ -11745,7 +11745,7 @@
   
   "Sentinel Monitoring (Semont)": {
     "description": "An Intrusion Detection and Prevention System (IDPS) for web applications.",
-    "website": "https://github.com/sentinel-monitoring/webappanalyzer",
+    "website": "https://smanrancaekek.sch.id/sentinel-monitoring/",
     "categories": ["22"],
     "icon": "icons/semont.svg",
     "headers": {
