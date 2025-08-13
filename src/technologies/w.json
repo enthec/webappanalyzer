@@ -2177,7 +2177,7 @@
     "cats": [
       22
     ],
-      "icon": "websphere.svg",
+    "icon": "websphere.svg",
     "cpe":"cpe:2.3:a:ibm:websphere_application_server:-:*:*:*:*:*:*:*",
     "cookies": {
       "(?i)ltpatoken": ""
