@@ -2183,16 +2183,6 @@
     },
     "website": "https://www.ibm.com/products/websphere-application-server"
   },
-  "Websale": {
-    "cats": [
-      6
-    ],
-    "cookies": {
-      "websale_ac": ""
-    },
-    "icon": "Websale.png",
-    "website": "https://websale.de"
-  },
   "WebsPlanet": {
     "cats": [
       1
