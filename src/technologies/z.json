@@ -384,7 +384,6 @@
       "zenbasket-platform": "",
       "generator": "ZenBasket;confidence:50"
     },
-    "html": "<meta[^>]*name=[\"']zenbasket-platform[\"'][^>]*>",
     "pricing": [
       "low",
       "mid",
