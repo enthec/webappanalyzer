@@ -1395,6 +1395,19 @@
     ],
     "website": "https://wordpress.org/plugins/really-simple-captcha"
   },
+  "Really Simple SSL & Security": {
+    "cats": [
+      16
+    ],
+    "dom": {
+      "body[data-rsssl]": {
+        "exists": ""
+      }
+    },
+    "description": "Really Simple SSL & Security is an easy to install and performant security solution for WordPress.",
+    "website": "https://really-simple-ssl.com",
+    "icon": "really-simple-ssl.png"
+  },
   "Realytics": {
     "cats": [
       10
@@ -4640,6 +4653,17 @@
     "icon": "Rust.svg",
     "oss": true,
     "website": "https://www.rust-lang.org"
+  },
+  "Rumvision": {
+    "cats": [
+      78
+    ],
+    "js": {
+      "rumv_config": ""
+    },
+    "description": "Rumvision is a front-end performance monitoring service",
+    "website": "https://www.rumvision.com/",
+    "icon": "Rumvision.png"
   },
   "RxJS": {
     "cats": [

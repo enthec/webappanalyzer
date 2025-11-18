@@ -1028,6 +1028,52 @@
     ],
     "website": "https://www.nexive.it"
   },
+  "Next.js App Router": {
+    "cats": [
+      12,
+      22
+    ],
+    "js": {
+      "next.appDir": "true"
+    },
+    "implies": [
+      "Next.js"
+    ],
+    "description": "The Next.js App Router is a new paradigm for building applications using React's latest features.",
+    "website": "https://nextjs.org/docs/app",
+    "icon": "Next.js.svg"
+  },
+  "Next.js Page Router SSG": {
+    "cats": [
+      57
+    ],
+    "js": {
+      ".__NEXT_DATA__.autoExport": "true",
+      ".__NEXT_DATA__.gsp": "true",
+      ".__NEXT_DATA__.nextExport": "true"
+    },
+    "implies": [
+      "Next.js"
+    ],
+    "description": "Next.js Static Site Generation.",
+    "website": "https://nextjs.org/docs/pages/building-your-application/rendering/static-site-generation",
+    "icon": "Next.js.svg"
+  },
+  "Next.js Page Router SSR": {
+    "cats": [
+      22
+    ],
+    "js": {
+      ".__NEXT_DATA__.gip": "true",
+      ".__NEXT_DATA__.gssp": "true"
+    },
+    "implies": [
+      "Next.js"
+    ],
+    "description": "Next.js Server-Side Rendering.",
+    "website": "https://nextjs.org/docs/pages/building-your-application/rendering/server-side-rendering",
+    "icon": "Next.js.svg"
+  },
   "Next Basket": {
     "cats": [
       6
@@ -1788,6 +1834,18 @@
       "\\.stackla\\.com/"
     ],
     "website": "https://www.nosto.com/products/visual-ugc/"
+  },
+  "Nostra": {
+    "cats": [
+      92
+    ],
+    "js": {
+      "Nostra": "",
+      "NostraEventManager": ""
+    },
+    "description": "Nostra is a web performance optimisation solution.",
+    "website": "https://www.nostra.ai/",
+    "icon": "Nostra.png"
   },
   "Noticeable": {
     "cats": [

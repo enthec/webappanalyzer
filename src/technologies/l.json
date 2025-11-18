@@ -476,6 +476,20 @@
     ],
     "website": "https://www.laybuy.com"
   },
+  "Layers": {
+    "cats": [
+      29
+    ],
+    "js": {
+      "Layers": ""
+    },
+    "implies": [
+      "Shopify"
+    ],
+    "description": "Layers is a site search and merchandising platform designed to help ecommerce.",
+    "website": "https://www.uselayers.com/",
+    "icon": "Layers.png"
+  },
   "LayUp": {
     "cats": [
       41
@@ -3353,6 +3367,24 @@
       "/dist/tgs-player\\.js"
     ],
     "website": "https://lottiefiles.com"
+  },
+  "Lovable": {
+    "cats": [
+      1
+    ],
+    "dom": {
+      "link[href*='/lovable-uploads/']": {
+        "exists": ""
+      }
+    },
+    "meta": {
+      "author": [
+        "lovable"
+      ]
+    },
+    "description": "Lovable is an AI-powered, no-code platform that lets users build functional web apps from natural language prompts instead of writing code.",
+    "website": "https://lovable.dev/",
+    "icon": "Lovable.png"
   },
   "Loyalis": {
     "cats": [

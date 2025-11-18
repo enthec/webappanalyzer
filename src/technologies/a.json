@@ -2303,6 +2303,19 @@
     ],
     "website": "https://www.adobe.com/marketing/experience-manager.html"
   },
+  "Adobe Experience Manager Edge Delivery Services": {
+    "cats": [
+      1
+    ],
+    "scriptSrc": [
+      "^.+/scripts/aem\\.js$",
+      "^.+/scripts/lib-franklin\\.js$"
+    ],
+    "description": "Edge Delivery Services in Adobe Experience Manager Sites as a Cloud Service, also know as Helix, Franklin, Next-Generation Composability is a fast and lightweight content management system from Adobe.",
+    "website": "https://www.aem.live",
+    "cpe": "cpe:2.3:a:adobe:experience_manager:*:*:*:*:*:*:*:*",
+    "icon": "Adobe Experience Platform.svg"
+  },
   "Adobe Experience Manager Franklin": {
     "cats": [
       1
@@ -3681,6 +3694,48 @@
     ],
     "oss": true,
     "website": "https://aksaracms.com"
+  },
+  "Alia": {
+    "cats": [
+      100,
+      110
+    ],
+    "js": {
+      "alia": ""
+    },
+    "implies": [
+      "Shopify"
+    ],
+    "description": "Alia is a Shopify app to design Email and SMS sign-up pop-up units",
+    "website": "https://www.alialearn.com/",
+    "icon": "Alia.png"
+  },
+  "All in One SEO": {
+    "cats": [
+      54,
+      87
+    ],
+    "dom": {
+      "script.aioseo-schema": {}
+    },
+    "html": [
+      "<!-- all in one seo ([\\d.]+) \\;version:\\1",
+      "<!-- all in one seo pack ([\\d.]+) \\;version:\\1",
+      "<!-- all in one seo pro ([\\d.]+) \\;version:pro \\1"
+    ],
+    "meta": {
+      "generator": [
+        "^all in one seo \\(aioseo\\) ([\\d\\.]+)\\;version:\\1",
+        "^all in one seo pro \\(aioseo\\) ([\\d\\.]+)\\;version:pro \\1"
+      ]
+    },
+    "implies": [
+      "WordPress"
+    ],
+    "description": "All in One SEO optimizes a WordPress website and its content for search engines.",
+    "website": "https://aioseo.com",
+    "cpe": "cpe:2.3:a:aioseo:all_in_one_seo:*:*:*:*:*:wordpress:*:*",
+    "icon": "AIOSEO.svg"
   },
   "AlMatjar": {
     "cats": [
@@ -5836,6 +5891,17 @@
       "adrum"
     ],
     "website": "https://appdynamics.com"
+  },
+  "APPLOVIN": {
+    "cats": [
+      36
+    ],
+    "scriptSrc": [
+      "\\.applovin\\.com"
+    ],
+    "description": "APPLOVIN is an advertising platform.",
+    "website": "https://www.applovin.com/",
+    "icon": "APPLOVIN.png"
   },
   "AppNexus": {
     "cats": [
