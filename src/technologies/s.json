@@ -13174,5 +13174,16 @@
       "styled": ""
     },
     "website": "https://styled-components.com"
+  },
+
+    "Sentinel Monitoring (Semont)": {
+    "description": "An Intrusion Detection and Prevention System (IDPS) for web applications.",
+    "website": "https://smanrancaekek.sch.id/sentinel-monitoring/",
+    "categories": ["22"],
+    "icon": "icons/semont.svg",
+    "headers": {
+      "X-Powered-By": "Sentinel Monitoring \\(Semont\\)"
+    },
+    "oss": true
   }
 }
