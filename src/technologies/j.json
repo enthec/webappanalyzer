@@ -881,6 +881,9 @@
     "cats": [
       1
     ],
+    "cookies": {
+      "joomla_[a-z0-9]+": ""
+    },
     "cpe": "cpe:2.3:a:joomla:joomla\\!:*:*:*:*:*:*:*:*",
     "description": "Joomla is a free and open-source content management system for publishing web content.",
     "dom": [
@@ -1379,7 +1382,7 @@
     "scriptSrc": [
       "jquery",
       "/jquery(?:-(\\d+\\.\\d+\\.\\d+))[/.-]\\;version:\\1",
-      "/(\\d+\\.\\d+\\.\\d+)/jquery[/.-][^u]\\;version:\\1"
+      "/(\\d+\\.\\d+\\.\\d+)/jquery(?!\\.popupoverlay\\.js)[/.-][^u]\\;version:\\1"
     ],
     "website": "https://jquery.com"
   },

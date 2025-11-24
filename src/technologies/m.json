@@ -788,6 +788,30 @@
     "saas": true,
     "website": "https://mahara.org"
   },
+  "Maho": {
+    "cats": [
+      6,
+      1
+    ],
+    "cookies": {
+      "maho_session": ""
+    },
+    "description": "Maho is a modern, open-source ecommerce platform forked from OpenMage, offering enhanced developer experience while maintaining Magento 1 compatibility.",
+    "icon": "Maho.svg",
+    "implies": [
+      "MySQL",
+      "PHP"
+    ],
+    "scriptSrc": [
+      "js/maho-autocomplete\\.js",
+      "js/maho-captcha\\.js",
+      "js/maho-dialog\\.js",
+      "js/maho-load-on-intent\\.js",
+      "js/maho-passkey-tools\\.js",
+      "js/maho-tree\\.js"
+    ],
+    "website": "https://mahocommerce.com"
+  },
   "MailChimp": {
     "cats": [
       32,
@@ -2520,6 +2544,9 @@
     "cats": [
       8
     ],
+    "cookies": {
+      "wiki\\d+_session": ""
+    },
     "cpe": "cpe:2.3:a:mediawiki:mediawiki:*:*:*:*:*:*:*:*",
     "description": "MediaWiki is a free and open-source wiki engine.",
     "dom": [
@@ -3408,8 +3435,9 @@
       18
     ],
     "cookies": {
-      "ASP.NET_SessionId": "",
-      "ASPSESSION": ""
+      "ASPSESSION": "",
+      "ASP\\.NET_SessionId": "",
+      "\\.ASPXAUTH": ""
     },
     "cpe": "cpe:2.3:a:microsoft:asp.net:*:*:*:*:*:*:*:*",
     "description": "ASP.NET is an open-source, server-side web-application framework designed for web development to produce dynamic web pages.",
@@ -4515,6 +4543,18 @@
     "saas": true,
     "website": "https://moder.fi"
   },
+  "Modern Image Formats": {
+    "cats": [
+      87,
+      92
+    ],
+    "description": "Performance plugin from the WordPress Performance Team, which adds support for outputting images in WebP or AVIF format and supports the `picture` element to enable format fallbacks.",
+    "icon": "modern-image-formats.svg",
+    "meta": {
+      "generator": "^webp-uploads ([\\d.]+)?\\;version:\\1"
+    },
+    "website": "https://wordpress.org/plugins/webp-uploads/"
+  },
   "Modernizr": {
     "cats": [
       59
@@ -5026,6 +5066,17 @@
       "\\.monitus\\.net/"
     ],
     "website": "https://www.monitus.net"
+  },
+  "Monkcommerce": {
+    "cats": [
+      6
+    ],
+    "description": "Monk Commerce is a software-as-a-service that aims to increase income for small e-commerce businesses by deploying AOV boosting techniques like cart and post-purchase offers",
+    "icon": "Monk.svg",
+    "scriptSrc": [
+      "js\\.monkcommerce\\.app"
+    ],
+    "website": "https://monkcommerce.com/"
   },
   "Monkey HTTP Server": {
     "cats": [
