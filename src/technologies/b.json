@@ -639,14 +639,12 @@
     "cats": [
       1
     ],
-    "meta": {
-      "apple-mobile-web-app-title": [
-        "base44"
-      ]
-    },
     "description": "Base44 is an AI-powered, no-code platform that lets users build functional web apps from natural language prompts instead of writing code.",
-    "website": "https://base44.com/",
-    "icon": "Base44.png"
+    "icon": "Base44.png",
+    "meta": {
+      "apple-mobile-web-app-title": "base44"
+    },
+    "website": "https://base44.com/"
   },
   "BaseKit": {
     "cats": [
@@ -4528,21 +4526,22 @@
       1,
       51
     ],
+    "description": "Brizy Cloud is a platform for creating and managing websites using an intuitive drag-and-drop editor, allowing users to design and publish sites without any coding knowledge. ",
     "html": [
       "<div[^>]+class=[\"']brz-root__container"
     ],
+    "icon": "Brizy.svg",
     "scriptSrc": [
       "b-cloud\\.b-cdn\\.net/builds/(?:free|pro)/\\d+-cloud"
     ],
-    "description": "Brizy Cloud is a platform for creating and managing websites using an intuitive drag-and-drop editor, allowing users to design and publish sites without any coding knowledge. ",
-    "website": "https://brizy.io",
-    "icon": "Brizy.svg"
+    "website": "https://brizy.io"
   },
   "Brizy WordPress": {
     "cats": [
       51,
       87
     ],
+    "description": "Brizy WordPress is a plugin that enables users to build and design WordPress websites with an easy-to-use drag-and-drop editor and a wide range of customizable templates.",
     "dom": {
       "link[href*='/wp-content/plugins/brizy/']": {
         "exists": ""
@@ -4551,9 +4550,8 @@
     "html": [
       "<div[^>]+class=[\"']brz-root__container"
     ],
-    "description": "Brizy WordPress is a plugin that enables users to build and design WordPress websites with an easy-to-use drag-and-drop editor and a wide range of customizable templates.",
-    "website": "https://brizy.io",
-    "icon": "Brizy.svg"
+    "icon": "Brizy.svg",
+    "website": "https://brizy.io"
   },
   "Broadstreet": {
     "cats": [
@@ -4999,15 +4997,15 @@
     "cats": [
       10
     ],
+    "description": "Burst Statistics keeps all data on your server, making it fully compliant with privacy laws. Our dashboards offer clear and concise insights, allowing you to make informed decisions without feeling overwhelmed by abundant data. Choose Burst Statistics for seamless and reliable analytics trusted by over 100,000 users.",
+    "icon": "Burst.svg",
     "js": {
       "burst.url": ""
     },
     "scriptSrc": [
       "assets/js/build/burst"
     ],
-    "description": "Burst Statistics keeps all data on your server, making it fully compliant with privacy laws. Our dashboards offer clear and concise insights, allowing you to make informed decisions without feeling overwhelmed by abundant data. Choose Burst Statistics for seamless and reliable analytics trusted by over 100,000 users.",
-    "website": "https://burst-statistics.com",
-    "icon": "Burst.svg"
+    "website": "https://burst-statistics.com"
   },
   "Busify": {
     "cats": [

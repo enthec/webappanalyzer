@@ -476,20 +476,6 @@
     ],
     "website": "https://www.laybuy.com"
   },
-  "Layers": {
-    "cats": [
-      29
-    ],
-    "js": {
-      "Layers": ""
-    },
-    "implies": [
-      "Shopify"
-    ],
-    "description": "Layers is a site search and merchandising platform designed to help ecommerce.",
-    "website": "https://www.uselayers.com/",
-    "icon": "Layers.png"
-  },
   "LayUp": {
     "cats": [
       41
@@ -509,6 +495,20 @@
       "layup\\.co\\.za"
     ],
     "website": "https://layup.co.za"
+  },
+  "Layers": {
+    "cats": [
+      29
+    ],
+    "description": "Layers is a site search and merchandising platform designed to help ecommerce.",
+    "icon": "Layers.png",
+    "implies": [
+      "Shopify"
+    ],
+    "js": {
+      "Layers": ""
+    },
+    "website": "https://www.uselayers.com/"
   },
   "Laylo": {
     "cats": [
@@ -3372,19 +3372,17 @@
     "cats": [
       1
     ],
+    "description": "Lovable is an AI-powered, no-code platform that lets users build functional web apps from natural language prompts instead of writing code.",
     "dom": {
       "link[href*='/lovable-uploads/']": {
         "exists": ""
       }
     },
+    "icon": "Lovable.png",
     "meta": {
-      "author": [
-        "lovable"
-      ]
+      "author": "lovable"
     },
-    "description": "Lovable is an AI-powered, no-code platform that lets users build functional web apps from natural language prompts instead of writing code.",
-    "website": "https://lovable.dev/",
-    "icon": "Lovable.png"
+    "website": "https://lovable.dev/"
   },
   "Loyalis": {
     "cats": [

@@ -1399,14 +1399,14 @@
     "cats": [
       16
     ],
+    "description": "Really Simple SSL & Security is an easy to install and performant security solution for WordPress.",
     "dom": {
       "body[data-rsssl]": {
         "exists": ""
       }
     },
-    "description": "Really Simple SSL & Security is an easy to install and performant security solution for WordPress.",
-    "website": "https://really-simple-ssl.com",
-    "icon": "really-simple-ssl.png"
+    "icon": "really-simple-ssl.png",
+    "website": "https://really-simple-ssl.com"
   },
   "Realytics": {
     "cats": [
@@ -4627,6 +4627,17 @@
     },
     "website": "https://rumble.com"
   },
+  "Rumvision": {
+    "cats": [
+      78
+    ],
+    "description": "Rumvision is a front-end performance monitoring service",
+    "icon": "Rumvision.png",
+    "js": {
+      "rumv_config": ""
+    },
+    "website": "https://www.rumvision.com/"
+  },
   "RunKit": {
     "cats": [
       47,
@@ -4653,17 +4664,6 @@
     "icon": "Rust.svg",
     "oss": true,
     "website": "https://www.rust-lang.org"
-  },
-  "Rumvision": {
-    "cats": [
-      78
-    ],
-    "js": {
-      "rumv_config": ""
-    },
-    "description": "Rumvision is a front-end performance monitoring service",
-    "website": "https://www.rumvision.com/",
-    "icon": "Rumvision.png"
   },
   "RxJS": {
     "cats": [

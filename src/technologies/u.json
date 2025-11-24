@@ -1633,6 +1633,20 @@
     ],
     "website": "https://usizy.com"
   },
+  "Utiq": {
+    "cats": [
+      36
+    ],
+    "description": "Utiq empowers brands and publishers to address audiences through Telco-powered first-party identifier.",
+    "icon": "Utiq.svg",
+    "js": {
+      "Utiq": ""
+    },
+    "scriptSrc": [
+      "/utiqloader\\.js"
+    ],
+    "website": "https://utiq.com/"
+  },
   "Uvicorn": {
     "cats": [
       22
@@ -1822,20 +1836,6 @@
       "UserEngage": ""
     },
     "website": "https://user.com"
-  },
-  "Utiq": {
-    "cats": [
-      36
-    ],
-    "js": {
-      "Utiq": ""
-    },
-    "scriptSrc": [
-      "/utiqloader\\.js"
-    ],
-    "description": "Utiq empowers brands and publishers to address audiences through Telco-powered first-party identifier.",
-    "website": "https://utiq.com/",
-    "icon": "Utiq.svg"
   },
   "utterances": {
     "cats": [
