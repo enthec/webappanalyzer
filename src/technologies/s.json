@@ -7266,7 +7266,7 @@
       "MySQL"
     ],
     "meta": {
-      "generator": "^Sitepark\\sInformation\\sEnterprise\\sServer\\s-\\sIES\\sGenerator\\sv([\\d\\.]+)$\\;version:\\1|^Information\\sEnterprise\\sServer\\s–\\sSitepark\\sGmbH$"
+      "generator": "^Sitepark\\sInformation\\sEnterprise\\sServer\\s-\\sIES\\sGenerator\\sv([\\d\\.]+)$\\;version:\\1"
     },
     "pricing": [
       "poa"

@@ -1017,7 +1017,7 @@
     ],
     "saas": true,
     "scriptSrc": [
-      "\\keyreply\\.com/chat/widget\\.js"
+      "keyreply\\.com/chat/widget\\.js"
     ],
     "website": "https://www.keyreply.com"
   },

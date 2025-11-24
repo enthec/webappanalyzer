@@ -2499,7 +2499,7 @@
     "saas": true,
     "scripts": [
       "qaf\\.vondera\\.io",
-      "\\.vondera\\.shop)"
+      "\\.vondera\\.shop"
     ],
     "website": "https://www.vondera.app"
   },
