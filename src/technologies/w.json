@@ -46,17 +46,6 @@
     ],
     "website": "https://www.w3counter.com"
   },
-  "Wake": {
-    "cats": [
-      6
-    ],
-    "headers": {
-      "x-powered-by": "wake"
-    },
-    "description": "Wake is an ecommerce software with integrated digital solutions to manage online stores.",
-    "website": "https://wake.tech/",
-    "icon": "wakecommerce.svg"
-  },
   "WAR.PE": {
     "cats": [
       16
@@ -875,6 +864,17 @@
     ],
     "website": "https://www.wakav.ir"
   },
+  "Wake": {
+    "cats": [
+      6
+    ],
+    "description": "Wake is an ecommerce software with integrated digital solutions to manage online stores.",
+    "headers": {
+      "x-powered-by": "wake"
+    },
+    "icon": "wakecommerce.svg",
+    "website": "https://wake.tech/"
+  },
   "Wake Commerce": {
     "cats": [
       6
@@ -1421,14 +1421,12 @@
       87,
       92
     ],
-    "meta": {
-      "generator": [
-        "^web-worker-offloading ([\\d.]+)?\\;version:\\1"
-      ]
-    },
     "description": "Performance plugin from the WordPress Performance Team, which offloads JavaScript execution to a Web Worker, improving performance by freeing up the main thread.",
-    "website": "https://wordpress.org/plugins/web-worker-offloading/",
-    "icon": "web-worker-offloading.svg"
+    "icon": "web-worker-offloading.svg",
+    "meta": {
+      "generator": "^web-worker-offloading ([\\d.]+)?\\;version:\\1"
+    },
+    "website": "https://wordpress.org/plugins/web-worker-offloading/"
   },
   "Web2py": {
     "cats": [
@@ -1675,6 +1673,17 @@
     "icon": "WebSocket.svg",
     "oss": true,
     "website": "https://en.wikipedia.org/wiki/WebSocket"
+  },
+  "WebSphere": {
+    "cats": [
+      22
+    ],
+    "cookies": {
+      "(?i)ltpatoken": ""
+    },
+    "cpe": "cpe:2.3:a:ibm:websphere_application_server:-:*:*:*:*:*:*:*",
+    "icon": "websphere.svg",
+    "website": "https://www.ibm.com/products/websphere-application-server"
   },
   "WebToffee Stripe Payment Plugin for WooCommerce": {
     "cats": [
@@ -2197,17 +2206,6 @@
       "/wp-content/themes/busiprof(?:-pro)?/"
     ],
     "website": "https://webriti.com/busiprof-premium-wordpress-theme-1"
-  },
-  "WebSphere": {
-    "cats": [
-      22
-    ],
-    "icon": "websphere.svg",
-    "cpe":"cpe:2.3:a:ibm:websphere_application_server:-:*:*:*:*:*:*:*",
-    "cookies": {
-      "(?i)ltpatoken": ""
-    },
-    "website": "https://www.ibm.com/products/websphere-application-server"
   },
   "WebsPlanet": {
     "cats": [
@@ -3833,12 +3831,12 @@
     "cats": [
       51
     ],
+    "description": "Sites using the WordPress Block Editor, also known as Gutenberg.",
     "html": [
       "<div[^>]+class=[\"']wp-block-*"
     ],
-    "description": "Sites using the WordPress Block Editor, also known as Gutenberg.",
-    "website": "https://wordpress.org/gutenberg/",
-    "icon": "WordPress.svg"
+    "icon": "WordPress.svg",
+    "website": "https://wordpress.org/gutenberg/"
   },
   "WordPress Default": {
     "cats": [
@@ -3910,12 +3908,12 @@
     "cats": [
       51
     ],
+    "description": "Full Site Editing enables users to design and customize their entire WordPress website with a block-based editor.",
     "html": [
       "<div class=\"wp-site-blocks\">"
     ],
-    "description": "Full Site Editing enables users to design and customize their entire WordPress website with a block-based editor.",
-    "website": "https://wordpress.org/documentation/article/site-editor/",
-    "icon": "WordPress.svg"
+    "icon": "WordPress.svg",
+    "website": "https://wordpress.org/documentation/article/site-editor/"
   },
   "WordPress Super Cache": {
     "cats": [
@@ -4435,15 +4433,15 @@
       62,
       88
     ],
+    "description": "WordPress-first cloud hosting.",
     "headers": {
       "host-header": "wpcloud"
     },
+    "icon": "wp-cloud.png",
     "implies": [
       "WordPress"
     ],
-    "description": "WordPress-first cloud hosting.",
-    "website": "https://wp.cloud/",
-    "icon": "wp-cloud.png"
+    "website": "https://wp.cloud/"
   },
   "wpBakery": {
     "cats": [

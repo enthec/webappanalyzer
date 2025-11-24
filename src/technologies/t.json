@@ -2576,18 +2576,6 @@
     ],
     "website": "https://themegrill.com/themes/estore"
   },
-  "Themify Builder": {
-    "cats": [
-      51,
-      87
-    ],
-    "html": [
-      "<div[^>]+class=[\"']themify_builder_*"
-    ],
-    "description": "Themify Builder is a plugin that allows users to create complex layouts and designs by dragging and dropping elements onto their pages.",
-    "website": "https://themify.me/builder",
-    "icon": "themify-builder.png"
-  },
   "ThemeIsle Menu Icons": {
     "cats": [
       87
@@ -2821,6 +2809,18 @@
       "/wp-content/themes/hitmag(?:-pro)?/"
     ],
     "website": "https://themezhut.com/themes/hitmag"
+  },
+  "Themify Builder": {
+    "cats": [
+      51,
+      87
+    ],
+    "description": "Themify Builder is a plugin that allows users to create complex layouts and designs by dragging and dropping elements onto their pages.",
+    "html": [
+      "<div[^>]+class=[\"']themify_builder_*"
+    ],
+    "icon": "themify-builder.png",
+    "website": "https://themify.me/builder"
   },
   "Themonic Iconic One": {
     "cats": [
@@ -4509,6 +4509,18 @@
     "saas": true,
     "website": "https://www.traek.io"
   },
+  "TrafficGuard": {
+    "cats": [
+      16
+    ],
+    "description": "TrafficGuard is an ad fraud and click-fraud detection software.",
+    "icon": "TrafficGuard.png",
+    "scriptSrc": [
+      "\\.tgtag\\.io",
+      "trafficguard\\.ai"
+    ],
+    "website": "https://www.trafficguard.ai/"
+  },
   "TrafficStars": {
     "cats": [
       36
@@ -4526,18 +4538,6 @@
       "\\.tsyndicate\\.com/"
     ],
     "website": "https://trafficstars.com"
-  },
-  "TrafficGuard": {
-    "cats": [
-      16
-    ],
-    "scriptSrc": [
-      "\\.tgtag\\.io",
-      "trafficguard\\.ai"
-    ],
-    "description": "TrafficGuard is an ad fraud and click-fraud detection software.",
-    "website": "https://www.trafficguard.ai/",
-    "icon": "TrafficGuard.png"
   },
   "Trak": {
     "cats": [
@@ -5428,6 +5428,17 @@
     ],
     "website": "https://github.com/turbolinks/turbolinks"
   },
+  "Turbopack": {
+    "cats": [
+      47
+    ],
+    "description": "Turbopack is an open-source JavaScript module bundler.",
+    "icon": "Turbopack.svg",
+    "js": {
+      "TURBOPACK": ""
+    },
+    "website": "https://nextjs.org/docs/app/api-reference/turbopack"
+  },
   "TurfJS": {
     "cats": [
       59
@@ -5443,17 +5454,6 @@
       "(turf@[\\d.]+)?/?turf\\.min\\.js"
     ],
     "website": "https://turfjs.org/"
-  },
-  "Turbopack": {
-    "cats": [
-      47
-    ],
-    "js": {
-      "TURBOPACK": ""
-    },
-    "description": "Turbopack is an open-source JavaScript module bundler.",
-    "website": "https://nextjs.org/docs/app/api-reference/turbopack",
-    "icon": "Turbopack.svg"
   },
   "TuriTop": {
     "cats": [
@@ -5700,33 +5700,33 @@
     "cats": [
       80
     ],
+    "description": "Twenty Twenty-Five is the default WordPress theme for 2025.",
     "dom": {
       "link[href*='/wp-content/themes/twentytwentyfive/']": {
         "exists": ""
       }
     },
+    "icon": "WordPress.svg",
     "scriptSrc": [
       "/wp-content/themes/twentytwentyfive/"
     ],
-    "description": "Twenty Twenty-Five is the default WordPress theme for 2025.",
-    "website": "https://wordpress.org/themes/twentytwentyfive",
-    "icon": "WordPress.svg"
+    "website": "https://wordpress.org/themes/twentytwentyfive"
   },
   "Twenty Twenty-Four": {
     "cats": [
       80
     ],
+    "description": "Twenty Twenty-Four is the default WordPress theme for 2024.",
     "dom": {
       "link[href*='/wp-content/themes/twentytwentyfour/']": {
         "exists": ""
       }
     },
+    "icon": "WordPress.svg",
     "scriptSrc": [
       "/wp-content/themes/twentytwentyfour/"
     ],
-    "description": "Twenty Twenty-Four is the default WordPress theme for 2024.",
-    "website": "https://wordpress.org/themes/twentytwentyfour",
-    "icon": "WordPress.svg"
+    "website": "https://wordpress.org/themes/twentytwentyfour"
   },
   "Twenty Twenty-One": {
     "cats": [

@@ -796,6 +796,12 @@
     "cookies": {
       "maho_session": ""
     },
+    "description": "Maho is a modern, open-source ecommerce platform forked from OpenMage, offering enhanced developer experience while maintaining Magento 1 compatibility.",
+    "icon": "Maho.svg",
+    "implies": [
+      "MySQL",
+      "PHP"
+    ],
     "scriptSrc": [
       "js/maho-autocomplete\\.js",
       "js/maho-captcha\\.js",
@@ -804,13 +810,7 @@
       "js/maho-passkey-tools\\.js",
       "js/maho-tree\\.js"
     ],
-    "implies": [
-      "MySQL",
-      "PHP"
-    ],
-    "description": "Maho is a modern, open-source ecommerce platform forked from OpenMage, offering enhanced developer experience while maintaining Magento 1 compatibility.",
-    "website": "https://mahocommerce.com",
-    "icon": "Maho.svg"
+    "website": "https://mahocommerce.com"
   },
   "MailChimp": {
     "cats": [
@@ -2544,14 +2544,14 @@
     "cats": [
       8
     ],
+    "cookies": {
+      "wiki\\d+_session": ""
+    },
     "cpe": "cpe:2.3:a:mediawiki:mediawiki:*:*:*:*:*:*:*:*",
     "description": "MediaWiki is a free and open-source wiki engine.",
     "dom": [
       "body[class*='mediawiki']"
     ],
-    "cookies": {
-      "wiki\\d+_session": ""
-    },
     "html": [
       "<body[^>]+class=\"mediawiki\"",
       "<(?:a|img)[^>]+>Powered by MediaWiki</a>",
@@ -3435,8 +3435,8 @@
       18
     ],
     "cookies": {
-      "ASP\\.NET_SessionId": "",
       "ASPSESSION": "",
+      "ASP\\.NET_SessionId": "",
       "\\.ASPXAUTH": ""
     },
     "cpe": "cpe:2.3:a:microsoft:asp.net:*:*:*:*:*:*:*:*",
@@ -4543,6 +4543,18 @@
     "saas": true,
     "website": "https://moder.fi"
   },
+  "Modern Image Formats": {
+    "cats": [
+      87,
+      92
+    ],
+    "description": "Performance plugin from the WordPress Performance Team, which adds support for outputting images in WebP or AVIF format and supports the `picture` element to enable format fallbacks.",
+    "icon": "modern-image-formats.svg",
+    "meta": {
+      "generator": "^webp-uploads ([\\d.]+)?\\;version:\\1"
+    },
+    "website": "https://wordpress.org/plugins/webp-uploads/"
+  },
   "Modernizr": {
     "cats": [
       59
@@ -4557,20 +4569,6 @@
       "([\\d.]+)?/modernizr.*\\.js\\;version:\\1"
     ],
     "website": "https://modernizr.com"
-  },
-  "Modern Image Formats": {
-    "cats": [
-      87,
-      92
-    ],
-    "meta": {
-      "generator": [
-        "^webp-uploads ([\\d.]+)?\\;version:\\1"
-      ]
-    },
-    "description": "Performance plugin from the WordPress Performance Team, which adds support for outputting images in WebP or AVIF format and supports the `picture` element to enable format fallbacks.",
-    "website": "https://wordpress.org/plugins/webp-uploads/",
-    "icon": "modern-image-formats.svg"
   },
   "ModiFace": {
     "cats": [
@@ -5073,12 +5071,12 @@
     "cats": [
       6
     ],
+    "description": "Monk Commerce is a software-as-a-service that aims to increase income for small e-commerce businesses by deploying AOV boosting techniques like cart and post-purchase offers",
+    "icon": "Monk.svg",
     "scriptSrc": [
       "js\\.monkcommerce\\.app"
     ],
-    "description": "Monk Commerce is a software-as-a-service that aims to increase income for small e-commerce businesses by deploying AOV boosting techniques like cart and post-purchase offers",
-    "website": "https://monkcommerce.com/",
-    "icon": "Monk.svg"
+    "website": "https://monkcommerce.com/"
   },
   "Monkey HTTP Server": {
     "cats": [

@@ -867,6 +867,27 @@
     ],
     "website": "https://vercel.com/analytics"
   },
+  "Vercel Speed Insights": {
+    "cats": [
+      10
+    ],
+    "description": "Vercel Speed Insights provides you with a detailed view of your website's performance metrics, based on Core Web Vitals.",
+    "dom": {
+      "script[data-sdkn='@vercel/speed-insights/next']": {
+        "attributes": {
+          "data-sdkv": "^(.+)$\\;version:\\1"
+        }
+      }
+    },
+    "icon": "vercel.svg",
+    "js": {
+      "si": ""
+    },
+    "scriptSrc": [
+      "/_vercel/speed-insights/script\\.js"
+    ],
+    "website": "https://vercel.com/docs/speed-insights"
+  },
   "VergeCloud": {
     "cats": [
       31
@@ -882,27 +903,6 @@
     ],
     "saas": true,
     "website": "https://www.vergecloud.com/"
-  },
-  "Vercel Speed Insights": {
-    "cats": [
-      10
-    ],
-    "dom": {
-      "script[data-sdkn='@vercel/speed-insights/next']": {
-        "attributes": {
-          "data-sdkv": "^(.+)$\\;version:\\1"
-        }
-      }
-    },
-    "js": {
-      "si": ""
-    },
-    "scriptSrc": [
-      "/_vercel/speed-insights/script\\.js"
-    ],
-    "description": "Vercel Speed Insights provides you with a detailed view of your website's performance metrics, based on Core Web Vitals.",
-    "website": "https://vercel.com/docs/speed-insights",
-    "icon": "vercel.svg"
   },
   "Vergic": {
     "cats": [
@@ -1889,6 +1889,20 @@
     "saas": true,
     "website": "https://visely.io"
   },
+  "VisiOpt": {
+    "cats": [
+      74
+    ],
+    "description": "Visiopt™ is a powerful yet easy to use AI-driven Optimization System that enables you to manufacture your perfect customer at scale like a well oiled machine.",
+    "icon": "visiopt.png",
+    "js": {
+      "visiopt_code": ""
+    },
+    "scriptSrc": [
+      "visiopt\\.com"
+    ],
+    "website": "https://visiopt.com"
+  },
   "Visible Privacy": {
     "cats": [
       67
@@ -1900,20 +1914,6 @@
       "//bc-prod-config\\.empathy\\.co/"
     ],
     "website": "https://visibleprivacy.com/"
-  },
-  "VisiOpt": {
-    "cats": [
-      74
-    ],
-    "js": {
-      "visiopt_code": ""
-    },
-    "scriptSrc": [
-      "visiopt\\.com"
-    ],
-    "description": "Visiopt™ is a powerful yet easy to use AI-driven Optimization System that enables you to manufacture your perfect customer at scale like a well oiled machine.",
-    "website": "https://visiopt.com",
-    "icon": "visiopt.png"
   },
   "Visitor Chat": {
     "cats": [

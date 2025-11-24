@@ -2086,14 +2086,12 @@
       87,
       92
     ],
-    "meta": {
-      "generator": [
-        "^optimization-detective ([\\d.]+)?\\;version:\\1"
-      ]
-    },
     "description": "Performance plugin from the WordPress Performance Team, which captures real user metrics about what elements are displayed on the page across a variety of device form factors (e.g. desktop, tablet, and phone) in order to apply loading optimizations.",
-    "website": "https://wordpress.org/plugins/optimization-detective/",
-    "icon": "optimization-detective.svg"
+    "icon": "optimization-detective.svg",
+    "meta": {
+      "generator": "^optimization-detective ([\\d.]+)?\\;version:\\1"
+    },
+    "website": "https://wordpress.org/plugins/optimization-detective/"
   },
   "Optimizely": {
     "cats": [
@@ -2822,6 +2820,7 @@
     "cats": [
       87
     ],
+    "description": "Otter blocks is a Gutenberg Blocks page builder plugin that adds extra functionality to the WordPress Block Editor.",
     "dom": {
       "link[href*='/wp-content/plugins/otter-blocks']": {
         "exists": ""
@@ -2830,9 +2829,8 @@
     "html": [
       "<div[^>]+class=[\"']wp-block-themeisle-blocks-*"
     ],
-    "description": "Otter blocks is a Gutenberg Blocks page builder plugin that adds extra functionality to the WordPress Block Editor.",
-    "website": "https://wordpress.org/plugins/otter-blocks/",
-    "icon": "otter-blocks.png"
+    "icon": "otter-blocks.png",
+    "website": "https://wordpress.org/plugins/otter-blocks/"
   },
   "OtterText": {
     "cats": [
