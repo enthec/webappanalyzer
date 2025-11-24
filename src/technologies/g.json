@@ -2951,7 +2951,7 @@
     "scriptSrc": [
       "googleapis\\.com/.+webfont"
     ],
-    "website": "https://google.com/fonts"
+    "website": "https://fonts.google.com/"
   },
   "Google Forms": {
     "cats": [
