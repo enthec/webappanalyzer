@@ -878,6 +878,17 @@
     ],
     "website": "https://www.edgecast.com"
   },
+  "Edgemesh": {
+    "cats": [
+      92
+    ],
+    "js": {
+      "edgemesh": ""
+    },
+    "description": "Edgemesh is web acceleration platform for e-commerce brands",
+    "website": "https://edgemesh.com/",
+    "icon": "Edgemesh.png"
+  },
   "Edgio": {
     "cats": [
       31,
@@ -1824,6 +1835,20 @@
     ],
     "website": "https://wordpress.org/plugins/embed-any-document"
   },
+  "Embed Optimizer": {
+    "cats": [
+      87,
+      92
+    ],
+    "meta": {
+      "generator": [
+        "^embed-optimizer ([\\d.]+)?\\;version:\\1"
+      ]
+    },
+    "description": "Performance plugin from the WordPress Performance Team, which optimizes embeds by lazy loading them only as they come into view.",
+    "website": "https://wordpress.org/plugins/embed-optimizer/",
+    "icon": "embed-optimizer.svg"
+  },
   "Embed PDF Viewer": {
     "cats": [
       5,
@@ -1945,6 +1970,17 @@
       "@overview\\s+Ember -[\\s\\S]+@version\\s+(.+)\\;version:\\1"
     ],
     "website": "https://emberjs.com"
+  },
+  "Emergent": {
+    "cats": [
+      1
+    ],
+    "scriptSrc": [
+      "assets\\.emergent\\.sh"
+    ],
+    "description": "Emergent is an AI-powered, no-code platform that lets users build functional web apps from natural language prompts instead of writing code.",
+    "website": "https://app.emergent.sh/",
+    "icon": "Emergent.png"
   },
   "Emojicom": {
     "cats": [
@@ -2187,6 +2223,20 @@
       "Nginx"
     ],
     "website": "https://github.com/engintron/engintron"
+  },
+  "Enhanced Responsive Images": {
+    "cats": [
+      87,
+      92
+    ],
+    "meta": {
+      "generator": [
+        "^auto-sizes ([\\d.]+)?\\;version:\\1"
+      ]
+    },
+    "description": "Performance plugin from the WordPress Performance Team, which improves image sizes attribute accuracy and implements the HTML spec for adding sizes='auto' to lazy loaded images.",
+    "website": "https://wordpress.org/plugins/auto-sizes/",
+    "icon": "enhanced-image-sizes.svg"
   },
   "Enigma": {
     "cats": [
@@ -2764,6 +2814,25 @@
     "icon": "Syncfusion.svg",
     "oss": true,
     "website": "https://www.syncfusion.com/javascript-ui-controls"
+  },
+  "Essential Blocks": {
+    "cats": [
+      87
+    ],
+    "dom": {
+      "link#essential-blocks-frontend-style-css": {
+        "exists": ""
+      },
+      "link[href*='/wp-content/uploads/eb-style/']": {
+        "exists": ""
+      }
+    },
+    "html": [
+      "<div[^>]+class=[\"']wp-block-essential-blocks-*"
+    ],
+    "description": "Essential Blocks is a Gutenberg Blocks page builder plugin that adds extra functionality to the WordPress Block Editor.",
+    "website": "https://essential-blocks.com",
+    "icon": "essential-blocks.png"
   },
   "Estate Track": {
     "cats": [

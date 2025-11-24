@@ -46,6 +46,17 @@
     ],
     "website": "https://www.w3counter.com"
   },
+  "Wake": {
+    "cats": [
+      6
+    ],
+    "headers": {
+      "x-powered-by": "wake"
+    },
+    "description": "Wake is an ecommerce software with integrated digital solutions to manage online stores.",
+    "website": "https://wake.tech/",
+    "icon": "wakecommerce.svg"
+  },
   "WAR.PE": {
     "cats": [
       16
@@ -1404,6 +1415,20 @@
       "generator": "^Web\\sWiz\\sForums(?:\\s([\\d\\.]+))?$\\;version:\\1"
     },
     "website": "https://www.webwizforums.com"
+  },
+  "Web Worker Offloading": {
+    "cats": [
+      87,
+      92
+    ],
+    "meta": {
+      "generator": [
+        "^web-worker-offloading ([\\d.]+)?\\;version:\\1"
+      ]
+    },
+    "description": "Performance plugin from the WordPress Performance Team, which offloads JavaScript execution to a Web Worker, improving performance by freeing up the main thread.",
+    "website": "https://wordpress.org/plugins/web-worker-offloading/",
+    "icon": "web-worker-offloading.svg"
   },
   "Web2py": {
     "cats": [
@@ -3804,6 +3829,17 @@
     ],
     "website": "https://wordpress.org"
   },
+  "WordPress Block Editor": {
+    "cats": [
+      51
+    ],
+    "html": [
+      "<div[^>]+class=[\"']wp-block-*"
+    ],
+    "description": "Sites using the WordPress Block Editor, also known as Gutenberg.",
+    "website": "https://wordpress.org/gutenberg/",
+    "icon": "WordPress.svg"
+  },
   "WordPress Default": {
     "cats": [
       80
@@ -3869,6 +3905,17 @@
       "/wp-content/plugins/wordpress-popular-posts/.+wpp\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
     ],
     "website": "https://wordpress.org/plugins/wordpress-popular-posts/"
+  },
+  "WordPress Site Editor": {
+    "cats": [
+      51
+    ],
+    "html": [
+      "<div class=\"wp-site-blocks\">"
+    ],
+    "description": "Full Site Editing enables users to design and customize their entire WordPress website with a block-based editor.",
+    "website": "https://wordpress.org/documentation/article/site-editor/",
+    "icon": "WordPress.svg"
   },
   "WordPress Super Cache": {
     "cats": [
@@ -4382,6 +4429,21 @@
       "generator": "^wisy CMS[ v]{0,3}([0-9.,]*)\\;version:\\1"
     },
     "website": "https://wisy.3we.de"
+  },
+  "wp.cloud": {
+    "cats": [
+      62,
+      88
+    ],
+    "headers": {
+      "host-header": "wpcloud"
+    },
+    "implies": [
+      "WordPress"
+    ],
+    "description": "WordPress-first cloud hosting.",
+    "website": "https://wp.cloud/",
+    "icon": "wp-cloud.png"
   },
   "wpBakery": {
     "cats": [

@@ -1654,6 +1654,17 @@
     "saas": true,
     "website": "https://digify.shop"
   },
+  "Digioh": {
+    "cats": [
+      110
+    ],
+    "js": {
+      "DIGIOH_API": ""
+    },
+    "description": "Digioh is a lead generation and marketing company helping to convert clicks to customers known for it's email/sms sign-up units",
+    "website": "https://www.digioh.com/",
+    "icon": "Digioh.png"
+  },
   "Digismoothie Candy Rack": {
     "cats": [
       100

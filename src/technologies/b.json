@@ -635,6 +635,19 @@
     ],
     "website": "https://thebase.com"
   },
+  "Base44": {
+    "cats": [
+      1
+    ],
+    "meta": {
+      "apple-mobile-web-app-title": [
+        "base44"
+      ]
+    },
+    "description": "Base44 is an AI-powered, no-code platform that lets users build functional web apps from natural language prompts instead of writing code.",
+    "website": "https://base44.com/",
+    "icon": "Base44.png"
+  },
   "BaseKit": {
     "cats": [
       51
@@ -4510,6 +4523,38 @@
     "saas": true,
     "website": "https://www.brizy.io"
   },
+  "Brizy Cloud": {
+    "cats": [
+      1,
+      51
+    ],
+    "html": [
+      "<div[^>]+class=[\"']brz-root__container"
+    ],
+    "scriptSrc": [
+      "b-cloud\\.b-cdn\\.net/builds/(?:free|pro)/\\d+-cloud"
+    ],
+    "description": "Brizy Cloud is a platform for creating and managing websites using an intuitive drag-and-drop editor, allowing users to design and publish sites without any coding knowledge. ",
+    "website": "https://brizy.io",
+    "icon": "Brizy.svg"
+  },
+  "Brizy WordPress": {
+    "cats": [
+      51,
+      87
+    ],
+    "dom": {
+      "link[href*='/wp-content/plugins/brizy/']": {
+        "exists": ""
+      }
+    },
+    "html": [
+      "<div[^>]+class=[\"']brz-root__container"
+    ],
+    "description": "Brizy WordPress is a plugin that enables users to build and design WordPress websites with an easy-to-use drag-and-drop editor and a wide range of customizable templates.",
+    "website": "https://brizy.io",
+    "icon": "Brizy.svg"
+  },
   "Broadstreet": {
     "cats": [
       36
@@ -4949,6 +4994,20 @@
     ],
     "saas": true,
     "website": "http://getbunting.com"
+  },
+  "Burst": {
+    "cats": [
+      10
+    ],
+    "js": {
+      "burst.url": ""
+    },
+    "scriptSrc": [
+      "assets/js/build/burst"
+    ],
+    "description": "Burst Statistics keeps all data on your server, making it fully compliant with privacy laws. Our dashboards offer clear and concise insights, allowing you to make informed decisions without feeling overwhelmed by abundant data. Choose Burst Statistics for seamless and reliable analytics trusted by over 100,000 users.",
+    "website": "https://burst-statistics.com",
+    "icon": "Burst.svg"
   },
   "Busify": {
     "cats": [

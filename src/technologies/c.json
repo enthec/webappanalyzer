@@ -6342,6 +6342,21 @@
     "saas": true,
     "website": "https://constructor.io"
   },
+  "Constructor.io": {
+    "cats": [
+      29
+    ],
+    "js": {
+      "ConstructorioClient": "",
+      "constructorio": ""
+    },
+    "scriptSrc": [
+      "\\.cnstrc\\.com/"
+    ],
+    "description": "Constructor.io is a site search and merchandising platform designed to help ecommerce.",
+    "website": "https://constructor.io/",
+    "icon": "ConstructorIO.png"
+  },
   "Contabo": {
     "cats": [
       88

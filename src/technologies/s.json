@@ -2902,6 +2902,20 @@
     ],
     "website": "https://www.sendinblue.com"
   },
+  "Sendlane": {
+    "cats": [
+      32
+    ],
+    "js": {
+      "_Sendlane": ""
+    },
+    "scriptSrc": [
+      "sendlane\\.com/scripts/pusher\\.js"
+    ],
+    "description": "Sendlane is an email and sms marketing platform for online businesses",
+    "website": "https://www.sendlane.com/",
+    "icon": "Sendland.png"
+  },
   "Sendloop": {
     "cats": [
       75
@@ -4510,6 +4524,17 @@
       "productreviews\\.shopifycdn\\.com"
     ],
     "website": "https://apps.shopify.com/product-reviews"
+  },
+  "Shopify Web Components": {
+    "cats": [
+      18
+    ],
+    "scriptSrc": [
+      "cdn\\.shopify\\.com/storefront/web-components\\.js"
+    ],
+    "description": "Storefront Web Components let you bring Shopify-powered commerce capabilities to any website.",
+    "website": "https://shopify.dev/docs/api/storefront-web-components",
+    "icon": "Shopify.svg"
   },
   "Shopistry": {
     "cats": [
@@ -6215,6 +6240,24 @@
     ],
     "website": "https://sitepad.com"
   },
+  "Sitepark IES": {
+    "cats": [
+      1
+    ],
+    "meta": {
+      "generator": [
+        "^sitepark\\sinformation\\senterprise\\sserver\\s-\\sies\\sgenerator\\sv([\\d\\.]+)$\\;version:\\1"
+      ]
+    },
+    "implies": [
+      "Lucene",
+      "MySQL"
+    ],
+    "description": "Sitepark IES is a content management system written in PHP and paired with a MySQL database.",
+    "website": "https://www.sitepark.com/oeffentlicher-sektor/produkte/cms-technologie.php",
+    "cpe": "cpe:2.3:a:sitepark:information_enterprise_server:*:*:*:*:*:*:*:*",
+    "icon": "Sitepark.png"
+  },
   "SitePoint": {
     "cats": [
       80
@@ -7167,6 +7210,19 @@
     ],
     "icon": "SlimSelect.png",
     "website": "https://slimselectjs.com"
+  },
+  "Slim SEO": {
+    "cats": [
+      87
+    ],
+    "dom": {
+      "#slim-seo-schema": {
+        "exists": ""
+      }
+    },
+    "description": "Slim SEO is a full-featured SEO plugin for WordPress that's lightweight, blazing fast with minimum configuration.",
+    "website": "https://wpslimseo.com",
+    "icon": "Slim-SEO.svg"
   },
   "Slimbox": {
     "cats": [
@@ -8882,6 +8938,20 @@
     ],
     "saas": true,
     "website": "https://www.speedkit.com"
+  },
+  "Speculative Loading": {
+    "cats": [
+      87,
+      92
+    ],
+    "meta": {
+      "generator": [
+        "^speculation-rules ([\\d.]+)?\\;version:\\1"
+      ]
+    },
+    "description": "Performance plugin from the WordPress Performance Team, which adds support for the Speculation Rules API, by which certain URLs are dynamically prefetched or prerendered based on user interaction.",
+    "website": "https://wordpress.org/plugins/speculation-rules/",
+    "icon": "speculation-rules.svg"
   },
   "SpeedCurve": {
     "cats": [

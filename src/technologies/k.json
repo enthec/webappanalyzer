@@ -1413,6 +1413,46 @@
     ],
     "website": "https://www.klaviyo.com/"
   },
+  "Klaviyo Customer Hub": {
+    "cats": [
+      19
+    ],
+    "dom": {
+      "div#k-hub": {
+        "exists": ""
+      }
+    },
+    "js": {
+      "customerHub": ""
+    },
+    "description": "Klaviyo Customer Hub gives customers a unified signed-in experience to track orders, manage returns, and get help",
+    "website": "https://www.klaviyo.com/products/customer-experience-hub",
+    "icon": "Klaviyo.svg"
+  },
+  "Klaviyo Data Platform": {
+    "cats": [
+      97
+    ],
+    "scriptSrc": [
+      "static-tracking\\.klaviyo\\.com/onsite/js/web_personalization"
+    ],
+    "description": "Klaviyo Data Platform is Klaviyo's CDP offering.",
+    "website": "https://www.klaviyo.com/solutions/customer-data-platform",
+    "icon": "Klaviyo.svg"
+  },
+  "Klaviyo Forms": {
+    "cats": [
+      110
+    ],
+    "dom": {
+      "div.klaviyo-form": {
+        "exists": ""
+      }
+    },
+    "description": "Klaviyo Forms are used to capture Email and SMS sign-ups",
+    "website": "https://www.klaviyo.com/features/web-forms",
+    "icon": "Klaviyo.svg"
+  },
   "Klaviyo Reviews": {
     "cats": [
       90

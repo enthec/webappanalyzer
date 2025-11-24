@@ -2132,6 +2132,20 @@
     ],
     "website": "https://wordpress.org/plugins/performance-lab/"
   },
+  "Performant Translations": {
+    "cats": [
+      87,
+      92
+    ],
+    "meta": {
+      "generator": [
+        "^performant-translations ([\\d.]+)?\\;version:\\1"
+      ]
+    },
+    "description": "Performance plugin from the WordPress Performance Team, which makes internationalization/localization in WordPress faster than ever before.",
+    "website": "https://wordpress.org/plugins/performant-translations/",
+    "icon": "performant-translations.svg"
+  },
   "PerimeterX": {
     "cats": [
       16
@@ -5408,6 +5422,21 @@
     "saas": true,
     "website": "https://prestoplayer.com"
   },
+  "Pretty Damn Quick": {
+    "cats": [
+      74,
+      100
+    ],
+    "js": {
+      "initPDQscript": ""
+    },
+    "scriptSrc": [
+      "pdq-scripts\\.pdqprod\\.link"
+    ],
+    "description": "Pretty Damn Quick is a Shopify app for eCommerce brands to deliver personalized checkout experiences.",
+    "website": "https://www.prettydamnquick.com/",
+    "icon": "PrettyDamnQuick.png"
+  },
   "Pretty Links": {
     "cats": [
       87,
@@ -6748,6 +6777,22 @@
     "oss": true,
     "website": "https://getpublii.com"
   },
+  "PublishPress Blocks": {
+    "cats": [
+      87
+    ],
+    "dom": {
+      "link[href*='/wp-content/plugins/advanced-gutenberg/assets/css/blocks.css?ver=([\\d\\.]+))?\\;version:\\1']": {
+        "exists": ""
+      }
+    },
+    "html": [
+      "<div[^>]+class=[\"']wp-block-advgb-*"
+    ],
+    "description": "PublishPress Blocks is a Gutenberg Blocks page builder plugin that adds extra functionality to the WordPress Block Editor.",
+    "website": "https://publishpress.com/blocks/",
+    "icon": "publishpress-blocks.png"
+  },
   "Publishrr": {
     "cats": [
       1
@@ -6811,6 +6856,20 @@
       "\\.pubstack\\.io/"
     ],
     "website": "https://www.pubstack.io"
+  },
+  "PubTech": {
+    "cats": [
+      67
+    ],
+    "js": {
+      "__pub_tech_cmp_config": ""
+    },
+    "scriptSrc": [
+      "pubtech-cmp-v(.+?)(?:-esm)?\\.js;version:\\1"
+    ],
+    "description": "PubTech is a consent management platform helping brands and businesses collect, store and leverage their customer consents.",
+    "website": "https://www.pubtech.ai/",
+    "icon": "PubTech.png"
   },
   "PukiWiki": {
     "cats": [
