@@ -2,9 +2,15 @@ import json
 import pathlib
 import string
 from typing import Final
+from xml.etree import ElementTree
 
 
 class InvalidStructureException(Exception):
+    def __init__(self, msg: str):
+        super().__init__(msg)
+
+
+class InvalidSVGException(Exception):
     def __init__(self, msg: str):
         super().__init__(msg)
 
@@ -23,6 +29,16 @@ class IconValidator:
         for file in self._FULL_IMAGES_DIR.iterdir():
             if file.name not in json_icons:
                 raise InvalidStructureException(f"{file.name} must be used, {file} isn't used!")
+            if file.name.lower().endswith(".svg"):
+                self._validate_svg(file)
+
+    def _validate_svg(self, file: pathlib.Path) -> None:
+        try:
+            with file.open("r", encoding="utf8") as f:
+                content: str = f.read()
+            ElementTree.fromstring(content)
+        except ElementTree.ParseError as e:
+            raise InvalidSVGException(f"Invalid SVG '{file.name}': {e}")
 
     def get_json_icons(self) -> set[str]:
         letters: list[str] = list(string.ascii_lowercase)
