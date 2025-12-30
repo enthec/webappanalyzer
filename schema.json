@@ -1,6 +1,93 @@
 {
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Wappalyzer schema",
-  "definitions": {
+  "description": "This schema defines the information related to web based technologies for the purposes of identification (finger printing)",
+  "examples": [
+    {
+      "Example": {
+        "description": "A short description of the technology.",
+        "cats": [
+          1
+        ],
+        "cookies": {
+          "cookie_name": "Example"
+        },
+        "dom": {
+          "#example-id": {
+            "exists": "",
+            "attributes": {
+              "class": "example-class"
+            },
+            "properties": {
+              "example-property": ""
+            },
+            "text": "Example text content"
+          }
+        },
+        "dns": {
+          "MX": [
+            "example\\.com"
+          ]
+        },
+        "icon": "Example.svg",
+        "cpe": "cpe:2.3:a:example:example:*:*:*:*:*:*:*:*",
+        "js": {
+          "Example.method": ""
+        },
+        "excludes": [
+          "Example"
+        ],
+        "headers": {
+          "X-Powered-By": "Example"
+        },
+        "text": [
+          "\bexample\b"
+        ],
+        "css": [
+          "\\.example-class"
+        ],
+        "robots": [
+          "Disallow: /unique-path/"
+        ],
+        "implies": [
+          "PHP\\;confidence:50"
+        ],
+        "requires": [
+          "WordPress"
+        ],
+        "requiresCategory": [
+          6
+        ],
+        "meta": {
+          "generator": "(?:Example|Another Example)"
+        },
+        "probe": {
+          "/path": ""
+        },
+        "scriptSrc": [
+          "example-([0-9.]+)\\.js\\;confidence:50\\;version:\\1"
+        ],
+        "scripts": [
+          "function webpackJsonpCallback\\(data\\) {"
+        ],
+        "url": [
+          "example\\.com"
+        ],
+        "xhr": [
+          "example\\.com"
+        ],
+        "oss": true,
+        "saas": true,
+        "pricing": [
+          "mid",
+          "freemium"
+        ],
+        "website": "https://example.com",
+        "certIssuer": "Example"
+      }
+    }
+  ],
+  "$defs": {
     "non-empty-non-blank-string": {
       "type": "string",
       "pattern": "^(?!\\s*$).+"
@@ -16,7 +103,7 @@
     "properties": {
       "description": {
         "type": "string",
-        "pattern": "^.{0,500}$"
+        "pattern": "^.{0,550}$"
       },
       "oss": {
         "type": "boolean"
@@ -40,7 +127,7 @@
       },
       "cpe": {
         "type": "string",
-        "pattern": "cpe:2.3:(a|h|o):[^*:]+:[^:]+:\\*:\\*:\\*:\\*:\\*:[^:]+:\\*:\\*"
+        "pattern": "^[Cc][Pp][Ee]:(\/|\\d+\\.\\d+)[^:]*(:?[^:]*){0,11}$"
       },
       "cookies": {
         "type": "object",
@@ -69,11 +156,11 @@
           {
             "type": "array",
             "items": {
-              "$ref": "#/definitions/non-empty-non-blank-string"
+              "$ref": "#/$defs/non-empty-non-blank-string"
             }
           },
           {
-            "$ref": "#/definitions/non-empty-non-blank-string"
+            "$ref": "#/$defs/non-empty-non-blank-string"
           },
           {
             "type": "object",
@@ -107,25 +194,25 @@
       "html": {
         "type": "array",
         "items": {
-          "$ref": "#/definitions/non-empty-non-blank-string"
+          "$ref": "#/$defs/non-empty-non-blank-string"
         }
       },
       "text": {
         "type": "array",
         "items": {
-          "$ref": "#/definitions/non-empty-non-blank-string"
+          "$ref": "#/$defs/non-empty-non-blank-string"
         }
       },
       "css": {
         "type": "array",
         "items": {
-          "$ref": "#/definitions/non-empty-non-blank-string"
+          "$ref": "#/$defs/non-empty-non-blank-string"
         }
       },
       "robots": {
         "type": "array",
         "items": {
-          "$ref": "#/definitions/non-empty-non-blank-string"
+          "$ref": "#/$defs/non-empty-non-blank-string"
         }
       },
       "probe": {
@@ -140,24 +227,24 @@
         }
       },
       "certIssuer": {
-        "$ref": "#/definitions/non-empty-non-blank-string"
+        "$ref": "#/$defs/non-empty-non-blank-string"
       },
       "excludes": {
         "type": "array",
         "items": {
-          "$ref": "#/definitions/non-empty-non-blank-string"
+          "$ref": "#/$defs/non-empty-non-blank-string"
         }
       },
       "implies": {
         "type": "array",
         "items": {
-          "$ref": "#/definitions/non-empty-non-blank-string"
+          "$ref": "#/$defs/non-empty-non-blank-string"
         }
       },
       "requires": {
         "type": "array",
         "items": {
-          "$ref": "#/definitions/non-empty-non-blank-string"
+          "$ref": "#/$defs/non-empty-non-blank-string"
         }
       },
       "requiresCategory": {
@@ -180,31 +267,31 @@
       "scriptSrc": {
         "type": "array",
         "items": {
-          "$ref": "#/definitions/non-empty-non-blank-string"
+          "$ref": "#/$defs/non-empty-non-blank-string"
         }
       },
       "scripts": {
         "type": "array",
         "items": {
-          "$ref": "#/definitions/non-empty-non-blank-string"
+          "$ref": "#/$defs/non-empty-non-blank-string"
         }
       },
       "url": {
         "type": "array",
         "items": {
-          "$ref": "#/definitions/non-empty-non-blank-string"
+          "$ref": "#/$defs/non-empty-non-blank-string"
         }
       },
       "website": {
-        "$ref": "#/definitions/non-empty-non-blank-string"
+        "$ref": "#/$defs/non-empty-non-blank-string"
       },
       "icon": {
-        "$ref": "#/definitions/non-empty-non-blank-string"
+        "$ref": "#/$defs/non-empty-non-blank-string"
       },
       "xhr": {
         "type": "array",
         "items": {
-          "$ref": "#/definitions/non-empty-non-blank-string"
+          "$ref": "#/$defs/non-empty-non-blank-string"
         }
       }
     }
