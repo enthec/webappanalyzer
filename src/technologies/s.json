@@ -9256,6 +9256,7 @@
     "cats": [
       12
     ],
+    "cpe": "cpe:2.3:a:socket:socket.io:*:*:*:*:*:node.js:*:*",
     "icon": "Socket.io.svg",
     "implies": [
       "Node.js"
@@ -10996,6 +10997,7 @@
     "cats": [
       18
     ],
+    "cpe": "cpe:2.3:a:vmware:spring_framework:*:*:*:*:*:*:*:*",
     "description": "Spring is a comprehensive framework for building enterprise-level Java applications, providing tools and infrastructure for application development, including dependency injection, transaction management, and integration with various technologies.",
     "headers": {
       "X-Application-Context": ""
@@ -13872,6 +13874,7 @@
     "cats": [
       12
     ],
+    "cpe": "cpe:2.3:a:svelte:svelte:*:*:*:*:*:node.js:*:*",
     "description": "Svelte is a free and open-source front end compiler created by Rich Harris and maintained by the Svelte core team members.",
     "dom": [
       "link[href*='/svelte/']",
@@ -13891,6 +13894,7 @@
     "cats": [
       66
     ],
+    "cpe": "cpe:2.3:a:svelte:sveltekit:*:*:*:*:*:*:*:*",
     "description": "SvelteKit is the official Svelte framework for building web applications with a flexible filesystem-based routing.",
     "dom": {
       "#svelte-announcer": {
