@@ -592,20 +592,6 @@
     "saas": true,
     "website": "https://studio.design"
   },
-  "supabase": {
-    "cats": [34],
-    "description": "Supabase is an open-source backend-as-a-service (BaaS) platform providing features like database, authentication, storage, and real-time capabilities.",
-    "icon": "supabase.svg",
-    "js": {
-      "createClient": "supabase\\."
-    },
-    "scriptSrc": [
-      "cdn\\.supabase\\.com"
-    ],
-    "oss": true,
-    "saas": true,
-    "website": "https://supabase.com"
-  },
   "SUSE": {
     "cats": [
       28
@@ -13494,15 +13480,20 @@
     "dom": [
       "a[href*='supabase.com'] > img[src*='/supabase-logo-wordmark\\-\\-dark.png']"
     ],
-    "icon": "Supabase.svg",
+    "icon": "supabase.svg",
     "implies": [
       "PostgreSQL"
+    ],
+    "scriptSrc": [
+      "cdn\\.supabase\\.com"
     ],
     "js": {
       "__NUXT__.config.public.SUPABASE_URL": "",
       "__NUXT__.config.public.supabase": "",
       "supabase.AuthAdminApi": "",
-      "supabase.storageKey": ""
+      "supabase.storageKey": "",
+      "createClient": "supabase\\."
+
     },
     "oss": true,
     "pricing": [
