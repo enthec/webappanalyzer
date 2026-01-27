@@ -1,171 +1,4 @@
 {
-  "ONiAD": {
-    "cats": [
-      36
-    ],
-    "description": "ONiAd is a software platform that connects brands with their audience through omnichannel advertising.",
-    "icon": "ONiAD.svg",
-    "pricing": [
-      "poa"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "track\\.oniad\\.com"
-    ],
-    "website": "https://oniad.com"
-  },
-  "OSI Tracker": {
-    "cats": [
-      71
-    ],
-    "description": "OSI Tracker is an affiliate marketing and tracking software.",
-    "icon": "OSITracker.svg",
-    "pricing": [
-      "mid",
-      "recurring"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "\\.ositracker\\.com/"
-    ],
-    "website": "https://ositracker.com"
-  },
-  "OTYS": {
-    "cats": [
-      101
-    ],
-    "description": "OTYS is a Dutch company that specialises in providing recruitment and staffing agencies with software solutions to manage their workflows, including applicant tracking systems, job board integrations, and candidate sourcing tools.",
-    "icon": "OTYS.svg",
-    "js": {
-      "OTYS.siteId": "",
-      "otysSelect": ""
-    },
-    "pricing": [
-      "poa"
-    ],
-    "website": "https://www.otys.nl"
-  },
-  "OVHcloud": {
-    "cats": [
-      62,
-      88
-    ],
-    "description": "OVHcloud is a global, cloud provider delivering hosted private cloud, public cloud, and dedicated server solutions.",
-    "dns": {
-      "NS": [
-        "\\d+\\.ovh\\.net"
-      ],
-      "SOA": [
-        "\\d+\\.ovh\\.net"
-      ]
-    },
-    "headers": {
-      "x-iplb-request-id": ""
-    },
-    "icon": "OVHcloud.svg",
-    "pricing": [
-      "payg"
-    ],
-    "website": "https://www.ovhcloud.com"
-  },
-  "OWL Carousel": {
-    "cats": [
-      59
-    ],
-    "description": "OWL Carousel is an enabled jQuery plugin that lets you create responsive carousel sliders.",
-    "dom": [
-      "link[href*='owl.carousel.css'], link[href*='owl.carousel.min.css']"
-    ],
-    "html": [
-      "<link [^>]*href=\"[^\"]+owl\\.carousel(?:\\.min)?\\.css"
-    ],
-    "icon": "OWL Carousel.png",
-    "implies": [
-      "jQuery"
-    ],
-    "scriptSrc": [
-      "owl\\.carousel.*\\.js"
-    ],
-    "website": "https://owlcarousel2.github.io/OwlCarousel2/"
-  },
-  "OXID eShop": {
-    "cats": [
-      6
-    ],
-    "cookies": {
-      "sid_key": "oxid"
-    },
-    "description": "OXID eShop is a free, open source ecommerce solution built using object oriented programming and PHP.",
-    "icon": "OXID eShop.svg",
-    "implies": [
-      "PHP"
-    ],
-    "js": {
-      "oxCookieNote": "",
-      "oxInputValidator": "",
-      "oxLoginBox": "",
-      "oxMiniBasket": "",
-      "oxModalPopup": "",
-      "oxTopMenu": ""
-    },
-    "website": "https://www.oxid-esales.com"
-  },
-  "OXID eShop Community Edition": {
-    "cats": [
-      6
-    ],
-    "description": "OXID eShop Community Edition is a free, open source ecommerce solution built using object oriented programming and PHP.",
-    "excludes": [
-      "OXID eShop"
-    ],
-    "html": [
-      "<!--[^-]*OXID eShop Community Edition, Version (\\d+)\\;version:\\1"
-    ],
-    "icon": "OXID eShop.svg",
-    "implies": [
-      "PHP"
-    ],
-    "website": "https://www.oxid-esales.com"
-  },
-  "OXID eShop Enterprise Edition": {
-    "cats": [
-      6,
-      62
-    ],
-    "description": "OXID eShop Enterprise Edition is a B2B or B2C ecommerce solution built using object oriented programming and PHP.",
-    "excludes": [
-      "OXID eShop"
-    ],
-    "html": [
-      "<!--[^-]*OXID eShop Enterprise Edition, Version (\\d+)\\;version:\\1"
-    ],
-    "icon": "OXID eShop.svg",
-    "implies": [
-      "PHP"
-    ],
-    "website": "https://www.oxid-esales.com"
-  },
-  "OXID eShop Professional Edition": {
-    "cats": [
-      6
-    ],
-    "description": "OXID eShop Professional Edition is an e-ommerce platform for both small start-up companies and experience online retailers with a wide range of functions, software maintenance and support.",
-    "excludes": [
-      "OXID eShop"
-    ],
-    "html": [
-      "<!--[^-]*OXID eShop Professional Edition, Version (\\d+)\\;version:\\1"
-    ],
-    "icon": "OXID eShop.svg",
-    "implies": [
-      "PHP"
-    ],
-    "pricing": [
-      "high",
-      "onetime"
-    ],
-    "website": "https://exchange.oxid-esales.com/OXID-Products/OXID-eShop/OXID-eShop-Professional-Edition-6-Professional-Edition-6-Stable-PE-6-0-x.html"
-  },
   "Oat++": {
     "cats": [
       18
@@ -349,6 +182,21 @@
       "widget\\.oclocher\\.fr"
     ],
     "website": "https://www.oclocher.fr"
+  },
+  "ocStore": {
+    "cats": [
+      6
+    ],
+    "description": "ocStore is an online store based on Opencart and open-source.",
+    "html": [
+      "<!--[^>]+ocStore(?:\\s([\\d\\.a-z]+))?\\;version:\\1"
+    ],
+    "icon": "ocStore.png",
+    "implies": [
+      "OpenCart"
+    ],
+    "oss": true,
+    "website": "https://ocstore.com"
   },
   "Oct8ne": {
     "cats": [
@@ -656,24 +504,6 @@
     ],
     "website": "https://ohava.com"
   },
-  "OkMenu": {
-    "cats": [
-      5
-    ],
-    "description": "OkMenu is a provider of an all-in-one restaurant QR menu.",
-    "dom": [
-      "div#__okmenu__"
-    ],
-    "icon": "OkMenu.svg",
-    "pricing": [
-      "freemium",
-      "low",
-      "recurring",
-      "onetime"
-    ],
-    "saas": true,
-    "website": "https://oktabletmenu.com"
-  },
   "Okendo": {
     "cats": [
       90,
@@ -702,6 +532,24 @@
     ],
     "saas": true,
     "website": "https://www.okendo.io"
+  },
+  "OkMenu": {
+    "cats": [
+      5
+    ],
+    "description": "OkMenu is a provider of an all-in-one restaurant QR menu.",
+    "dom": [
+      "div#__okmenu__"
+    ],
+    "icon": "OkMenu.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "onetime"
+    ],
+    "saas": true,
+    "website": "https://oktabletmenu.com"
   },
   "Okta": {
     "cats": [
@@ -1084,66 +932,6 @@
     ],
     "website": "https://www.onthemap.com"
   },
-  "OnShop": {
-    "cats": [
-      6
-    ],
-    "description": "OnShop is an ecommerce platform for online merchants.",
-    "dom": [
-      "link[href*='cdn.onshop.asia/']"
-    ],
-    "excludes": [
-      "OpenCart"
-    ],
-    "icon": "Onshop.svg",
-    "implies": [
-      "PHP"
-    ],
-    "meta": {
-      "generator": "Onshop Ecommerce"
-    },
-    "pricing": [
-      "poa"
-    ],
-    "saas": true,
-    "website": "https://onshop.asia"
-  },
-  "OnSip": {
-    "cats": [
-      52
-    ],
-    "description": "OnSip is a hosted VoIP solution that includes website chat functionality for business communication.",
-    "icon": "OnSip.svg",
-    "js": {
-      "Onsip": ""
-    },
-    "pricing": [
-      "low",
-      "recurring"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "js\\.onsip\\.com"
-    ],
-    "website": "https://www.onsip.com"
-  },
-  "OnUniverse": {
-    "cats": [
-      51
-    ],
-    "description": "OnUniverse is the first website builder and commerce platform built for mobile devices.",
-    "dom": [
-      "link[href*='onuniverse-assets.imgix.net'], img[src*='onuniverse-assets.imgix.net']"
-    ],
-    "icon": "OnUniverse.png",
-    "pricing": [
-      "freemium",
-      "low",
-      "recurring"
-    ],
-    "saas": true,
-    "website": "https://onuniverse.com"
-  },
   "Ondestek": {
     "cats": [
       52
@@ -1180,21 +968,6 @@
     ],
     "website": "https://www.one.com"
   },
-  "OneAPM": {
-    "cats": [
-      92
-    ],
-    "description": "OneAPM is a platform providing end-to-end application performance management solutions, including real-time monitoring, anomaly detection, and data analysis for optimizing IT operations.",
-    "icon": "OneAPM.svg",
-    "js": {
-      "BWEUM": ""
-    },
-    "pricing": [
-      "poa"
-    ],
-    "saas": true,
-    "website": "https://www.oneapm.com"
-  },
   "OneAll": {
     "cats": [
       69
@@ -1213,6 +986,21 @@
       "api\\.oneall\\.com/socialize"
     ],
     "website": "https://www.oneall.com"
+  },
+  "OneAPM": {
+    "cats": [
+      92
+    ],
+    "description": "OneAPM is a platform providing end-to-end application performance management solutions, including real-time monitoring, anomaly detection, and data analysis for optimizing IT operations.",
+    "icon": "OneAPM.svg",
+    "js": {
+      "BWEUM": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.oneapm.com"
   },
   "OneCause": {
     "cats": [
@@ -1243,6 +1031,43 @@
       "onecommerce\\.io"
     ],
     "website": "https://onecommerce.io"
+  },
+  "Onehub": {
+    "cats": [
+      50
+    ],
+    "description": "Onehub is a cloud-based platform that enables secure file sharing and access control for businesses and teams.",
+    "icon": "Onehub.svg",
+    "js": {
+      "Onehub": "",
+      "OnehubBarView": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": [
+      "\\.onehub\\.com"
+    ],
+    "website": "https://www.onehub.com"
+  },
+  "Onepage": {
+    "cats": [
+      51
+    ],
+    "description": "Onepage is a page-building software that enhances productivity by streamlining the creation and management of web pages.",
+    "icon": "Onepage.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": [
+      "\\.onepage\\.io"
+    ],
+    "website": "https://onepage.io"
   },
   "OnePage Express": {
     "cats": [
@@ -1365,43 +1190,6 @@
     ],
     "website": "https://www.onetrust.com"
   },
-  "Onehub": {
-    "cats": [
-      50
-    ],
-    "description": "Onehub is a cloud-based platform that enables secure file sharing and access control for businesses and teams.",
-    "icon": "Onehub.svg",
-    "js": {
-      "Onehub": "",
-      "OnehubBarView": ""
-    },
-    "pricing": [
-      "mid",
-      "recurring"
-    ],
-    "saas": true,
-    "scripts": [
-      "\\.onehub\\.com"
-    ],
-    "website": "https://www.onehub.com"
-  },
-  "Onepage": {
-    "cats": [
-      51
-    ],
-    "description": "Onepage is a page-building software that enhances productivity by streamlining the creation and management of web pages.",
-    "icon": "Onepage.svg",
-    "pricing": [
-      "freemium",
-      "low",
-      "recurring"
-    ],
-    "saas": true,
-    "scripts": [
-      "\\.onepage\\.io"
-    ],
-    "website": "https://onepage.io"
-  },
   "Oney": {
     "cats": [
       91
@@ -1444,6 +1232,21 @@
     ],
     "saas": true,
     "website": "https://onfido.com"
+  },
+  "ONiAD": {
+    "cats": [
+      36
+    ],
+    "description": "ONiAd is a software platform that connects brands with their audience through omnichannel advertising.",
+    "icon": "ONiAD.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "track\\.oniad\\.com"
+    ],
+    "website": "https://oniad.com"
   },
   "Onicon": {
     "cats": [
@@ -1498,6 +1301,40 @@
     ],
     "website": "https://www.onlinechatcenters.com"
   },
+  "onlyfy Application Manager": {
+    "cats": [
+      101
+    ],
+    "description": "onlyfy Application Manager is applicant tracking and recruitment software formerly known as Prescreen, designed to manage hiring processes and candidate applications.",
+    "icon": "Onlyfy.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "prescreen\\.io/.*iframeWidget\\.js"
+    ],
+    "website": "https://recruiting.xing.com/en/products/application-manager"
+  },
+  "onpublix": {
+    "cats": [
+      1
+    ],
+    "description": "onpublix is a web content management system (CMS) platform for eBusinesses.",
+    "icon": "onpublix.svg",
+    "meta": {
+      "generator": "^onpublix\\s([\\d\\.]+)$\\;version:\\1"
+    },
+    "pricing": [
+      "onetime",
+      "mid",
+      "payg",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.onpublix.de"
+  },
   "Onsen UI": {
     "cats": [
       26
@@ -1510,6 +1347,49 @@
       "(/.*onsen.*min\\.js|.*angular-onsenui\\.min\\.js)"
     ],
     "website": "https://onsen.io"
+  },
+  "OnShop": {
+    "cats": [
+      6
+    ],
+    "description": "OnShop is an ecommerce platform for online merchants.",
+    "dom": [
+      "link[href*='cdn.onshop.asia/']"
+    ],
+    "excludes": [
+      "OpenCart"
+    ],
+    "icon": "Onshop.svg",
+    "implies": [
+      "PHP"
+    ],
+    "meta": {
+      "generator": "Onshop Ecommerce"
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://onshop.asia"
+  },
+  "OnSip": {
+    "cats": [
+      52
+    ],
+    "description": "OnSip is a hosted VoIP solution that includes website chat functionality for business communication.",
+    "icon": "OnSip.svg",
+    "js": {
+      "Onsip": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "js\\.onsip\\.com"
+    ],
+    "website": "https://www.onsip.com"
   },
   "Onsite Support": {
     "cats": [
@@ -1526,6 +1406,23 @@
       "static\\.onsitesupport\\.io"
     ],
     "website": "https://onsitesupport.io"
+  },
+  "OnUniverse": {
+    "cats": [
+      51
+    ],
+    "description": "OnUniverse is the first website builder and commerce platform built for mobile devices.",
+    "dom": [
+      "link[href*='onuniverse-assets.imgix.net'], img[src*='onuniverse-assets.imgix.net']"
+    ],
+    "icon": "OnUniverse.png",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://onuniverse.com"
   },
   "Ookla Speedtest Custom": {
     "cats": [
@@ -1571,23 +1468,6 @@
     "saas": true,
     "website": "https://oopy.us/"
   },
-  "OpTuNE": {
-    "cats": [
-      104
-    ],
-    "description": "OpTuNE is an online platform for booking and managing events, designed for artists, venues, and promoters.",
-    "icon": "OpTuNE.svg",
-    "pricing": [
-      "freemium",
-      "low",
-      "recurring"
-    ],
-    "saas": true,
-    "scripts": [
-      "\\.optune\\.me"
-    ],
-    "website": "https://www.optune.me"
-  },
   "Opal": {
     "cats": [
       47
@@ -1621,6 +1501,33 @@
     },
     "website": "https://open-classifieds.com"
   },
+  "Open edX": {
+    "cats": [
+      1,
+      21
+    ],
+    "description": "The Open edX platform is a free and open source course management system.",
+    "dom": [
+      "meta[name='openedx-release-line'], #footer-openedx, .openedx, .open-edx-logo, .open-edx-link, .footer-about-openedx, a[href*='https://open.edx.org'], a[href*='https://openedx.org'], img[src*='https://files.edx.org/openedx-logos/'][alt='Powered by Open edX']"
+    ],
+    "icon": "Open edX.png",
+    "oss": true,
+    "website": "https://openedx.org/"
+  },
+  "Open eShop": {
+    "cats": [
+      6
+    ],
+    "icon": "Open eShop.png",
+    "implies": [
+      "PHP"
+    ],
+    "meta": {
+      "author": "open-eshop\\.com",
+      "copyright": "Open eShop ?([0-9.]+)?\\;version:\\1"
+    },
+    "website": "https://open-eshop.com/"
+  },
   "Open Graph": {
     "cats": [
       19
@@ -1651,19 +1558,6 @@
     },
     "website": "https://pkp.sfu.ca/ojs"
   },
-  "opentelemetry": {
-    "cats": [10],
-    "description": "OpenTelemetry is a framework for observability, providing standardized APIs, libraries, and agents to collect telemetry data.",
-    "icon": "opentelemetry.svg",
-    "js": {
-      "otel": ""
-    },
-    "scriptSrc": [
-      "opentelemetry.*\\.js"
-    ],
-    "oss": true,
-    "website": "https://opentelemetry.io"
-  },
   "Open Web Analytics": {
     "cats": [
       10
@@ -1681,33 +1575,6 @@
     },
     "oss": true,
     "website": "https://www.openwebanalytics.com"
-  },
-  "Open eShop": {
-    "cats": [
-      6
-    ],
-    "icon": "Open eShop.png",
-    "implies": [
-      "PHP"
-    ],
-    "meta": {
-      "author": "open-eshop\\.com",
-      "copyright": "Open eShop ?([0-9.]+)?\\;version:\\1"
-    },
-    "website": "https://open-eshop.com/"
-  },
-  "Open edX": {
-    "cats": [
-      1,
-      21
-    ],
-    "description": "The Open edX platform is a free and open source course management system.",
-    "dom": [
-      "meta[name='openedx-release-line'], #footer-openedx, .openedx, .open-edx-logo, .open-edx-link, .footer-about-openedx, a[href*='https://open.edx.org'], a[href*='https://openedx.org'], img[src*='https://files.edx.org/openedx-logos/'][alt='Powered by Open edX']"
-    ],
-    "icon": "Open edX.png",
-    "oss": true,
-    "website": "https://openedx.org/"
   },
   "Open-Props": {
     "cats": [
@@ -1758,22 +1625,6 @@
     "icon": "OpenBSD httpd.svg",
     "oss": true,
     "website": "https://man.openbsd.org/httpd.8"
-  },
-  "OpenCV": {
-    "cats": [
-      59
-    ],
-    "cpe": "cpe:2.3:a:opencv:opencv:*:*:*:*:*:*:*:*",
-    "description": "OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library.",
-    "icon": "OpenCV.svg",
-    "implies": [
-      "WebAssembly"
-    ],
-    "js": {
-      "opencvIsReady": ""
-    },
-    "oss": true,
-    "website": "https://opencv.org"
   },
   "OpenCart": {
     "cats": [
@@ -1845,6 +1696,22 @@
     ],
     "website": "https://www.opencms.org"
   },
+  "OpenCV": {
+    "cats": [
+      59
+    ],
+    "cpe": "cpe:2.3:a:opencv:opencv:*:*:*:*:*:*:*:*",
+    "description": "OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library.",
+    "icon": "OpenCV.svg",
+    "implies": [
+      "WebAssembly"
+    ],
+    "js": {
+      "opencvIsReady": ""
+    },
+    "oss": true,
+    "website": "https://opencv.org"
+  },
   "OpenElement": {
     "cats": [
       1
@@ -1864,20 +1731,6 @@
     "oss": true,
     "website": "https://openelement.uk"
   },
-  "OpenGSE": {
-    "cats": [
-      22
-    ],
-    "description": "OpenGSE is a test suite used for testing servlet compliance. It is deployed by using WAR files that are deployed on the server engine.",
-    "headers": {
-      "Server": "GSE"
-    },
-    "icon": "Google.svg",
-    "implies": [
-      "Java"
-    ],
-    "website": "https://code.google.com/p/opengse"
-  },
   "OpenGrok": {
     "cats": [
       19
@@ -1893,6 +1746,20 @@
       "generator": "OpenGrok(?: v?([\\d.]+))?\\;version:\\1"
     },
     "website": "https://hub.opensolaris.org/bin/view/Project+opengrok/WebHome"
+  },
+  "OpenGSE": {
+    "cats": [
+      22
+    ],
+    "description": "OpenGSE is a test suite used for testing servlet compliance. It is deployed by using WAR files that are deployed on the server engine.",
+    "headers": {
+      "Server": "GSE"
+    },
+    "icon": "Google.svg",
+    "implies": [
+      "Java"
+    ],
+    "website": "https://code.google.com/p/opengse"
   },
   "OpenLayers": {
     "cats": [
@@ -2028,6 +1895,21 @@
     "saas": true,
     "website": "https://restaurant.opentable.com"
   },
+  "opentelemetry": {
+    "cats": [
+      10
+    ],
+    "description": "OpenTelemetry is a framework for observability, providing standardized APIs, libraries, and agents to collect telemetry data.",
+    "icon": "opentelemetry.svg",
+    "js": {
+      "otel": ""
+    },
+    "scriptSrc": [
+      "opentelemetry.*\\.js"
+    ],
+    "oss": true,
+    "website": "https://opentelemetry.io"
+  },
   "OpenText Web": {
     "cats": [
       1
@@ -2074,6 +1956,18 @@
     ],
     "saas": true,
     "website": "https://www.opentiendas.com"
+  },
+  "Opentracker": {
+    "cats": [
+      10
+    ],
+    "description": "Opentracker is a real-time analytics tool that tracks website traffic, user behavior, and engagement.",
+    "icon": "Opentracker.svg",
+    "saas": true,
+    "scriptSrc": [
+      "script\\.opentracker\\.net"
+    ],
+    "website": "https://www.opentracker.net"
   },
   "OpenUI5": {
     "cats": [
@@ -2134,18 +2028,6 @@
       "https?://[^/]*\\.servedbyopenx\\.com"
     ],
     "website": "https://openx.com"
-  },
-  "Opentracker": {
-    "cats": [
-      10
-    ],
-    "description": "Opentracker is a real-time analytics tool that tracks website traffic, user behavior, and engagement.",
-    "icon": "Opentracker.svg",
-    "saas": true,
-    "scriptSrc": [
-      "script\\.opentracker\\.net"
-    ],
-    "website": "https://www.opentracker.net"
   },
   "OperateBeyond": {
     "cats": [
@@ -2237,27 +2119,6 @@
       "app\\.opscalendar\\.com/"
     ],
     "website": "https://opscalendar.com"
-  },
-  "OptiMonk": {
-    "cats": [
-      98,
-      77
-    ],
-    "description": "OptiMonk is an on-site message toolkit used to improve conversions using action-based popups ad bars.",
-    "dom": [
-      "link[href*='.optimonk.com']"
-    ],
-    "icon": "OptiMonk.svg",
-    "pricing": [
-      "low",
-      "recurring",
-      "freemium"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "\\.optimonk\\.com/"
-    ],
-    "website": "https://www.optimonk.com"
   },
   "Optibase": {
     "cats": [
@@ -2409,6 +2270,27 @@
     ],
     "website": "https://optimole.com"
   },
+  "OptiMonk": {
+    "cats": [
+      98,
+      77
+    ],
+    "description": "OptiMonk is an on-site message toolkit used to improve conversions using action-based popups ad bars.",
+    "dom": [
+      "link[href*='.optimonk.com']"
+    ],
+    "icon": "OptiMonk.svg",
+    "pricing": [
+      "low",
+      "recurring",
+      "freemium"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.optimonk\\.com/"
+    ],
+    "website": "https://www.optimonk.com"
+  },
   "Optimove": {
     "cats": [
       97
@@ -2501,6 +2383,23 @@
       "/wp-content/plugins/optinmonster/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
     ],
     "website": "https://optinmonster.com"
+  },
+  "OpTuNE": {
+    "cats": [
+      104
+    ],
+    "description": "OpTuNE is an online platform for booking and managing events, designed for artists, venues, and promoters.",
+    "icon": "OpTuNE.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": [
+      "\\.optune\\.me"
+    ],
+    "website": "https://www.optune.me"
   },
   "Oracle Application Express": {
     "cats": [
@@ -2856,6 +2755,42 @@
     ],
     "website": "https://www.ordercast.io"
   },
+  "Ordergroove": {
+    "cats": [
+      41
+    ],
+    "description": "Ordergroove provides a SaaS (Software as a Service) based subscription and membership commerce platform.",
+    "headers": {
+      "content-security-policy": "\\.ordergroove\\.com"
+    },
+    "icon": "ordergroove.svg",
+    "pricing": [
+      "recurring",
+      "mid"
+    ],
+    "scriptSrc": [
+      "\\.ordergroove\\.com/"
+    ],
+    "website": "https://www.ordergroove.com/"
+  },
+  "Ordering": {
+    "cats": [
+      93
+    ],
+    "description": "Ordering is a multi-store online ordering and delivery platform providing marketing and loyalty tools, along with native apps for businesses.",
+    "dom": [
+      "link[href*='apiv4.ordering.co']"
+    ],
+    "icon": "Ordering.svg",
+    "pricing": [
+      "onetime",
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.ordering.co"
+  },
   "OrderLogic app": {
     "cats": [
       100
@@ -2921,61 +2856,6 @@
     "saas": true,
     "website": "https://orderport.net"
   },
-  "OrderYOYO": {
-    "cats": [
-      6
-    ],
-    "description": "OrderYOYO is an online ordering, payment, and marketing software solution provider.",
-    "dom": [
-      "a[href*='.orderyoyo.com/'][target='_blank']"
-    ],
-    "icon": "OrderYOYO.png",
-    "js": {
-      "SmartBannerOY": ""
-    },
-    "pricing": [
-      "low",
-      "recurring"
-    ],
-    "saas": true,
-    "website": "https://orderyoyo.com"
-  },
-  "Ordergroove": {
-    "cats": [
-      41
-    ],
-    "description": "Ordergroove provides a SaaS (Software as a Service) based subscription and membership commerce platform.",
-    "headers": {
-      "content-security-policy": "\\.ordergroove\\.com"
-    },
-    "icon": "ordergroove.svg",
-    "pricing": [
-      "recurring",
-      "mid"
-    ],
-    "scriptSrc": [
-      "\\.ordergroove\\.com/"
-    ],
-    "website": "https://www.ordergroove.com/"
-  },
-  "Ordering": {
-    "cats": [
-      93
-    ],
-    "description": "Ordering is a multi-store online ordering and delivery platform providing marketing and loyalty tools, along with native apps for businesses.",
-    "dom": [
-      "link[href*='apiv4.ordering.co']"
-    ],
-    "icon": "Ordering.svg",
-    "pricing": [
-      "onetime",
-      "low",
-      "recurring",
-      "poa"
-    ],
-    "saas": true,
-    "website": "https://www.ordering.co"
-  },
   "Ordersify Product Alerts": {
     "cats": [
       100
@@ -2998,6 +2878,25 @@
       "cdn\\.ordersify\\.com/sdk/productalerts-shopify\\.js"
     ],
     "website": "https://ordersify.com/products/product-alerts"
+  },
+  "OrderYOYO": {
+    "cats": [
+      6
+    ],
+    "description": "OrderYOYO is an online ordering, payment, and marketing software solution provider.",
+    "dom": [
+      "a[href*='.orderyoyo.com/'][target='_blank']"
+    ],
+    "icon": "OrderYOYO.png",
+    "js": {
+      "SmartBannerOY": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://orderyoyo.com"
   },
   "Oreed": {
     "cats": [
@@ -3107,6 +3006,47 @@
     ],
     "website": "https://www.osano.com"
   },
+  "osCommerce": {
+    "cats": [
+      6
+    ],
+    "cookies": {
+      "osCsid": ""
+    },
+    "cpe": "cpe:2.3:a:oscommerce:oscommerce:*:*:*:*:*:*:*:*",
+    "description": "OsCommerce is an open-source ecommerce and online store-management software program.",
+    "dom": [
+      "input[name='osCsid'], a[name='osCsid'], tr.infoBoxHeading, td.infoBoxHeading, table.infoBoxHeading"
+    ],
+    "html": [
+      "<br />Powered by <a href=\"https?://www\\.oscommerce\\.com",
+      "<(?:input|a)[^>]+name=\"osCsid\"",
+      "<(?:tr|td|table)class=\"[^\"]*infoBoxHeading"
+    ],
+    "icon": "osCommerce.png",
+    "implies": [
+      "PHP",
+      "MySQL"
+    ],
+    "oss": true,
+    "website": "https://www.oscommerce.com"
+  },
+  "OSI Tracker": {
+    "cats": [
+      71
+    ],
+    "description": "OSI Tracker is an affiliate marketing and tracking software.",
+    "icon": "OSITracker.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.ositracker\\.com/"
+    ],
+    "website": "https://ositracker.com"
+  },
   "Osterreichische Post": {
     "cats": [
       99
@@ -3122,6 +3062,60 @@
       "\\b[ÖO]sterreichische Post\\b"
     ],
     "website": "https://www.post.at"
+  },
+  "osTicket": {
+    "cats": [
+      13
+    ],
+    "cookies": {
+      "OSTSESSID": ""
+    },
+    "cpe": "cpe:2.3:a:enhancesoft:osticket:*:*:*:*:*:*:*:*",
+    "description": "osTicket is an open-source support ticket system that allows businesses to manage and streamline customer support requests through a centralized platform, including features for ticket tracking, automation, and reporting.",
+    "icon": "osTicket.svg",
+    "implies": [
+      "PHP",
+      "MySQL"
+    ],
+    "oss": true,
+    "website": "https://osticket.com"
+  },
+  "ostr.io": {
+    "cats": [
+      10
+    ],
+    "description": "ostr.io is a platform that provides site monitoring and analytics services, enabling the collection and analysis of performance and usage data.",
+    "icon": "ostr.svg",
+    "oss": true,
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "scriptSrc": [
+      "analytics\\.ostr\\.io"
+    ],
+    "website": "https://ostr.io"
+  },
+  "otrs": {
+    "cats": [
+      13
+    ],
+    "cpe": "cpe:2.3:a:otrs:otrs:*:*:*:*:*:*:*:*",
+    "headers": {
+      "X-Powered-By": "OTRS ([\\d.]+)\\;version:\\1"
+    },
+    "html": [
+      "<!--\\s+OTRS: Copyright"
+    ],
+    "icon": "otrs.png",
+    "implies": [
+      "Perl"
+    ],
+    "scriptSrc": [
+      "^/otrs-web/js/"
+    ],
+    "website": "https://www.otrs.com"
   },
   "Otter Blocks": {
     "cats": [
@@ -3171,51 +3165,20 @@
     "saas": true,
     "website": "https://otto.vet/otto-flow"
   },
-  "OutSystems": {
+  "OTYS": {
     "cats": [
-      47
+      101
     ],
-    "cpe": "cpe:2.3:a:outsystems:outsystems:*:*:*:*:*:*:*:*",
-    "description": "OutSystems is a low-code platform which provides tools for companies to develop, deploy and manage omnichannel enterprise applications.",
-    "icon": "OutSystems.svg",
-    "implies": [
-      "Windows Server",
-      "IIS"
-    ],
+    "description": "OTYS is a Dutch company that specialises in providing recruitment and staffing agencies with software solutions to manage their workflows, including applicant tracking systems, job board integrations, and candidate sourcing tools.",
+    "icon": "OTYS.svg",
     "js": {
-      "OutSystemsDebugger": "",
-      "outsystems": ""
+      "OTYS.siteId": "",
+      "otysSelect": ""
     },
     "pricing": [
-      "high",
-      "recurring"
+      "poa"
     ],
-    "saas": true,
-    "scriptSrc": [
-      "scripts/OutSystems(?:[\\w]+)?\\.js"
-    ],
-    "website": "https://www.outsystems.com"
-  },
-  "OutTheBoxThemes Panoramic": {
-    "cats": [
-      80
-    ],
-    "description": "Panoramic is a fully responsive WordPress theme with a homepage slider by OutTheBoxThemes.",
-    "dom": [
-      "link#panoramic_customizer_theme_fonts-css"
-    ],
-    "icon": "OutTheBoxThemes.svg",
-    "pricing": [
-      "freemium",
-      "onetime"
-    ],
-    "requires": [
-      "WordPress"
-    ],
-    "scriptSrc": [
-      "/wp-content/themes/panoramic/.+custom\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
-    ],
-    "website": "https://www.outtheboxthemes.com/wordpress-themes/panoramic"
+    "website": "https://www.otys.nl"
   },
   "Outbrain": {
     "cats": [
@@ -3327,6 +3290,52 @@
     ],
     "website": "https://outplay.ai"
   },
+  "OutSystems": {
+    "cats": [
+      47
+    ],
+    "cpe": "cpe:2.3:a:outsystems:outsystems:*:*:*:*:*:*:*:*",
+    "description": "OutSystems is a low-code platform which provides tools for companies to develop, deploy and manage omnichannel enterprise applications.",
+    "icon": "OutSystems.svg",
+    "implies": [
+      "Windows Server",
+      "IIS"
+    ],
+    "js": {
+      "OutSystemsDebugger": "",
+      "outsystems": ""
+    },
+    "pricing": [
+      "high",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "scripts/OutSystems(?:[\\w]+)?\\.js"
+    ],
+    "website": "https://www.outsystems.com"
+  },
+  "OutTheBoxThemes Panoramic": {
+    "cats": [
+      80
+    ],
+    "description": "Panoramic is a fully responsive WordPress theme with a homepage slider by OutTheBoxThemes.",
+    "dom": [
+      "link#panoramic_customizer_theme_fonts-css"
+    ],
+    "icon": "OutTheBoxThemes.svg",
+    "pricing": [
+      "freemium",
+      "onetime"
+    ],
+    "requires": [
+      "WordPress"
+    ],
+    "scriptSrc": [
+      "/wp-content/themes/panoramic/.+custom\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+    ],
+    "website": "https://www.outtheboxthemes.com/wordpress-themes/panoramic"
+  },
   "Ova": {
     "cats": [
       51
@@ -3414,6 +3423,29 @@
     ],
     "website": "https://www.overwolf.com"
   },
+  "OVHcloud": {
+    "cats": [
+      62,
+      88
+    ],
+    "description": "OVHcloud is a global, cloud provider delivering hosted private cloud, public cloud, and dedicated server solutions.",
+    "dns": {
+      "NS": [
+        "\\d+\\.ovh\\.net"
+      ],
+      "SOA": [
+        "\\d+\\.ovh\\.net"
+      ]
+    },
+    "headers": {
+      "x-iplb-request-id": ""
+    },
+    "icon": "OVHcloud.svg",
+    "pricing": [
+      "payg"
+    ],
+    "website": "https://www.ovhcloud.com"
+  },
   "Owids": {
     "cats": [
       5
@@ -3436,6 +3468,46 @@
       "sdk\\.owids\\.com"
     ],
     "website": "https://owids.com"
+  },
+  "OWL Carousel": {
+    "cats": [
+      59
+    ],
+    "description": "OWL Carousel is an enabled jQuery plugin that lets you create responsive carousel sliders.",
+    "dom": [
+      "link[href*='owl.carousel.css'], link[href*='owl.carousel.min.css']"
+    ],
+    "html": [
+      "<link [^>]*href=\"[^\"]+owl\\.carousel(?:\\.min)?\\.css"
+    ],
+    "icon": "OWL Carousel.png",
+    "implies": [
+      "jQuery"
+    ],
+    "scriptSrc": [
+      "owl\\.carousel.*\\.js"
+    ],
+    "website": "https://owlcarousel2.github.io/OwlCarousel2/"
+  },
+  "ownCloud": {
+    "cats": [
+      19
+    ],
+    "cpe": "cpe:2.3:a:owncloud:owncloud:*:*:*:*:*:*:*:*",
+    "html": [
+      "<a href=\"https://owncloud\\.com\" target=\"_blank\">ownCloud Inc\\.</a><br/>Your Cloud, Your Data, Your Way!"
+    ],
+    "icon": "ownCloud.svg",
+    "implies": [
+      "PHP"
+    ],
+    "js": {
+      "oc_defaults": ""
+    },
+    "meta": {
+      "apple-itunes-app": "app-id=543672169"
+    },
+    "website": "https://owncloud.org"
   },
   "Ownpage": {
     "cats": [
@@ -3480,6 +3552,84 @@
     ],
     "website": "https://www.oxiapps.com/"
   },
+  "OXID eShop": {
+    "cats": [
+      6
+    ],
+    "cookies": {
+      "sid_key": "oxid"
+    },
+    "description": "OXID eShop is a free, open source ecommerce solution built using object oriented programming and PHP.",
+    "icon": "OXID eShop.svg",
+    "implies": [
+      "PHP"
+    ],
+    "js": {
+      "oxCookieNote": "",
+      "oxInputValidator": "",
+      "oxLoginBox": "",
+      "oxMiniBasket": "",
+      "oxModalPopup": "",
+      "oxTopMenu": ""
+    },
+    "website": "https://www.oxid-esales.com"
+  },
+  "OXID eShop Community Edition": {
+    "cats": [
+      6
+    ],
+    "description": "OXID eShop Community Edition is a free, open source ecommerce solution built using object oriented programming and PHP.",
+    "excludes": [
+      "OXID eShop"
+    ],
+    "html": [
+      "<!--[^-]*OXID eShop Community Edition, Version (\\d+)\\;version:\\1"
+    ],
+    "icon": "OXID eShop.svg",
+    "implies": [
+      "PHP"
+    ],
+    "website": "https://www.oxid-esales.com"
+  },
+  "OXID eShop Enterprise Edition": {
+    "cats": [
+      6,
+      62
+    ],
+    "description": "OXID eShop Enterprise Edition is a B2B or B2C ecommerce solution built using object oriented programming and PHP.",
+    "excludes": [
+      "OXID eShop"
+    ],
+    "html": [
+      "<!--[^-]*OXID eShop Enterprise Edition, Version (\\d+)\\;version:\\1"
+    ],
+    "icon": "OXID eShop.svg",
+    "implies": [
+      "PHP"
+    ],
+    "website": "https://www.oxid-esales.com"
+  },
+  "OXID eShop Professional Edition": {
+    "cats": [
+      6
+    ],
+    "description": "OXID eShop Professional Edition is an e-ommerce platform for both small start-up companies and experience online retailers with a wide range of functions, software maintenance and support.",
+    "excludes": [
+      "OXID eShop"
+    ],
+    "html": [
+      "<!--[^-]*OXID eShop Professional Edition, Version (\\d+)\\;version:\\1"
+    ],
+    "icon": "OXID eShop.svg",
+    "implies": [
+      "PHP"
+    ],
+    "pricing": [
+      "high",
+      "onetime"
+    ],
+    "website": "https://exchange.oxid-esales.com/OXID-Products/OXID-eShop/OXID-eShop-Professional-Edition-6-Professional-Edition-6-Stable-PE-6-0-x.html"
+  },
   "Oxygen": {
     "cats": [
       51,
@@ -3513,153 +3663,5 @@
     },
     "saas": true,
     "website": "https://www.oxyshop.cz"
-  },
-  "ocStore": {
-    "cats": [
-      6
-    ],
-    "description": "ocStore is an online store based on Opencart and open-source.",
-    "html": [
-      "<!--[^>]+ocStore(?:\\s([\\d\\.a-z]+))?\\;version:\\1"
-    ],
-    "icon": "ocStore.png",
-    "implies": [
-      "OpenCart"
-    ],
-    "oss": true,
-    "website": "https://ocstore.com"
-  },
-  "onlyfy Application Manager": {
-    "cats": [
-      101
-    ],
-    "description": "onlyfy Application Manager is applicant tracking and recruitment software formerly known as Prescreen, designed to manage hiring processes and candidate applications.",
-    "icon": "Onlyfy.svg",
-    "pricing": [
-      "mid",
-      "recurring"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "prescreen\\.io/.*iframeWidget\\.js"
-    ],
-    "website": "https://recruiting.xing.com/en/products/application-manager"
-  },
-  "onpublix": {
-    "cats": [
-      1
-    ],
-    "description": "onpublix is a web content management system (CMS) platform for eBusinesses.",
-    "icon": "onpublix.svg",
-    "meta": {
-      "generator": "^onpublix\\s([\\d\\.]+)$\\;version:\\1"
-    },
-    "pricing": [
-      "onetime",
-      "mid",
-      "payg",
-      "recurring"
-    ],
-    "saas": true,
-    "website": "https://www.onpublix.de"
-  },
-  "osCommerce": {
-    "cats": [
-      6
-    ],
-    "cookies": {
-      "osCsid": ""
-    },
-    "cpe": "cpe:2.3:a:oscommerce:oscommerce:*:*:*:*:*:*:*:*",
-    "description": "OsCommerce is an open-source ecommerce and online store-management software program.",
-    "dom": [
-      "input[name='osCsid'], a[name='osCsid'], tr.infoBoxHeading, td.infoBoxHeading, table.infoBoxHeading"
-    ],
-    "html": [
-      "<br />Powered by <a href=\"https?://www\\.oscommerce\\.com",
-      "<(?:input|a)[^>]+name=\"osCsid\"",
-      "<(?:tr|td|table)class=\"[^\"]*infoBoxHeading"
-    ],
-    "icon": "osCommerce.png",
-    "implies": [
-      "PHP",
-      "MySQL"
-    ],
-    "oss": true,
-    "website": "https://www.oscommerce.com"
-  },
-  "osTicket": {
-    "cats": [
-      13
-    ],
-    "cookies": {
-      "OSTSESSID": ""
-    },
-    "cpe": "cpe:2.3:a:enhancesoft:osticket:*:*:*:*:*:*:*:*",
-    "description": "osTicket is an open-source support ticket system that allows businesses to manage and streamline customer support requests through a centralized platform, including features for ticket tracking, automation, and reporting.",
-    "icon": "osTicket.svg",
-    "implies": [
-      "PHP",
-      "MySQL"
-    ],
-    "oss": true,
-    "website": "https://osticket.com"
-  },
-  "ostr.io": {
-    "cats": [
-      10
-    ],
-    "description": "ostr.io is a platform that provides site monitoring and analytics services, enabling the collection and analysis of performance and usage data.",
-    "icon": "ostr.svg",
-    "oss": true,
-    "pricing": [
-      "freemium",
-      "low",
-      "recurring"
-    ],
-    "scriptSrc": [
-      "analytics\\.ostr\\.io"
-    ],
-    "website": "https://ostr.io"
-  },
-  "otrs": {
-    "cats": [
-      13
-    ],
-    "cpe": "cpe:2.3:a:otrs:otrs:*:*:*:*:*:*:*:*",
-    "headers": {
-      "X-Powered-By": "OTRS ([\\d.]+)\\;version:\\1"
-    },
-    "html": [
-      "<!--\\s+OTRS: Copyright"
-    ],
-    "icon": "otrs.png",
-    "implies": [
-      "Perl"
-    ],
-    "scriptSrc": [
-      "^/otrs-web/js/"
-    ],
-    "website": "https://www.otrs.com"
-  },
-  "ownCloud": {
-    "cats": [
-      19
-    ],
-    "cpe": "cpe:2.3:a:owncloud:owncloud:*:*:*:*:*:*:*:*",
-    "html": [
-      "<a href=\"https://owncloud\\.com\" target=\"_blank\">ownCloud Inc\\.</a><br/>Your Cloud, Your Data, Your Way!"
-    ],
-    "icon": "ownCloud.svg",
-    "implies": [
-      "PHP"
-    ],
-    "js": {
-      "oc_defaults": ""
-    },
-    "meta": {
-      "apple-itunes-app": "app-id=543672169"
-    },
-    "website": "https://owncloud.org"
   }
 }

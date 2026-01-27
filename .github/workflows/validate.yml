@@ -18,6 +18,24 @@ jobs:
       - name: run structure validator
         run: python3 .github/workflows/scripts/structure_validator.py
 
+  validate_order_duplication:
+    runs-on: ubuntu-22.04
+    needs: validate_structure
+    strategy:
+      matrix:
+        python-version: [ "3.12" ]
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v4
+
+      - name: set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: run order validator
+        run: python3 .github/workflows/scripts/order_validator.py src/technologies
+
   validate_schema:
     runs-on: ubuntu-22.04
     needs: validate_structure

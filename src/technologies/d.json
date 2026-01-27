@@ -30,289 +30,6 @@
     ],
     "website": "https://d3js.org"
   },
-  "DCKAP Commerce": {
-    "cats": [
-      6
-    ],
-    "description": "DCKAP Commerce is a B2B ecommerce platform for distributors and manufacturers.",
-    "icon": "DCKAPCommerce.svg",
-    "pricing": [
-      "mid",
-      "recurring",
-      "poa"
-    ],
-    "saas": true,
-    "scripts": [
-      "assets\\.mydckapcommerce\\.com"
-    ],
-    "website": "https://www.dckap.com/commerce"
-  },
-  "DDoS-Guard": {
-    "cats": [
-      16
-    ],
-    "description": "DDoS-Guard is a Russian Internet infrastructure company which provides DDoS protection, content delivery network services, and web hosting services.",
-    "headers": {
-      "server": "^ddos-guard$"
-    },
-    "icon": "DDoS-Guard.svg",
-    "pricing": [
-      "freemium",
-      "low",
-      "recurring"
-    ],
-    "website": "https://ddos-guard.net"
-  },
-  "DERAK.CLOUD": {
-    "cats": [
-      31
-    ],
-    "cookies": {
-      "__derak_auth": "",
-      "__derak_user": ""
-    },
-    "headers": {
-      "Derak-Umbrage": "",
-      "Server": "^DERAK\\.CLOUD$"
-    },
-    "icon": "DerakCloud.svg",
-    "js": {
-      "derakCloud.init": ""
-    },
-    "website": "https://derak.cloud"
-  },
-  "DESTOON": {
-    "cats": [
-      1
-    ],
-    "description": "DESTOON is a website management solution designed to support the creation, organization, and operation of online platforms through integrated tools and features.",
-    "icon": "DESTOON.svg",
-    "js": {
-      "destoon_cart": "",
-      "destoon_chat": ""
-    },
-    "meta": {
-      "generator": "^DESTOON B2B - www\\.destoon\\.com$"
-    },
-    "pricing": [
-      "onetime"
-    ],
-    "saas": true,
-    "website": "https://destoon.com"
-  },
-  "DEUNA": {
-    "cats": [
-      41
-    ],
-    "description": "DEUNA is an AI-powered platform that orchestrates global payments and enhances commerce performance.",
-    "icon": "DEUNA.svg",
-    "js": {
-      "DeunaCDL": "",
-      "DunaCheckout": ""
-    },
-    "saas": true,
-    "website": "https://www.deuna.com"
-  },
-  "DHL": {
-    "cats": [
-      99
-    ],
-    "description": "DHL is an international courier, package delivery and express mail service, which is a division of the German logistics firm Deutsche Post.",
-    "dom": {
-      "img[alt*='dhl' i]": {
-        "attributes": {
-          "alt": "\\bDHL\\b"
-        }
-      }
-    },
-    "icon": "DHL.svg",
-    "requiresCategory": [
-      6
-    ],
-    "text": [
-      "\\bUK Mail\\b",
-      "\\bDHL\\b"
-    ],
-    "website": "https://www.dhl.com"
-  },
-  "DHTMLX": {
-    "cats": [
-      59
-    ],
-    "description": "DHTMLX specialises in building JavaScript UI libraries for project management, event planning, big data visualisation, and reporting.",
-    "icon": "DHTMLX.svg",
-    "js": {
-      "dhtmlDragAndDropObject": "",
-      "dhtmlXTreeItemObject": ""
-    },
-    "pricing": [
-      "onetime"
-    ],
-    "scriptSrc": [
-      "/dhtmlxcommon\\.js"
-    ],
-    "website": "https://dhtmlx.com"
-  },
-  "DISH": {
-    "cats": [
-      93
-    ],
-    "description": "DISH is a platform that allows restaurants to independently manage online reservations and customer orders.",
-    "icon": "DISH.svg",
-    "saas": true,
-    "scriptSrc": [
-      "\\.dish\\.co"
-    ],
-    "website": "https://www.dish.co/XX"
-  },
-  "DM Polopoly": {
-    "cats": [
-      1
-    ],
-    "description": "DM Polopoly is a web content management solution focused on enhancing the user experience built by Atex.",
-    "dom": [
-      "img[data-src*='/polopoly_fs/'], link[href*='/polopoly_fs/'], img[src*='/polopoly_fs/']"
-    ],
-    "icon": "DM Polopoly.svg",
-    "implies": [
-      "Java"
-    ],
-    "website": "https://www.atex.com/products/dm-polopoly"
-  },
-  "DNN": {
-    "cats": [
-      1
-    ],
-    "cookies": {
-      "DotNetNukeAnonymous": ""
-    },
-    "cpe": "cpe:2.3:a:dnnsoftware:dotnetnuke:*:*:*:*:*:*:*:*",
-    "headers": {
-      "Cookie": "dnn_IsMobile=",
-      "DNNOutputCache": "",
-      "X-Compressed-By": "DotNetNuke"
-    },
-    "html": [
-      "<!-- by DotNetNuke Corporation",
-      "<!-- DNN Platform"
-    ],
-    "icon": "DNN.svg",
-    "implies": [
-      "Microsoft ASP.NET"
-    ],
-    "js": {
-      "DotNetNuke": "",
-      "__dnncore": "",
-      "dnn.apiversion": "^([\\d\\.]+)$\\;version:\\1",
-      "dnnJscriptVersion": ""
-    },
-    "meta": {
-      "generator": "DotNetNuke"
-    },
-    "oss": true,
-    "scriptSrc": [
-      "/js/dnncore\\.js",
-      "/js/dnn\\.js"
-    ],
-    "website": "https://www.dnnsoftware.com/"
-  },
-  "DPD": {
-    "cats": [
-      99
-    ],
-    "description": "DPD is an international parcel delivery service for sorter compatible parcels.",
-    "icon": "DPD.svg",
-    "requiresCategory": [
-      6
-    ],
-    "text": [
-      "\\bDPD\\b"
-    ],
-    "website": "https://www.dpd.com"
-  },
-  "DPlayer": {
-    "cats": [
-      14
-    ],
-    "description": "DPlayer is an HTML 5 video player that supports pop-up.",
-    "icon": "DPlayer.svg",
-    "js": {
-      "DPlayer": "",
-      "DPlayer.version": "([\\d\\.]+)\\;version:\\1"
-    },
-    "oss": true,
-    "scriptSrc": [
-      "/dplayer\\.js"
-    ],
-    "website": "https://dplayer.js.org"
-  },
-  "DSpace": {
-    "cats": [
-      50
-    ],
-    "description": "DSpace is a software platform for academic, non-profit, and commercial organizations to create and manage open digital repositories.",
-    "icon": "DSpace.svg",
-    "js": {
-      "DSpaceChoiceLookup": "",
-      "DSpaceChoicesSetup": ""
-    },
-    "meta": {
-      "generator": "DSpace ([\\d.]+)\\;version:\\1"
-    },
-    "saas": true,
-    "website": "https://dspace.org/"
-  },
-  "DTScout": {
-    "cats": [
-      36
-    ],
-    "description": "DTScout is a marketing data intelligence software.",
-    "icon": "DTScout.png",
-    "pricing": [
-      "poa"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "\\.dtscout\\.com/"
-    ],
-    "website": "https://www.dtscout.com"
-  },
-  "DX": {
-    "cats": [
-      99
-    ],
-    "description": "DX (also known as DX Freight) is a British mail, courier and logistics company.",
-    "icon": "DX.svg",
-    "requiresCategory": [
-      6
-    ],
-    "text": [
-      "\\bDX\\b"
-    ],
-    "website": "https://www.dxdelivery.com"
-  },
-  "DX1": {
-    "cats": [
-      53
-    ],
-    "description": "DX1 is an entirely cloud-based dealership management system for the motorcycle and powersports industry. Offering DMS, website, CRM and marketing tools.",
-    "icon": "DX1.svg",
-    "js": {
-      "Dx1.Dnn": ""
-    },
-    "pricing": [
-      "high",
-      "recurring"
-    ],
-    "requires": [
-      "DNN"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "\\.dx1app\\.com/"
-    ],
-    "website": "https://www.dx1app.com"
-  },
   "Dable": {
     "cats": [
       36
@@ -396,6 +113,28 @@
     },
     "website": "https://www.dailymotion.com"
   },
+  "daisyUI": {
+    "cats": [
+      66
+    ],
+    "description": "daisyUI is a customisable Tailwind CSS component library that prevents verbose markup in frontend applications. With a focus on customising and creating themes for user interfaces, daisyUI uses pure CSS and Tailwind utility classes, allowing developers to write clean HTML.",
+    "dom": {
+      "link[href*='npm/daisyui']": {
+        "attributes": {
+          "href": "/npm/daisyui@([\\d\\.]+)/dist/\\;version:\\1"
+        }
+      }
+    },
+    "icon": "daisyUI.svg",
+    "implies": [
+      "Tailwind CSS"
+    ],
+    "oss": true,
+    "scripts": [
+      "daisyUI"
+    ],
+    "website": "https://daisyui.com"
+  },
   "Dakno": {
     "cats": [
       32
@@ -459,6 +198,26 @@
     ],
     "website": "https://danads.com"
   },
+  "Dancer": {
+    "cats": [
+      18
+    ],
+    "cpe": "cpe:2.3:a:dancer:dancer:*:*:*:*:*:*:*:*",
+    "description": "Dancer is a simple but powerful web application framework for Perl.",
+    "headers": {
+      "Server": "Perl Dancer ([\\d.]+)\\;version:\\1",
+      "X-Powered-By": "Perl Dancer ([\\d.]+)\\;version:\\1"
+    },
+    "icon": "Dancer.svg",
+    "implies": [
+      "Perl"
+    ],
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://perldancer.org"
+  },
   "DanDomain": {
     "cats": [
       6,
@@ -494,26 +253,6 @@
     ],
     "saas": true,
     "website": "https://dandomain.dk/webshop"
-  },
-  "Dancer": {
-    "cats": [
-      18
-    ],
-    "cpe": "cpe:2.3:a:dancer:dancer:*:*:*:*:*:*:*:*",
-    "description": "Dancer is a simple but powerful web application framework for Perl.",
-    "headers": {
-      "Server": "Perl Dancer ([\\d.]+)\\;version:\\1",
-      "X-Powered-By": "Perl Dancer ([\\d.]+)\\;version:\\1"
-    },
-    "icon": "Dancer.svg",
-    "implies": [
-      "Perl"
-    ],
-    "pricing": [
-      "poa"
-    ],
-    "saas": true,
-    "website": "https://perldancer.org"
   },
   "Danneo CMS": {
     "cats": [
@@ -634,22 +373,17 @@
     ],
     "website": "https://www.dashly.io"
   },
-  "DatHuis": {
+  "data nugget": {
     "cats": [
       32
     ],
-    "description": "DatHuis is a platform providing marketing automation tools for real estate professionals, designed to enhance visibility and streamline operations.",
-    "icon": "DatHuis.svg",
-    "js": {
-      "DatHuisObject": ""
-    },
-    "pricing": [
-      "freemium",
-      "mid",
-      "recurring"
-    ],
+    "description": "data nugget is a brand growth platform designed to help businesses analyze performance, identify opportunities, and manage strategies.",
+    "icon": "DataNugget.svg",
     "saas": true,
-    "website": "https://dathuis.nl"
+    "scriptSrc": [
+      "analytics\\.datanugget\\.io"
+    ],
+    "website": "https://datanugget.io"
   },
   "Data8": {
     "cats": [
@@ -667,6 +401,46 @@
     ],
     "saas": true,
     "website": "https://www.data-8.co.uk"
+  },
+  "Datacrush": {
+    "cats": [
+      32
+    ],
+    "description": "Datacrush is a marketing automation platform.",
+    "icon": "Datacrush.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": [
+      "js\\.datacrush\\.la"
+    ],
+    "website": "https://www.datacrush.la"
+  },
+  "Datadog": {
+    "cats": [
+      78,
+      10
+    ],
+    "description": "Datadog is a SaaS-based monitoring and analytics platform for large-scale applications and infrastructure.",
+    "icon": "Datadog.svg",
+    "js": {
+      "DD_LOGS": "\\;confidence:1",
+      "DD_RUM": "\\;confidence:99"
+    },
+    "pricing": [
+      "low",
+      "payg",
+      "recurring",
+      "freemium"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "www\\.datadoghq-browser-agent\\.com"
+    ],
+    "website": "https://www.datadoghq.com"
   },
   "DataDojo": {
     "cats": [
@@ -723,82 +497,6 @@
     },
     "website": "https://dle-news.ru"
   },
-  "DataMilk": {
-    "cats": [
-      10,
-      19
-    ],
-    "description": "DataMilk is an AI tool which autonomously optimises customer UI for ecommerce customers in order to increase conversions.",
-    "icon": "DataMilk.svg",
-    "js": {
-      "datamilkMagicAiExecuted": ""
-    },
-    "pricing": [
-      "payg"
-    ],
-    "saas": true,
-    "website": "https://www.datamilk.ai"
-  },
-  "DataTables": {
-    "cats": [
-      59
-    ],
-    "cpe": "cpe:2.3:a:datatables:datatables.net:*:*:*:*:*:*:*:*",
-    "description": "DataTables is a plug-in for the jQuery Javascript library adding advanced features like pagination, instant search, themes, and more to any HTML table.",
-    "icon": "DataTables.png",
-    "implies": [
-      "jQuery"
-    ],
-    "js": {
-      "$.fn.dataTable.version": "^(.+)$\\;version:\\1",
-      "jQuery.fn.dataTable.version": "^(.+)$\\;version:\\1"
-    },
-    "oss": true,
-    "scriptSrc": [
-      "dataTables.*\\.js"
-    ],
-    "website": "https://datatables.net"
-  },
-  "Datacrush": {
-    "cats": [
-      32
-    ],
-    "description": "Datacrush is a marketing automation platform.",
-    "icon": "Datacrush.svg",
-    "pricing": [
-      "freemium",
-      "low",
-      "recurring"
-    ],
-    "saas": true,
-    "scripts": [
-      "js\\.datacrush\\.la"
-    ],
-    "website": "https://www.datacrush.la"
-  },
-  "Datadog": {
-    "cats": [
-      78,
-      10
-    ],
-    "description": "Datadog is a SaaS-based monitoring and analytics platform for large-scale applications and infrastructure.",
-    "icon": "Datadog.svg",
-    "js": {
-      "DD_LOGS": "\\;confidence:1",
-      "DD_RUM": "\\;confidence:99"
-    },
-    "pricing": [
-      "low",
-      "payg",
-      "recurring",
-      "freemium"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "www\\.datadoghq-browser-agent\\.com"
-    ],
-    "website": "https://www.datadoghq.com"
-  },
   "Datalitics": {
     "cats": [
       32
@@ -818,6 +516,22 @@
       "app\\.datalitics\\.com\\.br/"
     ],
     "website": "https://datalitics.com.br"
+  },
+  "DataMilk": {
+    "cats": [
+      10,
+      19
+    ],
+    "description": "DataMilk is an AI tool which autonomously optimises customer UI for ecommerce customers in order to increase conversions.",
+    "icon": "DataMilk.svg",
+    "js": {
+      "datamilkMagicAiExecuted": ""
+    },
+    "pricing": [
+      "payg"
+    ],
+    "saas": true,
+    "website": "https://www.datamilk.ai"
   },
   "Datanyze": {
     "cats": [
@@ -900,6 +614,26 @@
     ],
     "website": "https://data-star.dev"
   },
+  "DataTables": {
+    "cats": [
+      59
+    ],
+    "cpe": "cpe:2.3:a:datatables:datatables.net:*:*:*:*:*:*:*:*",
+    "description": "DataTables is a plug-in for the jQuery Javascript library adding advanced features like pagination, instant search, themes, and more to any HTML table.",
+    "icon": "DataTables.png",
+    "implies": [
+      "jQuery"
+    ],
+    "js": {
+      "$.fn.dataTable.version": "^(.+)$\\;version:\\1",
+      "jQuery.fn.dataTable.version": "^(.+)$\\;version:\\1"
+    },
+    "oss": true,
+    "scriptSrc": [
+      "dataTables.*\\.js"
+    ],
+    "website": "https://datatables.net"
+  },
   "Datatrics": {
     "cats": [
       97
@@ -920,6 +654,23 @@
     ],
     "saas": true,
     "website": "https://datatrics.com"
+  },
+  "DatHuis": {
+    "cats": [
+      32
+    ],
+    "description": "DatHuis is a platform providing marketing automation tools for real estate professionals, designed to enhance visibility and streamline operations.",
+    "icon": "DatHuis.svg",
+    "js": {
+      "DatHuisObject": ""
+    },
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://dathuis.nl"
   },
   "DatoCMS": {
     "cats": [
@@ -964,6 +715,76 @@
       "dayjs": ""
     },
     "website": "https://github.com/iamkun/dayjs"
+  },
+  "db-ip": {
+    "cats": [
+      79
+    ],
+    "description": "dbip is a geolocation API and database.",
+    "icon": "db-ip.svg",
+    "js": {
+      "ENV.dbip": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "cdn\\.db-ip\\.com"
+    ],
+    "website": "https://db-ip.com/",
+    "xhr": [
+      "api\\.db-ip\\.com"
+    ]
+  },
+  "dc.js": {
+    "cats": [
+      25,
+      59
+    ],
+    "description": "A multi-dimensional charting library built to work natively with crossfilter and rendered using d3.js",
+    "icon": "dc.js.png",
+    "js": {
+      "dcAPIKey": ""
+    },
+    "scriptSrc": [
+      "(?:((?:\\d+\\.)+\\d+)\\/(?:dc\\/)?)?dc(?:\\.leaflet)?\\.js\\;version:\\1"
+    ],
+    "website": "https://dc-js.github.io/dc.js/"
+  },
+  "DCKAP Commerce": {
+    "cats": [
+      6
+    ],
+    "description": "DCKAP Commerce is a B2B ecommerce platform for distributors and manufacturers.",
+    "icon": "DCKAPCommerce.svg",
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scripts": [
+      "assets\\.mydckapcommerce\\.com"
+    ],
+    "website": "https://www.dckap.com/commerce"
+  },
+  "DDoS-Guard": {
+    "cats": [
+      16
+    ],
+    "description": "DDoS-Guard is a Russian Internet infrastructure company which provides DDoS protection, content delivery network services, and web hosting services.",
+    "headers": {
+      "server": "^ddos-guard$"
+    },
+    "icon": "DDoS-Guard.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "website": "https://ddos-guard.net"
   },
   "Deadline Funnel": {
     "cats": [
@@ -1099,6 +920,21 @@
     ],
     "website": "https://decibel.com"
   },
+  "decimal.js": {
+    "cats": [
+      59
+    ],
+    "icon": "decimal.js.png",
+    "js": {
+      "Decimal.ROUND_HALF_FLOOR": ""
+    },
+    "scriptSrc": [
+      "decimal[.-]([\\d.]*\\d+)(?:\\.min)?\\.js\\;version:\\1",
+      "/([\\d.]*\\d+)/decimal(?:\\.min)?\\.js\\;version:\\1",
+      "decimal(?:\\.min)?\\.js(?:\\?ver(?:sion)?=([\\d.]*\\d+))?\\;version:\\1"
+    ],
+    "website": "https://mikemcl.github.io/decimal.js/"
+  },
   "Deco.cx": {
     "cats": [
       108
@@ -1180,6 +1016,19 @@
       "portal\\.deepmarkit\\.com"
     ],
     "website": "https://www.deepmarkit.com"
+  },
+  "deepMiner": {
+    "cats": [
+      56
+    ],
+    "icon": "deepminer.png",
+    "js": {
+      "deepMiner": ""
+    },
+    "scriptSrc": [
+      "deepMiner\\.js"
+    ],
+    "website": "https://github.com/deepwn/deepMiner"
   },
   "Deko": {
     "cats": [
@@ -1503,6 +1352,24 @@
     "saas": true,
     "website": "https://depict.ai"
   },
+  "DERAK.CLOUD": {
+    "cats": [
+      31
+    ],
+    "cookies": {
+      "__derak_auth": "",
+      "__derak_user": ""
+    },
+    "headers": {
+      "Derak-Umbrage": "",
+      "Server": "^DERAK\\.CLOUD$"
+    },
+    "icon": "DerakCloud.svg",
+    "js": {
+      "derakCloud.init": ""
+    },
+    "website": "https://derak.cloud"
+  },
   "Deriv": {
     "cats": [
       10
@@ -1529,6 +1396,26 @@
       "ies\\.descartes"
     ],
     "website": "https://www.descartes.com"
+  },
+  "Deskero": {
+    "cats": [
+      53
+    ],
+    "description": "Deskero is a customizable cloud-based help desk software and support ticket system designed to manage customer service.",
+    "icon": "Deskero.svg",
+    "js": {
+      "deskeroUser": "",
+      "deskeroWidget.init": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.deskero\\.com/"
+    ],
+    "website": "https://www.deskero.com/"
   },
   "DeskPro": {
     "cats": [
@@ -1563,26 +1450,6 @@
     ],
     "saas": true,
     "website": "https://www.deskpro.com/product/chat"
-  },
-  "Deskero": {
-    "cats": [
-      53
-    ],
-    "description": "Deskero is a customizable cloud-based help desk software and support ticket system designed to manage customer service.",
-    "icon": "Deskero.svg",
-    "js": {
-      "deskeroUser": "",
-      "deskeroWidget.init": ""
-    },
-    "pricing": [
-      "low",
-      "recurring"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "\\.deskero\\.com/"
-    ],
-    "website": "https://www.deskero.com/"
   },
   "Desku": {
     "cats": [
@@ -1637,6 +1504,25 @@
     },
     "saas": true,
     "website": "https://destini.co/"
+  },
+  "DESTOON": {
+    "cats": [
+      1
+    ],
+    "description": "DESTOON is a website management solution designed to support the creation, organization, and operation of online platforms through integrated tools and features.",
+    "icon": "DESTOON.svg",
+    "js": {
+      "destoon_cart": "",
+      "destoon_chat": ""
+    },
+    "meta": {
+      "generator": "^DESTOON B2B - www\\.destoon\\.com$"
+    },
+    "pricing": [
+      "onetime"
+    ],
+    "saas": true,
+    "website": "https://destoon.com"
   },
   "Desty": {
     "cats": [
@@ -1695,6 +1581,19 @@
     ],
     "website": "https://baris.aydinoglu.net/Detectizr"
   },
+  "DEUNA": {
+    "cats": [
+      41
+    ],
+    "description": "DEUNA is an AI-powered platform that orchestrates global payments and enhances commerce performance.",
+    "icon": "DEUNA.svg",
+    "js": {
+      "DeunaCDL": "",
+      "DunaCheckout": ""
+    },
+    "saas": true,
+    "website": "https://www.deuna.com"
+  },
   "Deutsche Post": {
     "cats": [
       99
@@ -1708,6 +1607,37 @@
       "\\bDeutsche Post\\b"
     ],
     "website": "https://www.deutschepost.de"
+  },
+  "Develic Omnium Maps": {
+    "cats": [
+      35
+    ],
+    "description": "Develic Omnium Maps is a store locator application for Shopify stores designed to help users display and manage physical store locations.",
+    "icon": "Develic.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "maps\\.develic\\.com"
+    ],
+    "scripts": [
+      "maps\\.develic\\.com"
+    ],
+    "website": "https://www.develic.com"
+  },
+  "Developing Azerbaijan": {
+    "cats": [
+      47
+    ],
+    "description": "Developing Azerbaijan is a provider of services including website creation, optimization, technical support, and hosting.",
+    "icon": "DevelopingAzerbaijan.svg",
+    "meta": {
+      "author": "Developing.az"
+    },
+    "saas": true,
+    "website": "https://www.developing.az/"
   },
   "DevExtreme": {
     "cats": [
@@ -1744,37 +1674,6 @@
       "plug-platform\\.devrev\\.ai/"
     ],
     "website": "https://devrev.ai/plug-observability"
-  },
-  "Develic Omnium Maps": {
-    "cats": [
-      35
-    ],
-    "description": "Develic Omnium Maps is a store locator application for Shopify stores designed to help users display and manage physical store locations.",
-    "icon": "Develic.svg",
-    "pricing": [
-      "low",
-      "recurring"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "maps\\.develic\\.com"
-    ],
-    "scripts": [
-      "maps\\.develic\\.com"
-    ],
-    "website": "https://www.develic.com"
-  },
-  "Developing Azerbaijan": {
-    "cats": [
-      47
-    ],
-    "description": "Developing Azerbaijan is a provider of services including website creation, optimization, technical support, and hosting.",
-    "icon": "DevelopingAzerbaijan.svg",
-    "meta": {
-      "author": "Developing.az"
-    },
-    "saas": true,
-    "website": "https://www.developing.az/"
   },
   "Devup UI": {
     "cats": [
@@ -1852,6 +1751,46 @@
     "saas": true,
     "website": "https://www.thedexterapp.com"
   },
+  "DHL": {
+    "cats": [
+      99
+    ],
+    "description": "DHL is an international courier, package delivery and express mail service, which is a division of the German logistics firm Deutsche Post.",
+    "dom": {
+      "img[alt*='dhl' i]": {
+        "attributes": {
+          "alt": "\\bDHL\\b"
+        }
+      }
+    },
+    "icon": "DHL.svg",
+    "requiresCategory": [
+      6
+    ],
+    "text": [
+      "\\bUK Mail\\b",
+      "\\bDHL\\b"
+    ],
+    "website": "https://www.dhl.com"
+  },
+  "DHTMLX": {
+    "cats": [
+      59
+    ],
+    "description": "DHTMLX specialises in building JavaScript UI libraries for project management, event planning, big data visualisation, and reporting.",
+    "icon": "DHTMLX.svg",
+    "js": {
+      "dhtmlDragAndDropObject": "",
+      "dhtmlXTreeItemObject": ""
+    },
+    "pricing": [
+      "onetime"
+    ],
+    "scriptSrc": [
+      "/dhtmlxcommon\\.js"
+    ],
+    "website": "https://dhtmlx.com"
+  },
   "Dialog Insight": {
     "cats": [
       32
@@ -1863,6 +1802,23 @@
       "app\\.dialoginsight\\.com"
     ],
     "website": "https://www.dialoginsight.com"
+  },
+  "Dialogity": {
+    "cats": [
+      52
+    ],
+    "description": "Dialogity Chat is a customer service chatbot platform.",
+    "icon": "Dialogity.svg",
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "js\\.dialogity\\.com"
+    ],
+    "website": "https://dialogity.com"
   },
   "DialogShift": {
     "cats": [
@@ -1882,23 +1838,6 @@
       "assets\\.dialogshift\\.com"
     ],
     "website": "https://www.dialogshift.com"
-  },
-  "Dialogity": {
-    "cats": [
-      52
-    ],
-    "description": "Dialogity Chat is a customer service chatbot platform.",
-    "icon": "Dialogity.svg",
-    "pricing": [
-      "low",
-      "recurring",
-      "poa"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "js\\.dialogity\\.com"
-    ],
-    "website": "https://dialogity.com"
   },
   "Dialogue": {
     "cats": [
@@ -2206,6 +2145,21 @@
     ],
     "website": "https://www.dimml.io"
   },
+  "dimple": {
+    "cats": [
+      25,
+      59
+    ],
+    "description": "dimple.js is a powerful and flexible open-source charting API for d3 letting you quickly and easily create and combine bar, line, area and scatter charts.",
+    "oss": true,
+    "requires": [
+      "D3"
+    ],
+    "scriptSrc": [
+      "dimple(?:\\/lib\\/[\\w\\.]+)?(?:\\/theme\\/js\\/[\\w\\.-]+)?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+    ],
+    "website": "http://dimplejs.org/"
+  },
   "Dina Kunder": {
     "cats": [
       52
@@ -2353,6 +2307,18 @@
       "generator": "Discuz! X([\\d\\.]+)?\\;version:\\1"
     },
     "website": "https://www.discuz.net"
+  },
+  "DISH": {
+    "cats": [
+      93
+    ],
+    "description": "DISH is a platform that allows restaurants to independently manage online reservations and customer orders.",
+    "icon": "DISH.svg",
+    "saas": true,
+    "scriptSrc": [
+      "\\.dish\\.co"
+    ],
+    "website": "https://www.dish.co/XX"
   },
   "Disqus": {
     "cats": [
@@ -2592,6 +2558,57 @@
     ],
     "website": "https://www.django-cms.org"
   },
+  "DM Polopoly": {
+    "cats": [
+      1
+    ],
+    "description": "DM Polopoly is a web content management solution focused on enhancing the user experience built by Atex.",
+    "dom": [
+      "img[data-src*='/polopoly_fs/'], link[href*='/polopoly_fs/'], img[src*='/polopoly_fs/']"
+    ],
+    "icon": "DM Polopoly.svg",
+    "implies": [
+      "Java"
+    ],
+    "website": "https://www.atex.com/products/dm-polopoly"
+  },
+  "DNN": {
+    "cats": [
+      1
+    ],
+    "cookies": {
+      "DotNetNukeAnonymous": ""
+    },
+    "cpe": "cpe:2.3:a:dnnsoftware:dotnetnuke:*:*:*:*:*:*:*:*",
+    "headers": {
+      "Cookie": "dnn_IsMobile=",
+      "DNNOutputCache": "",
+      "X-Compressed-By": "DotNetNuke"
+    },
+    "html": [
+      "<!-- by DotNetNuke Corporation",
+      "<!-- DNN Platform"
+    ],
+    "icon": "DNN.svg",
+    "implies": [
+      "Microsoft ASP.NET"
+    ],
+    "js": {
+      "DotNetNuke": "",
+      "__dnncore": "",
+      "dnn.apiversion": "^([\\d\\.]+)$\\;version:\\1",
+      "dnnJscriptVersion": ""
+    },
+    "meta": {
+      "generator": "DotNetNuke"
+    },
+    "oss": true,
+    "scriptSrc": [
+      "/js/dnncore\\.js",
+      "/js/dnn\\.js"
+    ],
+    "website": "https://www.dnnsoftware.com/"
+  },
   "DocFX": {
     "cats": [
       4
@@ -2697,27 +2714,6 @@
     ],
     "website": "https://www.doctor.com"
   },
-  "DocuSign": {
-    "cats": [
-      19
-    ],
-    "description": "DocuSign allows organisations to manage electronic agreements.",
-    "dns": {
-      "TXT": [
-        "docusign"
-      ]
-    },
-    "icon": "DocuSign.svg",
-    "pricing": [
-      "low",
-      "recurring"
-    ],
-    "saas": true,
-    "website": "https://www.docusign.com",
-    "xhr": [
-      "docusign\\.net"
-    ]
-  },
   "Docusaurus": {
     "cats": [
       4,
@@ -2740,6 +2736,27 @@
       "generator": "^Docusaurus(?: v(.+))?$\\;version:\\1"
     },
     "website": "https://docusaurus.io/"
+  },
+  "DocuSign": {
+    "cats": [
+      19
+    ],
+    "description": "DocuSign allows organisations to manage electronic agreements.",
+    "dns": {
+      "TXT": [
+        "docusign"
+      ]
+    },
+    "icon": "DocuSign.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.docusign.com",
+    "xhr": [
+      "docusign\\.net"
+    ]
   },
   "Dojo": {
     "cats": [
@@ -2866,6 +2883,26 @@
     ],
     "website": "https://www.dominate.co/woocommerce"
   },
+  "Donorbox": {
+    "cats": [
+      111
+    ],
+    "description": "Donorbox is a US-based technology company. It offers an online fundraising software that allows individuals and nonprofit organisations to receive donations over the Internet.",
+    "dom": [
+      "a[href*='//donorbox.org/'], iframe[src*='//donorbox.org/']"
+    ],
+    "icon": "Donorbox.svg",
+    "js": {
+      "DONORBOX": "",
+      "DonorBox": "",
+      "donorbox_check_donation_period": ""
+    },
+    "pricing": [
+      "payg"
+    ],
+    "saas": true,
+    "website": "https://donorbox.org"
+  },
   "DonorPerfect": {
     "cats": [
       111
@@ -2888,26 +2925,6 @@
       "\\.donorperfect\\.net/"
     ],
     "website": "https://www.donorperfect.com"
-  },
-  "Donorbox": {
-    "cats": [
-      111
-    ],
-    "description": "Donorbox is a US-based technology company. It offers an online fundraising software that allows individuals and nonprofit organisations to receive donations over the Internet.",
-    "dom": [
-      "a[href*='//donorbox.org/'], iframe[src*='//donorbox.org/']"
-    ],
-    "icon": "Donorbox.svg",
-    "js": {
-      "DONORBOX": "",
-      "DonorBox": "",
-      "donorbox_check_donation_period": ""
-    },
-    "pricing": [
-      "payg"
-    ],
-    "saas": true,
-    "website": "https://donorbox.org"
   },
   "Dooca": {
     "cats": [
@@ -2944,22 +2961,6 @@
     ],
     "website": "https://www.doofinder.com"
   },
-  "DoorLoop": {
-    "cats": [
-      53
-    ],
-    "description": "DoorLoop is a property management software designed to streamline tasks such as leasing, accounting, maintenance tracking, and tenant communication.",
-    "icon": "DoorLoop.svg",
-    "pricing": [
-      "mid",
-      "recurring"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "app\\.doorloop\\.com"
-    ],
-    "website": "https://www.doorloop.com"
-  },
   "Doorbell": {
     "cats": [
       73
@@ -2980,6 +2981,22 @@
     ],
     "website": "https://doorbell.io"
   },
+  "DoorLoop": {
+    "cats": [
+      53
+    ],
+    "description": "DoorLoop is a property management software designed to streamline tasks such as leasing, accounting, maintenance tracking, and tenant communication.",
+    "icon": "DoorLoop.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "app\\.doorloop\\.com"
+    ],
+    "website": "https://www.doorloop.com"
+  },
   "Doppler": {
     "cats": [
       75
@@ -2995,23 +3012,6 @@
       "//(?:hub|cdn)\\.fromdoppler\\.com/"
     ],
     "website": "https://www.fromdoppler.com"
-  },
-  "Doppler Forms": {
-    "cats": [
-      87
-    ],
-    "description": "The Doppler Forms plugin allows you to create fully customised subscription forms that you can add to your website or blog.",
-    "icon": "Doppler.svg",
-    "implies": [
-      "Doppler"
-    ],
-    "requires": [
-      "WordPress"
-    ],
-    "scriptSrc": [
-      "/wp-content/plugins/doppler-form/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
-    ],
-    "website": "https://wordpress.org/plugins/doppler-form/"
   },
   "Doppler for WooCommerce": {
     "cats": [
@@ -3030,6 +3030,23 @@
       "/wp-content/plugins/doppler-for-woocommerce/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
     ],
     "website": "https://wordpress.org/plugins/doppler-for-woocommerce/"
+  },
+  "Doppler Forms": {
+    "cats": [
+      87
+    ],
+    "description": "The Doppler Forms plugin allows you to create fully customised subscription forms that you can add to your website or blog.",
+    "icon": "Doppler.svg",
+    "implies": [
+      "Doppler"
+    ],
+    "requires": [
+      "WordPress"
+    ],
+    "scriptSrc": [
+      "/wp-content/plugins/doppler-form/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+    ],
+    "website": "https://wordpress.org/plugins/doppler-form/"
   },
   "Dorik AI": {
     "cats": [
@@ -3066,37 +3083,6 @@
     ],
     "saas": false,
     "website": "https://dorsa.cloud"
-  },
-  "DotGo": {
-    "cats": [
-      51
-    ],
-    "description": "DotGo is a UK-based business website builder that provides a platform for creating and managing websites.",
-    "dom": [
-      "source[src*='www.dotgo.uk/']"
-    ],
-    "icon": "DotGo.svg",
-    "pricing": [
-      "low",
-      "recurring"
-    ],
-    "saas": true,
-    "website": "https://www.dotgo.uk"
-  },
-  "DotPe": {
-    "cats": [
-      6
-    ],
-    "description": "DotPe is a platform for catalog and product discovery designed to support ecommerce operations.",
-    "icon": "DotPe.svg",
-    "saas": true,
-    "scriptSrc": [
-      "cdn\\.dotpe\\.in"
-    ],
-    "scripts": [
-      "cdn\\.dotpe\\.in"
-    ],
-    "website": "https://dotpe.in"
   },
   "Dotclear": {
     "cats": [
@@ -3183,6 +3169,37 @@
     ],
     "saas": true,
     "website": "https://www.doteasy.com/website-builder/"
+  },
+  "DotGo": {
+    "cats": [
+      51
+    ],
+    "description": "DotGo is a UK-based business website builder that provides a platform for creating and managing websites.",
+    "dom": [
+      "source[src*='www.dotgo.uk/']"
+    ],
+    "icon": "DotGo.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.dotgo.uk"
+  },
+  "DotPe": {
+    "cats": [
+      6
+    ],
+    "description": "DotPe is a platform for catalog and product discovery designed to support ecommerce operations.",
+    "icon": "DotPe.svg",
+    "saas": true,
+    "scriptSrc": [
+      "cdn\\.dotpe\\.in"
+    ],
+    "scripts": [
+      "cdn\\.dotpe\\.in"
+    ],
+    "website": "https://dotpe.in"
   },
   "Dotser": {
     "cats": [
@@ -3401,6 +3418,36 @@
     ],
     "website": "https://www.doxygen.nl/"
   },
+  "DPD": {
+    "cats": [
+      99
+    ],
+    "description": "DPD is an international parcel delivery service for sorter compatible parcels.",
+    "icon": "DPD.svg",
+    "requiresCategory": [
+      6
+    ],
+    "text": [
+      "\\bDPD\\b"
+    ],
+    "website": "https://www.dpd.com"
+  },
+  "DPlayer": {
+    "cats": [
+      14
+    ],
+    "description": "DPlayer is an HTML 5 video player that supports pop-up.",
+    "icon": "DPlayer.svg",
+    "js": {
+      "DPlayer": "",
+      "DPlayer.version": "([\\d\\.]+)\\;version:\\1"
+    },
+    "oss": true,
+    "scriptSrc": [
+      "/dplayer\\.js"
+    ],
+    "website": "https://dplayer.js.org"
+  },
   "Dr. Leonardo": {
     "cats": [
       1
@@ -3524,6 +3571,31 @@
     ],
     "website": "https://dreamapply.com"
   },
+  "Dreamdata": {
+    "cats": [
+      32,
+      10
+    ],
+    "description": "Dreamdata is a B2B revenue attribution platform.",
+    "dom": [
+      "link[href*='.bizible.com']"
+    ],
+    "icon": "Dreamdata.svg",
+    "js": {
+      "BizTrackingA": "",
+      "Bizible": ""
+    },
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.bizible\\.com/"
+    ],
+    "website": "https://dreamdata.io"
+  },
   "DreamHost": {
     "cats": [
       88
@@ -3564,31 +3636,6 @@
       "generator": "^Adobe dreamweaver$"
     },
     "website": "https://www.adobe.com/products/dreamweaver.html"
-  },
-  "Dreamdata": {
-    "cats": [
-      32,
-      10
-    ],
-    "description": "Dreamdata is a B2B revenue attribution platform.",
-    "dom": [
-      "link[href*='.bizible.com']"
-    ],
-    "icon": "Dreamdata.svg",
-    "js": {
-      "BizTrackingA": "",
-      "Bizible": ""
-    },
-    "pricing": [
-      "freemium",
-      "mid",
-      "recurring"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "\\.bizible\\.com/"
-    ],
-    "website": "https://dreamdata.io"
   },
   "Drift": {
     "cats": [
@@ -3688,6 +3735,19 @@
     "saas": true,
     "website": "https://apps.shopify.com/drop-a-hint-v2"
   },
+  "Dropbox": {
+    "cats": [
+      95
+    ],
+    "cpe": "cpe:2.3:a:dropbox:dropbox:*:*:*:*:*:*:*:*",
+    "dns": {
+      "TXT": [
+        "dropbox-domain-verification"
+      ]
+    },
+    "icon": "Dropbox.svg",
+    "website": "https://www.dropbox.com"
+  },
   "DropInBlog": {
     "cats": [
       11
@@ -3706,19 +3766,6 @@
       "\\.dropinblog\\.com/"
     ],
     "website": "https://dropinblog.com"
-  },
-  "Dropbox": {
-    "cats": [
-      95
-    ],
-    "cpe": "cpe:2.3:a:dropbox:dropbox:*:*:*:*:*:*:*:*",
-    "dns": {
-      "TXT": [
-        "dropbox-domain-verification"
-      ]
-    },
-    "icon": "Dropbox.svg",
-    "website": "https://www.dropbox.com"
   },
   "Dropzone": {
     "cats": [
@@ -3898,6 +3945,37 @@
     ],
     "website": "https://www.drupal.org/docs/multisite-drupal"
   },
+  "DSpace": {
+    "cats": [
+      50
+    ],
+    "description": "DSpace is a software platform for academic, non-profit, and commercial organizations to create and manage open digital repositories.",
+    "icon": "DSpace.svg",
+    "js": {
+      "DSpaceChoiceLookup": "",
+      "DSpaceChoicesSetup": ""
+    },
+    "meta": {
+      "generator": "DSpace ([\\d.]+)\\;version:\\1"
+    },
+    "saas": true,
+    "website": "https://dspace.org/"
+  },
+  "DTScout": {
+    "cats": [
+      36
+    ],
+    "description": "DTScout is a marketing data intelligence software.",
+    "icon": "DTScout.png",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.dtscout\\.com/"
+    ],
+    "website": "https://www.dtscout.com"
+  },
   "Duda": {
     "cats": [
       1,
@@ -4057,6 +4135,42 @@
     ],
     "website": "https://www.dwolla.com"
   },
+  "DX": {
+    "cats": [
+      99
+    ],
+    "description": "DX (also known as DX Freight) is a British mail, courier and logistics company.",
+    "icon": "DX.svg",
+    "requiresCategory": [
+      6
+    ],
+    "text": [
+      "\\bDX\\b"
+    ],
+    "website": "https://www.dxdelivery.com"
+  },
+  "DX1": {
+    "cats": [
+      53
+    ],
+    "description": "DX1 is an entirely cloud-based dealership management system for the motorcycle and powersports industry. Offering DMS, website, CRM and marketing tools.",
+    "icon": "DX1.svg",
+    "js": {
+      "Dx1.Dnn": ""
+    },
+    "pricing": [
+      "high",
+      "recurring"
+    ],
+    "requires": [
+      "DNN"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.dx1app\\.com/"
+    ],
+    "website": "https://www.dx1app.com"
+  },
   "DynAd": {
     "cats": [
       36
@@ -4206,119 +4320,5 @@
     "xhr": [
       "cdn\\.dyte\\.in/"
     ]
-  },
-  "daisyUI": {
-    "cats": [
-      66
-    ],
-    "description": "daisyUI is a customisable Tailwind CSS component library that prevents verbose markup in frontend applications. With a focus on customising and creating themes for user interfaces, daisyUI uses pure CSS and Tailwind utility classes, allowing developers to write clean HTML.",
-    "dom": {
-      "link[href*='npm/daisyui']": {
-        "attributes": {
-          "href": "/npm/daisyui@([\\d\\.]+)/dist/\\;version:\\1"
-        }
-      }
-    },
-    "icon": "daisyUI.svg",
-    "implies": [
-      "Tailwind CSS"
-    ],
-    "oss": true,
-    "scripts": [
-      "daisyUI"
-    ],
-    "website": "https://daisyui.com"
-  },
-  "data nugget": {
-    "cats": [
-      32
-    ],
-    "description": "data nugget is a brand growth platform designed to help businesses analyze performance, identify opportunities, and manage strategies.",
-    "icon": "DataNugget.svg",
-    "saas": true,
-    "scriptSrc": [
-      "analytics\\.datanugget\\.io"
-    ],
-    "website": "https://datanugget.io"
-  },
-  "db-ip": {
-    "cats": [
-      79
-    ],
-    "description": "dbip is a geolocation API and database.",
-    "icon": "db-ip.svg",
-    "js": {
-      "ENV.dbip": ""
-    },
-    "pricing": [
-      "mid",
-      "recurring"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "cdn\\.db-ip\\.com"
-    ],
-    "website": "https://db-ip.com/",
-    "xhr": [
-      "api\\.db-ip\\.com"
-    ]
-  },
-  "dc.js": {
-    "cats": [
-      25,
-      59
-    ],
-    "description": "A multi-dimensional charting library built to work natively with crossfilter and rendered using d3.js",
-    "icon": "dc.js.png",
-    "js": {
-      "dcAPIKey": ""
-    },
-    "scriptSrc": [
-      "(?:((?:\\d+\\.)+\\d+)\\/(?:dc\\/)?)?dc(?:\\.leaflet)?\\.js\\;version:\\1"
-    ],
-    "website": "https://dc-js.github.io/dc.js/"
-  },
-  "decimal.js": {
-    "cats": [
-      59
-    ],
-    "icon": "decimal.js.png",
-    "js": {
-      "Decimal.ROUND_HALF_FLOOR": ""
-    },
-    "scriptSrc": [
-      "decimal[.-]([\\d.]*\\d+)(?:\\.min)?\\.js\\;version:\\1",
-      "/([\\d.]*\\d+)/decimal(?:\\.min)?\\.js\\;version:\\1",
-      "decimal(?:\\.min)?\\.js(?:\\?ver(?:sion)?=([\\d.]*\\d+))?\\;version:\\1"
-    ],
-    "website": "https://mikemcl.github.io/decimal.js/"
-  },
-  "deepMiner": {
-    "cats": [
-      56
-    ],
-    "icon": "deepminer.png",
-    "js": {
-      "deepMiner": ""
-    },
-    "scriptSrc": [
-      "deepMiner\\.js"
-    ],
-    "website": "https://github.com/deepwn/deepMiner"
-  },
-  "dimple": {
-    "cats": [
-      25,
-      59
-    ],
-    "description": "dimple.js is a powerful and flexible open-source charting API for d3 letting you quickly and easily create and combine bar, line, area and scatter charts.",
-    "oss": true,
-    "requires": [
-      "D3"
-    ],
-    "scriptSrc": [
-      "dimple(?:\\/lib\\/[\\w\\.]+)?(?:\\/theme\\/js\\/[\\w\\.-]+)?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1"
-    ],
-    "website": "http://dimplejs.org/"
   }
 }
