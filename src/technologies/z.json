@@ -1,40 +1,4 @@
 {
-  "ZK": {
-    "cats": [
-      18
-    ],
-    "description": "ZK is a framework for building rich, interactive web applications using Java, providing a set of tools and components to create dynamic user interfaces.",
-    "html": [
-      "<!-- ZK [.\\d\\s]+-->"
-    ],
-    "icon": "ZK.svg",
-    "implies": [
-      "Java"
-    ],
-    "oss": true,
-    "scriptSrc": [
-      "zkau/"
-    ],
-    "website": "https://zkoss.org"
-  },
-  "ZURB Foundation": {
-    "cats": [
-      66
-    ],
-    "description": "Zurb Foundation is used to prototype in the browser. Allows rapid creation of websites or applications while leveraging mobile and responsive technology. The front end framework is the collection of HTML, CSS, and Javascript containing design patterns.",
-    "dom": [
-      "link[href*='foundation'][href*='css']"
-    ],
-    "html": [
-      "<link[^>]+foundation[^>\"]+css",
-      "<div [^>]*class=\"[^\"]*(?:small|medium|large)-\\d{1,2} columns"
-    ],
-    "icon": "ZURBFoundation.svg",
-    "js": {
-      "Foundation.version": "([\\d.]+)\\;version:\\1"
-    },
-    "website": "https://foundation.zurb.com"
-  },
   "Zabbix": {
     "cats": [
       19
@@ -399,23 +363,6 @@
       "\\.getzenbasket\\.com"
     ]
   },
-  "ZenMaid": {
-    "cats": [
-      72
-    ],
-    "description": "ZenMaid is a residential cleaning scheduling software that helps manage appointments.",
-    "icon": "ZenMaid.svg",
-    "pricing": [
-      "low",
-      "recurring",
-      "poa"
-    ],
-    "saas": true,
-    "scripts": [
-      "app\\.zenmaid\\.com"
-    ],
-    "website": "https://get.zenmaid.com"
-  },
   "Zenbooker": {
     "cats": [
       72
@@ -571,6 +518,23 @@
       "webtracker\\.newzenler\\.com"
     ],
     "website": "https://www.newzenler.com"
+  },
+  "ZenMaid": {
+    "cats": [
+      72
+    ],
+    "description": "ZenMaid is a residential cleaning scheduling software that helps manage appointments.",
+    "icon": "ZenMaid.svg",
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scripts": [
+      "app\\.zenmaid\\.com"
+    ],
+    "website": "https://get.zenmaid.com"
   },
   "Zenoti": {
     "cats": [
@@ -732,23 +696,6 @@
     ],
     "website": "https://zeptojs.com"
   },
-  "ZestMoney": {
-    "cats": [
-      91
-    ],
-    "description": "ZestMoney is a fintech company that uses digital EMI without the need for a credit card or a credit score.",
-    "icon": "ZestMoney.svg",
-    "js": {
-      "ZestMoneyWidget": "",
-      "zestBind": "",
-      "zestMerchant": ""
-    },
-    "pricing": [
-      "freemium"
-    ],
-    "saas": true,
-    "website": "https://www.zestmoney.in"
-  },
   "Zestard": {
     "cats": [
       6
@@ -766,6 +713,23 @@
       "zestardshop\\.com/shopifyapp"
     ],
     "website": "https://www.zestardshop.com"
+  },
+  "ZestMoney": {
+    "cats": [
+      91
+    ],
+    "description": "ZestMoney is a fintech company that uses digital EMI without the need for a credit card or a credit score.",
+    "icon": "ZestMoney.svg",
+    "js": {
+      "ZestMoneyWidget": "",
+      "zestBind": "",
+      "zestMerchant": ""
+    },
+    "pricing": [
+      "freemium"
+    ],
+    "saas": true,
+    "website": "https://www.zestmoney.in"
   },
   "Zeta Producer": {
     "cats": [
@@ -972,26 +936,6 @@
     ],
     "website": "https://www.zip.co/"
   },
-  "ZipWP": {
-    "cats": [
-      51
-    ],
-    "description": "ZipWP is a website builder that enables creation of professional sites with extensive customization options and no coding required.",
-    "icon": "ZipWP.svg",
-    "pricing": [
-      "onetime",
-      "low",
-      "recurring"
-    ],
-    "requires": [
-      "WordPress"
-    ],
-    "saas": true,
-    "scripts": [
-      "app\\.zipwp\\.com"
-    ],
-    "website": "https://zipwp.com"
-  },
   "Zipchat": {
     "cats": [
       52
@@ -1076,6 +1020,44 @@
     ],
     "saas": true,
     "website": "https://zipteams.com"
+  },
+  "ZipWP": {
+    "cats": [
+      51
+    ],
+    "description": "ZipWP is a website builder that enables creation of professional sites with extensive customization options and no coding required.",
+    "icon": "ZipWP.svg",
+    "pricing": [
+      "onetime",
+      "low",
+      "recurring"
+    ],
+    "requires": [
+      "WordPress"
+    ],
+    "saas": true,
+    "scripts": [
+      "app\\.zipwp\\.com"
+    ],
+    "website": "https://zipwp.com"
+  },
+  "ZK": {
+    "cats": [
+      18
+    ],
+    "description": "ZK is a framework for building rich, interactive web applications using Java, providing a set of tools and components to create dynamic user interfaces.",
+    "html": [
+      "<!-- ZK [.\\d\\s]+-->"
+    ],
+    "icon": "ZK.svg",
+    "implies": [
+      "Java"
+    ],
+    "oss": true,
+    "scriptSrc": [
+      "zkau/"
+    ],
+    "website": "https://zkoss.org"
   },
   "Zmags Creator": {
     "cats": [
@@ -1571,6 +1553,24 @@
     ],
     "saas": true,
     "website": "https://www.zuppler.com"
+  },
+  "ZURB Foundation": {
+    "cats": [
+      66
+    ],
+    "description": "Zurb Foundation is used to prototype in the browser. Allows rapid creation of websites or applications while leveraging mobile and responsive technology. The front end framework is the collection of HTML, CSS, and Javascript containing design patterns.",
+    "dom": [
+      "link[href*='foundation'][href*='css']"
+    ],
+    "html": [
+      "<link[^>]+foundation[^>\"]+css",
+      "<div [^>]*class=\"[^\"]*(?:small|medium|large)-\\d{1,2} columns"
+    ],
+    "icon": "ZURBFoundation.svg",
+    "js": {
+      "Foundation.version": "([\\d.]+)\\;version:\\1"
+    },
+    "website": "https://foundation.zurb.com"
   },
   "Zurple": {
     "cats": [
