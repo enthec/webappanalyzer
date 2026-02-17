@@ -848,6 +848,18 @@
     },
     "website": "https://www.valve.fi"
   },
+  "Rcode Vision": {
+    "cats": [
+      47
+    ],
+    "description": "Rcode Vision is a platform that develops and delivers web applications.",
+    "icon": "RcodeVision.svg",
+    "meta": {
+      "author": "^Rcode Vision$"
+    },
+    "saas": true,
+    "website": "https://www.rcodevision.com"
+  },
   "RD Station": {
     "cats": [
       32
@@ -885,6 +897,22 @@
       "rdoc_rel_prefix": ""
     },
     "website": "https://github.com/ruby/rdoc"
+  },
+  "RE-OS.com": {
+    "cats": [
+      53
+    ],
+    "description": "RE-OS.com is a platform providing multiple listing service (MLS) functionality and customer relationship management (CRM) tools for managing real estate data and client interactions.",
+    "dom": [
+      "link[href*='cdnc.re-os.com/']"
+    ],
+    "icon": "RE-OS.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://re-os.com"
   },
   "Re:amaze": {
     "cats": [
@@ -1116,6 +1144,26 @@
       "^https?//.+\\.reactiveonline\\.io"
     ],
     "website": "https://reactiveonline.io"
+  },
+  "Read the Docs": {
+    "cats": [
+      4
+    ],
+    "description": "Read the Docs is a documentation platform that uses a Docs-as-Code workflow to provide versioned content, integrated previews, and secure authentication directly within standard Git development processes.",
+    "icon": "ReadtheDocs.svg",
+    "js": {
+      "ReadTheDocsEventData._data": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.readthedocs\\.io"
+    ],
+    "website": "https://about.readthedocs.com"
   },
   "ReadAloud": {
     "cats": [
@@ -1605,6 +1653,26 @@
     ],
     "website": "https://www.recomify.com"
   },
+  "Recommy": {
+    "cats": [
+      73
+    ],
+    "description": "Recommy is a customer feedback gathering tool designed to collect, organize, and analyze user input to support service evaluation and improvement.",
+    "icon": "Recommy.svg",
+    "js": {
+      "RecommyFeedbackWidget": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scripts": [
+      "app\\.recommy\\.com"
+    ],
+    "website": "https://recommy.com"
+  },
   "Reconline": {
     "cats": [
       93
@@ -1694,6 +1762,27 @@
       "cdn\\.recovermycart\\.com"
     ],
     "website": "https://app.recovermycart.com/"
+  },
+  "Recras": {
+    "cats": [
+      72
+    ],
+    "description": "Recras is a Dutch-based booking engine that manages reservations, schedules, and operational data for service providers.",
+    "icon": "Recras.svg",
+    "js": {
+      "RecrasBooking": "",
+      "submitRecrasForm": ""
+    },
+    "pricing": [
+      "low",
+      "recurring",
+      "payg"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.recras\\.nl/"
+    ],
+    "website": "https://www.recras.com"
   },
   "Recruitee": {
     "cats": [
@@ -2050,6 +2139,8 @@
     ],
     "icon": "Redux.svg",
     "js": {
+      "ReactRedux": "",
+      "Redux.applyMiddleware": "",
       "__REDUX_DEVTOOLS_EXTENSION__": ""
     },
     "oss": true,
@@ -2254,6 +2345,23 @@
       "js\\.refiner\\.io/v([\\d]+)/client\\.js\\;version:\\1"
     ],
     "website": "https://refiner.io"
+  },
+  "Refix": {
+    "cats": [
+      10
+    ],
+    "description": "Refix is a tracking tool that monitors clicks, views, scrolls, and other key user engagement metrics through a single script.",
+    "icon": "Refix.svg",
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "script\\.refix\\.ai"
+    ],
+    "website": "https://www.refix.ai"
   },
   "Reflektion": {
     "cats": [
@@ -2576,6 +2684,21 @@
     "saas": true,
     "website": "https://remarkable.net/"
   },
+  "Remedo": {
+    "cats": [
+      32
+    ],
+    "description": "Remedo is a digital healthcare marketing platform that helps doctors improve their Google search visibility through advanced strategies and technology.",
+    "headers": {
+      "Content-Security-Policy": "\\.remedo\\.io"
+    },
+    "icon": "Remedo.svg",
+    "saas": true,
+    "scripts": [
+      "\\.remedo\\.io"
+    ],
+    "website": "https://www.remedo.io"
+  },
   "Remind": {
     "cats": [
       2
@@ -2781,6 +2904,25 @@
       "replocdn\\.com/"
     ],
     "website": "https://www.replo.app"
+  },
+  "ReplyBox": {
+    "cats": [
+      15
+    ],
+    "description": "ReplyBox is a privacy-focused comment system designed to collect, store, and display user feedback while minimizing data exposure and supporting secure interaction.",
+    "icon": "ReplyBox.svg",
+    "js": {
+      "replybox.site": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "cdn\\.getreplybox\\.com"
+    ],
+    "website": "https://getreplybox.com"
   },
   "Replyco": {
     "cats": [
@@ -3030,6 +3172,22 @@
     ],
     "website": "https://www.reshop.com"
   },
+  "REsimpli": {
+    "cats": [
+      53
+    ],
+    "description": "REsimpli is a customer relationship management platform designed for real estate investors, providing integrated tools for managing sales, marketing, and business operations.",
+    "icon": "REsimpli.svg",
+    "js": {
+      "resimpli_iframe_stop_comman_callback": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://resimpli.com"
+  },
   "Resin": {
     "cats": [
       22
@@ -3077,6 +3235,21 @@
     "saas": true,
     "website": "https://resolvepay.com/b2b-payments"
   },
+  "Resonate": {
+    "cats": [
+      10
+    ],
+    "description": "Resonate is a consumer intelligence platform that collects, analyzes, and interprets audience data to provide insights into consumer behavior, preferences, and motivations for strategic decision-making.",
+    "icon": "Resonate.svg",
+    "js": {
+      "resonateAnalytics": ""
+    },
+    "saas": true,
+    "scriptSrc": [
+      "cdn\\.resonate\\.com"
+    ],
+    "website": "https://www.resonate.com"
+  },
   "Resova": {
     "cats": [
       72
@@ -3100,6 +3273,24 @@
     ],
     "saas": true,
     "website": "https://resova.com"
+  },
+  "ReSpec": {
+    "cats": [
+      4
+    ],
+    "description": "ReSpec is a technical documentation generator that simplifies the creation and maintenance of structured technical specifications and standards documents.",
+    "icon": "ReSpec.svg",
+    "js": {
+      "respecConfig": "",
+      "respecVersion": "([\\d.]+)?\\;version:\\1"
+    },
+    "meta": {
+      "generator": "ReSpec ([\\d.]+)?\\;version:\\1",
+      "monetization": "respec\\.org"
+    },
+    "pricing": [],
+    "saas": true,
+    "website": "https://respec.org"
   },
   "Respond.io": {
     "cats": [
@@ -3411,6 +3602,18 @@
       "//return-prime-proxy-prod\\.s3[^ ]*\\.amazonaws\\.com/"
     ],
     "website": "https://www.returnprime.com/"
+  },
+  "Returnflows": {
+    "cats": [
+      102
+    ],
+    "description": "Returnflows is a platform that supports businesses in managing product returns and reducing revenue loss associated with refunds.",
+    "icon": "Returnflows.svg",
+    "saas": true,
+    "scriptSrc": [
+      "static\\.returnflows\\.com"
+    ],
+    "website": "https://www.returnflows.com"
   },
   "ReturnGO": {
     "cats": [
@@ -4073,6 +4276,42 @@
     ],
     "website": "https://www.rezgo.com"
   },
+  "Rezku": {
+    "cats": [
+      6
+    ],
+    "description": "Rezku is a point-of-sale system for restaurants, designed by hospitality experts to manage orders, payments, inventory, and day-to-day operations.",
+    "dom": [
+      "iframe[src*='rezku.com/']"
+    ],
+    "icon": "Rezku.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://rezku.com"
+  },
+  "RhinoFit": {
+    "cats": [
+      1
+    ],
+    "description": "RhinoFit is a gym management software that supports membership management, billing, scheduling, and reporting for fitness businesses.",
+    "dom": [
+      "iframe[src*='my.rhinofit.ca/']"
+    ],
+    "icon": "RhinoFit.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": [
+      "my\\.rhinofit\\.ca/"
+    ],
+    "website": "https://rhinofit.ca"
+  },
   "Rhymix": {
     "cats": [
       1
@@ -4410,7 +4649,30 @@
       "poa"
     ],
     "saas": true,
+    "scriptSrc": [
+      "\\.riskified\\.com"
+    ],
     "website": "https://www.riskified.com/"
+  },
+  "Rispose": {
+    "cats": [
+      52
+    ],
+    "description": "Rispose is a platform for building and embedding AI agents across websites and applications to automate support, sales, and user engagement through AI-powered assistants.",
+    "icon": "Rispose.svg",
+    "js": {
+      "__risposeAgent": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": [
+      "rispose\\.com/cdn/"
+    ],
+    "website": "https://rispose.com"
   },
   "RiteCMS": {
     "cats": [
@@ -4583,6 +4845,18 @@
       "app\\.roasfunnels\\.com"
     ],
     "website": "https://roasfunnels.com"
+  },
+  "Robarov": {
+    "cats": [
+      32
+    ],
+    "description": "Robarov is an online marketing platform that delivers customized online strategies designed to attract and engage new customers.",
+    "icon": "Robarov.svg",
+    "js": {
+      "ROBAROV_CSRF_TOKEN": ""
+    },
+    "saas": true,
+    "website": "https://robarov.be"
   },
   "Robin": {
     "cats": [
@@ -4899,6 +5173,18 @@
     ],
     "website": "https://rollick.io"
   },
+  "RomanCart": {
+    "cats": [
+      6
+    ],
+    "description": "RomanCart is a shopping cart and internet marketing system designed to support online sales, manage product listings, process transactions, and facilitate basic digital marketing functions for ecommerce websites.",
+    "icon": "RomanCart.svg",
+    "saas": true,
+    "scriptSrc": [
+      "\\.romancart\\.com/"
+    ],
+    "website": "https://www.romancart.com"
+  },
   "Ronin Sport": {
     "cats": [
       10
@@ -5062,6 +5348,18 @@
       "\\.routeapp\\.io/"
     ],
     "website": "https://route.com"
+  },
+  "Roya": {
+    "cats": [
+      1
+    ],
+    "description": "Roya is a digital platform designed to enhance online presence through streamlined tools and structured content management.",
+    "icon": "Roya.svg",
+    "saas": true,
+    "scripts": [
+      "static\\.royacdn\\.com"
+    ],
+    "website": "https://www.roya.com"
   },
   "Royal Mail": {
     "cats": [
@@ -5419,6 +5717,44 @@
     "icon": "Rust.svg",
     "oss": true,
     "website": "https://www.rust-lang.org"
+  },
+  "Ruttl": {
+    "cats": [
+      13
+    ],
+    "description": "Ruttl is a platform that enables visual and design feedback by allowing users to review layouts, content, and bugs across websites, applications, PDFs, and images.",
+    "icon": "Ruttl.svg",
+    "js": {
+      "__RUTTL_PRODUCT__": "",
+      "webpackChunkruttl": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "app\\.ruttl\\.com"
+    ],
+    "website": "https://ruttl.com"
+  },
+  "Ruzuku": {
+    "cats": [
+      21
+    ],
+    "description": "Ruzuku is a platform for creating and managing online courses and communities, enabling instructors to organize content, engage learners, and deliver educational programs through a web-based interface.",
+    "icon": "Ruzuku.svg",
+    "js": {
+      "ruzukuGlobal": ""
+    },
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.ruzuku.com"
   },
   "RX Web Server": {
     "cats": [

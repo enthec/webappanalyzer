@@ -297,6 +297,18 @@
     ],
     "website": "https://www.famly.co"
   },
+  "Famous.ai": {
+    "cats": [
+      47
+    ],
+    "description": "Famous.ai is a platform that transforms written concepts into functional mobile or web applications using artificial intelligence.",
+    "icon": "FamousAI.svg",
+    "saas": true,
+    "scriptSrc": [
+      "static\\.famous\\.ai"
+    ],
+    "website": "https://famous.ai"
+  },
   "FancyBox": {
     "cats": [
       59
@@ -350,6 +362,21 @@
       "Python"
     ],
     "website": "https://faral.tech"
+  },
+  "Farazi Bilişim": {
+    "cats": [
+      54
+    ],
+    "description": "Farazi Bilişim is a platform that enhances online visibility through search engine optimization strategies aimed at improving website ranking and performance across major search platforms.",
+    "headers": {
+      "X-Powered-By": "farazibilisim\\.com\\.tr"
+    },
+    "icon": "Farazi.svg",
+    "saas": true,
+    "scripts": [
+      "farazibilisim\\.com\\.tr"
+    ],
+    "website": "https://farazibilisim.com.tr"
   },
   "FarCry": {
     "cats": [
@@ -870,6 +897,26 @@
     ],
     "website": "https://fc2.com"
   },
+  "FeatherPanel": {
+    "cats": [
+      9
+    ],
+    "description": "FeatherPanel is an open-source game server management panel built with PHP, Vue, and Go.",
+    "icon": "FeatherPanel.svg",
+    "js": {
+      "FeatherPanel.api": ""
+    },
+    "meta": {
+      "author": "^FeatherPanel$"
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://featherpanel.com"
+  },
   "FeatherX": {
     "cats": [
       90
@@ -1249,6 +1296,35 @@
     "saas": true,
     "website": "https://fibosearch.com"
   },
+  "Fider": {
+    "cats": [
+      90
+    ],
+    "description": "Fider is an open-source platform for collecting, organizing, and prioritizing customer feedback to support product development decisions.",
+    "icon": "Fider.svg",
+    "js": {
+      "webpackChunkfider": ""
+    },
+    "oss": true,
+    "website": "https://fider.io"
+  },
+  "Fieldd": {
+    "cats": [
+      72
+    ],
+    "description": "Fieldd is a scheduling software used to plan, assign, and manage field service operations.",
+    "icon": "Fieldd.svg",
+    "js": {
+      "FielddBooking.init": "",
+      "FielddLeadForm": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://fieldd.co"
+  },
   "FieldStack Omni": {
     "cats": [
       6
@@ -1398,6 +1474,21 @@
     "saas": true,
     "website": "https://www.financeads.com"
   },
+  "FinConnect": {
+    "cats": [
+      41
+    ],
+    "description": "FinConnect is a platform that enables financial transactions and connections between individuals and businesses, supporting money management and access to related services.",
+    "icon": "FinConnect.svg",
+    "js": {
+      "FinConnect.documentReady": ""
+    },
+    "saas": true,
+    "scriptSrc": [
+      "app\\.finconnect\\.nl"
+    ],
+    "website": "https://finconnect.nl"
+  },
   "Findbar": {
     "cats": [
       29
@@ -1546,6 +1637,10 @@
     ],
     "description": "Finsweet is a platform that designs and develops websites exclusively using Webflow.",
     "icon": "Finsweet.svg",
+    "js": {
+      "FinsweetAttributes.load": "",
+      "FinsweetConsentPro": ""
+    },
     "pricing": [
       "low",
       "recurring"
@@ -1929,6 +2024,19 @@
       "script\\.fixel\\.ai/"
     ],
     "website": "https://fixel.ai"
+  },
+  "Fixer": {
+    "cats": [
+      47
+    ],
+    "description": "Fixer is a lightweight JSON API that provides current and historical foreign exchange rates and supports currency conversion.",
+    "icon": "Fixer.svg",
+    "pricing": [],
+    "saas": true,
+    "scripts": [
+      "api\\.fixer\\.io/"
+    ],
+    "website": "https://fixer.io"
   },
   "Flable": {
     "cats": [
@@ -3415,6 +3523,21 @@
     ],
     "website": "https://forethought.ai/platform/solve/"
   },
+  "ForeUP": {
+    "cats": [
+      72
+    ],
+    "description": "ForeUP is a golf course management platform that provides integrated tools for operations in a single system.",
+    "icon": "ForeUP.svg",
+    "requires": [
+      "WordPress"
+    ],
+    "saas": true,
+    "scripts": [
+      "foreupsoftware\\.com"
+    ],
+    "website": "https://www.foreupgolf.com"
+  },
   "Forgejo": {
     "cats": [
       47
@@ -3524,6 +3647,22 @@
     "saas": true,
     "website": "https://form.taxi/en/backend"
   },
+  "Formalize CSS": {
+    "cats": [
+      66
+    ],
+    "description": "Formalize CSS is a stylesheet that standardizes the appearance and behavior of HTML form elements across browsers to ensure consistent rendering.",
+    "icon": "Formalize.svg",
+    "js": {
+      "FORMALIZE.init": ""
+    },
+    "pricing": [],
+    "saas": true,
+    "scriptSrc": [
+      "/js/jquery\\.formalize\\.js"
+    ],
+    "website": "https://formalize.me"
+  },
   "Formaloo": {
     "cats": [
       110
@@ -3597,6 +3736,18 @@
     ],
     "saas": true,
     "website": "https://formbold.com"
+  },
+  "FormBucket": {
+    "cats": [
+      110
+    ],
+    "description": "FormBucket is a platform for building custom forms and capturing submitted data for structured collection and analysis.",
+    "dom": [
+      "form[action*='api.formbucket.com/']"
+    ],
+    "icon": "FormBucket.svg",
+    "oss": true,
+    "website": "https://formbucket.com"
   },
   "Formcake": {
     "cats": [
@@ -3849,6 +4000,26 @@
     ],
     "website": "https://formstone.it"
   },
+  "Formtoro": {
+    "cats": [
+      32
+    ],
+    "description": "Formtoro is a platform that converts popup signups into marketing insights by collecting zero-party data through popups, quizzes, and post-purchase surveys.",
+    "icon": "Formtoro.svg",
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "sdk\\.formtoro\\.com"
+    ],
+    "scripts": [
+      "sdk\\.formtoro\\.com"
+    ],
+    "website": "https://www.formtoro.com"
+  },
   "FormWise": {
     "cats": [
       47
@@ -3965,6 +4136,23 @@
       "cartjs\\.php\\?(?:.*&)?s=[^&]*myfortune3cart\\.com"
     ],
     "website": "https://fortune3.com"
+  },
+  "Forumbee": {
+    "cats": [
+      2
+    ],
+    "description": "Forumbee is a platform for hosting community Q&A spaces and discussion forums, providing organized threads for information exchange and user-driven support.",
+    "icon": "Forumbee.svg",
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scripts": [
+      "\\.forumbee\\.com"
+    ],
+    "website": "https://forumbee.com"
   },
   "Foswiki": {
     "cats": [
@@ -4400,6 +4588,20 @@
       "FTB_AddEvent": ""
     },
     "website": "https://freetextbox.com"
+  },
+  "freewebstore": {
+    "cats": [
+      6
+    ],
+    "description": "freewebstore is a platform that allows users to create and manage a free ecommerce store, including product listings, a shopping cart, and basic payment and order management.",
+    "headers": {
+      "Content-Security-Policy": "\\.freewebstore\\.com",
+      "X-Fws-Platform": "^freewebstore$"
+    },
+    "icon": "freewebstore.svg",
+    "pricing": [],
+    "saas": true,
+    "website": "https://freewebstore.com"
   },
   "Frequenceo": {
     "cats": [
@@ -5021,6 +5223,18 @@
       "app\\.fugu-it\\.com"
     ],
     "website": "https://www.fugu-it.com"
+  },
+  "Full On Sport": {
+    "cats": [
+      104
+    ],
+    "description": "Full On Sport is an online event-registration platform designed for race directors, offering tools to manage sign-ups, participant data, and race operations.",
+    "icon": "FullOnSport.svg",
+    "saas": true,
+    "scripts": [
+      "\\.fullonsport\\.com/"
+    ],
+    "website": "https://www.fullonsport.com"
   },
   "Full Slate": {
     "cats": [

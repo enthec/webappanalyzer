@@ -69,6 +69,23 @@
     ],
     "website": "https://www.vacationlabs.com"
   },
+  "Vagaro": {
+    "cats": [
+      72
+    ],
+    "description": "Vagaro is a software platform that enables businesses to manage and book appointments online through a centralized scheduling system.",
+    "icon": "Vagaro.svg",
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "www\\.schedulicity\\.com"
+    ],
+    "website": "https://www.vagaro.com/pro/schedulicity"
+  },
   "Valuad": {
     "cats": [
       36
@@ -773,6 +790,45 @@
       "analytics\\.vepaar\\.com/"
     ],
     "website": "https://vepaar.com"
+  },
+  "Vera": {
+    "cats": [
+      67
+    ],
+    "description": "Vera (formerly Privasee) is a self-compliance tool designed to simplify GDPR for SMEs, enabling them to understand their data and mitigate risks effectively.",
+    "icon": "Vera.svg",
+    "js": {
+      "privasee": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.privasee\\.io/",
+      "\\.getvera\\.ai/"
+    ],
+    "website": "https://www.getvera.ai"
+  },
+  "VeraCore": {
+    "cats": [
+      107
+    ],
+    "description": "VeraCore is an order fulfillment software platform that supports inventory management, warehousing, order processing, and shipping operations.",
+    "icon": "VeraCore.svg",
+    "js": {
+      "VeraCore.API": ""
+    },
+    "saas": true,
+    "scriptSrc": [
+      "www\\.veracore\\.com"
+    ],
+    "scripts": [
+      "\\.veracore\\.com"
+    ],
+    "website": "https://www.advantive.com/products/veracore"
   },
   "VeraSafe": {
     "cats": [
@@ -1574,6 +1630,26 @@
     "icon": "Vignette.png",
     "website": "https://www.vignette.com"
   },
+  "VikaOn": {
+    "cats": [
+      6
+    ],
+    "description": "VikaOn is a Turkish ecommerce platform that enables businesses and consumers to buy and sell products online through a centralized digital marketplace.",
+    "headers": {
+      "X-Vikaon-Version": "(.+)\\;version:\\1"
+    },
+    "icon": "VikaOn.svg",
+    "js": {
+      "_vikaLoaded": "",
+      "_vikaLoadedRender": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://vikaon.com"
+  },
   "Vike": {
     "cats": [
       12
@@ -1800,6 +1876,22 @@
     ],
     "website": "https://virgool.io"
   },
+  "VirtFusion": {
+    "cats": [
+      9
+    ],
+    "cookies": {
+      "virtfusion_session": ""
+    },
+    "description": "VirtFusion is a modern virtualization management platform designed for hosting providers to manage virtual machines, users, billing integrations, and infrastructure operations through a centralized interface.",
+    "icon": "VirtFusion.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://virtfusion.com"
+  },
   "Virtooal": {
     "cats": [
       105
@@ -1963,6 +2055,21 @@
       "secure\\.checkout\\.visa\\.com"
     ],
     "website": "https://checkout.visa.com"
+  },
+  "VisBook": {
+    "cats": [
+      93
+    ],
+    "description": "VisBook is a property management system used by hotels and accommodation providers to manage reservations, daily operations, and guest-related activities in a centralized platform.",
+    "icon": "VisBook.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scripts": [
+      "reservations\\.visbook\\.com/"
+    ],
+    "website": "https://visbook.com"
   },
   "Visely": {
     "cats": [
@@ -2293,6 +2400,18 @@
     },
     "website": "https://vivvo.net"
   },
+  "Vizium": {
+    "cats": [
+      90
+    ],
+    "description": "Vizium is a platform that aggregates and analyzes patient reviews to support healthcare quality assessment.",
+    "icon": "Vizium.svg",
+    "saas": true,
+    "scriptSrc": [
+      "portal\\.vizium\\.co"
+    ],
+    "website": "https://www.vizium.com/products/patient-surveying"
+  },
   "Vizury": {
     "cats": [
       32
@@ -2418,6 +2537,22 @@
       "static\\.voiceintuitive\\.com"
     ],
     "website": "https://voiceintuitive.com/en/voice-intuitive-tm/"
+  },
+  "Voizee": {
+    "cats": [
+      52
+    ],
+    "description": "Voizee is an AI-powered platform that enables businesses to manage automated and human-assisted text messaging and voice calling for customer communication and operational workflows.",
+    "icon": "Voizee.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "widget\\.voizee\\.com/"
+    ],
+    "website": "https://voizee.com"
   },
   "Volley": {
     "cats": [
@@ -2635,6 +2770,23 @@
     ],
     "saas": true,
     "website": "https://www.vouched.id"
+  },
+  "Voucherify": {
+    "cats": [
+      84
+    ],
+    "description": "Voucherify is an incentive optimization engine designed for high-frequency commerce.",
+    "icon": "Voucherify.svg",
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.voucherify\\.io/"
+    ],
+    "website": "https://www.voucherify.io"
   },
   "Vouchley": {
     "cats": [

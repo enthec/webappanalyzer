@@ -287,6 +287,21 @@
     ],
     "website": "https://www.qstomizer.com"
   },
+  "Quadran": {
+    "cats": [
+      92
+    ],
+    "description": "Quadran is a real-time end-user monitoring and performance analysis tool.",
+    "icon": "Quadran.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "tracker\\.quadran\\.eu"
+    ],
+    "website": "https://www.quadran.eu"
+  },
   "Qualaroo": {
     "cats": [
       73
@@ -330,6 +345,21 @@
       "\\.qualified\\.com/"
     ],
     "website": "https://www.qualified.com"
+  },
+  "Qualitando": {
+    "cats": [
+      73
+    ],
+    "description": "Qualitando is an Italian customer satisfaction widget designed to collect, measure, and analyze user feedback to support service quality evaluation and improvement.",
+    "icon": "Qualitando.svg",
+    "saas": true,
+    "scriptSrc": [
+      "\\.qualitando\\.com"
+    ],
+    "scripts": [
+      "\\.qualitando\\.com"
+    ],
+    "website": "https://www.qualitando.com"
   },
   "Qualitelis": {
     "cats": [
@@ -380,6 +410,21 @@
       "\\.qualtrics\\.com/"
     ],
     "website": "https://www.qualtrics.com"
+  },
+  "Qualva": {
+    "cats": [
+      52
+    ],
+    "description": "Qualva is a chatbot platform designed to deliver consistent, user-focused interaction and support across various applications.",
+    "icon": "Qualva.svg",
+    "js": {
+      "qualva.Widget": ""
+    },
+    "saas": true,
+    "scriptSrc": [
+      "form\\.qualva\\.com"
+    ],
+    "website": "https://qualva.com"
   },
   "Quandoo": {
     "cats": [
@@ -795,6 +840,21 @@
       "\\.quicksell\\.co/"
     ],
     "website": "https://quicksell.co"
+  },
+  "Quicksprout": {
+    "cats": [
+      92
+    ],
+    "description": "Quicksprout is a website optimization service focused on improving site performance and user engagement.",
+    "icon": "Quicksprout.svg",
+    "js": {
+      "_QS.CDN": "cdn\\.quicksprout\\.com"
+    },
+    "saas": true,
+    "scripts": [
+      "cdn\\.quicksprout\\.com"
+    ],
+    "website": "https://www.quicksprout.com"
   },
   "Quicktext": {
     "cats": [

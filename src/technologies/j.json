@@ -149,6 +149,22 @@
     ],
     "website": "https://www.jameda.de"
   },
+  "JamFeed": {
+    "cats": [
+      1
+    ],
+    "description": "JamFeed is a web-based platform that allows users to create automated music websites.",
+    "icon": "JamFeed.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "cdn\\.jamfeed\\.com"
+    ],
+    "website": "https://www.jamfeed.com"
+  },
   "JANet": {
     "cats": [
       71
@@ -1093,6 +1109,19 @@
     ],
     "website": "https://jquery.com"
   },
+  "jQuery BlockUI": {
+    "cats": [
+      59
+    ],
+    "description": "jQuery BlockUI is a plugin that simulates synchronous behavior in AJAX by temporarily blocking user interaction and adding DOM elements that visually indicate restricted activity until the block is removed.",
+    "requires": [
+      "jQuery"
+    ],
+    "scriptSrc": [
+      "/jquery\\.blockUI\\.js"
+    ],
+    "website": "https://jquery.malsup.com/block"
+  },
   "jQuery CDN": {
     "cats": [
       31
@@ -1435,6 +1464,9 @@
       "(?:<input[^>]+name=\"JTLSHOP|<a href=\"jtl\\.php)"
     ],
     "icon": "JTL Shop.svg",
+    "js": {
+      "JtlHelpers": ""
+    },
     "website": "https://www.jtl-software.de/online-shopsystem"
   },
   "Jubna": {
@@ -1803,7 +1835,8 @@
     ],
     "description": "JW Player is a online video player with video engagement analytics, custom video player skins, and live video streaming capability.",
     "dom": [
-      "div[data-video-provider*=jwplayer]"
+      "div[data-video-provider*=jwplayer]",
+      "div[class^='jwplayer']"
     ],
     "icon": "JW Player.svg",
     "js": {

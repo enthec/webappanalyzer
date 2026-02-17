@@ -308,6 +308,21 @@
     "saas": true,
     "website": "https://www.baidu.com/search/sug/sugcode.html"
   },
+  "Balance": {
+    "cats": [
+      6
+    ],
+    "description": "Balance is a B2B commerce platform that provides payment and checkout infrastructure designed to streamline transactions between businesses.",
+    "icon": "Balance.svg",
+    "js": {
+      "balanceSDK.checkout": ""
+    },
+    "saas": true,
+    "scriptSrc": [
+      "\\.getbalance\\.com/"
+    ],
+    "website": "https://www.getbalance.com"
+  },
   "BambooHR": {
     "cats": [
       101
@@ -994,6 +1009,18 @@
     ],
     "website": "https://www.trybeans.com/"
   },
+  "Bear Blog": {
+    "cats": [
+      11
+    ],
+    "description": "BearBlog is a privacy-first blogging platform that uses no trackers, JavaScript, or stylesheets, delivering plain text publishing focused solely on content.",
+    "icon": "BearBlog.svg",
+    "oss": true,
+    "scripts": [
+      "\\.bearblog\\.dev"
+    ],
+    "website": "https://bearblog.dev"
+  },
   "Beaver Builder": {
     "cats": [
       87
@@ -1012,6 +1039,24 @@
     ],
     "saas": true,
     "website": "https://www.wpbeaverbuilder.com/"
+  },
+  "BedBooking": {
+    "cats": [
+      93
+    ],
+    "description": "BedBooking is an all-in-one software platform designed to manage short-term and vacation rental operations, including reservations.",
+    "icon": "BedBooking.svg",
+    "js": {
+      "bedbookingAsyncInit": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "panel\\.bed-booking\\.com/"
+    ],
+    "website": "https://bed-booking.com"
   },
   "Beddy": {
     "cats": [
@@ -1137,6 +1182,24 @@
     "saas": true,
     "website": "https://behzi.com"
   },
+  "Belliza": {
+    "cats": [
+      81
+    ],
+    "description": "Belliza is a Shopify theme built for modern brands, offering a performance-focused foundation for creating online storefronts.",
+    "dom": [
+      "script[data-theme-name*='Belliza']"
+    ],
+    "icon": "Belliza.svg",
+    "pricing": [
+      "low",
+      "onetime"
+    ],
+    "requires": [
+      "Shopify"
+    ],
+    "website": "https://themes.templatescoder.com/belliza/shopify/demo/"
+  },
   "BEM": {
     "cats": [
       12
@@ -1163,6 +1226,26 @@
       "tag\\.benchplatform\\.com/"
     ],
     "website": "https://benchmedia.com"
+  },
+  "Benchmark": {
+    "cats": [
+      75
+    ],
+    "description": "Benchmark is an email marketing tool used to create, send, and manage email campaigns, track performance metrics, and support audience communication through automated and scheduled messaging.",
+    "icon": "Benchmark.svg",
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.benchmarkemail\\.com/"
+    ],
+    "scripts": [
+      "\\.benchmarkemail\\.com/"
+    ],
+    "website": "https://www.benchmarkemail.com"
   },
   "Bento": {
     "cats": [
@@ -2064,6 +2147,19 @@
     "icon": "Bitcoin.svg",
     "website": "https://en.wikipedia.org/wiki/Bitcoin"
   },
+  "BITE": {
+    "cats": [
+      101
+    ],
+    "description": "BITE is an e-recruiting software platform that supports digital recruitment processes, including candidate sourcing, application management, and hiring workflow automation.",
+    "icon": "BITE.svg",
+    "js": {
+      "Bite.JobAdsLoaderFilterCreator": "",
+      "BiteJobsApiV5.BUILD": ""
+    },
+    "saas": true,
+    "website": "https://www.b-ite.de"
+  },
   "BiteSpeed": {
     "cats": [
       100,
@@ -2087,6 +2183,24 @@
       "app\\.bitespeed\\.co/"
     ],
     "website": "https://www.bitespeed.co"
+  },
+  "Bitmovin": {
+    "cats": [
+      14
+    ],
+    "description": "Bitmovin is a platform that enables live and on-demand video workflows, supporting video processing, delivery, and playback across different streaming environments.",
+    "icon": "Bitmovin.svg",
+    "js": {
+      "bitmovin.player": ""
+    },
+    "pricing": [
+      "payg"
+    ],
+    "saas": true,
+    "scripts": [
+      "bitmovin\\.com"
+    ],
+    "website": "https://bitmovin.com"
   },
   "BitPay": {
     "cats": [
@@ -2255,6 +2369,20 @@
       "Java"
     ],
     "website": "https://lets-blade.com"
+  },
+  "Blankshield": {
+    "cats": [
+      16
+    ],
+    "description": "Blankshield is a security tool that prevents reverse tabnabbing phishing attacks by blocking exploitation of links that open in new browser tabs using _blank targets.",
+    "js": {
+      "blankshield.open": ""
+    },
+    "oss": true,
+    "scriptSrc": [
+      "/js/blankshield/blankshield\\.min\\.js"
+    ],
+    "website": "https://danielstjules.github.io/blankshield"
   },
   "BLAZE": {
     "cats": [
@@ -2486,6 +2614,19 @@
     "oss": true,
     "website": "https://blitzjs.com"
   },
+  "Blockly": {
+    "cats": [
+      20
+    ],
+    "description": "Blockly is a visual programming editor by Google that enables drag-and-drop block-based coding and serves as the underlying engine for many widely used coding education platforms.",
+    "icon": "Blockly.svg",
+    "js": {
+      "Blockly.Block": "",
+      "BlocklyStorage": ""
+    },
+    "saas": true,
+    "website": "https://developers.google.com/blockly"
+  },
   "Blocksy": {
     "cats": [
       80
@@ -2561,6 +2702,21 @@
       "^https?://[^/]+\\.(?:blogspot|blogger)\\.com"
     ],
     "website": "https://www.blogger.com"
+  },
+  "BlogHunch": {
+    "cats": [
+      54
+    ],
+    "description": "BlogHunch is a content optimization platform that uses data-driven insights to help produce search-optimized articles designed to improve rankings and conversion performance with minimal manual effort.",
+    "icon": "BlogHunch.svg",
+    "meta": {
+      "generator": "^BlogHunch$"
+    },
+    "saas": true,
+    "scripts": [
+      "api\\.bloghunch\\.test/"
+    ],
+    "website": "https://bloghunch.com"
   },
   "BlokID": {
     "cats": [
@@ -2730,6 +2886,18 @@
       "\\.getblue\\.io"
     ],
     "website": "https://web.getblue.io/en/"
+  },
+  "Blue Corona": {
+    "cats": [
+      32
+    ],
+    "description": "Blue Corona is a provider of digital strategies and marketing systems designed to support the promotion and management of commercial services.",
+    "icon": "BlueCorona.svg",
+    "saas": true,
+    "scripts": [
+      "reports\\.bluecorona\\.com"
+    ],
+    "website": "https://www.bluecorona.com"
   },
   "Blue Triangle": {
     "cats": [
@@ -2996,6 +3164,23 @@
     ],
     "website": "https://boba.space150.com"
   },
+  "Boberdoo": {
+    "cats": [
+      32
+    ],
+    "description": "Boberdoo is a performance marketing software platform that connects buyers and sellers in real time, enabling scalable lead distribution and transaction management.",
+    "dom": [
+      "link[href*='cdn.boberdoo.com/']"
+    ],
+    "icon": "Boberdoo.svg",
+    "pricing": [
+      "high",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.boberdoo.com"
+  },
   "Bobgo": {
     "cats": [
       107
@@ -3098,6 +3283,18 @@
     ],
     "oss": true,
     "website": "https://boidcms.github.io"
+  },
+  "BokaBord": {
+    "cats": [
+      93
+    ],
+    "description": "BokaBord is a platform that enables users to discover restaurants and book tables across Sweden.",
+    "icon": "BokaBord.svg",
+    "saas": true,
+    "scriptSrc": [
+      "www\\.bokabord\\.se"
+    ],
+    "website": "https://www.bokabord.se"
   },
   "Bokeh": {
     "cats": [
@@ -3455,6 +3652,23 @@
       "connect\\.bolt\\.com"
     ]
   },
+  "Bomb Bomb": {
+    "cats": [
+      53
+    ],
+    "description": "BombBomb is a CRM platform that integrates lead capture and video messaging to manage customer relationships and enhance engagement throughout the sales process.",
+    "icon": "BombBomb.svg",
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scripts": [
+      "\\.bombbomb\\.com"
+    ],
+    "website": "https://bombbomb.com"
+  },
   "BON Loyalty": {
     "cats": [
       84,
@@ -3569,6 +3783,26 @@
     ],
     "website": "https://www.bookatable.co.uk"
   },
+  "BookBanket": {
+    "cats": [
+      72
+    ],
+    "description": "BookBanket is a banquet management service designed to coordinate event planning and organize venue arrangements.",
+    "icon": "BookBanket.svg",
+    "js": {
+      "bbanketMetrikaIdInc": "",
+      "bbanketWidget.addStyle": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "api\\.bbanket\\.com/"
+    ],
+    "website": "https://bookbanket.ru"
+  },
   "Bookboost": {
     "cats": [
       53
@@ -3635,6 +3869,18 @@
     ],
     "saas": true,
     "website": "https://www.bookeo.com"
+  },
+  "Booker": {
+    "cats": [
+      72
+    ],
+    "description": "Booker is a spa and salon management platform that supports scheduling, client management, staff coordination, and payment processing.",
+    "icon": "Booker.svg",
+    "saas": true,
+    "scripts": [
+      "api\\.booker\\.com"
+    ],
+    "website": "https://www.mindbodyonline.com/business/booker"
   },
   "Bookero": {
     "cats": [
@@ -3734,6 +3980,23 @@
     "saas": true,
     "website": "https://bookingkit.net/"
   },
+  "BookingKoala": {
+    "cats": [
+      1
+    ],
+    "description": "BookingKoala is a specialized SaaS for service businesses to automate scheduling, quotes, and billing. It features customizable booking forms and provider management tools, ideal for home services like cleaning or landscaping.",
+    "icon": "BookingKoala.svg",
+    "pricing": [
+      "mid",
+      "recurring",
+      "onetime"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "cdn\\.bookingkoala\\.com"
+    ],
+    "website": "https://www.bookingkoala.com"
+  },
   "Bookitit": {
     "cats": [
       72
@@ -3749,6 +4012,26 @@
       "app\\.bookitit\\.com/"
     ],
     "website": "https://www.bookitit.com"
+  },
+  "Booklux": {
+    "cats": [
+      72
+    ],
+    "description": "Booklux is an online booking system that enables users to schedule, manage, and organize reservations through a centralized digital platform.",
+    "icon": "Booklux.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "app\\.booklux\\.com"
+    ],
+    "scripts": [
+      "app\\.booklux\\.com"
+    ],
+    "website": "https://www.booklux.com"
   },
   "Bookly": {
     "cats": [
@@ -4390,6 +4673,25 @@
     "saas": true,
     "website": "https://botsonic.com"
   },
+  "Botsplash": {
+    "cats": [
+      52
+    ],
+    "description": "Botsplash is a communication platform that manages conversations across SMS, web chat, email, voice, and AI in real time from a single interface.",
+    "icon": "Botsplash.svg",
+    "js": {
+      "$botsplash": "",
+      "BOTSPLASH_APP_ID": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "chatcdn\\.botsplash\\.com/"
+    ],
+    "website": "https://www.botsplash.com"
+  },
   "BotStar": {
     "cats": [
       52
@@ -4636,6 +4938,18 @@
       "\\bBpost\\b"
     ],
     "website": "https://www.bpost.be"
+  },
+  "Brafton": {
+    "cats": [
+      32
+    ],
+    "description": "Brafton is a creative content marketing platform that provides services for content strategy, creation, and distribution to help organizations engage audiences and support digital marketing efforts.",
+    "icon": "Brafton.svg",
+    "saas": true,
+    "scriptSrc": [
+      "\\.brafton\\.com"
+    ],
+    "website": "https://www.brafton.com"
   },
   "Brainlead": {
     "cats": [
@@ -5177,6 +5491,24 @@
     ],
     "website": "https://briqpay.com"
   },
+  "Brivity": {
+    "cats": [
+      53
+    ],
+    "description": "Brivity is a real estate CRM and software platform that helps agents manage contacts, automate workflows, track transactions, and support business development and deal management.",
+    "icon": "Brivity.svg",
+    "js": {
+      "getBrivityHomeMiddlewareBaseUrl": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "cdn1\\.brivityidx\\.com"
+    ],
+    "website": "https://www.brivity.com"
+  },
   "Brizy": {
     "cats": [
       51
@@ -5446,6 +5778,25 @@
     ],
     "saas": true,
     "website": "https://www.bsmart.co.il/?utm_source=wappalyzer&utm_medium=referral"
+  },
+  "Bsport": {
+    "cats": [
+      72
+    ],
+    "description": "Bsport is a fitness/boutique studio management software for scheduling, memberships, and client management.",
+    "icon": "Bsport.svg",
+    "js": {
+      "BsportWidget.el_list_id": "",
+      "runtimeBsport": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "cdn\\.bsport\\.io"
+    ],
+    "website": "https://pro.bsport.io"
   },
   "BTOLEAD": {
     "cats": [
@@ -5725,10 +6076,10 @@
       27
     ],
     "description": "Bun is a fast JavaScript runtime compatible with Node.js and Deno.",
-    "icon": "bun.svg",
     "headers": {
       "X-Powered-By": "Bun"
     },
+    "icon": "bun.svg",
     "oss": true,
     "website": "https://bun.sh"
   },

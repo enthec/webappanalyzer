@@ -484,7 +484,7 @@
     ],
     "saas": true,
     "scripts": [
-      "/Umbraco/Api/"
+      "\\.umbraco\\.io|/Umbraco\\/Api"
     ],
     "url": [
       "/umbraco/login\\.aspx(?:$|\\?)"
@@ -604,6 +604,18 @@
     ],
     "saas": true,
     "website": "https://unas.hu"
+  },
+  "Unblu Virtual Agent": {
+    "cats": [
+      52
+    ],
+    "description": "Unblu Virtual Agent is a platform that provides customers with 24/7 access to intelligent, automated conversations designed to feel human.",
+    "icon": "Unblu.svg",
+    "saas": true,
+    "scripts": [
+      "\\.unblu\\.com/"
+    ],
+    "website": "https://www.unblu.com"
   },
   "Unbounce": {
     "cats": [
@@ -777,6 +789,23 @@
       "AngularJS"
     ],
     "website": "https://www.ui.com/"
+  },
+  "Uniform Digital Experience": {
+    "cats": [
+      1
+    ],
+    "description": "Uniform Digital Experience is a digital experience platform (DXP) designed to manage, deliver, and optimize content and interactions across multiple digital channels.",
+    "icon": "UniformDigitalExperience.svg",
+    "js": {
+      "__UNIFORM_CONTEXTUAL_EDITING_CONTEXT__": "",
+      "__UNIFORM_DEVTOOLS_CONTEXT_INSTANCE__": "",
+      "isUniform": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.uniform.dev"
   },
   "Unilog": {
     "cats": [
@@ -1478,6 +1507,21 @@
     ],
     "website": "https://www.user1st.com/uremediate/"
   },
+  "Ureserv": {
+    "cats": [
+      93
+    ],
+    "description": "Ureserv is an online restaurant reservation and table management system that enables booking, availability tracking, and seating coordination for dining establishments.",
+    "dom": [
+      "iframe[src*='www.ureserv.com/']"
+    ],
+    "icon": "Ureserv.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://ureserv.com"
+  },
   "Urllo": {
     "cats": [
       64
@@ -1537,6 +1581,26 @@
     ],
     "saas": true,
     "website": "https://uscreen.tv/"
+  },
+  "Useberry": {
+    "cats": [
+      10
+    ],
+    "description": "Useberry is a platform that provides tools for conducting and analyzing user testing in a single integrated environment.",
+    "icon": "Useberry.svg",
+    "js": {
+      "useberryLive": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "api\\.useberry\\.com"
+    ],
+    "website": "https://www.useberry.com"
   },
   "User Accessibility": {
     "cats": [
@@ -1868,6 +1932,24 @@
     ],
     "website": "https://usizy.com"
   },
+  "uSocial": {
+    "cats": [
+      5
+    ],
+    "description": "uSocial is a tool that generates customizable Share and Like buttons for websites, enabling quick integration of social interaction features.",
+    "icon": "uSocial.svg",
+    "js": {
+      "uSocial.init": "",
+      "uSocialLogin": "",
+      "uSocialShare": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://usocial.pro"
+  },
   "USPS": {
     "cats": [
       99
@@ -1963,6 +2045,26 @@
       "cdn\\.uvo\\.do/"
     ],
     "website": "https://uvodo.com"
+  },
+  "UXSniff": {
+    "cats": [
+      10
+    ],
+    "description": "UXSniff is a UX analysis tool that automatically detects usability issues by analyzing user behavior, including layout shifts and rage clicks, to identify potential conversion problems early.",
+    "icon": "UXSniff.svg",
+    "js": {
+      "__UXS_BEACON_COOLDOWN_MS": "",
+      "__uxs_beaconInCooldown": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "api\\.uxsniff\\.com"
+    ],
+    "website": "https://uxsniff.com"
   },
   "Uzerly": {
     "cats": [

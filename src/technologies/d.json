@@ -289,6 +289,27 @@
     "oss": true,
     "website": "https://github.com/django/daphne"
   },
+  "Dapta": {
+    "cats": [
+      76
+    ],
+    "description": "Dapta is a real-time visitor segmentation and website personalization platform that uses AI to accelerate sales, marketing, and operations workflows for small and medium-sized businesses.",
+    "icon": "Dapta.svg",
+    "js": {
+      "daptaAgent.agent_context": "",
+      "toggleDaptaWidgetChat": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.dapta\\.ai/"
+    ],
+    "website": "https://dapta.ai"
+  },
   "Darkmode.js": {
     "cats": [
       59
@@ -402,6 +423,27 @@
     "saas": true,
     "website": "https://www.data-8.co.uk"
   },
+  "Databuddy": {
+    "cats": [
+      10
+    ],
+    "description": "Databuddy is an analytics platform designed for developers.",
+    "icon": "Databuddy.svg",
+    "meta": {
+      "creator": "^Databuddy$",
+      "publisher": "^Databuddy$"
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": [
+      "cdn\\.databuddy\\.cc"
+    ],
+    "website": "https://www.databuddy.cc"
+  },
   "Datacrush": {
     "cats": [
       32
@@ -478,6 +520,22 @@
       "^https://ct\\.datadome\\.co/[a-z]\\.js$"
     ],
     "website": "https://datadome.co"
+  },
+  "DataGrail": {
+    "cats": [
+      16
+    ],
+    "description": "DataGrail is an AI-powered privacy automation platform designed to help organizations manage data privacy compliance, automate risk assessments, and maintain regulatory alignment across data processing activities.",
+    "icon": "DataGrail.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.datagrail\\.io/"
+    ],
+    "website": "https://www.datagrail.io"
   },
   "DataLife Engine": {
     "cats": [
@@ -1675,6 +1733,18 @@
     ],
     "website": "https://devrev.ai/plug-observability"
   },
+  "Devuelving": {
+    "cats": [
+      6
+    ],
+    "cookies": {
+      "devuelving_session": ""
+    },
+    "description": "Devuelving is an online store franchise system designed to support the management, operation, and scaling of e-commerce businesses through centralized tools and processes.",
+    "icon": "Devuelving.svg",
+    "saas": true,
+    "website": "https://www.devuelving.com"
+  },
   "Devup UI": {
     "cats": [
       66
@@ -1838,6 +1908,26 @@
       "assets\\.dialogshift\\.com"
     ],
     "website": "https://www.dialogshift.com"
+  },
+  "DialogTab": {
+    "cats": [
+      6
+    ],
+    "description": "DialogTab is a conversational commerce platform that automates order intake and product guidance for users through WhatsApp-based messaging interactions.",
+    "icon": "DialogTab.svg",
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "cdn\\.dialogtab\\.com/"
+    ],
+    "scripts": [
+      "cdn\\.dialogtab\\.com/"
+    ],
+    "website": "https://dialogtab.com"
   },
   "Dialogue": {
     "cats": [
@@ -2111,6 +2201,22 @@
     ],
     "saas": true,
     "website": "https://www.digizuite.com"
+  },
+  "digi·access": {
+    "cats": [
+      68
+    ],
+    "description": "digi·access is a solution designed to improve web accessibility by helping organizations align digital content with WCAG 2.1 standards.",
+    "icon": "digiaccess.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "download\\.digiaccess\\.org"
+    ],
+    "website": "https://www.digiaccess.org"
   },
   "Dimensions AI": {
     "cats": [
@@ -2467,6 +2573,19 @@
     ],
     "website": "https://www.elegantthemes.com/gallery/divi"
   },
+  "Divide": {
+    "cats": [
+      6
+    ],
+    "description": "Divide is an ecommerce platform developed in the Netherlands.",
+    "icon": "Divide.svg",
+    "js": {
+      "divide.cookies": "",
+      "setDivideCookiePreferences": ""
+    },
+    "saas": true,
+    "website": "https://www.divide.nl"
+  },
   "DivideBuy": {
     "cats": [
       41,
@@ -2698,6 +2817,25 @@
     ],
     "saas": true,
     "website": "https://www.doctave.com"
+  },
+  "Doctena": {
+    "cats": [
+      72
+    ],
+    "cookies": {
+      "PRODDOCTENASESSID": ""
+    },
+    "description": "Doctena is an online appointment booking platform that allows users to schedule visits with doctors, dentists, and other healthcare practitioners.",
+    "icon": "Doctena.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.doctena\\.at"
+    ],
+    "website": "https://www.doctena.at"
   },
   "Doctor.com": {
     "cats": [
@@ -3396,6 +3534,21 @@
     ],
     "website": "https://www.download-monitor.com"
   },
+  "doxo": {
+    "cats": [
+      41
+    ],
+    "description": "doxo is a bill payment service that enables users to manage and pay multiple bills in one place through a single account and login.",
+    "icon": "doxo.svg",
+    "js": {
+      "doxoConnectWidget": ""
+    },
+    "saas": true,
+    "scriptSrc": [
+      "embed\\.doxo\\.com/"
+    ],
+    "website": "https://www.doxo.com"
+  },
   "Doxygen": {
     "cats": [
       4
@@ -3550,6 +3703,22 @@
     "saas": true,
     "website": "https://drata.com"
   },
+  "DrChrono": {
+    "cats": [
+      72
+    ],
+    "description": "DrChrono is an electronic health record system that centralizes clinical documentation, scheduling, billing, and patient management to support healthcare operations.",
+    "dom": [
+      "form[action*='drchrono.com/scheduling/']"
+    ],
+    "icon": "DrChrono.svg",
+    "js": {
+      "DRCHRONO_REACT_BUNDLE_LOADED": "",
+      "dispatchDrChronoEvent": ""
+    },
+    "saas": true,
+    "website": "https://www.drchrono.com"
+  },
   "DreamApply": {
     "cats": [
       101,
@@ -3615,6 +3784,25 @@
       "low"
     ],
     "website": "https://www.dreamhost.com"
+  },
+  "DreamROI": {
+    "cats": [
+      76
+    ],
+    "description": "DreamROI is a content personalization system for eCommerce that tailors on-site experiences based on user behavior and product interactions.",
+    "icon": "DreamROI.svg",
+    "js": {
+      "dreamroibox.refresh": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "app\\.dreamroi\\.com"
+    ],
+    "website": "https://www.dreamroi.com"
   },
   "DreamWeaver": {
     "cats": [
@@ -3766,6 +3954,24 @@
       "\\.dropinblog\\.com/"
     ],
     "website": "https://dropinblog.com"
+  },
+  "Droplabs": {
+    "cats": [
+      104
+    ],
+    "description": "Droplabs is a Poland-based ticketing system, reservation system, and channel management tool designed to manage bookings and distribution across multiple sales channels.",
+    "icon": "Droplabs.svg",
+    "js": {
+      "webpackChunkdroplabs_widget": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "widget\\.droplabs\\.pl/"
+    ],
+    "website": "https://droplabs.pl"
   },
   "Dropzone": {
     "cats": [
