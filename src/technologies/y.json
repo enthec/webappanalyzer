@@ -1,103 +1,4 @@
 {
-  "YM Cart": {
-    "cats": [
-      6
-    ],
-    "description": "Ymcart is a cross-border ecommerce platform providing a one-stop SaaS system for building independent online stores, primarily supporting Chinese ecommerce sellers.",
-    "icon": "YMCart.svg",
-    "js": {
-      "exec_ymcart_collect": "",
-      "ymcartDataLayer": ""
-    },
-    "saas": true,
-    "website": "https://ymcart.com"
-  },
-  "YMQ Product Options Variant Option": {
-    "cats": [
-      100
-    ],
-    "description": "YMQ Product Options Variant Option help add an unlimited number of product options to your items so you're not restricted by Shopify's limit of 3 options and 100 variants.",
-    "icon": "YMQ Product Options Variant Option.svg",
-    "implies": [
-      "Shopify"
-    ],
-    "js": {
-      "ymq_option.v": "\\?v=([\\d\\.]+)\\;version:\\1"
-    },
-    "pricing": [
-      "low",
-      "recurring"
-    ],
-    "saas": true,
-    "website": "https://apps.shopify.com/ymq-options"
-  },
-  "YNAP Ecommerce": {
-    "cats": [
-      6
-    ],
-    "description": "YNAP provides a suite of B2B luxury services including online and mobile store development, omnichannel logistics, customer care, digital marketing, data-driven merchandising and global strategy development.",
-    "icon": "YNAP.png",
-    "js": {
-      "yTos": "",
-      "ycookieApiUrl": ""
-    },
-    "pricing": [
-      "poa"
-    ],
-    "saas": true,
-    "website": "https://www.ynap.com/pages/about-us/what-we-do/monobrand/"
-  },
-  "YOAPress": {
-    "cats": [
-      51
-    ],
-    "description": "YOAPress is a SaaS platform that provides website building solutions tailored for real estate professionals.",
-    "dom": [
-      "link[href*='//api.yoa.ca']"
-    ],
-    "icon": "YOAPress.svg",
-    "js": {
-      "yoa_cache_clear": "",
-      "yoa_gallary": ""
-    },
-    "pricing": [
-      "low",
-      "recurring"
-    ],
-    "saas": true,
-    "website": "https://yoapress.com"
-  },
-  "YUI": {
-    "cats": [
-      59
-    ],
-    "cpe": "cpe:2.3:a:yahoo:yui:*:*:*:*:*:*:*:*",
-    "description": "YUI is a JavaScript and CSS library with more than 30 unique components including low-level DOM utilities and high-level user-interface widgets.",
-    "icon": "YUI.svg",
-    "js": {
-      "YAHOO.VERSION": "^(.+)$\\;version:\\1",
-      "YUI.version": "^(.+)$\\;version:\\1"
-    },
-    "oss": true,
-    "scriptSrc": [
-      "(?:/yui/|yui\\.yahooapis\\.com)"
-    ],
-    "website": "https://clarle.github.io/yui3"
-  },
-  "YUI Doc": {
-    "cats": [
-      4
-    ],
-    "description": "YUI Doc is a Node.js application used at build time to generate API documentation.",
-    "dom": [
-      "body[class*='yui3-skin-sam']"
-    ],
-    "html": [
-      "(?:<html[^>]* yuilibrary\\.com/rdf/[\\d.]+/yui\\.rdf|<body[^>]+class=\"yui3-skin-sam)"
-    ],
-    "icon": "Yahoo.svg",
-    "website": "https://developer.yahoo.com/yui/yuidoc"
-  },
   "YaBB": {
     "cats": [
       2
@@ -270,11 +171,17 @@
       "x-yandex-captcha": ""
     },
     "icon": "yandex_smartcaptcha.svg",
+    "js": {
+      "smartCaptcha": ""
+    },
     "pricing": [
       "freemium",
       "payg"
     ],
     "saas": true,
+    "scripts": [
+      "Yandex SmartCaptcha"
+    ],
     "website": "https://cloud.yandex.com/en/services/smartcaptcha"
   },
   "Yandex.Cloud": {
@@ -483,6 +390,39 @@
     },
     "website": "https://www.yektanet.com"
   },
+  "Yell eCommerce": {
+    "cats": [
+      6
+    ],
+    "description": "Yell eCommerce is a service providing eCommerce website design focused on attracting customers and increasing sales.",
+    "icon": "YelleCommerce.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scripts": [
+      "business\\.yell\\.com"
+    ],
+    "website": "https://business.yell.com/features/websites/ecommerce/"
+  },
+  "yellow.ai": {
+    "cats": [
+      52
+    ],
+    "description": "yellow.ai provides chatbot and automation services.",
+    "icon": "yellow.ai.svg",
+    "js": {
+      "ymConfig": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "cdn\\.yellowmessenger\\.com"
+    ],
+    "website": "https://yellow.ai/"
+  },
   "Yelp Reservations": {
     "cats": [
       93
@@ -682,6 +622,54 @@
     ],
     "website": "https://www.yiiframework.com"
   },
+  "YM Cart": {
+    "cats": [
+      6
+    ],
+    "description": "Ymcart is a cross-border ecommerce platform providing a one-stop SaaS system for building independent online stores, primarily supporting Chinese ecommerce sellers.",
+    "icon": "YMCart.svg",
+    "js": {
+      "exec_ymcart_collect": "",
+      "ymcartDataLayer": ""
+    },
+    "saas": true,
+    "website": "https://ymcart.com"
+  },
+  "YMQ Product Options Variant Option": {
+    "cats": [
+      100
+    ],
+    "description": "YMQ Product Options Variant Option help add an unlimited number of product options to your items so you're not restricted by Shopify's limit of 3 options and 100 variants.",
+    "icon": "YMQ Product Options Variant Option.svg",
+    "implies": [
+      "Shopify"
+    ],
+    "js": {
+      "ymq_option.v": "\\?v=([\\d\\.]+)\\;version:\\1"
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://apps.shopify.com/ymq-options"
+  },
+  "YNAP Ecommerce": {
+    "cats": [
+      6
+    ],
+    "description": "YNAP provides a suite of B2B luxury services including online and mobile store development, omnichannel logistics, customer care, digital marketing, data-driven merchandising and global strategy development.",
+    "icon": "YNAP.png",
+    "js": {
+      "yTos": "",
+      "ycookieApiUrl": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.ynap.com/pages/about-us/what-we-do/monobrand/"
+  },
   "Yo!Coach": {
     "cats": [
       21
@@ -697,17 +685,25 @@
     "saas": true,
     "website": "https://www.yo-coach.com"
   },
-  "YoPlanning": {
+  "YOAPress": {
     "cats": [
-      72
+      51
     ],
-    "description": "YoPlanning is an online software designed for booking and planning activities.",
-    "icon": "YoPlanning.svg",
+    "description": "YOAPress is a SaaS platform that provides website building solutions tailored for real estate professionals.",
+    "dom": [
+      "link[href*='//api.yoa.ca']"
+    ],
+    "icon": "YOAPress.svg",
+    "js": {
+      "yoa_cache_clear": "",
+      "yoa_gallary": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
     "saas": true,
-    "scriptSrc": [
-      "booking\\.yoplanning\\.pro"
-    ],
-    "website": "https://yoplanning.pro"
+    "website": "https://yoapress.com"
   },
   "Yoast Duplicate Post": {
     "cats": [
@@ -743,24 +739,6 @@
     "oss": true,
     "website": "https://yoast.com/wordpress/plugins/seo/"
   },
-  "Yoast SEO Premium": {
-    "cats": [
-      54
-    ],
-    "description": "Yoast SEO Premium is a search engine optimisation plugin for WordPress and other platforms.",
-    "html": [
-      "<!-- This site is optimized with the Yoast SEO Premium plugin v([^\\s]+) \\;version:\\1"
-    ],
-    "icon": "Yoast SEO.png",
-    "oss": true,
-    "pricing": [
-      "low",
-      "freemium",
-      "recurring"
-    ],
-    "saas": true,
-    "website": "https://yoast.com/wordpress/plugins/seo/"
-  },
   "Yoast SEO for Shopify": {
     "cats": [
       54,
@@ -783,6 +761,24 @@
     ],
     "saas": true,
     "website": "https://yoast.com/shopify/apps/yoast-seo/"
+  },
+  "Yoast SEO Premium": {
+    "cats": [
+      54
+    ],
+    "description": "Yoast SEO Premium is a search engine optimisation plugin for WordPress and other platforms.",
+    "html": [
+      "<!-- This site is optimized with the Yoast SEO Premium plugin v([^\\s]+) \\;version:\\1"
+    ],
+    "icon": "Yoast SEO.png",
+    "oss": true,
+    "pricing": [
+      "low",
+      "freemium",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://yoast.com/wordpress/plugins/seo/"
   },
   "Yodel": {
     "cats": [
@@ -814,6 +810,9 @@
       51
     ],
     "description": "Yola is a website builder and website hosting company headquartered in San Francisco.",
+    "dom": [
+      "script[data-url*='.yolacdn.net/']"
+    ],
     "icon": "Yola.svg",
     "pricing": [
       "freemium",
@@ -825,6 +824,21 @@
       "\\.yola(?:cdn)?\\.(?:net|com)/"
     ],
     "website": "https://www.yola.com"
+  },
+  "Yomdel": {
+    "cats": [
+      52
+    ],
+    "description": "Yomdel is a fully managed live chat service that handles website conversations and delivers qualified sales leads directly to businesses.",
+    "icon": "Yomdel.svg",
+    "saas": true,
+    "scriptSrc": [
+      "clients\\.yomdel\\.com/"
+    ],
+    "scripts": [
+      "clients\\.yomdel\\.com/"
+    ],
+    "website": "https://www.yomdel.com"
   },
   "Yonder": {
     "cats": [
@@ -909,6 +923,18 @@
       "//yopify\\.com/"
     ],
     "website": "https://www.yopify.com"
+  },
+  "YoPlanning": {
+    "cats": [
+      72
+    ],
+    "description": "YoPlanning is an online software designed for booking and planning activities.",
+    "icon": "YoPlanning.svg",
+    "saas": true,
+    "scriptSrc": [
+      "booking\\.yoplanning\\.pro"
+    ],
+    "website": "https://yoplanning.pro"
   },
   "Yotpo Loyalty & Referrals": {
     "cats": [
@@ -1058,6 +1084,51 @@
     "saas": true,
     "website": "https://youcanpay.com"
   },
+  "youCMS": {
+    "cats": [
+      1
+    ],
+    "description": "youCMS is an enterprise content management system developed in Denmark, designed to support large-scale digital content organization and delivery.",
+    "icon": "youCMS.svg",
+    "meta": {
+      "generator": "^youCMS(?:\\b|\\s|\\s*-)"
+    },
+    "saas": true,
+    "website": "https://www.youcms.eu"
+  },
+  "Youform": {
+    "cats": [
+      110
+    ],
+    "description": "Youform is a no-code form builder to create conversational style forms for collecting leads, surveys, and feedback.",
+    "icon": "Youform.svg",
+    "js": {
+      "youForm.blurActiveElement": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://youform.com"
+  },
+  "YouLead": {
+    "cats": [
+      32
+    ],
+    "description": "YouLead is a sales and marketing automation system from Poland that helps businesses manage leads, streamline customer engagement, and optimize marketing workflows through integrated digital tools.",
+    "icon": "YouLead.svg",
+    "js": {
+      "YouLeadDynamicContent": "",
+      "YouLeadHtmlBlocks": ""
+    },
+    "saas": true,
+    "scripts": [
+      "\\.youlead\\.pl"
+    ],
+    "website": "https://www.youlead.pl"
+  },
   "YouPay": {
     "cats": [
       100
@@ -1080,6 +1151,27 @@
       "app\\.youpay\\.ai/"
     ],
     "website": "https://youpay.co"
+  },
+  "YourGPT": {
+    "cats": [
+      47
+    ],
+    "description": "YourGPT is a platform that provides customizable AI and GPT tools, enabling the integration of large language models for diverse operational needs and supporting more efficient business processes.",
+    "icon": "YourGPT.svg",
+    "js": {
+      "$yourgptChatbot": "",
+      "YOURGPT_WIDGET_UID": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "widget\\.yourgpt\\.ai"
+    ],
+    "website": "https://yourgpt.ai"
   },
   "YouTrack": {
     "cats": [
@@ -1114,23 +1206,6 @@
     ],
     "website": "https://www.youtube.com"
   },
-  "Youform": {
-    "cats": [
-      110
-    ],
-    "description": "Youform is a no-code form builder to create conversational style forms for collecting leads, surveys, and feedback.",
-    "icon": "Youform.svg",
-    "js": {
-      "youForm.blurActiveElement": ""
-    },
-    "pricing": [
-      "freemium",
-      "low",
-      "recurring"
-    ],
-    "saas": true,
-    "website": "https://youform.com"
-  },
   "Youzan": {
     "cats": [
       6
@@ -1146,6 +1221,37 @@
       "m\\.youzan\\.com"
     ],
     "website": "https://www.youzan.com"
+  },
+  "YUI": {
+    "cats": [
+      59
+    ],
+    "cpe": "cpe:2.3:a:yahoo:yui:*:*:*:*:*:*:*:*",
+    "description": "YUI is a JavaScript and CSS library with more than 30 unique components including low-level DOM utilities and high-level user-interface widgets.",
+    "icon": "YUI.svg",
+    "js": {
+      "YAHOO.VERSION": "^(.+)$\\;version:\\1",
+      "YUI.version": "^(.+)$\\;version:\\1"
+    },
+    "oss": true,
+    "scriptSrc": [
+      "(?:/yui/|yui\\.yahooapis\\.com)"
+    ],
+    "website": "https://clarle.github.io/yui3"
+  },
+  "YUI Doc": {
+    "cats": [
+      4
+    ],
+    "description": "YUI Doc is a Node.js application used at build time to generate API documentation.",
+    "dom": [
+      "body[class*='yui3-skin-sam']"
+    ],
+    "html": [
+      "(?:<html[^>]* yuilibrary\\.com/rdf/[\\d.]+/yui\\.rdf|<body[^>]+class=\"yui3-skin-sam)"
+    ],
+    "icon": "Yahoo.svg",
+    "website": "https://developer.yahoo.com/yui/yuidoc"
   },
   "Yuno": {
     "cats": [
@@ -1203,35 +1309,5 @@
       "analytics\\.yxper\\.com"
     ],
     "website": "https://yxper.com"
-  },
-  "yellow.ai": {
-    "cats": [
-      52
-    ],
-    "description": "yellow.ai provides chatbot and automation services.",
-    "icon": "yellow.ai.svg",
-    "js": {
-      "ymConfig": ""
-    },
-    "pricing": [
-      "poa"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "cdn\\.yellowmessenger\\.com"
-    ],
-    "website": "https://yellow.ai/"
-  },
-  "youCMS": {
-    "cats": [
-      1
-    ],
-    "description": "youCMS is an enterprise content management system developed in Denmark, designed to support large-scale digital content organization and delivery.",
-    "icon": "youCMS.svg",
-    "meta": {
-      "generator": "^youCMS(?:\\b|\\s|\\s*-)"
-    },
-    "saas": true,
-    "website": "https://www.youcms.eu"
   }
 }

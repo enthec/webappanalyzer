@@ -74,6 +74,16 @@ class InvalidTagException(Exception):
         super().__init__(msg)
 
 
+class TechNotFoundException(Exception):
+    def __init__(self, msg: str):
+        super().__init__(msg)
+
+
+class InvalidURLException(Exception):
+    def __init__(self, msg: str):
+        super().__init__(msg)
+
+
 class AbstractValidator:
     def __init__(self, required: bool = False):
         self._required = required
@@ -183,6 +193,27 @@ class RegexValidator(abc.ABC, AbstractValidator):
 class StringValidator(AbstractValidator):
     def get_type(self) -> list[Type]:
         return [str]
+
+
+class URLValidator(StringValidator):
+    def __init__(self, required: bool = False):
+        super().__init__(required)
+        self._url_pattern: Final[re.Pattern] = re.compile(
+            r"^https?://"
+            r"(?:[A-Za-z0-9](?:[A-Za-z0-9-]{0,61}[A-Za-z0-9])?\.)+"
+            r"[A-Za-z0-9-]{2,}"
+            r"(?::\d+)?"
+            r"(?:/[^\s]*)?"
+            r"$"
+        )
+
+    def _validate(self, tech_name: str, data: Any) -> bool:
+        if not super()._validate(tech_name, data):
+            return False
+        if not self._url_pattern.match(data):
+            self._set_custom_error(InvalidURLException(f"Tech '{tech_name}' has invalid URL: '{data}'"))
+            return False
+        return True
 
 
 class BoolValidator(AbstractValidator):
@@ -317,6 +348,22 @@ class CPEValidator(StringValidator):
         return True
 
 
+class ReferenceValidator(ArrayValidator):
+    def __init__(self, all_techs: set[str]):
+        super().__init__()
+        self._all_techs: Final[set[str]] = all_techs
+
+    def _validate(self, tech_name: str, data: Any) -> bool:
+        if not super()._validate(tech_name, data):
+            return False
+        for ref in data:
+            clean_ref: str = ref.split(r"\;")[0]
+            if clean_ref not in self._all_techs:
+                self._set_custom_error(TechNotFoundException(f"Tech '{tech_name}' references '{clean_ref}' but it doesn't exist!"))
+                return False
+        return True
+
+
 class TechnologiesValidator:
     def __init__(self, file_name: str):
         self._SOURCE_DIR: Final[str] = "src"
@@ -328,18 +375,19 @@ class TechnologiesValidator:
         self._IMAGES_DIR: Final[str] = "images"
         self._ICONS_DIR: Final[str] = "icons"
         self._ICONS: Final[list[str]] = [icon.name for icon in pathlib.Path(self._SOURCE_DIR).joinpath(self._IMAGES_DIR).joinpath(self._ICONS_DIR).iterdir()]
+        self._ALL_TECHS: Final[set[str]] = self._get_all_tech_names()
         self._validators: dict[str, AbstractValidator] = {  # TODO confidence and version validator
             "cats": CategoryValidator(self._CATEGORIES, True),
-            "website": StringValidator(True),
+            "website": URLValidator(True),
             "description": StringValidator(),
             "icon": IconValidator(self._ICONS),
             "cpe": CPEValidator(),
             "saas": BoolValidator(),
             "oss": BoolValidator(),
             "pricing": PricingValidator(),
-            "implies": ArrayValidator(),  # TODO cat validation
-            "requires": ArrayValidator(),  # TODO ^
-            "excludes": ArrayValidator(),  # TODO ^
+            "implies": ReferenceValidator(self._ALL_TECHS),
+            "requires": ReferenceValidator(self._ALL_TECHS),
+            "excludes": ReferenceValidator(self._ALL_TECHS),
             "requiresCategory": CategoryValidator(self._CATEGORIES),
             "cookies": DictValidator(contains_regex=True),
             "dom": DomValidator(),
@@ -384,6 +432,16 @@ class TechnologiesValidator:
                 raise DuplicateTechnologyException(f"Tech '{key}' is duplicated!")
             result[key] = value
         return result
+
+    def _get_all_tech_names(self) -> set[str]:
+        all_techs: set[str] = set()
+        for letter in list(string.ascii_lowercase) + ["_"]:
+            tech_file: pathlib.Path = self._FULL_TECH_DIR.joinpath(f"{letter}.json")
+            if tech_file.exists():
+                with tech_file.open("r", encoding="utf8") as f:
+                    technologies: dict = json.load(f)
+                all_techs.update(technologies.keys())
+        return all_techs
 
 
 class TechnologyProcessor:

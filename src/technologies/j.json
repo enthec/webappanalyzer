@@ -19,233 +19,6 @@
     ],
     "website": "https://www.j2store.org"
   },
-  "JANet": {
-    "cats": [
-      71
-    ],
-    "description": "JANet is an affiliate marketing network.",
-    "dom": [
-      "img[src*='.j-a-net.jp'],img[data-src*='.j-a-net.jp']"
-    ],
-    "icon": "JANet.svg",
-    "website": "https://j-a-net.jp"
-  },
-  "JAlbum": {
-    "cats": [
-      7
-    ],
-    "description": "jAlbum is across-platform photo website software for creating and uploading galleries from images and videos.",
-    "icon": "JAlbum.svg",
-    "implies": [
-      "Java"
-    ],
-    "meta": {
-      "generator": "JAlbum( [\\d.]+)?\\;version:\\1"
-    },
-    "website": "https://jalbum.net/en"
-  },
-  "JBoard": {
-    "cats": [
-      101
-    ],
-    "description": "JBoard is a platform for creating and managing job boards with no coding required, enabling users to post, organize, and maintain job listings.",
-    "icon": "JBoard.svg",
-    "js": {
-      "$JBoardAPI": "",
-      "$jBoard.adminUserToken": ""
-    },
-    "pricing": [
-      "mid",
-      "recurring",
-      "poa"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "app\\.jboard\\.io"
-    ],
-    "website": "https://jboard.io"
-  },
-  "JBoss Application Server": {
-    "cats": [
-      22
-    ],
-    "cpe": "cpe:2.3:a:redhat:jboss_application_server:*:*:*:*:*:*:*:*",
-    "headers": {
-      "X-Powered-By": "JBoss(?:-([\\d.]+))?\\;version:\\1"
-    },
-    "icon": "JBoss Application Server.png",
-    "website": "https://jboss.org/jbossas.html"
-  },
-  "JBoss Web": {
-    "cats": [
-      22
-    ],
-    "cpe": "cpe:2.3:a:redhat:jbossweb:*:*:*:*:*:*:*:*",
-    "excludes": [
-      "Apache Tomcat"
-    ],
-    "headers": {
-      "X-Powered-By": "JBossWeb(?:-([\\d.]+))?\\;version:\\1"
-    },
-    "icon": "JBoss Web.png",
-    "implies": [
-      "JBoss Application Server"
-    ],
-    "website": "https://jboss.org/jbossweb"
-  },
-  "JET Enterprise": {
-    "cats": [
-      6
-    ],
-    "headers": {
-      "powered": "jet-enterprise"
-    },
-    "icon": "JET Enterprise.svg",
-    "website": "https://www.jetecommerce.com.br/"
-  },
-  "JS Charts": {
-    "cats": [
-      25
-    ],
-    "description": "JS Charts is a JavaScript-based tool for creating customizable charts, such as bar, pie, and line charts, with minimal coding required for integration into web projects.",
-    "icon": "JS Charts.svg",
-    "js": {
-      "JSChart": ""
-    },
-    "scriptSrc": [
-      "jscharts.{0,32}\\.js"
-    ],
-    "website": "https://www.jscharts.com"
-  },
-  "JS.org": {
-    "cats": [
-      109
-    ],
-    "description": "JS.org is a provider of free subdomains for JavaScript-based projects.",
-    "dom": [
-      "link[href*='.js.org/'][rel='canonical']"
-    ],
-    "icon": "JSOrg.svg",
-    "oss": true,
-    "website": "https://js.org"
-  },
-  "JSEcoin": {
-    "cats": [
-      56
-    ],
-    "description": "JSEcoin is a way to mine, receive payments for your goods or services and transfer cryptocurrency",
-    "icon": "JSEcoin.png",
-    "js": {
-      "jseMine": ""
-    },
-    "scriptSrc": [
-      "^(?:https):?//load\\.jsecoin\\.com/load/"
-    ],
-    "website": "https://jsecoin.com/"
-  },
-  "JSS": {
-    "cats": [
-      12,
-      47
-    ],
-    "description": "JSS is an authoring tool for CSS which allows you to use JavaScript to describe styles in a declarative, conflict-free and reusable way.",
-    "dom": [
-      "style[data-jss]"
-    ],
-    "icon": "JSS.svg",
-    "oss": true,
-    "website": "https://cssinjs.org/"
-  },
-  "JSZip": {
-    "cats": [
-      59
-    ],
-    "cpe": "cpe:2.3:a:jszip_project:jszip:*:*:*:*:*:*:*:*",
-    "description": "JSZip is a JavaScript library that enables the creation, reading, and manipulation of zip files in a browser environment.",
-    "js": {
-      "JSZip.version": "([\\d\\.]+)\\;version:\\1"
-    },
-    "oss": true,
-    "scriptSrc": [
-      "/jszip\\.min\\.js"
-    ],
-    "website": "https://stuk.github.io/jszip/"
-  },
-  "JShop": {
-    "cats": [
-      6
-    ],
-    "description": "JShop is the ecommerce database solution marketed by Whorl Ltd. worldwide.",
-    "icon": "JShop.svg",
-    "js": {
-      "jss_1stepDeliveryType": "",
-      "jss_1stepFillShipping": ""
-    },
-    "website": "https://www.whorl.co.uk"
-  },
-  "JTL Shop": {
-    "cats": [
-      6
-    ],
-    "cookies": {
-      "JTLSHOP": ""
-    },
-    "description": "JTL Shop is an ecommerce product created by JTL Software company.",
-    "dom": [
-      "input[name*='JTLSHOP']"
-    ],
-    "html": [
-      "(?:<input[^>]+name=\"JTLSHOP|<a href=\"jtl\\.php)"
-    ],
-    "icon": "JTL Shop.svg",
-    "website": "https://www.jtl-software.de/online-shopsystem"
-  },
-  "JUST": {
-    "cats": [
-      41
-    ],
-    "description": "JUST is a one-click payment solution for online business and online shoppers.",
-    "icon": "JUST.svg",
-    "pricing": [
-      "payg"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "checkout-button-.+/just-pay-button\\.js"
-    ],
-    "website": "https://www.getjusto.com"
-  },
-  "JW Player": {
-    "cats": [
-      14
-    ],
-    "description": "JW Player is a online video player with video engagement analytics, custom video player skins, and live video streaming capability.",
-    "dom": [
-      "div[data-video-provider*=jwplayer]"
-    ],
-    "icon": "JW Player.svg",
-    "js": {
-      "jwDefaults": "",
-      "jwplayer": "",
-      "jwplayerApiUrl": "",
-      "webpackJsonpjwplayer": ""
-    },
-    "oss": true,
-    "pricing": [
-      "low",
-      "recurring",
-      "freemium"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "\\.jwplayer\\.com",
-      "\\.jwpcdn\\.com"
-    ],
-    "website": "https://www.jwplayer.com",
-    "xhr": [
-      "\\.jwpsrv\\.com"
-    ]
-  },
   "Jabmo": {
     "cats": [
       32
@@ -329,6 +102,20 @@
     "icon": "JahiaDX.svg",
     "website": "https://www.jahia.com/dx"
   },
+  "JAlbum": {
+    "cats": [
+      7
+    ],
+    "description": "jAlbum is across-platform photo website software for creating and uploading galleries from images and videos.",
+    "icon": "JAlbum.svg",
+    "implies": [
+      "Java"
+    ],
+    "meta": {
+      "generator": "JAlbum( [\\d.]+)?\\;version:\\1"
+    },
+    "website": "https://jalbum.net/en"
+  },
   "Jalios": {
     "cats": [
       1
@@ -361,6 +148,33 @@
       "cdn1\\.jameda-elements\\.de/"
     ],
     "website": "https://www.jameda.de"
+  },
+  "JamFeed": {
+    "cats": [
+      1
+    ],
+    "description": "JamFeed is a web-based platform that allows users to create automated music websites.",
+    "icon": "JamFeed.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "cdn\\.jamfeed\\.com"
+    ],
+    "website": "https://www.jamfeed.com"
+  },
+  "JANet": {
+    "cats": [
+      71
+    ],
+    "description": "JANet is an affiliate marketing network.",
+    "dom": [
+      "img[src*='.j-a-net.jp'],img[data-src*='.j-a-net.jp']"
+    ],
+    "icon": "JANet.svg",
+    "website": "https://j-a-net.jp"
   },
   "Jarvis Analytics": {
     "cats": [
@@ -401,6 +215,17 @@
       "Java"
     ],
     "website": "https://www.oracle.com/technetwork/java/index-jsp-135475.html"
+  },
+  "Javadoc": {
+    "cats": [
+      4
+    ],
+    "description": "Javadoc is a tool used for generating Java code documentation in HTML format from Java source code.",
+    "html": [
+      "<!-- Generated by javadoc -->"
+    ],
+    "icon": "Java.svg",
+    "website": "https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javadoc.html"
   },
   "JavaScript Infovis Toolkit": {
     "cats": [
@@ -445,17 +270,6 @@
     ],
     "website": "https://www.oracle.com/technetwork/java/javaee/jsp/index.html"
   },
-  "Javadoc": {
-    "cats": [
-      4
-    ],
-    "description": "Javadoc is a tool used for generating Java code documentation in HTML format from Java source code.",
-    "html": [
-      "<!-- Generated by javadoc -->"
-    ],
-    "icon": "Java.svg",
-    "website": "https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javadoc.html"
-  },
   "JazzHR": {
     "cats": [
       101
@@ -474,6 +288,71 @@
       "JazzHR"
     ],
     "website": "https://www.jazzhr.com"
+  },
+  "JBoard": {
+    "cats": [
+      101
+    ],
+    "description": "JBoard is a platform for creating and managing job boards with no coding required, enabling users to post, organize, and maintain job listings.",
+    "icon": "JBoard.svg",
+    "js": {
+      "$JBoardAPI": "",
+      "$jBoard.adminUserToken": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "app\\.jboard\\.io"
+    ],
+    "website": "https://jboard.io"
+  },
+  "JBoss Application Server": {
+    "cats": [
+      22
+    ],
+    "cpe": "cpe:2.3:a:redhat:jboss_application_server:*:*:*:*:*:*:*:*",
+    "headers": {
+      "X-Powered-By": "JBoss(?:-([\\d.]+))?\\;version:\\1"
+    },
+    "icon": "JBoss Application Server.png",
+    "website": "https://jboss.org/jbossas.html"
+  },
+  "JBoss Web": {
+    "cats": [
+      22
+    ],
+    "cpe": "cpe:2.3:a:redhat:jbossweb:*:*:*:*:*:*:*:*",
+    "excludes": [
+      "Apache Tomcat"
+    ],
+    "headers": {
+      "X-Powered-By": "JBossWeb(?:-([\\d.]+))?\\;version:\\1"
+    },
+    "icon": "JBoss Web.png",
+    "implies": [
+      "JBoss Application Server"
+    ],
+    "website": "https://jboss.org/jbossweb"
+  },
+  "jComponent": {
+    "cats": [
+      12,
+      59
+    ],
+    "description": "jComponent is a platform offering open-source web components and icons for easy integration into web projects.",
+    "icon": "jComponent.svg",
+    "implies": [
+      "jQuery"
+    ],
+    "js": {
+      "MAIN.version": "(.*)\\;version:\\1"
+    },
+    "oss": true,
+    "website": "https://componentator.com"
   },
   "Jeeng": {
     "cats": [
@@ -556,46 +435,15 @@
     ],
     "website": "https://www.getjenny.com"
   },
-  "JetEngine": {
+  "JET Enterprise": {
     "cats": [
-      87
+      6
     ],
-    "description": "JetEngine is a content plugin for WordPress that allows users to create custom post types, taxonomies, and meta boxes, offering flexibility in building complex websites without requiring coding skills.",
-    "icon": "JetEngine.svg",
-    "pricing": [
-      "freemium",
-      "low",
-      "recurring",
-      "onetime"
-    ],
-    "requires": [
-      "WordPress"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "/wp-content/plugins/jet-engine/"
-    ],
-    "website": "https://crocoblock.com/plugins/jetengine"
-  },
-  "JetTabs": {
-    "cats": [
-      87
-    ],
-    "description": "JetTabs is a plugin for Elementor that enables the creation of customizable tabs and accordion widgets for organizing content within web pages.",
-    "icon": "JetTabs.svg",
-    "implies": [
-      "Elementor"
-    ],
-    "js": {
-      "JetTabs.accordionInit": "",
-      "JetTabsSettings": ""
+    "headers": {
+      "powered": "jet-enterprise"
     },
-    "pricing": [
-      "low",
-      "recurring"
-    ],
-    "saas": true,
-    "website": "https://crocoblock.com/plugins/jettabs"
+    "icon": "JET Enterprise.svg",
+    "website": "https://www.jetecommerce.com.br/"
   },
   "Jetboost": {
     "cats": [
@@ -617,6 +465,27 @@
     ],
     "saas": true,
     "website": "https://www.jetboost.io"
+  },
+  "JetEngine": {
+    "cats": [
+      87
+    ],
+    "description": "JetEngine is a content plugin for WordPress that allows users to create custom post types, taxonomies, and meta boxes, offering flexibility in building complex websites without requiring coding skills.",
+    "icon": "JetEngine.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "onetime"
+    ],
+    "requires": [
+      "WordPress"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "/wp-content/plugins/jet-engine/"
+    ],
+    "website": "https://crocoblock.com/plugins/jetengine"
   },
   "Jetpack": {
     "cats": [
@@ -670,10 +539,31 @@
     },
     "website": "https://jetshop.se"
   },
+  "JetTabs": {
+    "cats": [
+      87
+    ],
+    "description": "JetTabs is a plugin for Elementor that enables the creation of customizable tabs and accordion widgets for organizing content within web pages.",
+    "icon": "JetTabs.svg",
+    "implies": [
+      "Elementor"
+    ],
+    "js": {
+      "JetTabs.accordionInit": "",
+      "JetTabsSettings": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://crocoblock.com/plugins/jettabs"
+  },
   "Jetty": {
     "cats": [
       22
     ],
+    "cpe": "cpe:2.3:a:eclipse:jetty:*:*:*:*:*:*:*:*",
     "description": "Jetty is an open-source web server and servlet container known for its scalability and efficiency, supporting protocols like HTTP and WebSocket for various applications from development tools to cloud services.",
     "headers": {
       "Server": "Jetty(?:\\(([\\d\\.]*\\d+))?\\;version:\\1"
@@ -1013,27 +903,6 @@
     "saas": true,
     "website": "https://jonasclub.com"
   },
-  "JoomShopping": {
-    "cats": [
-      6
-    ],
-    "description": "JoomShopping is an open-source ecommerce plugin for Joomla.",
-    "icon": "JoomShopping.png",
-    "implies": [
-      "Joomla"
-    ],
-    "js": {
-      "joomshoppingVideoHtml5": ""
-    },
-    "oss": true,
-    "pricing": [
-      "onetime"
-    ],
-    "scriptSrc": [
-      "/components/com_jshopping/"
-    ],
-    "website": "https://www.webdesigner-profi.de/joomla-webdesign/joomla-shop"
-  },
   "Joomla": {
     "cats": [
       1
@@ -1071,6 +940,27 @@
       "option=com_"
     ],
     "website": "https://www.joomla.org/"
+  },
+  "JoomShopping": {
+    "cats": [
+      6
+    ],
+    "description": "JoomShopping is an open-source ecommerce plugin for Joomla.",
+    "icon": "JoomShopping.png",
+    "implies": [
+      "Joomla"
+    ],
+    "js": {
+      "joomshoppingVideoHtml5": ""
+    },
+    "oss": true,
+    "pricing": [
+      "onetime"
+    ],
+    "scriptSrc": [
+      "/components/com_jshopping/"
+    ],
+    "website": "https://www.webdesigner-profi.de/joomla-webdesign/joomla-shop"
   },
   "Joonbot": {
     "cats": [
@@ -1151,6 +1041,328 @@
     ],
     "website": "https://www.jouwweb.nl"
   },
+  "jPlayer": {
+    "cats": [
+      14,
+      59
+    ],
+    "description": "jPlayer is a cross-browser JavaScript library developed as a jQuery plugin which facilitates the embedding of web based media, notably HTML5 audio and video in addition to Adobe Flash based media.",
+    "icon": "jPlayer.svg",
+    "implies": [
+      "jQuery"
+    ],
+    "js": {
+      "jPlayerPlaylist": ""
+    },
+    "oss": true,
+    "scriptSrc": [
+      "/jquery\\.jplayer\\.min\\.js"
+    ],
+    "scripts": [
+      "jquery\\.jplayer\\.min\\.js"
+    ],
+    "website": "https://jplayer.org"
+  },
+  "jqPlot": {
+    "cats": [
+      25
+    ],
+    "icon": "jqPlot.png",
+    "implies": [
+      "jQuery"
+    ],
+    "scriptSrc": [
+      "jqplot.*\\.js"
+    ],
+    "website": "https://www.jqplot.com"
+  },
+  "jQTouch": {
+    "cats": [
+      26
+    ],
+    "description": "jQTouch is an open-source Zepto/ jQuery plugin with native animations, automatic navigation, and themes for mobile WebKit browsers like iPhone, G1 (Android), and Palm Pre.",
+    "icon": "jQTouch.png",
+    "js": {
+      "jQT": ""
+    },
+    "scriptSrc": [
+      "jqtouch.*\\.js"
+    ],
+    "website": "https://jqtouch.com"
+  },
+  "jQuery": {
+    "cats": [
+      59
+    ],
+    "cpe": "cpe:2.3:a:jquery:jquery:*:*:*:*:*:*:*:*",
+    "description": "jQuery is a JavaScript library which is a free, open-source software designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.",
+    "icon": "jQuery.svg",
+    "js": {
+      "$.fn.jquery": "([\\d.]+)\\;version:\\1",
+      "jQuery.fn.jquery": "([\\d.]+)\\;version:\\1",
+      "jQuery.prototype.jquery": "([\\d.]+)\\;version:\\1"
+    },
+    "scriptSrc": [
+      "jquery",
+      "/jquery(?:-(\\d+\\.\\d+\\.\\d+))[/.-]\\;version:\\1",
+      "/(\\d+\\.\\d+\\.\\d+)/jquery(?!\\.popupoverlay\\.js)[/.-][^u]\\;version:\\1"
+    ],
+    "website": "https://jquery.com"
+  },
+  "jQuery BlockUI": {
+    "cats": [
+      59
+    ],
+    "description": "jQuery BlockUI is a plugin that simulates synchronous behavior in AJAX by temporarily blocking user interaction and adding DOM elements that visually indicate restricted activity until the block is removed.",
+    "requires": [
+      "jQuery"
+    ],
+    "scriptSrc": [
+      "/jquery\\.blockUI\\.js"
+    ],
+    "website": "https://jquery.malsup.com/block"
+  },
+  "jQuery CDN": {
+    "cats": [
+      31
+    ],
+    "description": "jQuery CDN is a way to include jQuery in your website without actually downloading and keeping it your website's folder.",
+    "icon": "jQuery.svg",
+    "implies": [
+      "jQuery"
+    ],
+    "scriptSrc": [
+      "code\\.jquery\\.com/"
+    ],
+    "website": "https://code.jquery.com/"
+  },
+  "jQuery DevBridge Autocomplete": {
+    "cats": [
+      59
+    ],
+    "description": "Ajax Autocomplete for jQuery allows you to easily create autocomplete/autosuggest boxes for text input fields.",
+    "icon": "jQuery.svg",
+    "implies": [
+      "jQuery"
+    ],
+    "js": {
+      "$.devbridgeAutocomplete": "",
+      "jQuery.devbridgeAutocomplete": ""
+    },
+    "scriptSrc": [
+      "/devbridgeAutocomplete(?:-min)?\\.js",
+      "/jquery\\.devbridge-autocomplete/([0-9.]+)/jquery\\.autocomplete(?:.min)?\\.js\\;version:\\1"
+    ],
+    "website": "https://www.devbridge.com/sourcery/components/jquery-autocomplete/"
+  },
+  "jQuery Migrate": {
+    "cats": [
+      59
+    ],
+    "description": "Query Migrate is a javascript library that allows you to preserve the compatibility of your jQuery code developed for versions of jQuery older than 1.9.",
+    "icon": "jQuery.svg",
+    "implies": [
+      "jQuery"
+    ],
+    "js": {
+      "jQuery.migrateVersion": "([\\d.]+)\\;version:\\1",
+      "jQuery.migrateWarnings": "",
+      "jqueryMigrate": ""
+    },
+    "scriptSrc": [
+      "jquery-migrate(?:\\.min)?(?:-)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+      "jquery-migrate(?:\\.min)?(?:-?((?:\\d+\\.)+\\d+))?(?:\\.min)?\\.js\\;version:\\1"
+    ],
+    "website": "https://github.com/jquery/jquery-migrate"
+  },
+  "jQuery Mobile": {
+    "cats": [
+      26
+    ],
+    "description": "jQuery Mobile is a HTML5-based user interface system designed to make responsive web sites and apps that are accessible on all smartphone, tablet and desktop devices.",
+    "icon": "jQuery Mobile.svg",
+    "implies": [
+      "jQuery"
+    ],
+    "js": {
+      "jQuery.mobile.version": "^(.+)$\\;version:\\1"
+    },
+    "scriptSrc": [
+      "jquery[.-]mobile(?:-([\\d.]+))?(?:\\.min)?\\.js\\;version:\\1",
+      "jquery[.-]mobile(?:-)?(?:\\.min)?\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1"
+    ],
+    "website": "https://jquerymobile.com"
+  },
+  "jQuery Modal": {
+    "cats": [
+      59
+    ],
+    "description": "jQuery Modal is an overlay dialog box or in other words, a popup window that is made to display on the top or 'overlayed' on the current page.",
+    "dom": [
+      "link[href*='jquery.modal.min.css']"
+    ],
+    "icon": "jQuery Modal.svg",
+    "implies": [
+      "jQuery"
+    ],
+    "oss": true,
+    "scriptSrc": [
+      "jquery-modal/([\\d\\.]+)/jquery\\.modal\\.min\\.js\\;version:\\1"
+    ],
+    "website": "https://jquerymodal.com"
+  },
+  "jQuery Payment": {
+    "cats": [
+      41
+    ],
+    "description": "jQuery Payment is a general-purpose library for building credit card forms, validating input fields, and formatting card numbers.",
+    "icon": "jQuery.svg",
+    "oss": true,
+    "requires": [
+      "jQuery"
+    ],
+    "scriptSrc": [
+      "/jquery-payment/jquery\\.payment\\.min\\.js"
+    ],
+    "website": "https://plugins.jquery.com/payment"
+  },
+  "jQuery Popup Overlay": {
+    "cats": [
+      59
+    ],
+    "description": "jQuery Popup Overlay is a responsive overlay which lets you create modal windows, tooltips, and more.",
+    "scriptSrc": [
+      "(\\d+\\.\\d+\\.\\d+)/jquery\\.popupoverlay\\.js\\;version:\\1"
+    ],
+    "website": "https://www.npmjs.com/package/jquery-popup-overlay"
+  },
+  "jQuery Sparklines": {
+    "cats": [
+      25
+    ],
+    "description": "jQuery Sparklines is a plugin that generates sparklines (small inline charts) directly in the browser using data supplied either inline in the HTML, or via javascript.",
+    "implies": [
+      "jQuery"
+    ],
+    "scriptSrc": [
+      "jquery\\.sparkline.*\\.js"
+    ],
+    "website": "https://omnipotent.net/jquery.sparkline/"
+  },
+  "jQuery UI": {
+    "cats": [
+      59
+    ],
+    "cpe": "cpe:2.3:a:jquery:jquery_ui:*:*:*:*:*:*:*:*",
+    "description": "jQuery UI is a collection of GUI widgets, animated visual effects, and themes implemented with jQuery, Cascading Style Sheets, and HTML.",
+    "icon": "jQuery UI.svg",
+    "implies": [
+      "jQuery"
+    ],
+    "js": {
+      "jQuery.ui.version": "^(.+)$\\;version:\\1"
+    },
+    "scriptSrc": [
+      "jquery-ui[.-]([\\d.]*\\d)[^/]*\\.js\\;version:\\1",
+      "([\\d.]+)/jquery-ui(?:\\.min)?\\.js\\;version:\\1",
+      "jquery-ui.*\\.js"
+    ],
+    "website": "https://jqueryui.com"
+  },
+  "jQuery-pjax": {
+    "cats": [
+      26
+    ],
+    "description": "jQuery PJAX is a plugin that uses AJAX and pushState.",
+    "html": [
+      "<div[^>]+data-pjax-container"
+    ],
+    "implies": [
+      "jQuery"
+    ],
+    "js": {
+      "jQuery.pjax": ""
+    },
+    "meta": {
+      "pjax-push": "",
+      "pjax-replace": "",
+      "pjax-timeout": ""
+    },
+    "scriptSrc": [
+      "jquery[.-]pjax(?:-([\\d.]+))?(?:\\.min)?\\.js\\;version:\\1",
+      "jquery[.-]pjax(?:-)?(?:\\.min)?\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1"
+    ],
+    "website": "https://github.com/defunkt/jquery-pjax"
+  },
+  "JS Charts": {
+    "cats": [
+      25
+    ],
+    "description": "JS Charts is a JavaScript-based tool for creating customizable charts, such as bar, pie, and line charts, with minimal coding required for integration into web projects.",
+    "icon": "JS Charts.svg",
+    "js": {
+      "JSChart": ""
+    },
+    "scriptSrc": [
+      "jscharts.{0,32}\\.js"
+    ],
+    "website": "https://www.jscharts.com"
+  },
+  "JS.org": {
+    "cats": [
+      109
+    ],
+    "description": "JS.org is a provider of free subdomains for JavaScript-based projects.",
+    "dom": [
+      "link[href*='.js.org/'][rel='canonical']"
+    ],
+    "icon": "JSOrg.svg",
+    "oss": true,
+    "website": "https://js.org"
+  },
+  "jsDelivr": {
+    "cats": [
+      31
+    ],
+    "description": "JSDelivr is a free public CDN for open-source projects. It can serve web files directly from the npm registry and GitHub repositories without any configuration.",
+    "dom": [
+      "link[href*='cdn.jsdelivr.net']"
+    ],
+    "icon": "jsdelivr-icon.svg",
+    "scriptSrc": [
+      "cdn\\.jsdelivr\\.net"
+    ],
+    "website": "https://www.jsdelivr.com/",
+    "xhr": [
+      "cdn\\.jsdelivr\\.net"
+    ]
+  },
+  "JSEcoin": {
+    "cats": [
+      56
+    ],
+    "description": "JSEcoin is a way to mine, receive payments for your goods or services and transfer cryptocurrency",
+    "icon": "JSEcoin.png",
+    "js": {
+      "jseMine": ""
+    },
+    "scriptSrc": [
+      "^(?:https):?//load\\.jsecoin\\.com/load/"
+    ],
+    "website": "https://jsecoin.com/"
+  },
+  "JShop": {
+    "cats": [
+      6
+    ],
+    "description": "JShop is the ecommerce database solution marketed by Whorl Ltd. worldwide.",
+    "icon": "JShop.svg",
+    "js": {
+      "jss_1stepDeliveryType": "",
+      "jss_1stepFillShipping": ""
+    },
+    "website": "https://www.whorl.co.uk"
+  },
   "JsObservable": {
     "cats": [
       59
@@ -1159,6 +1371,24 @@
     "icon": "JsObservable.svg",
     "oss": true,
     "website": "https://www.jsviews.com/#jsobservable"
+  },
+  "jsPDF": {
+    "cats": [
+      59
+    ],
+    "description": "jsPDF is a HTML5 client-side solution for generating PDF documents directly within web browsers.",
+    "icon": "jsPDF.svg",
+    "js": {
+      "jsPDF.API": ""
+    },
+    "oss": true,
+    "pricing": [
+      "freemium"
+    ],
+    "scriptSrc": [
+      "/jspdf\\.min\\.js"
+    ],
+    "website": "https://parall.ax/products/jspdf"
   },
   "JsRender": {
     "cats": [
@@ -1175,6 +1405,19 @@
     ],
     "website": "https://www.jsviews.com/#jsrender"
   },
+  "JSS": {
+    "cats": [
+      12,
+      47
+    ],
+    "description": "JSS is an authoring tool for CSS which allows you to use JavaScript to describe styles in a declarative, conflict-free and reusable way.",
+    "dom": [
+      "style[data-jss]"
+    ],
+    "icon": "JSS.svg",
+    "oss": true,
+    "website": "https://cssinjs.org/"
+  },
   "JsViews": {
     "cats": [
       59
@@ -1190,6 +1433,41 @@
       "([\\d\\.]+)?/jsviews(?:\\.min)?\\.js\\;version:\\1"
     ],
     "website": "https://www.jsviews.com/#jsviews"
+  },
+  "JSZip": {
+    "cats": [
+      59
+    ],
+    "cpe": "cpe:2.3:a:jszip_project:jszip:*:*:*:*:*:*:*:*",
+    "description": "JSZip is a JavaScript library that enables the creation, reading, and manipulation of zip files in a browser environment.",
+    "js": {
+      "JSZip.version": "([\\d\\.]+)\\;version:\\1"
+    },
+    "oss": true,
+    "scriptSrc": [
+      "/jszip\\.min\\.js"
+    ],
+    "website": "https://stuk.github.io/jszip/"
+  },
+  "JTL Shop": {
+    "cats": [
+      6
+    ],
+    "cookies": {
+      "JTLSHOP": ""
+    },
+    "description": "JTL Shop is an ecommerce product created by JTL Software company.",
+    "dom": [
+      "input[name*='JTLSHOP']"
+    ],
+    "html": [
+      "(?:<input[^>]+name=\"JTLSHOP|<a href=\"jtl\\.php)"
+    ],
+    "icon": "JTL Shop.svg",
+    "js": {
+      "JtlHelpers": ""
+    },
+    "website": "https://www.jtl-software.de/online-shopsystem"
   },
   "Jubna": {
     "cats": [
@@ -1443,6 +1721,21 @@
     },
     "website": "https://juspay.in"
   },
+  "JUST": {
+    "cats": [
+      41
+    ],
+    "description": "JUST is a one-click payment solution for online business and online shoppers.",
+    "icon": "JUST.svg",
+    "pricing": [
+      "payg"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "checkout-button-.+/just-pay-button\\.js"
+    ],
+    "website": "https://www.getjusto.com"
+  },
   "Justia": {
     "cats": [
       1
@@ -1536,295 +1829,36 @@
     ],
     "website": "https://juvoleads.com"
   },
-  "jComponent": {
+  "JW Player": {
     "cats": [
-      12,
-      59
+      14
     ],
-    "description": "jComponent is a platform offering open-source web components and icons for easy integration into web projects.",
-    "icon": "jComponent.svg",
-    "implies": [
-      "jQuery"
-    ],
-    "js": {
-      "MAIN.version": "(.*)\\;version:\\1"
-    },
-    "oss": true,
-    "website": "https://componentator.com"
-  },
-  "jPlayer": {
-    "cats": [
-      14,
-      59
-    ],
-    "description": "jPlayer is a cross-browser JavaScript library developed as a jQuery plugin which facilitates the embedding of web based media, notably HTML5 audio and video in addition to Adobe Flash based media.",
-    "icon": "jPlayer.svg",
-    "implies": [
-      "jQuery"
-    ],
-    "js": {
-      "jPlayerPlaylist": ""
-    },
-    "oss": true,
-    "scriptSrc": [
-      "/jquery\\.jplayer\\.min\\.js"
-    ],
-    "scripts": [
-      "jquery\\.jplayer\\.min\\.js"
-    ],
-    "website": "https://jplayer.org"
-  },
-  "jQTouch": {
-    "cats": [
-      26
-    ],
-    "description": "jQTouch is an open-source Zepto/ jQuery plugin with native animations, automatic navigation, and themes for mobile WebKit browsers like iPhone, G1 (Android), and Palm Pre.",
-    "icon": "jQTouch.png",
-    "js": {
-      "jQT": ""
-    },
-    "scriptSrc": [
-      "jqtouch.*\\.js"
-    ],
-    "website": "https://jqtouch.com"
-  },
-  "jQuery": {
-    "cats": [
-      59
-    ],
-    "cpe": "cpe:2.3:a:jquery:jquery:*:*:*:*:*:*:*:*",
-    "description": "jQuery is a JavaScript library which is a free, open-source software designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.",
-    "icon": "jQuery.svg",
-    "js": {
-      "$.fn.jquery": "([\\d.]+)\\;version:\\1",
-      "jQuery.fn.jquery": "([\\d.]+)\\;version:\\1",
-      "jQuery.prototype.jquery": "([\\d.]+)\\;version:\\1"
-    },
-    "scriptSrc": [
-      "jquery",
-      "/jquery(?:-(\\d+\\.\\d+\\.\\d+))[/.-]\\;version:\\1",
-      "/(\\d+\\.\\d+\\.\\d+)/jquery(?!\\.popupoverlay\\.js)[/.-][^u]\\;version:\\1"
-    ],
-    "website": "https://jquery.com"
-  },
-  "jQuery CDN": {
-    "cats": [
-      31
-    ],
-    "description": "jQuery CDN is a way to include jQuery in your website without actually downloading and keeping it your website's folder.",
-    "icon": "jQuery.svg",
-    "implies": [
-      "jQuery"
-    ],
-    "scriptSrc": [
-      "code\\.jquery\\.com/"
-    ],
-    "website": "https://code.jquery.com/"
-  },
-  "jQuery DevBridge Autocomplete": {
-    "cats": [
-      59
-    ],
-    "description": "Ajax Autocomplete for jQuery allows you to easily create autocomplete/autosuggest boxes for text input fields.",
-    "icon": "jQuery.svg",
-    "implies": [
-      "jQuery"
-    ],
-    "js": {
-      "$.devbridgeAutocomplete": "",
-      "jQuery.devbridgeAutocomplete": ""
-    },
-    "scriptSrc": [
-      "/devbridgeAutocomplete(?:-min)?\\.js",
-      "/jquery\\.devbridge-autocomplete/([0-9.]+)/jquery\\.autocomplete(?:.min)?\\.js\\;version:\\1"
-    ],
-    "website": "https://www.devbridge.com/sourcery/components/jquery-autocomplete/"
-  },
-  "jQuery Migrate": {
-    "cats": [
-      59
-    ],
-    "description": "Query Migrate is a javascript library that allows you to preserve the compatibility of your jQuery code developed for versions of jQuery older than 1.9.",
-    "icon": "jQuery.svg",
-    "implies": [
-      "jQuery"
-    ],
-    "js": {
-      "jQuery.migrateVersion": "([\\d.]+)\\;version:\\1",
-      "jQuery.migrateWarnings": "",
-      "jqueryMigrate": ""
-    },
-    "scriptSrc": [
-      "jquery-migrate(?:\\.min)?(?:-)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
-      "jquery-migrate(?:\\.min)?(?:-?((?:\\d+\\.)+\\d+))?(?:\\.min)?\\.js\\;version:\\1"
-    ],
-    "website": "https://github.com/jquery/jquery-migrate"
-  },
-  "jQuery Mobile": {
-    "cats": [
-      26
-    ],
-    "description": "jQuery Mobile is a HTML5-based user interface system designed to make responsive web sites and apps that are accessible on all smartphone, tablet and desktop devices.",
-    "icon": "jQuery Mobile.svg",
-    "implies": [
-      "jQuery"
-    ],
-    "js": {
-      "jQuery.mobile.version": "^(.+)$\\;version:\\1"
-    },
-    "scriptSrc": [
-      "jquery[.-]mobile(?:-([\\d.]+))?(?:\\.min)?\\.js\\;version:\\1",
-      "jquery[.-]mobile(?:-)?(?:\\.min)?\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1"
-    ],
-    "website": "https://jquerymobile.com"
-  },
-  "jQuery Modal": {
-    "cats": [
-      59
-    ],
-    "description": "jQuery Modal is an overlay dialog box or in other words, a popup window that is made to display on the top or 'overlayed' on the current page.",
+    "description": "JW Player is a online video player with video engagement analytics, custom video player skins, and live video streaming capability.",
     "dom": [
-      "link[href*='jquery.modal.min.css']"
+      "div[data-video-provider*=jwplayer]",
+      "div[class^='jwplayer']"
     ],
-    "icon": "jQuery Modal.svg",
-    "implies": [
-      "jQuery"
-    ],
-    "oss": true,
-    "scriptSrc": [
-      "jquery-modal/([\\d\\.]+)/jquery\\.modal\\.min\\.js\\;version:\\1"
-    ],
-    "website": "https://jquerymodal.com"
-  },
-  "jQuery Payment": {
-    "cats": [
-      41
-    ],
-    "description": "jQuery Payment is a general-purpose library for building credit card forms, validating input fields, and formatting card numbers.",
-    "icon": "jQuery.svg",
-    "oss": true,
-    "requires": [
-      "jQuery"
-    ],
-    "scriptSrc": [
-      "/jquery-payment/jquery\\.payment\\.min\\.js"
-    ],
-    "website": "https://plugins.jquery.com/payment"
-  },
-  "jQuery Popup Overlay": {
-    "cats": [
-      59
-    ],
-    "description": "jQuery Popup Overlay is a responsive overlay which lets you create modal windows, tooltips, and more.",
-    "scriptSrc": [
-      "(\\d+\\.\\d+\\.\\d+)/jquery\\.popupoverlay\\.js\\;version:\\1"
-    ],
-    "website": "https://www.npmjs.com/package/jquery-popup-overlay"
-  },
-  "jQuery Sparklines": {
-    "cats": [
-      25
-    ],
-    "description": "jQuery Sparklines is a plugin that generates sparklines (small inline charts) directly in the browser using data supplied either inline in the HTML, or via javascript.",
-    "implies": [
-      "jQuery"
-    ],
-    "scriptSrc": [
-      "jquery\\.sparkline.*\\.js"
-    ],
-    "website": "https://omnipotent.net/jquery.sparkline/"
-  },
-  "jQuery UI": {
-    "cats": [
-      59
-    ],
-    "cpe": "cpe:2.3:a:jquery:jquery_ui:*:*:*:*:*:*:*:*",
-    "description": "jQuery UI is a collection of GUI widgets, animated visual effects, and themes implemented with jQuery, Cascading Style Sheets, and HTML.",
-    "icon": "jQuery UI.svg",
-    "implies": [
-      "jQuery"
-    ],
+    "icon": "JW Player.svg",
     "js": {
-      "jQuery.ui.version": "^(.+)$\\;version:\\1"
-    },
-    "scriptSrc": [
-      "jquery-ui[.-]([\\d.]*\\d)[^/]*\\.js\\;version:\\1",
-      "([\\d.]+)/jquery-ui(?:\\.min)?\\.js\\;version:\\1",
-      "jquery-ui.*\\.js"
-    ],
-    "website": "https://jqueryui.com"
-  },
-  "jQuery-pjax": {
-    "cats": [
-      26
-    ],
-    "description": "jQuery PJAX is a plugin that uses AJAX and pushState.",
-    "html": [
-      "<div[^>]+data-pjax-container"
-    ],
-    "implies": [
-      "jQuery"
-    ],
-    "js": {
-      "jQuery.pjax": ""
-    },
-    "meta": {
-      "pjax-push": "",
-      "pjax-replace": "",
-      "pjax-timeout": ""
-    },
-    "scriptSrc": [
-      "jquery[.-]pjax(?:-([\\d.]+))?(?:\\.min)?\\.js\\;version:\\1",
-      "jquery[.-]pjax(?:-)?(?:\\.min)?\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1"
-    ],
-    "website": "https://github.com/defunkt/jquery-pjax"
-  },
-  "jqPlot": {
-    "cats": [
-      25
-    ],
-    "icon": "jqPlot.png",
-    "implies": [
-      "jQuery"
-    ],
-    "scriptSrc": [
-      "jqplot.*\\.js"
-    ],
-    "website": "https://www.jqplot.com"
-  },
-  "jsDelivr": {
-    "cats": [
-      31
-    ],
-    "description": "JSDelivr is a free public CDN for open-source projects. It can serve web files directly from the npm registry and GitHub repositories without any configuration.",
-    "dom": [
-      "link[href*='cdn.jsdelivr.net']"
-    ],
-    "icon": "jsdelivr-icon.svg",
-    "scriptSrc": [
-      "cdn\\.jsdelivr\\.net"
-    ],
-    "website": "https://www.jsdelivr.com/",
-    "xhr": [
-      "cdn\\.jsdelivr\\.net"
-    ]
-  },
-  "jsPDF": {
-    "cats": [
-      59
-    ],
-    "description": "jsPDF is a HTML5 client-side solution for generating PDF documents directly within web browsers.",
-    "icon": "jsPDF.svg",
-    "js": {
-      "jsPDF.API": ""
+      "jwDefaults": "",
+      "jwplayer": "",
+      "jwplayerApiUrl": "",
+      "webpackJsonpjwplayer": ""
     },
     "oss": true,
     "pricing": [
+      "low",
+      "recurring",
       "freemium"
     ],
+    "saas": true,
     "scriptSrc": [
-      "/jspdf\\.min\\.js"
+      "\\.jwplayer\\.com",
+      "\\.jwpcdn\\.com"
     ],
-    "website": "https://parall.ax/products/jspdf"
+    "website": "https://www.jwplayer.com",
+    "xhr": [
+      "\\.jwpsrv\\.com"
+    ]
   }
 }

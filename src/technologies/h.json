@@ -18,184 +18,20 @@
     "oss": true,
     "website": "https://github.com/h2o/h2o"
   },
-  "HCL Commerce": {
-    "cats": [
-      6
-    ],
-    "description": "HCL Commerce is a software platform framework for ecommerce, including marketing, sales, customer and order processing functionality.",
-    "dom": [
-      "link[href*='/wcsstore/'], link[href*='webapp/wcs/'], a[href*='/wcsstore/'], a[href*='webapp/wcs/'], script[src*='/wcsstore/'], script[src*='webapp/wcs/']"
-    ],
-    "icon": "HCL Commerce.svg",
-    "implies": [
-      "Java"
-    ],
-    "pricing": [
-      "poa"
-    ],
-    "saas": true,
-    "scripts": [
-      "/webapp/wcs/"
-    ],
-    "url": [
-      "/wcs/"
-    ],
-    "website": "https://www.hcltechsw.com/commerce"
-  },
-  "HCL Digital Experience": {
-    "cats": [
-      1
-    ],
-    "cpe": "cpe:2.3:a:ibm:websphere_portal:*:*:*:*:*:*:*:*",
-    "description": "HCL Digital Experience software empowers you to create, manage and deliver engaging omni-channel digital experiences to virtually all audiences.",
-    "headers": {
-      "IBM-Web2-Location": "",
-      "Itx-Generated-Timestamp": ""
-    },
-    "icon": "hcl-dx.svg",
-    "implies": [
-      "Java"
-    ],
-    "js": {
-      "ibmCfg.themeConfig.modulesWebAppBaseURI": "/wps/themeModules"
-    },
-    "pricing": [
-      "high",
-      "poa"
-    ],
-    "url": [
-      "/wps/wcm/"
-    ],
-    "website": "https://www.hcltechsw.com/dx"
-  },
-  "HCL Domino": {
-    "cats": [
-      22
-    ],
-    "cpe": "cpe:2.3:a:ibm:lotus_domino:*:*:*:*:*:*:*:*",
-    "description": "HCL Domino, formerly called IBM Domino (1995) and Lotus Domino (1989), is an enterprise server application development platform.",
-    "headers": {
-      "Server": "^Lotus-Domino$"
-    },
-    "icon": "HCL Domino.svg",
-    "implies": [
-      "Java"
-    ],
-    "pricing": [
-      "payg",
-      "recurring"
-    ],
-    "website": "https://www.hcltechsw.com/domino"
-  },
-  "HHVM": {
-    "cats": [
-      22
-    ],
-    "cpe": "cpe:2.3:a:facebook:hhvm:*:*:*:*:*:*:*:*",
-    "headers": {
-      "X-Powered-By": "HHVM/?([\\d.]+)?\\;version:\\1"
-    },
-    "icon": "HHVM.png",
-    "implies": [
-      "PHP\\;confidence:75"
-    ],
-    "website": "https://hhvm.com"
-  },
-  "HP Compact Server": {
-    "cats": [
-      22
-    ],
-    "headers": {
-      "Server": "HP_Compact_Server(?:/([\\d.]+))?\\;version:\\1"
-    },
-    "icon": "HP.svg",
-    "website": "https://hp.com"
-  },
-  "HP iLO": {
-    "cats": [
-      22,
-      46
-    ],
-    "cpe": "cpe:2.3:h:hp:integrated_lights-out:*:*:*:*:*:*:*:*",
-    "description": "HP iLO is a tool that provides multiple ways to configure, update, monitor, and run servers remotely.",
-    "headers": {
-      "Server": "HP-iLO-Server(?:/([\\d.]+))?\\;version:\\1"
-    },
-    "icon": "HP.svg",
-    "website": "https://hp.com"
-  },
-  "HSTS": {
-    "cats": [
-      16
-    ],
-    "description": "HTTP Strict Transport Security (HSTS) informs browsers that the site should only be accessed using HTTPS.",
-    "headers": {
-      "Strict-Transport-Security": ""
-    },
-    "url": [
-      "^https://[\\w\\d\\.\\-]+(?:\\.dev)(?:/.+||/)$"
-    ],
-    "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1"
-  },
-  "HT Mega": {
-    "cats": [
-      5,
-      87
-    ],
-    "description": "Elementor addons package for Elementor.",
-    "dom": [
-      "link[href*='/wp-content/plugins/ht-mega-for-elementor/']"
-    ],
-    "icon": "HT Mega.png",
-    "oss": true,
-    "requires": [
-      "WordPress"
-    ],
-    "scriptSrc": [
-      "ht-mega-for-elementor(?:\\/admin)?\\/assets\\/js(?:\\/admin)?(?:\\/(?:htb)?bootstrap)?(?:\\/jquery)?(?:\\/popper)?(?:\\/slick)?(?:\\/waypoints)?(?:\\.counterup)?(?:\\/htmega-widgets-active)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1"
-    ],
-    "website": "https://wordpress.org/plugins/ht-mega-for-elementor/"
-  },
-  "HTML5 Media": {
-    "cats": [
-      59
-    ],
-    "description": "HTML5 Media enables video and audio tags in all major browsers.",
-    "oss": true,
-    "scriptSrc": [
-      "(?:((?:\\d+\\.)+\\d+)\\/)?html5media(?:\\.min)?\\.js\\;version:\\1"
-    ],
-    "website": "https://html5media.info/"
-  },
-  "HTTP/2": {
+  "h5ai": {
     "cats": [
       19
     ],
-    "description": "HTTP/2 (originally named HTTP/2.0) is a major revision of the HTTP network protocol used by the World Wide Web.",
-    "excludes": [
-      "SPDY"
+    "description": "h5ai is a modern HTTP web server index for Apache httpd, lighttpd, and nginx.",
+    "icon": "default.svg",
+    "implies": [
+      "PHP"
     ],
-    "headers": {
-      "Alt-Svc": "h2",
-      "X-Firefox-Spdy": "h2"
-    },
-    "icon": "HTTP2.svg",
-    "website": "https://http2.github.io"
-  },
-  "HTTP/3": {
-    "cats": [
-      19
+    "oss": true,
+    "scriptSrc": [
+      "/_h5ai/(?:public|client)/js/scripts\\.js"
     ],
-    "description": "HTTP/3 is the third major version of the Hypertext Transfer Protocol used to exchange information on the World Wide Web.",
-    "excludes": [
-      "HTTP/2"
-    ],
-    "headers": {
-      "Alt-Svc": "h3",
-      "X-Firefox-Http3": "h3"
-    },
-    "icon": "HTTP3.svg",
-    "website": "https://httpwg.org/"
+    "website": "https://github.com/lrsjng/h5ai"
   },
   "Haddock": {
     "cats": [
@@ -380,6 +216,20 @@
       "\\.hansel\\.io/web/([\\d\\.]+)/\\;version:\\1"
     ],
     "website": "https://hansel.io"
+  },
+  "hantana": {
+    "cats": [
+      10
+    ],
+    "description": "Hantana provides user behavior analysis tools like heatmaps, surveys, and feedback widgets to enhance website user experience and customer satisfaction.",
+    "icon": "hantana.svg",
+    "js": {
+      "Hantana": ""
+    },
+    "scriptSrc": [
+      "//hantana\\.org/widget"
+    ],
+    "website": "https://hantana.org/"
   },
   "Hapana": {
     "cats": [
@@ -613,25 +463,6 @@
     ],
     "website": "https://www.goharness.com/nonprofits"
   },
-  "HashThemes Total": {
-    "cats": [
-      80
-    ],
-    "description": "HashThemes Total is the powerful and creative multipurpose WordPress theme.",
-    "icon": "HashThemes.svg",
-    "pricing": [
-      "freemium",
-      "onetime",
-      "low"
-    ],
-    "requires": [
-      "WordPress"
-    ],
-    "scriptSrc": [
-      "/wp-content/themes/(?:t|T)otal(?:-plus)?/"
-    ],
-    "website": "https://hashthemes.com/wordpress-theme/total"
-  },
   "Hashnode": {
     "cats": [
       11
@@ -667,6 +498,25 @@
       "payg"
     ],
     "website": "https://hashtag-labs.com"
+  },
+  "HashThemes Total": {
+    "cats": [
+      80
+    ],
+    "description": "HashThemes Total is the powerful and creative multipurpose WordPress theme.",
+    "icon": "HashThemes.svg",
+    "pricing": [
+      "freemium",
+      "onetime",
+      "low"
+    ],
+    "requires": [
+      "WordPress"
+    ],
+    "scriptSrc": [
+      "/wp-content/themes/(?:t|T)otal(?:-plus)?/"
+    ],
+    "website": "https://hashthemes.com/wordpress-theme/total"
   },
   "Haskell": {
     "cats": [
@@ -732,6 +582,121 @@
     "saas": true,
     "website": "https://www.hawksearch.com"
   },
+  "hCaptcha": {
+    "cats": [
+      16
+    ],
+    "css": [
+      "#cf-hcaptcha-container"
+    ],
+    "description": "hCaptcha is an anti-bot solution that protects user privacy and rewards websites.",
+    "dom": [
+      "link[href*='hcaptcha.com']"
+    ],
+    "headers": {
+      "content-security-policy": "(?:\\.|//)hcaptcha\\.com"
+    },
+    "icon": "hCaptcha.svg",
+    "js": {
+      "hcaptcha.getRespKey": "",
+      "hcaptchaOnLoad": "",
+      "hcaptcha_sitekey": ""
+    },
+    "pricing": [
+      "freemium",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "hcaptcha\\.com/([\\d]+?)/api\\.js\\;version:\\1"
+    ],
+    "website": "https://www.hcaptcha.com"
+  },
+  "HCL Commerce": {
+    "cats": [
+      6
+    ],
+    "description": "HCL Commerce is a software platform framework for ecommerce, including marketing, sales, customer and order processing functionality.",
+    "dom": [
+      "link[href*='/wcsstore/'], link[href*='webapp/wcs/'], a[href*='/wcsstore/'], a[href*='webapp/wcs/'], script[src*='/wcsstore/'], script[src*='webapp/wcs/']"
+    ],
+    "icon": "HCL Commerce.svg",
+    "implies": [
+      "Java"
+    ],
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scripts": [
+      "/webapp/wcs/"
+    ],
+    "url": [
+      "/wcs/"
+    ],
+    "website": "https://www.hcltechsw.com/commerce"
+  },
+  "HCL Digital Experience": {
+    "cats": [
+      1
+    ],
+    "cpe": "cpe:2.3:a:ibm:websphere_portal:*:*:*:*:*:*:*:*",
+    "description": "HCL Digital Experience software empowers you to create, manage and deliver engaging omni-channel digital experiences to virtually all audiences.",
+    "headers": {
+      "IBM-Web2-Location": "",
+      "Itx-Generated-Timestamp": ""
+    },
+    "icon": "hcl-dx.svg",
+    "implies": [
+      "Java"
+    ],
+    "js": {
+      "ibmCfg.themeConfig.modulesWebAppBaseURI": "/wps/themeModules"
+    },
+    "pricing": [
+      "high",
+      "poa"
+    ],
+    "url": [
+      "/wps/wcm/"
+    ],
+    "website": "https://www.hcltechsw.com/dx"
+  },
+  "HCL Domino": {
+    "cats": [
+      22
+    ],
+    "cpe": "cpe:2.3:a:ibm:lotus_domino:*:*:*:*:*:*:*:*",
+    "description": "HCL Domino, formerly called IBM Domino (1995) and Lotus Domino (1989), is an enterprise server application development platform.",
+    "headers": {
+      "Server": "^Lotus-Domino$"
+    },
+    "icon": "HCL Domino.svg",
+    "implies": [
+      "Java"
+    ],
+    "pricing": [
+      "payg",
+      "recurring"
+    ],
+    "website": "https://www.hcltechsw.com/domino"
+  },
+  "Header Bidding Ai": {
+    "cats": [
+      36
+    ],
+    "description": "Header Bidding Ai is a provider of an automated and managed header bidding solution. Header bidding cutting-edge technique where publishers offer their ad inventory to many ad exchanges.",
+    "icon": "Header Bidding Ai.svg",
+    "pricing": [
+      "poa",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.headerbidding\\.ai/"
+    ],
+    "website": "https://headerbidding.ai"
+  },
   "HeadJS": {
     "cats": [
       59,
@@ -750,22 +715,6 @@
       "head\\.(?:core|load)(?:\\.min)?\\.js"
     ],
     "website": "https://headjs.github.io"
-  },
-  "Header Bidding Ai": {
-    "cats": [
-      36
-    ],
-    "description": "Header Bidding Ai is a provider of an automated and managed header bidding solution. Header bidding cutting-edge technique where publishers offer their ad inventory to many ad exchanges.",
-    "icon": "Header Bidding Ai.svg",
-    "pricing": [
-      "poa",
-      "recurring"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "\\.headerbidding\\.ai/"
-    ],
-    "website": "https://headerbidding.ai"
   },
   "Headless UI": {
     "cats": [
@@ -836,6 +785,21 @@
       "heap-\\d+\\.js"
     ],
     "website": "https://heap.io"
+  },
+  "Hearth": {
+    "cats": [
+      19
+    ],
+    "description": "Hearth is a financial services platform that provides financing options for home improvement projects.",
+    "icon": "Hearth.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "widget\\.gethearth\\.com"
+    ],
+    "website": "https://gethearth.com"
   },
   "Heartland Payment Systems": {
     "cats": [
@@ -961,21 +925,6 @@
     "oss": true,
     "website": "https://www.joomshaper.com/joomla-templates/helixultimate"
   },
-  "HelixPay": {
-    "cats": [
-      104
-    ],
-    "description": "HelixPay is an event ticketing platform providing online payment integration, digital tickets, and customizable event websites for large-scale events.",
-    "icon": "HelixPay.svg",
-    "js": {
-      "HELIXPAY.PAGE": ""
-    },
-    "pricing": [
-      "payg"
-    ],
-    "saas": true,
-    "website": "https://helixpay.ph"
-  },
   "Helixo UFE": {
     "cats": [
       100
@@ -996,6 +945,21 @@
     ],
     "saas": true,
     "website": "https://helixo.co/upsell-funnel-engine/"
+  },
+  "HelixPay": {
+    "cats": [
+      104
+    ],
+    "description": "HelixPay is an event ticketing platform providing online payment integration, digital tickets, and customizable event websites for large-scale events.",
+    "icon": "HelixPay.svg",
+    "js": {
+      "HELIXPAY.PAGE": ""
+    },
+    "pricing": [
+      "payg"
+    ],
+    "saas": true,
+    "website": "https://helixpay.ph"
   },
   "Hello Bar": {
     "cats": [
@@ -1092,6 +1056,38 @@
       "\\.helpscout\\.net/"
     ],
     "website": "https://www.helpscout.com"
+  },
+  "Help.com": {
+    "cats": [
+      88
+    ],
+    "description": "Help.com is a service that provides domain name registration and website hosting with simplified setup and management.",
+    "icon": "Help.svg",
+    "js": {
+      "Helpdotcom": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.help.com"
+  },
+  "HelpCrunch": {
+    "cats": [
+      52
+    ],
+    "description": "HelpCrunch is a customer service software platform designed to support core business communication and customer support needs across organizations.",
+    "icon": "HelpCrunch.svg",
+    "js": {
+      "HelpCrunch": "",
+      "helpcrunchDebug": ""
+    },
+    "saas": true,
+    "scriptSrc": [
+      "\\.helpcrunch\\.com/"
+    ],
+    "website": "https://helpcrunch.com"
   },
   "HelpDocs": {
     "cats": [
@@ -1203,27 +1199,6 @@
     ],
     "website": "https://www.usehero.com/"
   },
-  "HeroUI": {
-    "cats": [
-      66
-    ],
-    "css": [
-      "--nextui-(?:colors-accents1|colors-text|space-0|fonts-sans|fonts-mono)"
-    ],
-    "description": "HeroUI allows you to make beautiful, modern, and fast websites/applications regardless of your design experience, created with React.js and Stitches, based on React Aria and inspired by Vuesax.",
-    "dom": [
-      "link[href*='nextui.org'][rel='canonical']"
-    ],
-    "icon": "HeroUI.svg",
-    "implies": [
-      "React"
-    ],
-    "oss": true,
-    "scripts": [
-      "NextUI"
-    ],
-    "website": "https://nextui.org/"
-  },
   "Heroic": {
     "cats": [
       51
@@ -1259,6 +1234,27 @@
       "\\.herokuapp\\.com"
     ],
     "website": "https://www.heroku.com/"
+  },
+  "HeroUI": {
+    "cats": [
+      66
+    ],
+    "css": [
+      "--nextui-(?:colors-accents1|colors-text|space-0|fonts-sans|fonts-mono)"
+    ],
+    "description": "HeroUI allows you to make beautiful, modern, and fast websites/applications regardless of your design experience, created with React.js and Stitches, based on React Aria and inspired by Vuesax.",
+    "dom": [
+      "link[href*='nextui.org'][rel='canonical']"
+    ],
+    "icon": "HeroUI.svg",
+    "implies": [
+      "React"
+    ],
+    "oss": true,
+    "scripts": [
+      "NextUI"
+    ],
+    "website": "https://nextui.org/"
   },
   "Hesk": {
     "cats": [
@@ -1426,6 +1422,27 @@
     ],
     "website": "https://hextom.com/case_study/ultimate-sales-boost"
   },
+  "Heyflow": {
+    "cats": [
+      51,
+      110
+    ],
+    "description": "Heyflow is an all-in-one platform that enables users to create interactive lead funnels, multi-step forms, and customized landing pages that drive conversions and engage website visitors, all without the need for coding.",
+    "icon": "Heyflow.svg",
+    "js": {
+      "webpackChunk_heyflow_widget": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "static\\.heyflow\\.app/"
+    ],
+    "website": "https://heyflow.com"
+  },
   "HeyLight": {
     "cats": [
       91
@@ -1485,26 +1502,19 @@
     "saas": true,
     "website": "https://heysummit.com"
   },
-  "Heyflow": {
+  "HHVM": {
     "cats": [
-      51,
-      110
+      22
     ],
-    "description": "Heyflow is an all-in-one platform that enables users to create interactive lead funnels, multi-step forms, and customized landing pages that drive conversions and engage website visitors, all without the need for coding.",
-    "icon": "Heyflow.svg",
-    "js": {
-      "webpackChunk_heyflow_widget": ""
+    "cpe": "cpe:2.3:a:facebook:hhvm:*:*:*:*:*:*:*:*",
+    "headers": {
+      "X-Powered-By": "HHVM/?([\\d.]+)?\\;version:\\1"
     },
-    "pricing": [
-      "mid",
-      "recurring",
-      "poa"
+    "icon": "HHVM.png",
+    "implies": [
+      "PHP\\;confidence:75"
     ],
-    "saas": true,
-    "scriptSrc": [
-      "static\\.heyflow\\.app/"
-    ],
-    "website": "https://heyflow.com"
+    "website": "https://hhvm.com"
   },
   "Hi Platform": {
     "cats": [
@@ -1526,6 +1536,18 @@
     ],
     "website": "https://www.hiplatform.com"
   },
+  "Hiawatha": {
+    "cats": [
+      22
+    ],
+    "description": "Hiawatha is a secure, lightweight web server developed by Hugo Leisink, designed for ease of use and advanced security features such as protection against SQL injections, XSS, and CSRF attacks.",
+    "headers": {
+      "Server": "Hiawatha v([\\d.]+)\\;version:\\1"
+    },
+    "icon": "Hiawatha.png",
+    "oss": true,
+    "website": "https://gitlab.com/hsleisink/hiawatha"
+  },
   "HiBob": {
     "cats": [
       53
@@ -1540,35 +1562,6 @@
       "app\\.hibob\\.com"
     ],
     "website": "https://www.hibob.com"
-  },
-  "HiPay": {
-    "cats": [
-      41
-    ],
-    "description": "HiPay is a payment gateway provider and payment orchestration platform.",
-    "icon": "HiPay.svg",
-    "js": {
-      "HiPay": ""
-    },
-    "pricing": [
-      "poa"
-    ],
-    "scriptSrc": [
-      "\\.hipay\\.com/"
-    ],
-    "website": "https://hipay.com/"
-  },
-  "Hiawatha": {
-    "cats": [
-      22
-    ],
-    "description": "Hiawatha is a secure, lightweight web server developed by Hugo Leisink, designed for ease of use and advanced security features such as protection against SQL injections, XSS, and CSRF attacks.",
-    "headers": {
-      "Server": "Hiawatha v([\\d.]+)\\;version:\\1"
-    },
-    "icon": "Hiawatha.png",
-    "oss": true,
-    "website": "https://gitlab.com/hsleisink/hiawatha"
   },
   "Hibu": {
     "cats": [
@@ -1587,44 +1580,6 @@
       "cdn\\.hibuwebsites\\.com"
     ],
     "website": "https://hibu.com"
-  },
-  "HighLevel": {
-    "cats": [
-      32,
-      53
-    ],
-    "description": "HighLevel is an all-in-one marketing and automation platform designed for marketing agencies and small businesses to manage CRM, marketing campaigns, sales funnels, appointment scheduling, and more.",
-    "icon": "HighLevel.svg",
-    "js": {
-      "leadConnector.chatWidget": ""
-    },
-    "pricing": [
-      "mid",
-      "recurring"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "\\.leadconnectorhq\\.com/"
-    ],
-    "website": "https://www.gohighlevel.com"
-  },
-  "HighStore": {
-    "cats": [
-      6
-    ],
-    "description": "HighStore is an ecommerce platform from Iran.",
-    "implies": [
-      "Microsoft ASP.NET"
-    ],
-    "meta": {
-      "generator": "^HighStore\\.IR$",
-      "hs:version": "^([\\d\\.]+)$\\;version:\\1\\;confidence:50"
-    },
-    "pricing": [
-      "poa"
-    ],
-    "saas": true,
-    "website": "https://digitalserver.ir"
   },
   "Highcharts": {
     "cats": [
@@ -1687,6 +1642,38 @@
     "saas": true,
     "website": "https://vanilla.higherlogic.com"
   },
+  "HigherMe HR": {
+    "cats": [
+      101
+    ],
+    "description": "HigherMe HR is a hiring software platform designed for hourly workforces, supporting job postings, applicant screening, interview scheduling, and onboarding workflows.",
+    "icon": "HigherMe.svg",
+    "saas": true,
+    "scripts": [
+      "app\\.higherme\\.com"
+    ],
+    "website": "https://higherme.com/products/hr-software"
+  },
+  "HighLevel": {
+    "cats": [
+      32,
+      53
+    ],
+    "description": "HighLevel is an all-in-one marketing and automation platform designed for marketing agencies and small businesses to manage CRM, marketing campaigns, sales funnels, appointment scheduling, and more.",
+    "icon": "HighLevel.svg",
+    "js": {
+      "leadConnector.chatWidget": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.leadconnectorhq\\.com/"
+    ],
+    "website": "https://www.gohighlevel.com"
+  },
   "Highlight.io": {
     "cats": [
       10,
@@ -1740,6 +1727,41 @@
     ],
     "website": "https://highcharts.com/products/highstock"
   },
+  "HighStore": {
+    "cats": [
+      6
+    ],
+    "description": "HighStore is an ecommerce platform from Iran.",
+    "implies": [
+      "Microsoft ASP.NET"
+    ],
+    "meta": {
+      "generator": "^HighStore\\.IR$",
+      "hs:version": "^([\\d\\.]+)$\\;version:\\1\\;confidence:50"
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://digitalserver.ir"
+  },
+  "Hikari CS": {
+    "cats": [
+      53
+    ],
+    "description": "Hicari CS is a solution that helps webshops increase sales and customer loyalty with excellent customer service.",
+    "icon": "HikariCS.svg",
+    "pricing": [
+      "low",
+      "recurring",
+      "payg"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "widget\\.hikarics\\.com/"
+    ],
+    "website": "https://www.hikarics.com"
+  },
   "HikaShop": {
     "cats": [
       6
@@ -1758,23 +1780,6 @@
       "com_hikashop"
     ],
     "website": "https://www.hikashop.com"
-  },
-  "Hikari CS": {
-    "cats": [
-      53
-    ],
-    "description": "Hicari CS is a solution that helps webshops increase sales and customer loyalty with excellent customer service.",
-    "icon": "HikariCS.svg",
-    "pricing": [
-      "low",
-      "recurring",
-      "payg"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "widget\\.hikarics\\.com/"
-    ],
-    "website": "https://www.hikarics.com"
   },
   "HikeOrders": {
     "cats": [
@@ -1804,6 +1809,23 @@
       "generator": "hinzacms"
     },
     "website": "https://hinzaco.com"
+  },
+  "HiPay": {
+    "cats": [
+      41
+    ],
+    "description": "HiPay is a payment gateway provider and payment orchestration platform.",
+    "icon": "HiPay.svg",
+    "js": {
+      "HiPay": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "scriptSrc": [
+      "\\.hipay\\.com/"
+    ],
+    "website": "https://hipay.com/"
   },
   "Hireology": {
     "cats": [
@@ -2040,21 +2062,6 @@
     "saas": true,
     "website": "https://hollerwp.com"
   },
-  "HomHero": {
-    "cats": [
-      93
-    ],
-    "description": "Homhero is a platform that offers a range of tools and services to help vacation rental owners manage their properties and bookings.",
-    "dom": [
-      "script#homhero-scripts-js"
-    ],
-    "icon": "HomHero.svg",
-    "pricing": [
-      "poa"
-    ],
-    "saas": true,
-    "website": "https://homhero.com.au"
-  },
   "Homebot": {
     "cats": [
       32
@@ -2136,6 +2143,21 @@
     "saas": true,
     "website": "https://www.homestead.com"
   },
+  "HomHero": {
+    "cats": [
+      93
+    ],
+    "description": "Homhero is a platform that offers a range of tools and services to help vacation rental owners manage their properties and bookings.",
+    "dom": [
+      "script#homhero-scripts-js"
+    ],
+    "icon": "HomHero.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://homhero.com.au"
+  },
   "Honeybadger": {
     "cats": [
       13
@@ -2164,6 +2186,24 @@
     "icon": "Hono.svg",
     "oss": true,
     "website": "https://hono.dev"
+  },
+  "hoolah": {
+    "cats": [
+      91
+    ],
+    "description": "hoolah is Asia's omni-channel buy now pay later platform.",
+    "icon": "hoolah.png",
+    "js": {
+      "hoolah": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "merchant\\.cdn\\.hoolah\\.co/"
+    ],
+    "website": "https://www.hoolah.co"
   },
   "Hoory": {
     "cats": [
@@ -2221,23 +2261,6 @@
     "saas": true,
     "website": "https://horoshop.ua"
   },
-  "HostEurope": {
-    "cats": [
-      88
-    ],
-    "description": "HostEurope is a European website hosting, email and domain name registrar company headquartered Hayes, West London.",
-    "dns": {
-      "SOA": [
-        "\\.hosteurope\\.com"
-      ]
-    },
-    "icon": "HostEurope.svg",
-    "pricing": [
-      "low",
-      "recurring"
-    ],
-    "website": "https://www.hosteurope.de"
-  },
   "Hostens": {
     "cats": [
       88
@@ -2254,6 +2277,23 @@
       "recurring"
     ],
     "website": "https://www.hostens.com"
+  },
+  "HostEurope": {
+    "cats": [
+      88
+    ],
+    "description": "HostEurope is a European website hosting, email and domain name registrar company headquartered Hayes, West London.",
+    "dns": {
+      "SOA": [
+        "\\.hosteurope\\.com"
+      ]
+    },
+    "icon": "HostEurope.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "website": "https://www.hosteurope.de"
   },
   "Hostgator": {
     "cats": [
@@ -2434,21 +2474,6 @@
     },
     "website": "https://www.hosttech.ch/websitecreator"
   },
-  "HotDoc": {
-    "cats": [
-      72
-    ],
-    "description": "HotDoc is a platform for booking healthcare appointments, providing patients with access to medical practitioners and clinics.",
-    "icon": "HotDoc.svg",
-    "js": {
-      "hotdoc.assetsURL": ""
-    },
-    "saas": true,
-    "scriptSrc": [
-      "cdn\\.hotdoc\\.com\\.au"
-    ],
-    "website": "https://www.hotdoc.com.au"
-  },
   "Hotaru CMS": {
     "cats": [
       1
@@ -2464,6 +2489,40 @@
       "generator": "Hotaru CMS"
     },
     "website": "https://hotarucms.org"
+  },
+  "Hotbot": {
+    "cats": [
+      6
+    ],
+    "description": "Hotbot is a platform that enables online management of hotel service sales.",
+    "icon": "Hotbot.svg",
+    "js": {
+      "HotBot.authorize": "",
+      "Hotbot.authorize": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "api\\.hotbot\\.ai"
+    ],
+    "website": "https://hotbot.ai"
+  },
+  "HotDoc": {
+    "cats": [
+      72
+    ],
+    "description": "HotDoc is a platform for booking healthcare appointments, providing patients with access to medical practitioners and clinics.",
+    "icon": "HotDoc.svg",
+    "js": {
+      "hotdoc.assetsURL": ""
+    },
+    "saas": true,
+    "scriptSrc": [
+      "cdn\\.hotdoc\\.com\\.au"
+    ],
+    "website": "https://www.hotdoc.com.au"
   },
   "Hotel Propeller": {
     "cats": [
@@ -2572,6 +2631,29 @@
     ],
     "website": "https://howlerjs.com"
   },
+  "HP Compact Server": {
+    "cats": [
+      22
+    ],
+    "headers": {
+      "Server": "HP_Compact_Server(?:/([\\d.]+))?\\;version:\\1"
+    },
+    "icon": "HP.svg",
+    "website": "https://hp.com"
+  },
+  "HP iLO": {
+    "cats": [
+      22,
+      46
+    ],
+    "cpe": "cpe:2.3:h:hp:integrated_lights-out:*:*:*:*:*:*:*:*",
+    "description": "HP iLO is a tool that provides multiple ways to configure, update, monitor, and run servers remotely.",
+    "headers": {
+      "Server": "HP-iLO-Server(?:/([\\d.]+))?\\;version:\\1"
+    },
+    "icon": "HP.svg",
+    "website": "https://hp.com"
+  },
   "HrFlow.ai": {
     "cats": [
       101
@@ -2586,6 +2668,61 @@
       "\\.hrflow\\.ai"
     ],
     "website": "https://hrflow.ai"
+  },
+  "HSTS": {
+    "cats": [
+      16
+    ],
+    "description": "HTTP Strict Transport Security (HSTS) informs browsers that the site should only be accessed using HTTPS.",
+    "headers": {
+      "Strict-Transport-Security": ""
+    },
+    "url": [
+      "^https://[\\w\\d\\.\\-]+(?:\\.dev)(?:/.+||/)$"
+    ],
+    "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1"
+  },
+  "HT Mega": {
+    "cats": [
+      5,
+      87
+    ],
+    "description": "Elementor addons package for Elementor.",
+    "dom": [
+      "link[href*='/wp-content/plugins/ht-mega-for-elementor/']"
+    ],
+    "icon": "HT Mega.png",
+    "oss": true,
+    "requires": [
+      "WordPress"
+    ],
+    "scriptSrc": [
+      "ht-mega-for-elementor(?:\\/admin)?\\/assets\\/js(?:\\/admin)?(?:\\/(?:htb)?bootstrap)?(?:\\/jquery)?(?:\\/popper)?(?:\\/slick)?(?:\\/waypoints)?(?:\\.counterup)?(?:\\/htmega-widgets-active)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+    ],
+    "website": "https://wordpress.org/plugins/ht-mega-for-elementor/"
+  },
+  "html2canvas": {
+    "cats": [
+      59
+    ],
+    "description": "Screenshots with JavaScript.",
+    "oss": true,
+    "scriptSrc": [
+      "html2canvas(?:\\.min)?(?:[_\\w]{0,8})?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+      "(?:((?:\\d+\\.)+\\d+)\\/)?html2canvas(?:\\.min)?(?:[_\\w]{0,8})?\\.js\\;version:\\1"
+    ],
+    "website": "https://html2canvas.hertzen.com/"
+  },
+  "HTML5 Media": {
+    "cats": [
+      59
+    ],
+    "description": "HTML5 Media enables video and audio tags in all major browsers.",
+    "oss": true,
+    "scriptSrc": [
+      "(?:((?:\\d+\\.)+\\d+)\\/)?html5media(?:\\.min)?\\.js\\;version:\\1"
+    ],
+    "website": "https://html5media.info/"
   },
   "Htmx": {
     "cats": [
@@ -2605,6 +2742,36 @@
     ],
     "website": "https://htmx.org"
   },
+  "HTTP/2": {
+    "cats": [
+      19
+    ],
+    "description": "HTTP/2 (originally named HTTP/2.0) is a major revision of the HTTP network protocol used by the World Wide Web.",
+    "excludes": [
+      "SPDY"
+    ],
+    "headers": {
+      "Alt-Svc": "h2",
+      "X-Firefox-Spdy": "h2"
+    },
+    "icon": "HTTP2.svg",
+    "website": "https://http2.github.io"
+  },
+  "HTTP/3": {
+    "cats": [
+      19
+    ],
+    "description": "HTTP/3 is the third major version of the Hypertext Transfer Protocol used to exchange information on the World Wide Web.",
+    "excludes": [
+      "HTTP/2"
+    ],
+    "headers": {
+      "Alt-Svc": "h3",
+      "X-Firefox-Http3": "h3"
+    },
+    "icon": "HTTP3.svg",
+    "website": "https://httpwg.org/"
+  },
   "Hub Platform": {
     "cats": [
       32
@@ -2619,117 +2786,6 @@
       "analytics\\.hub-js\\.com"
     ],
     "website": "https://www.hub-js.com"
-  },
-  "HubSpot": {
-    "cats": [
-      32
-    ],
-    "description": "HubSpot is a marketing and sales software that helps companies attract visitors, convert leads, and close customers.",
-    "dns": {
-      "TXT": [
-        "hubspotemail\\.net",
-        "hubspot-developer-verification",
-        "hubspot-domain-verification"
-      ]
-    },
-    "html": [
-      "<!-- Start of Async HubSpot"
-    ],
-    "icon": "HubSpot.svg",
-    "js": {
-      "_hsq": "",
-      "hubspot": ""
-    },
-    "pricing": [
-      "recurring",
-      "high"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "\\.hs-scripts\\.com/"
-    ],
-    "website": "https://www.hubspot.com"
-  },
-  "HubSpot Analytics": {
-    "cats": [
-      10
-    ],
-    "description": "HubSpot is a marketing and sales software that helps companies attract visitors, convert leads, and close customers.",
-    "icon": "HubSpot.svg",
-    "scriptSrc": [
-      "js\\.hs-analytics\\.net/analytics"
-    ],
-    "website": "https://www.hubspot.com/products/marketing/analytics"
-  },
-  "HubSpot CMS Hub": {
-    "cats": [
-      1
-    ],
-    "description": "CMS Hub is a content management platform by HubSpot for marketers to manage, optimize, and track content performance on websites, blogs, and landing pages.",
-    "headers": {
-      "x-hs-hub-id": "",
-      "x-powered-by": "HubSpot"
-    },
-    "icon": "HubSpot.svg",
-    "implies": [
-      "HubSpot"
-    ],
-    "meta": {
-      "generator": "HubSpot"
-    },
-    "pricing": [
-      "mid",
-      "recurring"
-    ],
-    "saas": true,
-    "website": "https://www.hubspot.com/products/cms"
-  },
-  "HubSpot Chat": {
-    "cats": [
-      52
-    ],
-    "description": "HubSpot Chat is a tool where you can view, manage, and reply to incoming messages from multiple channels.",
-    "icon": "HubSpot.svg",
-    "js": {
-      "HubSpotConversations": ""
-    },
-    "pricing": [
-      "freemium"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "js\\.usemessages\\.com"
-    ],
-    "website": "https://www.hubspot.com/products/crm/live-chat"
-  },
-  "HubSpot Cookie Policy Banner": {
-    "cats": [
-      67
-    ],
-    "description": "HubSpot Cookie Policy banner is a cookie compliance functionality from HubSpot.",
-    "dom": [
-      "#hs-eu-cookie-confirmation"
-    ],
-    "icon": "HubSpot.svg",
-    "website": "https://knowledge.hubspot.com/reports/customize-your-cookie-tracking-settings-and-privacy-policy-alert"
-  },
-  "HubSpot WordPress plugin": {
-    "cats": [
-      87
-    ],
-    "description": "HubSpot is a platform with all the tools and integrations you need for marketing, sales, and customer service. HubSpot WordPress plugin allows you to manage contacts (CRM), engage visitors with live chat and chatbots, add beautiful forms to pages, create engaging email marketing campaigns, and more.",
-    "icon": "HubSpot.svg",
-    "implies": [
-      "HubSpot",
-      "HubSpot Analytics"
-    ],
-    "js": {
-      "leadin_wordpress.leadinPluginVersion": "^([\\d.]+)$\\;version:\\1"
-    },
-    "requires": [
-      "WordPress"
-    ],
-    "website": "https://wordpress.org/plugins/leadin/"
   },
   "Hubalz": {
     "cats": [
@@ -2822,6 +2878,117 @@
       "\\.hubilo\\.com"
     ],
     "website": "https://www.hubilo.com"
+  },
+  "HubSpot": {
+    "cats": [
+      32
+    ],
+    "description": "HubSpot is a marketing and sales software that helps companies attract visitors, convert leads, and close customers.",
+    "dns": {
+      "TXT": [
+        "hubspotemail\\.net",
+        "hubspot-developer-verification",
+        "hubspot-domain-verification"
+      ]
+    },
+    "html": [
+      "<!-- Start of Async HubSpot"
+    ],
+    "icon": "HubSpot.svg",
+    "js": {
+      "_hsq": "",
+      "hubspot": ""
+    },
+    "pricing": [
+      "recurring",
+      "high"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.hs-scripts\\.com/"
+    ],
+    "website": "https://www.hubspot.com"
+  },
+  "HubSpot Analytics": {
+    "cats": [
+      10
+    ],
+    "description": "HubSpot is a marketing and sales software that helps companies attract visitors, convert leads, and close customers.",
+    "icon": "HubSpot.svg",
+    "scriptSrc": [
+      "js\\.hs-analytics\\.net/analytics"
+    ],
+    "website": "https://www.hubspot.com/products/marketing/analytics"
+  },
+  "HubSpot Chat": {
+    "cats": [
+      52
+    ],
+    "description": "HubSpot Chat is a tool where you can view, manage, and reply to incoming messages from multiple channels.",
+    "icon": "HubSpot.svg",
+    "js": {
+      "HubSpotConversations": ""
+    },
+    "pricing": [
+      "freemium"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "js\\.usemessages\\.com"
+    ],
+    "website": "https://www.hubspot.com/products/crm/live-chat"
+  },
+  "HubSpot CMS Hub": {
+    "cats": [
+      1
+    ],
+    "description": "CMS Hub is a content management platform by HubSpot for marketers to manage, optimize, and track content performance on websites, blogs, and landing pages.",
+    "headers": {
+      "x-hs-hub-id": "",
+      "x-powered-by": "HubSpot"
+    },
+    "icon": "HubSpot.svg",
+    "implies": [
+      "HubSpot"
+    ],
+    "meta": {
+      "generator": "HubSpot"
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.hubspot.com/products/cms"
+  },
+  "HubSpot Cookie Policy Banner": {
+    "cats": [
+      67
+    ],
+    "description": "HubSpot Cookie Policy banner is a cookie compliance functionality from HubSpot.",
+    "dom": [
+      "#hs-eu-cookie-confirmation"
+    ],
+    "icon": "HubSpot.svg",
+    "website": "https://knowledge.hubspot.com/reports/customize-your-cookie-tracking-settings-and-privacy-policy-alert"
+  },
+  "HubSpot WordPress plugin": {
+    "cats": [
+      87
+    ],
+    "description": "HubSpot is a platform with all the tools and integrations you need for marketing, sales, and customer service. HubSpot WordPress plugin allows you to manage contacts (CRM), engage visitors with live chat and chatbots, add beautiful forms to pages, create engaging email marketing campaigns, and more.",
+    "icon": "HubSpot.svg",
+    "implies": [
+      "HubSpot",
+      "HubSpot Analytics"
+    ],
+    "js": {
+      "leadin_wordpress.leadinPluginVersion": "^([\\d.]+)$\\;version:\\1"
+    },
+    "requires": [
+      "WordPress"
+    ],
+    "website": "https://wordpress.org/plugins/leadin/"
   },
   "Hubtiger": {
     "cats": [
@@ -3043,21 +3210,6 @@
     "saas": true,
     "website": "https://www.hull.io"
   },
-  "HumCommerce": {
-    "cats": [
-      6
-    ],
-    "description": "HumCommerce is a platform providing ecommerce solutions tailored for B2B and B2C brands, focusing on enhancing online sales and customer engagement.",
-    "icon": "HumCommerce.svg",
-    "pricing": [
-      "poa"
-    ],
-    "saas": true,
-    "scripts": [
-      "app\\.humcommerce\\.com/"
-    ],
-    "website": "https://www.humcommerce.com"
-  },
   "Human Presence": {
     "cats": [
       16
@@ -3090,6 +3242,37 @@
       "app\\.humblytics\\.com/"
     ],
     "website": "https://www.humblytics.com"
+  },
+  "HumCommerce": {
+    "cats": [
+      6
+    ],
+    "description": "HumCommerce is a platform providing ecommerce solutions tailored for B2B and B2C brands, focusing on enhancing online sales and customer engagement.",
+    "icon": "HumCommerce.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scripts": [
+      "app\\.humcommerce\\.com/"
+    ],
+    "website": "https://www.humcommerce.com"
+  },
+  "HumHub": {
+    "cats": [
+      1
+    ],
+    "description": "HumHub is a software platform that digitizes organizational processes by enabling structured internal communication, collaboration, and information sharing.",
+    "icon": "HumHub.svg",
+    "js": {
+      "HumHubMentionProvider": "",
+      "humhub.config": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.humhub.com"
   },
   "Humm": {
     "cats": [
@@ -3401,94 +3584,5 @@
       "onetime"
     ],
     "website": "https://hyva.io"
-  },
-  "h5ai": {
-    "cats": [
-      19
-    ],
-    "description": "h5ai is a modern HTTP web server index for Apache httpd, lighttpd, and nginx.",
-    "icon": "default.svg",
-    "implies": [
-      "PHP"
-    ],
-    "oss": true,
-    "scriptSrc": [
-      "/_h5ai/(?:public|client)/js/scripts\\.js"
-    ],
-    "website": "https://github.com/lrsjng/h5ai"
-  },
-  "hCaptcha": {
-    "cats": [
-      16
-    ],
-    "css": [
-      "#cf-hcaptcha-container"
-    ],
-    "description": "hCaptcha is an anti-bot solution that protects user privacy and rewards websites.",
-    "dom": [
-      "link[href*='hcaptcha.com']"
-    ],
-    "headers": {
-      "content-security-policy": "(?:\\.|//)hcaptcha\\.com"
-    },
-    "icon": "hCaptcha.svg",
-    "js": {
-      "hcaptcha.getRespKey": "",
-      "hcaptchaOnLoad": "",
-      "hcaptcha_sitekey": ""
-    },
-    "pricing": [
-      "freemium",
-      "poa"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "hcaptcha\\.com/([\\d]+?)/api\\.js\\;version:\\1"
-    ],
-    "website": "https://www.hcaptcha.com"
-  },
-  "hantana": {
-    "cats": [
-      10
-    ],
-    "description": "Hantana provides user behavior analysis tools like heatmaps, surveys, and feedback widgets to enhance website user experience and customer satisfaction.",
-    "icon": "hantana.svg",
-    "js": {
-      "Hantana": ""
-    },
-    "scriptSrc": [
-      "//hantana\\.org/widget"
-    ],
-    "website": "https://hantana.org/"
-  },
-  "hoolah": {
-    "cats": [
-      91
-    ],
-    "description": "hoolah is Asia's omni-channel buy now pay later platform.",
-    "icon": "hoolah.png",
-    "js": {
-      "hoolah": ""
-    },
-    "pricing": [
-      "poa"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "merchant\\.cdn\\.hoolah\\.co/"
-    ],
-    "website": "https://www.hoolah.co"
-  },
-  "html2canvas": {
-    "cats": [
-      59
-    ],
-    "description": "Screenshots with JavaScript.",
-    "oss": true,
-    "scriptSrc": [
-      "html2canvas(?:\\.min)?(?:[_\\w]{0,8})?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
-      "(?:((?:\\d+\\.)+\\d+)\\/)?html2canvas(?:\\.min)?(?:[_\\w]{0,8})?\\.js\\;version:\\1"
-    ],
-    "website": "https://html2canvas.hertzen.com/"
   }
 }

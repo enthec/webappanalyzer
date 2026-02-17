@@ -2,7 +2,25 @@ name: Validate
 on: [push, pull_request, workflow_dispatch]
 jobs:
   validate_structure:
+    runs-on: ubuntu-24.04
+    strategy:
+      matrix:
+        python-version: [ "3.13" ]
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v4
+
+      - name: set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: run structure validator
+        run: python3 .github/workflows/scripts/structure_validator.py
+
+  validate_order_duplication:
     runs-on: ubuntu-22.04
+    needs: validate_structure
     strategy:
       matrix:
         python-version: [ "3.12" ]
@@ -15,21 +33,42 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
 
-      - name: run structure validator
-        run: python3 .github/workflows/scripts/structure_validator.py
+      - name: run order validator
+        run: python3 .github/workflows/scripts/order_validator.py src/technologies
 
-  validate_categories:
-    runs-on: ubuntu-22.04
+  validate_schema:
+    runs-on: ubuntu-24.04
     needs: validate_structure
     strategy:
       matrix:
-        python-version: [ "3.12" ]
+        python-version: [ "3.13" ]
     steps:
       - name: checkout repository
         uses: actions/checkout@v4
 
       - name: set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: install dependencies
+        run: python3 -m pip install jsonschema
+
+      - name: run schema validator
+        run: python3 .github/workflows/scripts/schema_validator.py
+
+  validate_categories:
+    runs-on: ubuntu-24.04
+    needs: validate_structure
+    strategy:
+      matrix:
+        python-version: [ "3.13" ]
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v4
+
+      - name: set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v6
         with:
           python-version: ${{ matrix.python-version }}
 
@@ -37,17 +76,17 @@ jobs:
         run: python3 .github/workflows/scripts/category_validator.py
 
   validate_groups:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     needs: validate_structure
     strategy:
       matrix:
-        python-version: [ "3.12" ]
+        python-version: [ "3.13" ]
     steps:
       - name: checkout repository
         uses: actions/checkout@v4
 
       - name: set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: ${{ matrix.python-version }}
 
@@ -59,19 +98,19 @@ jobs:
     uses: ./.github/workflows/tech_matrix_prep.yml
 
   validate_techs:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     needs: tech_matrix_prep
     strategy:
       max-parallel: 20
       matrix:
         file_name: ${{ fromJson(needs.tech_matrix_prep.outputs.technologies) }}
-        python-version: [ "3.12" ]
+        python-version: [ "3.13" ]
     steps:
       - name: checkout repository
         uses: actions/checkout@v4
 
       - name: set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: ${{ matrix.python-version }}
 
@@ -81,17 +120,17 @@ jobs:
           TECH_FILE_NAME: ${{ matrix.file_name }}
 
   validate_icon_path:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     needs: validate_techs
     strategy:
       matrix:
-        python-version: [ "3.12" ]
+        python-version: [ "3.13" ]
     steps:
       - name: checkout repository
         uses: actions/checkout@v4
 
       - name: set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: ${{ matrix.python-version }}
 

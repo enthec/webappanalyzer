@@ -1,40 +1,4 @@
 {
-  "ZK": {
-    "cats": [
-      18
-    ],
-    "description": "ZK is a framework for building rich, interactive web applications using Java, providing a set of tools and components to create dynamic user interfaces.",
-    "html": [
-      "<!-- ZK [.\\d\\s]+-->"
-    ],
-    "icon": "ZK.svg",
-    "implies": [
-      "Java"
-    ],
-    "oss": true,
-    "scriptSrc": [
-      "zkau/"
-    ],
-    "website": "https://zkoss.org"
-  },
-  "ZURB Foundation": {
-    "cats": [
-      66
-    ],
-    "description": "Zurb Foundation is used to prototype in the browser. Allows rapid creation of websites or applications while leveraging mobile and responsive technology. The front end framework is the collection of HTML, CSS, and Javascript containing design patterns.",
-    "dom": [
-      "link[href*='foundation'][href*='css']"
-    ],
-    "html": [
-      "<link[^>]+foundation[^>\"]+css",
-      "<div [^>]*class=\"[^\"]*(?:small|medium|large)-\\d{1,2} columns"
-    ],
-    "icon": "ZURBFoundation.svg",
-    "js": {
-      "Foundation.version": "([\\d.]+)\\;version:\\1"
-    },
-    "website": "https://foundation.zurb.com"
-  },
   "Zabbix": {
     "cats": [
       19
@@ -59,6 +23,40 @@
       "\\/zabbix\\/\\;confidence:30"
     ],
     "website": "https://zabbix.com"
+  },
+  "Zad": {
+    "cats": [
+      6
+    ],
+    "description": "Zad is an ecommerce platform designed to enable setup and management of secure online stores for businesses and entrepreneurs.",
+    "icon": "Zad.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": [
+      "zad\\.nyc3\\.digitaloceanspaces"
+    ],
+    "website": "https://zad.gg"
+  },
+  "Zadarma": {
+    "cats": [
+      30
+    ],
+    "description": "Zadarma is a VoIP service that provides cloud-based voice communications for businesses, supporting internet calling, virtual phone numbers, and call management features.",
+    "icon": "Zadarma.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "my\\.zadarma\\.com"
+    ],
+    "website": "https://zadarma.com"
   },
   "Zakeke": {
     "cats": [
@@ -176,6 +174,18 @@
     ],
     "website": "https://www.zalify.com"
   },
+  "Zammad": {
+    "cats": [
+      13
+    ],
+    "description": "Zammad is a web-based, open-source support and ticketing system designed for managing user inquiries and organizing customer service workflows.",
+    "dom": [
+      "script[id*='zammad_form_script']"
+    ],
+    "icon": "Zammad.svg",
+    "saas": true,
+    "website": "https://zammad.org"
+  },
   "Zammit": {
     "cats": [
       6
@@ -226,6 +236,27 @@
       "app\\.zapiet\\.com"
     ],
     "website": "https://www.zapiet.com"
+  },
+  "Zapnito": {
+    "cats": [
+      32
+    ],
+    "description": "Zapnito is a platform that enables B2B organizations to manage and scale digital engagement, education, and community-driven growth through integrated content and experience tools.",
+    "icon": "Zapnito.svg",
+    "js": {
+      "webpackChunkzapnito_web": "",
+      "zapnito.abilities": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scripts": [
+      "\\.zapnito\\.com"
+    ],
+    "website": "https://zapnito.com"
   },
   "Zarla": {
     "cats": [
@@ -365,23 +396,23 @@
     "dom": {
       "img[src*='getzenbasket.com']": {
         "attributes": {
-          "src": "(?:cdn\\.|assets\\.|[a-z]{2}\\.images\\.)getzenbasket\\.com;confidence:50"
+          "src": "(?:cdn\\.|assets\\.|[a-z]{2}\\.images\\.)getzenbasket\\.com\\;confidence:50"
         }
       },
       "link[href*='getzenbasket.com']": {
         "attributes": {
-          "href": "(?:cdn\\.|assets\\.|[a-z]{2}\\.images\\.)getzenbasket\\.com;confidence:50"
+          "href": "(?:cdn\\.|assets\\.|[a-z]{2}\\.images\\.)getzenbasket\\.com\\;confidence:50"
         }
       }
     },
-    "icon": "zenbasket.svg",
+    "icon": "ZenBasket.svg",
     "js": {
       "ZenBasket": ";confidence:25",
       "ZenBasketApp": "",
       "ZenBasketStore": ""
     },
     "meta": {
-      "generator": "ZenBasket;confidence:50",
+      "generator": "ZenBasket\\;confidence:50",
       "zenbasket-platform": ""
     },
     "pricing": [
@@ -391,30 +422,16 @@
       "freemium"
     ],
     "saas": true,
+    "scripts": [
+      "\\.getzenbasket\\.com/"
+    ],
     "url": [
       "^https?//.+\\.getzenbasket\\.com"
     ],
-    "website": "https://www.getzenbasket.com",
+    "website": "https://getzenbasket.com",
     "xhr": [
       "\\.getzenbasket\\.com"
     ]
-  },
-  "ZenMaid": {
-    "cats": [
-      72
-    ],
-    "description": "ZenMaid is a residential cleaning scheduling software that helps manage appointments.",
-    "icon": "ZenMaid.svg",
-    "pricing": [
-      "low",
-      "recurring",
-      "poa"
-    ],
-    "saas": true,
-    "scripts": [
-      "app\\.zenmaid\\.com"
-    ],
-    "website": "https://get.zenmaid.com"
   },
   "Zenbooker": {
     "cats": [
@@ -572,6 +589,23 @@
     ],
     "website": "https://www.newzenler.com"
   },
+  "ZenMaid": {
+    "cats": [
+      72
+    ],
+    "description": "ZenMaid is a residential cleaning scheduling software that helps manage appointments.",
+    "icon": "ZenMaid.svg",
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scripts": [
+      "app\\.zenmaid\\.com"
+    ],
+    "website": "https://get.zenmaid.com"
+  },
   "Zenoti": {
     "cats": [
       72
@@ -602,6 +636,18 @@
       "widget\\.zenrez\\.com/"
     ],
     "website": "https://zenrez.com"
+  },
+  "Zensical": {
+    "cats": [
+      4
+    ],
+    "description": "Zensical is an open-source platform that enables scalable technical-writing systems designed to maintain uninterrupted workflow.",
+    "icon": "Zensical.svg",
+    "meta": {
+      "generator": "zensical-([\\d\\.]+)\\;version:\\1"
+    },
+    "oss": true,
+    "website": "https://zensical.org"
   },
   "Zentap": {
     "cats": [
@@ -732,23 +778,6 @@
     ],
     "website": "https://zeptojs.com"
   },
-  "ZestMoney": {
-    "cats": [
-      91
-    ],
-    "description": "ZestMoney is a fintech company that uses digital EMI without the need for a credit card or a credit score.",
-    "icon": "ZestMoney.svg",
-    "js": {
-      "ZestMoneyWidget": "",
-      "zestBind": "",
-      "zestMerchant": ""
-    },
-    "pricing": [
-      "freemium"
-    ],
-    "saas": true,
-    "website": "https://www.zestmoney.in"
-  },
   "Zestard": {
     "cats": [
       6
@@ -766,6 +795,23 @@
       "zestardshop\\.com/shopifyapp"
     ],
     "website": "https://www.zestardshop.com"
+  },
+  "ZestMoney": {
+    "cats": [
+      91
+    ],
+    "description": "ZestMoney is a fintech company that uses digital EMI without the need for a credit card or a credit score.",
+    "icon": "ZestMoney.svg",
+    "js": {
+      "ZestMoneyWidget": "",
+      "zestBind": "",
+      "zestMerchant": ""
+    },
+    "pricing": [
+      "freemium"
+    ],
+    "saas": true,
+    "website": "https://www.zestmoney.in"
   },
   "Zeta Producer": {
     "cats": [
@@ -820,6 +866,18 @@
     ],
     "website": "https://www.zevi.ai"
   },
+  "Zevioo": {
+    "cats": [
+      32
+    ],
+    "description": "Zevioo is an AI-powered platform that helps ecommerce stores improve conversions, customer loyalty, and revenue through automated optimization and data-driven personalization.",
+    "icon": "Zevioo.svg",
+    "saas": true,
+    "scriptSrc": [
+      "zevioo\\.com/"
+    ],
+    "website": "https://zevioo.com"
+  },
   "Ziadah": {
     "cats": [
       6,
@@ -836,6 +894,26 @@
       "\\.ziadah\\.app/"
     ],
     "website": "https://www.ziadah.app"
+  },
+  "Ziber": {
+    "cats": [
+      21
+    ],
+    "description": "Ziber is an education platform that connects professionals, educators, and organizations involved in childcare and primary education through a centralized digital ecosystem.",
+    "icon": "Ziber.svg",
+    "js": {
+      "ZiberTracker.getTracker": ""
+    },
+    "meta": {
+      "generator": "^ZIBER$"
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://ziber.eu"
   },
   "Zid": {
     "cats": [
@@ -972,26 +1050,6 @@
     ],
     "website": "https://www.zip.co/"
   },
-  "ZipWP": {
-    "cats": [
-      51
-    ],
-    "description": "ZipWP is a website builder that enables creation of professional sites with extensive customization options and no coding required.",
-    "icon": "ZipWP.svg",
-    "pricing": [
-      "onetime",
-      "low",
-      "recurring"
-    ],
-    "requires": [
-      "WordPress"
-    ],
-    "saas": true,
-    "scripts": [
-      "app\\.zipwp\\.com"
-    ],
-    "website": "https://zipwp.com"
-  },
   "Zipchat": {
     "cats": [
       52
@@ -1061,6 +1119,25 @@
     "icon": "Zipkin.png",
     "website": "https://zipkin.io/"
   },
+  "Zipleads": {
+    "cats": [
+      32
+    ],
+    "description": "Zipleads is a lead conversion platform that helps businesses capture, manage, and convert potential customers through automated lead tracking and engagement tools.",
+    "icon": "Zipleads.svg",
+    "meta": {
+      "author": "^ZipLeads$"
+    },
+    "pricing": [
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scripts": [
+      "app\\.zipleads\\.com\\.au"
+    ],
+    "website": "https://zipleads.com.au"
+  },
   "Zipteams": {
     "cats": [
       52
@@ -1076,6 +1153,44 @@
     ],
     "saas": true,
     "website": "https://zipteams.com"
+  },
+  "ZipWP": {
+    "cats": [
+      51
+    ],
+    "description": "ZipWP is a website builder that enables creation of professional sites with extensive customization options and no coding required.",
+    "icon": "ZipWP.svg",
+    "pricing": [
+      "onetime",
+      "low",
+      "recurring"
+    ],
+    "requires": [
+      "WordPress"
+    ],
+    "saas": true,
+    "scripts": [
+      "app\\.zipwp\\.com"
+    ],
+    "website": "https://zipwp.com"
+  },
+  "ZK": {
+    "cats": [
+      18
+    ],
+    "description": "ZK is a framework for building rich, interactive web applications using Java, providing a set of tools and components to create dynamic user interfaces.",
+    "html": [
+      "<!-- ZK [.\\d\\s]+-->"
+    ],
+    "icon": "ZK.svg",
+    "implies": [
+      "Java"
+    ],
+    "oss": true,
+    "scriptSrc": [
+      "zkau/"
+    ],
+    "website": "https://zkoss.org"
   },
   "Zmags Creator": {
     "cats": [
@@ -1095,6 +1210,22 @@
       "c(?:reator)?\\.zmags\\.com/"
     ],
     "website": "https://www.creatorbyzmags.com"
+  },
+  "Znode": {
+    "cats": [
+      6
+    ],
+    "description": "Znode is a provider of enterprise .NET-based shopping cart systems for building and managing online commerce platforms.",
+    "icon": "Znode.svg",
+    "js": {
+      "ZnodeAjaxify": "",
+      "ZnodeBase": ""
+    },
+    "requires": [
+      "Microsoft ASP.NET"
+    ],
+    "saas": true,
+    "website": "https://www.znode.com"
   },
   "Zocdoc": {
     "cats": [
@@ -1501,6 +1632,18 @@
     "saas": true,
     "website": "https://getzowie.com"
   },
+  "Zozi": {
+    "cats": [
+      72
+    ],
+    "description": "Zozi is a bookings widget and calendar used to manage reservations, availability, and scheduling.",
+    "icon": "Zozi.svg",
+    "saas": true,
+    "scriptSrc": [
+      "a\\.zozi\\.com"
+    ],
+    "website": "https://zozi.com"
+  },
   "Zozo": {
     "cats": [
       6
@@ -1542,6 +1685,22 @@
     ],
     "website": "https://zuberance.com"
   },
+  "Zulip": {
+    "cats": [
+      52
+    ],
+    "description": "Zulip is a team chat platform that organizes conversations into topic-based threads to support asynchronous communication for distributed teams.",
+    "icon": "Zulip.svg",
+    "pricing": [
+      "recurring",
+      "freemium"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "zulip\\.futo\\.org"
+    ],
+    "website": "https://zulip.com/"
+  },
   "Zuora": {
     "cats": [
       41
@@ -1572,6 +1731,24 @@
     "saas": true,
     "website": "https://www.zuppler.com"
   },
+  "ZURB Foundation": {
+    "cats": [
+      66
+    ],
+    "description": "Zurb Foundation is used to prototype in the browser. Allows rapid creation of websites or applications while leveraging mobile and responsive technology. The front end framework is the collection of HTML, CSS, and Javascript containing design patterns.",
+    "dom": [
+      "link[href*='foundation'][href*='css']"
+    ],
+    "html": [
+      "<link[^>]+foundation[^>\"]+css",
+      "<div [^>]*class=\"[^\"]*(?:small|medium|large)-\\d{1,2} columns"
+    ],
+    "icon": "ZURBFoundation.svg",
+    "js": {
+      "Foundation.version": "([\\d.]+)\\;version:\\1"
+    },
+    "website": "https://foundation.zurb.com"
+  },
   "Zurple": {
     "cats": [
       32
@@ -1598,5 +1775,17 @@
       "/zwayam\\.min\\.js"
     ],
     "website": "https://www.zwayam.com"
+  },
+  "Zyratalk": {
+    "cats": [
+      90
+    ],
+    "description": "Zyratalk is a tool for handling customer conversations and managing reviews to support organized feedback tracking.",
+    "icon": "Zyratalk.svg",
+    "saas": true,
+    "scriptSrc": [
+      "\\.zyratalk\\.com"
+    ],
+    "website": "https://www.zyratalk.com"
   }
 }

@@ -1,4 +1,22 @@
 {
+  "k-eCommerce": {
+    "cats": [
+      6
+    ],
+    "description": "k-eCommerce is mdf commerce’s platform for SMBs, providing all-in-one ecommerce and digital payment solutions integrated to Microsoft Dynamics and SAP Business One. ",
+    "dom": [
+      "a[href*='.k-ecommerce.com/'][target='_blank']"
+    ],
+    "icon": "k-eCommerce.svg",
+    "meta": {
+      "generator": "k-eCommerce"
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.k-ecommerce.com"
+  },
   "K-Sup": {
     "cats": [
       1
@@ -30,158 +48,6 @@
       "K2RatingURL": ""
     },
     "website": "https://getk2.org"
-  },
-  "KAMAR": {
-    "cats": [
-      21
-    ],
-    "description": "KAMAR is a Student Management System utilised by secondary schools.",
-    "icon": "KAMAR.svg",
-    "js": {
-      "KAMAR.has_address_ben_found": ""
-    },
-    "pricing": [
-      "poa"
-    ],
-    "saas": true,
-    "website": "https://kamar.nz"
-  },
-  "KISSmetrics": {
-    "cats": [
-      10
-    ],
-    "icon": "KISSmetrics.png",
-    "js": {
-      "KM_COOKIE_DOMAIN": ""
-    },
-    "website": "https://www.kissmetrics.com"
-  },
-  "KIT CMS": {
-    "cats": [
-      1
-    ],
-    "description": "KIT CMS is a .NET-based content management system created by Kontrolit.net for building and managing dynamic websites and digital content.",
-    "icon": "KITCMS.svg",
-    "meta": {
-      "generator": "^Kontrolit KIT CMS$"
-    },
-    "saas": true,
-    "website": "https://www.kontrolit.net"
-  },
-  "KKTIX": {
-    "cats": [
-      104
-    ],
-    "description": "KKTIX is a Taiwanese software platform that provides online ticketing and event management solutions.",
-    "icon": "KKTIX.svg",
-    "pricing": [
-      "freemium",
-      "low",
-      "recurring"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "assets\\.kktix\\.io"
-    ],
-    "website": "https://kktix.com"
-  },
-  "KMK": {
-    "cats": [
-      6
-    ],
-    "description": "KMK is a company that offers ecommerce software technology in C2C, B2B, B2C areas.",
-    "dns": {
-      "NS": [
-        "ns\\d\\.kmkhosting\\.net"
-      ],
-      "SOA": [
-        "ns\\d\\.kmkhosting\\.net"
-      ]
-    },
-    "dom": [
-      "a[href*='.kmk.net.tr/'][target='_blank'], div#kmkCopyright"
-    ],
-    "icon": "KMK.svg",
-    "pricing": [
-      "recurring",
-      "poa"
-    ],
-    "saas": true,
-    "website": "https://www.kmk.net.tr"
-  },
-  "KPHP": {
-    "cats": [
-      27
-    ],
-    "description": "KPHP (kPHP or KittenPHP) is a free PHP-to- C++ source-to-source translator, developed by VKontakte.",
-    "headers": {
-      "x-powered-by": "^KPHP/([\\d\\.]+)$\\;version:\\1"
-    },
-    "icon": "default.svg",
-    "implies": [
-      "PHP"
-    ],
-    "oss": true,
-    "website": "https://vkcom.github.io/kphp"
-  },
-  "KQS.store": {
-    "cats": [
-      6
-    ],
-    "description": "KQS.store is an ecommerce software.",
-    "dom": [
-      "a[href*='kqsdesign.pl'][target='_blank']",
-      "a[href*='kqs.pl'][target='_blank']",
-      "#kqs-box,kqs-cookie"
-    ],
-    "icon": "KQS.store.svg",
-    "js": {
-      "kqs_box": "\\;confidence:50",
-      "kqs_off": "\\;confidence:50"
-    },
-    "pricing": [
-      "onetime"
-    ],
-    "saas": false,
-    "website": "https://www.kqs.pl"
-  },
-  "KUKUI": {
-    "cats": [
-      32
-    ],
-    "description": "KUKUI is an all-in-one solution designed to enhance profitability, streamline lead management, and boost customer engagement for shop marketing.",
-    "icon": "KUKUI.svg",
-    "pricing": [
-      "poa"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "\\.kukui\\.com/"
-    ],
-    "website": "https://www.kukui.com"
-  },
-  "KaTeX": {
-    "cats": [
-      25
-    ],
-    "description": "KaTeX is a cross-browser JavaScript library that displays mathematical notation in web browsers.",
-    "dom": {
-      "link[href*=katex]": {
-        "attributes": {
-          "href": "katex(?:\\.min)?\\.css"
-        }
-      }
-    },
-    "icon": "KaTeX.svg",
-    "js": {
-      "katex": "",
-      "katex.version": "^(.+)$\\;version:\\1"
-    },
-    "oss": true,
-    "scriptSrc": [
-      "katex(@|/)[0-9.]+(?:/dist)?/katex(?:\\.min)?\\.(mjs|js|css)\\;version:\\1"
-    ],
-    "website": "https://katex.org/"
   },
   "Kadence WP Blocks": {
     "cats": [
@@ -385,6 +251,21 @@
     ],
     "website": "https://corp.kaltura.com"
   },
+  "KAMAR": {
+    "cats": [
+      21
+    ],
+    "description": "KAMAR is a Student Management System utilised by secondary schools.",
+    "icon": "KAMAR.svg",
+    "js": {
+      "KAMAR.has_address_ben_found": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://kamar.nz"
+  },
   "Kameleoon": {
     "cats": [
       74
@@ -400,6 +281,7 @@
     "js": {
       "Kameleoon.Gatherer.SCRIPT_VERSION": "(.+)\\;version:\\1",
       "kameleoonEndLoadTime": "",
+      "kameleoonIframeURL": "",
       "kameleoonS": ""
     },
     "pricing": [
@@ -490,6 +372,25 @@
     "icon": "KanzOboz.svg",
     "saas": true,
     "website": "https://kanzoboz.ru"
+  },
+  "Kapa.ai": {
+    "cats": [
+      29
+    ],
+    "description": "Kapa.ai is a platform that converts documents into an LLM-powered chatbot for information retrieval and question answering.",
+    "icon": "Kapa.svg",
+    "js": {
+      "Kapa": "",
+      "KapaWidget.init": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "widget\\.kapa\\.ai"
+    ],
+    "website": "https://www.kapa.ai"
   },
   "Kapix Studio": {
     "cats": [
@@ -697,6 +598,46 @@
     ],
     "website": "https://cocolive.co.jp/"
   },
+  "KaTeX": {
+    "cats": [
+      25
+    ],
+    "description": "KaTeX is a cross-browser JavaScript library that displays mathematical notation in web browsers.",
+    "dom": {
+      "link[href*=katex]": {
+        "attributes": {
+          "href": "katex(?:\\.min)?\\.css"
+        }
+      }
+    },
+    "icon": "KaTeX.svg",
+    "js": {
+      "katex": "",
+      "katex.version": "^(.+)$\\;version:\\1"
+    },
+    "oss": true,
+    "scriptSrc": [
+      "katex(@|/)[0-9.]+(?:/dist)?/katex(?:\\.min)?\\.(mjs|js|css)\\;version:\\1"
+    ],
+    "website": "https://katex.org/"
+  },
+  "Kauz": {
+    "cats": [
+      52
+    ],
+    "description": "Kauz is a self-service platform for businesses to manage and train AI assistants across different operational needs.",
+    "icon": "Kauz.svg",
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.kauz\\.ai"
+    ],
+    "website": "https://kauz.ai"
+  },
   "KeaBuilder": {
     "cats": [
       32
@@ -764,6 +705,21 @@
     },
     "oss": true,
     "website": "https://keen-slider.io"
+  },
+  "keep. archeevo": {
+    "cats": [
+      95
+    ],
+    "description": "keep. archeevo is an archival management software that aims to support all the functional areas of an archival institution, covering activities ranging from archival description to employee performance assessment.",
+    "icon": "keep. archeevo.png",
+    "js": {
+      "ArcheevoSnippets.mostviewedDocumentsURL": "",
+      "embedArcheevoBasicSearch": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "website": "https://www.keep.pt/en/produts/archeevo-archival-management-software"
   },
   "Keepeek": {
     "cats": [
@@ -994,33 +950,6 @@
     ],
     "website": "https://www.kevel.com"
   },
-  "KeyCDN": {
-    "cats": [
-      31
-    ],
-    "description": "KeyCDN is a content delivery network (CDN).",
-    "headers": {
-      "Server": "^keycdn-engine$"
-    },
-    "icon": "KeyCDN.svg",
-    "website": "https://www.keycdn.com"
-  },
-  "KeyReply": {
-    "cats": [
-      52
-    ],
-    "description": "KeyReply is a mobile-friendly chat widget that enables websites to provide real-time messaging and user support across devices.",
-    "icon": "KeyReply.svg",
-    "pricing": [
-      "low",
-      "recurring"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "keyreply\\.com/chat/widget\\.js"
-    ],
-    "website": "https://www.keyreply.com"
-  },
   "Keybase": {
     "cats": [
       16
@@ -1039,6 +968,17 @@
     ],
     "saas": true,
     "website": "https://keybase.io/"
+  },
+  "KeyCDN": {
+    "cats": [
+      31
+    ],
+    "description": "KeyCDN is a content delivery network (CDN).",
+    "headers": {
+      "Server": "^keycdn-engine$"
+    },
+    "icon": "KeyCDN.svg",
+    "website": "https://www.keycdn.com"
   },
   "Keymailer": {
     "cats": [
@@ -1061,6 +1001,22 @@
     ],
     "saas": true,
     "website": "https://keymailer.co"
+  },
+  "KeyReply": {
+    "cats": [
+      52
+    ],
+    "description": "KeyReply is a mobile-friendly chat widget that enables websites to provide real-time messaging and user support across devices.",
+    "icon": "KeyReply.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "keyreply\\.com/chat/widget\\.js"
+    ],
+    "website": "https://www.keyreply.com"
   },
   "Keyvos": {
     "cats": [
@@ -1251,7 +1207,7 @@
     ],
     "saas": true,
     "scripts": [
-      "api\\.kimonix\\.com"
+      "\\.kimonix\\.com"
     ],
     "website": "https://www.kimonix.com"
   },
@@ -1346,6 +1302,18 @@
     ],
     "website": "https://www.kiosked.com"
   },
+  "Kiprotect": {
+    "cats": [
+      16
+    ],
+    "description": "Kiprotect is a software platform that provides data protection and data security capabilities for safeguarding digital information.",
+    "icon": "Kiprotect.svg",
+    "saas": true,
+    "scriptSrc": [
+      "cdn\\.kiprotect\\.com"
+    ],
+    "website": "https://kiprotect.com"
+  },
   "Kirby": {
     "cats": [
       1
@@ -1386,6 +1354,45 @@
       "/wp-content/plugins/kirki/"
     ],
     "website": "https://kirki.org"
+  },
+  "KISSmetrics": {
+    "cats": [
+      10
+    ],
+    "icon": "KISSmetrics.png",
+    "js": {
+      "KM_COOKIE_DOMAIN": ""
+    },
+    "website": "https://www.kissmetrics.com"
+  },
+  "Kit": {
+    "cats": [
+      32
+    ],
+    "description": "Kit is a platform that provides email, mobile, and social list management tools for organizing, managing, and engaging contact audiences across digital communication channels.",
+    "icon": "Kit.svg",
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "www\\.fanbridge\\.com/"
+    ],
+    "website": "https://kit.com/fanbridge"
+  },
+  "KIT CMS": {
+    "cats": [
+      1
+    ],
+    "description": "KIT CMS is a .NET-based content management system created by Kontrolit.net for building and managing dynamic websites and digital content.",
+    "icon": "KITCMS.svg",
+    "meta": {
+      "generator": "^Kontrolit KIT CMS$"
+    },
+    "saas": true,
+    "website": "https://www.kontrolit.net"
   },
   "Kitcart": {
     "cats": [
@@ -1460,6 +1467,18 @@
     ],
     "website": "https://www.kiwisizing.com"
   },
+  "Kiwify": {
+    "cats": [
+      21
+    ],
+    "description": "Kiwify is an AI-powered platform for creators and students that provides smart tools to support teaching, learning, and content creation.",
+    "icon": "Kiwify.svg",
+    "saas": true,
+    "scripts": [
+      "\\.kiwify\\.com\\.br"
+    ],
+    "website": "https://kiwify.com.br"
+  },
   "Kizen": {
     "cats": [
       32,
@@ -1478,6 +1497,23 @@
     ],
     "saas": true,
     "website": "https://kizen.com"
+  },
+  "KKTIX": {
+    "cats": [
+      104
+    ],
+    "description": "KKTIX is a Taiwanese software platform that provides online ticketing and event management solutions.",
+    "icon": "KKTIX.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "assets\\.kktix\\.io"
+    ],
+    "website": "https://kktix.com"
   },
   "Klangoo": {
     "cats": [
@@ -1675,6 +1711,24 @@
     ],
     "website": "https://www.klaviyo.com/product-reviews"
   },
+  "Kleecks": {
+    "cats": [
+      6
+    ],
+    "description": "Kleecks is a next-generation ecommerce performance and UX optimization platform designed to enhance site speed, streamline user interactions, and support scalable digital operations.",
+    "icon": "Kleecks.svg",
+    "meta": {
+      "generator": "^Kleecks$"
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.kleecks-stats\\.com"
+    ],
+    "website": "https://www.kleecks.com"
+  },
   "Kleeja": {
     "cats": [
       1
@@ -1726,6 +1780,21 @@
     ],
     "website": "https://www.klevu.com"
   },
+  "Klickly": {
+    "cats": [
+      36
+    ],
+    "description": "Klickly is an invite-only, commission-based advertising platform.",
+    "icon": "Klickly.svg",
+    "pricing": [
+      "payg"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "analytics\\.klickly\\.com/pixel\\.js\\?v=([\\d\\.]+)\\;version:\\1"
+    ],
+    "website": "https://www.klickly.com"
+  },
   "KlickPages": {
     "cats": [
       32,
@@ -1767,21 +1836,6 @@
       "assets\\.klicktipp\\.com/"
     ],
     "website": "https://www.klicktipp.com"
-  },
-  "Klickly": {
-    "cats": [
-      36
-    ],
-    "description": "Klickly is an invite-only, commission-based advertising platform.",
-    "icon": "Klickly.svg",
-    "pricing": [
-      "payg"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "analytics\\.klickly\\.com/pixel\\.js\\?v=([\\d\\.]+)\\;version:\\1"
-    ],
-    "website": "https://www.klickly.com"
   },
   "Kliken": {
     "cats": [
@@ -1826,6 +1880,30 @@
       "\\.klook\\.com/"
     ],
     "website": "https://www.klook.com"
+  },
+  "KMK": {
+    "cats": [
+      6
+    ],
+    "description": "KMK is a company that offers ecommerce software technology in C2C, B2B, B2C areas.",
+    "dns": {
+      "NS": [
+        "ns\\d\\.kmkhosting\\.net"
+      ],
+      "SOA": [
+        "ns\\d\\.kmkhosting\\.net"
+      ]
+    },
+    "dom": [
+      "a[href*='.kmk.net.tr/'][target='_blank'], div#kmkCopyright"
+    ],
+    "icon": "KMK.svg",
+    "pricing": [
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.kmk.net.tr"
   },
   "Knack": {
     "cats": [
@@ -1875,25 +1953,6 @@
     "saas": true,
     "website": "https://www.knockcrm.com"
   },
-  "KnoCommerce": {
-    "cats": [
-      73
-    ],
-    "description": "KnoCommerce is a post-purchase surveys system designed to collect customer feedback.",
-    "icon": "KnoCommerce.svg",
-    "js": {
-      "Kno.survey": ""
-    },
-    "pricing": [
-      "mid",
-      "recurring"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "www\\.knocdn\\.com"
-    ],
-    "website": "https://knocommerce.com"
-  },
   "Knock": {
     "cats": [
       32
@@ -1941,6 +2000,25 @@
     },
     "oss": true,
     "website": "https://knockoutjs.com"
+  },
+  "KnoCommerce": {
+    "cats": [
+      73
+    ],
+    "description": "KnoCommerce is a post-purchase surveys system designed to collect customer feedback.",
+    "icon": "KnoCommerce.svg",
+    "js": {
+      "Kno.survey": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "www\\.knocdn\\.com"
+    ],
+    "website": "https://knocommerce.com"
   },
   "Knoma": {
     "cats": [
@@ -2003,6 +2081,7 @@
       18,
       22
     ],
+    "cpe": "cpe:2.3:a:koajs:koa:*:*:*:*:*:node.js:*:*",
     "headers": {
       "X-Powered-By": "^koa$"
     },
@@ -2274,6 +2353,7 @@
     "cats": [
       64
     ],
+    "cpe": "cpe:2.3:a:konghq:kong:*:*:*:*:*:*:*:*",
     "description": "Kong is an open-source API gateway and platform that acts as middleware between compute clients and the API-centric applications.",
     "headers": {
       "via": "^kong/([\\d\\.]+)(?:.+)?$\\;version:\\1"
@@ -2478,6 +2558,42 @@
     ],
     "website": "https://kount.com"
   },
+  "KPHP": {
+    "cats": [
+      27
+    ],
+    "description": "KPHP (kPHP or KittenPHP) is a free PHP-to- C++ source-to-source translator, developed by VKontakte.",
+    "headers": {
+      "x-powered-by": "^KPHP/([\\d\\.]+)$\\;version:\\1"
+    },
+    "icon": "default.svg",
+    "implies": [
+      "PHP"
+    ],
+    "oss": true,
+    "website": "https://vkcom.github.io/kphp"
+  },
+  "KQS.store": {
+    "cats": [
+      6
+    ],
+    "description": "KQS.store is an ecommerce software.",
+    "dom": [
+      "a[href*='kqsdesign.pl'][target='_blank']",
+      "a[href*='kqs.pl'][target='_blank']",
+      "#kqs-box,kqs-cookie"
+    ],
+    "icon": "KQS.store.svg",
+    "js": {
+      "kqs_box": "\\;confidence:50",
+      "kqs_off": "\\;confidence:50"
+    },
+    "pricing": [
+      "onetime"
+    ],
+    "saas": false,
+    "website": "https://www.kqs.pl"
+  },
   "Kreatio": {
     "cats": [
       1
@@ -2644,6 +2760,21 @@
     ],
     "website": "https://kueskipay.com/"
   },
+  "KUKUI": {
+    "cats": [
+      32
+    ],
+    "description": "KUKUI is an all-in-one solution designed to enhance profitability, streamline lead management, and boost customer engagement for shop marketing.",
+    "icon": "KUKUI.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.kukui\\.com/"
+    ],
+    "website": "https://www.kukui.com"
+  },
   "Kulea Marketing": {
     "cats": [
       32
@@ -2720,6 +2851,18 @@
     ],
     "website": "https://www.kustomer.com/"
   },
+  "KVCore": {
+    "cats": [
+      53
+    ],
+    "description": "KVCore is an all-in-one real estate technology platform for agents, teams, and brokers, offering CRM, lead generation, marketing automation, and transaction tools in a single system.",
+    "icon": "KVCore.svg",
+    "saas": true,
+    "scripts": [
+      "sociallogin\\.kvcore\\.com"
+    ],
+    "website": "https://kvcore.com"
+  },
   "Kwai pixel": {
     "cats": [
       10
@@ -2778,6 +2921,21 @@
     ],
     "website": "https://kwipped.com"
   },
+  "KYKLO": {
+    "cats": [
+      6
+    ],
+    "description": "KYKLO is a cloud-based ecommerce platform designed for the automation and electrical industry.",
+    "icon": "KYKLO.svg",
+    "js": {
+      "Kyklo.Branding": ""
+    },
+    "saas": true,
+    "scriptSrc": [
+      "\\.kyklo\\.co/"
+    ],
+    "website": "https://www.kyklo.co"
+  },
   "Kyvio": {
     "cats": [
       51
@@ -2794,38 +2952,5 @@
       "\\.kyvio\\.com"
     ],
     "website": "https://kyvio.com"
-  },
-  "k-eCommerce": {
-    "cats": [
-      6
-    ],
-    "description": "k-eCommerce is mdf commerce’s platform for SMBs, providing all-in-one ecommerce and digital payment solutions integrated to Microsoft Dynamics and SAP Business One. ",
-    "dom": [
-      "a[href*='.k-ecommerce.com/'][target='_blank']"
-    ],
-    "icon": "k-eCommerce.svg",
-    "meta": {
-      "generator": "k-eCommerce"
-    },
-    "pricing": [
-      "poa"
-    ],
-    "saas": true,
-    "website": "https://www.k-ecommerce.com"
-  },
-  "keep. archeevo": {
-    "cats": [
-      95
-    ],
-    "description": "keep. archeevo is an archival management software that aims to support all the functional areas of an archival institution, covering activities ranging from archival description to employee performance assessment.",
-    "icon": "keep. archeevo.png",
-    "js": {
-      "ArcheevoSnippets.mostviewedDocumentsURL": "",
-      "embedArcheevoBasicSearch": ""
-    },
-    "pricing": [
-      "poa"
-    ],
-    "website": "https://www.keep.pt/en/produts/archeevo-archival-management-software"
   }
 }

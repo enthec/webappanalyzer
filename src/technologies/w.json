@@ -1,4 +1,16 @@
 {
+  "W3 Ataiva": {
+    "cats": [
+      10
+    ],
+    "description": "W3 Ataiva is a website valuation and analysis tool that estimates site value, traffic metrics, and technical indicators using publicly available web data.",
+    "icon": "W3Ataiva.svg",
+    "saas": true,
+    "scriptSrc": [
+      "static\\.statvoo\\.com/"
+    ],
+    "website": "https://w3.ataiva.com"
+  },
   "W3 Total Cache": {
     "cats": [
       23,
@@ -45,706 +57,6 @@
       "w3counter\\.com/tracker\\.js"
     ],
     "website": "https://www.w3counter.com"
-  },
-  "WAR.PE": {
-    "cats": [
-      16
-    ],
-    "description": "WAR.PE is a platform designed to enhance the web experience by promoting user privacy and security.",
-    "icon": "WARPE.svg",
-    "saas": true,
-    "scriptSrc": [
-      "//war\\.pe/warp\\.js"
-    ],
-    "website": "https://war.pe"
-  },
-  "WEBDEV": {
-    "cats": [
-      20
-    ],
-    "description": "WEBDEV is a tool to develop internet and intranet sites and applications that support data and processes.",
-    "headers": {
-      "WebDevSrc": ""
-    },
-    "html": [
-      "<!-- [a-zA-Z0-9_]+ [\\d/]+ [\\d:]+ WebDev \\d\\d ([\\d.]+) -->\\;version:\\1"
-    ],
-    "icon": "webdev.svg",
-    "meta": {
-      "generator": "^WEBDEV$"
-    },
-    "website": "https://www.windev.com/webdev/index.html"
-  },
-  "WEBXPAY": {
-    "cats": [
-      41
-    ],
-    "description": "WEBXPAY is a specialised online payment gateway that expedites buying and selling in a highly secured environment.",
-    "icon": "WEBXPAY.png",
-    "js": {
-      "WEBXPAY": ""
-    },
-    "pricing": [
-      "payg",
-      "recurring"
-    ],
-    "saas": true,
-    "website": "https://webxpay.com"
-  },
-  "WEBrick": {
-    "cats": [
-      22
-    ],
-    "cpe": "cpe:2.3:a:ruby-lang:webrick:*:*:*:*:*:*:*:*",
-    "description": "WEBrick is a lightweight HTTP server library in Ruby, included in the standard library, primarily used for local development and testing of Ruby web applications.",
-    "headers": {
-      "Server": "^WEBrick/([\\d\\.]+)\\;version:\\1"
-    },
-    "icon": "Ruby.svg",
-    "oss": true,
-    "website": "https://docs.ruby-lang.org/en/2.4.0/WEBrick.html"
-  },
-  "WEN Themes Education Hub": {
-    "cats": [
-      80
-    ],
-    "description": "WEN Themes Education Hub is a clean and elegant WordPress education theme.",
-    "icon": "WEN Themes.svg",
-    "js": {
-      "EducationHubScreenReaderText": ""
-    },
-    "pricing": [
-      "freemium",
-      "onetime"
-    ],
-    "requires": [
-      "WordPress"
-    ],
-    "scriptSrc": [
-      "/wp-content/themes/education-hub(?:-pro)?/"
-    ],
-    "website": "https://wenthemes.com/item/wordpress-themes/education-hub"
-  },
-  "WEN Themes Signify Dark": {
-    "cats": [
-      80
-    ],
-    "description": "Signify Dark is a free dark blog and corporate WordPress theme that is trendy, responsive, and dynamic by WEN Themes.",
-    "icon": "WEN Themes.svg",
-    "js": {
-      "signifyOptions": ""
-    },
-    "pricing": [
-      "freemium",
-      "onetime"
-    ],
-    "requires": [
-      "WordPress"
-    ],
-    "website": "https://wenthemes.com/item/wordpress-themes/signify-dark"
-  },
-  "WHMCS": {
-    "cats": [
-      1
-    ],
-    "description": "WHMCS is an automation platform that simplifies and automates all aspects of operating an online web hosting and domain registrar business.",
-    "icon": "WHMCS.svg",
-    "js": {
-      "WHMCS": ""
-    },
-    "oss": true,
-    "pricing": [
-      "low",
-      "recurring"
-    ],
-    "website": "https://www.whmcs.com"
-  },
-  "WINEAROUND": {
-    "cats": [
-      93
-    ],
-    "description": "WINEAROUND is a booking software that enables businesses to manage online and offline reservations, schedule appointments, streamline operations, and enhance customer service for guided tours and activities.",
-    "icon": "WineAround.svg",
-    "js": {
-      "_winearoundDefaultLanguage": ""
-    },
-    "pricing": [
-      "freemium",
-      "mid",
-      "recurring"
-    ],
-    "saas": true,
-    "website": "https://winearound.com"
-  },
-  "WORKetc": {
-    "cats": [
-      53
-    ],
-    "description": "WORKetc is an all-in-one cloud computing platform offering web-based CRM, project management, and collaboration tools.",
-    "dom": [
-      "iframe[src*='.worketc.com/']"
-    ],
-    "icon": "WORKetc.svg",
-    "pricing": [
-      "mid",
-      "recurring"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "\\.worketc\\.com"
-    ],
-    "website": "https://www.worketc.com"
-  },
-  "WOW": {
-    "cats": [
-      12,
-      18,
-      25
-    ],
-    "description": "Reveal CSS animation as you scroll down a page.",
-    "oss": true,
-    "pricing": [
-      "low",
-      "onetime"
-    ],
-    "scriptSrc": [
-      "wow(?:\\.min)?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1"
-    ],
-    "website": "https://www.delac.io/WOW"
-  },
-  "WP Automatic": {
-    "cats": [
-      87
-    ],
-    "description": "WP Automatic is a WordPress plugin that automates the process of creating posts on your WordPress site by automatically fetching content from various sources like RSS feeds, Amazon, eBay, ClickBank, and more.",
-    "icon": "WP Automatic.svg",
-    "pricing": [
-      "onetime"
-    ],
-    "requires": [
-      "WordPress"
-    ],
-    "scriptSrc": [
-      "/wp-content/plugins/wp-automatic/"
-    ],
-    "website": "https://wpautomatic.com"
-  },
-  "WP Courseware": {
-    "cats": [
-      87,
-      21
-    ],
-    "description": "WP Courseware is an LMS plugin that allows novice and professional users to build online courses using its easy-to-use drag and drop course builder.",
-    "icon": "WP Courseware.svg",
-    "js": {
-      "wpcw_course_note_params.api_url": "/wp-json/wpcw/"
-    },
-    "pricing": [
-      "low",
-      "recurring"
-    ],
-    "requires": [
-      "WordPress"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "/wp-content/plugins/wp-courseware/.+frontend\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
-    ],
-    "website": "https://flyplugins.com/wp-courseware-wordpress-lms"
-  },
-  "WP Engine": {
-    "cats": [
-      62,
-      88
-    ],
-    "description": "WP Engine is a website hosting provider.",
-    "headers": {
-      "X-Pass-Why": "",
-      "X-Powered-By": "WP Engine",
-      "X-WPE-Loopback-Upstream-Addr": "",
-      "wpe-backend": ""
-    },
-    "icon": "wpengine.svg",
-    "implies": [
-      "WordPress"
-    ],
-    "website": "https://wpengine.com"
-  },
-  "WP Fastest Cache": {
-    "cats": [
-      87,
-      92
-    ],
-    "description": "WP Fastest Cache is one of a number of plugins for WordPress designed to accelerate the performance of your website.",
-    "dom": [
-      "link[href*='/wp-content/cache/wpfc-minified/']"
-    ],
-    "icon": "WP Fastest Cache.png",
-    "js": {
-      "Wpfcll": ""
-    },
-    "pricing": [
-      "freemium",
-      "onetime"
-    ],
-    "requires": [
-      "WordPress"
-    ],
-    "scriptSrc": [
-      "/wp-content/cache/wpfc-minified/"
-    ],
-    "website": "https://www.wpfastestcache.com"
-  },
-  "WP Featherlight": {
-    "cats": [
-      87
-    ],
-    "description": "WP Featherlight is a WordPress lightbox plugin for adding a minimal, high-performance, responsive jQuery lightbox to your WordPress website.",
-    "icon": "WP_Featherlight.svg",
-    "requires": [
-      "WordPress"
-    ],
-    "scriptSrc": [
-      "/wpFeatherlight\\.pkgd\\.min\\.js"
-    ],
-    "website": "https://wordpress.org/plugins/wp-featherlight"
-  },
-  "WP Google Map Embed": {
-    "cats": [
-      87
-    ],
-    "description": "WP Google Map Embed is a lightweight WordPress plugin for embedding Google Maps with custom markers via shortcodes in posts, pages, and sidebars.",
-    "dom": [
-      "link#wp-gmap-embed-front-css-css"
-    ],
-    "icon": "WP Google Map Embed.svg",
-    "implies": [
-      "Google Maps"
-    ],
-    "pricing": [
-      "freemium",
-      "onetime"
-    ],
-    "requires": [
-      "WordPress"
-    ],
-    "website": "https://wpgooglemap.com"
-  },
-  "WP Google Map Plugin": {
-    "cats": [
-      87
-    ],
-    "description": "WP Google Map Plugin allows you to create google maps shortcodes to display responsive google maps on pages, widgets and custom templates.",
-    "icon": "WP Google Map Plugin.png",
-    "implies": [
-      "Google Maps"
-    ],
-    "js": {
-      "wpgmp_local": ""
-    },
-    "pricing": [
-      "freemium",
-      "onetime"
-    ],
-    "requires": [
-      "WordPress"
-    ],
-    "scriptSrc": [
-      "/wp-content/plugins/wp-google-map-plugin/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
-    ],
-    "website": "https://www.wpmapspro.com"
-  },
-  "WP Grid Builder": {
-    "cats": [
-      87
-    ],
-    "description": "WP Grid Builder is a WordPress plugin that enables the creation of advanced grid layouts.",
-    "icon": "WpGridBuilder.svg",
-    "js": {
-      "WP_Grid_Builder": ""
-    },
-    "pricing": [
-      "low",
-      "recurring"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "/wp-content/plugins/wp-grid-builder/frontend/assets/js/layout\\.js\\?ver=([\\d.]+)\\;version:\\1"
-    ],
-    "website": "https://wpgridbuilder.com"
-  },
-  "WP Job Openings": {
-    "cats": [
-      87,
-      101
-    ],
-    "description": "WP Job Openings is a job listing and recruitment plugin for WordPress websites.",
-    "icon": "WP Job Openings.svg",
-    "js": {
-      "awsmJobs": ""
-    },
-    "pricing": [
-      "freemium",
-      "low",
-      "recurring",
-      "onetime"
-    ],
-    "requires": [
-      "WordPress"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "/wp-content/plugins/wp-job-openings/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
-    ],
-    "website": "https://wpjobopenings.com"
-  },
-  "WP Live Visitor Counter": {
-    "cats": [
-      87,
-      5
-    ],
-    "description": "WP Live Visitor Counter is a WordPress plugin that displays the number of online visitors on a website in real-time.",
-    "dom": [
-      "link[href*='/wp-content/plugins/wp-visitors-widget/']"
-    ],
-    "icon": "default.svg",
-    "requires": [
-      "WordPress"
-    ],
-    "website": "https://wordpress.org/plugins/wp-visitors-widget/"
-  },
-  "WP Maintenance Mode": {
-    "cats": [
-      87
-    ],
-    "description": "WP Maintenance Mode is a WordPress plugin which add a maintenance page to your blog.",
-    "icon": "WP Maintenance Mode.png",
-    "js": {
-      "wpmm_vars": ""
-    },
-    "oss": true,
-    "requires": [
-      "WordPress"
-    ],
-    "scriptSrc": [
-      "/wp-content/plugins/wp-maintenance-mode/.+wpmm\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
-    ],
-    "website": "https://github.com/andrianvaleanu/WP-Maintenance-Mode"
-  },
-  "WP Portfolio": {
-    "cats": [
-      87
-    ],
-    "description": "WP Portfolio is a premium standalone WordPress plugin designed for creating and showcasing portfolios.",
-    "icon": "WP Portfolio.svg",
-    "pricing": [
-      "mid",
-      "recurring",
-      "onetime"
-    ],
-    "requires": [
-      "WordPress"
-    ],
-    "scriptSrc": [
-      "/wp-content/plugins/astra-portfolio/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
-    ],
-    "website": "https://wpportfolio.net"
-  },
-  "WP Puzzle Basic": {
-    "cats": [
-      80
-    ],
-    "description": "WP Puzzle Basic is fully responsive, clean and minimal WordPress theme.",
-    "icon": "WP Puzzle.svg",
-    "pricing": [
-      "freemium",
-      "onetime"
-    ],
-    "requires": [
-      "WordPress"
-    ],
-    "scriptSrc": [
-      "/wp-content/themes/basic/"
-    ],
-    "website": "https://wp-puzzle.com/basic"
-  },
-  "WP Rocket": {
-    "cats": [
-      23,
-      87
-    ],
-    "description": "WP Rocket is a caching and performance optimisation plugin to improve the loading speed of WordPress websites.",
-    "dom": [
-      "style#wpr-usedcss"
-    ],
-    "headers": {
-      "X-Powered-By": "WP Rocket(?:/([\\d.]+))?\\;version:\\1",
-      "X-Rocket-Nginx-Bypass": ""
-    },
-    "html": [
-      "<!--[^>]+WP Rocket"
-    ],
-    "icon": "WP Rocket.svg",
-    "js": {
-      "RocketBrowserCompatibilityChecker": "",
-      "RocketLazyLoadScripts": "",
-      "RocketPreloadLinksConfig": "",
-      "rocket_lazy": "",
-      "rocket_lazyload_css_data": ""
-    },
-    "meta": {
-      "generator": "^WP Rocket ([\\d.]+)\\;version:\\1"
-    },
-    "pricing": [
-      "low",
-      "recurring"
-    ],
-    "requires": [
-      "WordPress"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "/wp-content/plugins/wp-rocket/"
-    ],
-    "website": "https://wp-rocket.me"
-  },
-  "WP-Optimize": {
-    "cats": [
-      87,
-      92
-    ],
-    "description": "WP-Optimize is an all-in-one WordPress plugin that cleans your database, compresses your large images and caches your site.",
-    "html": [
-      "<!--[^>]+Cached by WP-Optimize"
-    ],
-    "icon": "WP-Optimize.svg",
-    "pricing": [
-      "freemium",
-      "low",
-      "recurring"
-    ],
-    "requires": [
-      "WordPress"
-    ],
-    "website": "https://getwpo.com"
-  },
-  "WP-PageNavi": {
-    "cats": [
-      87
-    ],
-    "description": "WP-PageNavi is a WordPress plugin which adds a more advanced paging navigation interface to your WordPress blog.",
-    "dom": [
-      "link[href*='/wp-content/plugins/wp-pagenavi/']"
-    ],
-    "icon": "WP-PageNavi.svg",
-    "oss": true,
-    "requires": [
-      "WordPress"
-    ],
-    "website": "https://github.com/lesterchan/wp-pagenavi"
-  },
-  "WP-Royal Ashe": {
-    "cats": [
-      80
-    ],
-    "description": "WP-Royal Ashe is a personal and multi-author WordPress blog theme.",
-    "dom": [
-      "link#ashe-style-css"
-    ],
-    "icon": "WP-Royal.svg",
-    "js": {
-      "ashePreloader": "",
-      "asheStickySidebar": ""
-    },
-    "pricing": [
-      "freemium",
-      "onetime"
-    ],
-    "requires": [
-      "WordPress"
-    ],
-    "scriptSrc": [
-      "/wp-content/themes/ashe(?:-pro-premium)?/"
-    ],
-    "website": "https://wp-royal.com/themes/item-ashe-free"
-  },
-  "WP-Royal Bard": {
-    "cats": [
-      80
-    ],
-    "description": "WP-Royal Bard is a personal and multi-author WordPress blog theme.",
-    "dom": [
-      "link#bard-style-css, style#bard_predefined_custom_css"
-    ],
-    "icon": "WP-Royal.svg",
-    "pricing": [
-      "freemium",
-      "onetime"
-    ],
-    "requires": [
-      "WordPress"
-    ],
-    "scriptSrc": [
-      "/wp-content/themes/bard(?:-pro-premium)?/"
-    ],
-    "website": "https://wp-royal.com/themes/item-bard-free"
-  },
-  "WP-Statistics": {
-    "cats": [
-      10,
-      87
-    ],
-    "description": "WP-Statistics is a WordPress plugin which allows you to know your website statistics.",
-    "dom": [
-      "link[href*='/wp-content/plugins/wp-statistics/']"
-    ],
-    "html": [
-      "<!-- Analytics by WP-Statistics v([\\d\\.]+)\\;version:\\1"
-    ],
-    "icon": "WP-Statistics.svg",
-    "js": {
-      "WP_Statistics_http": "",
-      "wps_statistics_object": ""
-    },
-    "oss": true,
-    "pricing": [
-      "onetime"
-    ],
-    "requires": [
-      "WordPress"
-    ],
-    "website": "https://wp-statistics.com"
-  },
-  "WPCacheOn": {
-    "cats": [
-      23,
-      87
-    ],
-    "description": "WPCacheOn is a caching and performance optimisation plugin, which improves the loading speed of WordPress websites.",
-    "headers": {
-      "x-powered-by": "^Optimized by WPCacheOn"
-    },
-    "icon": "WPCacheOn.svg",
-    "requires": [
-      "WordPress"
-    ],
-    "website": "https://wpcacheon.io"
-  },
-  "WPForms": {
-    "cats": [
-      87,
-      110
-    ],
-    "cpe": "cpe:2.3:a:wpforms:wpforms:*:*:*:*:pro:wordpress:*:*",
-    "description": "WPForms is a drag and drop WordPress form builder.",
-    "icon": "WPForms.svg",
-    "js": {
-      "wpforms": "",
-      "wpforms_settings": ""
-    },
-    "pricing": [
-      "freemium",
-      "low",
-      "recurring"
-    ],
-    "requires": [
-      "WordPress"
-    ],
-    "scriptSrc": [
-      "/wp-content/plugins/wpforms(?:-lite)?/.+(?:frontend\\.min|wpforms)\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
-    ],
-    "website": "https://wpforms.com"
-  },
-  "WPML": {
-    "cats": [
-      87,
-      89
-    ],
-    "cookies": {
-      "wp-wpml_current_language": ""
-    },
-    "cpe": "cpe:2.3:a:wpml:wpml:*:*:*:*:*:wordpress:*:*",
-    "description": "WPML plugin makes it possible to build and run fully multilingual WordPress sites.",
-    "icon": "WPML.svg",
-    "meta": {
-      "generator": "^WPML\\sver\\:([\\d\\.]+)\\;version:\\1"
-    },
-    "oss": true,
-    "pricing": [
-      "low",
-      "recurring"
-    ],
-    "requires": [
-      "WordPress"
-    ],
-    "scriptSrc": [
-      "/wp-content/plugins/sitepress-multilingual-cms/"
-    ],
-    "website": "https://wpml.org/"
-  },
-  "WPMU DEV Smush": {
-    "cats": [
-      87
-    ],
-    "description": "WPMU DEV Smush is a WordPress plugin that allows you to optimise images without losing quality.",
-    "icon": "WPMU DEV.svg",
-    "pricing": [
-      "freemium",
-      "low",
-      "recurring"
-    ],
-    "requires": [
-      "WordPress"
-    ],
-    "scriptSrc": [
-      "/wp-content/plugins/wp-smushit(?:-pro)?/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
-    ],
-    "website": "https://wpmudev.com/project/wp-smush-pro"
-  },
-  "WPS Visitor Counter": {
-    "cats": [
-      87
-    ],
-    "description": "WPS Visitor Counter is a plugin for WordPress that counts the number of visitors to a website.",
-    "icon": "WPS Visitor Counter.png",
-    "js": {
-      "wpspagevisit": ""
-    },
-    "requires": [
-      "WordPress"
-    ],
-    "website": "https://wordpress.org/plugins/wps-visitor-counter/"
-  },
-  "WSHOP": {
-    "cats": [
-      6
-    ],
-    "description": "WSHOP is a cloud ecommerce platform for managing online stores, transactions, and customer interactions.",
-    "icon": "WSHOP.svg",
-    "js": {
-      "wShop.$attrs": ""
-    },
-    "website": "https://www.wshop.com"
-  },
-  "WWPass": {
-    "cats": [
-      69
-    ],
-    "description": "WWPass is a solution that enables authentication without the use of usernames, simplifying the login process while maintaining security through alternative methods.",
-    "icon": "WWPass.svg",
-    "js": {
-      "WWPass.init": "",
-      "wwpassQRCodeAuth": ""
-    },
-    "pricing": [
-      "freemium",
-      "poa"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "cdn\\.wwpass\\.com"
-    ],
-    "website": "https://www.wwpass.com"
   },
   "Waaship": {
     "cats": [
@@ -850,6 +162,18 @@
       "getwair\\.com"
     ],
     "website": "https://getwair.com"
+  },
+  "waitForImages": {
+    "cats": [
+      59
+    ],
+    "description": "waitForImages is a lightweight, high-performance JavaScript library that simplifies the handling of image preloading events.",
+    "oss": true,
+    "scriptSrc": [
+      "(?:((?:\\d+\\.)+\\d+)\\/(?:jquery\\.)?)?waitforimages(?:-modded)?(?:\\.min)?\\.js\\;version:\\1",
+      "(?:(?:jquery\\.)?)?waitforimages(?:-((?:\\d+\\.)+\\d+)-modded)?(?:\\.min)?\\.js\\;version:\\1"
+    ],
+    "website": "https://github.com/alexanderdickson/waitForImages"
   },
   "Waitlist": {
     "cats": [
@@ -1008,6 +332,36 @@
       "playurl.wangsu": ""
     },
     "website": "https://en.wangsu.com"
+  },
+  "wap.store": {
+    "cats": [
+      6
+    ],
+    "description": "The wap.store provides a range of services for ecommerce businesses, including a platform, a marketplace hub, and a digital agency.",
+    "icon": "wap.store.svg",
+    "implies": [
+      "MySQL"
+    ],
+    "js": {
+      "WapStore.categoria": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.wapstore.com.br"
+  },
+  "WAR.PE": {
+    "cats": [
+      16
+    ],
+    "description": "WAR.PE is a platform designed to enhance the web experience by promoting user privacy and security.",
+    "icon": "WARPE.svg",
+    "saas": true,
+    "scriptSrc": [
+      "//war\\.pe/warp\\.js"
+    ],
+    "website": "https://war.pe"
   },
   "Warm Welcome": {
     "cats": [
@@ -1260,63 +614,21 @@
     },
     "website": "https://wazimo.com"
   },
-  "WeBlocks": {
+  "wBuy": {
     "cats": [
-      12
+      6
     ],
-    "description": "WeBlocks is an educational platform for creating custom JavaScript and Webflow projects using Blocks.",
-    "icon": "WeBlocks.svg",
+    "description": "wBuy is a SaaS ecommerce platform.",
+    "icon": "wBuy.svg",
     "pricing": [
-      "freemium",
-      "low",
-      "recurring"
-    ],
-    "requires": [
-      "Webflow"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "//weblocks\\.io/"
-    ],
-    "website": "https://www.weblocks.com"
-  },
-  "WeTravel": {
-    "cats": [
-      104
-    ],
-    "description": "WeTravel is a platform providing booking and payment solutions tailored for travel companies.",
-    "dom": [
-      "link[href*='cdn.wetravel.com/']"
-    ],
-    "icon": "WeTravel.svg",
-    "pricing": [
-      "freemium",
-      "low",
-      "recurring",
-      "poa"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "\\.wetravel\\.com/"
-    ],
-    "website": "https://www.wetravel.com"
-  },
-  "WeWeb": {
-    "cats": [
-      51
-    ],
-    "description": "WeWeb is a no-code front-end builder that allows customers to build on-top of any back-end.",
-    "icon": "WeWeb.svg",
-    "js": {
-      "wwg_designInfo.wewebPreviewURL": ""
-    },
-    "pricing": [
-      "freemium",
       "low",
       "recurring"
     ],
     "saas": true,
-    "website": "https://www.weweb.io"
+    "scriptSrc": [
+      "\\.sistemawbuy\\.com\\.br/"
+    ],
+    "website": "https://www.wbuy.com.br"
   },
   "Weatherstack": {
     "cats": [
@@ -1493,6 +805,25 @@
     },
     "website": "https://wordpress.org/plugins/web-worker-offloading/"
   },
+  "web-vitals": {
+    "cats": [
+      59,
+      78
+    ],
+    "description": "The web-vitals JavaScript is a tiny, modular library for measuring all the web vitals metrics on real users.",
+    "icon": "web-vitals.svg",
+    "js": {
+      "webVitals": ""
+    },
+    "oss": true,
+    "scriptSrc": [
+      "web-vitals@([\\d.]+)/dist/web-vitals.*\\.js\\;version:\\1"
+    ],
+    "scripts": [
+      "(8999999999999[\\s\\S]+1e12[\\s\\S]+(largest-contentful-paint|first-input|layout-shift)|(largest-contentful-paint|first-input|layout-shift)[\\s\\S]+8999999999999[\\s\\S]+1e12)"
+    ],
+    "website": "https://github.com/GoogleChrome/web-vitals"
+  },
   "Web2py": {
     "cats": [
       18
@@ -1547,6 +878,23 @@
     ],
     "website": "https://web4realty.com"
   },
+  "Webareal": {
+    "cats": [
+      6
+    ],
+    "description": "Webareal is a Czech-based ecommerce platform designed for creating and managing online stores.",
+    "dom": [
+      "input[value*='www.webareal.sk']"
+    ],
+    "icon": "Webareal.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://webareal.cz"
+  },
   "WebAssembly": {
     "cats": [
       27
@@ -1566,314 +914,6 @@
       "/wasm_exec\\.js"
     ],
     "website": "https://webassembly.org/"
-  },
-  "WebBoss": {
-    "cats": [
-      51
-    ],
-    "description": "WebBoss is a website builder designed for professional designers and developers, offering tools for creating and managing custom websites.",
-    "icon": "WebBoss.svg",
-    "meta": {
-      "generator": "WebBoss ([\\d.]+)\\;version:\\1"
-    },
-    "pricing": [
-      "low",
-      "recurring"
-    ],
-    "saas": true,
-    "website": "https://webboss.io"
-  },
-  "WebEngage": {
-    "cats": [
-      32,
-      76
-    ],
-    "description": "WebEngage is a customer data platform and marketing automation suite.",
-    "icon": "WebEngage.svg",
-    "js": {
-      "webengage.__v": "([\\d.]+)\\;version:\\1"
-    },
-    "pricing": [
-      "mid",
-      "recurring"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "\\.webengage\\.co(?:m)?/"
-    ],
-    "website": "https://webengage.com"
-  },
-  "WebFactory Maintenance": {
-    "cats": [
-      87
-    ],
-    "description": "WebFactory Maintenance is a WordPress plugin which allows you to create an maintenance page.",
-    "dom": [
-      "link[href*='/wp-content/plugins/maintenance/']"
-    ],
-    "icon": "WebFactory_Maintence.svg",
-    "js": {
-      "mtnc_front_options": ""
-    },
-    "oss": true,
-    "requires": [
-      "WordPress"
-    ],
-    "website": "https://wordpress.org/plugins/maintenance"
-  },
-  "WebFactory Under Construction": {
-    "cats": [
-      87
-    ],
-    "description": "WebFactory Under Construction is a WordPress plugin which allows you to create an under construction page.",
-    "dom": [
-      "link[href*='/wp-content/plugins/under-construction-page/']"
-    ],
-    "icon": "WebFactory_Under_Construction.svg",
-    "oss": true,
-    "requires": [
-      "WordPress"
-    ],
-    "website": "https://wordpress.org/plugins/under-construction-page"
-  },
-  "WebGUI": {
-    "cats": [
-      1
-    ],
-    "cookies": {
-      "wgSession": ""
-    },
-    "icon": "WebGUI.png",
-    "implies": [
-      "Perl"
-    ],
-    "meta": {
-      "generator": "^WebGUI ([\\d.]+)\\;version:\\1"
-    },
-    "website": "https://www.webgui.org"
-  },
-  "WebHostUK": {
-    "cats": [
-      88
-    ],
-    "description": "WebHostUK is a UK based web hosting company offering cheap yet reliable and secure web hosting solutions on both Linux and Windows servers.",
-    "dns": {
-      "NS": [
-        "ns2\\d\\.dnshostcentral\\.com"
-      ],
-      "SOA": [
-        "ns2\\d\\.dnshostcentral\\.com"
-      ]
-    },
-    "icon": "WebHostUK.svg",
-    "pricing": [
-      "recurring",
-      "low"
-    ],
-    "website": "https://www.webhostuk.co.uk"
-  },
-  "WebMetric": {
-    "cats": [
-      10
-    ],
-    "cookies": {
-      "_wmuid": ""
-    },
-    "icon": "WebMetric.svg",
-    "js": {
-      "_wmid": ""
-    },
-    "scriptSrc": [
-      "cdn\\.webmetric\\.ir"
-    ],
-    "website": "https://webmetric.ir/"
-  },
-  "WebNode": {
-    "cats": [
-      1,
-      51
-    ],
-    "cookies": {
-      "_gat_wnd_header": ""
-    },
-    "description": "Webnode is a drag-and-drop online website builder.",
-    "icon": "WebNode.svg",
-    "js": {
-      "wnd.$system": ""
-    },
-    "meta": {
-      "generator": "^Webnode(?:\\s([\\d.]+))?$\\;version:\\1"
-    },
-    "pricing": [
-      "low",
-      "recurring"
-    ],
-    "saas": true,
-    "website": "https://www.webnode.com"
-  },
-  "WebQnA": {
-    "cats": [
-      52,
-      53
-    ],
-    "description": "WebQnA is a platform that offers generative AI chatbots for businesses to enhance customer interactions and support.",
-    "icon": "WebQnA.svg",
-    "js": {
-      "webqna": ""
-    },
-    "pricing": [
-      "low",
-      "recurring"
-    ],
-    "saas": true,
-    "website": "https://webqna.ai"
-  },
-  "WebRTC": {
-    "cats": [
-      19
-    ],
-    "description": "WebRTC is an open-source project that enables real-time voice, text and video communications capabilities between web browsers and devices.",
-    "icon": "WebRTC.svg",
-    "oss": true,
-    "website": "https://webrtc.org"
-  },
-  "WebSTAT": {
-    "cats": [
-      10
-    ],
-    "description": "WebSTAT is a web analytics platform designed to provide simplified tracking of website performance and visitor behavior.",
-    "icon": "WebSTAT.svg",
-    "saas": true,
-    "scriptSrc": [
-      "\\.webstat\\.com/"
-    ],
-    "website": "https://webstat.com"
-  },
-  "WebSite X5": {
-    "cats": [
-      1,
-      51
-    ],
-    "description": "WebSite X5 is a tools to create and publish websites.",
-    "icon": "WebSite X5.svg",
-    "meta": {
-      "generator": "Incomedia WebSite X5 (\\w+ [\\d.]+)\\;version:\\1"
-    },
-    "pricing": [
-      "low",
-      "recurring"
-    ],
-    "saas": true,
-    "website": "https://websitex5.com"
-  },
-  "WebSocket": {
-    "cats": [
-      19
-    ],
-    "description": "WebSocket is a communication protocol that provides full-duplex communication channels over a single, long-lived connection, enabling interactive communication between web browsers and servers.",
-    "dom": [
-      "link[rel='web-socket']",
-      "link[href^='ws://']",
-      "link[href^='wss://']"
-    ],
-    "html": [
-      "<(?:link|a)[^>]+href=[\"']wss?://"
-    ],
-    "icon": "WebSocket.svg",
-    "oss": true,
-    "website": "https://en.wikipedia.org/wiki/WebSocket"
-  },
-  "WebSphere": {
-    "cats": [
-      22
-    ],
-    "cookies": {
-      "(?i)ltpatoken": ""
-    },
-    "cpe": "cpe:2.3:a:ibm:websphere_application_server:-:*:*:*:*:*:*:*",
-    "icon": "websphere.svg",
-    "website": "https://www.ibm.com/products/websphere-application-server"
-  },
-  "WebToffee Stripe Payment Plugin for WooCommerce": {
-    "cats": [
-      87
-    ],
-    "description": "WebToffee Stripe Payment Plugin for WooCommerce is a software add-on that allows online retailers using the WooCommerce ecommerce platform to accept payments through the Stripe payment gateway.",
-    "dom": [
-      "link[href*='/wp-content/plugins/payment-gateway-stripe-and-woocommerce-integration/']"
-    ],
-    "icon": "WebToffee.svg",
-    "implies": [
-      "Stripe",
-      "WooCommerce"
-    ],
-    "pricing": [
-      "recurring",
-      "low"
-    ],
-    "requires": [
-      "WordPress"
-    ],
-    "saas": true,
-    "website": "https://www.webtoffee.com/product/woocommerce-stripe-payment-gateway/"
-  },
-  "WebWave": {
-    "cats": [
-      51
-    ],
-    "description": "WebWave is a drag and drop website builder.",
-    "icon": "WebWave.svg",
-    "js": {
-      "webwave.getAppVersion": "",
-      "webwaveFontsLoadedFlag": ""
-    },
-    "pricing": [
-      "freemium",
-      "low",
-      "recurring"
-    ],
-    "saas": true,
-    "website": "https://webwavecms.com"
-  },
-  "WebZi": {
-    "cats": [
-      1,
-      51
-    ],
-    "description": "WebZi is a professional website builder.",
-    "icon": "Webzi.svg",
-    "js": {
-      "WebziCart": "",
-      "WebziValidate": ""
-    },
-    "meta": {
-      "generator": "^Webzi\\.ir\\sWebsite\\sBuilder$"
-    },
-    "pricing": [
-      "recurring"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "//webzi\\.ir/"
-    ],
-    "website": "https://webzi.ir"
-  },
-  "Webareal": {
-    "cats": [
-      6
-    ],
-    "description": "Webareal is a Czech-based ecommerce platform designed for creating and managing online stores.",
-    "dom": [
-      "input[value*='www.webareal.sk']"
-    ],
-    "icon": "Webareal.svg",
-    "pricing": [
-      "freemium",
-      "low",
-      "recurring"
-    ],
-    "saas": true,
-    "website": "https://webareal.cz"
   },
   "Webasyst Shop-Script": {
     "cats": [
@@ -1895,6 +935,41 @@
     ],
     "saas": true,
     "website": "https://www.shop-script.com"
+  },
+  "WebAwesome": {
+    "cats": [
+      66
+    ],
+    "description": "Web Awesome is an open-source library of customizable, standards-based, and framework-agnostic UI components designed to support interoperable web interfaces.",
+    "dom": [
+      "link[href*='/dist-cdn/styles/webawesome.css']"
+    ],
+    "icon": "WebAwesome.svg",
+    "pricing": [
+      "low",
+      "recurring",
+      "freemium"
+    ],
+    "scriptSrc": [
+      "/webawesome\\.loader\\.js"
+    ],
+    "website": "https://webawesome.com/"
+  },
+  "WebBoss": {
+    "cats": [
+      51
+    ],
+    "description": "WebBoss is a website builder designed for professional designers and developers, offering tools for creating and managing custom websites.",
+    "icon": "WebBoss.svg",
+    "meta": {
+      "generator": "WebBoss ([\\d.]+)\\;version:\\1"
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://webboss.io"
   },
   "Webbotify": {
     "cats": [
@@ -1946,6 +1021,55 @@
     ],
     "saas": true,
     "website": "https://webcool.vn"
+  },
+  "WEBDEV": {
+    "cats": [
+      20
+    ],
+    "description": "WEBDEV is a tool to develop internet and intranet sites and applications that support data and processes.",
+    "headers": {
+      "WebDevSrc": ""
+    },
+    "html": [
+      "<!-- [a-zA-Z0-9_]+ [\\d/]+ [\\d:]+ WebDev \\d\\d ([\\d.]+) -->\\;version:\\1"
+    ],
+    "icon": "webdev.svg",
+    "meta": {
+      "generator": "^WEBDEV$"
+    },
+    "website": "https://www.windev.com/webdev/index.html"
+  },
+  "webEdition": {
+    "cats": [
+      1
+    ],
+    "cpe": "cpe:2.3:a:webedition:webedition_cms:*:*:*:*:*:*:*:*",
+    "icon": "webEdition.png",
+    "meta": {
+      "DC.title": "webEdition",
+      "generator": "webEdition"
+    },
+    "website": "https://webedition.de/en"
+  },
+  "WebEngage": {
+    "cats": [
+      32,
+      76
+    ],
+    "description": "WebEngage is a customer data platform and marketing automation suite.",
+    "icon": "WebEngage.svg",
+    "js": {
+      "webengage.__v": "([\\d.]+)\\;version:\\1"
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.webengage\\.co(?:m)?/"
+    ],
+    "website": "https://webengage.com"
   },
   "Webeo": {
     "cats": [
@@ -2024,6 +1148,39 @@
     "saas": true,
     "website": "https://www.webeyez.com"
   },
+  "WebFactory Maintenance": {
+    "cats": [
+      87
+    ],
+    "description": "WebFactory Maintenance is a WordPress plugin which allows you to create an maintenance page.",
+    "dom": [
+      "link[href*='/wp-content/plugins/maintenance/']"
+    ],
+    "icon": "WebFactory_Maintence.svg",
+    "js": {
+      "mtnc_front_options": ""
+    },
+    "oss": true,
+    "requires": [
+      "WordPress"
+    ],
+    "website": "https://wordpress.org/plugins/maintenance"
+  },
+  "WebFactory Under Construction": {
+    "cats": [
+      87
+    ],
+    "description": "WebFactory Under Construction is a WordPress plugin which allows you to create an under construction page.",
+    "dom": [
+      "link[href*='/wp-content/plugins/under-construction-page/']"
+    ],
+    "icon": "WebFactory_Under_Construction.svg",
+    "oss": true,
+    "requires": [
+      "WordPress"
+    ],
+    "website": "https://wordpress.org/plugins/under-construction-page"
+  },
   "Webflow": {
     "cats": [
       51
@@ -2081,6 +1238,22 @@
     ],
     "website": "https://www.webgains.com/"
   },
+  "WebGUI": {
+    "cats": [
+      1
+    ],
+    "cookies": {
+      "wgSession": ""
+    },
+    "icon": "WebGUI.png",
+    "implies": [
+      "Perl"
+    ],
+    "meta": {
+      "generator": "^WebGUI ([\\d.]+)\\;version:\\1"
+    },
+    "website": "https://www.webgui.org"
+  },
   "Webhealer": {
     "cats": [
       1
@@ -2092,6 +1265,26 @@
       "umami\\.webhealer\\.net"
     ],
     "website": "https://www.webhealer.net"
+  },
+  "WebHostUK": {
+    "cats": [
+      88
+    ],
+    "description": "WebHostUK is a UK based web hosting company offering cheap yet reliable and secure web hosting solutions on both Linux and Windows servers.",
+    "dns": {
+      "NS": [
+        "ns2\\d\\.dnshostcentral\\.com"
+      ],
+      "SOA": [
+        "ns2\\d\\.dnshostcentral\\.com"
+      ]
+    },
+    "icon": "WebHostUK.svg",
+    "pricing": [
+      "recurring",
+      "low"
+    ],
+    "website": "https://www.webhostuk.co.uk"
   },
   "Webica": {
     "cats": [
@@ -2192,6 +1385,23 @@
     ],
     "website": "https://webix.com"
   },
+  "Weblate": {
+    "cats": [
+      89
+    ],
+    "description": "Weblate is a web-based continuous localization platform that enables ongoing translation management and integration across software projects.",
+    "headers": {
+      "Content-Security-Policy": "\\.weblate\\.org"
+    },
+    "icon": "Weblate.svg",
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://weblate.org"
+  },
   "Weblication": {
     "cats": [
       1
@@ -2242,6 +1452,26 @@
     ],
     "website": "https://weblium.com"
   },
+  "WeBlocks": {
+    "cats": [
+      12
+    ],
+    "description": "WeBlocks is an educational platform for creating custom JavaScript and Webflow projects using Blocks.",
+    "icon": "WeBlocks.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "requires": [
+      "Webflow"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "//weblocks\\.io/"
+    ],
+    "website": "https://www.weblocks.com"
+  },
   "Weblogic Server": {
     "cats": [
       22
@@ -2256,6 +1486,22 @@
     ],
     "website": "https://www.oracle.com/java/weblogic"
   },
+  "WebMetric": {
+    "cats": [
+      10
+    ],
+    "cookies": {
+      "_wmuid": ""
+    },
+    "icon": "WebMetric.svg",
+    "js": {
+      "_wmid": ""
+    },
+    "scriptSrc": [
+      "cdn\\.webmetric\\.ir"
+    ],
+    "website": "https://webmetric.ir/"
+  },
   "Webmin": {
     "cats": [
       19
@@ -2268,6 +1514,29 @@
     ],
     "oss": true,
     "website": "https://www.webmin.com"
+  },
+  "WebNode": {
+    "cats": [
+      1,
+      51
+    ],
+    "cookies": {
+      "_gat_wnd_header": ""
+    },
+    "description": "Webnode is a drag-and-drop online website builder.",
+    "icon": "WebNode.svg",
+    "js": {
+      "wnd.$system": ""
+    },
+    "meta": {
+      "generator": "^Webnode(?:\\s([\\d.]+))?$\\;version:\\1"
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.webnode.com"
   },
   "WeboLead": {
     "cats": [
@@ -2352,6 +1621,23 @@
     ],
     "website": "https://www.webpushr.com"
   },
+  "WebQnA": {
+    "cats": [
+      52,
+      53
+    ],
+    "description": "WebQnA is a platform that offers generative AI chatbots for businesses to enhance customer interactions and support.",
+    "icon": "WebQnA.svg",
+    "js": {
+      "webqna": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://webqna.ai"
+  },
   "Webready": {
     "cats": [
       51
@@ -2388,6 +1674,19 @@
     "saas": true,
     "website": "https://www.webreed.pet"
   },
+  "WEBrick": {
+    "cats": [
+      22
+    ],
+    "cpe": "cpe:2.3:a:ruby-lang:webrick:*:*:*:*:*:*:*:*",
+    "description": "WEBrick is a lightweight HTTP server library in Ruby, included in the standard library, primarily used for local development and testing of Ruby web applications.",
+    "headers": {
+      "Server": "^WEBrick/([\\d\\.]+)\\;version:\\1"
+    },
+    "icon": "Ruby.svg",
+    "oss": true,
+    "website": "https://docs.ruby-lang.org/en/2.4.0/WEBrick.html"
+  },
   "Webriti Busiprof": {
     "cats": [
       80
@@ -2406,15 +1705,14 @@
     ],
     "website": "https://webriti.com/busiprof-premium-wordpress-theme-1"
   },
-  "WebsPlanet": {
+  "WebRTC": {
     "cats": [
-      1
+      19
     ],
-    "icon": "WebsPlanet.png",
-    "meta": {
-      "generator": "WebsPlanet"
-    },
-    "website": "https://websplanet.com"
+    "description": "WebRTC is an open-source project that enables real-time voice, text and video communications capabilities between web browsers and devices.",
+    "icon": "WebRTC.svg",
+    "oss": true,
+    "website": "https://webrtc.org"
   },
   "Websale": {
     "cats": [
@@ -2471,6 +1769,23 @@
     ],
     "website": "https://websitespeedy.com/"
   },
+  "WebSite X5": {
+    "cats": [
+      1,
+      51
+    ],
+    "description": "WebSite X5 is a tools to create and publish websites.",
+    "icon": "WebSite X5.svg",
+    "meta": {
+      "generator": "Incomedia WebSite X5 (\\w+ [\\d.]+)\\;version:\\1"
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://websitex5.com"
+  },
   "WebsiteBaker": {
     "cats": [
       1
@@ -2505,6 +1820,26 @@
     "saas": true,
     "website": "https://www.websitebuilder.com"
   },
+  "WebSocket": {
+    "cats": [
+      19
+    ],
+    "description": "WebSocket is a communication protocol that provides full-duplex communication channels over a single, long-lived connection, enabling interactive communication between web browsers and servers.",
+    "dom": [
+      "link[rel='web-socket']",
+      "link[href^='ws://']",
+      "link[href^='wss://']"
+    ],
+    "headers": {
+      "Upgrade": "websocket"
+    },
+    "html": [
+      "<(?:link|a)[^>]+href=[\"']wss?://"
+    ],
+    "icon": "WebSocket.svg",
+    "oss": true,
+    "website": "https://en.wikipedia.org/wiki/WebSocket"
+  },
   "Websocket": {
     "cats": [
       19
@@ -2515,6 +1850,39 @@
     ],
     "icon": "websocket.png",
     "website": "https://en.wikipedia.org/wiki/WebSocket"
+  },
+  "WebSphere": {
+    "cats": [
+      22
+    ],
+    "cookies": {
+      "(?i)ltpatoken": ""
+    },
+    "cpe": "cpe:2.3:a:ibm:websphere_application_server:-:*:*:*:*:*:*:*",
+    "icon": "websphere.svg",
+    "website": "https://www.ibm.com/products/websphere-application-server"
+  },
+  "WebsPlanet": {
+    "cats": [
+      1
+    ],
+    "icon": "WebsPlanet.png",
+    "meta": {
+      "generator": "WebsPlanet"
+    },
+    "website": "https://websplanet.com"
+  },
+  "WebSTAT": {
+    "cats": [
+      10
+    ],
+    "description": "WebSTAT is a web analytics platform designed to provide simplified tracking of website performance and visitor behavior.",
+    "icon": "WebSTAT.svg",
+    "saas": true,
+    "scriptSrc": [
+      "\\.webstat\\.com/"
+    ],
+    "website": "https://webstat.com"
   },
   "Webstudio": {
     "cats": [
@@ -2531,6 +1899,29 @@
     ],
     "saas": true,
     "website": "https://webstudio.is"
+  },
+  "WebToffee Stripe Payment Plugin for WooCommerce": {
+    "cats": [
+      87
+    ],
+    "description": "WebToffee Stripe Payment Plugin for WooCommerce is a software add-on that allows online retailers using the WooCommerce ecommerce platform to accept payments through the Stripe payment gateway.",
+    "dom": [
+      "link[href*='/wp-content/plugins/payment-gateway-stripe-and-woocommerce-integration/']"
+    ],
+    "icon": "WebToffee.svg",
+    "implies": [
+      "Stripe",
+      "WooCommerce"
+    ],
+    "pricing": [
+      "recurring",
+      "low"
+    ],
+    "requires": [
+      "WordPress"
+    ],
+    "saas": true,
+    "website": "https://www.webtoffee.com/product/woocommerce-stripe-payment-gateway/"
   },
   "Webtrends": {
     "cats": [
@@ -2558,6 +1949,24 @@
     ],
     "website": "https://www.webware.ai"
   },
+  "WebWave": {
+    "cats": [
+      51
+    ],
+    "description": "WebWave is a drag and drop website builder.",
+    "icon": "WebWave.svg",
+    "js": {
+      "webwave.getAppVersion": "",
+      "webwaveFontsLoadedFlag": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://webwavecms.com"
+  },
   "Webx": {
     "cats": [
       6
@@ -2573,6 +1982,22 @@
     ],
     "saas": true,
     "website": "https://www.webx.pk"
+  },
+  "WEBXPAY": {
+    "cats": [
+      41
+    ],
+    "description": "WEBXPAY is a specialised online payment gateway that expedites buying and selling in a highly secured environment.",
+    "icon": "WEBXPAY.png",
+    "js": {
+      "WEBXPAY": ""
+    },
+    "pricing": [
+      "payg",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://webxpay.com"
   },
   "Webydo": {
     "cats": [
@@ -2613,6 +2038,29 @@
     ],
     "website": "https://www.webyn.ai"
   },
+  "WebZi": {
+    "cats": [
+      1,
+      51
+    ],
+    "description": "WebZi is a professional website builder.",
+    "icon": "Webzi.svg",
+    "js": {
+      "WebziCart": "",
+      "WebziValidate": ""
+    },
+    "meta": {
+      "generator": "^Webzi\\.ir\\sWebsite\\sBuilder$"
+    },
+    "pricing": [
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "//webzi\\.ir/"
+    ],
+    "website": "https://webzi.ir"
+  },
   "Webzie": {
     "cats": [
       1,
@@ -2630,18 +2078,6 @@
     ],
     "saas": true,
     "website": "https://www.webzie.com/"
-  },
-  "WeeBnB": {
-    "cats": [
-      93
-    ],
-    "description": "WeeBnB is a rental optimization platform that provides a website for managing and promoting vacation rentals.",
-    "icon": "WeeBnB.svg",
-    "meta": {
-      "generator": "^WeeBnB$"
-    },
-    "saas": true,
-    "website": "https://www.weebnb.com"
   },
   "Weebly": {
     "cats": [
@@ -2666,6 +2102,18 @@
       "cdn\\d+\\.editmysite\\.com"
     ],
     "website": "https://www.weebly.com"
+  },
+  "WeeBnB": {
+    "cats": [
+      93
+    ],
+    "description": "WeeBnB is a rental optimization platform that provides a website for managing and promoting vacation rentals.",
+    "icon": "WeeBnB.svg",
+    "meta": {
+      "generator": "^WeeBnB$"
+    },
+    "saas": true,
+    "website": "https://www.weebnb.com"
   },
   "Weekdone": {
     "cats": [
@@ -2705,6 +2153,23 @@
     ],
     "website": "https://www.weezbe.com"
   },
+  "Weezevent": {
+    "cats": [
+      104
+    ],
+    "description": "Weezevent is an online ticketing and event management solution that enables organizers to sell tickets, manage registrations, and track attendance for events.",
+    "icon": "Weezevent.svg",
+    "pricing": [
+      "freemium",
+      "payg",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "widget\\.weezevent\\.com/"
+    ],
+    "website": "https://weezevent.com"
+  },
   "Weglot": {
     "cats": [
       89
@@ -2725,6 +2190,18 @@
       "wp-content/plugins/weglot"
     ],
     "website": "https://www.weglot.com"
+  },
+  "Wehaa": {
+    "cats": [
+      36
+    ],
+    "description": "Wehaa is a platform providing revenue management and monetization solutions designed to help media companies optimize earnings and streamline their business operations.",
+    "icon": "Wehaa.svg",
+    "saas": true,
+    "scripts": [
+      "\\.aws\\.wehaa\\.net/"
+    ],
+    "website": "https://www.wehaa.com"
   },
   "Welcart": {
     "cats": [
@@ -2773,6 +2250,45 @@
     ],
     "website": "https://www.weltpixel.com/magento-2-theme-pearl"
   },
+  "WEN Themes Education Hub": {
+    "cats": [
+      80
+    ],
+    "description": "WEN Themes Education Hub is a clean and elegant WordPress education theme.",
+    "icon": "WEN Themes.svg",
+    "js": {
+      "EducationHubScreenReaderText": ""
+    },
+    "pricing": [
+      "freemium",
+      "onetime"
+    ],
+    "requires": [
+      "WordPress"
+    ],
+    "scriptSrc": [
+      "/wp-content/themes/education-hub(?:-pro)?/"
+    ],
+    "website": "https://wenthemes.com/item/wordpress-themes/education-hub"
+  },
+  "WEN Themes Signify Dark": {
+    "cats": [
+      80
+    ],
+    "description": "Signify Dark is a free dark blog and corporate WordPress theme that is trendy, responsive, and dynamic by WEN Themes.",
+    "icon": "WEN Themes.svg",
+    "js": {
+      "signifyOptions": ""
+    },
+    "pricing": [
+      "freemium",
+      "onetime"
+    ],
+    "requires": [
+      "WordPress"
+    ],
+    "website": "https://wenthemes.com/item/wordpress-themes/signify-dark"
+  },
   "Wepay": {
     "cats": [
       41
@@ -2808,6 +2324,44 @@
       "app\\.weply\\.chat/"
     ],
     "website": "https://weply.chat"
+  },
+  "WeTravel": {
+    "cats": [
+      104
+    ],
+    "description": "WeTravel is a platform providing booking and payment solutions tailored for travel companies.",
+    "dom": [
+      "link[href*='cdn.wetravel.com/']"
+    ],
+    "icon": "WeTravel.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.wetravel\\.com/"
+    ],
+    "website": "https://www.wetravel.com"
+  },
+  "WeWeb": {
+    "cats": [
+      51
+    ],
+    "description": "WeWeb is a no-code front-end builder that allows customers to build on-top of any back-end.",
+    "icon": "WeWeb.svg",
+    "js": {
+      "wwg_designInfo.wewebPreviewURL": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.weweb.io"
   },
   "Wfolio": {
     "cats": [
@@ -2913,6 +2467,28 @@
     ],
     "website": "https://wheelysales.com"
   },
+  "Whelp": {
+    "cats": [
+      52
+    ],
+    "description": "Whelp is an AI-based omnichannel customer support platform that provides automated chatbot-driven assistance across multiple communication channels.",
+    "icon": "Whelp.svg",
+    "js": {
+      "Whelp.Init": "",
+      "WhelpConfig": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "widget\\.getwhelp\\.com"
+    ],
+    "website": "https://whelp.co"
+  },
   "Wherewolf": {
     "cats": [
       72
@@ -2977,6 +2553,41 @@
     "saas": true,
     "website": "https://whitespark.ca/seo-services"
   },
+  "WHMCS": {
+    "cats": [
+      1
+    ],
+    "description": "WHMCS is an automation platform that simplifies and automates all aspects of operating an online web hosting and domain registrar business.",
+    "icon": "WHMCS.svg",
+    "js": {
+      "WHMCS": ""
+    },
+    "oss": true,
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "website": "https://www.whmcs.com"
+  },
+  "Wholesale Suite": {
+    "cats": [
+      6
+    ],
+    "description": "Wholesale Suite is a plugin that enables businesses to manage and streamline wholesale operations online, supporting pricing, ordering, and workflow efficiency.",
+    "icon": "WholesaleSuite.svg",
+    "meta": {
+      "wwp": "^yes$"
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": [
+      "\\.wholesalesuiteplugin\\.com"
+    ],
+    "website": "https://wholesalesuiteplugin.com"
+  },
   "Whooshkaa": {
     "cats": [
       5
@@ -2989,6 +2600,26 @@
     ],
     "icon": "Whooshkaa.svg",
     "website": "https://www.whooshkaa.com"
+  },
+  "WhosOn": {
+    "cats": [
+      52
+    ],
+    "description": "WhosOn is a secure live chat and AI platform for managing and automating customer communications.",
+    "icon": "WhosOn.svg",
+    "js": {
+      "whoson_global": "",
+      "whoson_init": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.whoson\\.com/"
+    ],
+    "website": "https://www.whoson.com"
   },
   "Whova": {
     "cats": [
@@ -3229,21 +2860,6 @@
     ],
     "website": "https://www.wildjar.com"
   },
-  "WinLocal": {
-    "cats": [
-      90
-    ],
-    "description": "WinLocal is a monitoring and feedback collection service that helps businesses track reviews and improve visibility on maps and search results.",
-    "pricing": [
-      "low",
-      "recurring"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "api\\.winlocal\\.ru"
-    ],
-    "website": "https://winlocal.ru"
-  },
   "Windows CE": {
     "cats": [
       28
@@ -3265,6 +2881,23 @@
     },
     "icon": "WindowsServer.png",
     "website": "https://microsoft.com/windowsserver"
+  },
+  "WINEAROUND": {
+    "cats": [
+      93
+    ],
+    "description": "WINEAROUND is a booking software that enables businesses to manage online and offline reservations, schedule appointments, streamline operations, and enhance customer service for guided tours and activities.",
+    "icon": "WineAround.svg",
+    "js": {
+      "_winearoundDefaultLanguage": ""
+    },
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://winearound.com"
   },
   "WineDirect": {
     "cats": [
@@ -3300,6 +2933,21 @@
       "(?:_base/js/base|wink).*\\.js"
     ],
     "website": "https://winktoolkit.org"
+  },
+  "WinLocal": {
+    "cats": [
+      90
+    ],
+    "description": "WinLocal is a monitoring and feedback collection service that helps businesses track reviews and improve visibility on maps and search results.",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "api\\.winlocal\\.ru"
+    ],
+    "website": "https://winlocal.ru"
   },
   "Wins eCommerce": {
     "cats": [
@@ -3540,6 +3188,19 @@
     "saas": true,
     "website": "https://appmate.io"
   },
+  "Wishloop": {
+    "cats": [
+      32
+    ],
+    "description": "Wishloop is a lead generation platform that enables the creation of marketing campaigns without coding, using structured workflows and tools designed to support conversion-focused data collection.",
+    "icon": "Wishloop.svg",
+    "pricing": [],
+    "saas": true,
+    "scriptSrc": [
+      "app\\.wishloop\\.com/"
+    ],
+    "website": "https://wishloop.com"
+  },
   "Wistia": {
     "cats": [
       14
@@ -3561,6 +3222,16 @@
       "\\.wistia\\.com"
     ],
     "website": "https://wistia.com"
+  },
+  "wisyCMS": {
+    "cats": [
+      1
+    ],
+    "icon": "wisyCMS.svg",
+    "meta": {
+      "generator": "^wisy CMS[ v]{0,3}([0-9.,]*)\\;version:\\1"
+    },
+    "website": "https://wisy.3we.de"
   },
   "Witbooking": {
     "cats": [
@@ -3675,17 +3346,6 @@
     ],
     "website": "https://www.wix.com/freesitebuilder/tae-store"
   },
-  "WizSoft": {
-    "cats": [
-      29
-    ],
-    "description": "WizSoft is a search engine designed for embedding in ecommerce websites and other platforms where data are stored in records.",
-    "saas": true,
-    "scriptSrc": [
-      "\\.wizsoft\\.com/"
-    ],
-    "website": "https://www.wizsoft.com"
-  },
   "Wized": {
     "cats": [
       51
@@ -3738,6 +3398,17 @@
       "wp-content/plugins/creditcorp-wizardpay/.+\\?ver=([\\d\\.]+)\\;version:\\1"
     ],
     "website": "https://www.wizpay.com.au"
+  },
+  "WizSoft": {
+    "cats": [
+      29
+    ],
+    "description": "WizSoft is a search engine designed for embedding in ecommerce websites and other platforms where data are stored in records.",
+    "saas": true,
+    "scriptSrc": [
+      "\\.wizsoft\\.com/"
+    ],
+    "website": "https://www.wizsoft.com"
   },
   "Wizzy": {
     "cats": [
@@ -4205,6 +3876,50 @@
     ],
     "website": "https://wordads.co"
   },
+  "Wordfence": {
+    "cats": [
+      87,
+      16
+    ],
+    "cpe": "cpe:2.3:a:wordfence:wordfence:*:*:*:*:*:wordpress:*:*",
+    "description": "Wordfence is a security plugin for sites that use WordPress. Wordfence includes an endpoint firewall and malware scanner.",
+    "icon": "Wordfence.svg",
+    "js": {
+      "wordfenceAJAXWatcher": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "requires": [
+      "WordPress"
+    ],
+    "scriptSrc": [
+      "/wp-content/plugins/wordfence/.+admin\\.ajaxWatcher\\.\\d+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+    ],
+    "website": "https://www.wordfence.com"
+  },
+  "Wordfence Login Security": {
+    "cats": [
+      87,
+      16
+    ],
+    "description": "Wordfence Login Security contains a subset of the functionality found in the full Wordfence plugin: Two-factor Authentication, XML-RPC Protection and Login Page CAPTCHA.",
+    "icon": "Wordfence.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "requires": [
+      "WordPress"
+    ],
+    "scriptSrc": [
+      "/wp-content/plugins/wordfence/.+login\\.\\d+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+    ],
+    "website": "https://www.wordfence.com"
+  },
   "WordLift": {
     "cats": [
       54
@@ -4436,50 +4151,6 @@
     ],
     "website": "https://wordpress.com"
   },
-  "Wordfence": {
-    "cats": [
-      87,
-      16
-    ],
-    "cpe": "cpe:2.3:a:wordfence:wordfence:*:*:*:*:*:wordpress:*:*",
-    "description": "Wordfence is a security plugin for sites that use WordPress. Wordfence includes an endpoint firewall and malware scanner.",
-    "icon": "Wordfence.svg",
-    "js": {
-      "wordfenceAJAXWatcher": ""
-    },
-    "pricing": [
-      "freemium",
-      "low",
-      "recurring"
-    ],
-    "requires": [
-      "WordPress"
-    ],
-    "scriptSrc": [
-      "/wp-content/plugins/wordfence/.+admin\\.ajaxWatcher\\.\\d+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
-    ],
-    "website": "https://www.wordfence.com"
-  },
-  "Wordfence Login Security": {
-    "cats": [
-      87,
-      16
-    ],
-    "description": "Wordfence Login Security contains a subset of the functionality found in the full Wordfence plugin: Two-factor Authentication, XML-RPC Protection and Login Page CAPTCHA.",
-    "icon": "Wordfence.svg",
-    "pricing": [
-      "freemium",
-      "low",
-      "recurring"
-    ],
-    "requires": [
-      "WordPress"
-    ],
-    "scriptSrc": [
-      "/wp-content/plugins/wordfence/.+login\\.\\d+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
-    ],
-    "website": "https://www.wordfence.com"
-  },
   "Workable": {
     "cats": [
       101
@@ -4569,6 +4240,25 @@
       "www\\.myworkday\\.com"
     ],
     "website": "https://www.workday.com"
+  },
+  "WORKetc": {
+    "cats": [
+      53
+    ],
+    "description": "WORKetc is an all-in-one cloud computing platform offering web-based CRM, project management, and collaboration tools.",
+    "dom": [
+      "iframe[src*='.worketc.com/']"
+    ],
+    "icon": "WORKetc.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.worketc\\.com"
+    ],
+    "website": "https://www.worketc.com"
   },
   "Workstand": {
     "cats": [
@@ -4666,6 +4356,23 @@
     ],
     "website": "https://wotnot.io"
   },
+  "WOW": {
+    "cats": [
+      12,
+      18,
+      25
+    ],
+    "description": "Reveal CSS animation as you scroll down a page.",
+    "oss": true,
+    "pricing": [
+      "low",
+      "onetime"
+    ],
+    "scriptSrc": [
+      "wow(?:\\.min)?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+    ],
+    "website": "https://www.delac.io/WOW"
+  },
   "Wowee": {
     "cats": [
       5
@@ -4700,6 +4407,605 @@
       "payg"
     ],
     "website": "https://www.wowza.com/video/player"
+  },
+  "WP Automatic": {
+    "cats": [
+      87
+    ],
+    "description": "WP Automatic is a WordPress plugin that automates the process of creating posts on your WordPress site by automatically fetching content from various sources like RSS feeds, Amazon, eBay, ClickBank, and more.",
+    "icon": "WP Automatic.svg",
+    "pricing": [
+      "onetime"
+    ],
+    "requires": [
+      "WordPress"
+    ],
+    "scriptSrc": [
+      "/wp-content/plugins/wp-automatic/"
+    ],
+    "website": "https://wpautomatic.com"
+  },
+  "WP Courseware": {
+    "cats": [
+      87,
+      21
+    ],
+    "description": "WP Courseware is an LMS plugin that allows novice and professional users to build online courses using its easy-to-use drag and drop course builder.",
+    "icon": "WP Courseware.svg",
+    "js": {
+      "wpcw_course_note_params.api_url": "/wp-json/wpcw/"
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "requires": [
+      "WordPress"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "/wp-content/plugins/wp-courseware/.+frontend\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+    ],
+    "website": "https://flyplugins.com/wp-courseware-wordpress-lms"
+  },
+  "WP Engine": {
+    "cats": [
+      62,
+      88
+    ],
+    "description": "WP Engine is a website hosting provider.",
+    "headers": {
+      "X-Pass-Why": "",
+      "X-Powered-By": "WP Engine",
+      "X-WPE-Loopback-Upstream-Addr": "",
+      "wpe-backend": ""
+    },
+    "icon": "wpengine.svg",
+    "implies": [
+      "WordPress"
+    ],
+    "website": "https://wpengine.com"
+  },
+  "WP Fastest Cache": {
+    "cats": [
+      87,
+      92
+    ],
+    "description": "WP Fastest Cache is one of a number of plugins for WordPress designed to accelerate the performance of your website.",
+    "dom": [
+      "link[href*='/wp-content/cache/wpfc-minified/']"
+    ],
+    "icon": "WP Fastest Cache.png",
+    "js": {
+      "Wpfcll": ""
+    },
+    "pricing": [
+      "freemium",
+      "onetime"
+    ],
+    "requires": [
+      "WordPress"
+    ],
+    "scriptSrc": [
+      "/wp-content/cache/wpfc-minified/"
+    ],
+    "website": "https://www.wpfastestcache.com"
+  },
+  "WP Featherlight": {
+    "cats": [
+      87
+    ],
+    "description": "WP Featherlight is a WordPress lightbox plugin for adding a minimal, high-performance, responsive jQuery lightbox to your WordPress website.",
+    "icon": "WP_Featherlight.svg",
+    "requires": [
+      "WordPress"
+    ],
+    "scriptSrc": [
+      "/wpFeatherlight\\.pkgd\\.min\\.js"
+    ],
+    "website": "https://wordpress.org/plugins/wp-featherlight"
+  },
+  "WP Google Map Embed": {
+    "cats": [
+      87
+    ],
+    "description": "WP Google Map Embed is a lightweight WordPress plugin for embedding Google Maps with custom markers via shortcodes in posts, pages, and sidebars.",
+    "dom": [
+      "link#wp-gmap-embed-front-css-css"
+    ],
+    "icon": "WP Google Map Embed.svg",
+    "implies": [
+      "Google Maps"
+    ],
+    "pricing": [
+      "freemium",
+      "onetime"
+    ],
+    "requires": [
+      "WordPress"
+    ],
+    "website": "https://wpgooglemap.com"
+  },
+  "WP Google Map Plugin": {
+    "cats": [
+      87
+    ],
+    "description": "WP Google Map Plugin allows you to create google maps shortcodes to display responsive google maps on pages, widgets and custom templates.",
+    "icon": "WP Google Map Plugin.png",
+    "implies": [
+      "Google Maps"
+    ],
+    "js": {
+      "wpgmp_local": ""
+    },
+    "pricing": [
+      "freemium",
+      "onetime"
+    ],
+    "requires": [
+      "WordPress"
+    ],
+    "scriptSrc": [
+      "/wp-content/plugins/wp-google-map-plugin/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+    ],
+    "website": "https://www.wpmapspro.com"
+  },
+  "WP Grid Builder": {
+    "cats": [
+      87
+    ],
+    "description": "WP Grid Builder is a WordPress plugin that enables the creation of advanced grid layouts.",
+    "icon": "WpGridBuilder.svg",
+    "js": {
+      "WP_Grid_Builder": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "/wp-content/plugins/wp-grid-builder/frontend/assets/js/layout\\.js\\?ver=([\\d.]+)\\;version:\\1"
+    ],
+    "website": "https://wpgridbuilder.com"
+  },
+  "WP Job Openings": {
+    "cats": [
+      87,
+      101
+    ],
+    "description": "WP Job Openings is a job listing and recruitment plugin for WordPress websites.",
+    "icon": "WP Job Openings.svg",
+    "js": {
+      "awsmJobs": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "onetime"
+    ],
+    "requires": [
+      "WordPress"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "/wp-content/plugins/wp-job-openings/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+    ],
+    "website": "https://wpjobopenings.com"
+  },
+  "WP Live Visitor Counter": {
+    "cats": [
+      87,
+      5
+    ],
+    "description": "WP Live Visitor Counter is a WordPress plugin that displays the number of online visitors on a website in real-time.",
+    "dom": [
+      "link[href*='/wp-content/plugins/wp-visitors-widget/']"
+    ],
+    "icon": "default.svg",
+    "requires": [
+      "WordPress"
+    ],
+    "website": "https://wordpress.org/plugins/wp-visitors-widget/"
+  },
+  "WP Maintenance Mode": {
+    "cats": [
+      87
+    ],
+    "description": "WP Maintenance Mode is a WordPress plugin which add a maintenance page to your blog.",
+    "icon": "WP Maintenance Mode.png",
+    "js": {
+      "wpmm_vars": ""
+    },
+    "oss": true,
+    "requires": [
+      "WordPress"
+    ],
+    "scriptSrc": [
+      "/wp-content/plugins/wp-maintenance-mode/.+wpmm\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+    ],
+    "website": "https://github.com/andrianvaleanu/WP-Maintenance-Mode"
+  },
+  "WP Portfolio": {
+    "cats": [
+      87
+    ],
+    "description": "WP Portfolio is a premium standalone WordPress plugin designed for creating and showcasing portfolios.",
+    "icon": "WP Portfolio.svg",
+    "pricing": [
+      "mid",
+      "recurring",
+      "onetime"
+    ],
+    "requires": [
+      "WordPress"
+    ],
+    "scriptSrc": [
+      "/wp-content/plugins/astra-portfolio/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+    ],
+    "website": "https://wpportfolio.net"
+  },
+  "WP Puzzle Basic": {
+    "cats": [
+      80
+    ],
+    "description": "WP Puzzle Basic is fully responsive, clean and minimal WordPress theme.",
+    "icon": "WP Puzzle.svg",
+    "pricing": [
+      "freemium",
+      "onetime"
+    ],
+    "requires": [
+      "WordPress"
+    ],
+    "scriptSrc": [
+      "/wp-content/themes/basic/"
+    ],
+    "website": "https://wp-puzzle.com/basic"
+  },
+  "WP Rocket": {
+    "cats": [
+      23,
+      87
+    ],
+    "description": "WP Rocket is a caching and performance optimisation plugin to improve the loading speed of WordPress websites.",
+    "dom": [
+      "style#wpr-usedcss"
+    ],
+    "headers": {
+      "X-Powered-By": "WP Rocket(?:/([\\d.]+))?\\;version:\\1",
+      "X-Rocket-Nginx-Bypass": ""
+    },
+    "html": [
+      "<!--[^>]+WP Rocket"
+    ],
+    "icon": "WP Rocket.svg",
+    "js": {
+      "RocketBrowserCompatibilityChecker": "",
+      "RocketLazyLoadScripts": "",
+      "RocketPreloadLinksConfig": "",
+      "rocket_lazy": "",
+      "rocket_lazyload_css_data": ""
+    },
+    "meta": {
+      "generator": "^WP Rocket ([\\d.]+)\\;version:\\1"
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "requires": [
+      "WordPress"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "/wp-content/plugins/wp-rocket/"
+    ],
+    "website": "https://wp-rocket.me"
+  },
+  "WP SEO AI": {
+    "cats": [
+      54
+    ],
+    "description": "WP SEO AI is a tool that optimizes brand visibility by positioning companies as expert answers across search engines and AI platforms like Google and GPT.",
+    "dom": [
+      "script[id*='seoaic_front_main_js-js']"
+    ],
+    "icon": "WPSEOAI.svg",
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "requires": [
+      "WordPress"
+    ],
+    "saas": true,
+    "website": "https://wpseoai.com"
+  },
+  "WP-Optimize": {
+    "cats": [
+      87,
+      92
+    ],
+    "description": "WP-Optimize is an all-in-one WordPress plugin that cleans your database, compresses your large images and caches your site.",
+    "html": [
+      "<!--[^>]+Cached by WP-Optimize"
+    ],
+    "icon": "WP-Optimize.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "requires": [
+      "WordPress"
+    ],
+    "website": "https://getwpo.com"
+  },
+  "WP-PageNavi": {
+    "cats": [
+      87
+    ],
+    "description": "WP-PageNavi is a WordPress plugin which adds a more advanced paging navigation interface to your WordPress blog.",
+    "dom": [
+      "link[href*='/wp-content/plugins/wp-pagenavi/']"
+    ],
+    "icon": "WP-PageNavi.svg",
+    "oss": true,
+    "requires": [
+      "WordPress"
+    ],
+    "website": "https://github.com/lesterchan/wp-pagenavi"
+  },
+  "WP-Royal Ashe": {
+    "cats": [
+      80
+    ],
+    "description": "WP-Royal Ashe is a personal and multi-author WordPress blog theme.",
+    "dom": [
+      "link#ashe-style-css"
+    ],
+    "icon": "WP-Royal.svg",
+    "js": {
+      "ashePreloader": "",
+      "asheStickySidebar": ""
+    },
+    "pricing": [
+      "freemium",
+      "onetime"
+    ],
+    "requires": [
+      "WordPress"
+    ],
+    "scriptSrc": [
+      "/wp-content/themes/ashe(?:-pro-premium)?/"
+    ],
+    "website": "https://wp-royal.com/themes/item-ashe-free"
+  },
+  "WP-Royal Bard": {
+    "cats": [
+      80
+    ],
+    "description": "WP-Royal Bard is a personal and multi-author WordPress blog theme.",
+    "dom": [
+      "link#bard-style-css, style#bard_predefined_custom_css"
+    ],
+    "icon": "WP-Royal.svg",
+    "pricing": [
+      "freemium",
+      "onetime"
+    ],
+    "requires": [
+      "WordPress"
+    ],
+    "scriptSrc": [
+      "/wp-content/themes/bard(?:-pro-premium)?/"
+    ],
+    "website": "https://wp-royal.com/themes/item-bard-free"
+  },
+  "WP-Statistics": {
+    "cats": [
+      10,
+      87
+    ],
+    "description": "WP-Statistics is a WordPress plugin which allows you to know your website statistics.",
+    "dom": [
+      "link[href*='/wp-content/plugins/wp-statistics/']"
+    ],
+    "html": [
+      "<!-- Analytics by WP-Statistics v([\\d\\.]+)\\;version:\\1"
+    ],
+    "icon": "WP-Statistics.svg",
+    "js": {
+      "WP_Statistics_http": "",
+      "wps_statistics_object": ""
+    },
+    "oss": true,
+    "pricing": [
+      "onetime"
+    ],
+    "requires": [
+      "WordPress"
+    ],
+    "website": "https://wp-statistics.com"
+  },
+  "wp.cloud": {
+    "cats": [
+      62,
+      88
+    ],
+    "description": "WordPress-first cloud hosting.",
+    "headers": {
+      "host-header": "wpcloud"
+    },
+    "icon": "wp-cloud.png",
+    "implies": [
+      "WordPress"
+    ],
+    "website": "https://wp.cloud/"
+  },
+  "wpBakery": {
+    "cats": [
+      51,
+      87
+    ],
+    "description": "WPBakery is a drag and drop visual page builder plugin for WordPress.",
+    "icon": "wpBakery.svg",
+    "implies": [
+      "PHP"
+    ],
+    "meta": {
+      "generator": "WPBakery"
+    },
+    "pricing": [
+      "low",
+      "onetime"
+    ],
+    "requires": [
+      "WordPress"
+    ],
+    "website": "https://wpbakery.com"
+  },
+  "wpCache": {
+    "cats": [
+      23,
+      87
+    ],
+    "description": "WPCache is a static caching plugin for WordPress.",
+    "headers": {
+      "X-Powered-By": "wpCache(?:/([\\d.]+))?\\;version:\\1"
+    },
+    "html": [
+      "<!--[^>]+wpCache"
+    ],
+    "icon": "wpCache.png",
+    "implies": [
+      "PHP"
+    ],
+    "meta": {
+      "generator": "wpCache",
+      "keywords": "wpCache"
+    },
+    "requires": [
+      "WordPress"
+    ],
+    "url": [
+      "^https?://[^/]+\\.wpcache\\.co"
+    ],
+    "website": "https://wpcache.co"
+  },
+  "WPCacheOn": {
+    "cats": [
+      23,
+      87
+    ],
+    "description": "WPCacheOn is a caching and performance optimisation plugin, which improves the loading speed of WordPress websites.",
+    "headers": {
+      "x-powered-by": "^Optimized by WPCacheOn"
+    },
+    "icon": "WPCacheOn.svg",
+    "requires": [
+      "WordPress"
+    ],
+    "website": "https://wpcacheon.io"
+  },
+  "WPForms": {
+    "cats": [
+      87,
+      110
+    ],
+    "cpe": "cpe:2.3:a:wpforms:wpforms:*:*:*:*:pro:wordpress:*:*",
+    "description": "WPForms is a drag and drop WordPress form builder.",
+    "icon": "WPForms.svg",
+    "js": {
+      "wpforms": "",
+      "wpforms_settings": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "requires": [
+      "WordPress"
+    ],
+    "scriptSrc": [
+      "/wp-content/plugins/wpforms(?:-lite)?/.+(?:frontend\\.min|wpforms)\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+    ],
+    "website": "https://wpforms.com"
+  },
+  "WPML": {
+    "cats": [
+      87,
+      89
+    ],
+    "cookies": {
+      "wp-wpml_current_language": ""
+    },
+    "cpe": "cpe:2.3:a:wpml:wpml:*:*:*:*:*:wordpress:*:*",
+    "description": "WPML plugin makes it possible to build and run fully multilingual WordPress sites.",
+    "icon": "WPML.svg",
+    "meta": {
+      "generator": "^WPML\\sver\\:([\\d\\.]+)\\;version:\\1"
+    },
+    "oss": true,
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "requires": [
+      "WordPress"
+    ],
+    "scriptSrc": [
+      "/wp-content/plugins/sitepress-multilingual-cms/"
+    ],
+    "website": "https://wpml.org/"
+  },
+  "WPMU DEV Smush": {
+    "cats": [
+      87
+    ],
+    "description": "WPMU DEV Smush is a WordPress plugin that allows you to optimise images without losing quality.",
+    "icon": "WPMU DEV.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "requires": [
+      "WordPress"
+    ],
+    "scriptSrc": [
+      "/wp-content/plugins/wp-smushit(?:-pro)?/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+    ],
+    "website": "https://wpmudev.com/project/wp-smush-pro"
+  },
+  "WPS Visitor Counter": {
+    "cats": [
+      87
+    ],
+    "description": "WPS Visitor Counter is a plugin for WordPress that counts the number of visitors to a website.",
+    "icon": "WPS Visitor Counter.png",
+    "js": {
+      "wpspagevisit": ""
+    },
+    "requires": [
+      "WordPress"
+    ],
+    "website": "https://wordpress.org/plugins/wps-visitor-counter/"
+  },
+  "WSHOP": {
+    "cats": [
+      6
+    ],
+    "description": "WSHOP is a cloud ecommerce platform for managing online stores, transactions, and customer interactions.",
+    "icon": "WSHOP.svg",
+    "js": {
+      "wShop.$attrs": ""
+    },
+    "website": "https://www.wshop.com"
   },
   "Wt": {
     "cats": [
@@ -4817,6 +5123,26 @@
     ],
     "website": "https://web.wurfl.io/"
   },
+  "WWPass": {
+    "cats": [
+      69
+    ],
+    "description": "WWPass is a solution that enables authentication without the use of usernames, simplifying the login process while maintaining security through alternative methods.",
+    "icon": "WWPass.svg",
+    "js": {
+      "WWPass.init": "",
+      "wwpassQRCodeAuth": ""
+    },
+    "pricing": [
+      "freemium",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "cdn\\.wwpass\\.com"
+    ],
+    "website": "https://www.wwpass.com"
+  },
   "Wyng": {
     "cats": [
       32
@@ -4832,6 +5158,18 @@
     ],
     "website": "https://www.wyng.com"
   },
+  "Wyre": {
+    "cats": [
+      41
+    ],
+    "description": "Wyre is a financial technology platform that enables cryptocurrency companies to connect digital assets with traditional fiat payment systems.",
+    "icon": "Wyre.svg",
+    "saas": true,
+    "scriptSrc": [
+      "verify\\.sendwyre\\.com/"
+    ],
+    "website": "https://sendwyre.com"
+  },
   "WysiBB": {
     "cats": [
       24
@@ -4846,157 +5184,5 @@
       "/jquery\\.wysibb\\.min\\.js"
     ],
     "website": "https://wysibb.com"
-  },
-  "wBuy": {
-    "cats": [
-      6
-    ],
-    "description": "wBuy is a SaaS ecommerce platform.",
-    "icon": "wBuy.svg",
-    "pricing": [
-      "low",
-      "recurring"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "\\.sistemawbuy\\.com\\.br/"
-    ],
-    "website": "https://www.wbuy.com.br"
-  },
-  "waitForImages": {
-    "cats": [
-      59
-    ],
-    "description": "waitForImages is a lightweight, high-performance JavaScript library that simplifies the handling of image preloading events.",
-    "oss": true,
-    "scriptSrc": [
-      "(?:((?:\\d+\\.)+\\d+)\\/(?:jquery\\.)?)?waitforimages(?:-modded)?(?:\\.min)?\\.js\\;version:\\1",
-      "(?:(?:jquery\\.)?)?waitforimages(?:-((?:\\d+\\.)+\\d+)-modded)?(?:\\.min)?\\.js\\;version:\\1"
-    ],
-    "website": "https://github.com/alexanderdickson/waitForImages"
-  },
-  "wap.store": {
-    "cats": [
-      6
-    ],
-    "description": "The wap.store provides a range of services for ecommerce businesses, including a platform, a marketplace hub, and a digital agency.",
-    "icon": "wap.store.svg",
-    "implies": [
-      "MySQL"
-    ],
-    "js": {
-      "WapStore.categoria": ""
-    },
-    "pricing": [
-      "poa"
-    ],
-    "saas": true,
-    "website": "https://www.wapstore.com.br"
-  },
-  "web-vitals": {
-    "cats": [
-      59,
-      78
-    ],
-    "description": "The web-vitals JavaScript is a tiny, modular library for measuring all the web vitals metrics on real users.",
-    "icon": "web-vitals.svg",
-    "js": {
-      "webVitals": ""
-    },
-    "oss": true,
-    "scriptSrc": [
-      "web-vitals@([\\d.]+)/dist/web-vitals.*\\.js\\;version:\\1"
-    ],
-    "scripts": [
-      "(8999999999999[\\s\\S]+1e12[\\s\\S]+(largest-contentful-paint|first-input|layout-shift)|(largest-contentful-paint|first-input|layout-shift)[\\s\\S]+8999999999999[\\s\\S]+1e12)"
-    ],
-    "website": "https://github.com/GoogleChrome/web-vitals"
-  },
-  "webEdition": {
-    "cats": [
-      1
-    ],
-    "cpe": "cpe:2.3:a:webedition:webedition_cms:*:*:*:*:*:*:*:*",
-    "icon": "webEdition.png",
-    "meta": {
-      "DC.title": "webEdition",
-      "generator": "webEdition"
-    },
-    "website": "https://webedition.de/en"
-  },
-  "wisyCMS": {
-    "cats": [
-      1
-    ],
-    "icon": "wisyCMS.svg",
-    "meta": {
-      "generator": "^wisy CMS[ v]{0,3}([0-9.,]*)\\;version:\\1"
-    },
-    "website": "https://wisy.3we.de"
-  },
-  "wp.cloud": {
-    "cats": [
-      62,
-      88
-    ],
-    "description": "WordPress-first cloud hosting.",
-    "headers": {
-      "host-header": "wpcloud"
-    },
-    "icon": "wp-cloud.png",
-    "implies": [
-      "WordPress"
-    ],
-    "website": "https://wp.cloud/"
-  },
-  "wpBakery": {
-    "cats": [
-      51,
-      87
-    ],
-    "description": "WPBakery is a drag and drop visual page builder plugin for WordPress.",
-    "icon": "wpBakery.svg",
-    "implies": [
-      "PHP"
-    ],
-    "meta": {
-      "generator": "WPBakery"
-    },
-    "pricing": [
-      "low",
-      "onetime"
-    ],
-    "requires": [
-      "WordPress"
-    ],
-    "website": "https://wpbakery.com"
-  },
-  "wpCache": {
-    "cats": [
-      23,
-      87
-    ],
-    "description": "WPCache is a static caching plugin for WordPress.",
-    "headers": {
-      "X-Powered-By": "wpCache(?:/([\\d.]+))?\\;version:\\1"
-    },
-    "html": [
-      "<!--[^>]+wpCache"
-    ],
-    "icon": "wpCache.png",
-    "implies": [
-      "PHP"
-    ],
-    "meta": {
-      "generator": "wpCache",
-      "keywords": "wpCache"
-    },
-    "requires": [
-      "WordPress"
-    ],
-    "url": [
-      "^https?://[^/]+\\.wpcache\\.co"
-    ],
-    "website": "https://wpcache.co"
   }
 }

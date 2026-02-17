@@ -1,138 +1,4 @@
 {
-  "LEADIN": {
-    "cats": [
-      10
-    ],
-    "description": "LEADIN is a tool that provides insights into individuals who fill out forms on a site, utilizing Hubspot's market-leading CRM for implementation.",
-    "icon": "LEADIN.svg",
-    "saas": true,
-    "scriptSrc": [
-      "js\\.leadin\\.com"
-    ],
-    "website": "https://leadin.com"
-  },
-  "LEPTON": {
-    "cats": [
-      1
-    ],
-    "cpe": "cpe:2.3:a:lepton-cms:lepton:*:*:*:*:*:*:*:*",
-    "description": "LEPTON is a PHP-based content management system with support for MySQL/MariaDB, WYSIWYG editing, multi-language capability, and secure backend features.",
-    "icon": "LEPTON.svg",
-    "implies": [
-      "PHP"
-    ],
-    "meta": {
-      "generator": "LEPTON"
-    },
-    "oss": true,
-    "website": "https://www.lepton-cms.org"
-  },
-  "LEVERADE": {
-    "cats": [
-      53
-    ],
-    "description": "LEVERADE is a sports management and monetization system designed to organize, track, and optimize sporting events and related financial operations.",
-    "icon": "LEVERADE.svg",
-    "saas": true,
-    "scriptSrc": [
-      "static\\.leverade\\.com"
-    ],
-    "website": "https://leverade.com"
-  },
-  "LGC": {
-    "cats": [
-      1
-    ],
-    "description": "LGC is a modern CMS designed to improve the management of your website.",
-    "icon": "LGC.svg",
-    "meta": {
-      "generator": "^LGC$"
-    },
-    "pricing": [
-      "onetime"
-    ],
-    "website": "https://luigigabrieleconti.com"
-  },
-  "LINE Login": {
-    "cats": [
-      69
-    ],
-    "description": "LINE Login is an API that allows you to implement a login function into your services, regardless of whether they are web apps or native apps.",
-    "dom": [
-      "a[href*='access.line.me/']"
-    ],
-    "icon": "LINE.svg",
-    "js": {
-      "Constants.authorization_request_url": "access\\.line\\.me/oauth2/v([\\d\\.]+)/\\;version:\\1"
-    },
-    "website": "https://developers.line.biz/en/services/line-login/"
-  },
-  "LKQD": {
-    "cats": [
-      36
-    ],
-    "description": "LKQD is a video advertising platform that enables publishers to serve video ads across multiple devices and formats.",
-    "dom": [
-      "iframe[src*='.lkqd.net']"
-    ],
-    "icon": "LKQD.svg",
-    "js": {
-      "lkqdCall": "",
-      "lkqdErrorCount": "",
-      "lkqdSettings": "",
-      "lkqd_http_response": ""
-    },
-    "scriptSrc": [
-      "\\.lkqd\\.net"
-    ],
-    "website": "https://wiki.lkqd.com",
-    "xhr": [
-      "\\.lkqd\\.net"
-    ]
-  },
-  "LOU": {
-    "cats": [
-      58
-    ],
-    "description": "LOU is a Digital Adoption Platform that streamlines user onboarding and training.",
-    "icon": "LOU.svg",
-    "scriptSrc": [
-      "cdn\\.louassist\\.com*"
-    ],
-    "website": "https://www.louassist.com"
-  },
-  "LPQV": {
-    "cats": [
-      6
-    ],
-    "description": "LPQV is an online store that offers integrated landing pages, streamlining the entire operation in one place.",
-    "icon": "LPQV.svg",
-    "js": {
-      "LPQV.page": "",
-      "LPQV_VARS_RPL": ""
-    },
-    "pricing": [
-      "mid",
-      "recurring"
-    ],
-    "saas": true,
-    "website": "https://www.lpqv.com.br/"
-  },
-  "LTheme": {
-    "cats": [
-      80
-    ],
-    "description": "LTheme is a provider of Joomla and WordPress themes.",
-    "dom": [
-      "script[id*='ltheme-custom-js']"
-    ],
-    "icon": "LTheme.svg",
-    "requires": [
-      "WordPress"
-    ],
-    "saas": true,
-    "website": "https://ltheme.com"
-  },
   "Labrador CMS": {
     "cats": [
       1
@@ -217,25 +83,6 @@
     ],
     "website": "https://landbot.io"
   },
-  "LandingPress": {
-    "cats": [
-      80
-    ],
-    "description": "LandingPress is a WordPress theme.",
-    "icon": "LandingPress.svg",
-    "pricing": [
-      "onetime",
-      "low",
-      "recurring"
-    ],
-    "requires": [
-      "WordPress"
-    ],
-    "scriptSrc": [
-      "/wp-content/themes/landingpress-wp/.+script\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
-    ],
-    "website": "https://landingpress.net"
-  },
   "Landingi": {
     "cats": [
       51
@@ -255,6 +102,46 @@
       "scripts\\.assets-landingi\\.com"
     ],
     "website": "https://landingi.com"
+  },
+  "LandingPress": {
+    "cats": [
+      80
+    ],
+    "description": "LandingPress is a WordPress theme.",
+    "icon": "LandingPress.svg",
+    "pricing": [
+      "onetime",
+      "low",
+      "recurring"
+    ],
+    "requires": [
+      "WordPress"
+    ],
+    "scriptSrc": [
+      "/wp-content/themes/landingpress-wp/.+script\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+    ],
+    "website": "https://landingpress.net"
+  },
+  "langify": {
+    "cats": [
+      89
+    ],
+    "description": "langify translate your shop into multiple languages. langify comes with a visual configurator that allows you to add language switchers that integrate seamlessly into your existing design.",
+    "icon": "langify.svg",
+    "js": {
+      "Langify": "",
+      "langify": "",
+      "langify.settings.switcher.version": "([\\d\\.]+)\\;version:\\1"
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "requiresCategory": [
+      6
+    ],
+    "saas": true,
+    "website": "https://langify-app.com"
   },
   "LangShop": {
     "cats": [
@@ -456,6 +343,21 @@
     ],
     "website": "https://www.launchrock.com"
   },
+  "Lawmatics": {
+    "cats": [
+      53
+    ],
+    "description": "Lawmatics is a growth platform for law firms that streamlines client intake, marketing automation, and workflow management.",
+    "icon": "Lawmatics.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "navi\\.lawmatics\\.com"
+    ],
+    "website": "https://www.lawmatics.com"
+  },
   "LawPay": {
     "cats": [
       41
@@ -471,21 +373,6 @@
       "\\b(?:lawpay)\\b"
     ],
     "website": "https://www.lawpay.com"
-  },
-  "Lawmatics": {
-    "cats": [
-      53
-    ],
-    "description": "Lawmatics is a growth platform for law firms that streamlines client intake, marketing automation, and workflow management.",
-    "icon": "Lawmatics.svg",
-    "pricing": [
-      "poa"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "navi\\.lawmatics\\.com"
-    ],
-    "website": "https://www.lawmatics.com"
   },
   "LayBuy": {
     "cats": [
@@ -515,26 +402,6 @@
       "/wp-content/plugins/woo-laybuy/"
     ],
     "website": "https://www.laybuy.com"
-  },
-  "LayUp": {
-    "cats": [
-      41
-    ],
-    "description": "LayUp is a payment technology platform enabling customers to pay for goods and services over time.",
-    "icon": "LayUp.svg",
-    "js": {
-      "LayUpCheckoutButton": ""
-    },
-    "pricing": [
-      "low",
-      "recurring",
-      "poa"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "layup\\.co\\.za"
-    ],
-    "website": "https://layup.co.za"
   },
   "Layers": {
     "cats": [
@@ -604,6 +471,26 @@
     },
     "oss": true,
     "website": "https://layui.gitee.io"
+  },
+  "LayUp": {
+    "cats": [
+      41
+    ],
+    "description": "LayUp is a payment technology platform enabling customers to pay for goods and services over time.",
+    "icon": "LayUp.svg",
+    "js": {
+      "LayUpCheckoutButton": ""
+    },
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "layup\\.co\\.za"
+    ],
+    "website": "https://layup.co.za"
   },
   "Lazada": {
     "cats": [
@@ -719,6 +606,21 @@
     ],
     "website": "https://lead-finity.com"
   },
+  "Leadbit": {
+    "cats": [
+      36
+    ],
+    "description": "Leadbit is an offer-based ad system designed to target users with specific ads based on their engagement and preferences.",
+    "dom": [
+      "form[action*='wapi.leadbit.com/']"
+    ],
+    "icon": "Leadbit.svg",
+    "saas": true,
+    "scriptSrc": [
+      "\\.leadbit\\.com/"
+    ],
+    "website": "https://leadbit.com"
+  },
   "LeadBoxer": {
     "cats": [
       10
@@ -790,89 +692,6 @@
     "saas": true,
     "website": "https://www.leaddyno.com"
   },
-  "LeadPages": {
-    "cats": [
-      51
-    ],
-    "description": "LeadPages is a tool that allows users to transform their ideas into published landing pages efficiently.",
-    "dom": [
-      "link[href*='.leadpages.io']"
-    ],
-    "icon": "LeadPages.svg",
-    "js": {
-      "LeadPagesCenterObject": ""
-    },
-    "pricing": [
-      "low",
-      "recurring",
-      "poa"
-    ],
-    "saas": true,
-    "scripts": [
-      "\\.leadpages\\.com"
-    ],
-    "website": "https://www.leadpages.com"
-  },
-  "LeadScore": {
-    "cats": [
-      32
-    ],
-    "description": "LeadScore is an inbound marketing automation system facilitating streamlined digital marketing processes.",
-    "icon": "LeadScore.svg",
-    "js": {
-      "trackLeadScore": ""
-    },
-    "pricing": [
-      "low",
-      "recurring"
-    ],
-    "saas": true,
-    "website": "https://www.leadscore.io/"
-  },
-  "LeadSimple": {
-    "cats": [
-      53
-    ],
-    "description": "LeadSimple is a platform that allows property managers to automate their sales and operational processes.",
-    "icon": "LeadSimple.svg",
-    "pricing": [
-      "freemium",
-      "low",
-      "recurring"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "assets2\\.leadsimple\\.com/"
-    ],
-    "website": "https://www.leadsimple.com"
-  },
-  "LeadSlide": {
-    "cats": [
-      32
-    ],
-    "description": "LeadSlide is a marketing campaign software designed for wordpress, ecommerce, and Shopify.",
-    "icon": "LeadSlide.svg",
-    "saas": true,
-    "scriptSrc": [
-      "leadslide\\.com/"
-    ],
-    "website": "https://v1.leadslide.com"
-  },
-  "Leadbit": {
-    "cats": [
-      36
-    ],
-    "description": "Leadbit is an offer-based ad system designed to target users with specific ads based on their engagement and preferences.",
-    "dom": [
-      "form[action*='wapi.leadbit.com/']"
-    ],
-    "icon": "Leadbit.svg",
-    "saas": true,
-    "scriptSrc": [
-      "\\.leadbit\\.com/"
-    ],
-    "website": "https://leadbit.com"
-  },
   "Leadfeeder": {
     "cats": [
       10
@@ -924,6 +743,18 @@
     ],
     "website": "https://leadific.co"
   },
+  "LEADIN": {
+    "cats": [
+      10
+    ],
+    "description": "LEADIN is a tool that provides insights into individuals who fill out forms on a site, utilizing Hubspot's market-leading CRM for implementation.",
+    "icon": "LEADIN.svg",
+    "saas": true,
+    "scriptSrc": [
+      "js\\.leadin\\.com"
+    ],
+    "website": "https://leadin.com"
+  },
   "Leadinfo": {
     "cats": [
       10
@@ -944,6 +775,46 @@
     ],
     "website": "https://www.leadinfo.com"
   },
+  "LeadPages": {
+    "cats": [
+      51
+    ],
+    "description": "LeadPages is a tool that allows users to transform their ideas into published landing pages efficiently.",
+    "dom": [
+      "link[href*='.leadpages.io']"
+    ],
+    "icon": "LeadPages.svg",
+    "js": {
+      "LeadPagesCenterObject": ""
+    },
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scripts": [
+      "\\.leadpages\\.com"
+    ],
+    "website": "https://www.leadpages.com"
+  },
+  "Leads2b": {
+    "cats": [
+      32
+    ],
+    "description": "Leads2b is a prospecting system that helps identify and access company data from Brazil for sales, marketing, and business development purposes.",
+    "icon": "Leads2b.svg",
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.app\\.leads2b\\.com/"
+    ],
+    "website": "https://leads2b.com"
+  },
   "LeadsBridge": {
     "cats": [
       32
@@ -961,24 +832,62 @@
     ],
     "website": "https://leadsbridge.com"
   },
-  "LeadsSight": {
+  "LeadScore": {
     "cats": [
-      10
+      32
     ],
-    "description": "LeadsSight is a tool that converts lost visitors on your website into potential leads by tracking their behaviour.",
-    "icon": "LeadsSight.svg",
+    "description": "LeadScore is an inbound marketing automation system facilitating streamlined digital marketing processes.",
+    "icon": "LeadScore.svg",
     "js": {
-      "postURL": "app\\.leadssight\\.com/"
+      "trackLeadScore": ""
     },
     "pricing": [
-      "mid",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.leadscore.io/"
+  },
+  "LeadSimple": {
+    "cats": [
+      53
+    ],
+    "description": "LeadSimple is a platform that allows property managers to automate their sales and operational processes.",
+    "icon": "LeadSimple.svg",
+    "pricing": [
+      "freemium",
+      "low",
       "recurring"
     ],
     "saas": true,
     "scriptSrc": [
-      "app\\.leadssight\\.com/"
+      "assets2\\.leadsimple\\.com/"
     ],
-    "website": "https://leadssight.com"
+    "website": "https://www.leadsimple.com"
+  },
+  "LeadsLeap": {
+    "cats": [
+      32
+    ],
+    "description": "LeadsLeap is a lead generation system designed to collect, manage, and organize potential customer data to support marketing and sales workflows.",
+    "icon": "LeadsLeap.svg",
+    "saas": true,
+    "scriptSrc": [
+      "pjs\\.leadsleap\\.net"
+    ],
+    "website": "https://leadsleap.com"
+  },
+  "LeadSlide": {
+    "cats": [
+      32
+    ],
+    "description": "LeadSlide is a marketing campaign software designed for wordpress, ecommerce, and Shopify.",
+    "icon": "LeadSlide.svg",
+    "saas": true,
+    "scriptSrc": [
+      "leadslide\\.com/"
+    ],
+    "website": "https://v1.leadslide.com"
   },
   "Leadspace": {
     "cats": [
@@ -1011,6 +920,25 @@
     ],
     "saas": true,
     "website": "https://www.leadsquared.com"
+  },
+  "LeadsSight": {
+    "cats": [
+      10
+    ],
+    "description": "LeadsSight is a tool that converts lost visitors on your website into potential leads by tracking their behaviour.",
+    "icon": "LeadsSight.svg",
+    "js": {
+      "postURL": "app\\.leadssight\\.com/"
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "app\\.leadssight\\.com/"
+    ],
+    "website": "https://leadssight.com"
   },
   "Leadster": {
     "cats": [
@@ -1112,6 +1040,27 @@
     ],
     "website": "https://www.leafly.com"
   },
+  "Leaky Paywall": {
+    "cats": [
+      87
+    ],
+    "description": "Leaky Paywall is a metered paywall system for WordPress websites that limits user access to content based on predefined viewing thresholds and subscription rules.",
+    "icon": "LeakyPaywall.svg",
+    "js": {
+      "leaky_paywall_quick_register": "",
+      "leaky_paywall_recurring": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "requires": [
+      "WordPress"
+    ],
+    "saas": true,
+    "website": "https://leakypaywall.com"
+  },
   "LeanData": {
     "cats": [
       53
@@ -1149,6 +1098,26 @@
       "npm/leanplum-sdk\\@([\\d.]+)\\;version:\\1"
     ],
     "website": "https://www.leanplum.com"
+  },
+  "Learnbase": {
+    "cats": [
+      21
+    ],
+    "description": "Learnbase is an AI-powered platform for creators and students that provides tools to support teaching, learning, and content creation.",
+    "icon": "Learnbase.svg",
+    "js": {
+      "Learnbase": "",
+      "Learnbase.version": "^(.+)$\\;version:\\1"
+    },
+    "meta": {
+      "generator": "^Learnbase$"
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://uselearnbase.com"
   },
   "LearnDash": {
     "cats": [
@@ -1380,6 +1349,22 @@
     "saas": true,
     "website": "https://lenushealth.com"
   },
+  "LEPTON": {
+    "cats": [
+      1
+    ],
+    "cpe": "cpe:2.3:a:lepton-cms:lepton:*:*:*:*:*:*:*:*",
+    "description": "LEPTON is a PHP-based content management system with support for MySQL/MariaDB, WYSIWYG editing, multi-language capability, and secure backend features.",
+    "icon": "LEPTON.svg",
+    "implies": [
+      "PHP"
+    ],
+    "meta": {
+      "generator": "LEPTON"
+    },
+    "oss": true,
+    "website": "https://www.lepton-cms.org"
+  },
   "Leptos": {
     "cats": [
       18
@@ -1538,6 +1523,18 @@
     "saas": true,
     "website": "https://www.lever.co"
   },
+  "LEVERADE": {
+    "cats": [
+      53
+    ],
+    "description": "LEVERADE is a sports management and monetization system designed to organize, track, and optimize sporting events and related financial operations.",
+    "icon": "LEVERADE.svg",
+    "saas": true,
+    "scriptSrc": [
+      "static\\.leverade\\.com"
+    ],
+    "website": "https://leverade.com"
+  },
   "Lexer": {
     "cats": [
       97
@@ -1563,6 +1560,20 @@
       "\\.lexity\\.com/"
     ],
     "website": "https://lexity.com"
+  },
+  "LGC": {
+    "cats": [
+      1
+    ],
+    "description": "LGC is a modern CMS designed to improve the management of your website.",
+    "icon": "LGC.svg",
+    "meta": {
+      "generator": "^LGC$"
+    },
+    "pricing": [
+      "onetime"
+    ],
+    "website": "https://luigigabrieleconti.com"
   },
   "Liana": {
     "cats": [
@@ -1591,6 +1602,22 @@
     ],
     "website": "https://liberapay.com/"
   },
+  "libphonenumber": {
+    "cats": [
+      59
+    ],
+    "description": "libphonenumber is a JavaScript library for parsing, formatting, and validating international phone numbers.",
+    "icon": "default.svg",
+    "js": {
+      "libphonenumber.AsYouType": "",
+      "libphonenumber.DIGITS": ""
+    },
+    "oss": true,
+    "scriptSrc": [
+      "(?:/([\\d\\.]+))?/libphonenumber(?:-js\\.min)?\\.js\\;version:\\1"
+    ],
+    "website": "https://github.com/google/libphonenumber"
+  },
   "Libravatar": {
     "cats": [
       19
@@ -1602,6 +1629,19 @@
     "icon": "libravatar.svg",
     "oss": true,
     "website": "https://www.libravatar.org/"
+  },
+  "libwww-perl-daemon": {
+    "cats": [
+      22
+    ],
+    "headers": {
+      "Server": "libwww-perl-daemon(?:/([\\d\\.]+))?\\;version:\\1"
+    },
+    "icon": "libwww-perl-daemon.png",
+    "implies": [
+      "Perl"
+    ],
+    "website": "https://metacpan.org/pod/HTTP::Daemon"
   },
   "Lieferando": {
     "cats": [
@@ -1656,24 +1696,6 @@
     "oss": true,
     "website": "https://liftweb.net"
   },
-  "LiftIgniter": {
-    "cats": [
-      76
-    ],
-    "description": "LiftIgniter is a personalized content system designed to tailor recommendations and content to individual users based on their preferences and behaviours.",
-    "dom": [
-      "phoenix-script[script-id*='liftigniter-init']"
-    ],
-    "icon": "LiftIgniter.svg",
-    "js": {
-      "liftIgniterLoadPromise": ""
-    },
-    "pricing": [
-      "poa"
-    ],
-    "saas": true,
-    "website": "https://www.liftigniter.com"
-  },
   "Lifter Apps Pop-up Window": {
     "cats": [
       5
@@ -1714,41 +1736,23 @@
     ],
     "website": "https://lifterlms.com"
   },
-  "LightMon Engine": {
+  "LiftIgniter": {
     "cats": [
-      1
+      76
     ],
-    "cookies": {
-      "lm_online": ""
+    "description": "LiftIgniter is a personalized content system designed to tailor recommendations and content to individual users based on their preferences and behaviours.",
+    "dom": [
+      "phoenix-script[script-id*='liftigniter-init']"
+    ],
+    "icon": "LiftIgniter.svg",
+    "js": {
+      "liftIgniterLoadPromise": ""
     },
-    "html": [
-      "<!-- Lightmon Engine Copyright Lightmon"
-    ],
-    "icon": "LightMon Engine.png",
-    "implies": [
-      "PHP"
-    ],
-    "meta": {
-      "generator": "LightMon Engine"
-    },
-    "website": "https://lightmon.ru"
-  },
-  "LightSpeed VT": {
-    "cats": [
-      21
-    ],
-    "description": "LightSpeed VT is a learning management system designed to deliver, track, and manage educational courses and training programs.",
-    "icon": "LightSPeedVT.svg",
     "pricing": [
-      "mid",
-      "recurring",
       "poa"
     ],
     "saas": true,
-    "scriptSrc": [
-      "\\.lightspeedvt\\.com"
-    ],
-    "website": "https://lightspeedvt.com"
+    "website": "https://www.liftigniter.com"
   },
   "Lightbox": {
     "cats": [
@@ -1791,6 +1795,25 @@
     ],
     "website": "https://www.lightfolio.com"
   },
+  "LightMon Engine": {
+    "cats": [
+      1
+    ],
+    "cookies": {
+      "lm_online": ""
+    },
+    "html": [
+      "<!-- Lightmon Engine Copyright Lightmon"
+    ],
+    "icon": "LightMon Engine.png",
+    "implies": [
+      "PHP"
+    ],
+    "meta": {
+      "generator": "LightMon Engine"
+    },
+    "website": "https://lightmon.ru"
+  },
   "Lightning": {
     "cats": [
       80
@@ -1831,10 +1854,43 @@
     "scriptSrc": [
       "http://assets\\.webshopapp\\.com"
     ],
+    "scripts": [
+      "lightspeed\\.multisafepay\\.com"
+    ],
     "url": [
       "seoshop.webshopapp.com"
     ],
     "website": "https://www.lightspeedhq.com/products/ecommerce/"
+  },
+  "LightSpeed VT": {
+    "cats": [
+      21
+    ],
+    "description": "LightSpeed VT is a learning management system designed to deliver, track, and manage educational courses and training programs.",
+    "icon": "LightSPeedVT.svg",
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.lightspeedvt\\.com"
+    ],
+    "website": "https://lightspeedvt.com"
+  },
+  "lighttpd": {
+    "cats": [
+      22
+    ],
+    "cpe": "cpe:2.3:a:lighttpd:lighttpd:*:*:*:*:*:*:*:*",
+    "description": "Lighttpd is an open-source web server optimised for speed-critical environment.",
+    "headers": {
+      "Server": "(?:L|l)ight(?:y)?(?:tpd)?(?:/([\\d\\.]+))?\\;version:\\1"
+    },
+    "icon": "lighttpd.svg",
+    "oss": true,
+    "website": "https://www.lighttpd.net"
   },
   "Ligna": {
     "cats": [
@@ -1900,41 +1956,6 @@
     ],
     "website": "https://www.limetalk.com"
   },
-  "LimeChat": {
-    "cats": [
-      52
-    ],
-    "description": "LimeChat is India's first level-3 AI chatbot company.",
-    "icon": "LimeChat.svg",
-    "pricing": [
-      "poa"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "\\.limechat\\.ai/"
-    ],
-    "website": "https://www.limechat.ai"
-  },
-  "LimeSpot": {
-    "cats": [
-      76
-    ],
-    "description": "LimeSpot is an AI-powered personalisation platform for marketers and ecommerce professionals.",
-    "icon": "LimeSpot.svg",
-    "js": {
-      "LimeSpot.CartItems": "",
-      "LimeSpot.Recommendations": ""
-    },
-    "pricing": [
-      "low",
-      "recurring"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "\\.personalizer\\.io/"
-    ],
-    "website": "https://www.limespot.com"
-  },
   "Limecall": {
     "cats": [
       72
@@ -1959,6 +1980,21 @@
     ],
     "website": "https://limecall.com"
   },
+  "LimeChat": {
+    "cats": [
+      52
+    ],
+    "description": "LimeChat is India's first level-3 AI chatbot company.",
+    "icon": "LimeChat.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.limechat\\.ai/"
+    ],
+    "website": "https://www.limechat.ai"
+  },
   "Limepay": {
     "cats": [
       91
@@ -1975,6 +2011,26 @@
       "/limepay-installment-show\\.js"
     ],
     "website": "https://www.limepay.com.au"
+  },
+  "LimeSpot": {
+    "cats": [
+      76
+    ],
+    "description": "LimeSpot is an AI-powered personalisation platform for marketers and ecommerce professionals.",
+    "icon": "LimeSpot.svg",
+    "js": {
+      "LimeSpot.CartItems": "",
+      "LimeSpot.Recommendations": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.personalizer\\.io/"
+    ],
+    "website": "https://www.limespot.com"
   },
   "Limit Login Attempts Reloaded": {
     "cats": [
@@ -2030,6 +2086,39 @@
       "api\\.lindy\\.ai"
     ],
     "website": "https://www.lindy.ai"
+  },
+  "LINE Login": {
+    "cats": [
+      69
+    ],
+    "description": "LINE Login is an API that allows you to implement a login function into your services, regardless of whether they are web apps or native apps.",
+    "dom": [
+      "a[href*='access.line.me/']"
+    ],
+    "icon": "LINE.svg",
+    "js": {
+      "Constants.authorization_request_url": "access\\.line\\.me/oauth2/v([\\d\\.]+)/\\;version:\\1"
+    },
+    "website": "https://developers.line.biz/en/services/line-login/"
+  },
+  "Line-Up": {
+    "cats": [
+      96
+    ],
+    "description": "Line-Up is an event discovery service that organizes and presents local activities, shows, and gatherings to help audiences access timely information about upcoming events.",
+    "icon": "Line-Up.svg",
+    "js": {
+      "LineupPurchaseLoader.baseId": "",
+      "LineupSDKLoader.baseId": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "platform\\.lineupnow\\.com"
+    ],
+    "website": "https://www.line-up.tickets"
   },
   "Line2": {
     "cats": [
@@ -2125,26 +2214,6 @@
     ],
     "website": "https://www.linguise.com"
   },
-  "LinkMink": {
-    "cats": [
-      10,
-      71
-    ],
-    "description": "LinkMink is an affiliate tracking and management for SaaS companies.",
-    "icon": "LinkMink.svg",
-    "js": {
-      "LinkMink": ""
-    },
-    "pricing": [
-      "low",
-      "recurring"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "cdn\\.linkmink\\.com/lm-js/([\\d\\.]+)/\\;version:\\1"
-    ],
-    "website": "https://linkmink.com"
-  },
   "Linkedin Ads": {
     "cats": [
       36
@@ -2225,6 +2294,26 @@
     ],
     "saas": true,
     "website": "https://www.linkfire.com"
+  },
+  "LinkMink": {
+    "cats": [
+      10,
+      71
+    ],
+    "description": "LinkMink is an affiliate tracking and management for SaaS companies.",
+    "icon": "LinkMink.svg",
+    "js": {
+      "LinkMink": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "cdn\\.linkmink\\.com/lm-js/([\\d\\.]+)/\\;version:\\1"
+    ],
+    "website": "https://linkmink.com"
   },
   "Linkz": {
     "cats": [
@@ -2325,6 +2414,26 @@
     ],
     "website": "https://www.liquidweb.com"
   },
+  "Liscio": {
+    "cats": [
+      55
+    ],
+    "description": "Liscio is an AI assistant for accounting firms that supports client communication, task coordination, and document workflows to help manage accounting operations.",
+    "icon": "Liscio.svg",
+    "js": {
+      "webpackChunkliscio_ui.push": ""
+    },
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scripts": [
+      "\\.liscio\\.me/"
+    ],
+    "website": "https://www.liscio.me"
+  },
   "List.js": {
     "cats": [
       59
@@ -2340,21 +2449,6 @@
       "@([\\d.]+)/(?:/dist)?list\\.(?:min\\.)?js\\;version:\\1"
     ],
     "website": "https://listjs.com"
-  },
-  "ListTrac": {
-    "cats": [
-      10
-    ],
-    "description": "ListTrac is a real estate marketing and monitoring system that tracks property listing performance, analyzes user engagement, and provides insights to optimize online visibility and sales strategies.",
-    "icon": "ListTrac.svg",
-    "js": {
-      "listTrac.doEvent": ""
-    },
-    "saas": true,
-    "scriptSrc": [
-      "\\.listtrac\\.com"
-    ],
-    "website": "https://listtrac.com"
   },
   "Listagram": {
     "cats": [
@@ -2397,6 +2491,59 @@
       "services\\.listrak\\.com"
     ],
     "website": "https://www.listrak.com"
+  },
+  "ListTrac": {
+    "cats": [
+      10
+    ],
+    "description": "ListTrac is a real estate marketing and monitoring system that tracks property listing performance, analyzes user engagement, and provides insights to optimize online visibility and sales strategies.",
+    "icon": "ListTrac.svg",
+    "js": {
+      "listTrac.doEvent": ""
+    },
+    "saas": true,
+    "scriptSrc": [
+      "\\.listtrac\\.com"
+    ],
+    "website": "https://listtrac.com"
+  },
+  "lit-element": {
+    "cats": [
+      59
+    ],
+    "description": "lit-element is a simple base class for creating web components that work in any web page with any framework. lit-element uses lit-html to render into shadow DOM, and adds API to manage properties and attributes.",
+    "icon": "Lit.svg",
+    "js": {
+      "litElementVersions.0": "([\\d\\.]+)\\;version:\\1"
+    },
+    "oss": true,
+    "website": "https://lit.dev"
+  },
+  "lit-html": {
+    "cats": [
+      59
+    ],
+    "description": "lit-html is a simple, modern, safe, small and fast HTML templating library for JavaScript.",
+    "icon": "Lit.svg",
+    "js": {
+      "litHtmlVersions.0": "([\\d\\.]+)\\;version:\\1"
+    },
+    "oss": true,
+    "website": "https://lit.dev"
+  },
+  "lite-youtube-embed": {
+    "cats": [
+      59
+    ],
+    "description": "The lite-youtube-embed technique renders the YouTube video inside the IFRAME tag only when the play button in clicked thus improving the core web vitals score of your website.",
+    "dom": [
+      "lite-youtube"
+    ],
+    "implies": [
+      "YouTube"
+    ],
+    "oss": true,
+    "website": "https://github.com/paulirish/lite-youtube-embed"
   },
   "LiteSpeed": {
     "cats": [
@@ -2658,6 +2805,26 @@
     ],
     "website": "https://liveeditplatform.com"
   },
+  "Livefyre": {
+    "cats": [
+      15
+    ],
+    "description": "Livefyre is a platform that integrates with the social web to boost social interaction.",
+    "html": [
+      "<[^>]+(?:id|class)=\"livefyre"
+    ],
+    "icon": "Livefyre.svg",
+    "js": {
+      "FyreLoader": "",
+      "L.version": "^(.+)$\\;confidence:0\\;version:\\1",
+      "LF.CommentCount": "",
+      "fyre": ""
+    },
+    "scriptSrc": [
+      "livefyre_init\\.js"
+    ],
+    "website": "https://livefyre.com"
+  },
   "LiveHelp": {
     "cats": [
       52,
@@ -2695,6 +2862,23 @@
     "xhr": [
       "\\.liadm\\.com"
     ]
+  },
+  "Liveinternet": {
+    "cats": [
+      10
+    ],
+    "description": "LiveInternet is a website analytics service that provides traffic statistics and performance rankings for various websites.",
+    "dom": [
+      "a[href*='/www.liveinternet.ru/click'][target='_blank']"
+    ],
+    "html": [
+      "<script [^>]*>[\\s\\S]*//counter\\.yadro\\.ru/hit",
+      "<!--LiveInternet counter-->",
+      "<!--/LiveInternet-->",
+      "<a href=\"http://www\\.liveinternet\\.ru/click\""
+    ],
+    "icon": "Liveinternet.svg",
+    "website": "https://liveinternet.ru/rating/"
   },
   "LiveJournal": {
     "cats": [
@@ -2757,6 +2941,26 @@
       "gdpr\\.privacymanager\\.io"
     ],
     "website": "https://liveramp.com/our-platform/preference-consent-management"
+  },
+  "Livescale": {
+    "cats": [
+      100,
+      103
+    ],
+    "description": "Livescale is a video platform that enables teams to transform content and ecommerce into a live shopping experience that reaches engages and monetizes audiences with LiveShopping.",
+    "icon": "Livescale.svg",
+    "implies": [
+      "Shopify"
+    ],
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.livescale\\.tv/"
+    ],
+    "website": "https://www.livescale.tv"
   },
   "LiveSession": {
     "cats": [
@@ -2827,6 +3031,29 @@
     "saas": true,
     "website": "https://livetex.ru"
   },
+  "Livewire": {
+    "cats": [
+      18,
+      19
+    ],
+    "description": "Livewire is a full-stack Laravel framework for building dynamic interfaces.",
+    "html": [
+      "<[^>]{1,512}\\bwire:"
+    ],
+    "icon": "Livewire.svg",
+    "implies": [
+      "Laravel"
+    ],
+    "js": {
+      "livewire": "",
+      "livewireScriptConfig": ""
+    },
+    "oss": true,
+    "scriptSrc": [
+      "livewire(?:\\.min)?\\.js"
+    ],
+    "website": "https://laravel-livewire.com"
+  },
   "LiveZilla": {
     "cats": [
       52
@@ -2849,84 +3076,28 @@
     "saas": false,
     "website": "https://www.livezilla.net"
   },
-  "Livefyre": {
+  "LKQD": {
     "cats": [
-      15
+      36
     ],
-    "description": "Livefyre is a platform that integrates with the social web to boost social interaction.",
-    "html": [
-      "<[^>]+(?:id|class)=\"livefyre"
-    ],
-    "icon": "Livefyre.svg",
-    "js": {
-      "FyreLoader": "",
-      "L.version": "^(.+)$\\;confidence:0\\;version:\\1",
-      "LF.CommentCount": "",
-      "fyre": ""
-    },
-    "scriptSrc": [
-      "livefyre_init\\.js"
-    ],
-    "website": "https://livefyre.com"
-  },
-  "Liveinternet": {
-    "cats": [
-      10
-    ],
-    "description": "LiveInternet is a website analytics service that provides traffic statistics and performance rankings for various websites.",
+    "description": "LKQD is a video advertising platform that enables publishers to serve video ads across multiple devices and formats.",
     "dom": [
-      "a[href*='/www.liveinternet.ru/click'][target='_blank']"
+      "iframe[src*='.lkqd.net']"
     ],
-    "html": [
-      "<script [^>]*>[\\s\\S]*//counter\\.yadro\\.ru/hit",
-      "<!--LiveInternet counter-->",
-      "<!--/LiveInternet-->",
-      "<a href=\"http://www\\.liveinternet\\.ru/click\""
-    ],
-    "icon": "Liveinternet.svg",
-    "website": "https://liveinternet.ru/rating/"
-  },
-  "Livescale": {
-    "cats": [
-      100,
-      103
-    ],
-    "description": "Livescale is a video platform that enables teams to transform content and ecommerce into a live shopping experience that reaches engages and monetizes audiences with LiveShopping.",
-    "icon": "Livescale.svg",
-    "implies": [
-      "Shopify"
-    ],
-    "pricing": [
-      "mid",
-      "recurring"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "\\.livescale\\.tv/"
-    ],
-    "website": "https://www.livescale.tv"
-  },
-  "Livewire": {
-    "cats": [
-      18,
-      19
-    ],
-    "description": "Livewire is a full-stack Laravel framework for building dynamic interfaces.",
-    "html": [
-      "<[^>]{1,512}\\bwire:"
-    ],
-    "icon": "Livewire.svg",
-    "implies": [
-      "Laravel"
-    ],
+    "icon": "LKQD.svg",
     "js": {
-      "livewire": ""
+      "lkqdCall": "",
+      "lkqdErrorCount": "",
+      "lkqdSettings": "",
+      "lkqd_http_response": ""
     },
-    "oss": true,
     "scriptSrc": [
-      "livewire(?:\\.min)?\\.js"
+      "\\.lkqd\\.net"
     ],
-    "website": "https://laravel-livewire.com"
+    "website": "https://wiki.lkqd.com",
+    "xhr": [
+      "\\.lkqd\\.net"
+    ]
   },
   "LlamaLink Cloud Server": {
     "cats": [
@@ -3083,6 +3254,18 @@
       "api\\.localised\\.com"
     ]
   },
+  "LocalSignal": {
+    "cats": [
+      32
+    ],
+    "description": "LocalSignal is a platform that provides advanced tools for managing and optimizing local marketing activities across digital channels.",
+    "icon": "LocalSignal.svg",
+    "saas": true,
+    "scriptSrc": [
+      "cdn\\.localsignal\\.com/"
+    ],
+    "website": "https://www.localsignal.com"
+  },
   "Locksmith": {
     "cats": [
       100
@@ -3115,7 +3298,8 @@
       "Lenis"
     ],
     "js": {
-      "LocomotiveScroll": ""
+      "LocomotiveScroll": "",
+      "locomotiveScrollVersion": "([\\d\\.]+)\\;version:\\1"
     },
     "oss": true,
     "scriptSrc": [
@@ -3204,25 +3388,26 @@
     ],
     "website": "https://lofty.com"
   },
-  "LogRocket": {
+  "Logaholic": {
     "cats": [
       10
     ],
-    "description": "LogRocket is a logging and session replay platform that helps developers identify and troubleshoot issues in web applications by recording and replaying user sessions, along with capturing logs and user interactions in real-time.",
-    "icon": "LogRocket.svg",
+    "description": "Logaholic is a web analytics software that processes website traffic data to generate reports on visits, user behavior, and referrers.",
+    "icon": "Logaholic.svg",
     "js": {
-      "LogRocket._buffer": ""
+      "logaholic": ""
     },
     "pricing": [
       "freemium",
-      "mid",
-      "recurring"
+      "low",
+      "recurring",
+      "poa"
     ],
     "saas": true,
     "scriptSrc": [
-      "cdn\\.(?:lr-ingest|logrocket)\\.(?:com|io)"
+      "logaholic\\.hostpoint\\.ch/"
     ],
-    "website": "https://logrocket.com"
+    "website": "https://www.logaholic.com"
   },
   "Loggly": {
     "cats": [
@@ -3331,6 +3516,26 @@
       "\\bLogoiX\\b"
     ],
     "website": "https://www.logoix.com"
+  },
+  "LogRocket": {
+    "cats": [
+      10
+    ],
+    "description": "LogRocket is a logging and session replay platform that helps developers identify and troubleshoot issues in web applications by recording and replaying user sessions, along with capturing logs and user interactions in real-time.",
+    "icon": "LogRocket.svg",
+    "js": {
+      "LogRocket._buffer": ""
+    },
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "cdn\\.(?:lr-ingest|logrocket)\\.(?:com|io)"
+    ],
+    "website": "https://logrocket.com"
   },
   "Loja Integrada": {
     "cats": [
@@ -3717,6 +3922,17 @@
     ],
     "website": "https://lottiefiles.com"
   },
+  "LOU": {
+    "cats": [
+      58
+    ],
+    "description": "LOU is a Digital Adoption Platform that streamlines user onboarding and training.",
+    "icon": "LOU.svg",
+    "scriptSrc": [
+      "cdn\\.louassist\\.com*"
+    ],
+    "website": "https://www.louassist.com"
+  },
   "Lovable": {
     "cats": [
       51
@@ -3743,7 +3959,26 @@
       "recurring"
     ],
     "saas": true,
+    "scriptSrc": [
+      "\\.lovable\\.app/"
+    ],
     "website": "https://lovable.dev"
+  },
+  "Lovi": {
+    "cats": [
+      52
+    ],
+    "description": "Lovi is a tool that enables the creation of customized ChatGPT instances for customer support, delivering automated, and personalized customer service.",
+    "icon": "Lovi.svg",
+    "js": {
+      "__loviMsgHandler": "",
+      "__loviWidgetClicksBound": ""
+    },
+    "saas": true,
+    "scriptSrc": [
+      "widget\\.lovi\\.ai/"
+    ],
+    "website": "https://lovi.ai"
   },
   "Lovingly": {
     "cats": [
@@ -3860,6 +4095,38 @@
       "/lozad\\.min\\.js"
     ],
     "website": "https://apoorv.pro/lozad.js/"
+  },
+  "LPQV": {
+    "cats": [
+      6
+    ],
+    "description": "LPQV is an online store that offers integrated landing pages, streamlining the entire operation in one place.",
+    "icon": "LPQV.svg",
+    "js": {
+      "LPQV.page": "",
+      "LPQV_VARS_RPL": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.lpqv.com.br/"
+  },
+  "LTheme": {
+    "cats": [
+      80
+    ],
+    "description": "LTheme is a provider of Joomla and WordPress themes.",
+    "dom": [
+      "script[id*='ltheme-custom-js']"
+    ],
+    "icon": "LTheme.svg",
+    "requires": [
+      "WordPress"
+    ],
+    "saas": true,
+    "website": "https://ltheme.com"
   },
   "Lua": {
     "cats": [
@@ -4175,106 +4442,5 @@
       "\\.lytics\\.io/"
     ],
     "website": "https://www.lytics.com"
-  },
-  "langify": {
-    "cats": [
-      89
-    ],
-    "description": "langify translate your shop into multiple languages. langify comes with a visual configurator that allows you to add language switchers that integrate seamlessly into your existing design.",
-    "icon": "langify.svg",
-    "js": {
-      "Langify": "",
-      "langify": "",
-      "langify.settings.switcher.version": "([\\d\\.]+)\\;version:\\1"
-    },
-    "pricing": [
-      "low",
-      "recurring"
-    ],
-    "requiresCategory": [
-      6
-    ],
-    "saas": true,
-    "website": "https://langify-app.com"
-  },
-  "libphonenumber": {
-    "cats": [
-      59
-    ],
-    "description": "libphonenumber is a JavaScript library for parsing, formatting, and validating international phone numbers.",
-    "icon": "default.svg",
-    "js": {
-      "libphonenumber.AsYouType": "",
-      "libphonenumber.DIGITS": ""
-    },
-    "oss": true,
-    "scriptSrc": [
-      "(?:/([\\d\\.]+))?/libphonenumber(?:-js\\.min)?\\.js\\;version:\\1"
-    ],
-    "website": "https://github.com/google/libphonenumber"
-  },
-  "libwww-perl-daemon": {
-    "cats": [
-      22
-    ],
-    "headers": {
-      "Server": "libwww-perl-daemon(?:/([\\d\\.]+))?\\;version:\\1"
-    },
-    "icon": "libwww-perl-daemon.png",
-    "implies": [
-      "Perl"
-    ],
-    "website": "https://metacpan.org/pod/HTTP::Daemon"
-  },
-  "lighttpd": {
-    "cats": [
-      22
-    ],
-    "cpe": "cpe:2.3:a:lighttpd:lighttpd:*:*:*:*:*:*:*:*",
-    "description": "Lighttpd is an open-source web server optimised for speed-critical environment.",
-    "headers": {
-      "Server": "(?:L|l)ight(?:y)?(?:tpd)?(?:/([\\d\\.]+))?\\;version:\\1"
-    },
-    "icon": "lighttpd.svg",
-    "oss": true,
-    "website": "https://www.lighttpd.net"
-  },
-  "lit-element": {
-    "cats": [
-      59
-    ],
-    "description": "lit-element is a simple base class for creating web components that work in any web page with any framework. lit-element uses lit-html to render into shadow DOM, and adds API to manage properties and attributes.",
-    "icon": "Lit.svg",
-    "js": {
-      "litElementVersions.0": "([\\d\\.]+)\\;version:\\1"
-    },
-    "oss": true,
-    "website": "https://lit.dev"
-  },
-  "lit-html": {
-    "cats": [
-      59
-    ],
-    "description": "lit-html is a simple, modern, safe, small and fast HTML templating library for JavaScript.",
-    "icon": "Lit.svg",
-    "js": {
-      "litHtmlVersions.0": "([\\d\\.]+)\\;version:\\1"
-    },
-    "oss": true,
-    "website": "https://lit.dev"
-  },
-  "lite-youtube-embed": {
-    "cats": [
-      59
-    ],
-    "description": "The lite-youtube-embed technique renders the YouTube video inside the IFRAME tag only when the play button in clicked thus improving the core web vitals score of your website.",
-    "dom": [
-      "lite-youtube"
-    ],
-    "implies": [
-      "YouTube"
-    ],
-    "oss": true,
-    "website": "https://github.com/paulirish/lite-youtube-embed"
   }
 }
