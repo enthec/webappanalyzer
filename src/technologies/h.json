@@ -786,6 +786,21 @@
     ],
     "website": "https://heap.io"
   },
+  "Hearth": {
+    "cats": [
+      19
+    ],
+    "description": "Hearth is a financial services platform that provides financing options for home improvement projects.",
+    "icon": "Hearth.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "widget\\.gethearth\\.com"
+    ],
+    "website": "https://gethearth.com"
+  },
   "Heartland Payment Systems": {
     "cats": [
       41
@@ -1041,6 +1056,38 @@
       "\\.helpscout\\.net/"
     ],
     "website": "https://www.helpscout.com"
+  },
+  "Help.com": {
+    "cats": [
+      88
+    ],
+    "description": "Help.com is a service that provides domain name registration and website hosting with simplified setup and management.",
+    "icon": "Help.svg",
+    "js": {
+      "Helpdotcom": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.help.com"
+  },
+  "HelpCrunch": {
+    "cats": [
+      52
+    ],
+    "description": "HelpCrunch is a customer service software platform designed to support core business communication and customer support needs across organizations.",
+    "icon": "HelpCrunch.svg",
+    "js": {
+      "HelpCrunch": "",
+      "helpcrunchDebug": ""
+    },
+    "saas": true,
+    "scriptSrc": [
+      "\\.helpcrunch\\.com/"
+    ],
+    "website": "https://helpcrunch.com"
   },
   "HelpDocs": {
     "cats": [
@@ -1594,6 +1641,18 @@
     ],
     "saas": true,
     "website": "https://vanilla.higherlogic.com"
+  },
+  "HigherMe HR": {
+    "cats": [
+      101
+    ],
+    "description": "HigherMe HR is a hiring software platform designed for hourly workforces, supporting job postings, applicant screening, interview scheduling, and onboarding workflows.",
+    "icon": "HigherMe.svg",
+    "saas": true,
+    "scripts": [
+      "app\\.higherme\\.com"
+    ],
+    "website": "https://higherme.com/products/hr-software"
   },
   "HighLevel": {
     "cats": [
@@ -2431,6 +2490,25 @@
     },
     "website": "https://hotarucms.org"
   },
+  "Hotbot": {
+    "cats": [
+      6
+    ],
+    "description": "Hotbot is a platform that enables online management of hotel service sales.",
+    "icon": "Hotbot.svg",
+    "js": {
+      "HotBot.authorize": "",
+      "Hotbot.authorize": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "api\\.hotbot\\.ai"
+    ],
+    "website": "https://hotbot.ai"
+  },
   "HotDoc": {
     "cats": [
       72
@@ -3179,6 +3257,22 @@
       "app\\.humcommerce\\.com/"
     ],
     "website": "https://www.humcommerce.com"
+  },
+  "HumHub": {
+    "cats": [
+      1
+    ],
+    "description": "HumHub is a software platform that digitizes organizational processes by enabling structured internal communication, collaboration, and information sharing.",
+    "icon": "HumHub.svg",
+    "js": {
+      "HumHubMentionProvider": "",
+      "humhub.config": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.humhub.com"
   },
   "Humm": {
     "cats": [

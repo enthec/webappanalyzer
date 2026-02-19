@@ -1,4 +1,16 @@
 {
+  "W3 Ataiva": {
+    "cats": [
+      10
+    ],
+    "description": "W3 Ataiva is a website valuation and analysis tool that estimates site value, traffic metrics, and technical indicators using publicly available web data.",
+    "icon": "W3Ataiva.svg",
+    "saas": true,
+    "scriptSrc": [
+      "static\\.statvoo\\.com/"
+    ],
+    "website": "https://w3.ataiva.com"
+  },
   "W3 Total Cache": {
     "cats": [
       23,
@@ -924,6 +936,25 @@
     "saas": true,
     "website": "https://www.shop-script.com"
   },
+  "WebAwesome": {
+    "cats": [
+      66
+    ],
+    "description": "Web Awesome is an open-source library of customizable, standards-based, and framework-agnostic UI components designed to support interoperable web interfaces.",
+    "dom": [
+      "link[href*='/dist-cdn/styles/webawesome.css']"
+    ],
+    "icon": "WebAwesome.svg",
+    "pricing": [
+      "low",
+      "recurring",
+      "freemium"
+    ],
+    "scriptSrc": [
+      "/webawesome\\.loader\\.js"
+    ],
+    "website": "https://webawesome.com/"
+  },
   "WebBoss": {
     "cats": [
       51
@@ -1354,6 +1385,23 @@
     ],
     "website": "https://webix.com"
   },
+  "Weblate": {
+    "cats": [
+      89
+    ],
+    "description": "Weblate is a web-based continuous localization platform that enables ongoing translation management and integration across software projects.",
+    "headers": {
+      "Content-Security-Policy": "\\.weblate\\.org"
+    },
+    "icon": "Weblate.svg",
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://weblate.org"
+  },
   "Weblication": {
     "cats": [
       1
@@ -1777,14 +1825,14 @@
       19
     ],
     "description": "WebSocket is a communication protocol that provides full-duplex communication channels over a single, long-lived connection, enabling interactive communication between web browsers and servers.",
-    "headers": {
-      "Upgrade": "websocket"
-    },
     "dom": [
       "link[rel='web-socket']",
       "link[href^='ws://']",
       "link[href^='wss://']"
     ],
+    "headers": {
+      "Upgrade": "websocket"
+    },
     "html": [
       "<(?:link|a)[^>]+href=[\"']wss?://"
     ],
@@ -2105,6 +2153,23 @@
     ],
     "website": "https://www.weezbe.com"
   },
+  "Weezevent": {
+    "cats": [
+      104
+    ],
+    "description": "Weezevent is an online ticketing and event management solution that enables organizers to sell tickets, manage registrations, and track attendance for events.",
+    "icon": "Weezevent.svg",
+    "pricing": [
+      "freemium",
+      "payg",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "widget\\.weezevent\\.com/"
+    ],
+    "website": "https://weezevent.com"
+  },
   "Weglot": {
     "cats": [
       89
@@ -2125,6 +2190,18 @@
       "wp-content/plugins/weglot"
     ],
     "website": "https://www.weglot.com"
+  },
+  "Wehaa": {
+    "cats": [
+      36
+    ],
+    "description": "Wehaa is a platform providing revenue management and monetization solutions designed to help media companies optimize earnings and streamline their business operations.",
+    "icon": "Wehaa.svg",
+    "saas": true,
+    "scripts": [
+      "\\.aws\\.wehaa\\.net/"
+    ],
+    "website": "https://www.wehaa.com"
   },
   "Welcart": {
     "cats": [
@@ -2390,6 +2467,28 @@
     ],
     "website": "https://wheelysales.com"
   },
+  "Whelp": {
+    "cats": [
+      52
+    ],
+    "description": "Whelp is an AI-based omnichannel customer support platform that provides automated chatbot-driven assistance across multiple communication channels.",
+    "icon": "Whelp.svg",
+    "js": {
+      "Whelp.Init": "",
+      "WhelpConfig": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "widget\\.getwhelp\\.com"
+    ],
+    "website": "https://whelp.co"
+  },
   "Wherewolf": {
     "cats": [
       72
@@ -2470,6 +2569,25 @@
     ],
     "website": "https://www.whmcs.com"
   },
+  "Wholesale Suite": {
+    "cats": [
+      6
+    ],
+    "description": "Wholesale Suite is a plugin that enables businesses to manage and streamline wholesale operations online, supporting pricing, ordering, and workflow efficiency.",
+    "icon": "WholesaleSuite.svg",
+    "meta": {
+      "wwp": "^yes$"
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": [
+      "\\.wholesalesuiteplugin\\.com"
+    ],
+    "website": "https://wholesalesuiteplugin.com"
+  },
   "Whooshkaa": {
     "cats": [
       5
@@ -2482,6 +2600,26 @@
     ],
     "icon": "Whooshkaa.svg",
     "website": "https://www.whooshkaa.com"
+  },
+  "WhosOn": {
+    "cats": [
+      52
+    ],
+    "description": "WhosOn is a secure live chat and AI platform for managing and automating customer communications.",
+    "icon": "WhosOn.svg",
+    "js": {
+      "whoson_global": "",
+      "whoson_init": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.whoson\\.com/"
+    ],
+    "website": "https://www.whoson.com"
   },
   "Whova": {
     "cats": [
@@ -3049,6 +3187,19 @@
     ],
     "saas": true,
     "website": "https://appmate.io"
+  },
+  "Wishloop": {
+    "cats": [
+      32
+    ],
+    "description": "Wishloop is a lead generation platform that enables the creation of marketing campaigns without coding, using structured workflows and tools designed to support conversion-focused data collection.",
+    "icon": "Wishloop.svg",
+    "pricing": [],
+    "saas": true,
+    "scriptSrc": [
+      "app\\.wishloop\\.com/"
+    ],
+    "website": "https://wishloop.com"
   },
   "Wistia": {
     "cats": [
@@ -4553,6 +4704,26 @@
     ],
     "website": "https://wp-rocket.me"
   },
+  "WP SEO AI": {
+    "cats": [
+      54
+    ],
+    "description": "WP SEO AI is a tool that optimizes brand visibility by positioning companies as expert answers across search engines and AI platforms like Google and GPT.",
+    "dom": [
+      "script[id*='seoaic_front_main_js-js']"
+    ],
+    "icon": "WPSEOAI.svg",
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "requires": [
+      "WordPress"
+    ],
+    "saas": true,
+    "website": "https://wpseoai.com"
+  },
   "WP-Optimize": {
     "cats": [
       87,
@@ -4986,6 +5157,18 @@
       "\\.offerpop\\.com/"
     ],
     "website": "https://www.wyng.com"
+  },
+  "Wyre": {
+    "cats": [
+      41
+    ],
+    "description": "Wyre is a financial technology platform that enables cryptocurrency companies to connect digital assets with traditional fiat payment systems.",
+    "icon": "Wyre.svg",
+    "saas": true,
+    "scriptSrc": [
+      "verify\\.sendwyre\\.com/"
+    ],
+    "website": "https://sendwyre.com"
   },
   "WysiBB": {
     "cats": [

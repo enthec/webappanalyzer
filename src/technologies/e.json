@@ -137,6 +137,26 @@
     ],
     "website": "https://eadplataforma.com"
   },
+  "Eaglecart": {
+    "cats": [
+      6
+    ],
+    "cookies": {
+      "eaglecart_timezone": ""
+    },
+    "description": "Eaglecart is a platform that consolidates online store operations, point-of-sale systems, and inventory management across multiple regions, currencies, and warehouse locations.",
+    "icon": "Eaglecart.svg",
+    "meta": {
+      "author": "^Eaglecart$",
+      "generator": "^Eaglecart$"
+    },
+    "pricing": [
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://eaglecart.com"
+  },
   "EagleView": {
     "cats": [
       35
@@ -1070,6 +1090,23 @@
     },
     "website": "https://edgemesh.com/"
   },
+  "EdgeOne": {
+    "cats": [
+      31
+    ],
+    "description": "EdgeOne is an edge-service platform that delivers global content distribution, network acceleration, and integrated security protections for distributed applications.",
+    "headers": {
+      "Server": "^TencentEdgeOne$"
+    },
+    "icon": "EdgeOne.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://edgeone.ai"
+  },
   "Edgio": {
     "cats": [
       31,
@@ -1411,6 +1448,21 @@
     "saas": true,
     "website": "https://www.ekomi.de"
   },
+  "eKonsilio": {
+    "cats": [
+      52
+    ],
+    "description": "eKonsilio is a conversational management platform that enables organizations to design, deploy, and manage automated and human-assisted conversations across digital communication channels.",
+    "icon": "eKonsilio.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "script\\.ekonsilio\\.com"
+    ],
+    "website": "https://www.ekonsilio.com"
+  },
   "Ektron CMS": {
     "cats": [
       1
@@ -1527,6 +1579,9 @@
     ],
     "scriptSrc": [
       "/Smile_ElasticsuiteTracker/"
+    ],
+    "scripts": [
+      "(?:\\.elasticsuite\\.io\\/|\\/elasticsuite-tracker\\/)"
     ],
     "website": "https://elasticsuite.io"
   },
@@ -1916,6 +1971,28 @@
       "elliptic(?:[\\w\\.-]{0,27})?(?:\\.bundle)?(?:\\.chunk)?(?:\\.min)?\\.js"
     ],
     "website": "https://github.com/indutny/elliptic"
+  },
+  "Elloha": {
+    "cats": [
+      6
+    ],
+    "description": "Elloha is an all-in-one platform designed to manage and increase tourism-related revenue.",
+    "headers": {
+      "Access-Control-Allow-Headers": "\\.elloha\\.com"
+    },
+    "icon": "Elloha.svg",
+    "js": {
+      "IsEllohaPointOfSale": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": [
+      "\\.elloha\\.com"
+    ],
+    "website": "https://elloha.com"
   },
   "Ellucian CRM Recruit": {
     "cats": [
@@ -2446,6 +2523,23 @@
       "assets\\.pixlee\\.com"
     ],
     "website": "https://emplifi.io/products/social-commerce/social-ugc"
+  },
+  "Employment Hero": {
+    "cats": [
+      101
+    ],
+    "description": "Employment Hero is a cloud-based human resources information system (HRIS) designed to manage HR operations, payroll processing, and recruitment workflows for small and medium-sized businesses.",
+    "icon": "EmploymentHero.svg",
+    "js": {
+      "emhTheme.siteSlug": "",
+      "emhTracking.token": ""
+    },
+    "pricing": [],
+    "saas": true,
+    "scripts": [
+      "employmenthero\\.com"
+    ],
+    "website": "https://employmenthero.com"
   },
   "Empretienda": {
     "cats": [
@@ -3065,6 +3159,51 @@
       "enyo\\.js"
     ],
     "website": "https://enyojs.com"
+  },
+  "Enzuzo": {
+    "cats": [
+      67
+    ],
+    "description": "Enzuzo is a data privacy management solution that helps organizations manage consent, comply with privacy regulations, and maintain control over personal data across digital platforms.",
+    "headers": {
+      "X-Enzuzo-City": "",
+      "X-Enzuzo-Country": ""
+    },
+    "icon": "Enzuzo.svg",
+    "js": {
+      "__ENZUZO_STARTED__": "",
+      "enzuzoGtmConsentObj": ""
+    },
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "app\\.enzuzo\\.com"
+    ],
+    "website": "https://www.enzuzo.com"
+  },
+  "eola": {
+    "cats": [
+      72
+    ],
+    "cookies": {
+      "_eola_session_eola": ""
+    },
+    "description": "eola is a booking platform that enables users to manage reservations, schedules, and availability for services or events through a centralized online system.",
+    "dom": [
+      "link[href*='backend.eola.co/'][rel*='stylesheet']"
+    ],
+    "icon": "eola.svg",
+    "pricing": [
+      "freemium",
+      "mid",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://eola.co"
   },
   "ePages": {
     "cats": [
@@ -3996,6 +4135,25 @@
     ],
     "website": "https://www.evidon.com"
   },
+  "Eviivo": {
+    "cats": [
+      93
+    ],
+    "cookies": {
+      "eviivo_lang": ""
+    },
+    "description": "Eviivo is an online booking system that enables hosts and hoteliers to manage reservations and availability.",
+    "icon": "Eviivo.svg",
+    "js": {
+      "eviivo.announcement": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://eviivo.com"
+  },
   "Evolok": {
     "cats": [
       32
@@ -4640,6 +4798,25 @@
     "saas": true,
     "website": "https://www.extrawatch.com"
   },
+  "EyeFitU": {
+    "cats": [
+      102
+    ],
+    "description": "EyeFitU is a Size-as-a-Service AI platform for ecommerce that provides automated sizing intelligence to improve fit accuracy and reduce returns.",
+    "icon": "EyeFitU.svg",
+    "js": {
+      "eyefitu.version": "",
+      "eyefituCalls": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scripts": [
+      "web-sdk\\.eyefitu\\.com"
+    ],
+    "website": "https://www.eyefitu.com"
+  },
   "EyouCMS": {
     "cats": [
       1
@@ -4674,6 +4851,18 @@
       "generator": "eZ Publish"
     },
     "website": "https://github.com/ezsystems/ezpublish-legacy"
+  },
+  "eZCater": {
+    "cats": [
+      6
+    ],
+    "description": "ezCater is a platform that enables businesses to order and manage office catering services from local and national restaurants.",
+    "icon": "ezCater.svg",
+    "saas": true,
+    "scripts": [
+      "www\\.ezcater\\.com"
+    ],
+    "website": "https://www.ezcater.com"
   },
   "EZLynx": {
     "cats": [
@@ -4753,5 +4942,20 @@
       "kiosk\\.eztix\\.co/"
     ],
     "website": "https://www.eztix.com"
+  },
+  "ezyVet": {
+    "cats": [
+      72
+    ],
+    "description": "ezyVet is a cloud-based veterinary practice management platform designed to support clinical workflows, patient records, scheduling, and operational processes.",
+    "icon": "ezyVet.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scripts": [
+      "\\.ezyvet\\.com/"
+    ],
+    "website": "https://www.ezyvet.com"
   }
 }

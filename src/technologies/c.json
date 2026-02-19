@@ -385,6 +385,22 @@
     ],
     "website": "https://www.callbell.eu"
   },
+  "Callgear": {
+    "cats": [
+      52
+    ],
+    "description": "Callgear is a business communication platform that enables centralized management of voice calls and text messaging across organizational communication channels.",
+    "icon": "Callgear.svg",
+    "js": {
+      "CallGear.Captcha": ""
+    },
+    "pricing": [],
+    "saas": true,
+    "scriptSrc": [
+      "app\\.callgear\\.com"
+    ],
+    "website": "https://callgear.com"
+  },
   "CallPage": {
     "cats": [
       5,
@@ -701,6 +717,19 @@
     "saas": true,
     "website": "https://canvy.com"
   },
+  "Canyon": {
+    "cats": [
+      47
+    ],
+    "description": "Canyon is a tool that enables JavaScript coverage collection and real-time report generation through Babel configuration, addressing coverage-gathering challenges in end-to-end testing.",
+    "icon": "Canyon.svg",
+    "js": {
+      "__coverage__": "",
+      "canyonShowDecorations": ""
+    },
+    "oss": true,
+    "website": "https://docs.canyonjs.io"
+  },
   "Capacity": {
     "cats": [
       52
@@ -716,6 +745,23 @@
       "\\.needle\\.com/"
     ],
     "website": "https://capacity.com"
+  },
+  "Capsule CRM": {
+    "cats": [
+      53
+    ],
+    "description": "Capsule CRM is an online customer relationship management system for managing contacts, sales opportunities, and basic business interactions.",
+    "dom": [
+      "form[action*='service.capsulecrm.com/']"
+    ],
+    "icon": "CapsuleCRM.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://capsulecrm.com"
   },
   "Captain Up": {
     "cats": [
@@ -991,6 +1037,21 @@
       "community\\.carecloud\\.com/"
     ],
     "website": "https://www.carecloud.com/"
+  },
+  "Caremerge": {
+    "cats": [
+      53
+    ],
+    "description": "Caremerge is a provider of resident engagement, family communication, and EHR/eMAR solutions for the senior living industry.",
+    "icon": "Caremerge.svg",
+    "js": {
+      "cm.domain": "\\.caremerge\\.com"
+    },
+    "saas": true,
+    "scriptSrc": [
+      "\\.caremerge\\.com"
+    ],
+    "website": "https://caremerge.com"
   },
   "Cargo": {
     "cats": [
@@ -1431,6 +1492,22 @@
     "saas": true,
     "website": "https://cartum.io"
   },
+  "Cartylabs": {
+    "cats": [
+      100
+    ],
+    "description": "Cartylabs is a Shopify application that provides a fast checkout experience and enables merchants to implement upsell and cross-sell features directly within the shopping cart.",
+    "icon": "Cartylabs.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": [
+      "fast-checkout-api\\.cartylabs\\.com"
+    ],
+    "website": "https://cartylabs.com"
+  },
   "Carussel": {
     "cats": [
       6
@@ -1442,6 +1519,21 @@
       "\\.carussel\\.dealer\\.toolkit"
     ],
     "website": "https://www.carussel.com"
+  },
+  "CarWeb": {
+    "cats": [
+      6
+    ],
+    "description": "CarWeb is a tailored software solution designed to support the full used car lifecycle, developed by industry professionals to address operational, management, and transactional needs within the automotive resale process.",
+    "icon": "CarWeb.svg",
+    "js": {
+      "carWeb.imageBaseUrl": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://carweb.no"
   },
   "caSaaS": {
     "cats": [
@@ -3139,6 +3231,18 @@
     "oss": true,
     "website": "http://chicagoboss.org/"
   },
+  "CHIIRP": {
+    "cats": [
+      32
+    ],
+    "description": "CHIIRP is an AI-powered lead conversion tool for trade businesses that captures and manages calls and inquiries to support timely follow-up and improved lead conversion.",
+    "icon": "CHIIRP.svg",
+    "saas": true,
+    "scriptSrc": [
+      "app\\.chiirp\\.com"
+    ],
+    "website": "https://chiirp.com"
+  },
   "Chili Piper": {
     "cats": [
       72
@@ -3157,6 +3261,26 @@
       "js\\.chilipiper\\.com/marketing\\.js"
     ],
     "website": "https://www.chilipiper.com/"
+  },
+  "Chimpify": {
+    "cats": [
+      32
+    ],
+    "description": "Chimpify is an inbound marketing platform that consolidates content management, lead generation, and campaign tracking to support data-driven audience engagement.",
+    "headers": {
+      "Server": "^Chimpify$"
+    },
+    "icon": "Chimpify.svg",
+    "js": {
+      "Chimpify.content_id": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "payg"
+    ],
+    "saas": true,
+    "website": "https://www.chimpify.de"
   },
   "Chimpmatic": {
     "cats": [
@@ -3453,6 +3577,23 @@
       "/ctxs\\.core\\.min\\.js"
     ],
     "website": "https://www.citrix.com"
+  },
+  "CitrusLime": {
+    "cats": [
+      6
+    ],
+    "description": "CitrusLime is an end-to-end cloud retail solution that supports inventory management, point-of-sale operations, and online store integration within a unified platform.",
+    "icon": "CitrusLime.svg",
+    "js": {
+      "CitrusLime.ExternalServiceApiCalls": "",
+      "CitrusOnLoadPrep": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://citruslime.com"
   },
   "CitrusPay": {
     "cats": [
@@ -5256,7 +5397,6 @@
       "ciResponsive.config.domain": "cloudimg\\.io"
     },
     "pricing": [
-      "freemium",
       "payg",
       "recurring",
       "poa"
@@ -6724,6 +6864,18 @@
     ],
     "website": "https://complianz.io"
   },
+  "ComplyAuto": {
+    "cats": [
+      16
+    ],
+    "description": "ComplyAuto is a dealership compliance automation platform that helps automotive businesses manage regulatory requirements, track documentation, and maintain adherence to industry standards through automated processes.",
+    "icon": "ComplyAuto.svg",
+    "saas": true,
+    "scriptSrc": [
+      "cdn\\.complyauto\\.com/"
+    ],
+    "website": "https://complyauto.com"
+  },
   "Composite Products": {
     "cats": [
       6
@@ -6853,6 +7005,22 @@
       "\\.conduit\\.com/"
     ],
     "website": "https://conduit.io"
+  },
+  "Conduze": {
+    "cats": [
+      32
+    ],
+    "description": "Conduze is a call tracking and pop-up solution designed to help businesses capture and analyze inbound leads.",
+    "icon": "Conduze.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "cdn\\.conduze\\.com"
+    ],
+    "website": "https://www.conduze.com"
   },
   "Conekta": {
     "cats": [
@@ -7427,6 +7595,9 @@
       "recurring"
     ],
     "saas": true,
+    "scripts": [
+      "\\.contentstack\\.com"
+    ],
     "website": "https://www.contentstack.com"
   },
   "ContentStudio": {
@@ -7947,6 +8118,22 @@
     ],
     "website": "https://www.convincely.com"
   },
+  "Convious": {
+    "cats": [
+      32
+    ],
+    "description": "Convious is an attraction management platform supporting operations before, during, and after visits, including exit-intent functionality.",
+    "icon": "Convious.svg",
+    "js": {
+      "conviousLoader": "",
+      "convious_resource_path": ""
+    },
+    "saas": true,
+    "scriptSrc": [
+      "client\\.convious-app\\.com/"
+    ],
+    "website": "https://www.convious.com"
+  },
   "Conviva": {
     "cats": [
       14,
@@ -8119,6 +8306,21 @@
     ],
     "website": "https://cookieseal.com"
   },
+  "CookieBAR": {
+    "cats": [
+      67
+    ],
+    "description": "CookieBAR is a tool that helps websites comply with the EU cookie law by managing user consent for cookies in accordance with regulatory requirements.",
+    "icon": "CookieBAR.svg",
+    "js": {
+      "setupCookieBar": ""
+    },
+    "oss": true,
+    "scriptSrc": [
+      "/cookie-bar/cookiebar-latest\\.min\\.js"
+    ],
+    "website": "https://cookie-bar.eu"
+  },
   "Cookiebot": {
     "cats": [
       67
@@ -8189,6 +8391,19 @@
       "/wp-content/plugins/cookie-law-info/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
     ],
     "website": "https://www.cookieyes.com/"
+  },
+  "Cool Popup": {
+    "cats": [
+      32
+    ],
+    "description": "Cool Popup is a tool that helps convert website visitors into customers, subscribers, or leads by displaying visually designed popups that require no coding to set up.",
+    "icon": "CoolPopup.svg",
+    "pricing": [],
+    "saas": true,
+    "scriptSrc": [
+      "dash\\.coolpopup\\.com/"
+    ],
+    "website": "https://www.coolpopup.com"
   },
   "Cool Tag Cloud": {
     "cats": [
@@ -8457,6 +8672,28 @@
       "assets\\.corebook\\.io/"
     ],
     "website": "https://www.corebook.io"
+  },
+  "CoreMedia": {
+    "cats": [
+      1
+    ],
+    "description": "CoreMedia is an enterprise-grade, Java-based content management system used to manage, publish, and deliver digital content across websites and channels.",
+    "icon": "CoreMedia.svg",
+    "js": {
+      "coremedia.blueprint": ""
+    },
+    "meta": {
+      "coremedia_content_id": "",
+      "generator": "^CoreMedia C(?:ontent Cloud|MS)$"
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.coremedia\\.cloud/"
+    ],
+    "website": "https://www.coremedia.com"
   },
   "CoreMedia Content Cloud": {
     "cats": [
@@ -9993,6 +10230,25 @@
       "\\.culqi\\.com"
     ],
     "website": "https://culqi.com"
+  },
+  "Curated": {
+    "cats": [
+      96
+    ],
+    "description": "Curated is a platform that helps organize engaging content and support ongoing customer relationship development through consistent and relevant interactions.",
+    "icon": "Curated.svg",
+    "js": {
+      "CURATED.fCTA": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "push\\.curated\\.co"
+    ],
+    "website": "https://www.curated.co"
   },
   "Curaytor": {
     "cats": [

@@ -682,6 +682,26 @@
     ],
     "website": "https://www.omeda.com"
   },
+  "Omega Commerce": {
+    "cats": [
+      6
+    ],
+    "description": "Omega Commerce is a suite of ecommerce tools, including Omega Instant Search, Shopping Feeds, and Mipler Advanced Reports, designed to support product discovery, data synchronization, and performance reporting for online businesses.",
+    "icon": "OmegaCommerce.svg",
+    "js": {
+      "OMEGA_AUID": "",
+      "OMEGA_SHOP": ""
+    },
+    "pricing": [],
+    "requires": [
+      "Shopify"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.omegacommerce\\.com"
+    ],
+    "website": "https://omegacommerce.com"
+  },
   "Omeka": {
     "cats": [
       1
@@ -931,6 +951,23 @@
       "\\.onthemapmarketing\\.com"
     ],
     "website": "https://www.onthemap.com"
+  },
+  "OnChat": {
+    "cats": [
+      52
+    ],
+    "description": "OnChat is a platform that uses an AI chatbot to handle customer support interactions while assisting with sales-related inquiries and customer communication.",
+    "icon": "OnChat.svg",
+    "js": {
+      "extractOnchatClickFromHref": "",
+      "getOnchatClickFromURL": ""
+    },
+    "pricing": [],
+    "saas": true,
+    "scriptSrc": [
+      "onchat\\.ai/onchat\\.js"
+    ],
+    "website": "https://onchat.ai"
   },
   "Ondestek": {
     "cats": [
@@ -1300,6 +1337,22 @@
       "www\\.onlinechatcenters\\.com"
     ],
     "website": "https://www.onlinechatcenters.com"
+  },
+  "Online Succes": {
+    "cats": [
+      32
+    ],
+    "description": "Online Succes is a Netherlands-based platform offering marketing automation and website visitor tracking.",
+    "icon": "OnlineSucces.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": [
+      "connect\\.onlinesucces\\.nl"
+    ],
+    "website": "https://www.onlinesucces.nl"
   },
   "onlyfy Application Manager": {
     "cats": [
@@ -1904,10 +1957,10 @@
     "js": {
       "otel": ""
     },
+    "oss": true,
     "scriptSrc": [
       "opentelemetry.*\\.js"
     ],
-    "oss": true,
     "website": "https://opentelemetry.io"
   },
   "OpenText Web": {
@@ -2107,6 +2160,25 @@
       "\\.foresee\\.com/code/([\\d.]+)-oo/oo_engine\\.min\\.js\\;version:\\1"
     ],
     "website": "https://www.opinionlab.com"
+  },
+  "OpnForm": {
+    "cats": [
+      110
+    ],
+    "cookies": {
+      "OpnForm_session": ""
+    },
+    "description": "OpnForm is a web-based tool for creating and sharing forms without requiring coding knowledge, enabling users to design and distribute forms.",
+    "icon": "OpnForm.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": [
+      "api\\.opnform\\.com"
+    ],
+    "website": "https://opnform.com"
   },
   "Ops Calendar": {
     "cats": [
@@ -2383,6 +2455,21 @@
       "/wp-content/plugins/optinmonster/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
     ],
     "website": "https://optinmonster.com"
+  },
+  "Optinopoli": {
+    "cats": [
+      32
+    ],
+    "description": "Optinopoli is a next-generation lead capture and sales conversion technology designed to collect, manage, and convert prospective customer information across digital touchpoints.",
+    "icon": "Optinopoli.svg",
+    "js": {
+      "optinopoli": ""
+    },
+    "saas": true,
+    "scriptSrc": [
+      "www\\.optinopoli\\.com"
+    ],
+    "website": "https://www.optinopoli.com"
   },
   "OpTuNE": {
     "cats": [

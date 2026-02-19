@@ -325,6 +325,21 @@
     ],
     "website": "https://www.naturalint.com/"
   },
+  "Naukri": {
+    "cats": [
+      101
+    ],
+    "description": "Naukri is a job board that connects employers and job seekers by listing employment opportunities across industries and locations.",
+    "icon": "Naukri.svg",
+    "js": {
+      "naukriWidget": ""
+    },
+    "meta": {
+      "author": "www\\.naukri\\.com"
+    },
+    "saas": true,
+    "website": "https://www.naukri.com"
+  },
   "Navegg": {
     "cats": [
       10
@@ -585,6 +600,21 @@
     ],
     "website": "https://www.jetecommerce.com.br"
   },
+  "NeoAsist": {
+    "cats": [
+      52
+    ],
+    "description": "NeoAssist is an omnichannel customer service platform from Brazil focused on improving brand visibility across search engines and AI-driven platforms such as Google and GPT-based systems.",
+    "icon": "NeoAssist.svg",
+    "js": {
+      "NeoAssistTag": ""
+    },
+    "saas": true,
+    "scriptSrc": [
+      "\\.neoassist\\.com"
+    ],
+    "website": "https://neoassist.com"
+  },
   "Neon CRM": {
     "cats": [
       53,
@@ -657,6 +687,19 @@
     },
     "saas": true,
     "website": "https://www.neowize.com"
+  },
+  "Nepcha Analytics": {
+    "cats": [
+      10
+    ],
+    "description": "Nepcha Analytics is a privacy-focused analytics platform that collects and processes website usage data without relying on cookies or personal tracking, ensuring compliance with modern data protection standards.",
+    "icon": "NepchaAnalytics.svg",
+    "pricing": [],
+    "saas": true,
+    "scriptSrc": [
+      "api\\.nepcha\\.com"
+    ],
+    "website": "https://nepcha.com"
   },
   "Nepso": {
     "cats": [
@@ -1432,6 +1475,18 @@
     ],
     "website": "https://www.nexxt.com"
   },
+  "Nexxtmove": {
+    "cats": [
+      32
+    ],
+    "description": "Nexxtmove is a marketing platform for real estate agencies that provides targeted, personalized communication tools designed to reach the appropriate audience and support improved campaign outcomes.",
+    "icon": "Nexxtmove.svg",
+    "saas": true,
+    "scripts": [
+      "nexxtmove-313510\\.web\\.app"
+    ],
+    "website": "https://nexxtmove.nl"
+  },
   "Ngage Live Chat": {
     "cats": [
       52
@@ -1686,6 +1741,19 @@
     ],
     "website": "https://ninjaforms.com"
   },
+  "NinjaCat": {
+    "cats": [
+      10,
+      32
+    ],
+    "description": "NinjaCat is a marketing analytics platform that aggregates, analyzes, and reports performance data across multiple marketing channels.",
+    "icon": "NinjaCat.svg",
+    "saas": true,
+    "scriptSrc": [
+      "scripts\\.ninjacat\\.io"
+    ],
+    "website": "https://www.ninjacat.io"
+  },
   "NitroPack": {
     "cats": [
       23,
@@ -1697,6 +1765,23 @@
       "generator": "NitroPack"
     },
     "website": "https://nitropack.io/"
+  },
+  "NOCNOK": {
+    "cats": [
+      53
+    ],
+    "description": "NOCNOK is a CRM for real estate agencies that uses AI to automate lead responses, reduce response time, and support sales workflow management.",
+    "icon": "NOCNOK.svg",
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": [
+      "static\\.nocnok\\.com"
+    ],
+    "website": "https://www.nocnok.com"
   },
   "Nocodelytics": {
     "cats": [
@@ -2300,6 +2385,43 @@
       "api\\.novabusca\\.com\\.br"
     ],
     "website": "https://novabusca.com.br"
+  },
+  "NovaDB": {
+    "cats": [
+      1
+    ],
+    "description": "NovaDB is a unified content cloud that combines headless CMS and product information management to create, manage, and deliver structured digital content.",
+    "icon": "NovaDB.svg",
+    "meta": {
+      "generator": "^NovaDB$"
+    },
+    "oss": true,
+    "pricing": [
+      "high",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.novadb.com"
+  },
+  "Novaresa": {
+    "cats": [
+      9
+    ],
+    "description": "Novaresa is a cloud-based platform designed to manage, operate, and promote hosting services through centralized tools for administration, service delivery, and customer engagement.",
+    "icon": "Novaresa.svg",
+    "js": {
+      "jquery_novaresa.Animation": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "www\\.novaresa\\.net/"
+    ],
+    "website": "https://www.novaresa.fr"
   },
   "Novel": {
     "cats": [

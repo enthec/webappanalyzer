@@ -18,6 +18,18 @@
     "oss": true,
     "website": "https://kb.x-cart.com"
   },
+  "X-Clacks-Overhead": {
+    "cats": [
+      19
+    ],
+    "description": "X-Clacks-Overhead is a non-standard HTTP header used to transmit tribute messages within server responses.",
+    "headers": {
+      "X-Clacks-Overhead": "^GNU Terry Pratchett$"
+    },
+    "icon": "XClacksOverhead.svg",
+    "saas": true,
+    "website": "https://xclacksoverhead.org/home/about"
+  },
   "X.ai": {
     "cats": [
       72
@@ -427,7 +439,8 @@
     "description": "Xtime is a company that provides automotive service scheduling and management solutions primarily for car dealerships and automotive service centers.",
     "dom": [
       "a[data-modified-by='xtime']",
-      "iframe[src*='xtime.net.au']"
+      "iframe[src*='xtime.net.au']",
+      "iframe[src*='x-time']"
     ],
     "headers": {
       "Access-Control-Allow-Origin": "\\.xtime\\.net"

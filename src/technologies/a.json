@@ -159,6 +159,18 @@
     ],
     "website": "https://www.abtasty.com"
   },
+  "AbanteCart": {
+    "cats": [
+      6
+    ],
+    "description": "AbanteCart is an open-source ecommerce platform designed to help businesses create and manage online stores with built-in product management, order processing, and customer engagement features.",
+    "icon": "AbanteCart.svg",
+    "meta": {
+      "generator": "^AbanteCart"
+    },
+    "oss": true,
+    "website": "https://www.abantecart.com"
+  },
   "AbhiCMS": {
     "cats": [
       1
@@ -242,6 +254,23 @@
     ],
     "saas": true,
     "website": "https://commercesuite.aboutyou.com"
+  },
+  "AboutMyClinic": {
+    "cats": [
+      1
+    ],
+    "description": "AboutMyClinic is a website builder designed exclusively for doctors to create and manage professional medical practice websites.",
+    "icon": "AboutMyClinic.svg",
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "www\\.aboutmyclinic\\.com"
+    ],
+    "website": "https://www.aboutmyclinic.com"
   },
   "ABP Framework": {
     "cats": [
@@ -429,6 +458,21 @@
       "accessibly\\.onthemapmarketing\\.com"
     ],
     "website": "https://www.onthemapmarketing.com/accessibly/"
+  },
+  "AccessiWay": {
+    "cats": [
+      68
+    ],
+    "description": "AccessiWay is a solution focused on digital accessibility and compliance for organizations seeking to meet established standards.",
+    "icon": "AccessiWay.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scripts": [
+      "www\\.accessiway\\.at"
+    ],
+    "website": "https://www.accessiway.com"
   },
   "Accesso": {
     "cats": [
@@ -955,6 +999,21 @@
     ],
     "website": "https://www.activecampaign.com"
   },
+  "ActivEngage": {
+    "cats": [
+      52
+    ],
+    "description": "ActivEngage is an automotive chat service that enables real-time website messaging between dealerships and customers.",
+    "icon": "ActivEngage.svg",
+    "js": {
+      "ActivEngage": ""
+    },
+    "saas": true,
+    "scriptSrc": [
+      "pageview\\.activengage\\.com"
+    ],
+    "website": "https://www.activengage.com"
+  },
   "Acuity Scheduling": {
     "cats": [
       72
@@ -1389,6 +1448,22 @@
       "/wp-content/plugins/add-to-any/addtoany\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
     ],
     "website": "https://github.com/projectestac/wordpress-add-to-any"
+  },
+  "Adenzo": {
+    "cats": [
+      32
+    ],
+    "description": "Adenzo is a B2B sales and marketing platform for managing customer relationships, automating outreach, and analyzing performance to support lead generation and sales operations.",
+    "icon": "Adenzo.svg",
+    "js": {
+      "AdenzoTrack": "",
+      "adenzo_contact_id": ""
+    },
+    "saas": true,
+    "scripts": [
+      "live\\.adenzo\\.com"
+    ],
+    "website": "https://www.adenzo.com"
   },
   "Adevole": {
     "cats": [
@@ -2771,6 +2846,23 @@
     ],
     "website": "https://wordpress.org/plugins/age-gate"
   },
+  "Agendize": {
+    "cats": [
+      72
+    ],
+    "description": "Agendize is a next-generation, all-in-one platform that streamlines scheduling, secures data, and improves the performance and efficiency of appointment management.",
+    "icon": "Agendize.svg",
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "app\\.agendize\\.com/"
+    ],
+    "website": "https://www.agendize.com"
+  },
   "AgentFire": {
     "cats": [
       32
@@ -3504,6 +3596,21 @@
     ],
     "website": "https://akerolabs.com"
   },
+  "Akia": {
+    "cats": [
+      52
+    ],
+    "description": "Akia is a platform offering AI-powered communication tools designed to streamline messaging and guest interactions within the hospitality industry.",
+    "icon": "Akia.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "web\\.akia\\.ai"
+    ],
+    "website": "https://www.akia.com"
+  },
   "Akilli Ticaret": {
     "cats": [
       6
@@ -4091,6 +4198,21 @@
     ],
     "oss": true,
     "website": "https://gitlab.com/allianceauth/allianceauth"
+  },
+  "AllMyLinks": {
+    "cats": [
+      51
+    ],
+    "description": "AllMyLinks is a personal bio link page that consolidates multiple social media profiles, websites, and contact links into a single shareable online hub.",
+    "icon": "AllMyLinks.svg",
+    "meta": {
+      "application-name": "^AllMyLinks$"
+    },
+    "saas": true,
+    "scripts": [
+      "allmylinks\\.com/"
+    ],
+    "website": "https://allmylinks.com"
   },
   "Alloka": {
     "cats": [
@@ -5501,8 +5623,12 @@
       25
     ],
     "description": "Anime.js (/ˈæn.ə.meɪ/) is a lightweight JavaScript animation library with a simple, yet powerful API.It works with CSS properties, SVG, DOM attributes and JavaScript Objects.",
+    "headers": {
+      "Access-Control-Allow-Origin": "animejs\\.com"
+    },
     "icon": "anime.js.svg",
     "js": {
+      "AnimeJS": "",
       "anime.version": "^([\\d\\.]+)$\\;version:\\1"
     },
     "oss": true,
@@ -5793,6 +5919,19 @@
     "saas": true,
     "website": "https://g6.antv.vision"
   },
+  "Anubis": {
+    "cats": [
+      16
+    ],
+    "cookies": {
+      "techaro.lol-anubis-auth": "",
+      "techaro.lol-anubis-cookie-verification": ""
+    },
+    "description": "Anubis is a system that evaluates the characteristics of incoming HTTP requests to determine their legitimacy and enhance website protection.",
+    "icon": "Anubis.svg",
+    "oss": true,
+    "website": "https://anubis.techaro.lol"
+  },
   "Anura": {
     "cats": [
       36
@@ -5995,6 +6134,19 @@
     },
     "oss": true,
     "website": "https://wicket.apache.org"
+  },
+  "Apanio": {
+    "cats": [
+      6
+    ],
+    "description": "Apanio is a website platform that provides integrated ecommerce features, including a shopping cart, shipping tools, and payment processing, enabling users to create and manage online stores.",
+    "icon": "Apanio.svg",
+    "meta": {
+      "author": "^Apanio$"
+    },
+    "pricing": [],
+    "saas": true,
+    "website": "https://apanio.com"
   },
   "APC": {
     "cats": [
@@ -6739,6 +6891,9 @@
       "freemium"
     ],
     "saas": true,
+    "scripts": [
+      "appwrite\\.io"
+    ],
     "website": "https://appwrite.io",
     "xhr": [
       "cloud\\.appwrite\\.io"
@@ -6795,6 +6950,18 @@
     ],
     "saas": true,
     "website": "https://www.aprimo.com"
+  },
+  "Apruvd": {
+    "cats": [
+      16
+    ],
+    "description": "Apruvd is a fraud protection system designed to detect and prevent unauthorized or suspicious transactions.",
+    "icon": "Apruvd.svg",
+    "saas": true,
+    "scriptSrc": [
+      "\\.apruvd\\.com"
+    ],
+    "website": "https://apruvd.com"
   },
   "Aptania": {
     "cats": [
@@ -7167,6 +7334,23 @@
     ],
     "website": "https://github.com/michaeljymsgutierrez/arm-js-library"
   },
+  "Armin": {
+    "cats": [
+      53
+    ],
+    "description": "Armin is a customer experience software solution for ecommerce that centralizes interaction data, supports service management, and helps maintain online operations.",
+    "icon": "Armin.svg",
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.chatarmin\\.com/"
+    ],
+    "website": "https://chatarmin.com"
+  },
   "Arnica": {
     "cats": [
       53
@@ -7312,6 +7496,18 @@
       "Artifactory"
     ],
     "website": "https://jfrog.com/open-source/#os-arti"
+  },
+  "Artifi": {
+    "cats": [
+      6
+    ],
+    "description": "Artifi is an ecommerce product customization platform for configuring complex products, enforcing business rules, and supporting online ordering.",
+    "icon": "Artifi.svg",
+    "saas": true,
+    "scripts": [
+      "designer\\.artifi\\.net"
+    ],
+    "website": "https://www.artifilabs.com"
   },
   "ArtPlacer": {
     "cats": [
@@ -7631,6 +7827,24 @@
     ],
     "saas": true,
     "website": "https://www.askas.com/"
+  },
+  "AskHandle": {
+    "cats": [
+      47
+    ],
+    "description": "AskHandle is a platform that enables the creation of custom AI agents in minutes using user data and requirements, without requiring coding.",
+    "icon": "AskHandle.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scripts": [
+      "dashboard\\.askhandle\\.com"
+    ],
+    "website": "https://www.askhandle.com"
   },
   "AskNicely": {
     "cats": [
@@ -8071,6 +8285,33 @@
       "wp-content/plugins/athena-search"
     ],
     "website": "https://www.athenasearch.io"
+  },
+  "Athos Commerce": {
+    "cats": [
+      29
+    ],
+    "description": "Athos Commerce is a site search and merchandising platform designed to help ecommerce.",
+    "icon": "Athos Commerce.svg",
+    "js": {
+      "SearchSpring": "",
+      "SearchSpringConf": "",
+      "SearchSpringInit": "",
+      "klevu.version": "([\\d\\.]+)\\;version:\\1",
+      "klevu_apiKey": "",
+      "klevu_layout": "",
+      "klevu_sessionId": "",
+      "sendKlevuAnalytics": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "cdn\\.searchspring\\.net",
+      "js\\.klevu\\.\\w+/klevu-js-v([\\d.]+)\\;version:\\1"
+    ],
+    "website": "https://athoscommerce.com/"
   },
   "Atlasmic": {
     "cats": [
@@ -8936,6 +9177,25 @@
     ],
     "website": "https://autoptimize.com"
   },
+  "autoship": {
+    "cats": [
+      6
+    ],
+    "description": "autoship is a feature that lets customers schedule recurring orders and receive savings, enabling merchants to create automated repeat purchases and manage scheduled orders.",
+    "icon": "autoship.svg",
+    "js": {
+      "AUTOSHIP_AJAX_URL": "",
+      "AUTOSHIP_API_URL": "",
+      "AUTOSHIP_SITE_URL": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://autoship.cloud"
+  },
   "AutoVitals": {
     "cats": [
       53
@@ -9085,6 +9345,27 @@
     "saas": true,
     "website": "https://www.avanser.com"
   },
+  "Avasam": {
+    "cats": [
+      6
+    ],
+    "description": "Avasam is a platform that provides dropship suppliers with channel integration and automation tools to connect and manage online stores.",
+    "headers": {
+      "Host": "app\\.avasam\\.com",
+      "X-Forwarded-Host": "app\\.avasam\\.com"
+    },
+    "icon": "Avasam.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": [
+      "app\\.avasam\\.com"
+    ],
+    "website": "https://www.avasam.com"
+  },
   "Avasize": {
     "cats": [
       5
@@ -9111,6 +9392,18 @@
     ],
     "saas": true,
     "website": "https://www.avature.net"
+  },
+  "AvidAI": {
+    "cats": [
+      32
+    ],
+    "description": "AvidAI is a marketing platform that uses artificial intelligence to convert digital window-shoppers through automated campaigns, A/B testing, and personalized content optimization.",
+    "icon": "AvidAI.svg",
+    "saas": true,
+    "scripts": [
+      "app\\.getavid\\.ai"
+    ],
+    "website": "https://www.getavid.ai"
   },
   "AvidTrak": {
     "cats": [
@@ -9281,6 +9574,9 @@
     "meta": {
       "generator": "AWStats ([\\d.]+(?: \\(build [\\d.]+\\))?)\\;version:\\1"
     },
+    "scriptSrc": [
+      "(?:^|/)awstats_misc_tracker\\.js(?:\\?|$)"
+    ],
     "website": "https://awstats.sourceforge.net"
   },
   "Awtomic": {

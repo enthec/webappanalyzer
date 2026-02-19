@@ -465,6 +465,22 @@
     ],
     "website": "https://www.magnolia-cms.com"
   },
+  "Maguru": {
+    "cats": [
+      32
+    ],
+    "description": "Maguru is a marketing tool designed to help organizations manage and execute promotional activities.",
+    "icon": "Maguru.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "go\\.maguru\\.dk"
+    ],
+    "website": "https://www.maguru.dk"
+  },
   "Mahara": {
     "cats": [
       51
@@ -792,6 +808,21 @@
     ],
     "website": "https://mailoptin.io/"
   },
+  "Mailshake": {
+    "cats": [
+      32
+    ],
+    "description": "Mailshake is an AI-powered sales engagement and B2B lead management platform for creating, automating, and tracking outreach campaigns.",
+    "icon": "Mailshake.svg",
+    "js": {
+      "Mailshake.clearRecipient": ""
+    },
+    "saas": true,
+    "scriptSrc": [
+      "cdn\\.mailshake\\.com"
+    ],
+    "website": "https://mailshake.com"
+  },
   "MainAd": {
     "cats": [
       36
@@ -929,6 +960,22 @@
       "mk-sense\\.com/aweb\\?license"
     ],
     "website": "https://mk-sense.com/"
+  },
+  "Makeplans": {
+    "cats": [
+      72
+    ],
+    "description": "Makeplans is a scheduling system designed for appointment booking and event registration, providing tools to manage availability, reservations, and attendee organization.",
+    "icon": "Makeplans.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.makeplans\\.com"
+    ],
+    "website": "https://makeplans.com"
   },
   "Maker": {
     "cats": [
@@ -1082,6 +1129,25 @@
       "\\w+.mangeznotez\\.\\w+(?:.*\\?ver=([\\d.]+))?\\;version:\\1"
     ],
     "website": "https://www.mangeznotez.com"
+  },
+  "Mangomint": {
+    "cats": [
+      72
+    ],
+    "description": "Mangomint is a salon and spa management platform that centralizes scheduling, client records, payments, and operational tools for service-based businesses.",
+    "icon": "Mangomint.svg",
+    "js": {
+      "Mangomint.CompanyId": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "booking\\.mangomint\\.com"
+    ],
+    "website": "https://www.mangomint.com"
   },
   "Mantine": {
     "cats": [
@@ -2118,7 +2184,7 @@
       "piwik\\.js|piwik\\.php"
     ],
     "scripts": [
-      "matomo\\.js"
+      "matomo(?:\\.min)?\\.js"
     ],
     "website": "https://matomo.org"
   },
@@ -2780,6 +2846,25 @@
     "saas": true,
     "website": "https://meetupexpress.com"
   },
+  "Mega": {
+    "cats": [
+      32
+    ],
+    "description": "Mega is a platform that applies artificial intelligence to automate and improve search engine optimization processes and paid advertising campaign performance.",
+    "icon": "Mega.svg",
+    "js": {
+      "MegaTag.getAttribution": ""
+    },
+    "pricing": [
+      "high",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "cdn\\.gomega\\.ai"
+    ],
+    "website": "https://www.gomega.ai"
+  },
   "Megagroup CMS.S3": {
     "cats": [
       1
@@ -2905,6 +2990,39 @@
     "icon": "Meltwater.svg",
     "saas": true,
     "website": "https://www.meltwater.com"
+  },
+  "Membership Toolkit": {
+    "cats": [
+      101
+    ],
+    "description": "Membership Toolkit is a volunteer management platform that organizes scheduling, tracks participation, and streamlines administrative tasks for groups that coordinate community, school, or event-based service activities.",
+    "icon": "MembershipToolkit.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": [
+      "\\.membershiptoolkit\\.com"
+    ],
+    "website": "https://membershiptoolkit.com"
+  },
+  "MembershipWorks": {
+    "cats": [
+      53
+    ],
+    "description": "MembershipWorks is a membership software platform that provides tools for managing member records, offering a searchable member directory, and supporting event calendars with integrated registration features.",
+    "icon": "MembershipWorks.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "cdn\\.membershipworks\\.com"
+    ],
+    "website": "https://membershipworks.com"
   },
   "MemberSpace": {
     "cats": [
@@ -3064,6 +3182,25 @@
       "sitecontent-menufycom\\.netdna-ssl\\.com/"
     ],
     "website": "https://restaurant.menufy.com"
+  },
+  "Menuu": {
+    "cats": [
+      93
+    ],
+    "description": "MENUU is an online ordering system for restaurants and food delivery.",
+    "headers": {
+      "Access-Control-Allow-Origin": "frontend\\.menuu\\.com"
+    },
+    "icon": "Menuu.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "frontend\\.menuu\\.com/"
+    ],
+    "website": "https://menuu.com"
   },
   "Mercado Shops": {
     "cats": [
@@ -3227,6 +3364,22 @@
       "\\.swrve\\.com"
     ],
     "website": "https://messagegears.com/swrve/"
+  },
+  "MessageMedia": {
+    "cats": [
+      52
+    ],
+    "description": "MessageMedia is a software service provider that helps businesses communicate with their customers and other contacts using SMS messages.",
+    "icon": "MessageMedia.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "chatwidget\\.messagemedia\\.com/"
+    ],
+    "website": "https://messagemedia.com"
   },
   "MetaMap": {
     "cats": [
@@ -3510,6 +3663,25 @@
     ],
     "website": "https://www.mews.com"
   },
+  "Mexty": {
+    "cats": [
+      21
+    ],
+    "description": "Mexty is a no-code, AI-powered authoring platform that enables educators to create interactive lessons, activities, and courses quickly.",
+    "icon": "Mexty.svg",
+    "meta": {
+      "author": "^Mexty Team$",
+      "creator": "^Mexty$"
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://mexty.ai"
+  },
   "Mezereon": {
     "cats": [
       76
@@ -3638,6 +3810,21 @@
     "xhr": [
       "\\.michijs\\.com"
     ]
+  },
+  "Mico": {
+    "cats": [
+      53
+    ],
+    "description": "Mico is a customer relationship management platform that supports personalized, continuous communication between businesses and customers and includes tools to improve brand visibility across search engines and AI-driven platforms.",
+    "icon": "Mico.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.mico-cloud\\.jp/"
+    ],
+    "website": "https://mico-inc.com"
   },
   "microCMS": {
     "cats": [
@@ -3871,6 +4058,10 @@
       "Content-Security-Policy": "app\\.powerbi\\.com"
     },
     "icon": "MicrosoftPowerBI.svg",
+    "js": {
+      "powerBIAccessToken": "",
+      "powerBIEmbedToken": ""
+    },
     "pricing": [
       "freemium",
       "low",
@@ -3878,6 +4069,9 @@
       "poa"
     ],
     "saas": true,
+    "scriptSrc": [
+      "content\\.powerapps\\.com"
+    ],
     "website": "https://www.microsoft.com/en-us/power-platform/products/power-bi"
   },
   "Microsoft PowerPoint": {
@@ -4305,6 +4499,29 @@
     },
     "icon": "mini_httpd.png",
     "website": "https://acme.com/software/mini_httpd"
+  },
+  "MiniBC": {
+    "cats": [
+      41
+    ],
+    "description": "MiniBC is a BigCommerce payment app builder that enables the creation and management of custom payment solutions within the BigCommerce platform.",
+    "icon": "MiniBC.svg",
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "requires": [
+      "BigCommerce"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "apps\\.minibc\\.com"
+    ],
+    "scripts": [
+      "apps\\.minibc\\.com"
+    ],
+    "website": "https://www.minibc.com"
   },
   "miniCal": {
     "cats": [
@@ -5962,6 +6179,17 @@
     },
     "website": "https://moodle.org"
   },
+  "Moofx": {
+    "cats": [
+      59
+    ],
+    "description": "Moofx is a CSS3-enabled JavaScript animation library for creating and managing lightweight, hardware-accelerated animations.",
+    "js": {
+      "moofx.parse": ""
+    },
+    "oss": true,
+    "website": "https://github.com/kamicane/moofx"
+  },
   "Moon": {
     "cats": [
       12
@@ -6124,6 +6352,26 @@
       "\\.mopro\\.com/"
     ],
     "website": "https://www.mopro.com"
+  },
+  "MoreVago": {
+    "cats": [
+      90
+    ],
+    "description": "MoreVago is a platform that displays customer testimonials and reviews to help businesses increase conversions and sales.",
+    "icon": "MoreVago.svg",
+    "js": {
+      "morevagoOptions": "",
+      "objMorevago": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "app\\.morevago\\.com"
+    ],
+    "website": "https://www.morevago.com"
   },
   "Morningtrain": {
     "cats": [
@@ -6952,6 +7200,25 @@
     "saas": true,
     "website": "https://www.mycashflow.fi"
   },
+  "MyCred": {
+    "cats": [
+      84
+    ],
+    "description": "MyCred is a points management system for WordPress that allows sites to define, track, and adjust user points based on custom rules and interactions.",
+    "dom": [
+      "link[href*='/wp-content/plugins/mycred/']"
+    ],
+    "icon": "MyCred.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "/wp-content/plugins/mycred/"
+    ],
+    "website": "https://mycred.me"
+  },
   "MyDryCleaner": {
     "cats": [
       1
@@ -7077,6 +7344,34 @@
       "generator": "Mijnwebwinkel"
     },
     "website": "https://www.myonlinestore.com/"
+  },
+  "MyPersonas": {
+    "cats": [
+      4
+    ],
+    "description": "MyPersonas is an AI-powered platform that creates digital replicas of key employees to handle repetitive, routine inquiries, reducing interruptions and streamlining access to internal knowledge.",
+    "icon": "MyPersonas.svg",
+    "pricing": [
+      "high",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "cdn\\.mypersonas\\.ai/"
+    ],
+    "website": "https://mypersonas.ai"
+  },
+  "MyPlay": {
+    "cats": [
+      6
+    ],
+    "description": "MyPlay is a network of Sony Music–owned online stores that enable musicians to sell and distribute their music and related merchandise.",
+    "icon": "MyPlay.svg",
+    "saas": true,
+    "scriptSrc": [
+      "\\.myplay\\.com/"
+    ],
+    "website": "https://www.myplay.com"
   },
   "MyRest": {
     "cats": [

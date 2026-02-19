@@ -580,6 +580,24 @@
     ],
     "website": "https://genez.io"
   },
+  "Genially": {
+    "cats": [
+      21
+    ],
+    "description": "Genially is a platform that enables the creation of interactive and gamified digital experiences for presentations, training, and educational content.",
+    "headers": {
+      "Content-Security-Policy": "\\.genially\\.com",
+      "Server": "^Genially"
+    },
+    "icon": "Genially.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://genially.com"
+  },
   "Geniee": {
     "cats": [
       36
@@ -1130,6 +1148,18 @@
       "app\\.getterms\\.io"
     ],
     "website": "https://getterms.io"
+  },
+  "getUBetter": {
+    "cats": [
+      1
+    ],
+    "description": "getUBetter is a healthcare platform that provides online access to mental health support services.",
+    "icon": "getUBetter.svg",
+    "saas": true,
+    "scripts": [
+      "app\\.getubetter\\.com"
+    ],
+    "website": "https://www.getubetter.com"
   },
   "GetYourGuide": {
     "cats": [
@@ -2302,6 +2332,18 @@
     ],
     "website": "https://www.goatcounter.com/"
   },
+  "GOb2b": {
+    "cats": [
+      6
+    ],
+    "description": "Gob2b is an ecommerce integration solution that connects an online store to a Sage ERP back-end system for streamlined data flow.",
+    "icon": "GOb2b.svg",
+    "saas": true,
+    "scriptSrc": [
+      "cdn\\.gob2b\\.com"
+    ],
+    "website": "https://gob2b.com"
+  },
   "Gobot": {
     "cats": [
       52
@@ -3349,6 +3391,18 @@
     "saas": true,
     "website": "https://goprep.com"
   },
+  "GOrendezvous": {
+    "cats": [
+      72
+    ],
+    "description": "GOrendezvous is an online scheduling and appointment booking software for managing availability, bookings, and calendar coordination across services and users.",
+    "icon": "GOrendezvous.svg",
+    "saas": true,
+    "scriptSrc": [
+      "www\\.gorendezvous\\.com"
+    ],
+    "website": "https://gorendezvous.com"
+  },
   "Gorgias": {
     "cats": [
       52
@@ -3862,6 +3916,26 @@
     ],
     "saas": true,
     "website": "https://graphy.com"
+  },
+  "Grappos": {
+    "cats": [
+      6
+    ],
+    "description": "Grappos is a feature-rich product locator that helps users find products through structured search and location-based discovery.",
+    "icon": "Grappos.svg",
+    "js": {
+      "grapposConfig.autoSearch": "",
+      "grapposLoadLocator": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "locator\\.grappos\\.com"
+    ],
+    "website": "https://www.grappos.com/"
   },
   "Grasp": {
     "cats": [
@@ -4628,6 +4702,21 @@
     ],
     "website": "https://guideit.uk"
   },
+  "GuildQuality": {
+    "cats": [
+      73
+    ],
+    "description": "GuildQuality is a customer satisfaction surveying and performance reporting platform that collects feedback, measures service quality, and provides structured insights for operational improvement.",
+    "dom": [
+      "iframe[src*='guildquality.com']"
+    ],
+    "headers": {
+      "Access-Control-Allow-Origin": "www\\.guildquality\\.com"
+    },
+    "icon": "GuildQuality.svg",
+    "saas": true,
+    "website": "https://www.guildquality.com"
+  },
   "GumGum": {
     "cats": [
       36
@@ -4723,6 +4812,19 @@
       "Python"
     ],
     "website": "https://gunicorn.org"
+  },
+  "GuppY": {
+    "cats": [
+      57
+    ],
+    "description": "Guppy is a platform for generating an interactive website using a database-free architecture.",
+    "icon": "Guppy.svg",
+    "meta": {
+      "Author": "^GuppY$",
+      "Generator": "^GuppY$"
+    },
+    "saas": true,
+    "website": "https://www.freeguppy.org"
   },
   "Gurucan": {
     "cats": [

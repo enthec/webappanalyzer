@@ -798,6 +798,23 @@
     ],
     "website": "https://www.leadpages.com"
   },
+  "Leads2b": {
+    "cats": [
+      32
+    ],
+    "description": "Leads2b is a prospecting system that helps identify and access company data from Brazil for sales, marketing, and business development purposes.",
+    "icon": "Leads2b.svg",
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.app\\.leads2b\\.com/"
+    ],
+    "website": "https://leads2b.com"
+  },
   "LeadsBridge": {
     "cats": [
       32
@@ -847,6 +864,18 @@
       "assets2\\.leadsimple\\.com/"
     ],
     "website": "https://www.leadsimple.com"
+  },
+  "LeadsLeap": {
+    "cats": [
+      32
+    ],
+    "description": "LeadsLeap is a lead generation system designed to collect, manage, and organize potential customer data to support marketing and sales workflows.",
+    "icon": "LeadsLeap.svg",
+    "saas": true,
+    "scriptSrc": [
+      "pjs\\.leadsleap\\.net"
+    ],
+    "website": "https://leadsleap.com"
   },
   "LeadSlide": {
     "cats": [
@@ -1011,6 +1040,27 @@
     ],
     "website": "https://www.leafly.com"
   },
+  "Leaky Paywall": {
+    "cats": [
+      87
+    ],
+    "description": "Leaky Paywall is a metered paywall system for WordPress websites that limits user access to content based on predefined viewing thresholds and subscription rules.",
+    "icon": "LeakyPaywall.svg",
+    "js": {
+      "leaky_paywall_quick_register": "",
+      "leaky_paywall_recurring": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "requires": [
+      "WordPress"
+    ],
+    "saas": true,
+    "website": "https://leakypaywall.com"
+  },
   "LeanData": {
     "cats": [
       53
@@ -1048,6 +1098,26 @@
       "npm/leanplum-sdk\\@([\\d.]+)\\;version:\\1"
     ],
     "website": "https://www.leanplum.com"
+  },
+  "Learnbase": {
+    "cats": [
+      21
+    ],
+    "description": "Learnbase is an AI-powered platform for creators and students that provides tools to support teaching, learning, and content creation.",
+    "icon": "Learnbase.svg",
+    "js": {
+      "Learnbase": "",
+      "Learnbase.version": "^(.+)$\\;version:\\1"
+    },
+    "meta": {
+      "generator": "^Learnbase$"
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://uselearnbase.com"
   },
   "LearnDash": {
     "cats": [
@@ -1784,6 +1854,9 @@
     "scriptSrc": [
       "http://assets\\.webshopapp\\.com"
     ],
+    "scripts": [
+      "lightspeed\\.multisafepay\\.com"
+    ],
     "url": [
       "seoshop.webshopapp.com"
     ],
@@ -2027,6 +2100,25 @@
       "Constants.authorization_request_url": "access\\.line\\.me/oauth2/v([\\d\\.]+)/\\;version:\\1"
     },
     "website": "https://developers.line.biz/en/services/line-login/"
+  },
+  "Line-Up": {
+    "cats": [
+      96
+    ],
+    "description": "Line-Up is an event discovery service that organizes and presents local activities, shows, and gatherings to help audiences access timely information about upcoming events.",
+    "icon": "Line-Up.svg",
+    "js": {
+      "LineupPurchaseLoader.baseId": "",
+      "LineupSDKLoader.baseId": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "platform\\.lineupnow\\.com"
+    ],
+    "website": "https://www.line-up.tickets"
   },
   "Line2": {
     "cats": [
@@ -2321,6 +2413,26 @@
       "recurring"
     ],
     "website": "https://www.liquidweb.com"
+  },
+  "Liscio": {
+    "cats": [
+      55
+    ],
+    "description": "Liscio is an AI assistant for accounting firms that supports client communication, task coordination, and document workflows to help manage accounting operations.",
+    "icon": "Liscio.svg",
+    "js": {
+      "webpackChunkliscio_ui.push": ""
+    },
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scripts": [
+      "\\.liscio\\.me/"
+    ],
+    "website": "https://www.liscio.me"
   },
   "List.js": {
     "cats": [
@@ -2933,7 +3045,8 @@
       "Laravel"
     ],
     "js": {
-      "livewire": ""
+      "livewire": "",
+      "livewireScriptConfig": ""
     },
     "oss": true,
     "scriptSrc": [
@@ -3141,6 +3254,18 @@
       "api\\.localised\\.com"
     ]
   },
+  "LocalSignal": {
+    "cats": [
+      32
+    ],
+    "description": "LocalSignal is a platform that provides advanced tools for managing and optimizing local marketing activities across digital channels.",
+    "icon": "LocalSignal.svg",
+    "saas": true,
+    "scriptSrc": [
+      "cdn\\.localsignal\\.com/"
+    ],
+    "website": "https://www.localsignal.com"
+  },
   "Locksmith": {
     "cats": [
       100
@@ -3173,7 +3298,8 @@
       "Lenis"
     ],
     "js": {
-      "LocomotiveScroll": ""
+      "LocomotiveScroll": "",
+      "locomotiveScrollVersion": "([\\d\\.]+)\\;version:\\1"
     },
     "oss": true,
     "scriptSrc": [
@@ -3261,6 +3387,27 @@
       "cdn\\.lofty\\.com"
     ],
     "website": "https://lofty.com"
+  },
+  "Logaholic": {
+    "cats": [
+      10
+    ],
+    "description": "Logaholic is a web analytics software that processes website traffic data to generate reports on visits, user behavior, and referrers.",
+    "icon": "Logaholic.svg",
+    "js": {
+      "logaholic": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "logaholic\\.hostpoint\\.ch/"
+    ],
+    "website": "https://www.logaholic.com"
   },
   "Loggly": {
     "cats": [
@@ -3812,7 +3959,26 @@
       "recurring"
     ],
     "saas": true,
+    "scriptSrc": [
+      "\\.lovable\\.app/"
+    ],
     "website": "https://lovable.dev"
+  },
+  "Lovi": {
+    "cats": [
+      52
+    ],
+    "description": "Lovi is a tool that enables the creation of customized ChatGPT instances for customer support, delivering automated, and personalized customer service.",
+    "icon": "Lovi.svg",
+    "js": {
+      "__loviMsgHandler": "",
+      "__loviWidgetClicksBound": ""
+    },
+    "saas": true,
+    "scriptSrc": [
+      "widget\\.lovi\\.ai/"
+    ],
+    "website": "https://lovi.ai"
   },
   "Lovingly": {
     "cats": [

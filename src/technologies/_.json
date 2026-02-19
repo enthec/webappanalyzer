@@ -113,6 +113,23 @@
     "icon": "30namaPlayer.png",
     "website": "https://30nama.com/"
   },
+  "321 CMS": {
+    "cats": [
+      1
+    ],
+    "description": "321 CMS is a content management system that enables users to create and manage websites without requiring coding knowledge.",
+    "icon": "321CMS.svg",
+    "meta": {
+      "author": "^321 CREATIVE CREW"
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.321web.cz"
+  },
   "33Across": {
     "cats": [
       36

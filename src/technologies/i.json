@@ -684,6 +684,22 @@
     ],
     "website": "https://www.iluria.com.br"
   },
+  "iMagaza": {
+    "cats": [
+      6
+    ],
+    "description": "iMagaza is an ecommerce website system from Turkey.",
+    "icon": "iMagaza.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": [
+      "connect\\.imagaza\\.net/"
+    ],
+    "website": "https://imagaza.net"
+  },
   "Image Placeholders": {
     "cats": [
       87,
@@ -1228,6 +1244,21 @@
     "icon": "Includable.svg",
     "website": "https://includable.com"
   },
+  "Indeed": {
+    "cats": [
+      101
+    ],
+    "description": "Indeed is a platform that provides embedded code for tracking job-related clicks and supports job search functionality.",
+    "icon": "Indeed.svg",
+    "js": {
+      "indeed_clk": ""
+    },
+    "saas": true,
+    "scriptSrc": [
+      "\\.indeed\\.com"
+    ],
+    "website": "https://www.indeed.com"
+  },
   "Index Exchange": {
     "cats": [
       36
@@ -1418,6 +1449,21 @@
     ],
     "website": "https://useinfluence.co"
   },
+  "Influenster": {
+    "cats": [
+      90
+    ],
+    "description": "Influenster is a product reviews widget that displays feedback and ratings from shoppers on websites.",
+    "icon": "Influenster.svg",
+    "js": {
+      "showInfluensterWidget": ""
+    },
+    "saas": true,
+    "scriptSrc": [
+      "widget\\.influenster\\.com"
+    ],
+    "website": "https://www.influenster.com"
+  },
   "Influx CMS": {
     "cats": [
       1,
@@ -1535,6 +1581,22 @@
       "connect\\.informamarkets\\.com"
     ],
     "website": "https://www.informamarkets.com"
+  },
+  "Informizely": {
+    "cats": [
+      73
+    ],
+    "description": "Informizely is a customer feedback platform used to run surveys on websites and applications to understand user behavior and generate actionable insights.",
+    "dom": [
+      "script[id*='_informizely_script_tag']"
+    ],
+    "icon": "Informizely.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.informizely.com"
   },
   "InforUMobile": {
     "cats": [
@@ -1673,6 +1735,35 @@
     "saas": true,
     "website": "https://www.innovid.com/solutions/advertising-measurement"
   },
+  "Innovorder": {
+    "cats": [
+      6
+    ],
+    "description": "Innovorder is a point-of-sale solution for restaurateurs that uses AI to support order management and in-store operations.",
+    "dom": [
+      "link[href*='static.innovorder.fr/']"
+    ],
+    "icon": "Innovorder.svg",
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.innovorder.com"
+  },
+  "Inplayer": {
+    "cats": [
+      14
+    ],
+    "description": "Inplayer is a platform that enables video streaming at scale, supports audience expansion across devices, and provides tools for content monetization.",
+    "icon": "Inplayer.svg",
+    "saas": true,
+    "scriptSrc": [
+      "assets\\.inplayer\\.com"
+    ],
+    "website": "https://inplayer.com"
+  },
   "Inputflow": {
     "cats": [
       110
@@ -1784,6 +1875,21 @@
       "app\\.insignal\\.co/"
     ],
     "website": "https://insignal.co/"
+  },
+  "Inso": {
+    "cats": [
+      21
+    ],
+    "description": "Inso is an application for kindergartens and nurseries that facilitates communication with parents and supports the automated preparation of billing information.",
+    "headers": {
+      "Access-Control-Allow-Origin": "app\\.inso\\.pl"
+    },
+    "icon": "Inso.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://inso.pl"
   },
   "Inspectlet": {
     "cats": [
@@ -2218,6 +2324,23 @@
     ],
     "website": "https://www.interactivecalculator.com"
   },
+  "Interago": {
+    "cats": [
+      32
+    ],
+    "description": "Interago is a Brazilian platform that aggregates modern digital tools to support and streamline online business operations.",
+    "icon": "Interago.svg",
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scripts": [
+      "www\\.interago\\.com\\.br"
+    ],
+    "website": "https://www.interago.com.br"
+  },
   "Interakt": {
     "cats": [
       52
@@ -2340,6 +2463,29 @@
       "(?:is-bin|INTERSHOP)"
     ],
     "website": "https://intershop.com"
+  },
+  "Intervo": {
+    "cats": [
+      47
+    ],
+    "description": "Intervo is a platform for building and managing enterprise-grade voice agents at scale, enabling reliable voice automation, system integration, and deployment across large organizations.",
+    "icon": "Intervo.svg",
+    "js": {
+      "IntervoWidget": ""
+    },
+    "oss": true,
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring",
+      "payg",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "widget\\.intervo\\.ai"
+    ],
+    "website": "https://intervo.ai"
   },
   "Intiaro": {
     "cats": [
@@ -3062,6 +3208,22 @@
     ],
     "website": "https://www.italiaonline.it"
   },
+  "iTCHYROBOT": {
+    "cats": [
+      1
+    ],
+    "description": "iTCHYROBOT is a platform that develops school websites and provides marketing strategies to support communication, branding, and digital engagement for educational institutions.",
+    "icon": "iTCHYROBOT.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "/wp-content/themes/itchyrobot_parent/js/"
+    ],
+    "website": "https://www.itchyrobot.co.uk"
+  },
   "Iterable": {
     "cats": [
       32
@@ -3076,6 +3238,21 @@
       "js\\.iterable\\.com"
     ],
     "website": "https://iterable.com"
+  },
+  "Iteras": {
+    "cats": [
+      53
+    ],
+    "description": "Iteras is a subscriber management system that organizes user accounts, tracks subscription activity, and supports controlled access to digital services.",
+    "icon": "Iteras.svg",
+    "js": {
+      "Iteras.cookieDomain": ""
+    },
+    "saas": true,
+    "scriptSrc": [
+      "app\\.iteras\\.dk"
+    ],
+    "website": "https://www.iteras.com"
   },
   "Iterate": {
     "cats": [

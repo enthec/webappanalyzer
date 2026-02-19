@@ -354,6 +354,22 @@
     ],
     "website": "https://trytada.com"
   },
+  "Tagalys": {
+    "cats": [
+      76
+    ],
+    "description": "Tagalys is an ecommerce personalization software that enables data-driven product discovery, recommendations, and merchandising optimization across online stores.",
+    "icon": "Tagalys.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.tagalys\\.com"
+    ],
+    "website": "https://www.tagalys.com"
+  },
   "Tagboard": {
     "cats": [
       96
@@ -557,7 +573,7 @@
       "application-name": "^Tailwind CSS$"
     },
     "scriptSrc": [
-      "\\.tailwindcss(?:tailwind-config-cdn)?\\.(?:com|js)"
+      "\\.tailwindcss(?:tailwind-config-cdn)?\\.(?:com|js)|/npm/@tailwindcss/browser"
     ],
     "website": "https://tailwindcss.com/"
   },
@@ -889,6 +905,21 @@
       "(?:https?:)?\\/\\/(?:www\\.)?tanstack\\.com(?:\\/[^\"'>]*)?"
     ],
     "website": "https://tanstack.com"
+  },
+  "Tanx": {
+    "cats": [
+      95
+    ],
+    "description": "Tanx is a platform for media resource management and business-cooperation workflows.",
+    "icon": "Tanx.svg",
+    "saas": true,
+    "scriptSrc": [
+      "\\.tanx\\.co."
+    ],
+    "scripts": [
+      "\\.tanx\\.com"
+    ],
+    "website": "https://tanx.com"
   },
   "Tap Payments": {
     "cats": [
@@ -1621,6 +1652,18 @@
     },
     "website": "https://telescopeapp.org"
   },
+  "Tempus": {
+    "cats": [
+      59
+    ],
+    "description": "Tempus is a lightweight animation frame manager for JavaScript applications, designed to optimize timing and control of visual updates.",
+    "icon": "Tempus.svg",
+    "js": {
+      "tempusVersion": ""
+    },
+    "oss": true,
+    "website": "https://github.com/darkroomengineering/tempus"
+  },
   "Tencent Analytics (腾讯分析)": {
     "cats": [
       10
@@ -2269,6 +2312,18 @@
       "app\\.thebotforge\\.ai/"
     ],
     "website": "https://thebotforge.ai"
+  },
+  "theCut": {
+    "cats": [
+      72
+    ],
+    "description": "theCut is a barber booking app that allows users to schedule appointments with barbers through a centralized digital platform.",
+    "dom": [
+      "iframe[src*='.thecut.co']"
+    ],
+    "icon": "theCut.svg",
+    "saas": true,
+    "website": "https://thecut.co"
   },
   "Thefork": {
     "cats": [
@@ -3221,6 +3276,23 @@
     "oss": true,
     "website": "https://www.thinkphp.cn"
   },
+  "Thinkstack": {
+    "cats": [
+      47
+    ],
+    "description": "Thinkstack is a platform that develops custom AI chatbots tailored to specific business requirements.",
+    "icon": "Thinkstack.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "app\\.thinkstack\\.ai/"
+    ],
+    "website": "https://www.thinkstack.ai"
+  },
   "Thor-Media": {
     "cats": [
       36
@@ -3957,6 +4029,18 @@
     ],
     "website": "https://timeago.yarp.com/"
   },
+  "Timepad": {
+    "cats": [
+      104
+    ],
+    "description": "Timepad is a Russian events system for creating, managing, and ticketing events online.",
+    "icon": "Timepad.svg",
+    "saas": true,
+    "scripts": [
+      "\\.timepad\\.ru"
+    ],
+    "website": "https://afisha.timepad.ru"
+  },
   "Timeplot": {
     "cats": [
       25
@@ -3989,6 +4073,26 @@
     ],
     "saas": true,
     "website": "https://timesact.com"
+  },
+  "TimeTap": {
+    "cats": [
+      72
+    ],
+    "description": "TimeTap is a scheduling automation platform that helps organizations manage and customize appointment booking workflows to streamline scheduling operations.",
+    "dom": [
+      "iframe[src*='www.timetap.com']"
+    ],
+    "icon": "TimeTap.svg",
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scripts": [
+      "\\.timetap\\.com/"
+    ],
+    "website": "https://timetap.com"
   },
   "Timify": {
     "cats": [
@@ -4295,6 +4399,23 @@
       "\\.secure-tix\\.com/"
     ],
     "website": "https://www.tix.com"
+  },
+  "tlooto": {
+    "cats": [
+      20
+    ],
+    "description": "tlooto is an AI assistant designed to support academic writing, research tasks, and information synthesis for educational and scholarly use.",
+    "icon": "tlooto.svg",
+    "js": {
+      "tlooto.copilot": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://tlooto.com"
   },
   "TN Express Web": {
     "cats": [
@@ -4981,6 +5102,25 @@
     ],
     "website": "https://trackboxx.com"
   },
+  "TrackFox": {
+    "cats": [
+      10
+    ],
+    "description": "TrackFox is a platform that links traffic patterns to revenue outcomes, providing clarity on which sources convert and which do not.",
+    "icon": "Trackfox.svg",
+    "js": {
+      "trackfox.formatCurrency": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": [
+      "trackfox\\.app/script\\.js"
+    ],
+    "website": "https://trackfox.app"
+  },
   "Trackify X": {
     "cats": [
       100,
@@ -5380,6 +5520,18 @@
       "traveljoy\\.com"
     ],
     "website": "https://traveljoy.com"
+  },
+  "Travello": {
+    "cats": [
+      93
+    ],
+    "description": "Travello is a booking platform that provides discounted travel options, tours, and holiday packages across multiple destinations worldwide.",
+    "icon": "Travello.svg",
+    "saas": true,
+    "scripts": [
+      "\\.travelloapp\\.com"
+    ],
+    "website": "https://www.travello.com"
   },
   "TravelPayouts": {
     "cats": [
@@ -5832,6 +5984,25 @@
     ],
     "website": "https://trovo.live"
   },
+  "true": {
+    "cats": [
+      90
+    ],
+    "description": "true is a social proof platform that helps organizations increase conversions and credibility by displaying verified user interactions and trust signals on digital properties.",
+    "icon": "true.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "cdn\\.usetrue\\.com"
+    ],
+    "scripts": [
+      "cdn\\.usetrue\\.com"
+    ],
+    "website": "https://usetrue.com"
+  },
   "True Fit": {
     "cats": [
       76
@@ -6262,6 +6433,21 @@
     "saas": true,
     "website": "https://tulasoftware.com"
   },
+  "Tulo": {
+    "cats": [
+      6
+    ],
+    "description": "Tulo is a subscription management platform designed to support recurring billing, customer access control, and subscription lifecycle operations for digital businesses.",
+    "icon": "Tulo.svg",
+    "js": {
+      "Tulo.account": ""
+    },
+    "saas": true,
+    "scriptSrc": [
+      "\\.worldoftulo\\.com/"
+    ],
+    "website": "https://worldoftulo.com"
+  },
   "Tumblr": {
     "cats": [
       11
@@ -6303,6 +6489,18 @@
     ],
     "website": "https://tunosite.com"
   },
+  "TuoTempo": {
+    "cats": [
+      52
+    ],
+    "description": "TuoTempo is a patient CRM designed to manage appointments, patient communications, and care workflows for medical centers.",
+    "icon": "TuoTempo.svg",
+    "saas": true,
+    "scriptSrc": [
+      "app\\.tuotempo\\.com"
+    ],
+    "website": "https://tuotempo.com"
+  },
   "Turbo": {
     "cats": [
       92
@@ -6333,11 +6531,15 @@
     "cats": [
       47
     ],
-    "description": "Turbopack is an open-source JavaScript module bundler.",
+    "description": "Turbopack is an incremental bundler for JavaScript and TypeScript, written in Rust and integrated into the Next.js framework for optimized build performance.",
     "icon": "Turbopack.svg",
     "js": {
-      "TURBOPACK": ""
+      "TURBOPACK.push": ""
     },
+    "oss": true,
+    "requires": [
+      "Next.js"
+    ],
     "website": "https://nextjs.org/docs/app/api-reference/turbopack"
   },
   "TurfJS": {
@@ -6393,6 +6595,23 @@
     ],
     "saas": true,
     "website": "https://tutorlms.com"
+  },
+  "TutorCruncher": {
+    "cats": [
+      21
+    ],
+    "description": "TutorCruncher is a tutoring management software.",
+    "icon": "TutorCruncher.svg",
+    "pricing": [
+      "mid",
+      "recurring",
+      "payg"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "cdn\\.tutorcruncher\\.com/"
+    ],
+    "website": "https://tutorcruncher.com"
   },
   "TVSquared": {
     "cats": [
@@ -6989,6 +7208,27 @@
       "(?:typeahead|bloodhound)\\.(?:jquery|bundle)?(?:\\.min)?\\.js"
     ],
     "website": "https://twitter.github.io/typeahead.js"
+  },
+  "Twsaa": {
+    "cats": [
+      6
+    ],
+    "cookies": {
+      "twsaa_session": ""
+    },
+    "description": "Twsaa is a commerce platform designed to support business transactions and customer interactions within the Saudi Arabian market.",
+    "icon": "Twsaa.svg",
+    "js": {
+      "twsaa.app": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "onetime"
+    ],
+    "saas": true,
+    "website": "https://twsaa.com"
   },
   "Twyne": {
     "cats": [
