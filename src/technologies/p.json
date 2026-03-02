@@ -6894,7 +6894,9 @@
       "generator": "PrestaShop"
     },
     "oss": true,
-    "scriptSrc": "/modules/ps_[a-z]+/",
+    "scriptSrc": [
+      "/modules/ps_[a-z]+/"
+    ],
     "scripts": [
       "PrestaShop-"
     ],
