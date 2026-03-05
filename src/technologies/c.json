@@ -8880,7 +8880,9 @@
       "cosmoshop_functions\\.js",
       "/cosmoshop/"
     ],
-    "url": "/cosmoshop/",
+    "url": [
+      "/cosmoshop/"
+    ],
     "website": "https://cosmoshop.de"
   },
   "Cotonti": {
