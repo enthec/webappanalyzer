@@ -5152,7 +5152,9 @@
     "meta": {
       "author": "Wx3"
     },
-    "html": "<a [^>]*href=\"https://wx3\\.com\\.br\"",
+    "html": [
+      "<a [^>]*href=\"https://wx3\\.com\\.br\""
+    ],
     "website": "https://wx3.com.br"
   },
   "Wyng": {
