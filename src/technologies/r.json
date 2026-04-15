@@ -1,5 +1,5 @@
 "Rofofk": {
-  "cats": [1],
+  "cats": [1, 6],
   "description": "Rofofk is an Arabic multi-tenant e-commerce SaaS platform.",
   "headers": {
     "X-Powered-By": "Rofofk"
