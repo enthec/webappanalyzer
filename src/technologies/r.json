@@ -4845,7 +4845,6 @@
       "app\\.roasfunnels\\.com"
     ],
     "website": "https://roasfunnels.com"
-  },
   "Robarov": {
     "cats": [
       32
@@ -4857,6 +4856,21 @@
     },
     "saas": true,
     "website": "https://robarov.be"
+  },
+  "Rofofk": {
+    "cats": [1, 6],
+    "description": "Rofofk is an Arabic multi-tenant e-commerce SaaS platform.",
+    "headers": {
+      "X-Powered-By": "Rofofk"
+    },
+    "meta": {
+      "generator": "Rofofk"
+    },
+    "js": {
+      "Rofofk": ""
+    },
+    "website": "https://rofofk.com",
+    "icon": "Rofofk.svg"
   },
   "Robin": {
     "cats": [
