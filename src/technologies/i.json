@@ -925,6 +925,16 @@
     ],
     "website": "https://www.immerss.live"
   },
+  "Immovare CMS": {
+  "cats": [1],
+  "description": "CMS/CRM/PMS platform (Flextrix-PMS) developed by Vito Telegrafo",
+  "headers": {
+    "X-Powered-By": "^Flextrix-PMS",
+    "X-CMS": "^Immovare-Platform"
+  },
+  "icon": "ImovareCMS.png",
+  "website": "https://immovare.it"
+ },
   "Immutable.js": {
     "cats": [
       59
