@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1196" width="1200" height="1196" role="img" aria-label="KaliCart icon">
+  <rect width="1200" height="1196" rx="50" ry="50" fill="#0070F3"/>
+  
+  <rect x="280" y="184" width="212" height="824" fill="#FFFFFF"/>
+  <path d="M677 184H900V411L720 504Z" fill="#FFFFFF"/>
+  <path d="M575 691L780 568L1018 1008H790Z" fill="#FFFFFF"/>
+  <path d="M900 411L780 568L575 691L720 504Z" fill="#BFDBFC"/>
+</svg>
