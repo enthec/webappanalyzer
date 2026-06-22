@@ -5896,6 +5896,24 @@
     ],
     "website": "https://www.anthology.com/products/lifecycle-engagement/alumni-and-advancement/anthology-encompass"
   },
+  "Anthropic": {
+    "cats": [
+      47
+    ],
+    "description": "Anthropic is an AI safety company that develops Claude, a family of large language models, and provides an API for building AI-powered applications. The anthropic-domain-verification TXT record confirms domain ownership for Anthropic services.",
+    "dns": {
+      "TXT": [
+        "anthropic-domain-verification"
+      ]
+    },
+    "icon": "Anthropic.svg",
+    "pricing": [
+      "payg",
+      "freemium"
+    ],
+    "saas": true,
+    "website": "https://www.anthropic.com"
+  },
   "AntiBot.Cloud": {
     "cats": [
       16
