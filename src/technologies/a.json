@@ -5898,7 +5898,7 @@
   },
   "Anthropic": {
     "cats": [
-      47
+      112
     ],
     "description": "Anthropic is an AI safety company that develops Claude, a family of large language models, and provides an API for building AI-powered applications. The anthropic-domain-verification TXT record confirms domain ownership for Anthropic services.",
     "dns": {
