@@ -10286,6 +10286,24 @@
     "saas": true,
     "website": "https://www.curaytor.com"
   },
+  "Cursor": {
+    "cats": [
+      112
+    ],
+    "description": "Cursor is an AI-powered code editor (IDE) that uses large language models to generate, edit, and explain code. The cursor-domain-verification TXT record confirms domain ownership for Cursor services.",
+    "dns": {
+      "TXT": [
+        "cursor-domain-verification"
+      ]
+    },
+    "icon": "Cursor.svg",
+    "pricing": [
+      "payg",
+      "freemium"
+    ],
+    "saas": true,
+    "website": "https://www.cursor.com"
+  },
   "Custobar": {
     "cats": [
       97

@@ -3949,12 +3949,18 @@
   },
   "Lovable": {
     "cats": [
-      51
+      51,
+      112
     ],
     "cookies": {
       "lovable-preview-mode": ""
     },
     "description": "Lovable is an AI-powered collaborative page builder for generating UI components, projects, and templates in real time.",
+    "dns": {
+      "TXT": [
+        "lovable_verification="
+      ]
+    },
     "dom": {
       "link[href*='/lovable-uploads/']": {
         "exists": ""
