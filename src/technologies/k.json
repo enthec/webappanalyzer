@@ -189,6 +189,27 @@
     ],
     "website": "https://developers.kakao.com/product"
   },
+  "KaliCart Bridge": {
+    "cats": [
+      6
+    ],
+    "description": "KaliCart Bridge is a WooCommerce plugin that exposes a structured REST API and MCP server, making the store catalog readable by AI agents and MCP clients.",
+    "html": [
+      "<link[^>]+rel=[\"']kalicart-agent[\"'][^>]*>",
+      "wp-json\\/kalicart\\/v1\\/discovery"
+    ],
+    "implies": [
+      "WooCommerce"
+    ],
+    "pricing": [
+      "freemium"
+    ],
+    "saas": false,
+    "url": [
+      "\\.well-known\\/kalicart-bridge\\.json"
+    ],
+    "website": "https://bridge.kalicart.com"
+  },
   "Kalio": {
     "cats": [
       6
