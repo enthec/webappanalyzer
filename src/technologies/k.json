@@ -220,6 +220,20 @@
     ],
     "website": "https://kalixhealth.com"
   },
+  "KaliCart Bridge": {
+    "cats": [
+      6
+    ],
+    "description": "KaliCart Bridge is a WooCommerce plugin that exposes a structured REST API and MCP server, making the store catalog readable by AI agents and MCP clients.",
+    "implies": ["WooCommerce"],
+    "icon": "KaliCart.svg",
+    "pricing": [
+      "freemium"
+    ],
+    "saas": false,
+    "url": "\\.well-known/kalicart-bridge\\.json",
+    "website": "https://bridge.kalicart.com"
+  },
   "Kaltura": {
     "cats": [
       14,
