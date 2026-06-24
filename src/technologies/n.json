@@ -2386,6 +2386,11 @@
     ],
     "cpe": "cpe:2.3:a:notion:notion:*:*:*:*:*:*:*:*",
     "description": "Notion is a collaboration platform with modified Markdown support that integrates kanban boards, tasks, wikis, and database.",
+    "dns": {
+      "TXT": [
+        "notion-domain-verification="
+      ]
+    },
     "dom": [
       "html.notion-html"
     ],
