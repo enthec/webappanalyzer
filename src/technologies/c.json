@@ -1351,6 +1351,25 @@
     ],
     "website": "https://www.cartkit.com"
   },
+  "Cartline": {
+    "cats": [
+      6
+    ],
+    "description": "Cartline is a Pakistani ecommerce and WhatsApp-commerce platform for creating online stores with cart, checkout and order management. Part of the One Line commerce suite.",
+    "headers": {
+      "x-cartline-platform": "cartline\\.pk"
+    },
+    "icon": "Cartline.svg",
+    "js": {
+      "Cartline.platform": "^Cartline$"
+    },
+    "meta": {
+      "application-name": "^Cartline$",
+      "generator": "^Cartline$"
+    },
+    "saas": true,
+    "website": "https://cartline.pk"
+  },
   "CARTO Analytics": {
     "cats": [
       35
