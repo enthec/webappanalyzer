@@ -1662,11 +1662,19 @@
     "cats": [
       1
     ],
+    "cookies": {
+      "GUEST_LANGUAGE_ID": "",
+      "COOKIE_SUPPORT": "\\;confidence:50"
+    },
     "cpe": "cpe:2.3:a:liferay:liferay_portal:*:*:*:*:*:*:*:*",
     "description": "Liferay is an open-source company that provides free documentation and paid professional service to users of its software.",
     "headers": {
       "Liferay-Portal": "[a-z\\s]+([\\d.]+)\\;version:\\1"
     },
+    "html": [
+      "Liferay\\.(?:Util|Language|ThemeDisplay|AUI)",
+      "id=\"_com_liferay_"
+    ],
     "icon": "Liferay.svg",
     "implies": [
       "Java"
