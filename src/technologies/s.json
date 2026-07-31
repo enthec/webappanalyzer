@@ -8463,6 +8463,33 @@
     ],
     "website": "https://smarterclick.com"
   },
+  "SmartFront": {
+    "cats": [
+      108,
+      6
+    ],
+    "description": "SmartFront is a multi-tenant headless storefront and admin platform that runs on top of an existing commerce backend such as Magento, Shopify, WooCommerce, Shopware, BigCommerce, PrestaShop, OpenCart, Sylius or Medusa, or on its own native commerce.",
+    "dom": [
+      "[data-sf-shell-page-head]",
+      "style#sf-theme-vars",
+      "div#sf-tenant-css"
+    ],
+    "icon": "SmartFront.svg",
+    "implies": [
+      "Next.js"
+    ],
+    "meta": {
+      "generator": "^SmartFront(?: ([\\d.]+))?$\\;version:\\1"
+    },
+    "pricing": [
+      "mid",
+      "freemium",
+      "recurring",
+      "onetime"
+    ],
+    "saas": true,
+    "website": "https://smartfront.io"
+  },
   "SmartHint": {
     "cats": [
       76
