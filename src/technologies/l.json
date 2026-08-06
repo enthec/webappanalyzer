@@ -3409,6 +3409,21 @@
     ],
     "website": "https://www.logaholic.com"
   },
+  "LogaTech": {
+    "cats": [
+      1,
+      51
+    ],
+    "description": "LogaTech is the developer of LogaCore, a modular Next.js-based platform used to build and manage multi-tenant CMS, CRM and e-commerce websites.",
+    "headers": {
+      "X-Powered-By": "^LogaTech \\(LogaCore\\)$"
+    },
+    "icon": "LogaTech.svg",
+    "meta": {
+      "generator": "^LogaTech \\(LogaCore\\)$"
+    },
+    "website": "https://logatech.net"
+  },
   "Loggly": {
     "cats": [
       10
