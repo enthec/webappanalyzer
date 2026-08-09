@@ -3414,13 +3414,13 @@
       1,
       51
     ],
-    "description": "LogaTech is the developer of LogaCore, a modular Next.js-based platform used to build and manage multi-tenant CMS, CRM and e-commerce websites.",
+    "description": "LogaTech is a web development company offering a platform used to build and manage multi-tenant CMS, CRM and e-commerce websites.",
     "headers": {
-      "X-Powered-By": "^LogaTech \\(LogaCore\\)$"
+      "X-Powered-By": "^LogaTech$"
     },
-    "icon": "LogaTech.svg",
+    "icon": "LogaTech.png",
     "meta": {
-      "generator": "^LogaTech \\(LogaCore\\)$"
+      "generator": "^LogaTech$"
     },
     "website": "https://logatech.net"
   },
