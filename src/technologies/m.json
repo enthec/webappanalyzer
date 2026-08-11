@@ -3859,6 +3859,9 @@
     "dns": {
       "MX": [
         "outlook\\.com"
+      ],
+      "TXT": [
+        "^MS=(?:ms[\\w-]+|[0-9A-Fa-f]{40})$"
       ]
     },
     "icon": "Microsoft 365.svg",

@@ -652,6 +652,11 @@
       51
     ],
     "description": "Canva is an online graphic design platform that allows users to create various visual content using pre-designed templates and a library of elements.",
+    "dns": {
+      "TXT": [
+        "canva-site-verification="
+      ]
+    },
     "icon": "Canva.svg",
     "js": {
       "canva_debounceResize": "",
