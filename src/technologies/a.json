@@ -1851,6 +1851,20 @@
     ],
     "website": "https://adnymics.com"
   },
+  "Adobe": {
+    "cats": [
+      19
+    ],
+    "description": "Adobe enterprise domain claim, used by the Adobe Admin Console to verify ownership of a domain for Adobe identity management.",
+    "dns": {
+      "TXT": [
+        "adobe-idp-site-verification="
+      ]
+    },
+    "icon": "Adobe.svg",
+    "saas": true,
+    "website": "https://www.adobe.com"
+  },
   "Adobe Analytics": {
     "cats": [
       10
