@@ -9002,6 +9002,20 @@
     ],
     "website": "https://autoconf.com.br"
   },
+  "Autodesk": {
+    "cats": [
+      19
+    ],
+    "description": "Autodesk provides design, engineering and construction software.",
+    "dns": {
+      "TXT": [
+        "autodesk-domain-verification="
+      ]
+    },
+    "icon": "Autodesk.svg",
+    "saas": true,
+    "website": "https://www.autodesk.com"
+  },
   "Autoketing": {
     "cats": [
       32

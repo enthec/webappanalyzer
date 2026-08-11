@@ -8596,6 +8596,20 @@
     ],
     "website": "https://www.smartrecruiters.com"
   },
+  "Smartsheet": {
+    "cats": [
+      19
+    ],
+    "description": "Smartsheet is a work management and collaborative spreadsheet platform.",
+    "dns": {
+      "TXT": [
+        "smartsheet-site-validation="
+      ]
+    },
+    "icon": "Smartsheet.png",
+    "saas": true,
+    "website": "https://www.smartsheet.com"
+  },
   "SmartSite": {
     "cats": [
       1
