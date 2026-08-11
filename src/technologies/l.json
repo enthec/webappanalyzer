@@ -3423,6 +3423,21 @@
     ],
     "website": "https://www.logaholic.com"
   },
+  "LogaTech": {
+    "cats": [
+      1,
+      51
+    ],
+    "description": "LogaTech is a web development company offering a platform used to build and manage multi-tenant CMS, CRM and e-commerce websites.",
+    "headers": {
+      "X-Powered-By": "^LogaTech$"
+    },
+    "icon": "LogaTech.png",
+    "meta": {
+      "generator": "^LogaTech$"
+    },
+    "website": "https://logatech.net"
+  },
   "Loggly": {
     "cats": [
       10
