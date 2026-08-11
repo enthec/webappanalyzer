@@ -3381,6 +3381,20 @@
     ],
     "website": "https://messagemedia.com"
   },
+  "Meta": {
+    "cats": [
+      19
+    ],
+    "description": "Meta domain verification, used by Meta Business to prove ownership of a domain for Facebook and Instagram business assets.",
+    "dns": {
+      "TXT": [
+        "facebook-domain-verification="
+      ]
+    },
+    "icon": "Meta.svg",
+    "saas": true,
+    "website": "https://about.meta.com"
+  },
   "MetaMap": {
     "cats": [
       69
