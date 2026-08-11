@@ -6162,6 +6162,20 @@
     ],
     "website": "https://postie.com"
   },
+  "Postman": {
+    "cats": [
+      47
+    ],
+    "description": "Postman is an API development and testing platform.",
+    "dns": {
+      "TXT": [
+        "postman-domain-verification="
+      ]
+    },
+    "icon": "PostmanAPIDocumentation.svg",
+    "saas": true,
+    "website": "https://www.postman.com"
+  },
   "Postman API Documentation": {
     "cats": [
       4
