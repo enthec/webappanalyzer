@@ -466,6 +466,20 @@
     "saas": true,
     "website": "https://www.jetboost.io"
   },
+  "JetBrains": {
+    "cats": [
+      47
+    ],
+    "description": "JetBrains develops IDEs and developer tools including IntelliJ IDEA and TeamCity.",
+    "dns": {
+      "TXT": [
+        "jetbrains-domain-verification="
+      ]
+    },
+    "icon": "JetBrains.png",
+    "saas": true,
+    "website": "https://www.jetbrains.com"
+  },
   "JetEngine": {
     "cats": [
       87

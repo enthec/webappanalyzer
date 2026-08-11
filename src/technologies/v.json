@@ -2559,6 +2559,20 @@
     "oss": true,
     "website": "https://vkcom.github.io/VKUI"
   },
+  "VMware CloudHealth": {
+    "cats": [
+      19
+    ],
+    "description": "CloudHealth by VMware is a multi-cloud cost management and governance platform.",
+    "dns": {
+      "TXT": [
+        "^cloudhealth="
+      ]
+    },
+    "icon": "VMware.png",
+    "saas": true,
+    "website": "https://www.vmware.com"
+  },
   "Vnda": {
     "cats": [
       6

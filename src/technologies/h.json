@@ -33,6 +33,20 @@
     ],
     "website": "https://github.com/lrsjng/h5ai"
   },
+  "HackerOne": {
+    "cats": [
+      16
+    ],
+    "description": "HackerOne is a vulnerability disclosure and bug bounty platform.",
+    "dns": {
+      "TXT": [
+        "h1-domain-verification="
+      ]
+    },
+    "icon": "HackerOne.svg",
+    "saas": true,
+    "website": "https://www.hackerone.com"
+  },
   "Haddock": {
     "cats": [
       4
