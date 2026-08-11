@@ -2250,6 +2250,11 @@
       58
     ],
     "description": "Pendo is a product analytics platform used in release to enrich the product experience and provide insights to the product management team.",
+    "dns": {
+      "TXT": [
+        "pendo-domain-verification="
+      ]
+    },
     "icon": "Pendo.svg",
     "js": {
       "pendo.HOST": "\\.pendo\\.io",

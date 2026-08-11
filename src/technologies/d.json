@@ -2751,6 +2751,11 @@
     "html": [
       "<!-- This comment is expected by the docker HEALTHCHECK  -->"
     ],
+    "dns": {
+      "TXT": [
+        "docker-verification="
+      ]
+    },
     "icon": "Docker.svg",
     "website": "https://www.docker.com/"
   },
@@ -3846,6 +3851,11 @@
       52
     ],
     "description": "Drift is a conversational marketing platform.",
+    "dns": {
+      "TXT": [
+        "drift-domain-verification="
+      ]
+    },
     "icon": "Drift.svg",
     "js": {
       "drift": "",

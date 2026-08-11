@@ -2144,6 +2144,11 @@
       53
     ],
     "description": "Linear is a platform for collecting payments and managing business operations, offering sales and marketing tools for real estate agents, extending beyond a traditional brokerage system.",
+    "dns": {
+      "TXT": [
+        "linear-domain-verification="
+      ]
+    },
     "icon": "Linear.svg",
     "js": {
       "linearFrontend": ""
@@ -3742,7 +3747,8 @@
     ],
     "dns": {
       "TXT": [
-        "loom-verification"
+        "loom-verification",
+        "loom-site-verification="
       ]
     },
     "icon": "Loom.svg",

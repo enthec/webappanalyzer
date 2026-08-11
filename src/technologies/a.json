@@ -3350,6 +3350,11 @@
     "dom": [
       "iframe[scr*='//airtable.com/'], a[href*='//airtable.com/'][target='_blank']"
     ],
+    "dns": {
+      "TXT": [
+        "airtable-verification="
+      ]
+    },
     "icon": "Airtable.svg",
     "pricing": [
       "freemium",
@@ -8429,7 +8434,8 @@
     "description": "Atlassian Cloud is the hosted platform behind Atlassian products such as Jira, Confluence and Bitbucket.",
     "dns": {
       "TXT": [
-        "atlassian-domain-verification="
+        "atlassian-domain-verification=",
+        "atlassian-sending-domain-verification="
       ]
     },
     "icon": "Atlassian.svg",
