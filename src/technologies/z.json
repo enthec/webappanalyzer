@@ -1540,7 +1540,8 @@
     "description": "Zoom is a video conferencing and collaboration platform.",
     "dns": {
       "TXT": [
-        "^ZOOM_verify_"
+        "^ZOOM_verify_",
+        "zoom-domain-verification="
       ]
     },
     "icon": "Zoom.png",
