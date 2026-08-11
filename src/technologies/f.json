@@ -2288,6 +2288,20 @@
     },
     "website": "https://www.flexcmp.com/cms/home"
   },
+  "Flexera": {
+    "cats": [
+      19
+    ],
+    "description": "Flexera provides IT asset management and software spend optimisation.",
+    "dns": {
+      "TXT": [
+        "flexera-domain-verification-"
+      ]
+    },
+    "icon": "Flexera.png",
+    "saas": true,
+    "website": "https://www.flexera.com"
+  },
   "FlexiFunnels": {
     "cats": [
       51

@@ -3561,6 +3561,21 @@
     "saas": true,
     "website": "https://circle.so"
   },
+  "Cisco": {
+    "cats": [
+      37
+    ],
+    "description": "Cisco networking, collaboration and security services domain verification.",
+    "dns": {
+      "TXT": [
+        "cisco-ci-domain-verification=",
+        "ciscocidomainverification="
+      ]
+    },
+    "icon": "Cisco.svg",
+    "saas": true,
+    "website": "https://www.cisco.com"
+  },
   "Citizen Space": {
     "cats": [
       1

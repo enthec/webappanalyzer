@@ -1664,6 +1664,20 @@
     "saas": true,
     "website": "https://www.open-xchange.com/"
   },
+  "OpenAI": {
+    "cats": [
+      112
+    ],
+    "description": "OpenAI provides the GPT family of models and the ChatGPT product line.",
+    "dns": {
+      "TXT": [
+        "openai-domain-verification="
+      ]
+    },
+    "icon": "OpenAI.svg",
+    "saas": true,
+    "website": "https://openai.com"
+  },
   "OpenBSD httpd": {
     "cats": [
       22

@@ -490,6 +490,20 @@
     ],
     "website": "https://www.palbin.com"
   },
+  "Palo Alto Networks": {
+    "cats": [
+      16
+    ],
+    "description": "Palo Alto Networks is a network and cloud security vendor.",
+    "dns": {
+      "TXT": [
+        "paloaltonetworks-site-verification="
+      ]
+    },
+    "icon": "Palo Alto Networks.svg",
+    "saas": true,
+    "website": "https://www.paloaltonetworks.com"
+  },
   "Palo Alto Networks - GlobalProtect": {
     "cats": [
       46
