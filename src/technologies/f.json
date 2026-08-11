@@ -1337,6 +1337,20 @@
     "saas": true,
     "website": "https://www.fieldstack.com/platform/omnichannel-ecommerce-software"
   },
+  "Figma": {
+    "cats": [
+      19
+    ],
+    "description": "Figma is a collaborative interface design and prototyping platform.",
+    "dns": {
+      "TXT": [
+        "figma-domain-verification="
+      ]
+    },
+    "icon": "Figma.png",
+    "saas": true,
+    "website": "https://www.figma.com"
+  },
   "Filamentphp": {
     "cats": [
       47

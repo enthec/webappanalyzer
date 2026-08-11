@@ -7954,6 +7954,20 @@
     ],
     "website": "https://get.slaask.com"
   },
+  "Slack": {
+    "cats": [
+      19
+    ],
+    "description": "Slack is a team messaging and collaboration platform.",
+    "dns": {
+      "TXT": [
+        "slack-domain-verification="
+      ]
+    },
+    "icon": "Slack.svg",
+    "saas": true,
+    "website": "https://slack.com"
+  },
   "Slapform": {
     "cats": [
       110

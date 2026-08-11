@@ -1533,6 +1533,20 @@
     ],
     "website": "https://www.zoodpay.com"
   },
+  "Zoom": {
+    "cats": [
+      19
+    ],
+    "description": "Zoom is a video conferencing and collaboration platform.",
+    "dns": {
+      "TXT": [
+        "^ZOOM_verify_"
+      ]
+    },
+    "icon": "Zoom.png",
+    "saas": true,
+    "website": "https://www.zoom.com"
+  },
   "Zoominfo": {
     "cats": [
       10
