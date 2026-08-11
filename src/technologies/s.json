@@ -425,7 +425,8 @@
     "description": "Salesforce is a cloud computing service software (SaaS) that specializes in customer relationship management (CRM).",
     "dns": {
       "TXT": [
-        "salesforce\\.com"
+        "salesforce\\.com",
+        "^00D[A-Za-z0-9]{12}="
       ]
     },
     "html": [
