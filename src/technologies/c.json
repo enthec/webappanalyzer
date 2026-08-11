@@ -5251,6 +5251,9 @@
       ],
       "SOA": [
         "\\.cloudflare\\.com"
+      ],
+      "TXT": [
+        "cloudflare_dashboard_sso="
       ]
     },
     "dom": [

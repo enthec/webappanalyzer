@@ -4499,6 +4499,11 @@
       "dtCookie1": ""
     },
     "description": "Dynatrace is a technology company that produces a software intelligence platform based on artificial intelligence to monitor and optimise application performance and development, IT infrastructure, and user experience for businesses and government agencies throughout the world.",
+    "dns": {
+      "TXT": [
+        "Dynatrace-site-verification="
+      ]
+    },
     "icon": "Dynatrace.svg",
     "js": {
       "dtrum": ""

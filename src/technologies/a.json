@@ -4865,7 +4865,8 @@
     "description": "Amazon Simple Email Service (SES) is an email service that enables developers to send mail from within any application.",
     "dns": {
       "TXT": [
-        "amazonses\\.com"
+        "amazonses\\.com",
+        "^amazonses:"
       ]
     },
     "icon": "Amazon SES.svg",
