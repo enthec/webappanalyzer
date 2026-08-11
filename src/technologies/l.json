@@ -2911,6 +2911,20 @@
     ],
     "website": "https://www.liveperson.com"
   },
+  "LiveRamp": {
+    "cats": [
+      97
+    ],
+    "description": "LiveRamp is an identity resolution and data collaboration platform.",
+    "dns": {
+      "TXT": [
+        "liveramp-site-verification="
+      ]
+    },
+    "icon": "LiveRamp.svg",
+    "saas": true,
+    "website": "https://liveramp.com"
+  },
   "LiveRamp DPM": {
     "cats": [
       36

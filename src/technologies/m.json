@@ -5965,6 +5965,20 @@
     "icon": "MongoDB.svg",
     "website": "https://www.mongodb.org"
   },
+  "MongoDB Atlas": {
+    "cats": [
+      34
+    ],
+    "description": "MongoDB Atlas is MongoDB's managed multi-cloud database service.",
+    "dns": {
+      "TXT": [
+        "mongodb-site-verification="
+      ]
+    },
+    "icon": "MongoDB.svg",
+    "saas": true,
+    "website": "https://www.mongodb.com/atlas"
+  },
   "Mongrel": {
     "cats": [
       22

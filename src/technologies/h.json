@@ -463,6 +463,20 @@
     ],
     "website": "https://www.goharness.com/nonprofits"
   },
+  "HashiCorp Cloud Platform": {
+    "cats": [
+      62
+    ],
+    "description": "HashiCorp Cloud Platform is the managed service offering for HashiCorp products such as Terraform, Vault, Consul and Boundary.",
+    "dns": {
+      "TXT": [
+        "hcp-domain-verification="
+      ]
+    },
+    "icon": "HashiCorp.svg",
+    "saas": true,
+    "website": "https://www.hashicorp.com/cloud"
+  },
   "Hashnode": {
     "cats": [
       11
