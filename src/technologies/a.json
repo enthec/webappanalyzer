@@ -8422,6 +8422,20 @@
     ],
     "website": "https://www.atlassian.com/software/bitbucket/overview/"
   },
+  "Atlassian Cloud": {
+    "cats": [
+      47
+    ],
+    "description": "Atlassian Cloud is the hosted platform behind Atlassian products such as Jira, Confluence and Bitbucket.",
+    "dns": {
+      "TXT": [
+        "atlassian-domain-verification="
+      ]
+    },
+    "icon": "Atlassian.svg",
+    "saas": true,
+    "website": "https://www.atlassian.com"
+  },
   "Atlassian Confluence": {
     "cats": [
       8

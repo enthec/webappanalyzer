@@ -7053,6 +7053,20 @@
     "icon": "Twilight CMS.png",
     "website": "https://www.twilightcms.com"
   },
+  "Twilio": {
+    "cats": [
+      47
+    ],
+    "description": "Twilio is a cloud communications platform providing SMS, voice, email and messaging APIs.",
+    "dns": {
+      "TXT": [
+        "twilio-domain-verification="
+      ]
+    },
+    "icon": "Twilio.svg",
+    "saas": true,
+    "website": "https://www.twilio.com"
+  },
   "Twilio Authy": {
     "cats": [
       69
