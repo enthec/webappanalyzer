@@ -1485,6 +1485,11 @@
       45
     ],
     "description": "TeamViewer is a network and IT systems uptime monitoring service, formerly known as Monitis.",
+    "dns": {
+      "TXT": [
+        "teamviewer-sso-verification="
+      ]
+    },
     "icon": "TeamViewer.svg",
     "pricing": [
       "low",
