@@ -820,6 +820,20 @@
     ],
     "website": "https://github.com/pixelcog/parallax.js"
   },
+  "Parallels": {
+    "cats": [
+      46
+    ],
+    "description": "Parallels provides virtualization and remote application delivery software, including Parallels Desktop and Parallels RAS.",
+    "dns": {
+      "TXT": [
+        "parallels-domain-verification="
+      ]
+    },
+    "icon": "Parallels.png",
+    "saas": true,
+    "website": "https://www.parallels.com"
+  },
   "parcel": {
     "cats": [
       19

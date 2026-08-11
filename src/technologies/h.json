@@ -2682,6 +2682,20 @@
     "icon": "HP.svg",
     "website": "https://hp.com"
   },
+  "HPE GreenLake": {
+    "cats": [
+      63
+    ],
+    "description": "HPE GreenLake is Hewlett Packard Enterprise's hybrid cloud platform delivering infrastructure as a service.",
+    "dns": {
+      "TXT": [
+        "hpe-greenlake-domain-verification="
+      ]
+    },
+    "icon": "HPE GreenLake.svg",
+    "saas": true,
+    "website": "https://www.hpe.com/us/en/greenlake.html"
+  },
   "HrFlow.ai": {
     "cats": [
       101
