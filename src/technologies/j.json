@@ -149,6 +149,20 @@
     ],
     "website": "https://www.jameda.de"
   },
+  "Jamf": {
+    "cats": [
+      16
+    ],
+    "description": "Jamf is an Apple device management (MDM) and endpoint security platform.",
+    "dns": {
+      "TXT": [
+        "jamf-site-verification="
+      ]
+    },
+    "icon": "Jamf.svg",
+    "saas": true,
+    "website": "https://www.jamf.com"
+  },
   "JamFeed": {
     "cats": [
       1

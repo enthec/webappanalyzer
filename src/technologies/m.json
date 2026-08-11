@@ -4757,6 +4757,20 @@
     ],
     "website": "https://www.mirakl.com"
   },
+  "Miro": {
+    "cats": [
+      19
+    ],
+    "description": "Miro is a collaborative online whiteboard and visual workspace platform.",
+    "dns": {
+      "TXT": [
+        "miro-verification="
+      ]
+    },
+    "icon": "Miro.png",
+    "saas": true,
+    "website": "https://miro.com"
+  },
   "mirrAR": {
     "cats": [
       105
