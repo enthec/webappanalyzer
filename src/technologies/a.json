@@ -465,6 +465,9 @@
     ],
     "description": "AccessiWay is a solution focused on digital accessibility and compliance for organizations seeking to meet established standards.",
     "icon": "AccessiWay.svg",
+    "js": {
+      "accessWidget.config.footerHtml": ""
+    },
     "pricing": [
       "poa"
     ],
