@@ -5307,6 +5307,20 @@
     ],
     "website": "https://www.pocus.com"
   },
+  "Podbean": {
+    "cats": [
+      88
+    ],
+    "website": "https://podbean.com",
+    "description": "Podbean is a podcast hosting platform whose players and media are embedded on sites via podbean.com domains.",
+    "scriptSrc": [
+      "\\.podbean\\.com/"
+    ],
+    "dom": [
+      "iframe[src*='podbean.com']"
+    ],
+    "icon": "Podbean.png"
+  },
   "Podia": {
     "cats": [
       21,
