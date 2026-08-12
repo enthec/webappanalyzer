@@ -3539,6 +3539,26 @@
     ],
     "website": "https://metorik.com"
   },
+  "Metricool": {
+    "cats": [
+      10
+    ],
+    "description": "Metricool is a social media management and analytics platform; its website tracker loads be.js from tracker.metricool.com and exposes the beTracker global.",
+    "dom": [
+      "img[src*=\"tracker.metricool.com/\"]"
+    ],
+    "icon": "Metricool.png",
+    "js": {
+      "beTracker": ""
+    },
+    "scriptSrc": [
+      "tracker\\.metricool\\.com/"
+    ],
+    "website": "https://metricool.com",
+    "xhr": [
+      "tracker\\.metricool\\.com"
+    ]
+  },
   "Metrics Key": {
     "cats": [
       10
