@@ -8116,6 +8116,21 @@
     "saas": true,
     "website": "https://www.proprofs.com/quiz-school"
   },
+  "Proserve": {
+    "cats": [
+      88
+    ],
+    "description": "Proserve is a Dutch managed-hosting group; hosted sites use its nameserver brands dn-s.nl, appserved.nl and firstfind.nl.",
+    "dns": {
+      "NS": [
+        "dn-s\\.nl",
+        "appserved\\.nl",
+        "firstfind\\.n(?:l|et)"
+      ]
+    },
+    "icon": "Proserve.png",
+    "website": "https://proserve.nl"
+  },
   "ProSites": {
     "cats": [
       1
