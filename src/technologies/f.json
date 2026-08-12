@@ -4631,6 +4631,24 @@
     "saas": true,
     "website": "https://freewebstore.com"
   },
+  "FreeWheel": {
+    "cats": [
+      36
+    ],
+    "description": "FreeWheel (Comcast) is a video ad-serving and ad-management platform whose ad/user-sync calls are made to FreeWheel ad servers such as fwmrm.net.",
+    "dom": [
+      "img[src*=\"fwmrm.net\"]",
+      "iframe[src*=\"fwmrm.net\"]"
+    ],
+    "icon": "FreeWheel.png",
+    "scriptSrc": [
+      "fwmrm\\.net"
+    ],
+    "website": "https://www.freewheel.com",
+    "xhr": [
+      "fwmrm\\.net"
+    ]
+  },
   "Frequenceo": {
     "cats": [
       99
