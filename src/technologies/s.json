@@ -14090,6 +14090,17 @@
     ],
     "website": "https://suitecrm.com"
   },
+  "SuiteDash": {
+    "cats": [
+      53
+    ],
+    "description": "SuiteDash is an all-in-one business/CRM and client portal platform whose portals and embedded forms are hosted on app.suitedash.com.",
+    "icon": "SuiteDash.png",
+    "scriptSrc": [
+      "app\\.suitedash\\.com"
+    ],
+    "website": "https://suitedash.com"
+  },
   "Suiteshare": {
     "cats": [
       52
