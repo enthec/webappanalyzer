@@ -3029,6 +3029,22 @@
     ],
     "website": "https://cloud.google.com/cdn"
   },
+  "Google Cloud DNS": {
+    "cats": [
+      88
+    ],
+    "description": "Google Cloud DNS is Google's authoritative DNS service; domains using it are served by ns-cloud-*.googledomains.com nameservers.",
+    "dns": {
+      "NS": [
+        "ns-cloud-[a-z]\\d\\.googledomains\\.com"
+      ],
+      "SOA": [
+        "ns-cloud-[a-z]\\d\\.googledomains\\.com"
+      ]
+    },
+    "icon": "Google Cloud.svg",
+    "website": "https://cloud.google.com/dns"
+  },
   "Google Cloud Load Balancing": {
     "cats": [
       65
