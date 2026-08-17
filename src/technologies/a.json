@@ -1370,6 +1370,16 @@
     ],
     "website": "https://co.addi.com/"
   },
+  "Addingwell SST": {
+    "cats": [
+      42
+    ],
+    "html": [
+      "\\.js\\?aw='.*?\\+.*?dl;"
+    ],
+    "icon": "Addingwell SST.png",
+    "website": "https://www.addingwell.com"
+  },
   "Addsearch": {
     "cats": [
       29
