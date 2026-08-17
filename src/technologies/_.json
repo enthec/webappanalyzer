@@ -254,6 +254,7 @@
     "cats": [
       36
     ],
+    "icon": "4wmarketplace.png",
     "scripts": [
       "cdn\\.feed\\.4wnet\\.com"
     ],
