@@ -2475,6 +2475,25 @@
     ],
     "website": "https://www.advancedcustomfields.com"
   },
+  "Adventive": {
+    "cats": [
+      36
+    ],
+    "description": "Adventive is an ad-serving and rich-media advertising platform; its ad tags are served from ads.adventive.com.",
+    "dom": [
+      "script[src*=\"ads.adventive.com/\"]",
+      "img[src*=\"ads.adventive.com/\"]",
+      "iframe[src*=\"ads.adventive.com/\"]"
+    ],
+    "icon": "Adventive.png",
+    "scriptSrc": [
+      "ads\\.adventive\\.com/"
+    ],
+    "website": "https://adventive.com",
+    "xhr": [
+      "ads\\.adventive\\.com"
+    ]
+  },
   "Advert Stream": {
     "cats": [
       36
