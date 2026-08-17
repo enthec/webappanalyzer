@@ -3113,6 +3113,17 @@
     "saas": true,
     "website": "https://www.aidbase.ai"
   },
+  "AIDEM Technologies": {
+    "cats": [
+      36
+    ],
+    "icon": "AIDEM Technologies.png",
+    "scripts": [
+      "//zero\\.aidemsrv\\.com/dist/prebid\\.js",
+      "stream\\.aidemsrv\\.com/lib/stream\\.js"
+    ],
+    "website": "https://www.aidem.com/"
+  },
   "Aiden": {
     "cats": [
       108
