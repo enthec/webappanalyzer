@@ -4859,6 +4859,22 @@
       "payments\\.amazon\\.com"
     ]
   },
+  "Amazon Route 53": {
+    "cats": [
+      88
+    ],
+    "description": "Amazon Route 53 is AWS's authoritative DNS service; domains using it are served by awsdns nameservers.",
+    "dns": {
+      "NS": [
+        "\\.awsdns-\\d+\\."
+      ],
+      "SOA": [
+        "\\.awsdns-\\d+\\."
+      ]
+    },
+    "icon": "Amazon Web Services.svg",
+    "website": "https://aws.amazon.com/route53/"
+  },
   "Amazon S3": {
     "cats": [
       31
