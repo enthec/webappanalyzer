@@ -250,6 +250,15 @@
     ],
     "website": "https://4partners.io/en/4p-cms"
   },
+  "4w MarketPlace for Publishers": {
+    "cats": [
+      36
+    ],
+    "scripts": [
+      "cdn\\.feed\\.4wnet\\.com"
+    ],
+    "website": "http://www.4wmarketplace.com/"
+  },
   "51.LA": {
     "cats": [
       10
