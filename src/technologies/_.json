@@ -1,4 +1,16 @@
 {
+  "10to8": {
+    "cats": [
+      72
+    ],
+    "html": [
+      "<a [^>]*id=\"TTE[^\"]"
+    ],
+    "website": "https://10to8.com/",
+    "xhr": [
+      "10to8\\.com"
+    ]
+  },
   "11Sight": {
     "cats": [
       52,
