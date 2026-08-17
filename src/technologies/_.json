@@ -483,5 +483,14 @@
       "//unpkg\\.com/hyperscript\\.org@([\\d\\.]+)\\;version:\\1"
     ],
     "website": "https://hyperscript.org"
+  },
+  "|related| Natív Hirdetés Kft": {
+    "cats": [
+      36
+    ],
+    "scripts": [
+      "//related\\.hu"
+    ],
+    "website": "https://related.hu"
   }
 }
