@@ -6,6 +6,7 @@
     "html": [
       "<a [^>]*id=\"TTE[^\"]"
     ],
+    "icon": "10to8.png",
     "website": "https://10to8.com/",
     "xhr": [
       "10to8\\.com"
