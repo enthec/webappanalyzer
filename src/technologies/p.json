@@ -7262,6 +7262,24 @@
     ],
     "website": "https://www.printful.com/"
   },
+  "Printify": {
+    "cats": [
+      6
+    ],
+    "description": "Printify is a print-on-demand and dropshipping platform integrated into e-commerce stores that serves product assets from Printify domains.",
+    "dom": [
+      "img[src*=\"printify.com\"]",
+      "img[src*=\"images-api.printify.com\"]"
+    ],
+    "icon": "Printify.png",
+    "scriptSrc": [
+      "printify\\.com"
+    ],
+    "website": "https://printify.com",
+    "xhr": [
+      "printify\\.com"
+    ]
+  },
   "Printlane": {
     "cats": [
       76
