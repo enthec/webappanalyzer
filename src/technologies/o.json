@@ -669,6 +669,26 @@
     ],
     "website": "https://omacro.com"
   },
+  "Omago": {
+    "cats": [
+      52
+    ],
+    "description": "Omago is an AI customer-service assistant for business websites that answers visitor questions in the customer's own language, captures leads and hands conversations over to WhatsApp.",
+    "dom": [
+      "#omago-widget-container",
+      "#omago-widget-button"
+    ],
+    "icon": "Omago.svg",
+    "pricing": [
+      "freemium",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "app\\.omago\\.ai/widget\\.js"
+    ],
+    "website": "https://omago.ai"
+  },
   "Omeda": {
     "cats": [
       86,
