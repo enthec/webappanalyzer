@@ -5303,6 +5303,22 @@
     ],
     "website": "https://www.cloudflare.com"
   },
+  "Cloudflare DNS": {
+    "cats": [
+      88
+    ],
+    "description": "Cloudflare DNS is Cloudflare's authoritative DNS service; domains using it are served by *.ns.cloudflare.com nameservers.",
+    "dns": {
+      "NS": [
+        "\\.ns\\.cloudflare\\.com"
+      ],
+      "SOA": [
+        "\\.ns\\.cloudflare\\.com"
+      ]
+    },
+    "icon": "CloudFlare.svg",
+    "website": "https://www.cloudflare.com/application-services/products/dns/"
+  },
   "Cloudflare Rocket Loader": {
     "cats": [
       92
