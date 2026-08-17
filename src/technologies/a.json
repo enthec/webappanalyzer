@@ -4511,6 +4511,17 @@
     ],
     "website": "https://alternc.com"
   },
+  "Altervista Platform": {
+    "cats": [
+      11,
+      88
+    ],
+    "html": [
+      "<a href=\"http://www.altervista.org\">Altervista</a>"
+    ],
+    "icon": "Altervista Platform.png",
+    "website": "https://altervista.com"
+  },
   "Altis": {
     "cats": [
       1
