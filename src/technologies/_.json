@@ -488,6 +488,7 @@
     "cats": [
       36
     ],
+    "icon": "related.png",
     "scripts": [
       "//related\\.hu"
     ],
