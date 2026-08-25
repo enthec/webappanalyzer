@@ -1279,7 +1279,8 @@
     ],
     "saas": true,
     "scripts": [
-      "service\\.giosg\\.com"
+      "service\\.giosg\\.com",
+      "giosg\\.com"
     ],
     "website": "https://www.giosg.com"
   },
