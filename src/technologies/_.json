@@ -169,6 +169,16 @@
     ],
     "website": "https://www.34sp.com"
   },
+  "3Q": {
+    "cats": [
+      14
+    ],
+    "icon": "3Q.png",
+    "scripts": [
+      "3qsdn\\.com"
+    ],
+    "website": "https://3q.video"
+  },
   "4-Tell": {
     "cats": [
       76
