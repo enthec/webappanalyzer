@@ -1839,6 +1839,16 @@
     ],
     "website": "https://adnegah.net"
   },
+  "Adnuntius": {
+    "cats": [
+      36
+    ],
+    "icon": "Adnuntius.png",
+    "scripts": [
+      "cdn\\.adnuntius\\.com/adn\\.js"
+    ],
+    "website": "https://adnuntius.com"
+  },
   "Adnymics": {
     "cats": [
       76
