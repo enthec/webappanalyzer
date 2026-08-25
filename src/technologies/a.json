@@ -2545,6 +2545,16 @@
     ],
     "website": "https://www.advin.cz"
   },
+  "Advisible": {
+    "cats": [
+      36
+    ],
+    "icon": "Advisible.png",
+    "scripts": [
+      "//cdn\\.advisible\\.com"
+    ],
+    "website": "https://www.advisible.com"
+  },
   "Adwos CMS": {
     "cats": [
       1,
