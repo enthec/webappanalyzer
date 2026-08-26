@@ -4149,6 +4149,25 @@
     ],
     "website": "https://clearout.io"
   },
+  "Clearpay": {
+    "cats": [
+      41,
+      91
+    ],
+    "description": "Clearpay is the UK and EU brand of Afterpay, a buy-now-pay-later payment service that lets shoppers split purchases into interest-free instalments.",
+    "icon": "Clearpay.png",
+    "js": {
+      "Clearpay": "",
+      "clearpay_js_snippet_version": "",
+      "clearpay_shop_currency": "",
+      "clearpay_product": ""
+    },
+    "scriptSrc": [
+      "static\\.afterpay\\.com/shopify-clearpay-javascript\\.js",
+      "\\.clearpay\\.co\\.uk/"
+    ],
+    "website": "https://www.clearpay.co.uk"
+  },
   "ClearSale": {
     "cats": [
       10
