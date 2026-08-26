@@ -1061,6 +1061,22 @@
     },
     "website": "https://webedition.de/en"
   },
+  "Webempresa": {
+    "cats": [
+      88
+    ],
+    "description": "Webempresa is a Spanish web hosting provider specialised in WordPress, WooCommerce and Joomla hosting.",
+    "dns": {
+      "NS": [
+        "ns\\d+\\.webempresa\\.eu"
+      ],
+      "SOA": [
+        "ns\\d+\\.webempresa\\.eu"
+      ]
+    },
+    "icon": "Webempresa.png",
+    "website": "https://www.webempresa.com"
+  },
   "WebEngage": {
     "cats": [
       32,
@@ -3627,7 +3643,6 @@
     "scriptSrc": [
       "^(?!.*?/wp-content/plugins/[^/]+/js/integrations/woocommerce\\.js(?:\\?ver=[\\d.]+)?$).*woocommerce",
       "^(?!.*?/wp-content/plugins/[^/]+/js/integrations/woocommerce\\.js(?:\\?ver=[\\d.]+)?$).*/woocommerce(?:\\.min)?\\.js(?:\\?ver=([0-9.]+))?\\;version:\\1"
-
     ],
     "website": "https://woocommerce.com"
   },
