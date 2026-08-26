@@ -1,0 +1,20 @@
+{
+  "NutroHost": {
+    "description": "NutroHost Cloud Hosting Platform",
+    "cats": [11],
+    "headers": {
+      "X-Powered-By": "NutroHost 1.0"
+    },
+    "meta": {
+      "generator": "(?:NutroHost|7TFramework)"
+    },
+    "url": [
+      "nutro\\.cloud"
+    ],
+    "icon": "https://nutro.cloud/favicon.ico",
+    "website": "https://nutro.cloud",
+    "oss": false,
+    "saas": true,
+    "pricing": ["mid", "freemium"]
+  }
+}
