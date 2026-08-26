@@ -1654,6 +1654,37 @@
     ],
     "website": "https://www.scorpion.co/"
   },
+  "Scrapive": {
+    "cats": [
+      32,
+      90,
+      5
+    ],
+    "description": "Scrapive is an on-site and WhatsApp marketing platform that provides sales and conversion optimization solutions for ecommerce websites.",
+    "html": [
+      "scrapive\\.com/scrapive-[a-z-]+\\.iife\\.js"
+    ],
+    "icon": "Scrapive.png",
+    "js": {
+      "__SCRAPIVE_EMBED__": "",
+      "__SCRAPIVE_LOADED__": ""
+    },
+    "pricing": [
+      "poa",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "scrapive\\.com/scrapive-[a-z-]+\\.iife\\.js"
+    ],
+    "scripts": [
+      "window\\.__SCRAPIVE_LOADED__"
+    ],
+    "website": "https://scrapive.com",
+    "xhr": [
+      "tygo\\.scrapive\\.com"
+    ]
+  },
   "Screenfull.js": {
     "cats": [
       59
