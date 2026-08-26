@@ -3649,6 +3649,29 @@
     ],
     "website": "https://consumers.citruspay.com/"
   },
+  "cituro": {
+    "cats": [
+      72
+    ],
+    "description": "cituro is a German online appointment-scheduling tool whose booking widget can be embedded on customer websites.",
+    "dom": [
+      "iframe[src*='cituro.com']"
+    ],
+    "icon": "cituro.png",
+    "js": {
+      "cituroLoader": "",
+      "cituroOptions": "",
+      "cituroWidget": "",
+      "buildCituroOptions": ""
+    },
+    "scriptSrc": [
+      "app\\.cituro\\.com/"
+    ],
+    "website": "https://www.cituro.com",
+    "xhr": [
+      "(?:app|cdn)\\.cituro\\.com"
+    ]
+  },
   "City Hive": {
     "cats": [
       6
