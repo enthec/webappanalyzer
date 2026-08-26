@@ -2215,6 +2215,24 @@
     ],
     "website": "https://www.emailjs.com"
   },
+  "EmailOctopus": {
+    "cats": [
+      75
+    ],
+    "description": "EmailOctopus is an email marketing and newsletter service whose signup forms are embedded on customer websites.",
+    "icon": "EmailOctopus.png",
+    "js": {
+      "emailOctopus": "",
+      "emailoctopus": ""
+    },
+    "scriptSrc": [
+      "emailoctopus\\.com/bundles"
+    ],
+    "website": "https://emailoctopus.com",
+    "xhr": [
+      "emailoctopus\\.com"
+    ]
+  },
   "Emanda": {
     "cats": [
       32
