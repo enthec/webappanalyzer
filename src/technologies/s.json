@@ -6491,16 +6491,14 @@
       72
     ],
     "description": "SimplyBook.me is an online appointment scheduling and booking software.",
-    "dom": {
-      "a[href*='.simplybook.'][target='_blank']": {
-        "attributes": {
-          "href": "\\.simplybook\\.(?:asia|it|me)"
-        }
-      }
-    },
+    "dom": [
+      "a[href*='.simplybook.'][target='_blank']",
+      "iframe[src*='.simplybook.it']"
+    ],
     "icon": "SimplyBook.me.svg",
     "js": {
-      "configSoinSimplyPush": ""
+      "configSoinSimplyPush": "",
+      "SimplybookWidget": ""
     },
     "pricing": [
       "freemium",
@@ -6509,7 +6507,8 @@
     ],
     "saas": true,
     "scriptSrc": [
-      "\\.simplybook\\.(?:asia|it|me)"
+      "\\.simplybook\\.(?:asia|it|me)",
+      "widget\\.simplybook\\.it"
     ],
     "website": "https://simplybook.me"
   },
