@@ -14288,7 +14288,9 @@
       "cdn\\.supabase\\.com"
     ],
     "scripts": [
-      "\\.supabase\\.co/"
+      "\\.supabase\\.co/",
+      "cdn\\.jsdelivr.net/npm/@supabase",
+      "unpkg\\.com/@supabase"
     ],
     "website": "https://supabase.com"
   },
