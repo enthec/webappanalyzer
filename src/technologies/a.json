@@ -9012,6 +9012,10 @@
     "headers": {
       "Content-Security-Policy": "\\.authorize\\.net\\s"
     },
+    "html": [
+      "authorizenet\\\\?/directpost_payment",
+      "js\\.authorize\\.net"
+    ],
     "icon": "authorize.net.svg",
     "js": {
       "config.authorizenet_public_client_key": ""
