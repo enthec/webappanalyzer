@@ -1332,6 +1332,27 @@
     ],
     "website": "https://webim.ru"
   },
+  "WebinarGeek": {
+    "cats": [
+      103
+    ],
+    "description": "WebinarGeek is a Dutch webinar platform for hosting, embedding and marketing live and automated webinars.",
+    "dom": [
+      "iframe[src*='webinargeek.com'], script[src*='embed.webinargeek.com']"
+    ],
+    "icon": "WebinarGeek.svg",
+    "js": {
+      "GeekEmbedStart": "",
+      "GeekEmbedLoaded": ""
+    },
+    "scriptSrc": [
+      "embed\\.webinargeek\\.com"
+    ],
+    "website": "https://www.webinargeek.com",
+    "xhr": [
+      "\\.webinargeek\\.com"
+    ]
+  },
   "Webinaris": {
     "cats": [
       32
