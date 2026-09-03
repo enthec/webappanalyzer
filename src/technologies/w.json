@@ -3761,7 +3761,12 @@
     ],
     "description": "WooCommerce Subscriptions primarily allows you to create and sell subscription products from your WooCommerce shop.",
     "dom": [
-      "link[href*='/wp-content/plugins/woocommerce-subscriptions/']"
+      "link[href*='/wp-content/plugins/woocommerce-subscriptions/']",
+      "link[href*=\"/plugins/woocommerce-subscriptions/\"]",
+      "script[src*=\"/plugins/woocommerce-subscriptions/\"]"
+    ],
+    "html": [
+      "/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/build"
     ],
     "icon": "WooCommerce.svg",
     "implies": [
