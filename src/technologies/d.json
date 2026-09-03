@@ -238,6 +238,22 @@
     "saas": true,
     "website": "https://dandomain.dk"
   },
+  "DanDomain hosting": {
+    "cats": [
+      88
+    ],
+    "description": "DanDomain hosting is a Danish web hosting and domain registration service, part of the team.blue group.",
+    "dns": {
+      "NS": [
+        "\\.dandomain\\.dk"
+      ],
+      "SOA": [
+        "\\.dandomain\\.dk"
+      ]
+    },
+    "icon": "DanDomain hosting.png",
+    "website": "https://dandomain.dk"
+  },
   "DanDomain Webshop": {
     "cats": [
       6
