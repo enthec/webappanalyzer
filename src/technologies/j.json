@@ -797,6 +797,23 @@
     ],
     "website": "https://www.jobboardfire.com"
   },
+  "Job Boardly": {
+    "cats": [
+      101
+    ],
+    "cookies": {
+      "_job_boardly_session": ""
+    },
+    "description": "Job Boardly is a SaaS platform for creating and running hosted job boards without code.",
+    "icon": "Job Boardly.png",
+    "scriptSrc": [
+      "assets\\.jobboardly\\.com/"
+    ],
+    "website": "https://www.jobboardly.com",
+    "xhr": [
+      "(?:assets|cdn)\\.jobboardly\\.com"
+    ]
+  },
   "JobAdder": {
     "cats": [
       101
