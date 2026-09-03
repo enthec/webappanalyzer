@@ -5435,6 +5435,24 @@
     ],
     "website": "https://www.podpage.com"
   },
+  "Podscribe": {
+    "cats": [
+      36
+    ],
+    "description": "Podscribe is an IAB-certified podcast and audio ad measurement platform; podcast sites link to their transcripts on app.podscribe.ai and advertiser sites load its attribution tags from podscribe hosts.",
+    "dom": [
+      "a[href*=\"app.podscribe.ai/\"]",
+      "img[src*=\"podscribe.com/\"]"
+    ],
+    "icon": "Podscribe.png",
+    "scriptSrc": [
+      "podscribe\\.(?:ai|com)/"
+    ],
+    "website": "https://podscribe.com",
+    "xhr": [
+      "podscribe\\.(?:ai|com)"
+    ]
+  },
   "Podsights": {
     "cats": [
       36
