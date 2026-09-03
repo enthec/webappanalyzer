@@ -3627,7 +3627,6 @@
     "scriptSrc": [
       "^(?!.*?/wp-content/plugins/[^/]+/js/integrations/woocommerce\\.js(?:\\?ver=[\\d.]+)?$).*woocommerce",
       "^(?!.*?/wp-content/plugins/[^/]+/js/integrations/woocommerce\\.js(?:\\?ver=[\\d.]+)?$).*/woocommerce(?:\\.min)?\\.js(?:\\?ver=([0-9.]+))?\\;version:\\1"
-
     ],
     "website": "https://woocommerce.com"
   },
@@ -5255,5 +5254,27 @@
       "/jquery\\.wysibb\\.min\\.js"
     ],
     "website": "https://wysibb.com"
+  },
+  "Wysistat": {
+    "cats": [
+      10
+    ],
+    "cookies": {
+      "wysistat": ""
+    },
+    "description": "Wysistat is a French web analytics and audience measurement service.",
+    "icon": "Wysistat.png",
+    "js": {
+      "_wsq": "",
+      "_wysistat": "",
+      "wysistat": ""
+    },
+    "scriptSrc": [
+      "www\\.wysistat\\.(?:com|net)/"
+    ],
+    "website": "https://www.wysistat.net",
+    "xhr": [
+      "wysistat\\.(?:com|net)"
+    ]
   }
 }
