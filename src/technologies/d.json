@@ -238,6 +238,19 @@
     "saas": true,
     "website": "https://dandomain.dk"
   },
+  "DanDomain email": {
+    "cats": [
+      75
+    ],
+    "description": "DanDomain email is the email hosting service provided by DanDomain, including webmail and Microsoft 365 plans.",
+    "dns": {
+      "MX": [
+        "mx\\d*\\.dandomain\\.dk"
+      ]
+    },
+    "icon": "DanDomain email.png",
+    "website": "https://dandomain.dk/e-mail"
+  },
   "DanDomain hosting": {
     "cats": [
       88
