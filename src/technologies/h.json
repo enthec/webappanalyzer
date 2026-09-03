@@ -260,6 +260,24 @@
     ],
     "website": "https://www.hapana.com"
   },
+  "Happierleads": {
+    "cats": [
+      10
+    ],
+    "description": "Happierleads is a B2B visitor-identification and lead-generation platform that reveals the companies visiting a website.",
+    "icon": "Happierleads.png",
+    "js": {
+      "Happierleads": "",
+      "hlRunning": ""
+    },
+    "scriptSrc": [
+      "rest\\.happierleads\\.com"
+    ],
+    "website": "https://www.happierleads.com",
+    "xhr": [
+      "(?:rest|session-recordings)\\.happierleads\\.com"
+    ]
+  },
   "Happy Meal Prep": {
     "cats": [
       6,
