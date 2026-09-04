@@ -6563,6 +6563,19 @@
     ],
     "website": "https://turfjs.org/"
   },
+  "Turhost": {
+    "cats": [
+      88
+    ],
+    "description": "Turhost is a Turkish hosting provider; hosted domains use turhost.com nameservers.",
+    "dns": {
+      "NS": [
+        "\\.turhost\\.com"
+      ]
+    },
+    "icon": "Turhost.png",
+    "website": "https://www.turhost.com"
+  },
   "TuriTop": {
     "cats": [
       104
