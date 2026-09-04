@@ -2089,6 +2089,22 @@
     "saas": true,
     "website": "https://www.peel.fr"
   },
+  "Peer39": {
+    "cats": [
+      36
+    ],
+    "description": "Peer39 is a contextual page-quality and ad-intelligence service used pre-bid in programmatic advertising.",
+    "html": [
+      "tags\\.peer39\\.com"
+    ],
+    "scriptSrc": [
+      "\\.peer39\\.(?:com|net)/"
+    ],
+    "website": "https://www.peer39.com",
+    "xhr": [
+      "\\.peer39\\.(?:com|net)"
+    ]
+  },
   "PeerBoard": {
     "cats": [
       2
