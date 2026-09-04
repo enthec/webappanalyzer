@@ -3001,6 +3001,19 @@
     ],
     "website": "https://fly.io"
   },
+  "Flyads": {
+    "cats": [
+      36
+    ],
+    "cookies": {
+      "flyid": ""
+    },
+    "description": "Flyads is an ad network serving from fly.codes and displayfly.com hosts and setting the flyid cookie.",
+    "website": "https://displayfly.com",
+    "xhr": [
+      "(?:\\.fly\\.codes|\\.displayfly\\.com)"
+    ]
+  },
   "Flybook": {
     "cats": [
       93
