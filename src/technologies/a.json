@@ -1106,6 +1106,20 @@
     ],
     "website": "https://www.adlightning.com"
   },
+  "Ad-Shield": {
+    "cats": [
+      36
+    ],
+    "description": "Ad-Shield is an adblock-recovery layer; publisher pages load its loader from html-load.com and talk to content-loader.com.",
+    "icon": "Ad-Shield.png",
+    "scriptSrc": [
+      "(?:html-load\\.com|content-loader\\.com)/"
+    ],
+    "website": "https://www.ad-shield.io",
+    "xhr": [
+      "(?:html-load\\.com|content-loader\\.com|error-report\\.com)"
+    ]
+  },
   "Ada": {
     "cats": [
       52
