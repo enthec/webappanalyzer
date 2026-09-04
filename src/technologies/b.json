@@ -1182,6 +1182,27 @@
     "saas": true,
     "website": "https://behzi.com"
   },
+  "belboon": {
+    "cats": [
+      71
+    ],
+    "description": "belboon is a German affiliate marketing network that tracks conversions and traffic through its belboon container tags and ad-srv.net tracking infrastructure.",
+    "dom": [
+      "img[src*=\"ad-srv.net\"], a[href*=\"ad-srv.net\"]"
+    ],
+    "icon": "belboon.png",
+    "js": {
+      "belboonTag": ""
+    },
+    "scriptSrc": [
+      "containertags\\.belboon\\.(?:com|de)/",
+      "\\.ad-srv\\.net/"
+    ],
+    "website": "https://www.belboon.com",
+    "xhr": [
+      "\\.ad-srv\\.net|containertags\\.belboon\\."
+    ]
+  },
   "Belliza": {
     "cats": [
       81
