@@ -13572,6 +13572,26 @@
     "saas": true,
     "website": "https://www.streamoid.com"
   },
+  "streaMonkey": {
+    "cats": [
+      103
+    ],
+    "description": "streaMonkey is a German audio-streaming provider; sites embed its player from player.streamonkey.net and stream from frontend/edge streamonkey.net hosts.",
+    "html": [
+      "\\.streamonkey\\.net/"
+    ],
+    "icon": "streaMonkey.png",
+    "js": {
+      "StreamPlayer": ""
+    },
+    "scriptSrc": [
+      "player\\.streamonkey\\.net/"
+    ],
+    "website": "https://streamonkey.de",
+    "xhr": [
+      "\\.streamonkey\\.net"
+    ]
+  },
   "Streamroll": {
     "cats": [
       1
