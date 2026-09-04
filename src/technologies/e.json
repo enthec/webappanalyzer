@@ -2676,6 +2676,28 @@
     },
     "website": "https://enamad.ir/"
   },
+  "Encharge": {
+    "cats": [
+      32,
+      75
+    ],
+    "cookies": {
+      "encheventsnippet": ""
+    },
+    "description": "Encharge is a marketing automation platform that sends behavior-based emails and tracks website visitor activity.",
+    "icon": "Encharge.png",
+    "js": {
+      "EncTracking": "",
+      "EnchargeTracking": ""
+    },
+    "scriptSrc": [
+      "resources-app\\.encharge\\.io/(?:encharge-tracking|embed-production)"
+    ],
+    "website": "https://encharge.io",
+    "xhr": [
+      "\\.encharge\\.io"
+    ]
+  },
   "Endurance Page Cache": {
     "cats": [
       87,
