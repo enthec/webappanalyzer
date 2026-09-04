@@ -8513,6 +8513,18 @@
     "oss": true,
     "website": "https://pterodactyl.io"
   },
+  "PTisp": {
+    "cats": [
+      88
+    ],
+    "description": "PTisp is a Portuguese hosting provider; hosted domains use mydnspt.net nameservers.",
+    "dns": {
+      "NS": [
+        "\\.mydnspt\\.net"
+      ]
+    },
+    "website": "https://ptisp.pt"
+  },
   "PTminder": {
     "cats": [
       53
