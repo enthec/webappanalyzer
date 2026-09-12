@@ -1189,8 +1189,7 @@
     ],
     "url": [
       "/(?:cart|order|basket|trolley|bag|shoppingbag|checkout)"
-    ],
-    "website": "https://www.wappalyzer.com/technologies/ecommerce/cart-functionality"
+    ]
   },
   "Cart.com": {
     "cats": [
