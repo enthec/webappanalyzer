@@ -1189,7 +1189,8 @@
     ],
     "url": [
       "/(?:cart|order|basket|trolley|bag|shoppingbag|checkout)"
-    ]
+    ],
+    "website": "https://en.wikipedia.org/wiki/Shopping_cart_software"
   },
   "Cart.com": {
     "cats": [
