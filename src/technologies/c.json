@@ -5539,6 +5539,23 @@
     ],
     "website": "https://cloudinary.com"
   },
+  "ClouDNS": {
+    "cats": [
+      19
+    ],
+    "dns": {
+      "NS": [
+        "pns4\\.cloudns\\.net",
+        "ns2\\.cloudns\\.net",
+        "pns1\\.cloudns\\.net",
+        "dns2\\.cloudns\\.net",
+        "dns7\\.cloudns\\.net",
+        "pns64\\.cloudns\\.uk"
+      ]
+    },
+    "icon": "ClouDNS.png",
+    "website": "https://www.cloudns.net/"
+  },
   "Cloudrexx": {
     "cats": [
       1
