@@ -2270,6 +2270,20 @@
     ],
     "website": "https://www.the.com"
   },
+  "THEADX": {
+    "cats": [
+      36
+    ],
+    "description": "THEADX is a Turkish advertising network and ad exchange that serves ad tags and tracking pixels via theadx.com.",
+    "icon": "THEADX.png",
+    "scriptSrc": [
+      "app\\.theadx\\.com/"
+    ],
+    "website": "https://www.theadx.com",
+    "xhr": [
+      "\\.theadx\\.com"
+    ]
+  },
   "Theasys": {
     "cats": [
       7
