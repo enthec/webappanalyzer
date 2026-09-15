@@ -5433,7 +5433,6 @@
     "cats": [
       12
     ],
-    "cpe": "cpe:2.3:a:transifex:transifex:*:*:*:*:*:*:*:*",
     "description": "Transifex is a cloud-based platform for managing the translation and localization of digital content.",
     "icon": "transifex.svg",
     "js": {

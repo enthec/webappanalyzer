@@ -1298,7 +1298,7 @@
     "cats": [
       59
     ],
-    "cpe": "cpe:2.3:a:jquery:jquery_ui:*:*:*:*:*:*:*:*",
+    "cpe": "cpe:2.3:a:jqueryui:jquery_ui:*:*:*:*:*:*:*:*",
     "description": "jQuery UI is a collection of GUI widgets, animated visual effects, and themes implemented with jQuery, Cascading Style Sheets, and HTML.",
     "icon": "jQuery UI.svg",
     "implies": [

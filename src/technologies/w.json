@@ -1523,6 +1523,7 @@
     "cats": [
       22
     ],
+    "cpe": "cpe:2.3:a:oracle:weblogic_server:*:*:*:*:*:*:*:*",
     "description": "WebLogic Server is an Application Server that runs on a middle tier, between back-end databases and related applications and browser-based thin clients.",
     "headers": {
       "Server": "^WebLogic\\sServer\\s([\\d\\.]+)?\\;version:\\1"
