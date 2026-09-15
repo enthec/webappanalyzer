@@ -8909,6 +8909,17 @@
     ],
     "website": "https://www.pulsesecure.net/products/remote-access-overview/"
   },
+  "Pulselive": {
+    "cats": [
+      19
+    ],
+    "html": [
+      "<!-- Designed and built by Pulselive",
+      "<source srcset=\"https://resources\\.pulse\\."
+    ],
+    "icon": "Pulselive.png",
+    "website": "https://www.pulselive.com"
+  },
   "PulseM": {
     "cats": [
       90
