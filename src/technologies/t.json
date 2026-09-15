@@ -5306,6 +5306,16 @@
     "saas": true,
     "website": "https://www.traek.io"
   },
+  "Traffective": {
+    "cats": [
+      36
+    ],
+    "icon": "Traffective.png",
+    "js": {
+      "traffectiveLib": ""
+    },
+    "website": "https://www.traffective.com"
+  },
   "TrafficGuard": {
     "cats": [
       36
