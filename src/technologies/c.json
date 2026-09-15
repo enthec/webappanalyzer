@@ -233,6 +233,7 @@
     "cats": [
       72
     ],
+    "icon": "Cal.com.png",
     "scripts": [
       "cal\\.com/embed\\.js"
     ],
