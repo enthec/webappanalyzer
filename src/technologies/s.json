@@ -3624,6 +3624,20 @@
     ],
     "website": "https://setrow.com"
   },
+  "Setupad": {
+    "cats": [
+      36
+    ],
+    "description": "Setupad is a header-bidding monetization platform; sites load its wrapper from stpd.cloud and bid via prebid.setupad.io.",
+    "icon": "Setupad.png",
+    "scriptSrc": [
+      "stpd\\.cloud/"
+    ],
+    "website": "https://setupad.com",
+    "xhr": [
+      "(?:\\.stpd\\.cloud|\\.setupad\\.(?:io|com|net))"
+    ]
+  },
   "SEUR": {
     "cats": [
       99
