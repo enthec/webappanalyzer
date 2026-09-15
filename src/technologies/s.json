@@ -1208,6 +1208,19 @@
     ],
     "website": "https://wordpress.org/plugins/sassy-social-share"
   },
+  "Satispay": {
+    "cats": [
+      41
+    ],
+    "html": [
+      "<a [^>]*href=[\"\\']https://www\\.satispay\\.com/app/pay/shops/*"
+    ],
+    "icon": "Satispay.png",
+    "scripts": [
+      "^https?://online\\.satispay\\.com/*"
+    ],
+    "website": "https://developers.satispay.com/docs"
+  },
   "Satori": {
     "cats": [
       32
