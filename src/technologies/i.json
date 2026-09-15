@@ -955,6 +955,19 @@
     ],
     "website": "https://facebook.github.io/immutable-js/"
   },
+  "Imonomy": {
+    "cats": [
+      36
+    ],
+    "icon": "Imonomy.png",
+    "js": {
+      "imonomy": ""
+    },
+    "scripts": [
+      "imonomy\\.com"
+    ],
+    "website": "http://imonomy.com"
+  },
   "Impact": {
     "cats": [
       71
