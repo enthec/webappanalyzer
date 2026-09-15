@@ -4261,6 +4261,16 @@
     "saas": true,
     "website": "https://pixieset.com"
   },
+  "Pixifi": {
+    "cats": [
+      72
+    ],
+    "dom": [
+      "iframe[src*='.pixifi.com']"
+    ],
+    "icon": "Pixifi.png",
+    "website": "https://www.pixifi.com"
+  },
   "PIXIjs": {
     "cats": [
       25
