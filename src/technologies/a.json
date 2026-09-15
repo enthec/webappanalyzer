@@ -1693,6 +1693,20 @@
     ],
     "website": "https://www.adloox.com"
   },
+  "Admatic": {
+    "cats": [
+      36
+    ],
+    "description": "Admatic is a Turkish advertising and supply-side platform (SSP) that serves ads via header bidding and programmatic exchanges.",
+    "icon": "Admatic.png",
+    "scriptSrc": [
+      "\\.admatic\\.com\\.tr/"
+    ],
+    "website": "https://www.admatic.com.tr",
+    "xhr": [
+      "\\.admatic\\.(?:com\\.tr|de|io)"
+    ]
+  },
   "AdminBuy": {
     "cats": [
       1
