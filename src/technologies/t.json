@@ -1179,6 +1179,16 @@
     ],
     "website": "https://www.taurosmedia.com"
   },
+  "Tave": {
+    "cats": [
+      72
+    ],
+    "dom": [
+      "iframe[src*='tave.com']"
+    ],
+    "icon": "Tave.png",
+    "website": "https://tave.com"
+  },
   "Tawk.to": {
     "cats": [
       52
