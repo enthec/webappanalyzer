@@ -7176,6 +7176,15 @@
     ],
     "website": "https://www.aptania.com"
   },
+  "Apteligent": {
+    "cats": [
+      19
+    ],
+    "scripts": [
+      "crittercismClientLibraryMin\\.js"
+    ],
+    "website": "https://www.apteligent.com"
+  },
   "AptusShop": {
     "cats": [
       6
