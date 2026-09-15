@@ -13817,6 +13817,16 @@
     "saas": true,
     "website": "https://studio.design"
   },
+  "StudioCloud": {
+    "cats": [
+      72
+    ],
+    "icon": "StudioCloud.png",
+    "js": {
+      "wsURL": "[^\"]*\\.studiocloud.com/[^\"/]+"
+    },
+    "website": "https://studiocloud.com/"
+  },
   "Styla": {
     "cats": [
       6
