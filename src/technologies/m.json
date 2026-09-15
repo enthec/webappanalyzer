@@ -2394,6 +2394,25 @@
     "oss": true,
     "website": "https://cms.maxencedev.fr"
   },
+  "Maxetise": {
+    "cats": [
+      36
+    ],
+    "description": "Maxetise is a Swedish header-bidding wrapper; sites load a prebid build from maxetise.net and expose initMaxetiseFull with maxetise placement elements.",
+    "dom": [
+      ".maxetise, .maxetise-fallback"
+    ],
+    "js": {
+      "initMaxetiseFull": ""
+    },
+    "scriptSrc": [
+      "maxetise\\.net/prebid\\."
+    ],
+    "website": "https://maxetise.com",
+    "xhr": [
+      "maxetise\\.(?:net|com)"
+    ]
+  },
   "MaxiCMS": {
     "cats": [
       1
