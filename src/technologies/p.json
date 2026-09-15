@@ -7783,6 +7783,7 @@
     "cats": [
       19
     ],
+    "cpe": "cpe:2.3:a:progress:moveit_transfer:*:*:*:*:*:*:*:*",
     "description": "Progress MOVEit is a managed file transfer solution that enables secure and compliant transfer of sensitive files while providing automation, central management, and auditing capabilities.",
     "headers": {
       "X-Moveitisapi-Version": "^(.+)$\\;version:\\1"
