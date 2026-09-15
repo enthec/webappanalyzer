@@ -1289,6 +1289,16 @@
     ],
     "website": "https://teachable.com"
   },
+  "teachworks": {
+    "cats": [
+      72
+    ],
+    "dom": [
+      "[id='teachworks-booking-button']"
+    ],
+    "icon": "teachworks.png",
+    "website": "https://teachworks.com"
+  },
   "Teads": {
     "cats": [
       36
