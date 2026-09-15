@@ -5078,6 +5078,16 @@
     ],
     "website": "https://amcharts.com"
   },
+  "Amelia": {
+    "cats": [
+      72
+    ],
+    "icon": "Amelia.png",
+    "js": {
+      "amelia": ""
+    },
+    "website": "https://wpamelia.com/"
+  },
   "American Express": {
     "cats": [
       41
