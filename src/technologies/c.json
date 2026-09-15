@@ -5087,6 +5087,19 @@
     ],
     "website": "https://clipboardjs.com/"
   },
+  "Clipr": {
+    "cats": [
+      10
+    ],
+    "icon": "Clipr.png",
+    "js": {
+      "CLIP_IFRAME_ID": ""
+    },
+    "scripts": [
+      "clipr\\.co"
+    ],
+    "website": "https://www.clipr.co"
+  },
   "Clock PMS": {
     "cats": [
       93
