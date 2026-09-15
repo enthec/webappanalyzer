@@ -2020,6 +2020,15 @@
     "saas": true,
     "website": "https://business.adobe.com/uk/products/experience-manager/scene7-login.html"
   },
+  "Adobe Edge Web Fonts": {
+    "cats": [
+      17
+    ],
+    "scripts": [
+      "use\\.edgefonts\\.net"
+    ],
+    "website": "https://edgewebfonts.adobe.com"
+  },
   "Adobe Experience Manager": {
     "cats": [
       1
