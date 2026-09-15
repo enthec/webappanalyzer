@@ -2173,6 +2173,16 @@
     "saas": true,
     "website": "https://instatus.com"
   },
+  "Insticator": {
+    "cats": [
+      36
+    ],
+    "icon": "Insticator.png",
+    "js": {
+      "Insticator": ""
+    },
+    "website": "https://www.insticator.com"
+  },
   "InSyncai": {
     "cats": [
       52
