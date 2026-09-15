@@ -9932,6 +9932,15 @@
     ],
     "website": "https://crowdsignal.com"
   },
+  "Crowdynews": {
+    "cats": [
+      96
+    ],
+    "scripts": [
+      "widget\\.crowdynews\\.com"
+    ],
+    "website": "https://www.crowdynews.com"
+  },
   "CrownPeak": {
     "cats": [
       1,
