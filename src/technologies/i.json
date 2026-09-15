@@ -678,6 +678,16 @@
     "oss": true,
     "website": "https://www.ilias.de"
   },
+  "ilMeteo widget": {
+    "cats": [
+      5
+    ],
+    "icon": "ilMeteo widget.png",
+    "scripts": [
+      "\\.ilmeteo\\.net/wid_loader"
+    ],
+    "website": "https://www.ilmeteo.net"
+  },
   "Iluria": {
     "cats": [
       6,
