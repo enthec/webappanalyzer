@@ -852,6 +852,19 @@
     "oss": true,
     "website": "https://www.jobberbase.com"
   },
+  "Jobbio": {
+    "cats": [
+      101
+    ],
+    "description": "Jobbio powers embedded job boards; partner sites load its widget from widgets.jobbio.com.",
+    "scriptSrc": [
+      "widgets\\.jobbio\\.com/"
+    ],
+    "website": "https://jobbio.com",
+    "xhr": [
+      "\\.jobbio\\.com"
+    ]
+  },
   "Jobiqo": {
     "cats": [
       101
