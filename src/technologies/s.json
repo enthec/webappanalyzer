@@ -5565,6 +5565,38 @@
     ],
     "website": "https://www.shopwired.co.uk"
   },
+  "ShopWise": {
+    "cats": [
+      6
+    ],
+    "description": "ShopWise is a multi-tenant e-commerce platform for building online stores and marketplaces, with a hosted admin, theme editor, dropshipping and a built-in checkout.",
+    "dom": {
+      "link[href*='.myshopwise.now']": {
+        "exists": ""
+      }
+    },
+    "headers": {
+      "X-Powered-By": "ShopWise"
+    },
+    "icon": "ShopWise.svg",
+    "implies": [
+      "Node.js",
+      "Nuxt.js"
+    ],
+    "js": {
+      "__SHOPWISE__.name": "ShopWise",
+      "__SHOPWISE__.version": ""
+    },
+    "meta": {
+      "generator": "ShopWise"
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://shopwise.now"
+  },
   "ShopX": {
     "cats": [
       6
