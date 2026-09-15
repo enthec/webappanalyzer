@@ -6149,6 +6149,30 @@
     ],
     "website": "https://www.trustedshops.co.uk"
   },
+  "TrustedSite": {
+    "cats": [
+      5
+    ],
+    "cookies": {
+      "trustedsite_visit": "",
+      "trustedsite_tm_float_seen": ""
+    },
+    "description": "TrustedSite (formerly McAfee SECURE) is a website security certification and trustmark service that displays trust seals on certified sites.",
+    "icon": "TrustedSite.png",
+    "js": {
+      "TrustedSite": "",
+      "TrustedSiteInline": ""
+    },
+    "scriptSrc": [
+      "cdn\\.ywxi\\.net/",
+      "cdn\\.trustedsite\\.com/"
+    ],
+    "website": "https://www.trustedsite.com",
+    "xhr": [
+      "\\.ywxi\\.net",
+      "[/.]trustedsite\\.com"
+    ]
+  },
   "Trustify": {
     "cats": [
       90
