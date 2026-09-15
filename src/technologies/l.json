@@ -3118,6 +3118,15 @@
       "\\.lkqd\\.net"
     ]
   },
+  "LLama Link Cloud": {
+    "cats": [
+      22
+    ],
+    "headers": {
+      "serverversion": "LlamaLink Lightning v*"
+    },
+    "website": "https://llamalink.com/"
+  },
   "LlamaLink Cloud Server": {
     "cats": [
       22
