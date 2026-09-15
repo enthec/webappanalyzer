@@ -11724,6 +11724,16 @@
     ],
     "website": "https://www.sprocket.bz"
   },
+  "SproutStudio": {
+    "cats": [
+      72
+    ],
+    "dom": [
+      "iframe[src*='.sproutstudio.com']"
+    ],
+    "icon": "SproutStudio.png",
+    "website": "https://getsproutstudio.com"
+  },
   "Spruce": {
     "cats": [
       53
