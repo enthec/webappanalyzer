@@ -229,6 +229,15 @@
     "oss": true,
     "website": "https://cakephp.org"
   },
+  "Cal.com": {
+    "cats": [
+      72
+    ],
+    "scripts": [
+      "cal\\.com/embed\\.js"
+    ],
+    "website": "https://privacy.adtriba.com"
+  },
   "Caldera Forms": {
     "cats": [
       87,
