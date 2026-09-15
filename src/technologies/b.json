@@ -4075,6 +4075,19 @@
     ],
     "website": "https://bookmanager.com"
   },
+  "Booknetic": {
+    "cats": [
+      72
+    ],
+    "dom": [
+      "a[href*='booknetic.com']"
+    ],
+    "html": [
+      "<iframe [^>]*src=[\"\\']https://[^/]+\\.booknetic\\.com/[^\"\\']*"
+    ],
+    "icon": "Booknetic.png",
+    "website": "https://booknetic.com/"
+  },
   "BookStack": {
     "cats": [
       4
