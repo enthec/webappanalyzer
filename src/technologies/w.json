@@ -2393,6 +2393,16 @@
     ],
     "website": "https://www.wetravel.com"
   },
+  "Wetter": {
+    "cats": [
+      5
+    ],
+    "icon": "Wetter.png",
+    "js": {
+      "_wcomWidget": ""
+    },
+    "website": "https://www.wetter.com/"
+  },
   "WeWeb": {
     "cats": [
       51
