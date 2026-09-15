@@ -3681,6 +3681,19 @@
     ],
     "website": "https://sezzle.com/"
   },
+  "Sfera Networks": {
+    "cats": [
+      88
+    ],
+    "description": "Sfera Networks is an Italian hosting provider; hosted domains use sfera.net nameservers.",
+    "dns": {
+      "NS": [
+        "sfera\\.net"
+      ]
+    },
+    "icon": "Sfera Networks.png",
+    "website": "https://www.sfera.net"
+  },
   "shadcn-svelte": {
     "cats": [
       66
