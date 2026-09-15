@@ -2704,6 +2704,16 @@
     "saas": true,
     "website": "https://www.mediaplatform.com"
   },
+  "MediaSquare": {
+    "cats": [
+      5
+    ],
+    "icon": "MediaSquare.png",
+    "scripts": [
+      "mediasquare\\.fr"
+    ],
+    "website": "http://www.mediasquare.fr/"
+  },
   "Mediavine": {
     "cats": [
       36
