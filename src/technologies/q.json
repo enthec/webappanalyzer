@@ -287,6 +287,22 @@
     ],
     "website": "https://www.qstomizer.com"
   },
+  "Quaderno": {
+    "cats": [
+      55
+    ],
+    "html": [
+      "id=\"quaderno-payment-form"
+    ],
+    "icon": "Quaderno.svg",
+    "js": {
+      "Quaderno": ""
+    },
+    "scripts": [
+      "quaderno\\.io"
+    ],
+    "website": "https://www.quaderno.io"
+  },
   "Quadran": {
     "cats": [
       92
