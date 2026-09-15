@@ -993,6 +993,19 @@
     "icon": "Fedora.svg",
     "website": "https://fedoraproject.org"
   },
+  "FeedAd": {
+    "cats": [
+      36
+    ],
+    "icon": "FeedAd.png",
+    "js": {
+      "feedad": ""
+    },
+    "scripts": [
+      "feedad\\.com"
+    ],
+    "website": "https://feedad.com"
+  },
   "Feedback Fish": {
     "cats": [
       13
