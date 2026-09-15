@@ -7726,6 +7726,23 @@
     "oss": true,
     "website": "https://artplayer.org"
   },
+  "ArtsAI": {
+    "cats": [
+      36
+    ],
+    "description": "ArtsAI is an AI-driven advertising attribution and measurement platform that tracks campaign performance via its arttrk.com pixel.",
+    "dom": [
+      "img[src*=\"arttrk.com/pixel\"]"
+    ],
+    "html": [
+      "arttrk\\.com/pixel"
+    ],
+    "icon": "ArtsAI.png",
+    "website": "https://artsai.com",
+    "xhr": [
+      "arttrk\\.com"
+    ]
+  },
   "Aruba.it": {
     "cats": [
       88,
