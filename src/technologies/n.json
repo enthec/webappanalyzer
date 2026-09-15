@@ -947,6 +947,16 @@
     ],
     "website": "https://netop.com"
   },
+  "Netpoint Media": {
+    "cats": [
+      36
+    ],
+    "icon": "Netpoint Media.png",
+    "scripts": [
+      "//cdn\\.netpoint-media\\.de"
+    ],
+    "website": "https://www.netpoint-media.de"
+  },
   "Netrox": {
     "cats": [
       52
