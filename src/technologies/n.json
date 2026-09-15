@@ -278,6 +278,15 @@
     "saas": true,
     "website": "https://corp.narvar.com"
   },
+  "Natexo Spain": {
+    "cats": [
+      36
+    ],
+    "scripts": [
+      "d\\.natexo-programmatic\\.com/compiled/LoaderLaJs\\.js"
+    ],
+    "website": "https://programmatic.natexo.com"
+  },
   "NationBuilder": {
     "cats": [
       1,
