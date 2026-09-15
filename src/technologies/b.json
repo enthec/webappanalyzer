@@ -1361,6 +1361,15 @@
     ],
     "website": "https://www.bestie.ai"
   },
+  "bet365": {
+    "cats": [
+      19
+    ],
+    "html": [
+      "<a [^>]*href=['\"]http[s]?://www\\.bet365"
+    ],
+    "website": "https://www.bet365affiliates.com"
+  },
   "BeTheme": {
     "cats": [
       80
