@@ -2102,6 +2102,7 @@
     "dom": [
       "a[href*='glossgenius.com']"
     ],
+    "icon": "GlossGenius.png",
     "website": "https://glossgenius.com"
   },
   "Glow": {
