@@ -4227,6 +4227,17 @@
     "saas": true,
     "website": "https://pixenio.com"
   },
+  "PixFuture": {
+    "cats": [
+      36
+    ],
+    "icon": "PixFuture.png",
+    "scripts": [
+      "pixfuture\\.com",
+      "pixfuture\\.net"
+    ],
+    "website": "https://www.pixfuture.com"
+  },
   "Pixieset Store": {
     "cats": [
       6
