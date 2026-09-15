@@ -9592,6 +9592,19 @@
     "saas": true,
     "website": "https://www.avanser.com"
   },
+  "AvantisVideo": {
+    "cats": [
+      36
+    ],
+    "icon": "AvantisVideo.png",
+    "js": {
+      "avantisJS": ""
+    },
+    "scripts": [
+      "//cdn\\.avantisvideo\\.com"
+    ],
+    "website": "https://www.avantisvideo.com"
+  },
   "Avasam": {
     "cats": [
       6
