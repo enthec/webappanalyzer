@@ -14508,6 +14508,26 @@
     },
     "website": "https://superformjs.webflow.io/"
   },
+  "SuperHosting.BG": {
+    "cats": [
+      88
+    ],
+    "description": "SuperHosting.BG is a Bulgarian web hosting provider, part of the team.blue group.",
+    "dns": {
+      "NS": [
+        "superhosting\\.bg",
+        "superdnsserver\\.net",
+        "bgdns\\.net"
+      ],
+      "SOA": [
+        "superhosting\\.bg",
+        "superdnsserver\\.net",
+        "bgdns\\.net"
+      ]
+    },
+    "icon": "SuperHosting.BG.png",
+    "website": "https://www.superhosting.bg"
+  },
   "SuperHote": {
     "cats": [
       72
