@@ -6628,6 +6628,17 @@
     "saas": true,
     "website": "https://tutorlms.com"
   },
+  "Tutorbird": {
+    "cats": [
+      72
+    ],
+    "dom": [
+      "iframe[src*='.tutorbird.com']",
+      "a[href*='.tutorbird.com']"
+    ],
+    "icon": "Tutorbird.png",
+    "website": "https://tutorbird.com"
+  },
   "TutorCruncher": {
     "cats": [
       21
