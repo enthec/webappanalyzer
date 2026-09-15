@@ -3669,6 +3669,25 @@
     "oss": true,
     "website": "https://www.syncfusion.com/javascript-ui-controls"
   },
+  "eStat Streaming": {
+    "cats": [
+      10
+    ],
+    "description": "eStat Streaming is Médiamétrie's streaming audio/video audience measurement tag used by French radio, TV and media websites.",
+    "icon": "eStat Streaming.png",
+    "js": {
+      "eStat_PJS": "",
+      "_eStat_Whap_loaded_func": "",
+      "_eStat_Whap_loaded": ""
+    },
+    "scriptSrc": [
+      "(?:prof|w{1,2}|perso|playtime)\\.estat\\.com/"
+    ],
+    "website": "https://www.mediametrie.fr",
+    "xhr": [
+      "\\.estat\\.com"
+    ]
+  },
   "Estate Track": {
     "cats": [
       32
