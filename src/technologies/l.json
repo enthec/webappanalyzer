@@ -921,6 +921,16 @@
     "saas": true,
     "website": "https://www.leadsquared.com"
   },
+  "LeadsRx": {
+    "cats": [
+      10
+    ],
+    "icon": "LeadsRx.png",
+    "scripts": [
+      "app\\.leadsrx\\.com/visitor\\.js"
+    ],
+    "website": "https://leadsrx.com"
+  },
   "LeadsSight": {
     "cats": [
       10
