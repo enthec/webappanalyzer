@@ -4544,6 +4544,19 @@
     ],
     "website": "https://www.exoclick.com"
   },
+  "Experian": {
+    "cats": [
+      10
+    ],
+    "icon": "Experian.png",
+    "js": {
+      "EDQ.address": "",
+      "EDQ.email": "",
+      "EDQ.phone": "",
+      "EDQ_CONFIG": ""
+    },
+    "website": "https://www.experian.co.uk"
+  },
   "experiencedCMS": {
     "cats": [
       1
