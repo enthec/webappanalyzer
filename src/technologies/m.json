@@ -4735,6 +4735,16 @@
     ],
     "website": "https://mioot.com"
   },
+  "MioSalon": {
+    "cats": [
+      72
+    ],
+    "icon": "MioSalon.png",
+    "js": {
+      "isMiosalon": "true"
+    },
+    "website": "https://www.miosalon.com/"
+  },
   "Mirador": {
     "cats": [
       95
