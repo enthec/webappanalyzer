@@ -5472,6 +5472,20 @@
     "icon": "RSS.svg",
     "website": "https://www.rssboard.org/rss-specification"
   },
+  "rsvpify": {
+    "cats": [
+      72
+    ],
+    "dom": [
+      "a[href*='.rsvpify.com']",
+      "iframe[src*='.rsvpify.com']"
+    ],
+    "icon": "rsvpify.png",
+    "scriptSrc": [
+      "\\.rsvpify\\.com/embed"
+    ],
+    "website": "https://rsvpify.com"
+  },
   "RTB House": {
     "cats": [
       77
