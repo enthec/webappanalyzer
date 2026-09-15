@@ -204,6 +204,20 @@
     "saas": true,
     "website": "https://abicart.com/"
   },
+  "Abla": {
+    "cats": [
+      10
+    ],
+    "description": "Abla is a French privacy-friendly, cookieless web analytics service.",
+    "icon": "Abla.png",
+    "scriptSrc": [
+      "s\\.abla\\.io/abla\\.js"
+    ],
+    "website": "https://abla.io",
+    "xhr": [
+      "\\.abla\\.io"
+    ]
+  },
   "Able CDP": {
     "cats": [
       97
