@@ -3193,6 +3193,17 @@
     ],
     "website": "https://ositracker.com"
   },
+  "Oskaros": {
+    "cats": [
+      72
+    ],
+    "html": [
+      "<a [^>]*href=[^>]*\\.oskaros\\.com/[^\"/]+/",
+      "<script[^>]*src=[\"']https://www\\.oskaros\\.com/embed\\.min\\.js[\"'][^>]*>\\s*</script>\\s*<oskaros-booking[^>]*page=[\"'][^\"']+[\"'][^>]*></oskaros-booking>"
+    ],
+    "icon": "Oskaros.png",
+    "website": "https://oskaros.com/"
+  },
   "Osterreichische Post": {
     "cats": [
       99
