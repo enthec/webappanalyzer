@@ -8134,6 +8134,7 @@
     "cats": [
       36
     ],
+    "icon": "Converto.png",
     "scripts": [
       "converto\\.com"
     ],
