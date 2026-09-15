@@ -3436,6 +3436,23 @@
     ],
     "website": "https://outplay.ai"
   },
+  "Outpush": {
+    "cats": [
+      36
+    ],
+    "description": "Outpush monetizes web push notifications; publishers load an SDK from cdn.pushmaster-cdn.xyz which beacons to ingest.pushmaster-cdn.xyz.",
+    "icon": "Outpush.png",
+    "js": {
+      "pushmasterTag": ""
+    },
+    "scriptSrc": [
+      "\\.pushmaster-cdn\\.xyz/"
+    ],
+    "website": "https://outpush.io",
+    "xhr": [
+      "\\.pushmaster-cdn\\.xyz"
+    ]
+  },
   "OutSystems": {
     "cats": [
       47
