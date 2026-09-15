@@ -6503,6 +6503,16 @@
     "saas": true,
     "website": "https://www.powerschool.com"
   },
+  "Powerspace": {
+    "cats": [
+      36
+    ],
+    "icon": "Powerspace.png",
+    "scripts": [
+      "cdn\\.powerspace\\.com"
+    ],
+    "website": "https://powerspace.com"
+  },
   "POWR": {
     "cats": [
       5
