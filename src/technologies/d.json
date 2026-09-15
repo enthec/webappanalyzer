@@ -3113,6 +3113,16 @@
     ],
     "website": "https://www.dooca.com.br"
   },
+  "Doodle": {
+    "cats": [
+      72
+    ],
+    "dom": [
+      "a[href*='doodle.com']"
+    ],
+    "icon": "Doodle.png",
+    "website": "https://doodle.com/"
+  },
   "Doofinder": {
     "cats": [
       29
