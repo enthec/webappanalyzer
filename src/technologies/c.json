@@ -1095,6 +1095,16 @@
     "saas": true,
     "website": "https://cargoserver.ch"
   },
+  "Caroda": {
+    "cats": [
+      36
+    ],
+    "icon": "Caroda.png",
+    "scripts": [
+      "caroda\\.io"
+    ],
+    "website": "https://www.caroda.io"
+  },
   "Carrd": {
     "cats": [
       51
