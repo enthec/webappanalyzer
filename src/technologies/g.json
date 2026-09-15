@@ -2193,6 +2193,16 @@
     "icon": "Glyphicons.svg",
     "website": "https://glyphicons.com"
   },
+  "Gmail": {
+    "cats": [
+      30
+    ],
+    "html": [
+      "^[A-Za-z0-9._%+-]+@gmail.com$"
+    ],
+    "icon": "Gmail.png",
+    "website": "https://mail.google.com"
+  },
   "Gnuboard": {
     "cats": [
       1
