@@ -4093,6 +4093,17 @@
     "oss": true,
     "website": "https://www.bookstackapp.com"
   },
+  "Booksteam": {
+    "cats": [
+      72
+    ],
+    "html": [
+      "<script[^>]*src=['\"]//booksteam\\.com/booknowscript\\.ashx[^'\"]*['\"][^>]*></script>",
+      "<a[^>]*href=['\"]http://booksteam\\.com/[^'\"]*['\"][^>]*>.*?</a>"
+    ],
+    "icon": "Booksteam.png",
+    "website": "https://booksteam.com/"
+  },
   "Bookster": {
     "cats": [
       53
