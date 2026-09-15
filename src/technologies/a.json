@@ -421,6 +421,24 @@
     "oss": true,
     "website": "https://webworks.ga/acc_toolbar"
   },
+  "Accessibility Widget Pro": {
+    "cats": [
+      68
+    ],
+    "description": "Accessibility Widget Pro is a WCAG 2.1 AA compliant accessibility toolbar with 14 features including contrast adjustment, text sizing, dyslexia font, reading guide, and more.",
+    "icon": "Accessibility Widget Pro.svg",
+    "js": {
+      "AccessibilityWidgetPro.version": "^(.+)$\\;version:\\1"
+    },
+    "meta": {
+      "accessibility-widget-pro": "^(.+)$\\;version:\\1"
+    },
+    "dom": [
+      "#accessibility-widget-pro-host[data-awp]"
+    ],
+    "oss": true,
+    "website": "https://devsblend.com/accessibility-widget"
+  },
   "Accessible360": {
     "cats": [
       68
