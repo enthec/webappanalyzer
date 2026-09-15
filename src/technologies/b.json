@@ -5263,6 +5263,19 @@
     "saas": true,
     "website": "https://www.brevo.com"
   },
+  "Brevo Email": {
+    "cats": [
+      75
+    ],
+    "icon": "Brevo Email.png",
+    "js": {
+      "n2g": ""
+    },
+    "scripts": [
+      "static\\.newsletter2go\\.com"
+    ],
+    "website": "https://www.brevo.com"
+  },
   "Bricks": {
     "cats": [
       51,
