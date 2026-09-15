@@ -2320,6 +2320,20 @@
     ],
     "website": "https://linkmink.com"
   },
+  "LinkSmart": {
+    "cats": [
+      36
+    ],
+    "js": {
+      "LS_JSON": "",
+      "LinkSmart": "",
+      "_mb_site_guid": ""
+    },
+    "scriptSrc": [
+      "^https?://cdn\\.linksmart\\.com/linksmart_([\\d.]+?)(?:\\.min)?\\.js\\;version:\\1"
+    ],
+    "website": "http://linksmart.com"
+  },
   "Linkz": {
     "cats": [
       32
