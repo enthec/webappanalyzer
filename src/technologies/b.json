@@ -323,6 +323,16 @@
     ],
     "website": "https://www.getbalance.com"
   },
+  "Baluu": {
+    "cats": [
+      72
+    ],
+    "html": [
+      "<script[^>]*src=[\"\\\\']https://[^/]+\\.live\\.baluu\\.co\\.uk/embeds/standard\\.js[\"\\\\'][^>]*></script>",
+      "<a [^>]*href=[\"\\']https://[^/]+\\.live\\.baluu\\.co\\.uk[^\"\\']/*"
+    ],
+    "website": "https://baluu.com/"
+  },
   "BambooHR": {
     "cats": [
       101
