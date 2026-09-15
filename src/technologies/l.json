@@ -3073,6 +3073,19 @@
     ],
     "website": "https://laravel-livewire.com"
   },
+  "Livewrapped": {
+    "cats": [
+      36
+    ],
+    "icon": "Livewrapped.svg",
+    "js": {
+      "livewrapped": ""
+    },
+    "scripts": [
+      "lwadm\\.com"
+    ],
+    "website": "https://livewrapped.com"
+  },
   "LiveZilla": {
     "cats": [
       52
