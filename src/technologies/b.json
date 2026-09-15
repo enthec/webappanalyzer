@@ -3669,6 +3669,16 @@
     ],
     "website": "https://bombbomb.com"
   },
+  "Bombora": {
+    "cats": [
+      97
+    ],
+    "icon": "Bombora.png",
+    "scripts": [
+      "ml314\\.com"
+    ],
+    "website": "https://bombora.com/privacy"
+  },
   "BON Loyalty": {
     "cats": [
       84,
