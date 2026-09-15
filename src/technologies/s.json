@@ -8550,6 +8550,16 @@
     ],
     "website": "https://smarterclick.com"
   },
+  "SmartFrame": {
+    "cats": [
+      95
+    ],
+    "html": [
+      "<link rel=\"dns-prefetch\" href=\"//static\\.smartframe\\.io\""
+    ],
+    "icon": "SmartFrame.png",
+    "website": "https://smartframe.io"
+  },
   "SmartFront": {
     "cats": [
       108,
