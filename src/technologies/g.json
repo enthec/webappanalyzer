@@ -2095,6 +2095,15 @@
     ],
     "website": "https://www.gloriafood.com"
   },
+  "GlossGenius": {
+    "cats": [
+      72
+    ],
+    "dom": [
+      "a[href*='glossgenius.com']"
+    ],
+    "website": "https://glossgenius.com"
+  },
   "Glow": {
     "cats": [
       84
