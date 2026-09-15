@@ -5092,6 +5092,16 @@
     ],
     "website": "https://www.moast.io"
   },
+  "Moat": {
+    "cats": [
+      10
+    ],
+    "description": "Moat is a digital ad analytics tool.",
+    "scriptSrc": [
+      "moatads\\.com"
+    ],
+    "website": "https://moat.com/"
+  },
   "mobicred": {
     "cats": [
       41,
