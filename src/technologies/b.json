@@ -1368,6 +1368,7 @@
     "html": [
       "<a [^>]*href=['\"]http[s]?://www\\.bet365"
     ],
+    "icon": "bet365.png",
     "website": "https://www.bet365affiliates.com"
   },
   "BeTheme": {
