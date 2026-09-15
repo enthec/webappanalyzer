@@ -1273,6 +1273,16 @@
     ],
     "website": "https://github.com/mapbox/mapbox-gl-js"
   },
+  "Mapbox widget": {
+    "cats": [
+      5
+    ],
+    "icon": "Mapbox widget.png",
+    "scripts": [
+      "//api\\.tiles\\.mapbox\\.com/mapbox-gl-js"
+    ],
+    "website": "https://www.mapbox.com/"
+  },
   "Mapbox.js": {
     "cats": [
       35
