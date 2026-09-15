@@ -4307,6 +4307,16 @@
     ],
     "website": "https://www.clever.com"
   },
+  "Clever Advertising": {
+    "cats": [
+      36
+    ],
+    "icon": "Clever Advertising.png",
+    "scripts": [
+      "clevernt\\.com"
+    ],
+    "website": "https://cleveradvertising.com"
+  },
   "Cleverbridge": {
     "cats": [
       6
