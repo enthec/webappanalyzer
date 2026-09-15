@@ -59,6 +59,16 @@
     ],
     "website": "https://gambio.de"
   },
+  "GameAnalytics": {
+    "cats": [
+      10
+    ],
+    "icon": "GameAnalytics.png",
+    "scripts": [
+      "GameAnalytics(?:\\.min)?\\.js"
+    ],
+    "website": "https://gameanalytics.com"
+  },
   "Gameball": {
     "cats": [
       84
