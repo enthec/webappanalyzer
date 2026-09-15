@@ -732,6 +732,19 @@
     ],
     "website": "https://geodis.com"
   },
+  "GeoEdge": {
+    "cats": [
+      36
+    ],
+    "icon": "GeoEdge.png",
+    "js": {
+      "geoedgeApi": ""
+    },
+    "scripts": [
+      "geoedge\\.be"
+    ],
+    "website": "https://www.geoedge.com"
+  },
   "Geonetric": {
     "cats": [
       1
