@@ -4956,6 +4956,16 @@
     ],
     "website": "https://www.miva.com"
   },
+  "Mix button and social widgets": {
+    "cats": [
+      5
+    ],
+    "icon": "Mix button and social widgets.png",
+    "scripts": [
+      "//platform\\.stumbleupon\\.com/1/widgets\\.js"
+    ],
+    "website": "http://www.stumbleupon.com/"
+  },
   "Mixin": {
     "cats": [
       6
