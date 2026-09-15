@@ -8847,6 +8847,18 @@
     ],
     "website": "https://www.pubtech.ai/"
   },
+  "PubWise": {
+    "cats": [
+      36
+    ],
+    "js": {
+      "pubwise": ""
+    },
+    "scripts": [
+      "pubwise\\.io"
+    ],
+    "website": "https://admin.pubwise.io"
+  },
   "PukiWiki": {
     "cats": [
       8
