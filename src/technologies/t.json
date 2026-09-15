@@ -5989,6 +5989,32 @@
     ],
     "website": "https://trovo.live"
   },
+  "TruConversion": {
+    "cats": [
+      10
+    ],
+    "cookies": {
+      "ti_ukp": "",
+      "_tcsessinfo": "",
+      "_tcsecsess": ""
+    },
+    "description": "TruConversion is a conversion-optimization analytics suite providing heatmaps, session recordings, funnel analytics, form analytics and surveys.",
+    "icon": "TruConversion.png",
+    "js": {
+      "_tip": "",
+      "tcjs": "",
+      "_tcjs": "",
+      "tiInit": ""
+    },
+    "scriptSrc": [
+      "app\\.truconversion\\.com/ti-js",
+      "cdn\\.truconversion\\.com/"
+    ],
+    "website": "https://www.truconversion.com",
+    "xhr": [
+      "truconversion\\.com"
+    ]
+  },
   "true": {
     "cats": [
       90
