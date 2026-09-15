@@ -1565,6 +1565,19 @@
     "saas": true,
     "website": "https://www.zoom.com"
   },
+  "Zoomd": {
+    "cats": [
+      36
+    ],
+    "icon": "Zoomd.png",
+    "js": {
+      "Zoomd": ""
+    },
+    "scripts": [
+      "sphereup\\.com/zoomd"
+    ],
+    "website": "https://zoomd.com"
+  },
   "Zoominfo": {
     "cats": [
       10
