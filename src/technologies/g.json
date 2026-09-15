@@ -1149,6 +1149,16 @@
     ],
     "website": "https://getterms.io"
   },
+  "Getty Images widget": {
+    "cats": [
+      5
+    ],
+    "icon": "Getty Images widget.png",
+    "scripts": [
+      "//embed-cdn\\.gettyimages\\.com/widgets\\.js"
+    ],
+    "website": "https://www.gettyimages.com/"
+  },
   "getUBetter": {
     "cats": [
       1
