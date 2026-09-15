@@ -5344,6 +5344,17 @@
     ],
     "website": "https://trafficstars.com"
   },
+  "Trafft": {
+    "cats": [
+      72
+    ],
+    "dom": [
+      "iframe[src*='.trafft.com']",
+      "a[href*='.trafft.com']"
+    ],
+    "icon": "Trafft.png",
+    "website": "https://trafft.com"
+  },
   "Trak": {
     "cats": [
       10
