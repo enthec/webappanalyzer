@@ -10609,6 +10609,19 @@
     "icon": "SPDY.png",
     "website": "https://chromium.org/spdy"
   },
+  "Speakol": {
+    "cats": [
+      36
+    ],
+    "icon": "Speakol.png",
+    "js": {
+      "speakol_pid": ""
+    },
+    "scripts": [
+      "speakol\\.com"
+    ],
+    "website": "https://speakol.com"
+  },
   "SpeakPipe": {
     "cats": [
       52
