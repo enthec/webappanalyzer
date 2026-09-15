@@ -2983,6 +2983,7 @@
     "html": [
       "<iframe src=\"https://calendar.google.com"
     ],
+    "icon": "Google Calendar widget.png",
     "website": "https://calendar.google.com/calendar/"
   },
   "Google Call Conversion Tracking": {
