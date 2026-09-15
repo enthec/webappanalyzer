@@ -13760,6 +13760,19 @@
     "saas": true,
     "website": "https://strolid.com"
   },
+  "Strossle": {
+    "cats": [
+      36
+    ],
+    "icon": "Strossle.png",
+    "js": {
+      "strossle": ""
+    },
+    "scripts": [
+      "assets\\.strossle\\.com"
+    ],
+    "website": "https://www.strossle.com"
+  },
   "Struq": {
     "cats": [
       77
