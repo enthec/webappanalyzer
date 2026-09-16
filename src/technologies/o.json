@@ -2625,7 +2625,7 @@
     },
     "icon": "Oracle.svg",
     "implies": [
-      "Oracle WebLogic Server"
+      "Weblogic Server"
     ],
     "website": "https://oracle.com"
   },
@@ -2707,21 +2707,6 @@
     },
     "icon": "Oracle.svg",
     "website": "https://oracle.com"
-  },
-  "Oracle WebLogic Server": {
-    "cats": [
-      22
-    ],
-    "cpe": "cpe:2.3:a:bea:weblogic_server:*:*:*:*:*:*:*:*",
-    "description": "Oracle WebLogic Server is a Java-based application server that provides a platform for developing, deploying, and running enterprise-level Java applications.",
-    "icon": "Oracle.svg",
-    "implies": [
-      "Java"
-    ],
-    "pricing": [
-      "poa"
-    ],
-    "website": "https://www.oracle.com/java/weblogic/"
   },
   "Orama": {
     "cats": [
