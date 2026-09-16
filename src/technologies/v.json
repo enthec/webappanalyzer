@@ -1554,6 +1554,17 @@
     ],
     "website": "https://apps.shopify.com/videogreet-gift-messages"
   },
+  "Videobot": {
+    "cats": [
+      52
+    ],
+    "icon": "Videobot.png",
+    "scripts": [
+      "video-bot-iframe\\.vercel\\.app/video-bot\\.js",
+      "videobot\\.com/embed/videobot\\.mjs"
+    ],
+    "website": "https://www.videobot.com"
+  },
   "VideoJS": {
     "cats": [
       14
