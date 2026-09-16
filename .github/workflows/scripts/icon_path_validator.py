@@ -1,6 +1,7 @@
 import json
 import pathlib
 import string
+from collections import defaultdict
 from typing import Final
 from xml.etree import ElementTree
 
@@ -26,6 +27,26 @@ class IconValidator:
 
     def validate(self) -> None:
         json_icons: set[str] = self.get_json_icons()
+
+        # Detect case-insensitive filename collisions (problematic on
+        # case-insensitive filesystems such as the default macOS/Windows volumes).
+        by_lower: dict[str, list[str]] = defaultdict(list)
+        for file in self._FULL_IMAGES_DIR.iterdir():
+            if file.is_file():
+                by_lower[file.name.lower()].append(file.name)
+
+        duplicates = {k: v for k, v in by_lower.items() if len(v) > 1}
+        if duplicates:
+            msgs = [
+                f"{lower}: {', '.join(sorted(names))}"
+                for lower, names in sorted(duplicates.items())
+            ]
+            raise InvalidStructureException(
+                "Case-insensitive duplicate icon filenames found "
+                "(problematic on case-insensitive filesystems):\n  "
+                + "\n  ".join(msgs)
+            )
+
         for file in self._FULL_IMAGES_DIR.iterdir():
             if file.name not in json_icons:
                 raise InvalidStructureException(f"{file.name} must be used, {file} isn't used!")
