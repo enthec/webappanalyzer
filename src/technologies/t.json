@@ -6362,6 +6362,19 @@
     ],
     "website": "https://www.transunion.com/solution/truvalidate"
   },
+  "truvid": {
+    "cats": [
+      36
+    ],
+    "icon": "truvid.png",
+    "js": {
+      "trvpbjsChunk": ""
+    },
+    "scripts": [
+      "trvdp\\.com"
+    ],
+    "website": "https://www.truvid.com"
+  },
   "TryNow": {
     "cats": [
       91
