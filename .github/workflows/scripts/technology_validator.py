@@ -120,7 +120,7 @@ class AbstractValidator:
                 if not tag_value.isnumeric():
                     self._set_custom_error(InvalidTagException(f"Invalid tag value '{tag_value}' for tech '{tech_name}' in pattern '{pattern}', confidence must be numeric!"))
                     return False
-                if 0 >= int(tag_value) >= 100:
+                if not (0 <= int(tag_value) <= 100):
                     self._set_custom_error(InvalidTagException(f"Invalid tag value '{tag_value}' for tech '{tech_name}' in pattern '{pattern}', confidence must be between 0 and 100!"))
                     return False
             elif tag_name == "version":
