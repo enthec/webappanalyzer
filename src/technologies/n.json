@@ -1659,6 +1659,16 @@
     ],
     "website": "https://nidux.com"
   },
+  "Nielsen": {
+    "cats": [
+      10
+    ],
+    "icon": "Nielsen.png",
+    "js": {
+      "NOLBUNDLE": ""
+    },
+    "website": "https://www.nielsen.com"
+  },
   "Nift": {
     "cats": [
       84
