@@ -1796,6 +1796,19 @@
     ],
     "website": "https://www.causalfunnel.com"
   },
+  "Cazamba": {
+    "cats": [
+      36
+    ],
+    "html": [
+      "id=.ad-cazamba"
+    ],
+    "icon": "Cazamba.png",
+    "scripts": [
+      "cazamba\\.com"
+    ],
+    "website": "https://cazamba.com"
+  },
   "CCV Shop": {
     "cats": [
       6
