@@ -15207,6 +15207,19 @@
     ],
     "website": "https://swiperjs.com"
   },
+  "Swizzonic": {
+    "cats": [
+      88
+    ],
+    "description": "Swizzonic is a Swiss registrar/hosting provider; hosted domains use swizzonic.ch nameservers.",
+    "dns": {
+      "NS": [
+        "\\.swizzonic\\.ch"
+      ]
+    },
+    "icon": "Swizzonic.png",
+    "website": "https://swizzonic.ch"
+  },
   "Swoogo": {
     "cats": [
       72
