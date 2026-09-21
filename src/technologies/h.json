@@ -33,6 +33,22 @@
     ],
     "website": "https://github.com/lrsjng/h5ai"
   },
+  "Habu": {
+    "cats": [
+      97
+    ],
+    "cookies": {
+      "HABU_1P_ID": ""
+    },
+    "icon": "Habu.png",
+    "js": {
+      "__Habu": ""
+    },
+    "scripts": [
+      "cdn\\.imhd\\.io"
+    ],
+    "website": "https://habu.com"
+  },
   "HackerOne": {
     "cats": [
       16
