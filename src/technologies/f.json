@@ -4506,6 +4506,16 @@
     ],
     "website": "https://fraudblocker.com"
   },
+  "fraud0": {
+    "cats": [
+      16
+    ],
+    "icon": "fraud0.png",
+    "scripts": [
+      "//bt\\.fraud0\\.com/api/v2/fz\\.js"
+    ],
+    "website": "https://www.fraud0.com/"
+  },
   "FraudLabs Pro": {
     "cats": [
       16
