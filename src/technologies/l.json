@@ -775,6 +775,19 @@
     ],
     "website": "https://www.leadinfo.com"
   },
+  "Leadoo": {
+    "cats": [
+      52
+    ],
+    "icon": "Leadoo.png",
+    "js": {
+      "Leadoo": ""
+    },
+    "scripts": [
+      "leadoo\\.com"
+    ],
+    "website": "https://leadoo.com"
+  },
   "LeadPages": {
     "cats": [
       51
