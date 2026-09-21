@@ -6604,6 +6604,16 @@
     ],
     "website": "https://www.simplycast.com"
   },
+  "SimplyMeet.me": {
+    "cats": [
+      72
+    ],
+    "dom": [
+      "iframe[src*='.simplymeet.me']"
+    ],
+    "icon": "SimplyMeet.me.png",
+    "website": "https://simplymeet.me"
+  },
   "Simplébo": {
     "cats": [
       1
