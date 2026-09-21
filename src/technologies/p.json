@@ -1765,6 +1765,16 @@
     ],
     "website": "https://developer.paypal.com/docs/marketing-solutions"
   },
+  "PayPerSale": {
+    "cats": [
+      71
+    ],
+    "icon": "PayPerSale.png",
+    "scripts": [
+      "rbnt\\.org"
+    ],
+    "website": "https://paypersale.ru"
+  },
   "Payplug": {
     "cats": [
       41
