@@ -2307,6 +2307,16 @@
     "saas": true,
     "website": "https://horoshop.ua"
   },
+  "HostedShop": {
+    "cats": [
+      51
+    ],
+    "html": [
+      "<meta name=\"generator\" content=\"HostedShop\""
+    ],
+    "icon": "HostedShop.png",
+    "website": "https://help.hostedshop.dk/"
+  },
   "Hostens": {
     "cats": [
       88
