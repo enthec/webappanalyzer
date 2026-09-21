@@ -7595,6 +7595,17 @@
     "saas": true,
     "website": "https://www.contentder.com"
   },
+  "ContentExchange": {
+    "cats": [
+      36
+    ],
+    "html": [
+      "data-contentexchange-widget",
+      "href=\"https://tracker\\.contentexchange\\.me/"
+    ],
+    "icon": "ContentExchange.png",
+    "website": "https://www.contentexchange.me"
+  },
   "Contentful": {
     "cats": [
       1
