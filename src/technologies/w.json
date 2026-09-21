@@ -2298,6 +2298,19 @@
     ],
     "website": "https://www.weltpixel.com/magento-2-theme-pearl"
   },
+  "WEMASS": {
+    "cats": [
+      36
+    ],
+    "html": [
+      "data-legacy-wemass=\"true\""
+    ],
+    "icon": "WEMASS.png",
+    "scripts": [
+      "service\\.wemass\\.com/dmp"
+    ],
+    "website": "https://wemass.com"
+  },
   "WEN Themes Education Hub": {
     "cats": [
       80
