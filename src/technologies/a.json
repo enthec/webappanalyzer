@@ -4738,6 +4738,16 @@
       "\\.amazon-adsystem\\.com"
     ]
   },
+  "Amazon Affiliation": {
+    "cats": [
+      19
+    ],
+    "html": [
+      "<img[^>]*src=\"[^\"]+\\.amazon-adsystem\\.com"
+    ],
+    "icon": "Amazon Affiliation.png",
+    "website": "https://amazon.com"
+  },
   "Amazon ALB": {
     "cats": [
       65
