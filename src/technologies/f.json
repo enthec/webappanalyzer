@@ -1847,6 +1847,26 @@
     "saas": true,
     "website": "https://firework.com"
   },
+  "First-id": {
+    "cats": [
+      36
+    ],
+    "cookies": {
+      "firstid": ""
+    },
+    "description": "First-id is a French first-party publisher ID solution; it sets the firstid cookie, loads its SDK from cdn.first-id.fr and calls the api-*.prod.first-id.fr endpoints.",
+    "icon": "First-id.png",
+    "js": {
+      "getFirstIdInfos": ""
+    },
+    "scriptSrc": [
+      "//cdn\\.first-id\\.fr/sdk/"
+    ],
+    "website": "https://www.first-id.fr",
+    "xhr": [
+      "\\.first-id\\.fr"
+    ]
+  },
   "FirstHive": {
     "cats": [
       97
