@@ -2424,6 +2424,16 @@
     "oss": true,
     "website": "https://selectize.dev"
   },
+  "SelectMedia": {
+    "cats": [
+      36
+    ],
+    "icon": "SelectMedia.png",
+    "scripts": [
+      "play\\.selectmedia\\.asia.*\\.js"
+    ],
+    "website": "https://www.selectmedia.asia"
+  },
   "Seline": {
     "cats": [
       10
