@@ -5886,6 +5886,16 @@
     ],
     "website": "https://buddypress.org"
   },
+  "Buffer button and social widgets": {
+    "cats": [
+      5
+    ],
+    "icon": "Buffer button and social widgets.png",
+    "scripts": [
+      "//static\\.buffer\\.com/js"
+    ],
+    "website": "https://buffer.com"
+  },
   "Bugcrowd": {
     "cats": [
       16
