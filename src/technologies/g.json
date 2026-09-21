@@ -1426,6 +1426,16 @@
     "saas": true,
     "website": "https://gitea.io"
   },
+  "GitHub button and social widgets": {
+    "cats": [
+      5
+    ],
+    "icon": "GitHub button and social widgets.png",
+    "scripts": [
+      "buttons\\.github\\.io/buttons\\.js"
+    ],
+    "website": "https://buttons.github.io/"
+  },
   "GitHub Pages": {
     "cats": [
       62
