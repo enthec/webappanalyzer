@@ -1986,6 +1986,16 @@
     ],
     "website": "https://advertising.reddithelp.com/"
   },
+  "Reddit button and widgets": {
+    "cats": [
+      5
+    ],
+    "icon": "Reddit button and widgets.png",
+    "scripts": [
+      "\\.reddit\\.com/button\\.js"
+    ],
+    "website": "https://www.reddit.com/"
+  },
   "Redicom": {
     "cats": [
       6
