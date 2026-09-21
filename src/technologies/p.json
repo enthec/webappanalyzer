@@ -4751,6 +4751,23 @@
     ],
     "website": "https://www.playframework.com"
   },
+  "Playable": {
+    "cats": [
+      32
+    ],
+    "description": "Playable (formerly Leadfamly) is a gamification-marketing platform; campaigns are embedded from customer subdomains of leadfamly.com.",
+    "html": [
+      "\\.leadfamly\\.com"
+    ],
+    "icon": "Playable.png",
+    "scriptSrc": [
+      "\\.leadfamly\\.com/"
+    ],
+    "website": "https://playable.com",
+    "xhr": [
+      "\\.leadfamly\\.com"
+    ]
+  },
   "Plaza": {
     "cats": [
       103
