@@ -4467,6 +4467,16 @@
     ],
     "website": "https://plan.io"
   },
+  "Planity": {
+    "cats": [
+      72
+    ],
+    "html": [
+      "<a [^>]*href=[^>]*\\.planity\\.com/[^\"/]+"
+    ],
+    "icon": "Planity.svg",
+    "website": "https://planity.com/"
+  },
   "Planne": {
     "cats": [
       104
