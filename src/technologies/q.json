@@ -533,6 +533,16 @@
     "icon": "Quantyoo.png",
     "website": "https://quantyoo.de"
   },
+  "QUARTER MEDIA": {
+    "cats": [
+      36
+    ],
+    "icon": "QUARTER MEDIA.png",
+    "scripts": [
+      "quartermedia\\.de"
+    ],
+    "website": "https://quartermedia.de"
+  },
   "Quarto": {
     "cats": [
       57
