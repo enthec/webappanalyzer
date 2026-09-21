@@ -2226,6 +2226,19 @@
     ],
     "website": "https://opscalendar.com"
   },
+  "Opti Digital": {
+    "cats": [
+      36
+    ],
+    "icon": "Opti Digital.png",
+    "js": {
+      "optidigitalToolbox": ""
+    },
+    "scripts": [
+      "//scripts\\.static-od\\.com"
+    ],
+    "website": "https://www.optidigital.com"
+  },
   "Optibase": {
     "cats": [
       74
