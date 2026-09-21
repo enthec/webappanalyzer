@@ -1801,6 +1801,20 @@
     ],
     "website": "https://www.recras.com"
   },
+  "Recreativ": {
+    "cats": [
+      36
+    ],
+    "html": [
+      "<iframe [^>]*src=[\"\\']https://go\\.rcvlink\\.com/static/iframe\\.htm"
+    ],
+    "icon": "Recreativ.png",
+    "scripts": [
+      "rcvlink",
+      "recreativ"
+    ],
+    "website": "https://recreativ.com"
+  },
   "Recruitee": {
     "cats": [
       101
