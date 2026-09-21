@@ -3252,6 +3252,20 @@
     ],
     "website": "https://pay.google.com"
   },
+  "Google Programmable Search Engine": {
+    "cats": [
+      22,
+      29
+    ],
+    "headers": {
+      "Server": "^Google\\sSearch\\sAppliance$"
+    },
+    "icon": "Google Programmable Search Engine.png",
+    "scripts": [
+      "cse\\.google\\.come/cse\\.js?cx="
+    ],
+    "website": "https://enterprise.google.com/search"
+  },
   "Google Publisher Tag": {
     "cats": [
       36
