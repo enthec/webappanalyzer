@@ -2521,6 +2521,19 @@
     "saas": true,
     "website": "https://www.novomind.com/en/shopsystem/novomind-ishop-software"
   },
+  "Now4real": {
+    "cats": [
+      52
+    ],
+    "icon": "Now4real.svg",
+    "js": {
+      "now4real": ""
+    },
+    "scripts": [
+      "//cdn\\.now4real\\.com/now4real\\.js"
+    ],
+    "website": "https://now4real.com/"
+  },
   "NowButtons": {
     "cats": [
       5
