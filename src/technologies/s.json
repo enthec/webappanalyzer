@@ -9475,6 +9475,21 @@
     ],
     "website": "https://www.soci.ai"
   },
+  "SociableKIT": {
+    "cats": [
+      5
+    ],
+    "description": "Sociable kit",
+    "html": [
+      "<iframe[^>]*src=[^>]*widgets\\.sociablekit\\.com",
+      "<img[^>]*src=[^>]*images\\.sociablekit\\.com"
+    ],
+    "icon": "SociableKIT.png",
+    "scriptSrc": [
+      "widgets\\.sociablekit\\.com"
+    ],
+    "website": "https://www.sociablekit.com/"
+  },
   "Social Pinpoint": {
     "cats": [
       1
