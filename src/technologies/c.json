@@ -4350,6 +4350,19 @@
     "saas": true,
     "website": "https://clever-insight.com"
   },
+  "CleverPush": {
+    "cats": [
+      32
+    ],
+    "icon": "CleverPush.png",
+    "js": {
+      "CleverPush": ""
+    },
+    "scripts": [
+      "//static\\.cleverpush\\.com/sdk/cleverpush-chat\\.js"
+    ],
+    "website": "https://developers.cleverpush.com/"
+  },
   "CleverReach": {
     "cats": [
       75
