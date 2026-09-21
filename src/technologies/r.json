@@ -3503,6 +3503,16 @@
     ],
     "website": "https://retailrocket.net"
   },
+  "retailAds": {
+    "cats": [
+      36
+    ],
+    "icon": "retailAds.png",
+    "scripts": [
+      "//cdn\\.retailads\\.net"
+    ],
+    "website": "https://www.retailads.net"
+  },
   "Retain": {
     "cats": [
       52
