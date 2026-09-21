@@ -3001,6 +3001,19 @@
     },
     "website": "https://ipresta.ir"
   },
+  "iPROM": {
+    "cats": [
+      36
+    ],
+    "icon": "iPROM.png",
+    "js": {
+      "ipromNS": ""
+    },
+    "scripts": [
+      "ipromcloud\\.com"
+    ],
+    "website": "https://iprom.eu"
+  },
   "ipstack": {
     "cats": [
       79
