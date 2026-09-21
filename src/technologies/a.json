@@ -6580,6 +6580,25 @@
     },
     "website": "https://www.apollographql.com"
   },
+  "Apollo.io": {
+    "cats": [
+      10,
+      97
+    ],
+    "description": "Apollo.io is a B2B sales intelligence and website visitor identification platform whose tracker script identifies companies and contacts visiting a site.",
+    "icon": "Apollo.io.png",
+    "js": {
+      "initApollo": "",
+      "trackingFunctions": ""
+    },
+    "scriptSrc": [
+      "assets\\.apollo\\.io/"
+    ],
+    "website": "https://www.apollo.io",
+    "xhr": [
+      "(?:\\.apollo\\.io|aplo-evnt\\.com)"
+    ]
+  },
   "Apollo13Themes Rife": {
     "cats": [
       80
