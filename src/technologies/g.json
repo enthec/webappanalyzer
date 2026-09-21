@@ -2976,6 +2976,16 @@
     "icon": "Google App Engine.svg",
     "website": "https://cloud.google.com/appengine"
   },
+  "Google Calendar widget": {
+    "cats": [
+      5
+    ],
+    "html": [
+      "<iframe src=\"https://calendar.google.com"
+    ],
+    "icon": "Google Calendar widget.png",
+    "website": "https://calendar.google.com/calendar/"
+  },
   "Google Call Conversion Tracking": {
     "cats": [
       10
