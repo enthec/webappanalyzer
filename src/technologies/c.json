@@ -3052,6 +3052,16 @@
     ],
     "website": "https://chayns.site"
   },
+  "CheckCherry": {
+    "cats": [
+      72
+    ],
+    "dom": [
+      "a[href*='checkcherry.com/reservation']"
+    ],
+    "icon": "CheckCherry.png",
+    "website": "https://www.checkcherry.com"
+  },
   "Checkfront": {
     "cats": [
       5,
