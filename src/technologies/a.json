@@ -1601,6 +1601,26 @@
     ],
     "website": "https://www.adglare.com"
   },
+  "AdGrid": {
+    "cats": [
+      36
+    ],
+    "description": "AdGrid is a header-bidding and ad management platform that helps publishers monetize their inventory.",
+    "icon": "AdGrid.png",
+    "js": {
+      "adGrid": "",
+      "adgridConfig": "",
+      "adgridFqdn": "",
+      "adgridDomainId": ""
+    },
+    "scriptSrc": [
+      "console\\.adgrid\\.io/"
+    ],
+    "website": "https://www.adgrid.io",
+    "xhr": [
+      "\\.adgrid\\.io"
+    ]
+  },
   "Adimo": {
     "cats": [
       6
