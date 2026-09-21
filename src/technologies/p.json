@@ -5509,6 +5509,19 @@
     },
     "website": "https://pojo.me/plugins/accessibility/"
   },
+  "Pokkt": {
+    "cats": [
+      36
+    ],
+    "icon": "Pokkt.png",
+    "js": {
+      "pokktConfig": ""
+    },
+    "scripts": [
+      "pokkt\\.com"
+    ],
+    "website": "https://www.pokkt.com"
+  },
   "Polar Analytics": {
     "cats": [
       10
