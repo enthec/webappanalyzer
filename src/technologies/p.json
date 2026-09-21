@@ -3505,6 +3505,19 @@
     ],
     "website": "https://pickrr.com"
   },
+  "Picktime": {
+    "cats": [
+      72
+    ],
+    "dom": [
+      "a[href*='picktime.com']"
+    ],
+    "icon": "Picktime.png",
+    "scriptSrc": [
+      "picktime\\.com/assets/booking.js"
+    ],
+    "website": "https://picktime.com"
+  },
   "PickyStory": {
     "cats": [
       100
