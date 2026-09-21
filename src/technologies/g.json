@@ -3116,6 +3116,16 @@
     ],
     "website": "https://support.google.com/merchants/answer/7105655?hl=en"
   },
+  "Google Docs": {
+    "cats": [
+      20
+    ],
+    "html": [
+      "<iframe [^>]*src=[\"\\']https://docs\\.google\\.com/document"
+    ],
+    "icon": "Google Docs.png",
+    "website": "https://docs.google.com"
+  },
   "Google Font API": {
     "cats": [
       17
