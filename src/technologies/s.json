@@ -9982,6 +9982,17 @@
     },
     "website": "https://www.solusquare.com"
   },
+  "Solution coupons": {
+    "cats": [
+      71
+    ],
+    "html": [
+      "class=\"m-coupons",
+      "id=\"coupon-code-form"
+    ],
+    "icon": "Solution coupons.png",
+    "website": "https://solution.coupons/"
+  },
   "SolutionReach": {
     "cats": [
       53
