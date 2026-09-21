@@ -2332,6 +2332,16 @@
     "saas": true,
     "website": "https://channel.io"
   },
+  "Channel99": {
+    "cats": [
+      10
+    ],
+    "icon": "Channel99.png",
+    "scripts": [
+      "//api\\.c99\\.ai/api/v1/fire/"
+    ],
+    "website": "https://www.channel99.com/"
+  },
   "ChannelAdvisor": {
     "cats": [
       10,
