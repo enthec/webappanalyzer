@@ -1255,6 +1255,16 @@
     "saas": true,
     "website": "https://joinlede.com/"
   },
+  "LEESTEN": {
+    "cats": [
+      19
+    ],
+    "icon": "LEESTEN.png",
+    "scripts": [
+      "audiothis\\.com"
+    ],
+    "website": "https://www.leesten.io"
+  },
   "Legal Monster": {
     "cats": [
       67
