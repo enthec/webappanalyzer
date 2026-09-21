@@ -8130,6 +8130,16 @@
     ],
     "website": "https://convertkit.com"
   },
+  "Converto": {
+    "cats": [
+      36
+    ],
+    "icon": "Converto.png",
+    "scripts": [
+      "converto\\.com"
+    ],
+    "website": "https://www.converto.com"
+  },
   "ConvertoBot": {
     "cats": [
       52
