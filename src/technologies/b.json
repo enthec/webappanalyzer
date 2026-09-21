@@ -3742,6 +3742,16 @@
     ],
     "website": "https://bontii.dk"
   },
+  "Book Like A Boss": {
+    "cats": [
+      72
+    ],
+    "dom": [
+      "a[href*='bookme.name']"
+    ],
+    "icon": "Book Like A Boss.png",
+    "website": "https://www.booklikeaboss.com/"
+  },
   "Book N Pay": {
     "cats": [
       104
