@@ -10374,6 +10374,16 @@
     ],
     "website": "https://developers.soundcloud.com/docs/api/html5-widget"
   },
+  "SoundCloud widget": {
+    "cats": [
+      5
+    ],
+    "html": [
+      "<iframe[^>]+src=[\\'\"]+w\\.soundcloud\\.com/player"
+    ],
+    "icon": "SoundCloud widget.png",
+    "website": "https://soundcloud.com/"
+  },
   "SoundManager": {
     "cats": [
       59
