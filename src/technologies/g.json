@@ -3153,6 +3153,16 @@
     "icon": "Google Forms.svg",
     "website": "https://www.google.com/forms/about/"
   },
+  "Google Forms (embedded)": {
+    "cats": [
+      110
+    ],
+    "html": [
+      "<iframe src=\"https://docs\\.google\\.com/forms"
+    ],
+    "icon": "Google Forms (embedded).png",
+    "website": "https://docs.google.com/forms/u/0/"
+  },
   "Google Hosted Libraries": {
     "cats": [
       31
