@@ -894,6 +894,17 @@
     ],
     "website": "https://www.gosameday.com"
   },
+  "Samhub": {
+    "cats": [
+      36
+    ],
+    "description": "Samhub is a Swedish data/advertising platform whose collection runs on dep-x.com and brainnordic.com hosts.",
+    "icon": "Samhub.png",
+    "website": "https://samhub.io",
+    "xhr": [
+      "(?:\\.dep-x\\.com|\\.brainnordic\\.com)"
+    ]
+  },
   "Samsung Food": {
     "cats": [
       76
