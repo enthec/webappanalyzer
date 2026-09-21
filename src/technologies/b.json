@@ -3997,6 +3997,16 @@
     ],
     "website": "https://www.bookingkoala.com"
   },
+  "BookingPressPlugin": {
+    "cats": [
+      72
+    ],
+    "dom": [
+      "[class='bpa-frontend-main-container']"
+    ],
+    "icon": "BookingPressPlugin.png",
+    "website": "https://www.bookingpressplugin.com"
+  },
   "Bookitit": {
     "cats": [
       72
