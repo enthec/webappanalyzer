@@ -5332,6 +5332,20 @@
     ],
     "website": "https://www.bridgetownrb.com"
   },
+  "BridTV": {
+    "cats": [
+      14
+    ],
+    "icon": "BridTV.png",
+    "js": {
+      "BridChromePlugin": "",
+      "bridCanRunAds": ""
+    },
+    "scripts": [
+      "brid\\.tv"
+    ],
+    "website": "https://cms.brid.tv"
+  },
   "Brightcove": {
     "cats": [
       14
