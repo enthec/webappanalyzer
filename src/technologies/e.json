@@ -4904,6 +4904,20 @@
     ],
     "website": "https://www.eyoucms.com"
   },
+  "eZ Platform": {
+    "cats": [
+      1,
+      6
+    ],
+    "icon": "eZ.svg",
+    "implies": [
+      "Symfony"
+    ],
+    "meta": {
+      "generator": "eZ Platform"
+    },
+    "website": "https://ezplatform.com/"
+  },
   "eZ Publish": {
     "cats": [
       1,
