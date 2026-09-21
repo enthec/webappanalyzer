@@ -8859,6 +8859,23 @@
     "icon": "Audiohook.svg",
     "website": "https://www.audiohook.com"
   },
+  "Audion": {
+    "cats": [
+      36
+    ],
+    "description": "Audion is a digital audio advertising company; its Audion360 podcast player is embedded on publisher pages and loads from 360.audion.fm.",
+    "dom": [
+      "#audion360-podcast-player-init, .audion-reader"
+    ],
+    "icon": "Audion.png",
+    "scriptSrc": [
+      "\\.360\\.audion\\.fm/"
+    ],
+    "website": "https://www.audion.fm",
+    "xhr": [
+      "\\.audion\\.fm"
+    ]
+  },
   "Auglio": {
     "cats": [
       105
