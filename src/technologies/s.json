@@ -12453,6 +12453,16 @@
     ],
     "website": "https://stampede.ai"
   },
+  "Stape": {
+    "cats": [
+      42
+    ],
+    "html": [
+      "\"stapeUserId\""
+    ],
+    "icon": "Stape.png",
+    "website": "https://stape.io"
+  },
   "Starboard Suite": {
     "cats": [
       104
