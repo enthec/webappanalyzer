@@ -3594,6 +3594,16 @@
     ],
     "website": "https://www.picreel.com"
   },
+  "Picsello": {
+    "cats": [
+      72
+    ],
+    "html": [
+      "<iframe [^>]*src=[^>]*\\.picsello\\.com/[^\"]*/embed/[^\"]*"
+    ],
+    "icon": "Picsello.png",
+    "website": "https://picsello.com/"
+  },
   "Picture It": {
     "cats": [
       100
