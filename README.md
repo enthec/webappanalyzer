@@ -274,3 +274,7 @@ Cost indicator (based on a typical plan or average monthly price) and available 
 - `recurring`: Subscriptions available
 - `poa`: Price on asking
 - `payg`: Pay as you go (e.g. commissions or usage-based fees)
+
+## Related tools
+
+**PostgreSQL importer:** [Webappanalyzer to PostgreSQL](https://github.com/Techyid613/webappanalyzer-postgres-importer) exports a local checkout, including file and image bytes, to a self-contained PostgreSQL database.
