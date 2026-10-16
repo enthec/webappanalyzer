@@ -231,6 +231,35 @@
     },
     "website": "https://get.gaug.es"
   },
+  "Gavvio": {
+    "cats": [
+      10
+    ],
+    "cookies": {
+      "_gv_anon": ""
+    },
+    "description": "Gavvio is a first-party marketing analytics and automation platform for agencies and creators: tracking, attribution, forms, chat and ad-platform conversion forwarding.",
+    "dom": [
+      "script[data-gavvio-kit]"
+    ],
+    "icon": "Gavvio.svg",
+    "js": {
+      "gavvio": "",
+      "gavvio.track": ""
+    },
+    "pricing": [
+      "freemium",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "/v1/g\\.js\\?w="
+    ],
+    "website": "https://gavvio.com",
+    "xhr": [
+      "/v1/events$"
+    ]
+  },
   "GBooking": {
     "cats": [
       72
