@@ -51,6 +51,33 @@
     "saas": true,
     "website": "https://fabric.inc"
   },
+  "Face Age": {
+    "cats": [
+      59,
+      112
+    ],
+    "description": "Face Age is an AI-powered JavaScript SDK for facial skin analysis.",
+    "dom": [
+      ".faceAge-main-module",
+      "iframe#FaceAge-module-iframe"
+    ],
+    "icon": "FaceAge.svg",
+    "js": {
+      "FaceAge.prototype.render": ""
+    },
+    "oss": true,
+    "saas": true,
+    "scriptSrc": [
+      "cdn\\.jsdelivr\\.net/npm/face-age@([\\d.]+)\\;version:\\1",
+      "cdn\\.jsdelivr\\.net/npm/face-age(?:/|$)",
+      "unpkg\\.com/face-age@([\\d.]+)\\;version:\\1",
+      "unpkg\\.com/face-age(?:/|$)"
+    ],
+    "website": "https://getfaceage.com",
+    "xhr": [
+      "core\\.getfaceage\\.com"
+    ]
+  },
   "Facebook Ads": {
     "cats": [
       36
