@@ -4070,9 +4070,6 @@
       "wp-embed\\.min\\.js",
       "wp-static\\.assets\\.sh/"
     ],
-    "scripts": [
-      "/wp-content"
-    ],
     "website": "https://wordpress.org"
   },
   "WordPress Block Editor": {
