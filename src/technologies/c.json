@@ -5194,16 +5194,16 @@
     "saas": true,
     "website": "https://cloudguard.ir"
   },
-  "CloudBac": {
+  "Cloudbac": {
     "cats": [
       1,
       51
     ],
-    "description": "CloudBac is a SaaS website builder and hosting platform for businesses.",
+    "description": "Cloudbac is a SaaS website builder and hosting platform for businesses.",
     "headers": {
       "X-Powered-By": "^CloudBac$"
     },
-    "icon": "CloudBac.svg",
+    "icon": "Cloudbac.svg",
     "meta": {
       "generator": "^CloudBac$"
     },
