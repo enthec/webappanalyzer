@@ -5201,11 +5201,11 @@
     ],
     "description": "Cloudbac is a SaaS website builder and hosting platform for businesses.",
     "headers": {
-      "X-Powered-By": "^CloudBac$"
+      "X-Powered-By": "^Cloudbac$"
     },
     "icon": "Cloudbac.svg",
     "meta": {
-      "generator": "^CloudBac$"
+      "generator": "^Cloudbac$"
     },
     "saas": true,
     "website": "https://www.cloudbac.com"
