@@ -1,4 +1,14 @@
 {
+  "Valorsic Studio": {
+  "cats": [59],
+  "dom": {
+    "[data-valorsic-studio]": {
+      "exists": ""
+    }
+  },
+  "icon": "Valorsic Studio.svg",
+  "website": "https://valorsic.studio"
+},
   "V2Board": {
     "cats": [
       64
