@@ -10070,6 +10070,16 @@
     "saas": true,
     "website": "https://sendsonar.com"
   },
+  "Sonares": {
+    "cats": [
+      5
+    ],
+    "html": [
+      "<iframe [^>]*src=[^>]*content\\.sonares\\.org/[^\"/]+"
+    ],
+    "icon": "Sonares.png",
+    "website": "https://sonares.org/"
+  },
   "SonarQube": {
     "cats": [
       47
