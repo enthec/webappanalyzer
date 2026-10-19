@@ -1,14 +1,4 @@
 {
-  "Valorsic Studio": {
-  "cats": [59],
-  "dom": {
-    "[data-valorsic-studio]": {
-      "exists": ""
-    }
-  },
-  "icon": "Valorsic Studio.png",
-  "website": "https://valorsic.studio"
-},
   "V2Board": {
     "cats": [
       64
@@ -96,6 +86,16 @@
     ],
     "website": "https://www.vagaro.com/pro/schedulicity"
   },
+  "Valorsic Studio": {
+  "cats": [59],
+  "dom": {
+    "[data-valorsic-studio]": {
+      "exists": ""
+    }
+  },
+  "icon": "Valorsic Studio.png",
+  "website": "https://valorsic.studio"
+},
   "Valuad": {
     "cats": [
       36
