@@ -8825,6 +8825,16 @@
     ],
     "website": "https://www.webmandesign.eu/portfolio/auberge-wordpress-theme/"
   },
+  "audienzz": {
+    "cats": [
+      1
+    ],
+    "icon": "audienzz.png",
+    "js": {
+      "audienzz": ""
+    },
+    "website": "https://audienzz.ch"
+  },
   "AudioEye": {
     "cats": [
       68
