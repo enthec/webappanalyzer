@@ -601,7 +601,9 @@
     "cats": [
       5
     ],
-    "dom": "script#ze-snippet",
+    "dom": [
+      "script#ze-snippet"
+    ],
     "icon": "Zendesk Widget.png",
     "js": {
       "zEACLoaded": "",
