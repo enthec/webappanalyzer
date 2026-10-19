@@ -5194,6 +5194,22 @@
     "saas": true,
     "website": "https://cloudguard.ir"
   },
+  "Cloudbac": {
+    "cats": [
+      1,
+      51
+    ],
+    "description": "Cloudbac is a SaaS website builder and hosting platform for businesses.",
+    "headers": {
+      "X-Powered-By": "^Cloudbac$"
+    },
+    "icon": "Cloudbac.svg",
+    "meta": {
+      "generator": "^Cloudbac$"
+    },
+    "saas": true,
+    "website": "https://www.cloudbac.com"
+  },
   "Cloudbeds": {
     "cats": [
       72
