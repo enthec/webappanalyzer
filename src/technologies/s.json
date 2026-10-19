@@ -3660,6 +3660,26 @@
     ],
     "website": "https://sevenrooms.com"
   },
+  "Sevio": {
+    "cats": [
+      36
+    ],
+    "description": "Sevio is an ad platform; sites load its loader from cdn.adx.ws, declare sevioads placements and request adx.ws endpoints.",
+    "dom": [
+      "ins.sevioads"
+    ],
+    "icon": "Sevio.png",
+    "js": {
+      "sevioads": ""
+    },
+    "scriptSrc": [
+      "cdn\\.adx\\.ws/"
+    ],
+    "website": "https://sevio.com",
+    "xhr": [
+      "\\.adx\\.ws"
+    ]
+  },
   "Sezzle": {
     "cats": [
       41,
