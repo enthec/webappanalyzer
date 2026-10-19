@@ -601,10 +601,13 @@
     "cats": [
       5
     ],
+    "dom": "script#ze-snippet",
     "icon": "Zendesk Widget.png",
     "js": {
-      "zE": ""
+      "zEACLoaded": "",
+      "zEmbed": ""
     },
+    "scriptSrc": "static\\.zdassets\\.com/ekr/snippet\\.js",
     "website": "https://developer.zendesk.com"
   },
   "Zenfolio": {
