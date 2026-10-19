@@ -597,6 +597,23 @@
     ],
     "website": "https://www.zendesk.com/platform/conversations"
   },
+  "Zendesk Widget": {
+    "cats": [
+      5
+    ],
+    "dom": [
+      "script#ze-snippet"
+    ],
+    "icon": "Zendesk Widget.png",
+    "js": {
+      "zEACLoaded": "",
+      "zEmbed": ""
+    },
+    "scriptSrc": [
+      "static\\.zdassets\\.com/ekr/snippet\\.js"
+    ],
+    "website": "https://developer.zendesk.com"
+  },
   "Zenfolio": {
     "cats": [
       7
