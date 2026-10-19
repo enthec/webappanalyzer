@@ -607,7 +607,9 @@
       "zEACLoaded": "",
       "zEmbed": ""
     },
-    "scriptSrc": "static\\.zdassets\\.com/ekr/snippet\\.js",
+    "scriptSrc": [
+      "static\\.zdassets\\.com/ekr/snippet\\.js"
+    ],
     "website": "https://developer.zendesk.com"
   },
   "Zenfolio": {
