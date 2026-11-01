@@ -11,6 +11,9 @@ To get started, see the [README](https://github.com/enthec/webappanalyzer/blob/m
 Wappalyzer uses [regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) to fingerprint technologies. Refer to the [specification](https://github.com/enthec/webappanalyzer/blob/master/README.md#specification) for detail.
 
 - Add a new block to [`src/technologies/*.json`](https://github.com/enthec/webappanalyzer/blob/master/src/technologies). The filename should match the first letter of the technology name (a-z). Use `_.json` if the first character is a number or symbol.
+- Add the icon to [`src/images/icons`](https://github.com/enthec/webappanalyzer/blob/master/src/images/icons) (PNG, JPG or SVG; SVGs can't contain scripts).
+- Run `python3 scripts/fix_order.py` to sort and format the technology files.
+- Run the validators in [`.github/workflows/scripts`](https://github.com/enthec/webappanalyzer/blob/master/.github/workflows/scripts) from the repository root (`pip install -r .github/workflows/requirements.txt` first).
 
 When creating a pull request, include ten or more links to websites that use the application.
 
