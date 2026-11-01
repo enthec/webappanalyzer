@@ -2372,6 +2372,9 @@
     "cats": [
       10
     ],
+    "dom": [
+      "img[src*='api.c99.ai/']"
+    ],
     "icon": "Channel99.png",
     "scripts": [
       "//api\\.c99\\.ai/api/v1/fire/"
@@ -4427,7 +4430,7 @@
     "scripts": [
       "//static\\.cleverpush\\.com/sdk/cleverpush-chat\\.js"
     ],
-    "website": "https://developers.cleverpush.com/"
+    "website": "https://cleverpush.com"
   },
   "CleverReach": {
     "cats": [
@@ -5636,16 +5639,11 @@
   },
   "ClouDNS": {
     "cats": [
-      19
+      88
     ],
     "dns": {
       "NS": [
-        "pns4\\.cloudns\\.net",
-        "ns2\\.cloudns\\.net",
-        "pns1\\.cloudns\\.net",
-        "dns2\\.cloudns\\.net",
-        "dns7\\.cloudns\\.net",
-        "pns64\\.cloudns\\.uk"
+        "\\.cloudns\\.(?:net|uk)"
       ]
     },
     "icon": "ClouDNS.png",
