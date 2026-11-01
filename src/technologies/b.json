@@ -5931,6 +5931,16 @@
     "saas": true,
     "website": "https://www.bsmart.co.il/"
   },
+  "BSmartData": {
+    "cats": [
+      10
+    ],
+    "icon": "BSmartData.png",
+    "scripts": [
+      "pixel\\.bsmartdata\\.com"
+    ],
+    "website": "https://www.bsmartdata.com"
+  },
   "Bsport": {
     "cats": [
       72
