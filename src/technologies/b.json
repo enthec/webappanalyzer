@@ -1186,21 +1186,17 @@
     "cats": [
       71
     ],
-    "description": "belboon is a German affiliate marketing network that tracks conversions and traffic through its belboon container tags and ad-srv.net tracking infrastructure.",
-    "dom": [
-      "img[src*=\"ad-srv.net\"], a[href*=\"ad-srv.net\"]"
-    ],
+    "description": "belboon is a German affiliate marketing network that tracks conversions and traffic through its belboon container tags.",
     "icon": "belboon.png",
     "js": {
       "belboonTag": ""
     },
     "scriptSrc": [
-      "containertags\\.belboon\\.(?:com|de)/",
-      "\\.ad-srv\\.net/"
+      "containertags\\.belboon\\.(?:com|de)/"
     ],
     "website": "https://www.belboon.com",
     "xhr": [
-      "\\.ad-srv\\.net|containertags\\.belboon\\."
+      "containertags\\.belboon\\."
     ]
   },
   "Belliza": {
@@ -3734,7 +3730,7 @@
     "scripts": [
       "ml314\\.com"
     ],
-    "website": "https://bombora.com/privacy"
+    "website": "https://bombora.com"
   },
   "BON Loyalty": {
     "cats": [
@@ -4087,14 +4083,18 @@
     ],
     "website": "https://www.bookingkoala.com"
   },
-  "BookingPressPlugin": {
+  "BookingPress": {
     "cats": [
-      72
+      72,
+      87
     ],
     "dom": [
       "[class='bpa-frontend-main-container']"
     ],
-    "icon": "BookingPressPlugin.png",
+    "icon": "BookingPress.png",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://www.bookingpressplugin.com"
   },
   "Bookitit": {
@@ -5466,9 +5466,9 @@
       "bridCanRunAds": ""
     },
     "scripts": [
-      "brid\\.tv"
+      "[/.]brid\\.tv"
     ],
-    "website": "https://cms.brid.tv"
+    "website": "https://www.brid.tv"
   },
   "Brightcove": {
     "cats": [
@@ -6038,9 +6038,13 @@
     "cats": [
       5
     ],
+    "dom": [
+      "a.buffer-add-button"
+    ],
     "icon": "Buffer button and social widgets.png",
-    "scripts": [
-      "//static\\.buffer\\.com/js"
+    "scriptSrc": [
+      "static\\.buffer(?:app)?\\.com/js/button",
+      "d389zggrogs7qo\\.cloudfront\\.net/js/button"
     ],
     "website": "https://buffer.com"
   },
