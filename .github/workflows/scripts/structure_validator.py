@@ -29,7 +29,7 @@ class StructureValidator:
 
     def validate(self) -> None:
         if not pathlib.Path(self._SOURCE_DIR).is_dir():
-            raise DirNotFoundException(f"{self._TECH_DIR} is not a valid directory")
+            raise DirNotFoundException(f"{self._SOURCE_DIR} is not a valid directory")
         if not self._FULL_TECH_DIR.is_dir():
             raise DirNotFoundException(f"{self._FULL_TECH_DIR} is not a valid directory")
         if not self._FULL_IMAGES_DIR.is_dir():

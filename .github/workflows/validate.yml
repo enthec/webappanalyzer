@@ -1,138 +1,59 @@
 name: Validate
-on: [push, pull_request, workflow_dispatch]
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
-  validate_structure:
+  validate:
     runs-on: ubuntu-24.04
-    strategy:
-      matrix:
-        python-version: [ "3.13" ]
     steps:
       - name: checkout repository
         uses: actions/checkout@v7
 
-      - name: set up Python ${{ matrix.python-version }}
+      - name: set up Python
         uses: actions/setup-python@v7
         with:
-          python-version: ${{ matrix.python-version }}
-
-      - name: run structure validator
-        run: python3 .github/workflows/scripts/structure_validator.py
-
-  validate_order_duplication:
-    runs-on: ubuntu-22.04
-    needs: validate_structure
-    strategy:
-      matrix:
-        python-version: [ "3.12" ]
-    steps:
-      - name: checkout repository
-        uses: actions/checkout@v7
-
-      - name: set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v7
-        with:
-          python-version: ${{ matrix.python-version }}
-
-      - name: run order validator
-        run: python3 .github/workflows/scripts/order_validator.py src/technologies
-
-  validate_schema:
-    runs-on: ubuntu-24.04
-    needs: validate_structure
-    strategy:
-      matrix:
-        python-version: [ "3.13" ]
-    steps:
-      - name: checkout repository
-        uses: actions/checkout@v7
-
-      - name: set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v7
-        with:
-          python-version: ${{ matrix.python-version }}
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: .github/workflows/requirements.txt
 
       - name: install dependencies
-        run: python3 -m pip install jsonschema
+        run: python3 -m pip install -r .github/workflows/requirements.txt
+
+      - name: run structure validator
+        id: structure
+        run: python3 .github/workflows/scripts/structure_validator.py
+
+      # every validator below runs even if a previous one failed, so a PR gets all errors at once
+      - name: run order validator
+        if: ${{ !cancelled() && steps.structure.outcome == 'success' }}
+        run: python3 .github/workflows/scripts/order_validator.py
 
       - name: run schema validator
+        if: ${{ !cancelled() && steps.structure.outcome == 'success' }}
         run: python3 .github/workflows/scripts/schema_validator.py
 
-  validate_categories:
-    runs-on: ubuntu-24.04
-    needs: validate_structure
-    strategy:
-      matrix:
-        python-version: [ "3.13" ]
-    steps:
-      - name: checkout repository
-        uses: actions/checkout@v7
-
-      - name: set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v7
-        with:
-          python-version: ${{ matrix.python-version }}
-
       - name: run category validator
+        if: ${{ !cancelled() && steps.structure.outcome == 'success' }}
         run: python3 .github/workflows/scripts/category_validator.py
 
-  validate_groups:
-    runs-on: ubuntu-24.04
-    needs: validate_structure
-    strategy:
-      matrix:
-        python-version: [ "3.13" ]
-    steps:
-      - name: checkout repository
-        uses: actions/checkout@v7
-
-      - name: set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v7
-        with:
-          python-version: ${{ matrix.python-version }}
-
-      - name: run category validator
+      - name: run group validator
+        if: ${{ !cancelled() && steps.structure.outcome == 'success' }}
         run: python3 .github/workflows/scripts/group_validator.py
 
-  tech_matrix_prep:
-    needs: [validate_categories, validate_groups]
-    uses: ./.github/workflows/tech_matrix_prep.yml
-
-  validate_techs:
-    runs-on: ubuntu-24.04
-    needs: tech_matrix_prep
-    strategy:
-      max-parallel: 20
-      matrix:
-        file_name: ${{ fromJson(needs.tech_matrix_prep.outputs.technologies) }}
-        python-version: [ "3.13" ]
-    steps:
-      - name: checkout repository
-        uses: actions/checkout@v7
-
-      - name: set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v7
-        with:
-          python-version: ${{ matrix.python-version }}
-
       - name: run tech validator
-        run: python3 -m pip install bs4 && python3 .github/workflows/scripts/technology_validator.py
-        env:
-          TECH_FILE_NAME: ${{ matrix.file_name }}
+        if: ${{ !cancelled() && steps.structure.outcome == 'success' }}
+        run: python3 .github/workflows/scripts/technology_validator.py
 
-  validate_icon_path:
-    runs-on: ubuntu-24.04
-    needs: validate_techs
-    strategy:
-      matrix:
-        python-version: [ "3.13" ]
-    steps:
-      - name: checkout repository
-        uses: actions/checkout@v7
-
-      - name: set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v7
-        with:
-          python-version: ${{ matrix.python-version }}
-
-      - name: run category validator
+      - name: run icon validator
+        if: ${{ !cancelled() && steps.structure.outcome == 'success' }}
         run: python3 .github/workflows/scripts/icon_path_validator.py

@@ -28,7 +28,7 @@ class UnknownFieldsException(Exception):
         super().__init__(msg)
 
 
-class CategoryValidator:
+class GroupValidator:
     def __init__(self):
         self._SOURCE_DIR: Final[str] = "src"
         self._GROUPS_FILE: Final[str] = "groups.json"
@@ -55,8 +55,8 @@ class CategoryValidator:
     @staticmethod
     def _name_validator(group_name: str, value: Any) -> None:
         if not isinstance(value, str):
-            raise InvalidTypeException(f"Category '{group_name}.name' is '{type(value).__name__}', but 'str' is required")
+            raise InvalidTypeException(f"Group '{group_name}.name' is '{type(value).__name__}', but 'str' is required")
 
 
 if __name__ == '__main__':
-    CategoryValidator().validate()
+    GroupValidator().validate()

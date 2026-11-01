@@ -465,6 +465,16 @@ class TechnologyProcessor:
 
 
 if __name__ == '__main__':
-    # for letter in string.ascii_lowercase + "_":
-    #     TechnologiesValidator(os.getenv("TECH_FILE_NAME", f"{letter}.json")).validate()
-    TechnologiesValidator(os.getenv("TECH_FILE_NAME")).validate()
+    # TECH_FILE_NAME validates a single file, otherwise every file is validated and all errors are reported
+    if tech_file_name := os.getenv("TECH_FILE_NAME"):
+        TechnologiesValidator(tech_file_name).validate()
+    else:
+        failed: bool = False
+        for letter in string.ascii_lowercase + "_":
+            try:
+                TechnologiesValidator(f"{letter}.json").validate()
+            except Exception as e:
+                failed = True
+                print(f"{letter}.json: {type(e).__name__}: {e}")
+        if failed:
+            raise SystemExit(1)
