@@ -437,6 +437,17 @@
     ],
     "website": "https://taggbox.com/"
   },
+  "Taggrs.io": {
+    "cats": [
+      42
+    ],
+    "html": [
+      "<!-- Server Side Tracking by Taggrs\\.io",
+      "<!-- Server Side Tagging by Taggrs\\.io"
+    ],
+    "icon": "Taggrs.io.png",
+    "website": "https://taggrs.io"
+  },
   "Tagnology": {
     "cats": [
       32
