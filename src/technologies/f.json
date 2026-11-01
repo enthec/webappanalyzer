@@ -4703,6 +4703,16 @@
     ],
     "website": "https://www.freespee.com"
   },
+  "Freestar": {
+    "cats": [
+      36
+    ],
+    "icon": "Freestar.png",
+    "js": {
+      "freestar": ""
+    },
+    "website": "https://freestar.com"
+  },
   "FreeTextBox": {
     "cats": [
       24
