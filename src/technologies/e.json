@@ -3553,6 +3553,16 @@
     ],
     "website": "https://eshopcrm.com"
   },
+  "Eskimi": {
+    "cats": [
+      36
+    ],
+    "icon": "Eskimi.png",
+    "scripts": [
+      "eskimi\\.com"
+    ],
+    "website": "https://business.eskimi.com"
+  },
   "EspoCRM": {
     "cats": [
       53
