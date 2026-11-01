@@ -4571,10 +4571,13 @@
       16
     ],
     "icon": "fraud0.png",
-    "scripts": [
-      "//bt\\.fraud0\\.com/api/v2/fz\\.js"
+    "scriptSrc": [
+      "(?:api|bt)\\.fraud0\\.com/"
     ],
-    "website": "https://www.fraud0.com/"
+    "website": "https://www.fraud0.com/",
+    "xhr": [
+      "(?:api|bt)\\.fraud0\\.com"
+    ]
   },
   "FraudLabs Pro": {
     "cats": [
