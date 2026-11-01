@@ -193,6 +193,7 @@
       },
       "html": {
         "type": "array",
+        "deprecated": true,
         "items": {
           "$ref": "#/$defs/non-empty-non-blank-string"
         }

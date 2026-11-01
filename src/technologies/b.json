@@ -5709,6 +5709,9 @@
       "<div[^>]+class=[\"']brz-root__container"
     ],
     "icon": "Brizy.svg",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://brizy.io"
   },
   "Broadstreet": {

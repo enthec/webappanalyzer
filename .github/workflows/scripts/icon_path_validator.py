@@ -2,8 +2,10 @@ import json
 import pathlib
 import string
 from collections import defaultdict
-from typing import Final
+from typing import Final, Optional
 from xml.etree import ElementTree
+
+from PIL import Image
 
 
 class InvalidStructureException(Exception):
@@ -29,11 +31,6 @@ class IconValidator:
         self._IMAGES_DIR: Final[str] = "images"
         self._ICONS_DIR: Final[str] = "icons"
         self._FULL_IMAGES_DIR: Final[pathlib.Path] = pathlib.Path(self._SOURCE_DIR).joinpath(self._IMAGES_DIR).joinpath(self._ICONS_DIR)
-        self._MAGIC_BYTES: Final[dict[str, bytes]] = {
-            "png": b"\x89PNG\r\n\x1a\n",
-            "jpg": b"\xff\xd8\xff",
-            "jpeg": b"\xff\xd8\xff"
-        }
 
     def validate(self) -> None:
         json_icons: set[str] = self.get_json_icons()
@@ -47,11 +44,10 @@ class IconValidator:
             by_lower[file.name.lower()].append(file.name)
             if file.name not in json_icons:
                 raise InvalidStructureException(f"{file.name} must be used, {file} isn't used!")
-            extension: str = file.name.split(".")[-1].lower()
-            if extension == "svg":
+            if file.suffix.lower() == ".svg":
                 self._validate_svg(file)
             else:
-                self._validate_raster(file, extension)
+                self._validate_raster(file)
 
         duplicates = {k: v for k, v in by_lower.items() if len(v) > 1}
         if duplicates:
@@ -83,12 +79,18 @@ class IconValidator:
                 if local_name == "href" and attr_value.strip().lower().startswith("javascript:"):
                     raise InvalidSVGException(f"SVG '{file.name}' can't contain javascript: links")
 
-    def _validate_raster(self, file: pathlib.Path, extension: str) -> None:
-        magic: bytes = self._MAGIC_BYTES[extension]
-        with file.open("rb") as f:
-            header: bytes = f.read(len(magic))
-        if header != magic:
-            raise InvalidImageException(f"'{file.name}' is not a real {extension} file")
+    @staticmethod
+    def _validate_raster(file: pathlib.Path) -> None:
+        try:
+            with Image.open(file) as image:
+                image_format: Optional[str] = image.format
+                image.verify()
+        except Exception as e:
+            raise InvalidImageException(f"'{file.name}' is not a valid image: {e}")
+        # the format Pillow registers for this extension (.png -> PNG, .jpg -> JPEG)
+        expected_format: Optional[str] = Image.registered_extensions().get(file.suffix.lower())
+        if image_format != expected_format:
+            raise InvalidImageException(f"'{file.name}' is a {image_format} image, its extension says {expected_format}")
 
     def get_json_icons(self) -> set[str]:
         letters: list[str] = list(string.ascii_lowercase)

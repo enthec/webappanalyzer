@@ -84,6 +84,16 @@ class InvalidURLException(Exception):
         super().__init__(msg)
 
 
+class InvalidXHRException(Exception):
+    def __init__(self, msg: str):
+        super().__init__(msg)
+
+
+class MissingPlatformException(Exception):
+    def __init__(self, msg: str):
+        super().__init__(msg)
+
+
 class AbstractValidator:
     def __init__(self, required: bool = False):
         self._required = required
@@ -162,6 +172,9 @@ class RegexValidator(abc.ABC, AbstractValidator):
         super().__init__()
         self._contains_regex = contains_regex
 
+    def contains_regex(self) -> bool:
+        return self._contains_regex
+
     def _validate(self, tech_name: str, data: Any) -> bool:
         if not super()._validate(tech_name, data):
             return False
@@ -229,6 +242,38 @@ class ArrayValidator(RegexValidator):
 class DictValidator(RegexValidator):
     def get_type(self) -> list[Type]:
         return [dict]
+
+
+class XHRValidator(ArrayValidator):
+    def _validate(self, tech_name: str, data: Any) -> bool:
+        if not super()._validate(tech_name, data):
+            return False
+        for pattern in data:
+            if not self._is_hostname_pattern(pattern.split(r"\;")[0]):
+                self._set_custom_error(InvalidXHRException(f"xhr pattern '{pattern}' for tech '{tech_name}' can only match hostnames, paths and query strings are never matched"))
+                return False
+        return True
+
+    @staticmethod
+    def _is_hostname_pattern(pattern: str) -> bool:
+        # literal characters that can't be part of a hostname, character classes are ignored
+        in_class: bool = False
+        escaped: bool = False
+        for char in pattern:
+            if escaped:
+                escaped = False
+                if not in_class and char in "/?&=[]#":
+                    return False
+            elif char == "\\":
+                escaped = True
+            elif in_class:
+                if char == "]":
+                    in_class = False
+            elif char == "[":
+                in_class = True
+            elif char in "/&=#":
+                return False
+        return True
 
 
 class DNSValidator(DictValidator):
@@ -365,17 +410,20 @@ class ReferenceValidator(ArrayValidator):
 
 
 class TechnologiesValidator:
-    def __init__(self, file_name: str):
+    def __init__(self, file_name: Optional[str] = None):
         self._SOURCE_DIR: Final[str] = "src"
         self._TECH_DIR: Final[str] = "technologies"
         self._FULL_TECH_DIR: Final[pathlib.Path] = pathlib.Path(self._SOURCE_DIR).joinpath(self._TECH_DIR)
-        self._TECH_FILE: Final[pathlib.Path] = self._FULL_TECH_DIR.joinpath(file_name)
+        self._TECH_FILE: Final[Optional[pathlib.Path]] = self._FULL_TECH_DIR.joinpath(file_name) if file_name else None
         with pathlib.Path(self._SOURCE_DIR).joinpath("categories.json").open("r", encoding="utf8") as categories:
-            self._CATEGORIES: Final[list[int]] = [int(cat) for cat in json.loads(categories.read())]
+            self._CATEGORIES_DATA: Final[dict[str, dict]] = json.loads(categories.read())
+        self._CATEGORIES: Final[list[int]] = [int(cat) for cat in self._CATEGORIES_DATA]
         self._IMAGES_DIR: Final[str] = "images"
         self._ICONS_DIR: Final[str] = "icons"
         self._ICONS: Final[list[str]] = [icon.name for icon in pathlib.Path(self._SOURCE_DIR).joinpath(self._IMAGES_DIR).joinpath(self._ICONS_DIR).iterdir()]
-        self._ALL_TECHS: Final[set[str]] = self._get_all_tech_names()
+        self._ALL_TECHS_DATA: Final[dict[str, dict]] = self._get_all_techs()
+        self._ALL_TECHS: Final[set[str]] = set(self._ALL_TECHS_DATA.keys())
+        self._PLATFORM_CATEGORIES: Final[dict[int, str]] = self._get_platform_categories()
         self._validators: dict[str, AbstractValidator] = {  # TODO confidence and version validator
             "cats": CategoryValidator(self._CATEGORIES, True),
             "website": URLValidator(True),
@@ -399,13 +447,22 @@ class TechnologiesValidator:
             "probe": DictValidator(),
             "robots": ArrayValidator(),
             "url": ArrayValidator(contains_regex=True),
-            "xhr": ArrayValidator(contains_regex=True),
+            "xhr": XHRValidator(contains_regex=True),
             "meta": DictValidator(contains_regex=True),
             "scriptSrc": ArrayValidator(contains_regex=True),
             "scripts": ArrayValidator(contains_regex=True),
             "html": ArrayValidator(contains_regex=True),
             "certIssuer": StringValidator()
         }
+
+    def get_technologies(self) -> dict[str, dict]:
+        return self._ALL_TECHS_DATA
+
+    def get_pattern_fields(self) -> list[str]:
+        return [
+            field for field, validator in self._validators.items()
+            if isinstance(validator, DomValidator) or (isinstance(validator, RegexValidator) and validator.contains_regex())
+        ]
 
     def validate(self) -> None:
         initial_letter: str = self._TECH_FILE.name.removesuffix(".json")
@@ -423,6 +480,38 @@ class TechnologiesValidator:
                     raise InvalidTechFileException(f"Tech '{tech}' can't start or end with whitespace ' '")
                 p: TechnologyProcessor = TechnologyProcessor(tech, data, self._validators)
                 p.process()
+                self._validate_platform(tech, data)
+
+    def _validate_platform(self, tech: str, data: dict) -> None:
+        for category, platform in self._PLATFORM_CATEGORIES.items():
+            if category in data.get("cats", []) and not self._depends_on(tech, platform, set()):
+                raise MissingPlatformException(f"Tech '{tech}' is in category {category} but doesn't require or imply '{platform}' (directly or through another tech)")
+
+    def _get_platform_categories(self) -> dict[int, str]:
+        # a category named after a tech ("WordPress plugins", "Shopify apps") where most of its techs already
+        # depend on that tech only exists on top of it, so every tech in it has to depend on it
+        platform_categories: dict[int, str] = {}
+        for category_id, category in self._CATEGORIES_DATA.items():
+            for platform in self._ALL_TECHS:
+                if not category["name"].startswith(f"{platform} "):
+                    continue
+                members: list[str] = [tech for tech, data in self._ALL_TECHS_DATA.items() if int(category_id) in data.get("cats", [])]
+                dependent: int = sum(1 for tech in members if self._depends_on(tech, platform, set()))
+                if dependent * 2 > len(members):
+                    platform_categories[int(category_id)] = platform
+        return platform_categories
+
+    def _depends_on(self, tech: str, platform: str, seen: set[str]) -> bool:
+        data: dict = self._ALL_TECHS_DATA.get(tech, {})
+        for ref in data.get("requires", []) + data.get("implies", []):
+            ref_name: str = ref.split(r"\;")[0]
+            if ref_name == platform:
+                return True
+            if ref_name not in seen:
+                seen.add(ref_name)
+                if self._depends_on(ref_name, platform, seen):
+                    return True
+        return False
 
     @classmethod
     def _duplicate_key_validator(cls, pairs: list[tuple[str, Any]]) -> dict[str, Any]:
@@ -433,14 +522,14 @@ class TechnologiesValidator:
             result[key] = value
         return result
 
-    def _get_all_tech_names(self) -> set[str]:
-        all_techs: set[str] = set()
+    def _get_all_techs(self) -> dict[str, dict]:
+        all_techs: dict[str, dict] = {}
         for letter in list(string.ascii_lowercase) + ["_"]:
             tech_file: pathlib.Path = self._FULL_TECH_DIR.joinpath(f"{letter}.json")
             if tech_file.exists():
                 with tech_file.open("r", encoding="utf8") as f:
                     technologies: dict = json.load(f)
-                all_techs.update(technologies.keys())
+                all_techs.update(technologies)
         return all_techs
 
 

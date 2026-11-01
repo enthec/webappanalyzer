@@ -1,2 +1,4 @@
 beautifulsoup4==4.15.0
 jsonschema==4.26.0
+pillow==12.3.0
+publicsuffixlist==1.1.0.20261017

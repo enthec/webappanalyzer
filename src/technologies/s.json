@@ -4792,7 +4792,7 @@
   },
   "Shopify Buy Button": {
     "cats": [
-      100
+      6
     ],
     "description": "Shopify Buy Button is an app from Shopify which allows merchant to embed buy functionality for any product or collection into another website or blog.",
     "icon": "Shopify.svg",
@@ -4803,7 +4803,7 @@
       "freemium"
     ],
     "scriptSrc": [
-      "sdk\\. shopifycdn\\.com/buy-button/latest/"
+      "sdks\\.shopifycdn\\.com/buy-button/"
     ],
     "website": "https://apps.shopify.com/buy-button"
   },
@@ -8300,6 +8300,9 @@
       }
     },
     "icon": "Slim-SEO.svg",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://wpslimseo.com"
   },
   "Slimbox": {
@@ -10751,6 +10754,9 @@
     "meta": {
       "generator": "^speculation-rules ([\\d.]+)?\\;version:\\1"
     },
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://wordpress.org/plugins/speculation-rules/"
   },
   "Speed Kit": {
@@ -15033,6 +15039,9 @@
     ],
     "description": "Upsell is a tool that boosts Shopify store profits by automating product upsells.",
     "icon": "SweetUpsell.svg",
+    "implies": [
+      "Shopify"
+    ],
     "pricing": [
       "freemium",
       "low",

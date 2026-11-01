@@ -803,6 +803,9 @@
     "meta": {
       "generator": "^web-worker-offloading ([\\d.]+)?\\;version:\\1"
     },
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://wordpress.org/plugins/web-worker-offloading/"
   },
   "web-vitals": {
@@ -4674,6 +4677,9 @@
     "pricing": [
       "low",
       "recurring"
+    ],
+    "requires": [
+      "WordPress"
     ],
     "saas": true,
     "scriptSrc": [
