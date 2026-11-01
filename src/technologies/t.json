@@ -3431,6 +3431,16 @@
     ],
     "website": "https://threejs.org"
   },
+  "Threedium": {
+    "cats": [
+      105
+    ],
+    "icon": "Threedium.png",
+    "scripts": [
+      "unlimited3d\\.com"
+    ],
+    "website": "https://threedium.co.uk"
+  },
   "Threekit": {
     "cats": [
       105,
