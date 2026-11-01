@@ -641,6 +641,21 @@
     ],
     "website": "https://hatenablog.com"
   },
+  "Have I Been Pwned": {
+    "cats": [
+      16
+    ],
+    "description": "Have I Been Pwned is a data breach notification service that lets organisations monitor breached email addresses on domains they have verified.",
+    "dns": {
+      "TXT": [
+        "have-i-been-pwned-verification=",
+        "hibp-verify="
+      ]
+    },
+    "icon": "Have I Been Pwned.png",
+    "saas": true,
+    "website": "https://haveibeenpwned.com"
+  },
   "HawkSearch": {
     "cats": [
       29
