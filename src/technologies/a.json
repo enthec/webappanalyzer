@@ -1127,11 +1127,11 @@
     "description": "Ad-Shield is an adblock-recovery layer; publisher pages load its loader from html-load.com and talk to content-loader.com.",
     "icon": "Ad-Shield.png",
     "scriptSrc": [
-      "(?:html-load\\.com|content-loader\\.com)/"
+      "[/.](?:html-load|content-loader)\\.com/"
     ],
     "website": "https://www.ad-shield.io",
     "xhr": [
-      "(?:html-load\\.com|content-loader\\.com|error-report\\.com)"
+      "(?:^|\\.)(?:html-load|content-loader|error-report)\\.com$"
     ]
   },
   "Ada": {
@@ -1636,7 +1636,6 @@
     "description": "AdGrid is a header-bidding and ad management platform that helps publishers monetize their inventory.",
     "icon": "AdGrid.png",
     "js": {
-      "adGrid": "",
       "adgridConfig": "",
       "adgridFqdn": "",
       "adgridDomainId": ""
@@ -2073,7 +2072,7 @@
       17
     ],
     "icon": "Adobe Edge Web Fonts.png",
-    "scripts": [
+    "scriptSrc": [
       "use\\.edgefonts\\.net"
     ],
     "website": "https://edgewebfonts.adobe.com"
