@@ -1514,6 +1514,32 @@
     ],
     "website": "https://betterbot.com"
   },
+  "BetterCMS": {
+    "cats": [
+      1
+    ],
+    "description": "BetterCMS is a headless and hybrid CMS with a visual editor, structured content and site hosting, for websites built with any framework.",
+    "dom": [
+      "[data-bcms-field], [data-bcms-sections], [data-bcms-entry], img[src*='cdn.bettercms.ai'], img[srcset*='cdn.bettercms.ai'], source[srcset*='cdn.bettercms.ai']"
+    ],
+    "headers": {
+      "x-bcms-edge": ""
+    },
+    "icon": "BetterCMS.svg",
+    "meta": {
+      "generator": "^BetterCMS$"
+    },
+    "pricing": [
+      "low",
+      "freemium",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://bettercms.ai",
+    "xhr": [
+      "(?:api|cdn)\\.bettercms\\.ai"
+    ]
+  },
   "BetterDocs": {
     "cats": [
       4
