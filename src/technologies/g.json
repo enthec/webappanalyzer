@@ -64,6 +64,9 @@
       10
     ],
     "icon": "GameAnalytics.png",
+    "scriptSrc": [
+      "GameAnalytics(?:\\.min)?\\.js"
+    ],
     "scripts": [
       "GameAnalytics(?:\\.min)?\\.js"
     ],
