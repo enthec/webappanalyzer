@@ -297,6 +297,19 @@
     ],
     "website": "https://www.calendarwiz.com/"
   },
+  "Calendesk": {
+    "cats": [
+      72
+    ],
+    "dom": [
+      "iframe[src*='.calendesk.net']"
+    ],
+    "icon": "Calendesk.png",
+    "js": {
+      "Calendesk": ""
+    },
+    "website": "https://calendesk.com"
+  },
   "Calendly": {
     "cats": [
       72
