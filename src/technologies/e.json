@@ -1481,6 +1481,19 @@
     ],
     "website": "https://www.optimizely.com/ektron-cms"
   },
+  "EL TIEMPO": {
+    "cats": [
+      5
+    ],
+    "icon": "EL TIEMPO.png",
+    "js": {
+      "FS.clearUserCookie": ""
+    },
+    "scripts": [
+      "www\\.eltiempo\\.es/widget"
+    ],
+    "website": "https://eltiempo.es/widget"
+  },
   "Elastic APM": {
     "cats": [
       10,
