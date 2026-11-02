@@ -1350,6 +1350,19 @@
     },
     "website": "https://indi.com"
   },
+  "Indicative": {
+    "cats": [
+      10
+    ],
+    "icon": "Indicative.png",
+    "js": {
+      "Indicative": ""
+    },
+    "scripts": [
+      "//cdn\\.indicative\\.com/js/Indicative\\.min\\.js"
+    ],
+    "website": "https://www.indicative.com/"
+  },
   "Indico": {
     "cats": [
       1
