@@ -2009,6 +2009,16 @@
     ],
     "website": "https://wordpress.org/plugins/instagram-feed/"
   },
+  "Instagram widget": {
+    "cats": [
+      5
+    ],
+    "icon": "Instagram widget.png",
+    "scripts": [
+      "instagram\\.com/embed\\.js"
+    ],
+    "website": "https://instagram.com"
+  },
   "Instamojo": {
     "cats": [
       41
