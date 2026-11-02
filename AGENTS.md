@@ -44,7 +44,7 @@ The full specification is in [README.md](README.md#specification). The fields th
 | `meta`      | `<meta name content>` values                          | `{"generator": "^Vendor"}`                          |
 | `headers`   | HTTP response headers                                 | `{"X-Powered-By": "^Vendor"}`                       |
 | `dns`       | DNS records                                           | the vendor's nameservers or TXT verification        |
-| `html`      | **deprecated**, don't use it in new patterns          | use `dom`, `text` or `css`                          |
+| `html`      | **deprecated**, fix existing patterns but add no more | use `dom`, `text` or `css`                          |
 
 ## Writing patterns
 
