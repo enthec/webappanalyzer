@@ -3007,6 +3007,9 @@
       "<div[^>]+class=[\"']themify_builder_*"
     ],
     "icon": "themify-builder.png",
+    "requires": [
+      "WordPress"
+    ],
     "website": "https://themify.me/builder"
   },
   "Themonic Iconic One": {
@@ -3117,6 +3120,9 @@
     ],
     "description": "Thimatic is a Shopify app for product reviews.",
     "icon": "Thimatic.svg",
+    "implies": [
+      "Shopify"
+    ],
     "pricing": [
       "low",
       "recurring"
@@ -4128,6 +4134,9 @@
       "div[class*='timesact_powered_by']"
     ],
     "icon": "Timesact.svg",
+    "implies": [
+      "Shopify"
+    ],
     "js": {
       "timesactScriptNew": ""
     },
@@ -6992,6 +7001,9 @@
       }
     },
     "icon": "WordPress.svg",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": [
       "/wp-content/themes/twentytwentyfive/"
     ],
@@ -7008,6 +7020,9 @@
       }
     },
     "icon": "WordPress.svg",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": [
       "/wp-content/themes/twentytwentyfour/"
     ],

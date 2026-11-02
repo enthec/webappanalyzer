@@ -3,6 +3,8 @@ on:
   push:
     branches: [ main ]
   pull_request:
+    # labeled/unlabeled so adding the 'bulk-change' label re-runs the checks
+    types: [ opened, synchronize, reopened, labeled, unlabeled ]
   workflow_dispatch:
 
 permissions:
@@ -18,6 +20,9 @@ jobs:
     steps:
       - name: checkout repository
         uses: actions/checkout@v7
+        with:
+          # the pull request validator needs the base branch history
+          fetch-depth: 0
 
       - name: set up Python
         uses: actions/setup-python@v7
@@ -57,3 +62,10 @@ jobs:
       - name: run icon validator
         if: ${{ !cancelled() && steps.structure.outcome == 'success' }}
         run: python3 .github/workflows/scripts/icon_path_validator.py
+
+      - name: run pull request validator
+        if: ${{ !cancelled() && steps.structure.outcome == 'success' && github.event_name == 'pull_request' }}
+        run: python3 .github/workflows/scripts/pr_validator.py
+        env:
+          BASE_REF: origin/${{ github.base_ref }}
+          ALLOW_BULK: ${{ contains(github.event.pull_request.labels.*.name, 'bulk-change') }}

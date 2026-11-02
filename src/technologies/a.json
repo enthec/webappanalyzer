@@ -4125,6 +4125,9 @@
     ],
     "description": "Ali reviews is a shopify app to collect reviews from customers.",
     "icon": "Alireviews.svg",
+    "implies": [
+      "Shopify"
+    ],
     "js": {
       "alireviews_tags": ""
     },

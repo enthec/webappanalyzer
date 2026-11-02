@@ -498,6 +498,9 @@
       "<div[^>]+class=[\"']wp-block-atomic-blocks-*"
     ],
     "icon": "genesis-blocks.png",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": [
       "/wp-content/themes/genesis-blocks/lib/js/"
     ],
@@ -3979,7 +3982,7 @@
     "oss": true,
     "website": "https://graphql.org",
     "xhr": [
-      "graphql\\.[\\w]+\\.(?:com|net)/"
+      "graphql\\.[\\w]+\\.(?:com|net)"
     ]
   },
   "Graphy": {

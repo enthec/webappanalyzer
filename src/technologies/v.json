@@ -87,15 +87,17 @@
     "website": "https://www.vagaro.com/pro/schedulicity"
   },
   "Valorsic Studio": {
-  "cats": [59],
-  "dom": {
-    "[data-valorsic-studio]": {
-      "exists": ""
-    }
+    "cats": [
+      59
+    ],
+    "dom": {
+      "[data-valorsic-studio]": {
+        "exists": ""
+      }
+    },
+    "icon": "Valorsic Studio.png",
+    "website": "https://valorsic.studio"
   },
-  "icon": "Valorsic Studio.png",
-  "website": "https://valorsic.studio"
-},
   "Valuad": {
     "cats": [
       36

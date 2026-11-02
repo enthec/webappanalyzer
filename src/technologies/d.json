@@ -4595,7 +4595,7 @@
     "saas": true,
     "website": "https://dyte.io",
     "xhr": [
-      "cdn\\.dyte\\.in/"
+      "cdn\\.dyte\\.in"
     ]
   }
 }

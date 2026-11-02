@@ -1545,6 +1545,9 @@
     ],
     "description": "Cartylabs is a Shopify application that provides a fast checkout experience and enables merchants to implement upsell and cross-sell features directly within the shopping cart.",
     "icon": "Cartylabs.svg",
+    "implies": [
+      "Shopify"
+    ],
     "pricing": [
       "low",
       "recurring"
@@ -2877,7 +2880,7 @@
     ],
     "website": "https://chatra.com",
     "xhr": [
-      "chat\\.chatra\\.io/"
+      "chat\\.chatra\\.io"
     ]
   },
   "Chatroll": {
@@ -3165,7 +3168,7 @@
     "saas": true,
     "website": "https://www.checklyhq.com",
     "xhr": [
-      "api\\.checklyhq\\.com/"
+      "api\\.checklyhq\\.com"
     ]
   },
   "Checkout Champ": {
@@ -6163,6 +6166,9 @@
     ],
     "description": "Codetipi is a provider of WordPress themes and plugins designed for premium users.",
     "icon": "Codetipi.svg",
+    "requires": [
+      "WordPress"
+    ],
     "saas": true,
     "scripts": [
       "codetipi-"
@@ -6824,7 +6830,7 @@
     "saas": true,
     "website": "https://www.commercengine.io",
     "xhr": [
-      "prod\\.api\\.commercengine\\.io/"
+      "prod\\.api\\.commercengine\\.io"
     ]
   },
   "Commerce Server": {
@@ -6961,7 +6967,7 @@
     ],
     "website": "https://commercetools.com",
     "xhr": [
-      "\\.commercetools\\.com/"
+      "\\.commercetools\\.com"
     ]
   },
   "Commercio": {
@@ -7369,6 +7375,9 @@
     ],
     "description": "Conjured provides Shopify brands with Shopify apps and custom development.",
     "icon": "Conjured.svg",
+    "implies": [
+      "Shopify"
+    ],
     "pricing": [
       "recurring",
       "mid"
@@ -8522,6 +8531,9 @@
     ],
     "description": "Cookie Notice provides a simple, customizable website banner that can be used to help your website comply with certain cookie consent requirements under the EU GDPR cookie law and CCPA regulations and includes seamless integration with Cookie Compliance to help your site comply with the latest updates to existing consent laws.",
     "icon": "Cookie Notice.svg",
+    "requires": [
+      "WordPress"
+    ],
     "scriptSrc": [
       "/wp-content/plugins/cookie-notice/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
     ],
@@ -8879,6 +8891,9 @@
     "pricing": [
       "freemium",
       "onetime"
+    ],
+    "requires": [
+      "WordPress"
     ],
     "saas": true,
     "website": "https://coreframework.com"
@@ -9354,6 +9369,9 @@
     ],
     "description": "Covet.pics is a customizable Shopify app for Instagram and Lookbook shoppable galleries.",
     "icon": "Covet.pics.svg",
+    "implies": [
+      "Shopify"
+    ],
     "pricing": [
       "low",
       "recurring"

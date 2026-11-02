@@ -18,6 +18,11 @@ class InvalidStructureException(Exception):
         super().__init__(msg)
 
 
+class FormattingException(Exception):
+    def __init__(self, msg: str):
+        super().__init__(msg)
+
+
 class OrderValidator:
     def __init__(self):
         self._SOURCE_DIR: Final[str] = "src"
@@ -34,7 +39,11 @@ class OrderValidator:
 
     def _check_ordering(self, tech_file: pathlib.Path) -> None:
         with tech_file.open("r", encoding="utf8") as f:
-            data: dict = json.load(f, object_pairs_hook=self._duplicate_key_validator)
+            content: str = f.read()
+        data: dict = json.loads(content, object_pairs_hook=self._duplicate_key_validator)
+        # same output as scripts/fix_order.py
+        if content != json.dumps(data, indent=2, ensure_ascii=False) + "\n":
+            raise FormattingException(f"{tech_file.name} is not formatted, run 'python3 scripts/fix_order.py'")
         if not isinstance(data, dict):
             raise InvalidStructureException(f"{tech_file.name} root must be an object")
         keys: list[str] = list(data.keys())

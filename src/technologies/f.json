@@ -164,12 +164,10 @@
     "implies": [
       "Facebook Pixel"
     ],
-    "website": "https://www.facebook.com/business/help/611774685654668?id=1205376682832142",
-    "xhr": [
-      "facebook\\.com/tr/",
-      "udff\\[em\\]=[a-fA-F0-9]{64}",
-      "udff\\[.+\\]=[a-fA-F0-9]+"
-    ]
+    "scripts": [
+      "fbq\\(\\s*['\"]init['\"]\\s*,\\s*['\"]?\\d+['\"]?\\s*,\\s*\\{"
+    ],
+    "website": "https://www.facebook.com/business/help/611774685654668?id=1205376682832142"
   },
   "Facil-iti": {
     "cats": [
