@@ -93,6 +93,7 @@ class PullRequestValidator:
         if not data.get("icon"):
             self._report("error", name, f"Tech '{name}' needs an 'icon'")
         self._check_names(name, data, set(), set())
+        self._check_deprecated(name, {}, data)
         for field, pattern in self._patterns(data):
             self._check_regex(name, field, pattern)
         self._check_specificity(name, data)
@@ -104,6 +105,15 @@ class PullRequestValidator:
             if (field, pattern) not in old_patterns:
                 self._check_regex(name, field, pattern)
         self._check_names(name, new, set(old.get("js", {})), set(old.get("cookies", {})))
+        self._check_deprecated(name, old, new)
+
+    def _check_deprecated(self, name: str, old: dict, new: dict) -> None:
+        # existing patterns in a deprecated field can be fixed, but the field can't get more patterns
+        for field in self._DEPRECATED_FIELDS:
+            old_count: int = len(self._strings(old.get(field)))
+            new_count: int = len(self._strings(new.get(field)))
+            if new_count > old_count:
+                self._report("error", name, f"'{field}' is deprecated (see schema.json), '{name}' can't add patterns to it, use another field")
 
     def _check_names(self, name: str, data: dict, old_js: set[str], old_cookies: set[str]) -> None:
         for key in data.get("js", {}):
@@ -115,8 +125,6 @@ class PullRequestValidator:
                 self._report("error", name, f"cookie '{cookie}' in '{name}' is too short to be specific (min {self._MIN_COOKIE_LENGTH} chars)")
 
     def _check_regex(self, name: str, field: str, pattern: str) -> None:
-        if field in self._DEPRECATED_FIELDS:
-            self._report("error", name, f"'{field}' is deprecated (see schema.json), use another field for '{pattern}' in '{name}'")
         if field == "dom":
             return
         for match in self._RAW_HOST.finditer(pattern):
