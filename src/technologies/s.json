@@ -14782,6 +14782,16 @@
     "saas": true,
     "website": "https://survale.com"
   },
+  "SurveyMonkey Widget": {
+    "cats": [
+      5
+    ],
+    "icon": "SurveyMonkey Widget.svg",
+    "scripts": [
+      "//widget\\.surveymonkey\\.com"
+    ],
+    "website": "https://www.surveymonkey.com/"
+  },
   "Survicate": {
     "cats": [
       73
