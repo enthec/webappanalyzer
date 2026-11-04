@@ -1517,6 +1517,16 @@
     ],
     "website": "https://www.scheduleanyone.com"
   },
+  "Schedulista": {
+    "cats": [
+      72
+    ],
+    "dom": [
+      "iframe[src*='schedulista.com']"
+    ],
+    "icon": "Schedulista.png",
+    "website": "https://schedulista.com"
+  },
   "Schema App": {
     "cats": [
       54
