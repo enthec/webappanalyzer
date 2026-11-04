@@ -1517,6 +1517,19 @@
     ],
     "website": "https://www.scheduleanyone.com"
   },
+  "Schedulicity": {
+    "cats": [
+      72
+    ],
+    "dom": [
+      "a[href*='schedulicity.com/scheduling/']"
+    ],
+    "icon": "Schedulicity.png",
+    "scripts": [
+      "api\\.schedulicity\\.com"
+    ],
+    "website": "https://www.schedulicity.com"
+  },
   "Schema App": {
     "cats": [
       54
