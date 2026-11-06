@@ -12939,6 +12939,23 @@
     "oss": true,
     "website": "https://stenciljs.com"
   },
+  "Stencil (hellostencil.com)": {
+    "cats": [
+      51
+    ],
+    "description": "Stencil is an AI app builder that creates, hosts and publishes web apps from a plain-language description.",
+    "icon": "hellostencil.png",
+    "meta": {
+      "generator": "^Stencil \\(hellostencil\\.com\\)$"
+    },
+    "pricing": [
+      "low",
+      "freemium",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://hellostencil.com"
+  },
   "Stetic Analytics": {
     "cats": [
       10
