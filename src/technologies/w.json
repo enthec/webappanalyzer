@@ -496,6 +496,7 @@
       "freemium"
     ],
     "scriptSrc": [
+      "sdk\\.watchmusic\\.app/web-api/v\\d+\\.js",
       "developers\\.watchmusic\\.app/sdk/v\\d+/web-api\\.js"
     ],
     "website": "https://developers.watchmusic.app"
