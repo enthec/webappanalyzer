@@ -4896,6 +4896,18 @@
     "saas": true,
     "website": "https://www.extrawatch.com"
   },
+  "ExyonQ": {
+    "cats": [
+      22,
+      64
+    ],
+    "description": "ExyonQ is an HTTP server and reverse proxy written in Rust.",
+    "headers": {
+      "Server": "^exyonq$"
+    },
+    "icon": "ExyonQ.png",
+    "website": "https://exyonq.org"
+  },
   "EyeFitU": {
     "cats": [
       102
