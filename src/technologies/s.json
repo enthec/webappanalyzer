@@ -4668,6 +4668,34 @@
     "saas": true,
     "website": "https://www.shopfactory.com"
   },
+  "ShopFast": {
+    "cats": [
+      6
+    ],
+    "description": "ShopFast is a hosted ecommerce platform for selling digital products, with customisable storefronts on shopfa.st subdomains or custom domains.",
+    "dom": [
+      "a.sf-powered[href^='https://shopfa.st/']",
+      "img[src^='https://media.shopfa.st/']",
+      "script#sf-skeletons[type='application/json']"
+    ],
+    "icon": "ShopFast.svg",
+    "meta": {
+      "sf:page-type": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "/_sf/runtime\\.[\\da-f]{12}\\.js"
+    ],
+    "url": [
+      "^https?://[^/]+\\.shopfa\\.st/"
+    ],
+    "website": "https://shopfa.st"
+  },
   "Shopflo": {
     "cats": [
       41
