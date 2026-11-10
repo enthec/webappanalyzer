@@ -5380,6 +5380,24 @@
     ],
     "website": "https://www.modalforms.com"
   },
+  "Model Context Protocol": {
+    "cats": [
+      112
+    ],
+    "description": "Model Context Protocol (MCP) is an open protocol that connects AI applications to external tools and data sources.",
+    "headers": {
+      "Access-Control-Allow-Headers": "\\bmcp-(?:session-id|protocol-version)\\b",
+      "Access-Control-Expose-Headers": "\\bmcp-(?:session-id|protocol-version)\\b",
+      "Mcp-Session-Id": "",
+      "WWW-Authenticate": "resource_metadata=\"https?://[^\"]+/\\.well-known/oauth-protected-resource/mcp/?\""
+    },
+    "icon": "Model Context Protocol.svg",
+    "oss": true,
+    "text": [
+      "^This URL can only be accessed with a MCP client\\.$"
+    ],
+    "website": "https://modelcontextprotocol.io"
+  },
   "Modelo": {
     "cats": [
       105
