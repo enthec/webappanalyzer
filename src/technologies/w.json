@@ -480,6 +480,27 @@
     ],
     "website": "https://www.wasteconnections.com"
   },
+  "Watch Music Web API": {
+    "cats": [
+      19
+    ],
+    "description": "Watch Music Web API endpoints return JSON metadata about music artists, albums, tracks and playlists from the Watch Music catalogue, and give OAuth 2.0 access to listener libraries and playback.",
+    "dom": [
+      "html[data-watchmusic-web-api]"
+    ],
+    "icon": "WatchMusic.svg",
+    "js": {
+      "WatchMusicWebAPI.version": "^(.+)$\\;version:\\1"
+    },
+    "pricing": [
+      "freemium"
+    ],
+    "scriptSrc": [
+      "sdk\\.watchmusic\\.app/web-api/v\\d+\\.js",
+      "developers\\.watchmusic\\.app/sdk/v\\d+/web-api\\.js"
+    ],
+    "website": "https://developers.watchmusic.app"
+  },
   "WatchThem": {
     "cats": [
       10
