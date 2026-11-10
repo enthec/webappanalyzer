@@ -3679,10 +3679,6 @@
       62
     ],
     "description": "Akamai Connected Cloud is a distributed cloud platform that combines core compute, edge services, and security to run applications at global scale.",
-    "headers": {
-      "server": "^volt-adc$",
-      "x-volterra-location": ""
-    },
     "icon": "Akamai.svg",
     "implies": [
       "Akamai"

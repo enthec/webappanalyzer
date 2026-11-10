@@ -27,9 +27,13 @@
     ],
     "description": "F5 Distributed Cloud Services is a SaaS platform providing security, networking, and application management to deploy, secure, and operate applications in cloud-native environments.",
     "headers": {
-      "X-Volterra-Location": ""
+      "server": "^volt-(?:adc|cdn)$",
+      "x-volterra-location": ""
     },
     "icon": "F5DistributedCloudServices.svg",
+    "implies": [
+      "Envoy"
+    ],
     "saas": true,
     "website": "https://www.f5.com/products/distributed-cloud-services"
   },
