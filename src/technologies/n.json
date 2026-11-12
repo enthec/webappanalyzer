@@ -1271,8 +1271,9 @@
     ],
     "oss": true,
     "scripts": [
-      "ENVIRONMENT_FALLBACK=\"ENVIRONMENT_FALLBACK\",\\w+\\.INSUFFICIENT_PATH=\"INSUFFICIENT_PATH",
-      "\\\\\"formats\\\\\":[^,]{0,40},\\\\\"locale\\\\\":\\\\\"[\\w-]{2,20}\\\\\",\\\\\"messages\\\\\":"
+      "ENVIRONMENT_FALLBACK=[\"'`]ENVIRONMENT_FALLBACK[\"'`],\\w+\\.INSUFFICIENT_PATH=[\"'`]INSUFFICIENT_PATH",
+      "\\\\\"formats\\\\\":[^,]{0,40},\\\\\"locale\\\\\":\\\\\"[\\w-]{2,20}\\\\\",\\\\\"messages\\\\\":",
+      "\\\\\"locale\\\\\":\\\\\"[\\w-]{2,20}\\\\\",\\\\\"now\\\\\":\\\\\"\\$D\\d{4}-\\d\\d-\\d\\dT[\\d:.]+Z\\\\\",\\\\\"timeZone\\\\\":"
     ],
     "website": "https://next-intl.dev"
   },
