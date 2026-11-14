@@ -8642,6 +8642,26 @@
     ],
     "website": "https://www.cookiehub.com"
   },
+  "CookieOfficer": {
+    "cats": [
+      67
+    ],
+    "cookies": {
+      "co_consent": ""
+    },
+    "description": "CookieOfficer is a consent management platform for websites with cookie scanning, automatic script blocking and Google Consent Mode v2 support.",
+    "icon": "CookieOfficer.svg",
+    "pricing": [
+      "low",
+      "freemium",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "cdn\\.cookieofficer\\.com/s/co-"
+    ],
+    "website": "https://cookieofficer.com"
+  },
   "CookieYes": {
     "cats": [
       67
