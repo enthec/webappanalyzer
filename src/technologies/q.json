@@ -232,6 +232,26 @@
     ],
     "website": "https://www.qoreai.com"
   },
+  "Qorfechi": {
+    "cats": [
+      1,
+      6,
+      51
+    ],
+    "description": "Qorfechi is a hosted website builder and CMS from Iran with online store, CRM, booking and online course modules.",
+    "headers": {
+      "X-Powered-By": "^QorfeChi$"
+    },
+    "icon": "Qorfechi.svg",
+    "js": {
+      "Qorfechi.platform": "^Qorfechi$"
+    },
+    "meta": {
+      "generator": "^QorfeChi$"
+    },
+    "saas": true,
+    "website": "https://qorfechi.com"
+  },
   "Qpien": {
     "cats": [
       52
