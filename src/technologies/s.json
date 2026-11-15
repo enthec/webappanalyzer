@@ -12997,6 +12997,32 @@
     "saas": true,
     "website": "https://hellostencil.com"
   },
+  "SterkCommerce": {
+    "cats": [
+      6,
+      1
+    ],
+    "cookies": {
+      "sterk_search_bucket": ""
+    },
+    "description": "SterkCommerce is a headless e-commerce platform and CMS (Next.js storefront with Magento or custom backends) by Sterk Commerce.",
+    "headers": {
+      "X-Powered-By": "^SterkCommerce$"
+    },
+    "icon": "SterkCommerce.png",
+    "implies": [
+      "Next.js",
+      "React"
+    ],
+    "js": {
+      "SterkCommerce.name": "^SterkCommerce$",
+      "SterkCommerce.version": "^(.+)$\\;version:\\1"
+    },
+    "meta": {
+      "generator": "^SterkCommerce(?: Cloud)?(?: ([\\d.]+))?$\\;version:\\1"
+    },
+    "website": "https://sterkcommerce.com"
+  },
   "Stetic Analytics": {
     "cats": [
       10
