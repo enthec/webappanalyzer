@@ -1224,6 +1224,28 @@
     ],
     "website": "https://helponclick.com"
   },
+  "Helpvane": {
+    "cats": [
+      52
+    ],
+    "description": "Helpvane is an AI customer support chat widget and shopper assistant for websites and online stores.",
+    "dom": {
+      "div[data-helpvane-widget]": {
+        "exists": ""
+      }
+    },
+    "icon": "Helpvane.svg",
+    "js": {
+      "HelpvaneWidget": ""
+    },
+    "meta": {
+      "generator": "^Helpvane$"
+    },
+    "scriptSrc": [
+      "helpvane\\.com/widget/widget\\.js"
+    ],
+    "website": "https://helpvane.com"
+  },
   "Helpwise": {
     "cats": [
       53
