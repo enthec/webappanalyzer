@@ -4049,6 +4049,30 @@
     ],
     "website": "https://lovable.dev"
   },
+  "LovedByAI": {
+    "cats": [
+      54,
+      87
+    ],
+    "description": "LovedByAI is a WordPress plugin for AI search optimisation (generative engine optimisation) that adds structured data and tracks referral traffic from AI assistants.",
+    "dom": [
+      "script#geoguru-llm-tracking-js-before",
+      "script#geoguru-llm-tracking-js-after",
+      "style#geoguru-llm-link-styles-inline-css"
+    ],
+    "icon": "LovedByAI.png",
+    "js": {
+      "geoguru_llm_tracking.proxyUrl": "/wp-json/geoguru/v1/llm-source-event"
+    },
+    "probe": {
+      "/wp-json/geoguru/v1/reachability": "\"plugin\":\"geoguru\".*\"plugin_version\":\"([\\d.]+)\"\\;version:\\1"
+    },
+    "requires": [
+      "WordPress"
+    ],
+    "saas": true,
+    "website": "https://www.lovedby.ai"
+  },
   "Lovi": {
     "cats": [
       52
