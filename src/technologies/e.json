@@ -4414,6 +4414,32 @@
     ],
     "website": "https://exactvisitor.com"
   },
+  "ExaSpark": {
+    "cats": [
+      51,
+      112
+    ],
+    "description": "ExaSpark is an AI app builder that builds, publishes and hosts websites and Android apps from a text prompt.",
+    "dom": {
+      "a#spk-badge[data-spk-badge][href^='https://exaspark.ai/']": {
+        "exists": ""
+      }
+    },
+    "icon": "ExaSpark.svg",
+    "meta": {
+      "generator": "^ExaSpark$"
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "url": [
+      "^https?://[a-z0-9-]+\\.exaspark\\.app/"
+    ],
+    "website": "https://exaspark.ai"
+  },
   "Excel Impact": {
     "cats": [
       36

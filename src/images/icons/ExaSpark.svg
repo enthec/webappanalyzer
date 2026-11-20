@@ -1,0 +1,11 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <title>ExaSpark</title>
+  <rect width="48" height="48" fill="#f4f3ed"/>
+  <path d="M18.75 7.83 A17 17 0 0 1 37.40 13.53" stroke="#16161a" stroke-width="4.5" fill="none"/>
+  <path d="M9.58 33.01 A17 17 0 0 1 8.47 17.08" stroke="#16161a" stroke-width="4.5" fill="none"/>
+  <path d="M39.98 18.19 A17 17 0 0 1 41 24" stroke="#ddff00" stroke-width="4.5" fill="none"/>
+  <path d="M40.49 28.11 A17 17 0 0 1 37.02 34.93" stroke="#2249df" stroke-width="4.5" fill="none"/>
+  <path d="M33.99 37.75 A17 17 0 0 1 26.96 40.74" stroke="#2249df" stroke-width="4.5" fill="none"/>
+  <path d="M22.81 40.96 A17 17 0 0 1 12.63 36.63" stroke="#2249df" stroke-width="4.5" fill="none"/>
+  <circle cx="12.19" cy="11.77" r="3.2" fill="#ff4a20"/>
+</svg>
