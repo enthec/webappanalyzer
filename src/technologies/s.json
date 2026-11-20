@@ -8106,11 +8106,12 @@
       "PHP"
     ],
     "meta": {
-      "generator": "^SLAED CMS(?: ([\\d.]+))?\\;version:\\1",
+      "generator": "^(?:SLAED CMS(?: ([\\d.]+))?|Open SLAED)\\;version:\\1",
       "sl-token": ""
     },
     "oss": true,
     "text": [
+      "Powered by Open SLAED",
       "Powered by SLAED CMS"
     ],
     "website": "https://slaed.net"
