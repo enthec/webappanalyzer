@@ -8096,6 +8096,25 @@
     "saas": true,
     "website": "https://slack.com"
   },
+  "SLAED CMS": {
+    "cats": [
+      1
+    ],
+    "description": "SLAED CMS is a free and open-source content management system written in PHP.",
+    "icon": "SLAED CMS.svg",
+    "implies": [
+      "PHP"
+    ],
+    "meta": {
+      "generator": "^SLAED CMS(?: ([\\d.]+))?\\;version:\\1",
+      "sl-token": ""
+    },
+    "oss": true,
+    "text": [
+      "Powered by SLAED CMS"
+    ],
+    "website": "https://slaed.net"
+  },
   "Slapform": {
     "cats": [
       110
