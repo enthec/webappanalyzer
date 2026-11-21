@@ -1259,6 +1259,24 @@
     ],
     "website": "https://www.next.co.uk"
   },
+  "next-intl": {
+    "cats": [
+      89,
+      59
+    ],
+    "description": "next-intl is an internationalization library for Next.js.",
+    "icon": "next-intl.svg",
+    "implies": [
+      "Next.js"
+    ],
+    "oss": true,
+    "scripts": [
+      "ENVIRONMENT_FALLBACK=[\"'`]ENVIRONMENT_FALLBACK[\"'`],\\w+\\.INSUFFICIENT_PATH=[\"'`]INSUFFICIENT_PATH",
+      "\\\\\"formats\\\\\":[^,]{0,40},\\\\\"locale\\\\\":\\\\\"[\\w-]{2,20}\\\\\",\\\\\"messages\\\\\":",
+      "\\\\\"locale\\\\\":\\\\\"[\\w-]{2,20}\\\\\",\\\\\"now\\\\\":\\\\\"\\$D\\d{4}-\\d\\d-\\d\\dT[\\d:.]+Z\\\\\",\\\\\"timeZone\\\\\":"
+    ],
+    "website": "https://next-intl.dev"
+  },
   "Next.js": {
     "cats": [
       12,
