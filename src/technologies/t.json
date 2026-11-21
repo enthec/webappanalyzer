@@ -1,4 +1,13 @@
 {
+    "ToberHost": {
+    "cats": [62],
+    "description": "ToberHost — layanan web hosting & pembuatan website asal Indonesia.",
+    "headers": {
+      "X-Powered-By": "ToberHost"
+    },
+    "icon": "ToberHost.svg",
+    "website": "https://toberhost.com"
+  },
   "T-Soft": {
     "cats": [
       6
