@@ -1412,6 +1412,16 @@
     ],
     "website": "https://www.scalefast.com"
   },
+  "Scaleway": {
+    "cats": [
+      63
+    ],
+    "icon": "Scaleway.svg",
+    "website": "https://scaleway.com",
+    "xhr": [
+      "api\\.scaleway\\.ai"
+    ]
+  },
   "ScandiPWA": {
     "cats": [
       108
