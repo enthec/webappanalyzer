@@ -1,4 +1,14 @@
 {
+  "X OAuth": {
+    "cats": [
+      69
+    ],
+    "icon": "X OAuth.png",
+    "website": "https://developer.twitter.com/en/docs/authentication/overview",
+    "xhr": [
+      "api\\.twitter\\.com/oauth/access_token"
+    ]
+  },
   "X-Cart": {
     "cats": [
       6
