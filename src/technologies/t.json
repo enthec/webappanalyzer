@@ -1,13 +1,4 @@
 {
-    "ToberHost": {
-    "cats": [62],
-    "description": "ToberHost — layanan web hosting & pembuatan website asal Indonesia.",
-    "headers": {
-      "X-Powered-By": "ToberHost"
-    },
-    "icon": "ToberHost.svg",
-    "website": "https://toberhost.com"
-  },
   "T-Soft": {
     "cats": [
       6
@@ -4506,6 +4497,17 @@
     },
     "oss": true,
     "website": "https://github.com/CodeSeven/toastr"
+  },
+  "ToberHost": {
+    "cats": [
+      88
+    ],
+    "description": "ToberHost is an Indonesian web hosting and website development provider.",
+    "headers": {
+      "X-Powered-By": "ToberHost"
+    },
+    "icon": "ToberHost.svg",
+    "website": "https://toberhost.com"
   },
   "Tockify": {
     "cats": [
