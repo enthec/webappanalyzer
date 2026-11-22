@@ -534,6 +534,16 @@
     ],
     "website": "https://github.com/aFarkas/lazysizes/tree/gh-pages/plugins/unveilhooks"
   },
+  "lead alliance": {
+    "cats": [
+      71
+    ],
+    "html": [
+      "<a [^>]*href=['\"]http[s]?://www\\.lead-alliance\\.net"
+    ],
+    "icon": "lead alliance.png",
+    "website": "https://www.lead-alliance.net"
+  },
   "Lead Concept": {
     "cats": [
       32
