@@ -6919,6 +6919,22 @@
     ],
     "website": "https://pressable.com"
   },
+  "Pressboard": {
+    "cats": [
+      10
+    ],
+    "cookies": {
+      "__psid": ""
+    },
+    "html": [
+      "id=.pressboard-ad-sponsorship"
+    ],
+    "icon": "Pressboard.png",
+    "scripts": [
+      "studiostack\\.com"
+    ],
+    "website": "https://www.pressboardmedia.com"
+  },
   "Pressero": {
     "cats": [
       6
