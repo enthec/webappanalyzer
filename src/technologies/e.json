@@ -4278,6 +4278,26 @@
     "saas": true,
     "website": "https://www.evolvemediallc.com"
   },
+  "evoSeller": {
+    "cats": [
+      32,
+      53
+    ],
+    "description": "evoSeller is a CRM for e-commerce and service businesses with WhatsApp messaging, marketing automation, campaigns and AI agents.",
+    "icon": "evoSeller.svg",
+    "js": {
+      "evoSeller.version": "^([\\d.]+)$\\;version:\\1"
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "//(?:api|app)\\.evoseller\\.com/(?:tracker|popups|loja)\\.js"
+    ],
+    "website": "https://evoseller.com"
+  },
   "Evvnt": {
     "cats": [
       72,
