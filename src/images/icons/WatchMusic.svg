@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="592" height="592" viewBox="0 0 592 592">
+  <defs>
+    <linearGradient id="metal" x1="0.5" y1="0.221" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#b9b9b9"/>
+    </linearGradient>
+  </defs>
+  <circle cx="296.0" cy="296.0" r="296.0" fill="#000"/>
+  <g transform="translate(108.9754,222.4869) scale(0.997457)">
+    <g transform="translate(-8654.994 -5527.001)">
+        <path transform="translate(8651.047 5624.383)" fill="url(#metal)" d="M38.77-94.551l33,102.128L103.737-92.992h29.235L165.2,7.577,202.06-92.992l30.182-1.559L181.7,47.207H149.733l-31.574-94.2L86.2,47.207H54.232L3.947-94.551Z"/>
+        <path transform="translate(9029.903 5671.59) rotate(-180)" fill="url(#metal)" d="M34.822,0l33,102.128L99.789,1.559h29.235l32.224,100.569L194.251,0h34.043L177.75,141.758H145.786l-31.574-94.2-31.964,94.2H50.284L0,0Z"/>
+    </g>
+  </g>
+</svg>

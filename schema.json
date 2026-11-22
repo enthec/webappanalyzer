@@ -1,6 +1,93 @@
 {
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Wappalyzer schema",
-  "definitions": {
+  "description": "This schema defines the information related to web based technologies for the purposes of identification (finger printing)",
+  "examples": [
+    {
+      "Example": {
+        "description": "A short description of the technology.",
+        "cats": [
+          1
+        ],
+        "cookies": {
+          "cookie_name": "Example"
+        },
+        "dom": {
+          "#example-id": {
+            "exists": "",
+            "attributes": {
+              "class": "example-class"
+            },
+            "properties": {
+              "example-property": ""
+            },
+            "text": "Example text content"
+          }
+        },
+        "dns": {
+          "MX": [
+            "example\\.com"
+          ]
+        },
+        "icon": "Example.svg",
+        "cpe": "cpe:2.3:a:example:example:*:*:*:*:*:*:*:*",
+        "js": {
+          "Example.method": ""
+        },
+        "excludes": [
+          "Example"
+        ],
+        "headers": {
+          "X-Powered-By": "Example"
+        },
+        "text": [
+          "\bexample\b"
+        ],
+        "css": [
+          "\\.example-class"
+        ],
+        "robots": [
+          "Disallow: /unique-path/"
+        ],
+        "implies": [
+          "PHP\\;confidence:50"
+        ],
+        "requires": [
+          "WordPress"
+        ],
+        "requiresCategory": [
+          6
+        ],
+        "meta": {
+          "generator": "(?:Example|Another Example)"
+        },
+        "probe": {
+          "/path": ""
+        },
+        "scriptSrc": [
+          "example-([0-9.]+)\\.js\\;confidence:50\\;version:\\1"
+        ],
+        "scripts": [
+          "function webpackJsonpCallback\\(data\\) {"
+        ],
+        "url": [
+          "example\\.com"
+        ],
+        "xhr": [
+          "example\\.com"
+        ],
+        "oss": true,
+        "saas": true,
+        "pricing": [
+          "mid",
+          "freemium"
+        ],
+        "website": "https://example.com",
+        "certIssuer": "Example"
+      }
+    }
+  ],
+  "$defs": {
     "non-empty-non-blank-string": {
       "type": "string",
       "pattern": "^(?!\\s*$).+"
@@ -9,11 +96,14 @@
   "type": "object",
   "additionalProperties": {
     "additionalProperties": false,
-    "required": ["cats","website"],
+    "required": [
+      "cats",
+      "website"
+    ],
     "properties": {
       "description": {
         "type": "string",
-        "pattern": "^.{0,500}$"
+        "pattern": "^.{0,550}$"
       },
       "oss": {
         "type": "boolean"
@@ -37,7 +127,7 @@
       },
       "cpe": {
         "type": "string",
-        "pattern": "cpe:2.3:(a|h|o):[^*:]+:[^:]+:\\*:\\*:\\*:\\*:\\*:[^:]+:\\*:\\*"
+        "pattern": "^[Cc][Pp][Ee]:(\/|\\d+\\.\\d+)[^:]*(:?[^:]*){0,11}$"
       },
       "cookies": {
         "type": "object",
@@ -66,11 +156,11 @@
           {
             "type": "array",
             "items": {
-              "$ref": "#/definitions/non-empty-non-blank-string"
+              "$ref": "#/$defs/non-empty-non-blank-string"
             }
           },
           {
-            "$ref": "#/definitions/non-empty-non-blank-string"
+            "$ref": "#/$defs/non-empty-non-blank-string"
           },
           {
             "type": "object",
@@ -102,56 +192,29 @@
         }
       },
       "html": {
-        "oneOf": [
-          {
-            "type": "array",
-            "items": {
-              "$ref": "#/definitions/non-empty-non-blank-string"
-            }
-          },
-          {
-            "$ref": "#/definitions/non-empty-non-blank-string"
-          }
-        ]
+        "type": "array",
+        "deprecated": true,
+        "items": {
+          "$ref": "#/$defs/non-empty-non-blank-string"
+        }
       },
       "text": {
-        "oneOf": [
-          {
-            "type": "array",
-            "items": {
-              "$ref": "#/definitions/non-empty-non-blank-string"
-            }
-          },
-          {
-            "$ref": "#/definitions/non-empty-non-blank-string"
-          }
-        ]
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/non-empty-non-blank-string"
+        }
       },
       "css": {
-        "oneOf": [
-          {
-            "type": "array",
-            "items": {
-              "$ref": "#/definitions/non-empty-non-blank-string"
-            }
-          },
-          {
-            "$ref": "#/definitions/non-empty-non-blank-string"
-          }
-        ]
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/non-empty-non-blank-string"
+        }
       },
       "robots": {
-        "oneOf": [
-          {
-            "type": "array",
-            "items": {
-              "$ref": "#/definitions/non-empty-non-blank-string"
-            }
-          },
-          {
-            "$ref": "#/definitions/non-empty-non-blank-string"
-          }
-        ]
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/non-empty-non-blank-string"
+        }
       },
       "probe": {
         "type": "object",
@@ -165,69 +228,31 @@
         }
       },
       "certIssuer": {
-        "oneOf": [
-          {
-            "type": "array",
-            "items": {
-              "$ref": "#/definitions/non-empty-non-blank-string"
-            }
-          },
-          {
-            "$ref": "#/definitions/non-empty-non-blank-string"
-          }
-        ]
+        "$ref": "#/$defs/non-empty-non-blank-string"
       },
       "excludes": {
-        "oneOf": [
-          {
-            "type": "array",
-            "items": {
-              "$ref": "#/definitions/non-empty-non-blank-string"
-            }
-          },
-          {
-            "$ref": "#/definitions/non-empty-non-blank-string"
-          }
-        ]
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/non-empty-non-blank-string"
+        }
       },
       "implies": {
-        "oneOf": [
-          {
-            "type": "array",
-            "items": {
-              "$ref": "#/definitions/non-empty-non-blank-string"
-            }
-          },
-          {
-            "$ref": "#/definitions/non-empty-non-blank-string"
-          }
-        ]
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/non-empty-non-blank-string"
+        }
       },
       "requires": {
-        "oneOf": [
-          {
-            "type": "array",
-            "items": {
-              "$ref": "#/definitions/non-empty-non-blank-string"
-            }
-          },
-          {
-            "$ref": "#/definitions/non-empty-non-blank-string"
-          }
-        ]
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/non-empty-non-blank-string"
+        }
       },
       "requiresCategory": {
-        "oneOf": [
-          {
-            "type": "array",
-            "items": {
-              "type": "number"
-            }
-          },
-          {
-            "type": "number"
-          }
-        ]
+        "type": "array",
+        "items": {
+          "type": "number"
+        }
       },
       "meta": {
         "type": "object",
@@ -241,62 +266,34 @@
         }
       },
       "scriptSrc": {
-        "oneOf": [
-          {
-            "type": "array",
-            "items": {
-              "$ref": "#/definitions/non-empty-non-blank-string"
-            }
-          },
-          {
-            "$ref": "#/definitions/non-empty-non-blank-string"
-          }
-        ]
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/non-empty-non-blank-string"
+        }
       },
       "scripts": {
-        "oneOf": [
-          {
-            "type": "array",
-            "items": {
-              "$ref": "#/definitions/non-empty-non-blank-string"
-            }
-          },
-          {
-            "$ref": "#/definitions/non-empty-non-blank-string"
-          }
-        ]
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/non-empty-non-blank-string"
+        }
       },
       "url": {
-        "oneOf": [
-          {
-            "type": "array",
-            "items": {
-              "$ref": "#/definitions/non-empty-non-blank-string"
-            }
-          },
-          {
-            "$ref": "#/definitions/non-empty-non-blank-string"
-          }
-        ]
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/non-empty-non-blank-string"
+        }
       },
       "website": {
-        "$ref": "#/definitions/non-empty-non-blank-string"
+        "$ref": "#/$defs/non-empty-non-blank-string"
       },
       "icon": {
-        "$ref": "#/definitions/non-empty-non-blank-string"
+        "$ref": "#/$defs/non-empty-non-blank-string"
       },
       "xhr": {
-        "oneOf": [
-          {
-            "type": "array",
-            "items": {
-              "$ref": "#/definitions/non-empty-non-blank-string"
-            }
-          },
-          {
-            "$ref": "#/definitions/non-empty-non-blank-string"
-          }
-        ]
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/non-empty-non-blank-string"
+        }
       }
     }
   }

@@ -2,3 +2,7 @@
 
 .project
 .settings
+
+__pycache__/
+
+.sync/
