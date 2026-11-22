@@ -4528,6 +4528,17 @@
     "oss": true,
     "website": "https://github.com/CodeSeven/toastr"
   },
+  "ToberHost": {
+    "cats": [
+      88
+    ],
+    "description": "ToberHost is an Indonesian web hosting and website development provider.",
+    "headers": {
+      "X-Powered-By": "ToberHost"
+    },
+    "icon": "ToberHost.svg",
+    "website": "https://toberhost.com"
+  },
   "Tockify": {
     "cats": [
       5
