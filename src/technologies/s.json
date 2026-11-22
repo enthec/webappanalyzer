@@ -4427,6 +4427,16 @@
     ],
     "website": "https://www.shoopy.in"
   },
+  "Shootq": {
+    "cats": [
+      72
+    ],
+    "html": [
+      "<a [^>]*href=[^>]*shootqmigration\\.shootq\\.com/sessions/booking/[^\"/]+"
+    ],
+    "icon": "Shootq.png",
+    "website": "https://www.shootq.com/"
+  },
   "Shop Application": {
     "cats": [
       6
