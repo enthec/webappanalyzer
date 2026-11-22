@@ -2002,6 +2002,16 @@
     ],
     "website": "https://instafeedjs.com/"
   },
+  "Instagram Authentication": {
+    "cats": [
+      19
+    ],
+    "html": [
+      "<a [^>]*href=\"api\\.instagram\\.com/oauth"
+    ],
+    "icon": "Instagram Authentication.png",
+    "website": "https://instagram.com"
+  },
   "Instagram Feed for WordPress": {
     "cats": [
       5,
