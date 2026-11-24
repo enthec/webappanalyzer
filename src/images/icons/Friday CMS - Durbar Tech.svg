@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="durbarGrad" x1="16" y1="16" x2="112" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF0080" />
+      <stop offset="55%" stop-color="#B100FF" />
+      <stop offset="100%" stop-color="#6A00FF" />
+    </linearGradient>
+    <mask id="circuitMask">
+      <rect width="128" height="128" fill="white" />
+      <path d="M56 16V44M80 16V30M18 46H40M18 64H32M18 88H40L54 74M64 112V92M44 112L52 86M110 52H80L68 64M110 72H90M110 92H78" stroke="black" stroke-width="5" stroke-linecap="round" />
+      <circle cx="56" cy="48" r="7" fill="black" />
+      <circle cx="80" cy="34" r="7" fill="black" />
+      <circle cx="44" cy="46" r="7" fill="black" />
+      <circle cx="36" cy="64" r="7" fill="black" />
+      <circle cx="57" cy="71" r="7" fill="black" />
+      <circle cx="64" cy="88" r="7" fill="black" />
+      <circle cx="53" cy="82" r="7" fill="black" />
+      <circle cx="65" cy="67" r="7" fill="black" />
+      <circle cx="86" cy="72" r="7" fill="black" />
+      <circle cx="74" cy="92" r="7" fill="black" />
+    </mask>
+  </defs>
+  <circle cx="64" cy="64" r="52" fill="url(#durbarGrad)" mask="url(#circuitMask)" />
+</svg>
