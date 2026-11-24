@@ -738,6 +738,17 @@
     ],
     "website": "https://fastpixel.io"
   },
+  "Fastspring": {
+    "cats": [
+      6
+    ],
+    "html": [
+      "<a [^>]*href=\"https?://sites\\.fastspring\\.com",
+      "<form [^>]*action=\"https?://sites\\.fastspring\\.com"
+    ],
+    "icon": "fastspring.png",
+    "website": "https://fastspring.com"
+  },
   "FastSpring": {
     "cats": [
       6,
@@ -760,17 +771,6 @@
       "payg"
     ],
     "saas": true,
-    "website": "https://fastspring.com"
-  },
-  "Fastspring": {
-    "cats": [
-      6
-    ],
-    "html": [
-      "<a [^>]*href=\"https?://sites\\.fastspring\\.com",
-      "<form [^>]*action=\"https?://sites\\.fastspring\\.com"
-    ],
-    "icon": "fastspring.png",
     "website": "https://fastspring.com"
   },
   "FastTony": {
@@ -4465,22 +4465,6 @@
     "saas": true,
     "website": "https://getframes.io"
   },
-  "Framework7": {
-    "cats": [
-      26
-    ],
-    "description": "Framework7 is a mobile HTML framework designed for creating iOS and Android applications with a native-like user experience.",
-    "icon": "Framework7.svg",
-    "js": {
-      "Framework7.Component": ""
-    },
-    "oss": true,
-    "pricing": [
-      "low",
-      "recurring"
-    ],
-    "website": "https://framework7.io"
-  },
   "framework7": {
     "cats": [
       59,
@@ -4497,6 +4481,22 @@
       "(?:((?:\\d+\\.)+\\d+)\\/(?:js\\/)?)?framework7(?:-)?(?:\\.custom)?(?:\\.min)?(?:-vue)?_?[\\w\\.]{0,29}\\.js\\;version:\\1"
     ],
     "website": "https://framework7.io/"
+  },
+  "Framework7": {
+    "cats": [
+      26
+    ],
+    "description": "Framework7 is a mobile HTML framework designed for creating iOS and Android applications with a native-like user experience.",
+    "icon": "Framework7.svg",
+    "js": {
+      "Framework7.Component": ""
+    },
+    "oss": true,
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "website": "https://framework7.io"
   },
   "France Express": {
     "cats": [
@@ -4978,6 +4978,24 @@
       "cdn\\.zarget\\.com"
     ],
     "website": "https://www.freshworks.com/crm"
+  },
+  "Friday CMS - Durbar Tech": {
+    "cats": [
+      1
+    ],
+    "description": "Friday CMS is an OTT & enterprise content management system developed by Durbar Technologies Ltd.",
+    "headers": {
+      "X-Powered-By": "^Friday CMS - Durbar Tech$",
+      "X-Generator": "^Friday CMS ([\\d.]+)?\\;version:\\1",
+      "X-CMS-Name": "^Friday CMS - Durbar Tech$"
+    },
+    "html": "data-cms=\"Friday CMS - Durbar Tech\"",
+    "icon": "Friday CMS - Durbar Tech.svg",
+    "meta": {
+      "generator": "^Friday CMS ([\\d.]+)?\\;version:\\1",
+      "cms": "^Friday CMS - Durbar Tech$"
+    },
+    "website": "https://www.durbartech.com.bd"
   },
   "Friendbuy": {
     "cats": [
