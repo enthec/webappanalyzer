@@ -2348,6 +2348,28 @@
     },
     "website": "https://www.nostra.ai/"
   },
+  "NoStyle CSS": {
+    "cats": [
+      66
+    ],
+    "description": "NoStyle CSS is a lightweight, utility-first CSS framework with zero JavaScript.",
+    "icon": "NoStyleCSS.svg",
+    "website": "https://fvrvz.github.io/nostyle-css",
+    "oss": true,
+    "css": [
+      "--ns-framework:\\s*[\"']nostyle-css[\"']",
+      "--ns-primary:\\s*#0c6cf2"
+    ],
+    "meta": {
+      "css-framework": "NoStyle CSS(?:\\s+v?([\\d.]+))?\\;version:\\1"
+    },
+    "js": {
+      "__NOSTYLE_CSS__.version": "^(.+)$\\;version:\\1"
+    },
+    "html": [
+      "<link[^>]+nostyle(?:\\.treeshake)?\\.css"
+    ]
+  },
   "Noticeable": {
     "cats": [
       85
