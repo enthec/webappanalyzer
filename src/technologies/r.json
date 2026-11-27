@@ -999,7 +999,7 @@
       }
     },
     "html": [
-      "<[^>]+data-react"
+      "<[^<>]+data-react"
     ],
     "icon": "React.svg",
     "js": {
